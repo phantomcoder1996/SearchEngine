@@ -1,22 +1,19 @@
+import javafx.util.Pair;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.File;
-import java.io.IOException;
-import java.io.OutputStream;
-import java.net.HttpURLConnection;
-import java.net.MalformedURLException;
-import java.net.URL;
-import java.net.URLConnection;
-import java.util.UUID;
+import java.io.*;
+import java.util.Scanner;
 
 
 public class WebCrawler {
 
   public static void main(String[] args)
   {
+
+
 //      String html = "<html><head><title>First parse</title></head>"
 //              + "<body><p>Parsed HTML into a doc.</p></body></html>";
 //
@@ -78,9 +75,56 @@ public class WebCrawler {
 //          e.printStackTrace();
 //      }
 //
-      BFS myBFS=new BFS(5,10,"/Users/macbookpro/IdeaProjects/SearchEngine/.idea/WebPages/","/Users/macbookpro/IdeaProjects/SearchEngine/.idea/SeedSet/seedSet.txt");
-      myBFS.start();
+     // BFS myBFS=new BFS(5,20,"/Users/macbookpro/IdeaProjects/SearchEngine/.idea/WebPages/","/Users/macbookpro/IdeaProjects/SearchEngine/.idea/SeedSet/seedSet.txt");
+     // myBFS.start();
+
+      Runtime.getRuntime().addShutdownHook(new CheckPointSaver());
+      //First: Connect to the dataBase
+
+      DBManager.connect("localhost",27017,"SearchEngineDB");
+
+     // loadResources(); //To start from checkpoint
+
+      CommanderThread commanderThread=new CommanderThread(1000,30,"/Users/macbookpro/IdeaProjects/SearchEngine/.idea/WebPages/","/Users/macbookpro/IdeaProjects/SearchEngine/.idea/SeedSet/seedSet.txt");
+      commanderThread.start();
 
   }
 
+
+
+  private static void loadResources()
+  {
+      try {
+          Scanner reader=new Scanner(new File("../backup.txt"));
+
+          int pageCnt;
+          int j=0;
+          int setSize=1;
+
+          while(reader.hasNext()&&j<setSize) {
+              pageCnt = reader.nextInt();
+
+              Resources.setCurrentCnt(pageCnt);
+
+              int qSize = reader.nextInt();
+              for (int i = 0; i < 2*qSize; i++) {
+                  String link=reader.nextLine();
+                  String parent=reader.nextLine();
+                  Resources.addLinkToQueue(link,parent);
+              }
+
+                setSize = reader.nextInt();
+              for ( j = 0; j < setSize; j++) {
+                  Resources.updateVisited(reader.nextLine());
+              }
+          }
+      } catch (FileNotFoundException e) {
+          e.printStackTrace();
+      } catch (IOException e) {
+          e.printStackTrace();
+      }
+  }
+
 }
+
+

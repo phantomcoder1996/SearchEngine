@@ -50,7 +50,7 @@ public class RobotsFileReader {
                              int i=line.indexOf(":");
                              line=line.substring(i+1).trim();
                              disallowedDirectories.add(line);
-                             System.out.println(line);
+                           //  System.out.println(line);
                           }
                           else
                           {

@@ -1,0 +1,1161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Rockin' Indie Games one pixel at a time - Indie DB</title>
+	<meta charset="utf-8">
+	 
+	<meta name="keywords" content="pc, games, indie, indy, independent, mods, addons, downloads, videos, gallery, development, community, features, reviews, previews, tutorials, forums" />
+	<meta name="description" content="Indie DB the independent games site. News, downloads and media direct from the developers. Powered by ramen noodles." />
+	<meta property="fb:app_id" content="191623457549756"/>
+	<meta property="og:title" content="Rockin' Indie Games one pixel at a time" />
+	<meta property="og:description" content="Indie DB the independent games site. News, downloads and media direct from the developers. Powered by ramen noodles." />
+	<meta property="og:site_name" content="Indie DB" />
+	<meta property="og:type" content="website" /> 
+	 
+	<meta property="og:image" content="http://static.indiedb.com/cutoff/images/default/splash.png" /> 
+		<meta property="twitter:card" content="summary_large_image" />
+	<meta property="twitter:site" content="@indiedb" />
+	<meta property="twitter:title" content="Rockin' Indie Games one pixel at a time" />
+	<meta property="twitter:description" content="Indie DB the independent games site. News, downloads and media direct from the developers. Powered by ramen noodles." />
+	 
+	<meta property="twitter:image" content="http://static.indiedb.com/cutoff/images/default/splash.png" /> 
+	<link rel="stylesheet" type="text/css" media="all" href="http://static.indiedb.com/html/external/min/index.php?g=css&69" />
+	<link rel="icon" href="http://www.indiedb.com/favicon.ico" type="image/x-icon" />
+	<link rel="icon" href="http://www.indiedb.com/favicon.png" type="image/png" sizes="96x96" />
+	<link rel="icon" href="http://www.indiedb.com/favicon-192x192.png" type="image/png" sizes="192x192" />
+	<link rel="apple-touch-icon" href="http://www.indiedb.com/apple-touch-icon.png" sizes="180x180" />
+	<link rel="alternate" href="http://rss.indiedb.com/headlines/feed/rss.xml" type="application/rss+xml" title="Rockin' Indie Games one pixel at a time feed" />	<!--[if lt IE 9]>
+	<script src="http://static.indiedb.com/html/cutoff/js/misc.html5shiv.js"></script>
+	<![endif]-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script><link rel="stylesheet" href="http://static.indiedb.com/html/external/min/index.php?b=cutoff&f=css/countdown.css&1" type="text/css" />
+</head>
+<body>
+
+<div id="body"><div class="container">
+	<header><div id="header">
+		<h1>Rockin' Indie Games one pixel at a time</h1>
+		<a href="/" class="logo" title="Home"></a>
+		<nav><ul class="tabs clear">
+			 
+			<li class="n ">
+				<a href="/"class="n">Platforms</a>
+				<ul class="t">
+					 
+					 
+					<li><a href="/platforms/pc/set">PC</a></li> 
+					 
+					<li><a href="/platforms/mac/set">Mac</a></li> 
+					 
+					<li><a href="/platforms/linux/set">Linux</a></li> 
+					 
+					<li><a href="/platforms/vr/set">VR</a></li> 
+					 
+					<li><a href="/platforms/xone/set">XONE</a></li> 
+					 
+					<li><a href="/platforms/ps4/set">PS4</a></li> 
+					 
+					<li><a href="/platforms/switch/set">Switch</a></li> 
+					 
+					<li class="special"><a href="/platforms/selection" rel="iframe=true;innerHeight=480;innerWidth=670" class="thickbox">Customize</a></li>
+				</ul>
+			</li>
+			<li class="n ">
+				<a href="/games" class="n">Games</a>
+				<ul class="t">
+					<li><a href="/games">Browse</a></li>
+					<li><a href="/games/top">Popular</a></li>
+					<li><a href="http://www.slidedb.com" title="Mobile and Tablet Games">Apps</a></li>
+					<li><a href="http://www.vrdb.com" title="Virtual Reality">VR</a></li>
+					<li><a href="/games/add">Add&nbsp;Game</a></li>
+				</ul>
+			</li>
+			<li class="n ">
+				<a href="/downloads" class="n">Files</a>
+				<ul class="t">
+					<li><a href="/downloads">Releases</a></li>
+					<li><a href="/addons">Addons</a></li>
+					<li><a href="/mods">Mods</a></li>
+					<li><a href="/downloads/add">Upload</a></li>
+				</ul>
+			</li>
+			<li class="n  media">
+				<a href="/videos" class="n">Media</a>
+				<ul class="t">
+					<li><a href="/videos">Videos</a></li>
+					<li><a href="/images">Images</a></li>
+					<li><a href="/audio">Audio</a></li>
+				</ul>
+			</li>
+			<li class="n ">
+				<a href="/articles" class="n">Articles</a>
+				<ul class="t">
+					<li><a href="/reviews">Reviews</a></li>
+					<li><a href="/headlines">Headlines</a></li>
+					<li><a href="/articles/add">Post&nbsp;Article</a></li>
+					<li><a href="/blog">Blog</a></li>
+					<li><a href="/rss">RSS</a></li>
+				</ul>
+			</li>
+			<li class="n ">
+				<a href="/company" class="n">Developers</a>
+				<ul class="t">
+					<li><a href="/engines">Engines</a></li>
+					<li><a href="/jobs">Jobs</a></li>
+					<li><a href="/jobs/add">Post&nbsp;Job</a></li>
+				</ul>
+			</li>
+			<li class="n ">
+				<a href="/forum" class="n">Community</a>
+				<ul class="t">
+					<li><a href="/giveaways">Giveaways</a></li>
+					<li><a href="/groups">Groups</a></li>
+					<li><a href="/forum">Forum</a></li>
+					<li><a href="/blogs">Blogs</a></li>
+					<li><a href="/polls">Polls</a></li>
+				</ul>
+			</li>
+			<li class="n search" id="searchbox"><form action="http://www.indiedb.com/search" class="search" method="get"><input type="text" name="q" maxlength="500" value="" class="text" placeholder="Search" id="sitesearch" autocomplete="off"  /><input type="image" name="sa" value="Search" src="http://static.indiedb.com/cutoff/images/default/btn_search_box.png" class="button" title="Search Indie DB"  /></form></li>
+			 
+		</ul></nav>
+	</div>
+	<div id="subheader">
+		 
+		<ul class="member clear">
+			<li class="noavatar"><a href="https://secure.indiedb.com/members/register" title="Join Indie DB"><span class="avatar">?</span></a></li>
+			<li class="guest"><a href="https://secure.indiedb.com/members/register">Hello guest! Join the Indie DB community.</a></li>
+		</ul>
+		 
+		<ul class="network clear">
+			<li class="network"><a href="http://www.dbolical.com" target="_blank" title="DBolical">Network</a></li>
+			<li class="slidedb"><a href="http://www.slidedb.com" target="_blank" title="Slide DB - Mobile and tablet games"><span>Slide DB</span></a></li>
+			<li class="moddb"><a href="http://www.moddb.com" target="_blank" title="Mod DB - Change the game"><span>Mod DB</span></a></li>
+			<li class="vrdb"><a href="http://www.vrdb.com" target="_blank" title="VRDB - Step into Virtual Reality"><span>VRDB</span></a></li>
+			<li class="gamefront"><a href="http://www.gamefront.com" target="_blank" title="GameFront - Game on"><span>GameFront</span></a></li>
+		</ul>
+		<ul class="session clear">
+			 
+			 
+			<li><a href="https://secure.indiedb.com/members/register">Register</a></li>
+			<li id="logintoggle" class="login">
+				<a href="https://secure.indiedb.com/members/login" class="loginlink">Sign In</a>
+							</li>
+			 
+		</ul>
+	</div></header>
+
+	 
+	
+	 
+<div style="clear: both;"></div>
+<div class="headermediabox">
+	<div class="supporter"><div class="DBsupporter" data-dfp-id="INDIEDB_LB_1" data-dfp-sizes="728x90, 960x250, 970x250" id="div-ga-INDIEDB_LB_1"></div></div> 
+</div>
+<div class="column span-300-alt first">	 
+	<div class="rotator">
+		<div class="links">
+			<a href="/headlines" id="rotatornext" class="next link" title="Next"></a> 
+			<a href="/headlines" id="rotatorprev" class="prev link" title="Previous"></a> 
+			<a href="http://rss.indiedb.com/headlines/feed/rss.xml" class="rss link" target="_blank"></a> 
+			<a href="/headlines" class="browse link" title="Browse Headlines"></a> 
+			 
+		</div>
+		<div class="rotatorholder" id="rotatorholder">
+			 
+			 
+			<div class="rotatorbox" style="background-image: url(http://media.indiedb.com/cache/images/headlines/1/1/4/crop_630x260x95/h_boo.jpg);">
+				<a href="http://www.indiedb.com/games/bookends/news/book-ends-minions-ai"><div class="rotatorcorner">
+					 
+					<div class="title">
+						<h2>Book Ends</h2>
+						<p>A local co-op game set in a fantasy story book</p>
+						<span class="bg"></span>
+					</div>
+					 
+				</div></a>
+			</div>
+			 
+			<div class="rotatorbox" style="display: none;" data-bg="http://media.indiedb.com/cache/images/headlines/1/1/4/crop_630x260x95/header_pine.5.jpg">
+				<a href="http://www.indiedb.com/games/pine/news/pine-february-recap-a-tapestry-of-growth"><div class="rotatorcorner">
+					 
+					<div class="title">
+						<h2>Pine</h2>
+						<p>See how organisms gather and trade in this open-world action game</p>
+						<span class="bg"></span>
+					</div>
+					 
+				</div></a>
+			</div>
+			 
+			<div class="rotatorbox" style="display: none;" data-bg="http://media.indiedb.com/cache/images/headlines/1/1/4/crop_630x260x95/h_raw.jpg">
+				<a href="http://www.indiedb.com/games/rawconcrete/news/rawconcrete-a-photo-realistic-2d-game"><div class="rotatorcorner">
+					 
+					<div class="title">
+						<h2>RAWconcrete</h2>
+						<p>An attempt to create the first photorealistic sidescroller</p>
+						<span class="bg"></span>
+					</div>
+					 
+				</div></a>
+			</div>
+			 
+			<div class="rotatorbox" style="display: none;" data-bg="http://media.indiedb.com/cache/images/headlines/1/1/4/crop_630x260x95/h_as.jpg">
+				<a href="http://www.indiedb.com/games/astrokill/news/patch-096-new-spaceship-skins-and-improved-vr"><div class="rotatorcorner">
+					 
+					<div class="title">
+						<h2>Astrokill</h2>
+						<p>A realistic combat space sim inspired by TIE Fighter</p>
+						<span class="bg"></span>
+					</div>
+					 
+				</div></a>
+			</div>
+			 
+			<div class="rotatorbox" style="display: none;" data-bg="http://media.indiedb.com/cache/images/headlines/1/1/4/crop_630x260x95/header_monomyth.jpg">
+				<a href="http://www.indiedb.com/games/monomyth/news/monomyth-the-last-few-months-23"><div class="rotatorcorner">
+					 
+					<div class="title">
+						<h2>Monomyth</h2>
+						<p>First-person dungeon crawler inspired by Dark Souls predecessor King's Field</p>
+						<span class="bg"></span>
+					</div>
+					 
+				</div></a>
+			</div>
+			 
+			<div class="rotatorbox" style="display: none;" data-bg="http://media.indiedb.com/cache/images/headlines/1/1/4/crop_630x260x95/h_sm.jpg">
+				<a href="http://www.indiedb.com/games/smartphone-tycoon/news/smartphone-tycoon-release"><div class="rotatorcorner">
+					 
+					<div class="title">
+						<h2>Smartphone Tycoon</h2>
+						<p>Design and release new smartphones in this business sim</p>
+						<span class="bg"></span>
+					</div>
+					 
+				</div></a>
+			</div>
+			 
+			<div class="rotatorbox" style="display: none;" data-bg="http://media.indiedb.com/cache/images/headlines/1/1/4/crop_630x260x95/header_action.jpg">
+				<a href="http://www.indiedb.com/news/action-alien-prelude-released-on-steam"><div class="rotatorcorner">
+					 
+					<div class="title">
+						<h2>Action Alien: Prelude</h2>
+						<p>Fight off waves of aliens in this indie first-person shooter</p>
+						<span class="bg"></span>
+					</div>
+					 
+				</div></a>
+			</div>
+			 
+			<div class="rotatorbox" style="display: none;" data-bg="http://media.indiedb.com/cache/images/headlines/1/1/4/crop_630x260x95/h_far.jpg">
+				<a href="http://www.indiedb.com/games/far-out/news/far-out-story"><div class="rotatorcorner">
+					 
+					<div class="title">
+						<h2>Far Out</h2>
+						<p>Dev Diary: How to make a video game and not go crazy </p>
+						<span class="bg"></span>
+					</div>
+					 
+				</div></a>
+			</div>
+			 
+			<div class="rotatorbox" style="display: none;" data-bg="http://media.indiedb.com/cache/images/headlines/1/1/4/crop_630x260x95/h_pi.jpg">
+				<a href="http://www.indiedb.com/games/pixelman/features/a-very-long-dev-diary"><div class="rotatorcorner">
+					 
+					<div class="title">
+						<h2>Pixelman</h2>
+						<p>Why a &quot;Flappy Bird Clone&quot; Took More Than 7 Years to Make</p>
+						<span class="bg"></span>
+					</div>
+					 
+				</div></a>
+			</div>
+			 
+			<div class="rotatorbox" style="display: none;" data-bg="http://media.indiedb.com/cache/images/headlines/1/1/4/crop_630x260x95/header_deiland.jpg">
+				<a href="http://www.indiedb.com/games/deiland/news/the-small-planet-role-playing-video-game-deiland-disembarks-on-playstation4"><div class="rotatorcorner">
+					 
+					<div class="title">
+						<h2>Deiland</h2>
+						<p>Sandbox RPG that takes place on the universe's tiniest planet launches</p>
+						<span class="bg"></span>
+					</div>
+					 
+				</div></a>
+			</div>
+			 
+		</div>
+	</div>
+	 	<div class="normalbox">
+		<div class="normalcorner">
+			<div class="title">
+				<span class="options">
+					<a href="/articles/add/#articlesform" class="addicon"  title="Post article">Post article</a> <a href="http://rss.indiedb.com/articles/feed/rss.xml" target="_blank" class="rssicon"  title="RSS">RSS</a>				</span>
+				<span class="heading">Latest Articles</span>
+			</div>
+		</div>
+		<div class="inner">
+			<div class="body bodysimple clear">
+								<div class="tooltip"></div>
+				<div class="table">
+			<div class="row rowcontent clear">
+				<a href="/games/soul-shards/news/the-steam-store-page-of-soul-shards-is-now-on-line" title="The Steam Store Page of Soul Shards is now on-line!" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249934/crop_120x90/Logo.jpg" alt="The Steam Store Page of Soul Shards is now on-line!" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/soul-shards/news/the-steam-store-page-of-soul-shards-is-now-on-line">The Steam Store Page of Soul Shards is now on-line!</a></h4>
+			<span class="date">
+				<time datetime="2018-03-08">46mins ago</time>			</span>
+			<span class="subheading">
+				<a href="/games/soul-shards" title="Game">Soul Shards</a>   			</span>
+			<p>Soul Shards Steam Store page is now on-line! You can add the game to your Wishlist to help the project and keep track of it!</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/soulblight/news/soulblight-on-steam-mar-15th" title="Soulblight on Steam - MAR 15th!" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249925/crop_120x90/Soulblight_ConceptArt08.png" alt="Soulblight on Steam - MAR 15th!" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/soulblight/news/soulblight-on-steam-mar-15th">Soulblight on Steam - MAR 15th!</a></h4>
+			<span class="date">
+				<time datetime="2018-03-08">1hour ago</time>			</span>
+			<span class="subheading">
+				<a href="/games/soulblight" title="Game">Soulblight</a>   			</span>
+			<p>It was four long years but we're finally here. Soulblight will go live on Steam on March 15th! Also we have a brand new story trailer for you :)</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/exit84/news/release-exit84-v10" title="Release Exit84 v1.0" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249930/crop_120x90/asWx8K.gif" alt="Release Exit84 v1.0" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/exit84/news/release-exit84-v10">Release Exit84 v1.0</a></h4>
+			<span class="date">
+				<time datetime="2018-03-08">4hours ago</time>			</span>
+			<span class="subheading">
+				<a href="/games/exit84" title="Game">Exit84</a>   			</span>
+			<p>EXIT84 IS NOW AVAILABLE! EXIT84 is a frustrating platformer typing game. Type your way into the dangerous asteroid, avoiding lasers and bullets with the...</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/dragon-step/news/dragon-step-gameplay-by-cryptic-hybrid" title="Dragon Step Gameplay by Cryptic Hybrid" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249937/crop_120x90/DragonStepLogo.png" alt="Dragon Step Gameplay by Cryptic Hybrid" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/dragon-step/news/dragon-step-gameplay-by-cryptic-hybrid">Dragon Step Gameplay by Cryptic Hybrid</a></h4>
+			<span class="date">
+				<time datetime="2018-03-08">5hours ago</time>			</span>
+			<span class="subheading">
+				<a href="/games/dragon-step" title="Game">Dragon Step</a>   			</span>
+			<p>Hello and welcome back to Dragon step! Someone called Cryptic Hybrid uploaded a game-play on YouTube! </p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/last-regiment/news/last-regiment-dev-blog-25-why-are-we-promoting-this-game" title="Last Regiment Dev Blog #25 – Why are we promoting this game and not our other projects?" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249936/crop_120x90/hex_blog_thumbnail_25.jpg" alt="Last Regiment Dev Blog #25 – Why are we promoting this game and not our other projects?" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/last-regiment/news/last-regiment-dev-blog-25-why-are-we-promoting-this-game">Last Regiment Dev Blog #25 – Why are we promoting this game and not our other projects?</a></h4>
+			<span class="date">
+				<time datetime="2018-03-08">5hours ago</time>			</span>
+			<span class="subheading">
+				<a href="/games/last-regiment" title="Game">Last Regiment</a>   			</span>
+			<p>It started with a question: how come you don't promote your other games and we only hear about Last Regiment? Here we explain the three ways of publishing...</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/seulalone/news/we-have-a-treat-coming-for-you" title="We have a treat coming for you. " class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249935/crop_120x90/SubwayPoster_AppStore.png" alt="We have a treat coming for you. " /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/seulalone/news/we-have-a-treat-coming-for-you">We have a treat coming for you. </a></h4>
+			<span class="date">
+				<time datetime="2018-03-08">5hours ago</time>			</span>
+			<span class="subheading">
+				<a href="/games/seulalone" title="Game">Seul.(Alone)</a>   			</span>
+			<p>Funny, Sad, Creepy, Disturbing and completely absorbing, with a Shakespearian sense of tragedy. 
+</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/news/quick-update-03072018" title="Quick Update 03/07/2018" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249924/crop_120x90/cliffy.jpg" alt="Quick Update 03/07/2018" /></a>
+				<div class="content">
+			 
+			<h4><a href="/news/quick-update-03072018">Quick Update 03/07/2018</a></h4>
+			<span class="date">
+				<time datetime="2018-03-08">11hours ago</time>			</span>
+			<span class="subheading">
+				News  			</span>
+			<p>Quick Update 03/07/2018
+The long road of coding and pixel drawing is coming to an end...</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/groups/gamefront/news/gamefront-relaunches-march-11th-2018" title="GameFront relaunches March 11th 2018!" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249922/crop_120x90/new_gf_social_header_concept.jpg" alt="GameFront relaunches March 11th 2018!" /></a>
+				<div class="content">
+			 
+			<h4><a href="/groups/gamefront/news/gamefront-relaunches-march-11th-2018">GameFront relaunches March 11th 2018!</a></h4>
+			<span class="date">
+				<time datetime="2018-03-07">13hours ago</time>			</span>
+			<span class="subheading">
+				<a href="/groups/gamefront" title="Group">GameFront</a>  <a href="/groups/gamefront/news/gamefront-relaunches-march-11th-2018" class="commenticon">18 comments</a>  			</span>
+			<p>Yes, you hear right, GameFront is back. Everything restored, all files, all games, all articles. Coming March 11, 2018!</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/d-a-s-h-danger-action-speed-hero/news/dash-the-2d-platformer-creation-tool-update-007" title="DASH - the 2d Platformer Creation Tool [Update #007: Enhanced Auto-Tiling &#038; Character Animation" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249921/crop_120x90/cap.gif" alt="DASH - the 2d Platformer Creation Tool [Update #007: Enhanced Auto-Tiling &#038; Character Animation" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/d-a-s-h-danger-action-speed-hero/news/dash-the-2d-platformer-creation-tool-update-007">DASH - the 2d Platformer Creation Tool [Update #007: Enhanced Auto-Tiling &#038; Character Animation</a></h4>
+			<span class="date">
+				<time datetime="2018-03-07">13hours ago</time>			</span>
+			<span class="subheading">
+				<a href="/games/d-a-s-h-danger-action-speed-hero" title="Game">DASH (Danger Action Speed Hero)</a>   			</span>
+			<p>Jake is taking a look at the enhanced block set and a new character. DASH is a new low-res and 2D platformer creation kit being developed by Copnhagen-based...</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/the-piano/news/the-piano-is-back-new-teaser-trailer-screenshots-and-release-window" title="The Piano is back! New teaser trailer, screenshots, and release window" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249903/crop_120x90/The_Piano_2.jpg" alt="The Piano is back! New teaser trailer, screenshots, and release window" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/the-piano/news/the-piano-is-back-new-teaser-trailer-screenshots-and-release-window">The Piano is back! New teaser trailer, screenshots, and release window</a></h4>
+			<span class="date">
+				<time datetime="2018-03-07">13hours ago</time>			</span>
+			<span class="subheading">
+				<a href="/games/the-piano" title="Game">The Piano</a>   			</span>
+			<p>After five years of hard work, noir-influenced horror title The Piano is finally gearing up for release. New teaser and screenshots revealed along with...</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/cefore/news/cefore-blog-19-what-the-f-have-we-been-doing" title="Cefore Blog #19: What the f*** have we been doing?" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249900/crop_120x90/chrome_2018-03-07_09-59-48.png" alt="Cefore Blog #19: What the f*** have we been doing?" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/cefore/news/cefore-blog-19-what-the-f-have-we-been-doing">Cefore Blog #19: What the f*** have we been doing?</a></h4>
+			<span class="date">
+				<time datetime="2018-03-07">21hours ago</time>			</span>
+			<span class="subheading">
+				<a href="/games/cefore" title="Game">Cefore</a>   			</span>
+			<p>After a few months of not posting anything new, we now have too much stuff to talk about.</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/griefhelm/news/finalizing-the-combat-prototype" title="Finalizing the combat prototype" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249884/crop_120x90/Cover.png" alt="Finalizing the combat prototype" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/griefhelm/news/finalizing-the-combat-prototype">Finalizing the combat prototype</a></h4>
+			<span class="date">
+				<time datetime="2018-03-07">22hours ago</time>			</span>
+			<span class="subheading">
+				<a href="/games/griefhelm" title="Game">Griefhelm</a>   			</span>
+			<p>I updated the downloadable combat system prototype to version 0.0.0.3. Although it is still kind of raw, it can now offer a decent playing experience :) </p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/ghostly-horizon/news/ghostly-horizon-release-date-trailer-and-exg-rezzed" title="Ghostly Horizon Release Date, Trailer and EXG Rezzed" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249888/crop_120x90/Early_Access_Release_compressed.jpg" alt="Ghostly Horizon Release Date, Trailer and EXG Rezzed" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/ghostly-horizon/news/ghostly-horizon-release-date-trailer-and-exg-rezzed">Ghostly Horizon Release Date, Trailer and EXG Rezzed</a></h4>
+			<span class="date">
+				<time datetime="2018-03-07">22hours ago</time>			</span>
+			<span class="subheading">
+				<a href="/games/ghostly-horizon" title="Game">Ghostly Horizon</a>   			</span>
+			<p>We are very happy to announce that Ghostly Horizon will be Releasing in Steam Early Access on April 4th.
+We also have a new Trailer up!</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/offroad-transport-simulator/news/offroad-transport-simulator-got-a-trailer" title="Offroad Transport Simulator got a trailer" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249891/crop_120x90/offroad.jpg" alt="Offroad Transport Simulator got a trailer" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/offroad-transport-simulator/news/offroad-transport-simulator-got-a-trailer">Offroad Transport Simulator got a trailer</a></h4>
+			<span class="date">
+				<time datetime="2018-03-07">Mar 7 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/offroad-transport-simulator" title="Game">Offroad Transport Simulator</a>  <a href="/games/offroad-transport-simulator/news/offroad-transport-simulator-got-a-trailer" class="commenticon">1 comment</a>  			</span>
+			<p>Check out the new, spectacular trailer for our game! </p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/alders-blood/news/alders-blood-playable-demo" title="Alder's Blood - playable demo!" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249881/crop_120x90/AB_demo_download.png" alt="Alder's Blood - playable demo!" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/alders-blood/news/alders-blood-playable-demo">Alder's Blood - playable demo!</a></h4>
+			<span class="date">
+				<time datetime="2018-03-07">Mar 7 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/alders-blood" title="Game">Alder's Blood</a>   			</span>
+			<p>Hi guys! Demo for our turn-based tactical strategy, Alder's Blood is now ready to download!</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/proxima-royale/news/proxima-royale-development-update-001" title="Proxima Royale - Development Update #001" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249865/crop_120x90/update3.png" alt="Proxima Royale - Development Update #001" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/proxima-royale/news/proxima-royale-development-update-001">Proxima Royale - Development Update #001</a></h4>
+			<span class="date">
+				<time datetime="2018-03-07">Mar 7 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/proxima-royale" title="Game">Proxima Royale</a>   			</span>
+			<p>Hello there fellow humans and robots!
+It's been twelve days since we revealed PROXIMA ROYALE and so far we received over 12.000 Closed Alpha sign ups!</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/wrectified/news/world-canvas-updgrade" title="World Canvas updgrade" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249864/crop_120x90/world_node_FX.png" alt="World Canvas updgrade" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/wrectified/news/world-canvas-updgrade">World Canvas updgrade</a></h4>
+			<span class="date">
+				<time datetime="2018-03-06">Mar 6 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/wrectified" title="Game">Wrectified</a>   			</span>
+			<p>A.Canvas now uses kdtree to get nodes closest to player working out B.during firing up a bubble is loaded in once the edge is reached, the load order...</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/chuck-jones-space-cop-of-the-future/news/pixel-art-extravaganza" title="Pixel Art Extravaganza!" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249863/crop_120x90/polstn11.png" alt="Pixel Art Extravaganza!" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/chuck-jones-space-cop-of-the-future/news/pixel-art-extravaganza">Pixel Art Extravaganza!</a></h4>
+			<span class="date">
+				<time datetime="2018-03-06T18:51:40+00:00">Mar 6 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/chuck-jones-space-cop-of-the-future" title="Game">Chuck Jones: Space Cop of the Future</a>   			</span>
+			<p>genuine 240p 256 color pixel art, I've talked a little bit about this in the past but I think it deserves a dedicated article.</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/world-of-dwarves/news/devlog-119" title="DevLog #1" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249862/crop_120x90/devlog1.jpg" alt="DevLog #1" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/world-of-dwarves/news/devlog-119">DevLog #1</a></h4>
+			<span class="date">
+				<time datetime="2018-03-06">Mar 6 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/world-of-dwarves" title="Game">World Of Dwarves</a>   			</span>
+			<p>Hi, Come discover the first DevLog of World Of Dwarves !</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/flyout/news/flyout-helicopters" title="Flyout - Helicopters" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249861/crop_120x90/heliThumb2.png" alt="Flyout - Helicopters" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/flyout/news/flyout-helicopters">Flyout - Helicopters</a></h4>
+			<span class="date">
+				<time datetime="2018-03-06">Mar 6 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/flyout" title="Game">Flyout</a>   			</span>
+			<p>Rotor physics showcase. Flying around and maneuvering with a helicopter and a drone.</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/stay-alive-apocalypse/news/06032018-information-about-new-update" title="06.03.2018 Information About New Update" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249856/crop_120x90/Araba.png" alt="06.03.2018 Information About New Update" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/stay-alive-apocalypse/news/06032018-information-about-new-update">06.03.2018 Information About New Update</a></h4>
+			<span class="date">
+				<time datetime="2018-03-06">Mar 6 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/stay-alive-apocalypse" title="Game">Stay Alive: Apocalypse</a>   			</span>
+			<p>Brief information about the latest update to our game.</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/the-chronicles-of-nyanya/news/doglog-2-the-chronicles-of-nyanya-the-meowrigins-og-nyanya" title="DOG.log #2 The Chronicles of Nyanya: The meowrigins of Nyanya" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249852/crop_120x90/dog.log.jpg" alt="DOG.log #2 The Chronicles of Nyanya: The meowrigins of Nyanya" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/the-chronicles-of-nyanya/news/doglog-2-the-chronicles-of-nyanya-the-meowrigins-og-nyanya">DOG.log #2 The Chronicles of Nyanya: The meowrigins of Nyanya</a></h4>
+			<span class="date">
+				<time datetime="2018-03-06">Mar 6 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/the-chronicles-of-nyanya" title="Game">The Chronicles of Nyanya</a>   			</span>
+			<p>Another episode of DOG.log about our new jRPG, The Chronicles of Nyanya for everyone curious about the origins of the game. Listen what Ilona has to say...</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/mercury-fallen/news/alpha-013-lost-found-now-available" title="Alpha 0.13 :: Lost &#038; Found Now Available" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249846/crop_120x90/LogoSquare_700x700.jpg" alt="Alpha 0.13 :: Lost &#038; Found Now Available" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/mercury-fallen/news/alpha-013-lost-found-now-available">Alpha 0.13 :: Lost &#038; Found Now Available</a></h4>
+			<span class="date">
+				<time datetime="2018-03-06">Mar 6 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/mercury-fallen" title="Game">Mercury Fallen</a>   			</span>
+			<p>Alpha 0.13 is now available on Steam! The new update brings a load of new content, changes and fixes.</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/projekt-game-about-silhouettes/news/projekt-new-minimalistic-puzzle-about-silhouettes" title=".projekt - new minimalistic puzzle about silhouettes" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249844/crop_120x90/1024x768.png" alt=".projekt - new minimalistic puzzle about silhouettes" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/projekt-game-about-silhouettes/news/projekt-new-minimalistic-puzzle-about-silhouettes">.projekt - new minimalistic puzzle about silhouettes</a></h4>
+			<span class="date">
+				<time datetime="2018-03-06">Mar 6 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/projekt-game-about-silhouettes" title="Game">.projekt - the game about silhouettes</a>  <a href="/games/projekt-game-about-silhouettes/news/projekt-new-minimalistic-puzzle-about-silhouettes" class="commenticon">2 comments</a>  			</span>
+			<p>“.projekt” - new minimalistic puzzle about silhouettes is coming to iOS, Steam and Android on March 13.
+Closed beta test is available now.
+</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/hotel-magnate/news/update-7-further-tweaks-changes" title="Update #7: Further Tweaks &#038; Changes" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249841/crop_120x90/SMlogo3.png" alt="Update #7: Further Tweaks &#038; Changes" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/hotel-magnate/news/update-7-further-tweaks-changes">Update #7: Further Tweaks &#038; Changes</a></h4>
+			<span class="date">
+				<time datetime="2018-03-06">Mar 6 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/hotel-magnate" title="Game">Hotel Magnate</a>   			</span>
+			<p>Dev Blog #7, it is the first one posted on this site. But older posts can be viewed on the main website.</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/astrokill/news/patch-096-new-spaceship-skins-and-improved-vr" title="Patch 0.9.6 - New spaceship skins and improved VR" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249838/crop_120x90/Untitled-88.gif" alt="Patch 0.9.6 - New spaceship skins and improved VR" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/astrokill/news/patch-096-new-spaceship-skins-and-improved-vr">Patch 0.9.6 - New spaceship skins and improved VR</a></h4>
+			<span class="date">
+				<time datetime="2018-03-06">Mar 6 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/astrokill" title="Game">ASTROKILL</a>  <a href="/games/astrokill/news/patch-096-new-spaceship-skins-and-improved-vr" class="commenticon">1 comment</a>  			</span>
+			<p>The latest updates for ASTROKILL feature new fighter and frigate skins, an improved VR experience, faster load times, and new Steam achievements.</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/pieces-of-8-bit/news/dev-blog-1-hello-world" title="Dev blog 1: Hello World" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249819/crop_120x90/Dev_Log_1.png" alt="Dev blog 1: Hello World" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/pieces-of-8-bit/news/dev-blog-1-hello-world">Dev blog 1: Hello World</a></h4>
+			<span class="date">
+				<time datetime="2018-03-06">Mar 6 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/pieces-of-8-bit" title="Game">Pieces of 8-Bit</a>  <a href="/games/pieces-of-8-bit/news/dev-blog-1-hello-world" class="commenticon">1 comment</a>  			</span>
+			<p>Wherein I introduce the game and outline the current development goals.</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/bugout/news/moving-forward11" title="Moving Forward " class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249828/crop_120x90/Live_on_kickstarter_picc.png" alt="Moving Forward " /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/bugout/news/moving-forward11">Moving Forward </a></h4>
+			<span class="date">
+				<time datetime="2018-03-06">Mar 6 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/bugout" title="Game">BugOut</a>   			</span>
+			<p>We are so excited about the progress we have made over the last 16 months on our first game. Last week we were able to get our steam store page up and...</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/wolf-gang/news/wolf-gang-version-060-is-live" title="Wolf Gang version 0.6.0 is live!" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249827/crop_120x90/Screen_Shot_2018-03-05_at_4.42.3.png" alt="Wolf Gang version 0.6.0 is live!" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/wolf-gang/news/wolf-gang-version-060-is-live">Wolf Gang version 0.6.0 is live!</a></h4>
+			<span class="date">
+				<time datetime="2018-03-06">Mar 6 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/wolf-gang" title="Game">Wolf Gang</a>   			</span>
+			<p>The March early access update begins Chapter 2 with a new level that introduces a new animal class - bobcats, as well as a new game mechanic, bridges...</p>		</div>
+	</div>
+			<div class="row rowcontent clear">
+				<a href="/games/hikariblade/news/hikariblade-is-available-on-steam-launch-trailer" title="Hikariblade is available on Steam + Launch Trailer" class="image"><img src="http://media.indiedb.com/cache/images/articles/1/250/249835/crop_120x90/revampcover.png" alt="Hikariblade is available on Steam + Launch Trailer" /></a>
+				<div class="content">
+			 
+			<h4><a href="/games/hikariblade/news/hikariblade-is-available-on-steam-launch-trailer">Hikariblade is available on Steam + Launch Trailer</a></h4>
+			<span class="date">
+				<time datetime="2018-03-06">Mar 6 2018</time>			</span>
+			<span class="subheading">
+				<a href="/games/hikariblade" title="Game">Hikariblade</a>   			</span>
+			<p>Today Hikariblade launches on Steam!!! :) and I have made a launch trailer to celebrate.</p>		</div>
+	</div>
+		<div class="row" style="text-align: right;">
+		<h4>
+			<a href="/articles/add">Post article</a> | <a href="/articles">More articles &gt;&gt;</a>		</h4>
+	</div>
+	</div>				<p class="viewbrowse" style="display: none; margin-top: 1em;">
+					No articles were found matching the criteria specified. We suggest you try the <a href="/articles">article list</a> with no filter applied, to browse all available. <a href="/articles/add">Post article</a> and help us achieve our mission of showcasing the best content from all developers. <a href="https://secure.indiedb.com/members/register">Join now</a> to share your own content, we welcome creators and consumers alike and look forward to your comments.				</p>
+			</div>
+	
+					</div>
+	</div>
+</div><div class="column span-300 last"><div style="clear: both;"></div>
+<div class="nextmediabox">
+	<div class="supporter"><div class="DBsupporter" data-dfp-id="INDIEDB_MPU_1" data-dfp-sizes="300x250, 300x600" id="div-ga-INDIEDB_MPU_1"></div></div> 
+</div>
+<div class="normalbox">
+	<div class="normalcorner">
+		<div class="title">
+			 
+			<span class="options">
+				<a href="/games/add/#gamesform" class="addicon"  title="Add game">Add game</a>			</span>
+			 
+			<span class="heading">Popular Games</span>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="body bodysimple">
+			<div class="tooltip"></div>
+			<div class="table tablerelated">
+				 
+				<div class="row rowbutton clear">
+										<a href="/games" class="button">View All</a>
+										<a href="/games/top" class="button buttonalt">Top Games</a>
+									</div>
+								<div class="row clear">
+										<a href="/games/dreamback-vr" title="DreamBack VR" class="image"><img src="http://media.indiedb.com/cache/images/games/1/66/65980/crop_120x90/DreamBackVR01.jpg" alt="DreamBack VR" /></a>
+										<div class="content">
+						<a href="/games/dreamback-vr" class="heading">DreamBack VR</a>
+						<span class="summary">
+							Adventure 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/games/guts-and-glory" title="Guts and Glory" class="image"><img src="http://media.indiedb.com/cache/images/games/1/52/51132/crop_120x90/Guts_and_Glory_bloody_logo.png" alt="Guts and Glory" /></a>
+										<div class="content">
+						<a href="/games/guts-and-glory" class="heading">Guts and Glory</a>
+						<span class="summary">
+							Racing 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/games/gangbeasts" title="Gang Beasts (prototype)" class="image"><img src="http://media.indiedb.com/cache/images/games/1/28/27554/crop_120x90/incinerator.png" alt="Gang Beasts (prototype)" /></a>
+										<div class="content">
+						<a href="/games/gangbeasts" class="heading">Gang Beasts (prototype)</a>
+						<span class="summary">
+							Fighting 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/games/empires-of-the-undergrowth" title="Empires of the Undergrowth" class="image"><img src="http://media.indiedb.com/cache/images/games/1/46/45850/crop_120x90/logoUpdate.jpg" alt="Empires of the Undergrowth" /></a>
+										<div class="content">
+						<a href="/games/empires-of-the-undergrowth" class="heading">Empires of the Undergrowth</a>
+						<span class="summary">
+							Real Time Strategy 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/games/dude-simulator" title="Dude Simulator" class="image"><img src="http://media.indiedb.com/cache/images/games/1/60/59812/crop_120x90/Screen_9.jpg" alt="Dude Simulator" /></a>
+										<div class="content">
+						<a href="/games/dude-simulator" class="heading">Dude Simulator</a>
+						<span class="summary">
+							Realistic Sim 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/games/geometry-runner-online" title="Geometry Runner Online" class="image"><img src="http://media.indiedb.com/cache/images/games/1/66/65976/crop_120x90/obl1.png" alt="Geometry Runner Online" /></a>
+										<div class="content">
+						<a href="/games/geometry-runner-online" class="heading">Geometry Runner Online</a>
+						<span class="summary">
+							Adventure 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/games/bookends" title="Book Ends" class="image"><img src="http://media.indiedb.com/cache/images/games/1/66/65829/crop_120x90/Book-Ends-Title-Screen.jpg" alt="Book Ends" /></a>
+										<div class="content">
+						<a href="/games/bookends" class="heading">Book Ends</a>
+						<span class="summary">
+							Role Playing 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/games/rawconcrete" title="RAWconcrete - a photo-realistic 2D game" class="image"><img src="http://media.indiedb.com/cache/images/games/1/66/65894/crop_120x90/rawconcrete_moddb_browsingimage.jpg" alt="RAWconcrete - a photo-realistic 2D game" /></a>
+										<div class="content">
+						<a href="/games/rawconcrete" class="heading">RAWconcrete - a photo-realistic 2D game</a>
+						<span class="summary">
+							Adventure 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/games/astrokill" title="ASTROKILL" class="image"><img src="http://media.indiedb.com/cache/images/games/1/40/39750/crop_120x90/indiedb_ak_logo.png" alt="ASTROKILL" /></a>
+										<div class="content">
+						<a href="/games/astrokill" class="heading">ASTROKILL</a>
+						<span class="summary">
+							Combat Sim 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/games/five-nights-at-candys" title="Five Nights At Candy's" class="image"><img src="http://media.indiedb.com/cache/images/games/1/43/42861/crop_120x90/IndieDB_Preview.jpg" alt="Five Nights At Candy's" /></a>
+										<div class="content">
+						<a href="/games/five-nights-at-candys" class="heading">Five Nights At Candy's</a>
+						<span class="summary">
+							Point and Click 						</span>
+					</div>
+				</div>
+				 
+			</div>
+		</div>
+	</div>
+</div>
+<div class="normalbox">
+	<div class="normalcorner">
+		<div class="title">
+			<span class="options">
+				<a href="/giveaways/add/#giveawaysform" class="addicon"  title="Run giveaway">Run giveaway</a> <a href="http://rss.indiedb.com/giveaways/feed/rss.xml" target="_blank" class="rssicon"  title="RSS">RSS</a>			</span>
+			<span class="heading">Daily Giveaway</span>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="body bodysimple">
+			<div class="tooltip"></div>
+			<div class="table tablemenu tablegiveaway">
+				<div class="row clear">
+										<a href="/giveaways"><img src="http://media.indiedb.com/cache/images/giveaways/1/1/497/thumb_280x560/Screen_Shot_2018-03-06_at_11.27.png" alt="Bacon Man: An Adventure" /></a>
+										<h2 class="name">Bacon Man: An Adventure</h2>
+					<h2 class="prize">21 steam keys</h2>
+					<time datetime="2018-03-09T02:00:00+02:00" class="countdown countdown1907 clear is-clearfix">Released Mar 9, 2018</time>					
+				</div>
+				<div class="row rowbutton clear">
+										<a href="/giveaways" class="button">Join Giveaway</a>
+										<a href="/giveaways/add" class="button buttonalt">Run Giveaway</a>
+									</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="normalbox">
+	<div class="normalcorner">
+		<div class="title">
+			 
+			<span class="options">
+				<a href="/jobs/add/#jobsform" class="addicon"  title="Add job">Add job</a>			</span>
+			 
+			<span class="heading">Jobs</span>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="body bodysimple">
+			<div class="tooltip"></div>
+			<div class="table tablemenu">
+				 
+				<div class="row rowbutton clear">
+										<a href="/jobs" class="button">View All</a>
+										<a href="/jobs/add" class="button buttonalt">Post Job Ad</a>
+									</div>
+				 
+				<div class="row clear">
+					<h5>
+						DBolical 					</h5>
+					<span class="summary"><a href="/jobs/create-gta-v-radio-station">Create GTA V radio station</a></span>
+				</div>
+				 
+				<div class="row clear">
+					<h5>
+						IAO Games 					</h5>
+					<span class="summary"><a href="/jobs/environment-artist-tiles-for-indie-metroidvania">Environment artist (tiles) for indie metroidvania</a></span>
+				</div>
+				 
+				<div class="row clear">
+					<h5>
+						Singularity Lab 					</h5>
+					<span class="summary"><a href="/jobs/paid-marketing-and-community-manager">[PAID] Marketing and Community Manager</a></span>
+				</div>
+				 
+				<div class="row clear">
+					<h5>
+						Masondogg Studios, LLC 					</h5>
+					<span class="summary"><a href="/jobs/looking-for-motivated-programmers-wanting-a-start-in-the-gaming-industry">Looking for Motivated Programmers wanting a start in the gaming Industry!</a></span>
+				</div>
+				 
+				<div class="row clear">
+					<h5>
+						Crytivo Games 					</h5>
+					<span class="summary"><a href="/jobs/qa-tester3">QA Tester</a></span>
+				</div>
+				 
+				<div class="row clear">
+					<h5>
+						Hyperion Studios 					</h5>
+					<span class="summary"><a href="/jobs/artists10">Allround 2D/3D artists wanted</a></span>
+				</div>
+				 
+				<div class="row clear">
+					<h5>
+						Me 					</h5>
+					<span class="summary"><a href="/jobs/menu-creator">Menu Creator</a></span>
+				</div>
+				 
+				<div class="row clear">
+					<h5>
+						Twin Alchemy Games 					</h5>
+					<span class="summary"><a href="/jobs/twineunity-programmer">Twine/Unity Programmer</a></span>
+				</div>
+				 
+				<div class="row clear">
+					<h5>
+						Party Llama Games 					</h5>
+					<span class="summary"><a href="/jobs/2d-artists9">3D Character Artist</a></span>
+				</div>
+				 
+				<div class="row clear">
+					<h5>
+						SCOG games 					</h5>
+					<span class="summary"><a href="/jobs/looking-for-programmers-for-shooter-game">Looking for Programmers for Shooter game</a></span>
+				</div>
+				 
+			</div>
+		</div>
+	</div>
+</div>
+ 
+<div style="clear: both;"></div>
+<div class="nextmediabox">
+	<div class="supporter"><div class="lazyload" data-dfp-id="INDIEDB_MPU_2" data-dfp-sizes="300x250, 300x600" id="div-ga-INDIEDB_MPU_2"></div></div> 
+</div>
+ <div class="normalbox">
+	<div class="normalcorner">
+		<div class="title">
+			 
+			<span class="heading">Forum Discussion</span>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="body bodysimple">
+			<div class="tooltip"></div>
+			<div class="table tablemenu">
+				 
+				<div class="row rowbutton clear">
+										<a href="/forum" class="button">View Forums</a>
+										<a href="/forum/board/active-topics" class="button buttonalt">Active Topics</a>
+									</div>
+				 
+				<div class="row clear">
+					<h5>
+						<time datetime="2018-03-08T12:19:47+00:00">31mins ago</time> 					</h5>
+					<span class="summary"><a href="/forum/thread/rev-share-game-developers-wanted-to-form-a-new-indie-studio">[Rev-Share] Game Developers wanted to form a new indie studio</a></span>
+				</div>
+				 
+				<div class="row clear">
+					<h5>
+						<time datetime="2018-03-08T06:37:24+00:00">6hours ago</time> 					</h5>
+					<span class="summary"><a href="/forum/thread/stalker-slav-edition">S.T.A.L.K.E.R. S.L.A.V Edition</a></span>
+				</div>
+				 
+				<div class="row clear">
+					<h5>
+						<time datetime="2018-03-07T21:15:55+00:00">15hours ago</time> 					</h5>
+					<span class="summary"><a href="/forum/thread/a-knight-of-brush-and-pencil-looking-for-work-2d-illustrationcartoonconcept-art">A knight of brush and pencil looking for work! (2D illustration/cartoon/concept art)</a></span>
+				</div>
+				 
+				<div class="row clear">
+					<h5>
+						<time datetime="2018-03-07T16:40:59+00:00">20hours ago</time> 					</h5>
+					<span class="summary"><a href="/forum/thread/musicsfx-eduardo-lpez-any-style-of-music">[Music/SFX] Eduardo López - Any Style of Music</a></span>
+				</div>
+				 
+				<div class="row clear">
+					<h5>
+						<time datetime="2018-03-07T16:28:43+00:00">20hours ago</time> 					</h5>
+					<span class="summary"><a href="/forum/thread/paid-matthew-rock-game-composer">[Paid] Matthew Rock - Game Composer</a></span>
+				</div>
+				 
+				<div class="row clear">
+					<h5>
+						<time datetime="2018-03-07T15:54:34+00:00">20hours ago</time> 					</h5>
+					<span class="summary"><a href="/forum/thread/musicsound-design-mfa-certified-multimedia-audio-designer2">[Music/Sound Design] MFA-Certified Multimedia Audio Designer </a></span>
+				</div>
+				 
+			</div>
+		</div>
+	</div>
+</div>
+<div class="normalbox">
+	<div class="normalcorner">
+		<div class="title">
+			 
+			<span class="options">
+				<a href="/groups/add/#groupsform" class="addicon"  title="Add group">Add group</a>			</span>
+			 
+			<span class="heading">Popular Groups</span>
+		</div>
+	</div>
+	<div class="inner">
+		<div class="body bodysimple">
+			<div class="tooltip"></div>
+			<div class="table tablerelated">
+				 
+				<div class="row rowbutton clear">
+										<a href="/groups" class="button">View All</a>
+										<a href="/groups/top" class="button buttonalt">Top Groups</a>
+									</div>
+								<div class="row clear">
+										<a href="/groups/indie-devs" title="Indie Devs" class="image"><img src="http://media.indiedb.com/cache/images/groups/1/2/1206/crop_120x90/indiedevlogo.jpg" alt="Indie Devs" /></a>
+										<div class="content">
+						<a href="/groups/indie-devs" class="heading">Indie Devs</a>
+						<span class="summary">
+							Hobbies &amp; Interests  with 1,588 members 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/groups/unity-devs" title="Unity Devs and Gamers" class="image"><img src="http://media.indiedb.com/cache/images/groups/1/5/4133/crop_120x90/preview.png" alt="Unity Devs and Gamers" /></a>
+										<div class="content">
+						<a href="/groups/unity-devs" class="heading">Unity Devs and Gamers</a>
+						<span class="summary">
+							Hobbies &amp; Interests  with 1,750 members 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/groups/unreal-4-devs-modders-and-players" title="Unreal Engine 4 Devs, Modders and Players" class="image"><img src="http://media.indiedb.com/cache/images/groups/1/23/22129/crop_120x90/UE4Interface_5.jpg" alt="Unreal Engine 4 Devs, Modders and Players" /></a>
+										<div class="content">
+						<a href="/groups/unreal-4-devs-modders-and-players" class="heading">Unreal Engine 4 Devs, Modders and Players</a>
+						<span class="summary">
+							Fans &amp; Clans  with 667 members 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/groups/2017-indie-of-the-year-awards" title="2017 Indie of the Year Awards" class="image"><img src="http://media.indiedb.com/cache/images/groups/1/30/29662/crop_120x90/ioty-2017-splash.png" alt="2017 Indie of the Year Awards" /></a>
+										<div class="content">
+						<a href="/groups/2017-indie-of-the-year-awards" class="heading">2017 Indie of the Year Awards</a>
+						<span class="summary">
+							Event  with 30 members 						</span>
+					</div>
+				</div>
+								<div class="row clear">
+										<a href="/company/gundam-rts-development-group" title="Gundam RTS Development Group" class="image"><img src="http://media.indiedb.com/cache/images/groups/1/1/528/crop_120x90/Gundam_Dev.jpg" alt="Gundam RTS Development Group" /></a>
+										<div class="content">
+						<a href="/company/gundam-rts-development-group" class="heading">Gundam RTS Development Group</a>
+						<span class="summary">
+							Developer &amp; Publisher 						</span>
+					</div>
+				</div>
+				 
+			</div>
+		</div>
+	</div>
+</div>
+ 
+<div style="clear: both;"></div>
+<div class="nextmediabox footernextmediabox">
+	<div class="supporter"><div class="lazyload" data-dfp-id="INDIEDB_MPU_3" data-dfp-sizes="300x250" id="div-ga-INDIEDB_MPU_3"></div>
+<script>
+$(document).ready(function() {
+	columnBottom = $(".column.span-300").position().top + $(".column.span-300").outerHeight(true) + ($(".column.span-300 .DBsupporter").length*600) + ($(".column.span-300 .lazyload").length*250);
+	footerTop = $("footer").position().top - 250;
+	windowSpacing = $(window).height() + 250;
+	placements = footerTop > columnBottom ? Math.floor((footerTop - columnBottom) / windowSpacing) : 0;
+	
+	for(x = 1; x <= placements; x++) {
+		$("<div class=\"lazyload\" data-dfp-id=\"IndieDB_Lazy_load_HP_MPU\" data-dfp-sizes=\"300x250\" id=\"div-ga-INDIEDB_MPU_"+(x+3)+"\" style=\"clear: both; margin-top: "+windowSpacing+"px; text-align: center;\"></div>").appendTo(".column.span-300");
+	}
+});
+</script></div> 
+</div>
+</div> 	<div style="clear: both; height: 1em;"></div>
+	
+	<footer><div id="footer">
+		<div class="content">
+			<ul class="menu clear">
+				<li><a href="/blog">Blog</a></li>
+				<li><a href="/about">About</a></li>
+				<li><a href="/advertise">Advertise</a></li>
+				<li><a href="/contact">Contact</a></li>
+				<li><a href="/games/add">Submit Game</a></li>
+				<li><a href="/sitemap">Site Map</a></li>
+				<li><a href="/rss">RSS</a></li>
+				<li class="online"><a href="/members/online">1786 Online</a></li>
+				<li class="social">
+					<a href="/sitemap">Socialize</a>
+					<a href="https://twitter.com/indiedb" target="_blank" rel="nofollow" title="Twitter" class="icon twitter"><span>Twitter</span></a>
+					<a href="https://www.facebook.com/indiedb" target="_blank" rel="nofollow" title="Facebook" class="icon facebook"><span>Facebook</span></a>
+					<a href="https://www.youtube.com/user/gamedevtv" target="_blank" rel="nofollow" title="Youtube" class="icon youtube"><span>Youtube</span></a>
+					<a href="http://www.vrdb.com" target="_blank" title="VRDB" class="icon vrdb"><span>VRDB</span></a>
+					<a href="http://www.moddb.com" target="_blank" title="Mod DB" class="icon moddb"><span>Mod DB</span></a>
+					<a href="http://www.slidedb.com" target="_blank" title="Slide DB" class="icon slidedb"><span>Slide DB</span></a>
+				</li>
+			</ul>
+			<ul class="copyright clear">
+				<li>&copy; 2010 - 2018 <a href="http://www.dbolical.com" target="_blank">DBolical Pty Ltd.</a>&nbsp; All Rights Reserved.&nbsp; Ready when its done.</li>
+				<li class="privacy"><a href="/privacy-policy">Privacy Policy</a></li>
+				<li class="terms"><a href="/terms-of-use">Terms of Use</a></li>
+			</ul>
+		</div>
+		<div style="clear: both; height: 1em;"></div>
+	</div></footer>
+</div></div>
+
+<script type="application/ld+json">[{"@context":"http://schema.org","@type":"Website","name":"Indie DB","url":"http://www.indiedb.com/","sameAs":["https://www.facebook.com/indiedb","https://twitter.com/indiedb","https://plus.google.com/+indiedb"]},{"@context":"http://schema.org","@type":"Organization","url":"http://www.indiedb.com/","logo":"http://static.indiedb.com/cutoff/images/default/splash.png"},[]]</script>
+<script src="http://static.indiedb.com/html/external/min/index.php?g=js&17"></script>
+<script src="http://static.indiedb.com/html/external/min/index.php?g=jswub&6"></script><script src="http://static.indiedb.com/html/external/min/index.php?b=cutoff&f=js/jquery.countdown.js,js/jquery.cycle.lite.js&1"></script>
+<script>
+$(document).ready(function() { 
+						var canHide = false;
+						$("#header ul.tabs li.n").hover(function(){
+							$("#header ul.tabs li.js").removeClass("js");
+							$(this).addClass("js");
+							canHide = false;
+						}, function(){
+							canHide = $(this);
+							setTimeout(function(){
+								if(canHide) { canHide.removeClass("js"); }
+							}, 500);
+						});
+$("#sitesearch").suggestClick("http://www.indiedb.com/html/scripts/autocomplete.php?a=search&p=home",{resultsClass: "suggest_search", positionIn: "#searchbox", limit: 10});
+
+			var custom_variables = {};
+			custom_variables["url"] = document.location.pathname.substr(0,40);
+			custom_variables["channel"] = "games";
+			custom_variables["source"] = "index";
+			
+			custom_variables["tags"] = ["pc"];
+			
+			
+			$(".DBsupporter").getDFPads({"custom_variables":custom_variables, "lazyload_selector":".lazyload", "lazyload_spacer":450});
+
+		if(typeof isAB === "undefined") {
+			yesAB(true);
+		} else {
+			isAB.on(true, yesAB).onNotDetected(noAB);
+		}
+	
+		function yesAB(unknown) {
+			if(unknown) {
+				ga("send", "event", "Adblock", "Undefined", "true", 1);
+			} else {
+				ga("send", "event", "Adblock", "Blocked", "true", 1);
+	
+				$("div.nextmediaboxtop,div.footermediabox").remove();
+				$("div.nextmediabox div.supporter").html("<iframe src=\"http://www.indiedb.com/media/block/300/250?sad=t\" width=300 height=250 frameborder=0></iframe>");
+				$("div.headermediabox div.supporter").html("<iframe src=\"http://www.indiedb.com/media/block/728/90?sad=t\" width=728 height=90 frameborder=0></iframe>");
+			}
+		}
+	
+		function noAB() {
+			ga("send", "event", "Adblock", "Unblocked", "false", 1);
+		}
+
+				$("div.rotator a.link").show();
+				$("#rotatorholder").cycle({
+					timeout: 5000,
+					speed: 1000,
+					pause: 1,
+					next: "#rotatornext",
+					prev: "#rotatorprev",
+					before: onBefore,
+					after: onAfter
+				});
+
+				function onBefore(curr, next, opts) {
+					$("#rotator"+(opts.nextSlide > opts.currSlide ? "next" : "prev")).addClass((opts.nextSlide > opts.currSlide ? "next" : "prev")+"on");
+					
+					if($(this).data("bg") && $(this).data("bg").length > 0) {
+						$(this).css("background-image","url("+$(this).data("bg")+")").removeData("bg");
+					}
+				}
+
+				function onAfter() {
+					$("#rotatornext").removeClass("nexton");
+					$("#rotatorprev").removeClass("prevon");
+				}
+
+				viewBrowse = function(currentoption, response) {
+					if(response["success"]) {
+						if(response["labels"]) {
+							for (i in response["labels"]) {
+								currentoption.parent().find("."+i+"uniqueicon").attr("title", response["labels"][i]).html(response["labels"][i]).change();
+							}
+						}	
+					
+						if(response["action"] == "pin" && response["pinned"]) {
+							currentoption.closest(".row").hide().prependTo(currentoption.closest(".table")).fadeIn();
+						} else if(response["action"] == "delete") {
+							if(currentoption.closest(".row").next(".row").hasClass("rowcontentnext")) {
+								currentoption.closest(".row").next(".row").remove();
+							}
+							currentoption.closest(".row").slideUp(400, function(){$(this).remove();});
+						} else if(response["action"] == "ban") {
+							if(currentoption.text() == "Ban") {
+								currentoption.closest(".row").find(".statusbox").removeClass("statusboxbad");
+							} else {
+								currentoption.closest(".row").find(".statusbox").addClass("statusboxbad");
+							}
+						}
+					}
+				};
+$(".countdown1907").countdown({until: +40112, format: "HMS"});
+$("a.thickbox").click(function() { $.colorbox({href:$(this).attr("href"), rel:$(this).attr("rel"), open:true, onOpen:function(){ $(".nextmediabox").hide(); }, onClosed:function(){ $(".nextmediabox").show(); }}); return false; });
+ });
+</script>
+<script>
+var _comscore = _comscore || [];
+_comscore.push({ c1: "2", c2: "8518622" });
+(function() {
+var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+el.parentNode.insertBefore(s, el);
+})();
+</script>
+<noscript><img src="http://b.scorecardresearch.com/p?c1=2&c2=8518622&cv=2.0&cj=1" height="1" width="1" alt="CS" /></noscript>
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+ga('create', 'UA-104975-12', 'auto');
+ga('require', 'linkid', 'linkid.js');
+ga('send', 'pageview');
+</script>
+ </body>
+</html>

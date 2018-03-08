@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SearchEngine.iml" filepath="$PROJECT_DIR$/SearchEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SearchEngineUtilities/SearchEngineUtilities.iml" filepath="$PROJECT_DIR$/SearchEngineUtilities/SearchEngineUtilities.iml" />
     </modules>
   </component>
 </project>

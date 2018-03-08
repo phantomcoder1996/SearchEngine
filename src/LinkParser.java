@@ -1,5 +1,6 @@
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.util.UUID;
 
 public class LinkParser {
 
@@ -35,6 +36,23 @@ public class LinkParser {
     public static String getDocumentType(HttpURLConnection urlC)
     {
         return urlC.getContentType().toString();
+    }
+
+
+    public static String hashLink(String url)
+    {
+        return UUID.nameUUIDFromBytes(url.getBytes()).toString();
+    }
+
+
+    public static boolean isBaseURL(String url)
+    {
+        return url.matches("https?:\\/\\/.+\\.[a-zA-Z]+\\/?");
+    }
+
+    public static boolean linksToDirectory(String url,String dir)
+    {
+        return url.contains(dir);
     }
 
 }

@@ -65,6 +65,8 @@ public class FileUtility {
 
     public static ArrayList<String> downloadFileAndExtractLinks(String url,String downloadPath)
     {
+        System.out.println("Downloading file at link : "+url);
+
         StringBuilder fileContent=new StringBuilder();
         ArrayList<String> links=new ArrayList<>();
         URL myUrl=null;
@@ -74,16 +76,16 @@ public class FileUtility {
             BufferedReader reader=new BufferedReader(myStreamReader );
 
             String fileUUID= UUID.nameUUIDFromBytes(url.getBytes()).toString();
-            BufferedWriter writer=new BufferedWriter(new FileWriter(downloadPath + fileUUID + ".txt"));
+            //BufferedWriter writer=new BufferedWriter(new FileWriter(downloadPath + fileUUID + ".txt"));
             String line;
             while((line=reader.readLine())!=null)
             {
                 fileContent.append(line);
-                writer.append(line);
-                writer.newLine();
+                //writer.append(line);
+               // writer.newLine();
 
             }
-            writer.close();
+           // writer.close();
             reader.close();
 
 
@@ -98,7 +100,7 @@ public class FileUtility {
 
                 if(fullUrl!="") {
                     links.add(fullUrl);
-                    System.out.println(fullUrl);
+                    //System.out.println(fullUrl);
                 }
             }
 
@@ -116,4 +118,55 @@ public class FileUtility {
     }
 
 
+
+    public static ArrayList<String> extractLinks(String url)
+    {
+        ArrayList<String> links=new ArrayList<>();
+        StringBuilder fileContent=new StringBuilder();
+        URL myUrl=null;
+        try {
+            myUrl=new URL(url);
+            InputStreamReader myStreamReader=new InputStreamReader(myUrl.openStream());
+            BufferedReader reader=new BufferedReader(myStreamReader );
+
+
+            String line;
+            while((line=reader.readLine())!=null)
+            {
+
+                fileContent.append(line);
+
+
+            }
+            // writer.close();
+            reader.close();
+
+
+
+            //Now Extract all the links from the page
+            Document doc=Jsoup.parse(fileContent.toString());
+            Elements anchors=doc.getElementsByTag("a");
+            for(Element anchor:anchors)
+            {
+                String link=anchor.attr("href");
+                String fullUrl=LinkParser.parseLink(myUrl,link);
+
+                if(fullUrl!="") {
+                    links.add(fullUrl);
+                    //System.out.println(fullUrl);
+                }
+            }
+
+        } catch (MalformedURLException e) {
+            //e.printStackTrace();
+            if(myUrl!=null)
+                System.out.println(myUrl.toString()+ "is invalid");
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
+
+        return links;
+    }
 }

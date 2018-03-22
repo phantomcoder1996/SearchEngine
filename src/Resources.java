@@ -27,7 +27,7 @@ public class Resources implements Serializable{
 
     public static ArrayList<String>noRevisit=new ArrayList<>();
 
-    public static ConcurrentHashMap<String,ArrayList<String>> robotRead=new ConcurrentHashMap<>();
+  //  public static ConcurrentHashMap<String,ArrayList<String>> robotRead=new ConcurrentHashMap<>();
 
     static int pageCount=0;
 
@@ -124,7 +124,7 @@ public class Resources implements Serializable{
            os.writeObject(simHash);
            os.writeObject(downloaded);
            os.writeObject(noRevisit);
-           os.writeObject(robotRead);
+        //   os.writeObject(robotRead);
        } catch (IOException e) {
            e.printStackTrace();
        }
@@ -143,7 +143,7 @@ public class Resources implements Serializable{
                 simHash=(ConcurrentHashMap<String,String>)is.readObject();
                 downloaded=(ArrayList<String>)is.readObject();
                 noRevisit=(ArrayList<String>)is.readObject();
-                robotRead=(ConcurrentHashMap<String,ArrayList<String>>)is.readObject();
+           //     robotRead=(ConcurrentHashMap<String,ArrayList<String>>)is.readObject();
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             }
@@ -162,41 +162,41 @@ public class Resources implements Serializable{
         pageCount--;
     }
 
-    public static boolean isLinkAllowed(String url)
-    {
-
-        String urlHost="";
-        ArrayList<String>disallowedDirectories;
-        // **Soldier : Read Robots.txt if exists!
-        try {
-            urlHost=new URL(url).getHost();
-        } catch (MalformedURLException e) {
-            e.printStackTrace();
-        }
-        if(!robotRead.containsKey(urlHost)) {
-           // System.out.println(urlHost+"--url host");
-            disallowedDirectories = readRobotFile(url);
-            robotRead.put(urlHost, disallowedDirectories);
-
-        }
-        else {
-            disallowedDirectories = robotRead.get(urlHost);
-        }
-        int i=0;
-        String disallowedDir;
-        boolean stillAllowed=true;
-        while(i<disallowedDirectories.size()&&stillAllowed)
-        {
-            disallowedDir=disallowedDirectories.get(i);
-            if(LinkParser.linksToDirectory(url,disallowedDir)) {
-                stillAllowed = false;
-                System.out.println("Directory "+disallowedDir+ "is disallowed for url:"+url);
-
-            }
-            ++i;
-        }
-        return stillAllowed;
-    }
+//    public static boolean isLinkAllowed(String url)
+//    {
+//
+//        String urlHost="";
+//        ArrayList<String>disallowedDirectories;
+//        // **Soldier : Read Robots.txt if exists!
+//        try {
+//            urlHost=new URL(url).getHost();
+//        } catch (MalformedURLException e) {
+//            e.printStackTrace();
+//        }
+//        if(!robotRead.containsKey(urlHost)) {
+//           // System.out.println(urlHost+"--url host");
+//            disallowedDirectories = readRobotFile(url);
+//            robotRead.put(urlHost, disallowedDirectories);
+//
+//        }
+//        else {
+//            disallowedDirectories = robotRead.get(urlHost);
+//        }
+//        int i=0;
+//        String disallowedDir;
+//        boolean stillAllowed=true;
+//        while(i<disallowedDirectories.size()&&stillAllowed)
+//        {
+//            disallowedDir=disallowedDirectories.get(i);
+//            if(LinkParser.linksToDirectory(url,disallowedDir)) {
+//                stillAllowed = false;
+//                System.out.println("Directory "+disallowedDir+ "is disallowed for url:"+url);
+//
+//            }
+//            ++i;
+//        }
+//        return stillAllowed;
+//    }
 
     private static ArrayList<String> readRobotFile(String URL)//TODO:May remove baseURL
     {
@@ -218,6 +218,10 @@ public class Resources implements Serializable{
         } catch (MalformedURLException e) {
             e.printStackTrace();
         } catch (IOException e) {
+            e.printStackTrace();
+        }
+        catch(ClassCastException e)
+        {
             e.printStackTrace();
         }
 

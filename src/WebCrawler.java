@@ -88,6 +88,7 @@ public class WebCrawler {
     //  Runtime.getRuntime().addShutdownHook(new CheckPointSaver());
 
       long prevTime=System.currentTimeMillis();
+      long prevTime2=prevTime;
       //First: Connect to the dataBase
 
       DBManager.connect("localhost",27017,"SearchEngineDB");
@@ -99,7 +100,7 @@ public class WebCrawler {
 
 
       CommanderThread commanderThread=null;
-      commanderThread = new CommanderThread(20, 30, "/Users/macbookpro/IdeaProjects/SearchEngine/.idea/WebPages/", "/Users/macbookpro/IdeaProjects/SearchEngine/.idea/SeedSet/seedSet.txt");
+      commanderThread = new CommanderThread(5000, 30, "/Users/macbookpro/IdeaProjects/SearchEngine/.idea/WebPages/", "/Users/macbookpro/IdeaProjects/SearchEngine/.idea/SeedSet/seedSet.txt");
 
       //start Timer and backup every two minutes
 //      Timer timer=new Timer();
@@ -123,16 +124,21 @@ public class WebCrawler {
       }
       commanderThread.start();
 
-      while(Resources.getCount()<20)
+      while(Resources.getCount()<5000)
       {
           long curTime=System.currentTimeMillis();
           if(curTime-prevTime>=20*1000) {
               prevTime=curTime;
               serializeCrawler(commanderThread);
           }
+         if(curTime-prevTime2>=360000)
+          {
+              prevTime2=curTime;
+              DBManager.AddFilesToDB();
+          }
       }
 
-     // DBManager.AddFilesToDB();
+      DBManager.AddFilesToDB();
       DBManager.updateInlinks();
       try {
           // commanderThread.join();

@@ -2,10 +2,7 @@ import com.apple.eio.FileManager;
 import javafx.util.Pair;
 import sun.awt.image.ImageWatched;
 
-import java.io.IOException;
-import java.io.ObjectInputStream;
-import java.io.ObjectOutputStream;
-import java.io.Serializable;
+import java.io.*;
 import java.net.HttpURLConnection;
 import java.net.MalformedURLException;
 import java.net.ProtocolException;
@@ -19,6 +16,7 @@ public class SoldierThread implements Runnable,Serializable {
     ArrayList<String> disallowedDirectories;
     Queue<Pair<String,String>>links;
 
+    ArrayList<FileInfo> scheduledDownloads=new ArrayList<>();
     String downloadPath;
 
     final int maxSearchLevel=400;
@@ -37,13 +35,14 @@ public class SoldierThread implements Runnable,Serializable {
         Resources.updateVisited(url);//TODO:Revise that line of code
     }
 
-    private void readRobotFile(String baseURL)//TODO:May remove baseURL
+    private void readRobotFile()//TODO:May remove baseURL
     {
+        String myBaseURL= LinkParser.getBaseUrl(baseURL);
         RobotsFileReader robotReader;
         URL myUrl = null;
         HttpURLConnection urlC=null;
         try {
-            myUrl = new URL(baseURL+"/robots.txt");
+            myUrl = new URL(myBaseURL+"/robots.txt");
             urlC= (HttpURLConnection)myUrl.openConnection();
             urlC.connect();
             if(urlC.getResponseCode()==HttpURLConnection.HTTP_OK) {
@@ -83,7 +82,7 @@ public class SoldierThread implements Runnable,Serializable {
         System.out.println(msg);
 
         //**Soldier : Read Robots.txt if exists!
-        readRobotFile(baseURL);
+        readRobotFile();
 
         //**Soldier : Start filling your queue!
 
@@ -169,24 +168,14 @@ public class SoldierThread implements Runnable,Serializable {
         String msg=Thread.currentThread().getName()+ "has started following url";
         System.out.println(msg);
 
-//        String urlHost="";
-//       // **Soldier : Read Robots.txt if exists!
-//        try {
-//            urlHost=new URL(baseURL).getHost();
-//        } catch (MalformedURLException e) {
-//            e.printStackTrace();
-//        }
-//        if(!Resources.RobotRead.containsKey(urlHost)) {
-//            readRobotFile(baseURL);
-//            Resources.RobotRead.put(baseURL,disallowedDirectories);
-//        }
-       //
-        //
         //TODO:Read robot.txt for remainig directories and serialize resources
-        Resources.isLinkAllowed(baseURL);
+         //Resources.isLinkAllowed(baseURL);
+
+        readRobotFile();
+
 
         int level=0;
-        while(level<maxSearchLevel&&Resources.getCount()<maxWebPages)
+        while(level<maxSearchLevel&&Resources.getCount()<maxWebPages&&!links.isEmpty())
         {
             System.out.println(Resources.getCount() +"  is from "+Thread.currentThread().getName());
             String msg2=Thread.currentThread().getName()+"is in level "+level;
@@ -207,8 +196,8 @@ public class SoldierThread implements Runnable,Serializable {
                         status = fileManager.parseFile();
                         if (status) {
                             ArrayList<String> fetchedLinks = fileManager.extractLinks();
-                          //  System.out.println(fetchedLinks.size());
-                           // fileManager.createSimHash();
+                            System.out.println("flik :"+fetchedLinks.size());
+                            // fileManager.createSimHash();
                             fileManager.createHash();
 
                             FileInfo fileInfo = fileManager.getFileInfo();
@@ -223,14 +212,12 @@ public class SoldierThread implements Runnable,Serializable {
 //                                {
 //                                    fileInfo.updated = true;
 //                                }
-                                if(!prevHash.equals(fileInfo.myHash))
-                                {
-                                    fileInfo.updated=true;
-                                }
-                            }
+                                if (prevHash.equals(fileInfo.myHash)) continue;
 
-                            //The page has no prev hash val so we will have to add it to database
-                            Resources.addFileObject(fileInfo);
+
+                            }
+                                //The page has no prev hash val so we will have to add it to database
+                                Resources.addFileObject(fileInfo);
 
 
                             //Declare that the file as downloaded so that we can get its in links
@@ -241,8 +228,11 @@ public class SoldierThread implements Runnable,Serializable {
                             //Now go through all pages and if not visited add them to queue
                             //If the pages are visited, then they may be visited by me or by someone else
                             //In this case add me as an Inlink to these pages
-                            for (String fetchedLink : fetchedLinks) {
 
+                            for (String fetchedLink : fetchedLinks) {
+//                                if (Resources.getCount() >= maxWebPages) {
+//                                    break;
+//                                }
                                 if (!Resources.inLinks.containsKey(fetchedLink)) {
                                     Resources.inLinks.put(fetchedLink, new TreeSet<>());
                                 }
@@ -253,7 +243,7 @@ public class SoldierThread implements Runnable,Serializable {
 
                                     Resources.updateVisited(fetchedLink);
 //TODO:change is link allowed arguments
-                                    if (Resources.isLinkAllowed(fetchedLink)) {
+                                    if (isLinkAllowed(fetchedLink)) {
                                         if (LinkParser.isBaseURL(fetchedLink)) {
                                             //Let the commander decide which thread will follow that link
                                             Resources.addLinkToQueue(fetchedLink, normalized);
@@ -267,8 +257,9 @@ public class SoldierThread implements Runnable,Serializable {
                             }
 
 
-                        } else {
+                                               } else {
                             //Page download was not successful
+                            System.out.println("page download was not successful");
                             Resources.decrementCount();
 
                         }
@@ -277,6 +268,7 @@ public class SoldierThread implements Runnable,Serializable {
                 }
 
             level++;
+            System.out.println("level"+level);
         }
     }
 

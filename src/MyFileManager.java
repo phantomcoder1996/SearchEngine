@@ -1,5 +1,6 @@
 
 import javafx.util.Pair;
+import org.jsoup.HttpStatusException;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -114,11 +115,14 @@ public class MyFileManager {
 
             success=false;
 
+        } catch (HttpStatusException e)
+        {
+            success=false;
         } catch (IOException e) {
             e.printStackTrace();
             success=false;
         }
-return success;
+        return success;
     }
     public ArrayList<String> extractLinks()
     {

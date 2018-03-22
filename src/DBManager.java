@@ -3,10 +3,7 @@ import javafx.util.Pair;
 
 
 import java.net.UnknownHostException;
-import java.util.ArrayList;
-import java.util.Date;
-import java.util.Random;
-import java.util.Set;
+import java.util.*;
 
 import org.bson.*;
 
@@ -54,18 +51,21 @@ public class DBManager
     public static void retreiveURLs() {
 
         String prevCrawlerRun="";
+        DBCursor crawlerState=db.getCollection("State").find();
         BasicDBObject where = new BasicDBObject("rank",new BasicDBObject("$gt", 10));
+        BasicDBObject field = new BasicDBObject();
+        field.put("url", 1);
        // where.put("rank", new BasicDBObject("$gt", 10));
 
         //GET state variables
-        DBCursor crawlerState=db.getCollection("State").find();
+
         if(crawlerState.hasNext()) {
              prevCrawlerRun = crawlerState.next().get("lastRunTime").toString();
            where=new BasicDBObject("rank",new BasicDBObject("$gt", 10));
            where.append("lastModified",new BasicDBObject("$lt",new Date(prevCrawlerRun)));
         }
-        BasicDBObject field = new BasicDBObject();
-        field.put("url", 1);
+
+     //   db.getCollection("urls").agg
 
         DBCursor cursor = db.getCollection("urls").find(where, field);
         while (cursor.hasNext()) {
@@ -76,57 +76,56 @@ public class DBManager
 
         //We have to retreive previos simhashes as well
         field.put("myHash",1);
-        DBCursor cursor2 = db.getCollection("urls").find(new BasicDBObject(),field);
-        while (cursor2.hasNext()) {
-            String url=cursor2.next().get("url").toString();
-
-            String simHash=cursor2.curr().get("myHash").toString(); //TODO:May change that
+        DBCursor cursor2 = db.getCollection("urls").find(new BasicDBObject("myHash",new BasicDBObject("$exists",true)),field);
+        List<DBObject>list=cursor2.toArray();
+        for(int i=0;i<list.size();i++)
+        {
+            String url=list.get(i).get("url").toString();
+            String simHash=list.get(i).get("myHash").toString();
             System.out.println("simhash retreived"+simHash);
-
-
-               Resources.simHash.put(url,simHash);
+            Resources.simHash.put(url,simHash);
         }
+
 
     }
 
     public static void AddFilesToDB()
     {
         System.out.println("Adding Files to db");
-        BulkWriteOperation bulk = db.getCollection("urls").initializeUnorderedBulkOperation();
-        for(int i=0;i<Resources.scheduledDownloads.size();i++)
-        {
+        try {
+            BulkWriteOperation bulk = db.getCollection("urls").initializeUnorderedBulkOperation();
+            int size= Resources.scheduledDownloads.size();
+            for (int i = 0; i <size; i++) {
 
-            FileInfo currentFile=Resources.scheduledDownloads.get(i);
+                FileInfo currentFile = Resources.scheduledDownloads.get(0);
+                 Resources.scheduledDownloads.remove(0);
 
+                BasicDBObject url = new BasicDBObject("url", currentFile.url);
+                //BasicDBObject fileName=new BasicDBObject("fileName",currentFile.fileName);
+                BasicDBObject outLinks = new BasicDBObject("outLinks", currentFile.outlinks);
+                BasicDBObject simHash = new BasicDBObject("simHash", currentFile.simHash);
+                BasicDBObject rank = new BasicDBObject("rank", Math.random() * 20);
+                BasicDBObject updated = new BasicDBObject("updated", 1);
+                //BasicDBObject title=new BasicDBObject("title",currentFile.title);
+                //    BasicDBObject headers=new BasicDBObject("headers",currentFile.headers);
+                //  BasicDBObject body=new BasicDBObject("body",currentFile.body);
+                // bulk.insert(url.append("outLinks",currentFile.outlinks).append("simHash",currentFile.simHash).append("rank", Math.random()*20).append("updated",1));
+                ArrayList<String> temp = new ArrayList<>();
 
-
-            BasicDBObject url=new BasicDBObject("url",currentFile.url);
-            //BasicDBObject fileName=new BasicDBObject("fileName",currentFile.fileName);
-            BasicDBObject outLinks=new BasicDBObject("outLinks",currentFile.outlinks);
-            BasicDBObject simHash=new BasicDBObject("simHash",currentFile.simHash);
-            BasicDBObject rank=new BasicDBObject("rank", Math.random()*20);
-            BasicDBObject updated=new BasicDBObject("updated",1);
-             //BasicDBObject title=new BasicDBObject("title",currentFile.title);
-         //    BasicDBObject headers=new BasicDBObject("headers",currentFile.headers);
-           //  BasicDBObject body=new BasicDBObject("body",currentFile.body);
-           // bulk.insert(url.append("outLinks",currentFile.outlinks).append("simHash",currentFile.simHash).append("rank", Math.random()*20).append("updated",1));
-            ArrayList<String>temp=new ArrayList<>();
-              try{
-                  bulk.find(url).upsert().update(new BasicDBObject("$set",
-                          url.append("outLinks", currentFile.outlinks).append("myHash", currentFile.myHash).append("rank", Math.random() * 20).append("updated", 1).append("title", currentFile.title).append("headers", currentFile.headers).append("body", currentFile.body).append("inLinks", temp.toArray()))
-                          .append("$currentDate", new BasicDBObject("lastModified", true)));
-
-
-                  bulk.execute();
-              }catch (BulkWriteException e)
-              {
-                  System.out.println("url must be unique");
-              }
+                    bulk.find(url).upsert().update(new BasicDBObject("$set",
+                            url.append("outLinks", currentFile.outlinks).append("myHash", currentFile.myHash).append("rank", Math.random() * 20).append("updated", 1).append("title", currentFile.title).append("headers", currentFile.headers).append("body", currentFile.body).append("inLinks", temp.toArray()))
+                            .append("$currentDate", new BasicDBObject("lastModified", true)));
 
 
 
+
+
+            }
+            bulk.execute();
         }
-
+        catch (BulkWriteException e) {
+            System.out.println("url must be unique");
+        }
     }
 
     public static void updateInlinks()

@@ -71,7 +71,7 @@ public class MyURL implements MyDBObject {
     /*------------------------------------------------------------------------------------------------------*/
 
     @Override
-    public boolean insert(DB db,String collectionName)
+    public boolean insert(DB db,String collectionName,BulkWriteOperation writer)
     {
         try {
             DBCollection col = db.getCollection(collectionName);
@@ -87,7 +87,7 @@ public class MyURL implements MyDBObject {
     }
 
     @Override
-    public void update(DB db,String collectionName,String key,Object val,String op)
+    public void update(DB db,String collectionName,String key,Object val,String op,BulkWriteOperation writer)
     {
 
         DBCollection col = db.getCollection(collectionName);
@@ -101,7 +101,7 @@ public class MyURL implements MyDBObject {
 
 
     @Override
-    public void delete(DB db,String collectionName)
+    public void delete(DB db,String collectionName,BulkWriteOperation writer)
     {
 
         DBCollection col = db.getCollection(collectionName);

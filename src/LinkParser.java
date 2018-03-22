@@ -1,5 +1,4 @@
-import java.net.HttpURLConnection;
-import java.net.URL;
+import java.net.*;
 import java.util.UUID;
 
 public class LinkParser {
@@ -53,6 +52,99 @@ public class LinkParser {
     public static boolean linksToDirectory(String url,String dir)
     {
         return url.contains(dir);
+
+       // return url.startsWith(dir);
+    }
+
+
+    public static boolean isValid(String url)
+    {
+        /* Try creating a valid URL */
+        try {
+            new URL(url).toURI();
+            return true;
+        }
+
+        // If there was an Exception
+        // while creating URL object
+        catch (Exception e) {
+            return false;
+        }
+    }
+
+
+    public static String getBaseUrl(String url)
+    {
+        String baseURL="";
+        try {
+            URL myUrl=new URL(url);
+            baseURL="";
+            String authority=myUrl.getHost();
+            String protocol=myUrl.getProtocol();
+            baseURL+=protocol;
+            baseURL+="://";
+            baseURL+=authority;
+          //  System.out.println(baseURL);
+        } catch (MalformedURLException e) {
+            e.printStackTrace();
+        }
+
+        return baseURL;
+
+    }
+
+    public static String normalize(String myURL)
+    {
+
+        try {
+            //myURL=url.toString();
+            URI myURI=new URI(myURL);
+
+            myURI.normalize(); //Removes . segments
+            String scheme=myURI.getScheme();
+            String host=myURI.getHost();
+            //Step 1: Convert the scheme and host to lowercase
+            myURL.replace(scheme,scheme.toLowerCase());
+            myURL.replace(host,host.toLowerCase());
+
+            //Step2: Remove the default ports
+            if(myURL.contains(":80")) //default port for http
+                myURL.replace(":80","");
+            else {
+                if (myURL.contains(":443")) //Default port for https
+                    myURL.replace(":443", "");
+            }
+
+            //Step3: Removing trailing slashes
+            if(myURL.lastIndexOf('/')==myURL.length()-1)
+            {
+                myURL=myURL.substring(0,myURL.length()-1);
+            }
+
+            //Step4: Remove directory index
+
+
+            //Step5: Remove fragments
+            int fragpos=myURL.indexOf('#');
+
+            if(!(fragpos==-1))
+            {
+                myURL=myURL.substring(0,fragpos);
+            }
+
+
+
+
+
+        } catch (URISyntaxException e) {
+            e.printStackTrace();
+            return "";
+        }
+
+
+
+        return myURL;
+
     }
 
 }

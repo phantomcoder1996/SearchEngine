@@ -22,7 +22,9 @@ public class RobotsFileReader {
         catch(IOException e)
         {
             e.printStackTrace();
+
         }
+
 
 
 
@@ -49,8 +51,17 @@ public class RobotsFileReader {
                           {
                              int i=line.indexOf(":");
                              line=line.substring(i+1).trim();
+                             if(line.contains("#"))
+                             {
+                                 int pos=line.indexOf("#");
+                                 line=line.substring(0,pos); //remove comments that may exist in url
+                             }
                              disallowedDirectories.add(line);
                            //  System.out.println(line);
+                          }
+                          else if(line.contains("allow"))
+                          {
+                              continue;
                           }
                           else
                           {

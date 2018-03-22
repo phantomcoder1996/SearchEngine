@@ -5,10 +5,17 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
 import java.io.*;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 import java.util.Scanner;
+import java.util.Timer;
+import java.util.TimerTask;
 
 
 public class WebCrawler {
+
+
 
   public static void main(String[] args)
   {
@@ -78,15 +85,69 @@ public class WebCrawler {
      // BFS myBFS=new BFS(5,20,"/Users/macbookpro/IdeaProjects/SearchEngine/.idea/WebPages/","/Users/macbookpro/IdeaProjects/SearchEngine/.idea/SeedSet/seedSet.txt");
      // myBFS.start();
 
-      Runtime.getRuntime().addShutdownHook(new CheckPointSaver());
+    //  Runtime.getRuntime().addShutdownHook(new CheckPointSaver());
+
+      long prevTime=System.currentTimeMillis();
       //First: Connect to the dataBase
 
       DBManager.connect("localhost",27017,"SearchEngineDB");
 
-     // loadResources(); //To start from checkpoint
+      //Crawler shall record its runTime
 
-      CommanderThread commanderThread=new CommanderThread(1000,30,"/Users/macbookpro/IdeaProjects/SearchEngine/.idea/WebPages/","/Users/macbookpro/IdeaProjects/SearchEngine/.idea/SeedSet/seedSet.txt");
+
+
+
+
+      CommanderThread commanderThread=null;
+      commanderThread = new CommanderThread(20, 30, "/Users/macbookpro/IdeaProjects/SearchEngine/.idea/WebPages/", "/Users/macbookpro/IdeaProjects/SearchEngine/.idea/SeedSet/seedSet.txt");
+
+      //start Timer and backup every two minutes
+//      Timer timer=new Timer();
+//      timer.scheduleAtFixedRate(new TimedSerialization(commanderThread),1*60*1000,1*60*1000);
+
+      // loadResources(); //To start from checkpoint
+      if(checkExists(System.getProperty("user.dir"),"backup")) {
+          deserializeCrawler(commanderThread);
+          System.out.println("Backing up after previous shutdown");
+
+      }
+      else
+      {
+          try {
+              Files.createFile(Paths.get(System.getProperty("user.dir")+"/backup.txt"));
+          } catch (IOException e) {
+              e.printStackTrace();
+          }
+          System.out.println("Crawling started");
+
+      }
       commanderThread.start();
+
+      while(Resources.getCount()<20)
+      {
+          long curTime=System.currentTimeMillis();
+          if(curTime-prevTime>=20*1000) {
+              prevTime=curTime;
+              serializeCrawler(commanderThread);
+          }
+      }
+
+     // DBManager.AddFilesToDB();
+      DBManager.updateInlinks();
+      try {
+          // commanderThread.join();
+          //Wait until commander thread terminates and then delete backup.txt
+          Files.deleteIfExists(Paths.get(System.getProperty("user.dir") + "/backup.txt"));
+      }
+//       catch (InterruptedException e) {
+//          e.printStackTrace();
+//      }
+      catch (IOException e) {
+          e.printStackTrace();
+      }
+
+
+
 
   }
 
@@ -124,6 +185,63 @@ public class WebCrawler {
           e.printStackTrace();
       }
   }
+
+    public static void serializeCrawler(CommanderThread commanderThread)
+    {
+        try {
+            System.out.println("timer task entered");
+            if(commanderThread!=null)
+            {
+                System.out.println("Starting serialization");
+                ObjectOutputStream os=new ObjectOutputStream(new FileOutputStream("backup.txt"));
+                Resources.serializeResources(os);
+                commanderThread.serializeCommanderThread(os);
+              //  os.writeObject(commanderThread);
+                os.close();
+            }
+
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+
+  public static CommanderThread deserializeCrawler(CommanderThread commanderThread)
+  {
+
+      try {
+
+          ObjectInputStream is=new ObjectInputStream(new FileInputStream(System.getProperty("user.dir")+"/backup.txt"));
+          Resources.deSerializeResources(is);
+          //commanderThread=(CommanderThread)is.readObject();
+          commanderThread.deSerializeCommanderThread(is);
+
+      } catch (IOException e) {
+          e.printStackTrace();
+          System.out.println("File backup does not exist");
+      }
+//      } catch (ClassNotFoundException e) {
+//          e.printStackTrace();
+//      }
+
+      return commanderThread;
+
+  }
+
+
+    public static boolean checkExists(String directory, String file) {
+        File dir = new File(directory);
+        File[] dir_contents = dir.listFiles();
+        String temp = file + ".txt";
+        boolean check = new File(directory,temp).exists();
+        System.out.println("Check"+check);  // -->always says false
+
+
+
+        return check;
+    }
 
 }
 

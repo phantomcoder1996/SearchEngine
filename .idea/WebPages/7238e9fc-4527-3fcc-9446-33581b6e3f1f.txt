@@ -1,0 +1,502 @@
+https://www.tutorialspoint.com/maths_tutorials.htm
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>Maths Tutorials</title> 
+  <meta name="description" content="Maths Tutorials - Tutorials for mathematics for various classes like grade-1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, nursery, high school, middle school covering CBSE,  ISC, IB and American and UK schools."> 
+  <meta name="Keywords" content="Maths, Tutorials, Tutorials, mathematics, nursery, high school, middle school, CBSE,  ISC, IB, American and UK schools, grade-1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12"> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #642122 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #642122 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #642122 !important;}
+.submenu-item{ border-bottom: 2px solid #642122 !important; border-top: 2px solid #642122 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#642122; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/red/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div id="content" class="content full"> 
+    <div class="red-bg background" style="height:330px;"> 
+     <span class="cat-title">Maths Tutorials</span> 
+     <div class="cat-punch-line">
+      <img src="/scripts/img/slides/slide-title-border.png" alt="border">
+      <span> Maths for Nursery, Middle School and High School </span>
+      <img src="/scripts/img/slides/slide-title-border.png" alt="border">
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="cg_prdts" style="position: relative; margin:-123px 0px 30px 0px;"> 
+   <div class="container"> 
+    <div class=""> 
+     <div class="col-md-3"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="container"> 
+   <div class="row"> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/3d_figures_and_volumes/index.htm" title="3D Figures and Volumes"> <img style="width:100px; height:80px;" src="/images/3d_figures_and_volumes_icon.png" alt="3D Figures and Volumes"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/angles_lines_and_polygons/index.htm" title="Angles Lines and Polygons"> <img style="width:100px; height:80px;" src="/images/angles_lines_and_polygons_icon.png" alt="Angles Lines and Polygons"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/add_and_subtract_fractions/index.htm" title="Add and Subtract Fractions"> <img style="width:100px; height:80px;" src="/images/add_and_subtract_fractions_icon.png" alt="Add and Subtract Fractions"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/add_and_subtract_whole_numbers/index.htm" title="Add and Subtract Whole Numbers"> <img style="width:100px; height:80px;" src="/images/add_and_subtract_whole_numbers_icon.png" alt="Add and Subtract Whole Numbers"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/adding_and_subtracting_decimals/index.htm" title="Add and Subtract Decimal Numbers"> <img style="width:100px; height:80px;" src="/images/adding_and_subtracting_decimals_icon.png" alt="Add and Subtract Decimal Numbers"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/circumference_and_area_of_circles/index.htm" title="Circumference and Area of Circles"> <img style="width:100px; height:80px;" src="/images/circumference_and_area_of_circles_icon.png" alt="Circumference and Area of Circles"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/converting_between_fractions_decimals_percents/index.htm" title="Convert between Fraction, Decimal &amp; Percents"> <img style="width:100px; height:80px;" src="/images/converting_between_fractions_decimals_percents_icon.png" alt="Convert between Fraction, Decimal &amp; Percents"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/converting_fractions_to_decimals/index.htm" title="Converting Fractions to Decimals"> <img style="width:100px; height:80px;" src="/images/converting_fractions_to_decimals_icon.png" alt="Converting Fractions to Decimals"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/converting_decimals_to_fractions/index.htm" title="Converting Decimals to Fractions"> <img style="width:100px; height:80px;" src="/images/converting_decimals_to_fractions_icon.png" alt="Converting Decimals to Fractions"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/equations_and_applications/index.htm" title="Equations and Applications"> <img style="width:100px; height:80px;" src="/images/equations_and_applications_icon.png" alt="Equations and Applications"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/equivalent_plotting_ordering_fractions/index.htm" title="Equivalent Plotting Ordering"> <img style="width:100px; height:80px;" src="/images/equivalent_plotting_ordering_fractions_icon.png" alt="Equivalent Plotting Ordering"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/evaluating_and_writing_expressions/index.htm" title="Evaluating and Writing Expressions"> <img style="width:100px; height:80px;" src="/images/evaluating_and_writing_expressions_icon.png" alt="Evaluating and Writing Expressions"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/finding_percents_and_percent_equations/index.htm" title="Finding Percents and Percent Equations"> <img style="width:100px; height:80px;" src="/images/finding_percents_and_percent_equations_icon.png" alt="Finding Percents and Percent Equations"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/mean_median_and_mode/index.htm" title="Mean, Median and Mode"> <img style="width:100px; height:80px;" src="/images/mean_median_and_mode_icon.png" alt="Mean, Median and Mode"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/metric_units_of_measurement/index.htm" title="Metric Units of Measurement"> <img style="width:100px; height:80px;" src="/images/metric_units_of_measurement_icon.png" alt="Metric Units of Measurement"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/mixed_numbers/index.htm" title="Mixed Numbers"> <img style="width:100px; height:80px;" src="/images/mixed_numbers_icon.png" alt="Mixed Numbers"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/multiply_and_divide_decimals/index.htm" title="Multiply and Divide Decimal Numbers"> <img style="width:100px; height:80px;" src="/images/multiply_and_divide_decimals_icon.png" alt="Multiply and Divide Decimal Numbers"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/multiply_and_divide_fractions/index.htm" title="Multiply and Divide Fractions"> <img style="width:100px; height:80px;" src="/images/multiply_and_divide_fractions_icon.png" alt="Multiply and Divide Fractions"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/multiply_and_divide_whole_numbers/index.htm" title="Learn Multiply and Divide Whole Numbers"> <img style="width:100px; height:80px;" src="/images/multiply_and_divide_whole_numbers_icon.png" alt="Learn Multiply and Divide Whole Numbers"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/ordered_pairs/index.htm" title="Ordered Pairs"> <img style="width:100px; height:80px;" src="/images/ordered_pairs_icon.png" alt="Ordered Pairs"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/ordering_rounding_and_order_of_operations/index.htm" title="Ordering and Rounding"> <img style="width:100px; height:80px;" src="/images/ordering_rounding_and_order_of_operations_icon.png" alt="Ordering and Rounding"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/operations_with_integers/index.htm" title="Operations with Integers"> <img style="width:100px; height:80px;" src="/images/operations_with_integers_icon.png" alt="Operations with Integers"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/percentage_increase_and_decrease/index.htm" title="Percentage Increase and Decrease"> <img style="width:100px; height:80px;" src="/images/percentage_increase_and_decrease_icon.png" alt="Percentage Increase and Decrease"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/perimeter_and_area/index.htm" title="Perimeter and Area"> <img style="width:100px; height:80px;" src="/images/perimeter_and_area_icon.png" alt="Perimeter and Area"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/perimeter_and_area_of_polygons/index.htm" title="Perimeter and Area of Polygons"> <img style="width:100px; height:80px;" src="/images/perimeter_and_area_of_polygons_icon.png" alt="Perimeter and Area of Polygons"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/place_value_ordering_and_rounding/index.htm" title="Place value Ordering and Rounding"> <img style="width:100px; height:80px;" src="/images/place_value_ordering_and_rounding_icon.png" alt="Place value Ordering and Rounding"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/plotting_and_comparing_signed_numbers/index.htm" title="Plotting and Comparing Signed Numbers"> <img style="width:100px; height:80px;" src="/images/plotting_and_comparing_signed_numbers_icon.png" alt="Plotting and Comparing Signed Numbers"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/prime_numbers_factors_and_multiples/index.htm" title="Prime Numbers Factors and Multiples"> <img style="width:100px; height:80px;" src="/images/prime_numbers_factors_and_multiples_icon.png" alt="Prime Numbers Factors and Multiples"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/properties_of_real_numbers/index.htm" title="Properties of Real Numbers"> <img style="width:100px; height:80px;" src="/images/properties_of_real_numbers_icon.png" alt="Properties of Real Numbers"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/ratios_and_unit_rates/index.htm" title="Ratios and Unit Rates"> <img style="width:100px; height:80px;" src="/images/ratios_and_unit_rates_icon.png" alt="Ratios and Unit Rates"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/surface_areas/index.htm" title="Surface Areas"> <img style="width:100px; height:80px;" src="/images/surface_areas_icon.png" alt="Surface Areas"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/tables_graphs_functions_and_sequences/index.htm" title="Tables Graphs Functions and Sequences"> <img style="width:100px; height:80px;" src="/images/tables_graphs_functions_and_sequences_icon.png" alt="Tables Graphs Functions and Sequences"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/writing_and_solving_one_step_equations/index.htm" title="Writing and Solving one Step Equations"> <img style="width:100px; height:80px;" src="/images/writing_and_solving_one_step_equations_icon.png" alt="Writing and Solving one Step Equations"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/writing_graphing_and_solving_inequalities/index.htm" title="Writing Graphing and Solving Inequalities"> <img style="width:100px; height:80px;" src="/images/writing_graphing_and_solving_inequalities_icon.png" alt="Writing Graphing and Solving Inequalities"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/us_customary_units/index.htm" title="US Customary Units"> <img style="width:100px; height:80px;" src="/images/us_customary_units_icon.png" alt="US Customary Units"> </a>
+     </div> 
+    </div> 
+    <h1 class="thick-heading">SELECTED READING</h1> 
+    <div class="selected-reading-boxes"> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/developers_best_practices/index.htm" title="Developer's Best Practices"> <img src="/images/developers-best-practices-icon.png" class="big-icon" alt="Developer's Best Practices"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/effective_resume_writing.htm" title="Effective Resume Writing"> <img src="/images/effective-resume-writing-icon.png" class="big-icon" alt="Effective Resume Writing"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/computer_glossary.htm" title="Computer Glossary"> <img src="/images/computer-glossary-icon.png" class="big-icon" alt="Computer Glossary"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/computer_whoiswho.htm" title="Who is Who in Computer"> <img src="/images/who-is-who-icon.png" class="big-icon" alt="Who is Who in Computer"> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <br> 
+  <footer class="inner"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="footer-ribon"> 
+      <span>Extras</span> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Mobile First</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><a class="iphone" href="https://itunes.apple.com/us/app/tutorials-point/id914891263?ls=1&amp;mt=8" target="_blank" rel="nofollow"><img alt="tutorialspoint iPhone App" src="/images/apple_store.jpg" class="mobile-apps"></a></li> 
+       <li><a class="android" href="https://play.google.com/store/apps/details?id=com.tutorialspoint.onlineviewer" target="_blank" rel="nofollow"><img alt="tutorialspoint Android app" src="/images/google_play.jpg" class="mobile-apps"></a></li> 
+       <li><a class="microsoft" href="http://www.windowsphone.com/s?appid=91249671-7184-4ad6-8a5f-d11847946b09" target="_blank" rel="nofollow"><img alt="tutorialspoint Windows app" src="/images/windows_store.jpg" class="mobile-apps"></a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>About us</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/index.htm">Company</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_team.htm">Our Team</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_careers.htm">Careers</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_privacy.htm">Privacy Policy</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_terms_of_use.htm">Terms of use</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Extra Links</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="icon icon-caret-right"></i> <a href="articles">Articles</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="online_dev_tools.htm">Dev Tools</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="free_web_graphics.htm">Free Graphics</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="online_file_conversion.htm">File Conversion</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="shared-tutorials.php">Shared Tutorials</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="https://www.tutorialspoint.com/netmeeting.php">NetMeeting</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="https://www.tutorialspoint.com/free_online_whiteboard.htm">Whiteboard</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="contact-details"> 
+       <h4>Contact Us</h4> 
+       <ul class="contact"> 
+        <li><p><i class="icon icon-map-marker"></i> <strong>Address:</strong> 3rd Floor, Jyoti Celestia, Madhapur, Hyderabad, Telangana 500081</p></li> 
+        <li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="about/contact_us.htm">Click Here</a></p></li> 
+        <li><p><i class="icon icon-dribbble"></i> <strong>Website:</strong> <a href="http://www.tutorialspoint.com">www.tutorialspoint.com</a></p></li> 
+       </ul> 
+      </div> 
+      <div class="social-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="http://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="http://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div>  
+  </footer> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/menu-style-min.css?v=1"> 
+  <script type="text/javascript" src="/theme/js/custom-min.js"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.greyout').click(function(){
+   $('.wrapLoader').show();
+});
+</script>   
+ </body>
+</html>

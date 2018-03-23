@@ -14,6 +14,7 @@ public class FileInfo implements Serializable,MyDBObject{
     public int outlinks;
     public boolean updated=false;
     public String myHash;
+    public boolean downloaded=false;
 
     public FileInfo(String url,String title,String body,String headers,String simHash,int outlinks,String myHash)
     {
@@ -22,6 +23,15 @@ public class FileInfo implements Serializable,MyDBObject{
         this.body=body;
         this.headers=headers;
         this.simHash=simHash;
+        this.outlinks=outlinks;
+        this.myHash=myHash;
+    }
+
+    public FileInfo(String url,int outlinks,String myHash)
+    {
+        this.url=url;
+
+
         this.outlinks=outlinks;
         this.myHash=myHash;
     }

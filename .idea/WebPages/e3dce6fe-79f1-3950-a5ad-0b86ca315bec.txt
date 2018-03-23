@@ -1,0 +1,1980 @@
+http://www.cairoscene.com/Calendar
+<html dir="ltr">
+ <head> 
+  <title>Calendar Page</title> 
+  <meta charset="utf-8"> 
+  <link href="https://fonts.googleapis.com/css?family=Molengo|Oswald:300,400,700" rel="stylesheet"> 
+  <link rel="SHORTCUT ICON" href="/Content/Images/favicon.png"> 
+  <link rel="stylesheet" type="text/css" href="/Content/Css/Style6.css"> 
+  <script type="text/javascript" src="/Content/Scripts/jquery-1.8.1.min.js"></script> 
+  <script type="text/javascript" src="/Content/Scripts/jquery.cycle.all.pack.js"></script> 
+  <script type="text/javascript" src="/Content/Scripts/jquery.simplyscroll.js"></script> 
+  <script type="text/javascript" src="/Content/Scripts/Scripts.js"></script> 
+  <script type="text/javascript" src="/Content/Scripts/jcarousellite_1.0.1c4.js"></script> 
+  <script>
+        $(document).ready(function () {
+            $('#s3').click(function () {
+                $('.menu-search').slideToggle("slow");
+                $(this).toggleClass('change');
+                $('#s3').toggleClass('fa-search-out');
+                //$('.over-lay').css("display","block");
+                return false;
+            })
+        });
+    </script> 
+  <!-- Facebook Pixel Code --> 
+  <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            }; if (!f._fbq) f._fbq = n;
+            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+        }(window,
+        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '467413490301320', {
+            em: 'insert_email_variable'
+        });
+        fbq('track', 'PageView');
+    </script> 
+  <noscript> &lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=467413490301320&amp;amp;ev=PageView&amp;amp;noscript=1"&gt; 
+  </noscript> 
+  <!-- DO NOT MODIFY --> 
+  <!-- End Facebook Pixel Code --> 
+  <script>
+        $(document).ready(function () {
+            $(".eventsholder").jCarouselLite({
+                btnNext: ".next",
+                btnPrev: ".prev",
+                vertical: false,
+                visible: 5,
+                auto: 0,
+                speed: 'fast',
+            });
+        });
+
+        function OpenWindow() {
+            var Win =
+            window.open('http://eepurl.com/tA-rf', 'Subscribe Mo4 News Letter', 'left=0,top=0,width=800,height=600,toolbar=0,scrollbars=0,status=0');
+            Win.focus();
+
+            //	 window.open('http://eepurl.com/tA-rf', 'Subscribe Mo4 News Letter', 'toolbar=0,status=0,width=626,height=436');
+            //          window.focus();
+        }
+    </script> 
+  <script type="text/javascript" src="/Content/Scripts/top-top.js"></script> 
+  <script type="text/javascript" src="/Content/Scripts/top-main.js"></script> 
+  <script type="text/javascript">
+        $(document).ready(function () {
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+            $('#bookmarkme').click(function (e) {
+                e.preventDefault();
+                var bookmarkURL = window.location.href;
+                var bookmarkTitle = document.title;
+
+                if ('addToHomescreen' in window && window.addToHomescreen.isCompatible) {
+                    // Mobile browsers
+                    addToHomescreen({ autostart: false, startDelay: 0 }).show(true);
+                } else if (window.sidebar && window.sidebar.addPanel) {
+                    // Firefox version < 23
+                    window.sidebar.addPanel(bookmarkTitle, bookmarkURL, '');
+                } else if ((window.sidebar && /Firefox/i.test(navigator.userAgent)) || (window.opera && window.print)) {
+                    // Firefox version >= 23 and Opera Hotlist
+                    $(this).attr({
+                        href: bookmarkURL,
+                        title: bookmarkTitle,
+                        rel: 'sidebar'
+                    }).off(e);
+                    return true;
+                } else if (window.external && ('AddFavorite' in window.external)) {
+                    // IE Favorite
+                    window.external.AddFavorite(bookmarkURL, bookmarkTitle);
+                } else {
+                    // Other browsers (mainly WebKit - Chrome/Safari)
+                    alert('Pease press ' + (/Mac/i.test(navigator.userAgent) ? 'CMD' : 'Strg') + ' + D to add this page to your favorites.');
+                }
+
+                return false;
+            });
+        });
+    </script> 
+  <link rel="stylesheet" href="/Content/Scripts/jquery-ui.min.css"> 
+  <script src="/Content/Scripts/jquery-ui.min.js"></script> 
+  <script type="text/javascript" src="/Content/Scripts/timeline-min.js"></script> 
+  <script type="text/javascript">
+        $(document).ready(function () {
+            $("#loadd").hide();
+            var timeline = new Timeline("timeline", new Date()); // start date
+
+            //Date Picker
+            $("#datepicker, #datepicker2").datepicker({ dateFormat: 'dd/mm/yy' });
+
+            $('#btn').click(function () {
+                $("#loadd").show();
+                $('.all-search-calll').html(" ");
+                var Name = $("#txtName").val();
+                var Cat = $("#CatDDL").val();
+                var Venu = $("#VenuDDL").val();
+                var Area = $("#AreaDDL").val();
+                var From = $("#datepicker").val();
+                var To = $("#datepicker2").val();
+
+                if (Cat == "") {
+                    Cat = 0
+                }
+                if (Venu == "") {
+                    Venu = 0
+                }
+                if (Area == "") {
+                    Area = 0
+                }
+                //alert(Name + " " + Cat + " " + Venu + " " + Area + " " + From + " " + To);
+                $.ajax({
+                    url: '/Calendar/Get',
+                    data: { Name: Name, Cat: Cat, Venu: Venu, Area: Area, From: From, To: To },
+                    success: function (data) {
+                        $('.all-search-calll').html(data);
+                        $("#loadd").hide();
+                    }
+                });
+            })
+        });
+    </script> 
+  <script type="text/javascript">
+        function fulldate(Day, Month, Year) {
+            $.ajax({
+                url: '/Calendar/GetEvents',
+                data: { Day: Day, Month: Month, Year: Year },
+                success: function (data) {
+                    $('.all-main-event').html(data);
+                }
+            })
+        }
+    </script> 
+ </head> 
+ <body> 
+  <!--<div style="margin: 5px auto; width: 100%;"><a target="_blank" href="http://www.nike.com/eg/en_gb/c/running/lunarepic-flyknit/?cp=gsns_brm_30616_running_nike_lunarepic_cscene"><img src="/Content/Images/nike5.jpg" style="display: block;width: 100%;" /></a></div>--> 
+  <div id="fb-root"></div> 
+  <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=184586718278101&version=v2.3";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script> 
+  <div class="header"> 
+   <div class="top-header"> 
+    <div class="center"> 
+     <div class="top-links"> 
+      <ul> 
+       <!--<li>
+                            <a href="">RSS FEED</a>
+                        </li>--> 
+       <li> <a id="cont" href="javascript:void()">Contribute</a> 
+        <div class="cont-pop"> 
+         <a href="javascript:void()" class="overlay"></a> 
+         <div class="popup"> 
+          <div class="inner-pop"> 
+           <div class="contribute-choice"> 
+            <a class="close" href="javascript:void()"></a> 
+            <div class="con-title">
+              BECOME A REGULAR CONTRIBUTOR 
+            </div> 
+            <div class="con-des">
+              If you would like to contribute regularly to CairoScene please send your CV and writing samples to 
+             <a href="mailto:info@cairoscene.com">info@cairoscene.com</a> 
+            </div> 
+           </div> 
+           <div class="contribute-choice"> 
+            <div class="con-title">
+              CONTRIBUTE AN ARTICLE 
+            </div> 
+            <div class="con-des">
+              If you have an article up your sleeve that you think is perfect for publication on CairoScene, fill in the form below, paste in your article and upload any relevant photos. If we think you're article works you'll be contacted with a publication date! 
+            </div> 
+            <div class="submit-con"> 
+             <a href="/ArticleContbuter">Contribute An Article</a> 
+            </div> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+         </div> 
+        </div> </li> 
+       <li> <a href="/SuggestEvent">Suggest Event</a> </li> 
+       <li> <a href="javascript:void();" id="bookmarkme">BookMark</a> </li> 
+       <li> <a href="/Newsletter">Subscribe</a> </li> 
+      </ul> 
+     </div> 
+     <div class="all-right-top-header"> 
+      <div class="search2"> 
+       <a id="s3" class="fa-search-out" href="javascript:void()"></a> 
+      </div> 
+      <div class="menu-search"> 
+       <div class="search-header"> 
+        <form action="/Master/Search" method="post"> 
+         <input class="text-search" type="text" placeholder="Search" name="search" required> 
+         <button class="search-button">Search</button> 
+         <div class="clear"></div> 
+        </form> 
+       </div> 
+      </div> 
+      <!--<div class="over-lay">
+                    </div>--> 
+      <div class="left-social"> 
+       <ul> 
+        <li> <a href="https://www.facebook.com/CairoScene" target="_blank"></a> </li> 
+        <li> <a href="http://instagram.com/cairoscene" target="_blank"></a> </li> 
+        <li> <a href="https://twitter.com/CairoScene" target="_blank"></a> </li> 
+        <li> <a href="https://www.youtube.com/user/CairoScene" target="_blank"></a> </li> 
+       </ul> 
+      </div> 
+      <div class="clear"></div> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+   <div class="middle-header"> 
+    <div class="center"> 
+     <div class="logo"> 
+      <h1><a href="/"><img src="/Content/Images/scene-logo.png" alt="Home"></a></h1> 
+     </div> 
+     <div class="top-ad"> 
+      <script type="text/javascript">
+<!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://gornany.info/revive/www/delivery/ajs.php':'http://gornany.info/revive/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=11530");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+      <noscript>
+       <a href="http://gornany.info/revive/www/delivery/ck.php?n=a96377f7&amp;cb=INSERT_RANDOM_NUMBER_HERE" target="_blank"><img src="http://gornany.info/revive/www/delivery/avw.php?zoneid=11530&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a96377f7" border="0" alt=""></a>
+      </noscript> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+   <div class="bottom-header"> 
+    <div class="center"> 
+     <div class="menu"> 
+      <ul> 
+       <li> <a class="org" href="/">home</a> </li> 
+       <li> <a class="org" href="/Calendar">Events</a> </li> 
+       <li> <a class="org open-sub" href="/Buzz">BUZZ</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Listicles/shatafa"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024043/d84d65e8-7046-42dd-9d09-aedd3923031f.JPG" alt="A Throne of Lies: 5 Types of Shatafa that Need to be Outlawed " width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Listicles/shatafa">A Throne of Lies: 5 Types of Shatafa that Need to be Outlawed </a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/Calling-Salma-Abu-Deif-help-us-make-this-Egyptian-s-prom-dream-come-true"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024061/806e488a-af41-4f8e-b1b5-301ebfa4ca8b.jpg" alt="Calling Salma Abu Deif, Help Us Make this Egyptian’s Prom Dream Come True" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/Calling-Salma-Abu-Deif-help-us-make-this-Egyptian-s-prom-dream-come-true">Calling Salma Abu Deif, Help Us Make this Egyptian’s Prom Dream Come True</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Fashion/Nile-Eyewear-New-Collection"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023974/4184bec6-a551-4100-b775-e4997948118e.jpg" alt="Nile Eyewear's Summer Collection Will Have You Taste the Sun and it's a Mouthful of Colour" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Fashion/Nile-Eyewear-New-Collection">Nile Eyewear's Summer Collection Will Have You Taste the Sun and it's a Mouthful of Colour</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/Religious-artefacts"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024068/5de4d0f5-70ac-4b83-8917-19c6795ecac3.jpg" alt="Egypt Finally Fully Documents all its Islamic, Coptic and Jewish Artefacts" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/Religious-artefacts">Egypt Finally Fully Documents all its Islamic, Coptic and Jewish Artefacts</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/eighty-million-trash"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024064/61134517-ea75-4f01-aa8f-5e6f30a1eda8.jpg" alt="Minister of Environment: Egypt Produces 80 Million Tonnes of Waste Annually" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/eighty-million-trash">Minister of Environment: Egypt Produces 80 Million Tonnes of Waste Annually</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/Buzz">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/In-Depth">In-Depth</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/In-Depth/modern-love"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024018/fb88a0bc-34c2-4e87-96da-6ec11ec07046.jpg" alt="This Modern <3 : Screening Intimacy" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/In-Depth/modern-love">This Modern &lt;3 : Screening Intimacy</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/ArtsAndCulture/darb-al-ahmar-craftsmen-british-photographer"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024041/59009f6a-3fca-4beb-9eae-40f95b235e9c.jpg" alt="Meet the British Photographer Who Captured Darb Al Ahmar's Forgotten Craftsmen" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/ArtsAndCulture/darb-al-ahmar-craftsmen-british-photographer">Meet the British Photographer Who Captured Darb Al Ahmar's Forgotten Craftsmen</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/In-Depth/egyptians-name-change"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024025/d0a3d5cf-1a2f-459d-b160-b1263e01ebfe.jpg" alt="What’s in a Name: Egyptians Recount How They Got Theirs Changed" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/In-Depth/egyptians-name-change">What’s in a Name: Egyptians Recount How They Got Theirs Changed</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/In-Depth/The-Democratic-Republic-of-Zamalek-The-Return-of-the-Prodigal-Son-Part-I"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023873/7d1c02bd-b704-4715-9556-94c3fd96d629.jpg" alt="The Democratic Republic of Zamalek: The Return of the Prodigal Son (Part II)" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/In-Depth/The-Democratic-Republic-of-Zamalek-The-Return-of-the-Prodigal-Son-Part-I">The Democratic Republic of Zamalek: The Return of the Prodigal Son (Part II)</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Business/john-casson-interview"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024017/a3c8f691-81b2-455c-b437-012afd27ff59.jpg" alt="John Casson, Egypt's Most Entrepreneurial Ambassador" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Business/john-casson-interview">John Casson, Egypt's Most Entrepreneurial Ambassador</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/In-Depth">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/LifeStyle">LIFESTYLE</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Fashion/Nile-Eyewear-New-Collection"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023974/4184bec6-a551-4100-b775-e4997948118e.jpg" alt="Nile Eyewear's Summer Collection Will Have You Taste the Sun and it's a Mouthful of Colour" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Fashion/Nile-Eyewear-New-Collection">Nile Eyewear's Summer Collection Will Have You Taste the Sun and it's a Mouthful of Colour</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Listicles/egyptians-afraid"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023966/7c668b4d-c869-4287-8a6d-9851da8a276a.jpg" alt="7 Things Egyptians are Afraid of " width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Listicles/egyptians-afraid">7 Things Egyptians are Afraid of </a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Eats/oak-grill-lebanese-conrad"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023907/b8b8d95a-9b74-4960-b50f-b8dec7e7c171.jpg" alt="An Honest to God Review of Conrad Cairo's Oak Grill" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Eats/oak-grill-lebanese-conrad">An Honest to God Review of Conrad Cairo's Oak Grill</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/LifeStyle/prime-residential-serviced-apartments-egypt"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023848/85f538b7-0b61-484f-8899-ae465e8a586f.jpg" alt="Prime Residential: The First Serviced Apartments Rental Company in Egypt" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/LifeStyle/prime-residential-serviced-apartments-egypt">Prime Residential: The First Serviced Apartments Rental Company in Egypt</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/talalya-egyptian-craftswomen"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023986/a5332530-4a95-4822-a749-330832623ac0.jpg" alt="Talalya: Crochet Beachwear Empowering Egyptian Craftswomen " width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/talalya-egyptian-craftswomen">Talalya: Crochet Beachwear Empowering Egyptian Craftswomen </a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/LifeStyle">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/Fashion">Fashion</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Fashion/Nile-Eyewear-New-Collection"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023974/4184bec6-a551-4100-b775-e4997948118e.jpg" alt="Nile Eyewear's Summer Collection Will Have You Taste the Sun and it's a Mouthful of Colour" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Fashion/Nile-Eyewear-New-Collection">Nile Eyewear's Summer Collection Will Have You Taste the Sun and it's a Mouthful of Colour</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Fashion/kojak-spring-collection-fairy-daze"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024024/c0562900-b7e1-4eaf-9c98-7d49136c1d25.jpeg" alt="Kojak's Spring Collection is Your Fairy-Tale Waiting to Happen" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Fashion/kojak-spring-collection-fairy-daze">Kojak's Spring Collection is Your Fairy-Tale Waiting to Happen</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/talalya-egyptian-craftswomen"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023986/a5332530-4a95-4822-a749-330832623ac0.jpg" alt="Talalya: Crochet Beachwear Empowering Egyptian Craftswomen " width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/talalya-egyptian-craftswomen">Talalya: Crochet Beachwear Empowering Egyptian Craftswomen </a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/jude-benhalim-mothers-day-bullet-collection"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024007/3d1b4ab9-de97-424f-bfea-709749931841.jpg" alt="Take a Bullet for Your Mama This Mother's Day, Courtesy of Jude Benhalim" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/jude-benhalim-mothers-day-bullet-collection">Take a Bullet for Your Mama This Mother's Day, Courtesy of Jude Benhalim</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Fashion/5-Egyptian-Designers-Killing-it-at-International-Fashion-Weeks"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023800/a407023e-5dea-4e42-a664-e640fca010d8.jpg" alt="5 Egyptian Designers Killing it at International Fashion Weeks" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Fashion/5-Egyptian-Designers-Killing-it-at-International-Fashion-Weeks">5 Egyptian Designers Killing it at International Fashion Weeks</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/Fashion">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/Eats">Eats</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Eats/oak-grill-lebanese-conrad"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023907/b8b8d95a-9b74-4960-b50f-b8dec7e7c171.jpg" alt="An Honest to God Review of Conrad Cairo's Oak Grill" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Eats/oak-grill-lebanese-conrad">An Honest to God Review of Conrad Cairo's Oak Grill</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/Mother-s-Day-Guide-2018"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023993/ce9ca1d8-16d8-4b0c-8a70-a350b9540d58.jpg" alt="Mother's Day Guide 2018" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/Mother-s-Day-Guide-2018">Mother's Day Guide 2018</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/tap-paddy"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023983/bc7de2f8-954a-4c3a-a7b5-db52389b8111.jpg" alt="Green Beer is Just the Beginning at The Tap this St. Patrick's Day" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/tap-paddy">Green Beer is Just the Beginning at The Tap this St. Patrick's Day</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Eats/carlo-concorde-italiano"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023924/6c74de45-bfe6-4397-b965-84b1211cfe03.jpg" alt="Cooking Up Memories: A Chat With Chef Carlo Di Nunzio at The Concorde" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Eats/carlo-concorde-italiano">Cooking Up Memories: A Chat With Chef Carlo Di Nunzio at The Concorde</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/healthy-food-poke-ball-lyfe"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023888/0f5a696f-4157-4f9e-ae90-b6714f21bf65.jpg" alt="There's a New Hawaiian Healthy Food Trend in Town and it's Called the 'Poke Bowl'" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/healthy-food-poke-ball-lyfe">There's a New Hawaiian Healthy Food Trend in Town and it's Called the 'Poke Bowl'</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/Eats">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/ArtsAndCulture">ARTS &amp; CULTURE</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/welad-el-balad-media-egypt-heritage"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023947/9181c0dd-cf35-4aaa-83b1-502ab01290d3.jpg" alt="How One Local Media Company is Taking a New Approach to Preserving Egypt's Cultural Heritage" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/welad-el-balad-media-egypt-heritage">How One Local Media Company is Taking a New Approach to Preserving Egypt's Cultural Heritage</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/ArtsAndCulture/darb-al-ahmar-craftsmen-british-photographer"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024041/59009f6a-3fca-4beb-9eae-40f95b235e9c.jpg" alt="Meet the British Photographer Who Captured Darb Al Ahmar's Forgotten Craftsmen" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/ArtsAndCulture/darb-al-ahmar-craftsmen-british-photographer">Meet the British Photographer Who Captured Darb Al Ahmar's Forgotten Craftsmen</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/ArtsAndCulture/alexandria-3000"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023988/00d683c4-fb13-4e76-a285-8944e2d0fb0a.jpg" alt="Alexandria 3000: Egyptian Artists Weaving Visions of a Time Yet to Come" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/ArtsAndCulture/alexandria-3000">Alexandria 3000: Egyptian Artists Weaving Visions of a Time Yet to Come</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/ArtsAndCulture/jebel-banat"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023949/ee67cd99-4cf1-4a2d-b95b-c59b89aa96d0.jpg" alt="Jebel Banat: A Bedouin Tale of Freedom Goes to Cannes' Short Film Corner" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/ArtsAndCulture/jebel-banat">Jebel Banat: A Bedouin Tale of Freedom Goes to Cannes' Short Film Corner</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Listicles/Grand-love-gestures-throughout-Egyptian-history"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023943/4e188167-dc0a-4c38-b74a-374818940b88.jpg" alt="6 Grand Love Gestures Throughout Egyptian History" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Listicles/Grand-love-gestures-throughout-Egyptian-history">6 Grand Love Gestures Throughout Egyptian History</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/ArtsAndCulture">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/SceneNoise"> SCENE NOISE </a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/SceneNoise/11-Must-Watch-Middle-Eastern-Music-Documentaries"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023897/6589461c-fef4-478f-b9e9-07b13227a7d1.jpg" alt="11 Must-Watch Middle Eastern Music Documentaries" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/SceneNoise/11-Must-Watch-Middle-Eastern-Music-Documentaries">11 Must-Watch Middle Eastern Music Documentaries</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/SceneNoise/Youssra-El-Hawary-Presents-her-Debut-Album-at-Intimate-Performance"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023598/fbeac778-07c5-46d7-b7c0-ac5f1e03afa9.jpg" alt="Youssra El Hawary Debuts her First Album with an Intimate Performance" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/SceneNoise/Youssra-El-Hawary-Presents-her-Debut-Album-at-Intimate-Performance">Youssra El Hawary Debuts her First Album with an Intimate Performance</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/SceneNoise/Relive-The-Chill-O-Posite-Experience-Dahab-s-Biggest-Music-Festival-To-Date"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023570/06dcf5a9-0e2c-49e0-b90a-196a1dde177f.png" alt="Relive The Chill O'Posite Experience, Dahab's Biggest Music Festival To Date" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/SceneNoise/Relive-The-Chill-O-Posite-Experience-Dahab-s-Biggest-Music-Festival-To-Date">Relive The Chill O'Posite Experience, Dahab's Biggest Music Festival To Date</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/SceneNoise/Youssra-El-Hawary-Teases-us-With-a-Sleek-Single-Bas-Kollo-Yehoo"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023513/6a1d0035-7c14-4bf5-beed-33fc68f2b4e5.jpg" alt="Youssra El Hawary Teases with Sleek New Single “Bas Kollo Yehoon”" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/SceneNoise/Youssra-El-Hawary-Teases-us-With-a-Sleek-Single-Bas-Kollo-Yehoo">Youssra El Hawary Teases with Sleek New Single “Bas Kollo Yehoon”</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/SceneNoise/Nader-Sadek-interviews-Nile-s-Karl-Sanders-Derek-Roddy-and-Mahmud-Gecekusu-In-Egypt"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023509/7dceb766-55bd-491a-8c83-24292b4f2ea5.png" alt="Nader Sadek interviews Nile's Karl Sanders, Derek Roddy and Mahmud Gecekusu In Egypt" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/SceneNoise/Nader-Sadek-interviews-Nile-s-Karl-Sanders-Derek-Roddy-and-Mahmud-Gecekusu-In-Egypt">Nader Sadek interviews Nile's Karl Sanders, Derek Roddy and Mahmud Gecekusu In Egypt</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/SceneNoise">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/Business">Business</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Business/john-casson-interview"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024017/a3c8f691-81b2-455c-b437-012afd27ff59.jpg" alt="John Casson, Egypt's Most Entrepreneurial Ambassador" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Business/john-casson-interview">John Casson, Egypt's Most Entrepreneurial Ambassador</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Business/RoadCast-On-Demand-Entertainment-on-Your-Commute"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023882/9894642b-4acf-449a-a215-4067e7c5478c.JPG" alt="RoadCast: On-Demand Entertainment on Your Commute" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Business/RoadCast-On-Demand-Entertainment-on-Your-Commute">RoadCast: On-Demand Entertainment on Your Commute</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/LifeStyle/How-Bushra-Teamed-Up-With-2-Startups-To-Inspire-400-000-Egyptians"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023745/f8cca079-a9ea-4e5f-a1da-78d3bac84f05.jpg" alt="How Bushra Teamed Up With 2 Startups To Inspire 400,000 Egyptians" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/LifeStyle/How-Bushra-Teamed-Up-With-2-Startups-To-Inspire-400-000-Egyptians">How Bushra Teamed Up With 2 Startups To Inspire 400,000 Egyptians</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Business/Dubai-Lynx-Kicks-Off-to-Shake-Up-the-Creative-Sector-in-the-Middle-East"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023717/59d1f65a-951b-480b-97bd-d49fb646e5f9.JPG" alt="Dubai Lynx Kicks Off to Shake Up the Creative Sector in the Middle East" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Business/Dubai-Lynx-Kicks-Off-to-Shake-Up-the-Creative-Sector-in-the-Middle-East">Dubai Lynx Kicks Off to Shake Up the Creative Sector in the Middle East</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Business/Meet-the-Marketing-Mavens-Behind-The-Success-of-some-of-Egypt-s-Biggest-Brands"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/973350/2e86ba64-2801-437a-b25f-73acf1352f41.jpg" alt="Meet the Marketing Mavens Behind The Success of some of Egypt's Biggest Brands" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Business/Meet-the-Marketing-Mavens-Behind-The-Success-of-some-of-Egypt-s-Biggest-Brands">Meet the Marketing Mavens Behind The Success of some of Egypt's Biggest Brands</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/BusinessAndPolitics">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/Geek">Geek</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/sophia-robot-egypt-summit"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024010/96782611-599d-4896-9f0e-757c589a77f5.jpg" alt="AI Robot that Wants to Destroy Humans is Coming to Egypt" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/sophia-robot-egypt-summit">AI Robot that Wants to Destroy Humans is Coming to Egypt</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Geek/egyptian-game-developers"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023856/432522b4-0dcd-4410-96be-8c05df28f48d.jpeg" alt="6 Egyptian Game Studios Keeping Local Gaming Alive" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Geek/egyptian-game-developers">6 Egyptian Game Studios Keeping Local Gaming Alive</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Geek/mate-10-lite-update"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023805/af995cb8-4dc5-4c01-a504-e685ea826f66.gif" alt="Your Notifications Will Only Be Visible To You With The New Face Unlock Feature From Huawei " width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Geek/mate-10-lite-update">Your Notifications Will Only Be Visible To You With The New Face Unlock Feature From Huawei </a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Geek/OPPO-F5-Red"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023726/8a2481ff-bdd0-488a-94a9-28e3559b43c1.jpg" alt="OPPO's Limited Edition F5 Red: Improving On a Winning Formula" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Geek/OPPO-F5-Red">OPPO's Limited Edition F5 Red: Improving On a Winning Formula</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/global-game-jam-2018"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023719/42278294-e225-453d-9bae-95febc7d08bf.jpg" alt="Egypt Hosts The World's Largest Game Hackathon" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/global-game-jam-2018">Egypt Hosts The World's Largest Game Hackathon</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/Geek">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/Travel">Travel</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/LifeStyle/couples-marriage-vacationgoals"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023829/db6e5366-b335-4b11-a9c8-e28346a47aea.jpg" alt="This Egyptian Couples Therapist Will Fix Your Marriage Via #VacationGoals" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/LifeStyle/couples-marriage-vacationgoals">This Egyptian Couples Therapist Will Fix Your Marriage Via #VacationGoals</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/Egyptian-Cycling-Egypt-Sudan"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023889/783bf437-3cad-4c7e-89d0-2709145314ea.jpg" alt="This 50-Year-Old Egyptian is Cycling From Egypt To Sudan and Back" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/Egyptian-Cycling-Egypt-Sudan">This 50-Year-Old Egyptian is Cycling From Egypt To Sudan and Back</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Travel/flyin-best-travel-agency-mena"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023859/a287e489-b710-42fa-9630-3652c6c1e874.jpg" alt="Flyin.com Crowned ‘Best Online Travel Agency’ in MENA for Third Year Running" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Travel/flyin-best-travel-agency-mena">Flyin.com Crowned ‘Best Online Travel Agency’ in MENA for Third Year Running</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Listicles/9-Best-Boutique-Hotels-in-Egypt"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023730/3caec8af-e834-4bf1-a766-734758a82ae1.jpg" alt="9 Gorgeous Boutique Hotels in Egypt" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Listicles/9-Best-Boutique-Hotels-in-Egypt">9 Gorgeous Boutique Hotels in Egypt</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/5-Photos-of-The-4-400-Year-Old-Tomb-Unearthed-Near-Giza-Pyramids-on-Saturday"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023783/0f0df48a-61a3-4f2f-bd62-21250196181e.jpg" alt="5 Photos of The 4,400-Year-Old Tomb Unearthed Near Giza Pyramids on Saturday" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/5-Photos-of-The-4-400-Year-Old-Tomb-Unearthed-Near-Giza-Pyramids-on-Saturday">5 Photos of The 4,400-Year-Old Tomb Unearthed Near Giza Pyramids on Saturday</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/Travel">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/Listicles">Listicles</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Listicles/shatafa"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024043/d84d65e8-7046-42dd-9d09-aedd3923031f.JPG" alt="A Throne of Lies: 5 Types of Shatafa that Need to be Outlawed " width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Listicles/shatafa">A Throne of Lies: 5 Types of Shatafa that Need to be Outlawed </a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Listicles/egyptians-afraid"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023966/7c668b4d-c869-4287-8a6d-9851da8a276a.jpg" alt="7 Things Egyptians are Afraid of " width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Listicles/egyptians-afraid">7 Things Egyptians are Afraid of </a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Listicles/Grand-love-gestures-throughout-Egyptian-history"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023943/4e188167-dc0a-4c38-b74a-374818940b88.jpg" alt="6 Grand Love Gestures Throughout Egyptian History" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Listicles/Grand-love-gestures-throughout-Egyptian-history">6 Grand Love Gestures Throughout Egyptian History</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/ArtsAndCulture/dcaf-guide-2018"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023887/276a5392-d76e-4420-8a9b-9b6e2a644ddd.jpg" alt="The Culture Vulture's Guide to D-CAF 2018" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/ArtsAndCulture/dcaf-guide-2018">The Culture Vulture's Guide to D-CAF 2018</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/SceneNoise/11-Must-Watch-Middle-Eastern-Music-Documentaries"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023897/6589461c-fef4-478f-b9e9-07b13227a7d1.jpg" alt="11 Must-Watch Middle Eastern Music Documentaries" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/SceneNoise/11-Must-Watch-Middle-Eastern-Music-Documentaries">11 Must-Watch Middle Eastern Music Documentaries</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/Listicles">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org" href="/SceneTv"> SCENE TV</a> </li> 
+       <li> <a class="org" href="/Movies">CINEMA GUIDE</a> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="container"> 
+   <div class="left-side"> 
+   </div> 
+   <!--End of left--> 
+   <!--right-side--> 
+   <div class="right-side"> 
+   </div> 
+   <div class="clear"> 
+   </div> 
+   <div class="calender-internal"> 
+    <div class="under-recommend"> 
+     <div class="left-calender"> 
+      <div class="calender-page"> 
+       <section class="tabs"> 
+        <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked> 
+        <label for="tab-1" class="tab-label-1">EVENTS CALENDAR</label> 
+        <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2"> 
+        <label for="tab-2" class="tab-label-2">EXPLORE</label> 
+        <div class="clear-shadow"></div> 
+        <div class="content-tab"> 
+         <div class="content-1"> 
+          <div class="inner-calender"> 
+           <div class="calender-date"> 
+            <!--wrap--> 
+            <div id="wrap"> 
+             <div id="timeline"> 
+              <script>
+                                                $(".timeline_top ul li a").click(function (e) {
+                                                    e.preventDefault();
+                                                    $(this).addClass("today").siblings().removeClass("today");
+                                                    $(".timeline_bottom ul li a").addClass("today").siblings().removeClass("today");
+                                                });
+
+                                                $(".timeline_bottom ul li a").click(function (e) {
+                                                    e.preventDefault();
+                                                    $(this).addClass("today").siblings().removeClass("today");
+                                                    $(".timeline_top ul li a").addClass("today").siblings().removeClass("today");
+                                                });
+                                            </script> 
+             </div> 
+            </div> 
+            <!--end warp--> 
+           </div> 
+           <div class="all-main-event"> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123315"><img src="/Content/Admin/Uploads/EventsImages/04810420-b4a1-48cd-92ec-3416be0fab5f.jpg" alt="Habibi Funk &amp; Nur @ Mantis"></a> 
+              <div class="date">
+                Bars 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123315">Habibi Funk &amp; Nur @ Mantis</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 3:00pm - 10:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Mantis 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122963"><img src="/Content/Admin/Uploads/EventsImages/39a5d858-a5e6-4732-b867-60d7d55f07f4.jpg" alt="D-CAF: Aysha @ Studio Nasibian Theater"></a> 
+              <div class="date">
+                Theatre 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122963">D-CAF: Aysha @ Studio Nasibian Theater</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 8:00pm - 9:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Jesuit Cairo 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123025"><img src="/Content/Admin/Uploads/EventsImages/bfb99683-7c3b-4509-9688-903f99156a58.jpg" alt="Saturday Brunch &amp; Chill @ CJC 610"></a> 
+              <div class="date">
+                Clubs 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123025">Saturday Brunch &amp; Chill @ CJC 610</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 2:00pm - 8:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Cairo Jazz Club 610 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123316"><img src="/Content/Admin/Uploads/EventsImages/bd088f05-d2df-4f3d-897a-e77d6b5be40d.jpg" alt="Pure House ft. Ayman Nageeb @ AEON"></a> 
+              <div class="date">
+                Bars 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123316">Pure House ft. Ayman Nageeb @ AEON</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 10:00pm - 3:00am 
+             </div> 
+             <div class="event-info">
+               Venue: AEON 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122986"><img src="/Content/Admin/Uploads/EventsImages/63814fa1-a5c3-496a-b08b-b2ff2566bd3d.jpg" alt="D-CAF: Street Performances"></a> 
+              <div class="date">
+                Dance 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122986">D-CAF: Street Performances</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 1:30pm - 4:30pm 
+             </div> 
+             <div class="event-info">
+               Venue: Sultan Al-Ashraf Qaytbay Mosque 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123216"><img src="/Content/Admin/Uploads/EventsImages/427278c4-73a5-49d0-b3fc-9a182c858cf0.jpg" alt="BIT TUNER @  Underground After 8"></a> 
+              <div class="date">
+                Clubs 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123216">BIT TUNER @ Underground After 8</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 9:00pm - 
+             </div> 
+             <div class="event-info">
+               Venue: Underground Cairo 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123306"><img src="/Content/Admin/Uploads/EventsImages/5a9a2f9d-3691-4b49-87d6-5f1d47db39ab.jpg" alt="Bluezophrenia &amp; Crazy Ahmed @ The Tap East"></a> 
+              <div class="date">
+                Bars 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123306">Bluezophrenia &amp; Crazy Ahmed @ The Tap East</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 5:00pm - 3:00am 
+             </div> 
+             <div class="event-info">
+               Venue: The Tap East 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123179"><img src="/Content/Admin/Uploads/EventsImages/fe601157-9ae1-4ae7-ae1f-42e5e13bdd88.jpg" alt="Basata @ Cairo Jazz Club"></a> 
+              <div class="date">
+                Clubs 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123179">Basata @ Cairo Jazz Club</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 10:30pm - 3:00am 
+             </div> 
+             <div class="event-info">
+               Venue: Cairo Jazz Club 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122972"><img src="/Content/Admin/Uploads/EventsImages/6dbd6952-88e7-4a7e-a773-9d7918aded3d.jpg" alt="D-CAF: The Second Copy 2045 @ French Consulate"></a> 
+              <div class="date">
+                Theatre 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122972">D-CAF: The Second Copy 2045 @ French Consulate</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 8:30pm - 9:30pm 
+             </div> 
+             <div class="event-info">
+               Venue: Old French Consulate 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123308"><img src="/Content/Admin/Uploads/EventsImages/6b9a907c-3d26-4e77-80a8-732ac0994b3a.jpg" alt="B.O.G.O @ The Tap Maadi"></a> 
+              <div class="date">
+                Bars 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123308">B.O.G.O @ The Tap Maadi</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 6:00pm - 3:00am 
+             </div> 
+             <div class="event-info">
+               Venue: The Tap Maadi 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122937"><img src="/Content/Admin/Uploads/EventsImages/53109d47-5897-494d-a221-24a60b245a11.49.49.png" alt="Fine Lines @ Ubuntu Gallery"></a> 
+              <div class="date">
+                Exhibitions 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122937">Fine Lines @ Ubuntu Gallery</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 11:00am - 8:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Ubuntu Art Gallery 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122989"><img src="/Content/Admin/Uploads/EventsImages/148fa2d6-48fb-4a77-9303-67217f9844bf.jpg" alt="D-CAF: Small Rooms @ El Warsha"></a> 
+              <div class="date">
+                Theatre 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122989">D-CAF: Small Rooms @ El Warsha</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 5:00pm - 6:30pm 
+             </div> 
+             <div class="event-info">
+               Venue: El Warsha 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123322"><img src="/Content/Admin/Uploads/EventsImages/83d84a57-a6fd-41ff-a3d7-284d765e645d.jpg" alt="Ezz El Ostool @ ROOM Art Space"></a> 
+              <div class="date">
+                Concerts 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123322">Ezz El Ostool @ ROOM Art Space</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 9:00pm - 11:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Room Art Space 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122975"><img src="/Content/Admin/Uploads/EventsImages/be4da830-40ad-4872-8a74-9e10303df783.jpg" alt="D-CAF: And Here I Am @ Townhouse Gallery"></a> 
+              <div class="date">
+                Theatre 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122975">D-CAF: And Here I Am @ Townhouse Gallery</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 6:00pm - 7:30pm 
+             </div> 
+             <div class="event-info">
+               Venue: Townhouse Gallery 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/119231"><img src="/Content/Admin/Uploads/EventsImages/f0a7455a-52df-4395-bbd9-feb665aadc3e.jpg" alt="Psychology Workshop @ Bardo Clubhouse"></a> 
+              <div class="date">
+                Workshop 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/119231">Psychology Workshop @ Bardo Clubhouse</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 7:00pm - 9:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Bardo Clubhouse 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122876"><img src="/Content/Admin/Uploads/EventsImages/0e4c7303-e7b7-4fe2-a3b8-3393f9ec8b86.jpg" alt="Amro and the Big Bang Boogie @ CJC 610"></a> 
+              <div class="date">
+                Clubs 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122876">Amro and the Big Bang Boogie @ CJC 610</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 8:00pm - 3:00am 
+             </div> 
+             <div class="event-info">
+               Venue: Cairo Jazz Club 610 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122951"><img src="/Content/Admin/Uploads/EventsImages/94af9af7-a543-4e6a-ab40-dc78bdc613eb.jpg" alt="Baraka @ Ubuntu Art Gallery"></a> 
+              <div class="date">
+                Exhibitions 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122951">Baraka @ Ubuntu Art Gallery</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 11:00am - 8:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Ubuntu Art Gallery 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123319"><img src="/Content/Admin/Uploads/EventsImages/4022983b-4ab7-4a7c-bc54-b3a1d376ea4b.jpg" alt="Crystal Band @ 3elbt Alwan"></a> 
+              <div class="date">
+                Concerts 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123319">Crystal Band @ 3elbt Alwan</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 8:00pm - 12:0am 
+             </div> 
+             <div class="event-info">
+               Venue: 3elbt Alwan Maadi 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122827"><img src="/Content/Admin/Uploads/EventsImages/93f49ff4-22e5-48b0-a1cc-9d13502a97aa.jpg" alt="Landscapes @ Mashrabia Gallery"></a> 
+              <div class="date">
+                Exhibitions 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122827">Landscapes @ Mashrabia Gallery</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 11:00am - 8:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Mashrabia Art Gallery 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122644"><img src="/Content/Admin/Uploads/EventsImages/a7f72e5f-88e6-4b40-911e-59e842425563.jpg" alt="Short Film Workshop @ Magnolia"></a> 
+              <div class="date">
+                Workshop 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122644">Short Film Workshop @ Magnolia</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 7:00pm - 9:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Magnolia Cafe 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/120324"><img src="/Content/Admin/Uploads/EventsImages/090e97cd-8c21-45a4-a7bb-d52039fd75fe.jpg" alt="Shot of Acting @ SOMA Art"></a> 
+              <div class="date">
+                Workshop 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/120324">Shot of Acting @ SOMA Art</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 6:00pm - 10:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: SOMA Art 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123129"><img src="/Content/Admin/Uploads/EventsImages/4c9fb524-54ec-4285-a5c6-2c15f8441f8e.jpg" alt="Mother's Day Spa Package @ Mandara Spa"></a> 
+              <div class="date">
+                Variety 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123129">Mother's Day Spa Package @ Mandara Spa</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 10:00am - 10:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: JW Marriott Hotel Cairo 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/104719"><img src="/Content/Admin/Uploads/EventsImages/eee45bb2-fcde-407a-8598-2e5ff75950a4.jpg" alt="Fashion Design Diploma @ Kemet Art"></a> 
+              <div class="date">
+                Workshop 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/104719">Fashion Design Diploma @ Kemet Art</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 6:00pm - 10:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Kemet Art &amp; Design 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122982"><img src="/Content/Admin/Uploads/EventsImages/71e300ba-e6c8-4696-b3bf-b696615d95d5.jpg" alt="D-CAF: Disability in the Arts @ Greek Campus"></a> 
+              <div class="date">
+                Debate 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122982">D-CAF: Disability in the Arts @ Greek Campus</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 5:00pm - 7:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: The Greek Campus 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123168"><img src="/Content/Admin/Uploads/EventsImages/5d8db525-971b-42d4-a54d-70a45bb446d2.jpg" alt="Spa Day @ Four Seasons Nile Plaza"></a> 
+              <div class="date">
+                Variety 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123168">Spa Day @ Four Seasons Nile Plaza</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 12:00pm - 12:0am 
+             </div> 
+             <div class="event-info">
+               Venue: Four Seasons Hotel Cairo at Nile Plaza 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122980"><img src="/Content/Admin/Uploads/EventsImages/13baa3ed-0ee1-46a4-87b7-c02f6c0282a9.jpg" alt="D-CAF: And Here I Am @ Townhouse  Gallery"></a> 
+              <div class="date">
+                Theatre 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122980">D-CAF: And Here I Am @ Townhouse Gallery</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 6:00pm - 7:30pm 
+             </div> 
+             <div class="event-info">
+               Venue: Townhouse Gallery 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123052"><img src="/Content/Admin/Uploads/EventsImages/7588a7d0-33be-4395-ab64-d0cbbc8ff782.jpg" alt="Videography by Cariman Alfi @ Photopia"></a> 
+              <div class="date">
+                Workshop 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123052">Videography by Cariman Alfi @ Photopia</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 5:00pm - 9:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Photopia Studio 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123087"><img src="/Content/Admin/Uploads/EventsImages/a542a64c-7522-49aa-9423-cd8971fe0241.jpg" alt="Mother's Day @ JW Marriot "></a> 
+              <div class="date">
+                Dining 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123087">Mother's Day @ JW Marriot </a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 1:00pm - 11:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: JW Marriott Hotel Cairo 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122958"><img src="/Content/Admin/Uploads/EventsImages/d6a73315-1515-408e-8570-3bdf2205dbae.jpg" alt="D-CAF: IETM Satellite Meeting @ Greek Campus"></a> 
+              <div class="date">
+                Debate 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122958">D-CAF: IETM Satellite Meeting @ Greek Campus</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 10:00am - 12:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: The Greek Campus 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122973"><img src="/Content/Admin/Uploads/EventsImages/27622714-15f7-48c2-b5c3-c65b6b803e72.jpg" alt="D-CAF: Ta’ Sakena @ Old French Consulate"></a> 
+              <div class="date">
+                Theatre 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122973">D-CAF: Ta’ Sakena @ Old French Consulate</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 6:30pm - 7:30pm 
+             </div> 
+             <div class="event-info">
+               Venue: Old French Consulate 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122959"><img src="/Content/Admin/Uploads/EventsImages/f8b95066-1108-4bcf-b0e3-fb5a5e2f26c9.jpg" alt="D-CAF: As Far as My Fingers Take Me @ Hub "></a> 
+              <div class="date">
+                Culture 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122959">D-CAF: As Far as My Fingers Take Me @ Hub </a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 4:00pm - 10:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Downtown 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123259"><img src="/Content/Admin/Uploads/EventsImages/481fef94-b2c1-4614-aeb3-c03c7892296e.jpg" alt="Karaoke Night @  Basement Pub"></a> 
+              <div class="date">
+                Bars 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123259">Karaoke Night @ Basement Pub</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 8:00pm - 2:00am 
+             </div> 
+             <div class="event-info">
+               Venue: Basement - Urban Pub 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/123001"><img src="/Content/Admin/Uploads/EventsImages/f86a588e-ba5d-49e0-9157-9b9edfb8b2ad.jpg" alt="D-CAF: The Store @ Site-Specific Theatre"></a> 
+              <div class="date">
+                Variety 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/123001">D-CAF: The Store @ Site-Specific Theatre</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 5:00pm - 10:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Downtown 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122756"><img src="/Content/Admin/Uploads/EventsImages/20225e7b-1787-43d6-8b09-19236afc7796.jpg" alt="From Still to Life I Rostom @ ART TALKS"></a> 
+              <div class="date">
+                Exhibitions 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122756">From Still to Life I Rostom @ ART TALKS</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 6:00pm - 9:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Art Talks 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122962"><img src="/Content/Admin/Uploads/EventsImages/ee143547-7daa-4d6f-a332-46c7ae371177.jpg" alt="D-CAF: Writing Workshops @ Studio Emad Eddin"></a> 
+              <div class="date">
+                Workshop 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122962">D-CAF: Writing Workshops @ Studio Emad Eddin</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 5:00pm - 4:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Studio Emad Eddin 
+             </div> 
+            </div> 
+            <div class="main-event"> 
+             <div class="event-photo"> 
+              <a href="/Events/122931"><img src="/Content/Admin/Uploads/EventsImages/65a38325-e0d3-43b6-9172-6451563b7b9b.jpg" alt="Futuristic Nostalgia's @ Zamalek Art Gallery"></a> 
+              <div class="date">
+                Exhibitions 
+              </div> 
+             </div> 
+             <div class="event-title"> 
+              <h2><a href="/Events/122931">Futuristic Nostalgia's @ Zamalek Art Gallery</a></h2> 
+             </div> 
+             <div class="event-info">
+               Date: 3/24/2018 
+             </div> 
+             <div class="event-info">
+               Time: 7:00pm - 10:00pm 
+             </div> 
+             <div class="event-info">
+               Venue: Zamalek Art Gallery 
+             </div> 
+            </div> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+         </div> 
+         <div class="content-2"> 
+          <div class="all-explore"> 
+           <div class="search-calender"> 
+            <ul> 
+             <li> <p>Event Name:</p> <input type="text" name="text" id="txtName" class="calender-text"> </li> 
+             <li> <p>Area:</p> <select class="calender-select" data-val="true" data-val-number="The field SelectedArea must be a number." data-val-required="The SelectedArea field is required." id="AreaDDL" name="SelectedArea"><option value="">Select</option> <option value="21">6th October</option> <option value="87">Abassia</option> <option value="31">Abdein</option> <option value="27">Agouza</option> <option value="29">Ain Sokhna</option> <option value="22">Al Azhar</option> <option value="5">Al Haram</option> <option value="61">Al Mokattam</option> <option value="38">Alexandria</option> <option value="83">Aswan</option> <option value="19">Beaulac</option> <option value="67">Cairo</option> <option value="62">Cairo &amp; Alex</option> <option value="60">Cairo Ism. Desert Rd</option> <option value="68">Cairo/Alex Desert Road</option> <option value="44">Dahab</option> <option value="92">Dahshour </option> <option value="1">Dokki</option> <option value="18">Downtown</option> <option value="94">Dubai</option> <option value="48">Egypt</option> <option value="63">El Gamaleya</option> <option value="47">El Haram</option> <option value="58">El Katameya</option> <option value="56">El Khalifa</option> <option value="45">El Mansoura</option> <option value="66">El Manyal</option> <option value="54">El Sayeda Zeinab</option> <option value="59">El Sherouk City</option> <option value="85">Farafra</option> <option value="72">Fayoum</option> <option value="73">Fifth Settlement</option> <option value="74">First Settlement</option> <option value="32">Garden City</option> <option value="26">Giza</option> <option value="35">Gouna</option> <option value="70">Haram</option> <option value="24">Heliopolis</option> <option value="36">Helwan</option> <option value="41">Hurghada</option> <option value="39">Imbaba</option> <option value="57">Islamic Cairo</option> <option value="82">Luxor</option> <option value="8">Maadi</option> <option value="91">Manial </option> <option value="90">Mansoura</option> <option value="80">Marsa `Alam</option> <option value="77">Marsa Alam</option> <option value="81">Minya</option> <option value="17">Mohandessin</option> <option value="23">Nasr City</option> <option value="33">New Cairo</option> <option value="42">None of Your Business</option> <option value="65">North Coast</option> <option value="75">Nuweiba</option> <option value="28">Old Cairo</option> <option value="43">Qatamyea</option> <option value="89">Ras El Bar</option> <option value="69">Ras Sudr</option> <option value="93">Rehab</option> <option value="71">Sahl Hasheesh</option> <option value="40">Sharm El Sheikh</option> <option value="30">Sheikh Zayed City</option> <option value="79">Sinai</option> <option value="86">Siwa</option> <option value="84">Suez</option> <option value="88">Tanta</option> <option value="3">Zamalek</option> </select> </li> 
+             <li> <p>Date From:</p> <input type="text" name="text" class="calender-text" id="datepicker"> </li> 
+             <li> <p>Category:</p> <select class="calender-select" data-val="true" data-val-number="The field SelectedCat must be a number." data-val-required="The SelectedCat field is required." id="CatDDL" name="SelectedCat"><option value="">Select</option> <option value="1">Bars</option> <option value="23">Book signing </option> <option value="2">Clubs</option> <option value="30">Competition</option> <option value="10">Concerts</option> <option value="34">Conference </option> <option value="20">Course</option> <option value="29">Culture</option> <option value="21">Dance</option> <option value="27">Debate</option> <option value="18">Dining</option> <option value="9">Exhibitions</option> <option value="32">Fashion</option> <option value="26">Festival</option> <option value="16">Film</option> <option value="24">Kids Activities</option> <option value="25">Lecture</option> <option value="17">Literature</option> <option value="11">Parties</option> <option value="12">Seminars</option> <option value="15">Shopping</option> <option value="33">Signing</option> <option value="28">Sound Installation</option> <option value="19">Sports</option> <option value="13">Theatre</option> <option value="31">Travel</option> <option value="14">Variety</option> <option value="22">Workshop</option> </select> </li> 
+             <li> <p>Venue:</p> <select class="calender-select" data-val="true" data-val-number="The field SelectedVenu must be a number." data-val-required="The SelectedVenu field is required." id="VenuDDL" name="SelectedVenu"><option value="">Select</option> <option value="10946"> Al Horreya Park</option> <option value="622"> Al-Arayes Theatre: Cairo Puppet Theatre</option> <option value="18253"> Crystal Palace</option> <option value="17135"> Danos Beach Bar</option> <option value="615"> El Warsha</option> <option value="19424"> Fountain Blue Compound</option> <option value="18279"> Gomhouria Theatre</option> <option value="507"> Nola Cupcakes Korba</option> <option value="491"> Sahl Hasheesh - International Resort Community</option> <option value="643"> Sheraton Miramar Resort </option> <option value="12089"> White Desert</option> <option value="183">1.2.3 Soleil </option> <option value="277">10</option> <option value="475">10 Mahmoud Bassiouny</option> <option value="326">100Copies Music</option> <option value="11006">18.213 Cairo</option> <option value="12058">20 Knots Kitesurfing Club</option> <option value="18358">24K Bar &amp; Restaurant </option> <option value="17143">3 AM Lounge</option> <option value="1725">306 Studio</option> <option value="1747">35B</option> <option value="17151">360 Sudr</option> <option value="3897">3adekka</option> <option value="10939">3al Genena</option> <option value="2860">3alganoob</option> <option value="308">3anil</option> <option value="21438">3elbt Alwan Maadi</option> <option value="2824">3elbt Alwan111</option> <option value="369">3enab</option> <option value="17140">480</option> <option value="548">50A Concept Store</option> <option value="363">6 Contemporary Arts</option> <option value="1720">6IX Degrees</option> <option value="109">6th October Sporting Club</option> <option value="2864">7 Sports Center</option> <option value="553">8, Four Seasons Hotel Cairo at Nile Plaza</option> <option value="18251">À La Suzanne Cooking School</option> <option value="18272">Abdeen Palace</option> <option value="645">Abdel Khalek Tharwat</option> <option value="248">Abdel Wahab</option> <option value="342">Abdin Square</option> <option value="1668">Abdrabboh-S Design House</option> <option value="1711">ABn'G World</option> <option value="554">Abou El Sid</option> <option value="18384">Abstract Beach Club</option> <option value="2832">Abu Auf</option> <option value="10937">Abu Galum</option> <option value="637">Abu Tig Marina</option> <option value="1811">Acacia Dahab Hotel</option> <option value="103">ACE Club</option> <option value="571">Adam Henein Museum</option> <option value="12057">Adams Dance Studio</option> <option value="484">Adam's Doner &amp; Grill</option> <option value="10957">Adef Deca</option> <option value="20432">AEON</option> <option value="124">AFCA for Arts and Culture</option> <option value="11044">Africana Hotel</option> <option value="18250">Africano Park</option> <option value="47">After Eight</option> <option value="349">AgroDolce Store</option> <option value="2821">Ahmed El Dabaa's UBUNTU Gallery</option> <option value="501">Ahmed Shawky Museum</option> <option value="1781">Ahram Canadian University</option> <option value="1732">AIESEC Cairo University</option> <option value="11026">Ain Shams University</option> <option value="1753">Airstyle - Egypt</option> <option value="582">Al Ahwa</option> <option value="181">Al Azhar Park </option> <option value="18260">Al Dau Strand</option> <option value="3901">Al Ghouri Complex</option> <option value="5906">Al Hussein Mosque</option> <option value="360">Al Kahila Art Gallery</option> <option value="311">Al Khaima</option> <option value="10982">Al Khalifa</option> <option value="373">Al Kotob Khan</option> <option value="451">Al Kotob Khan Degla</option> <option value="17150">Al Mamoura Beach</option> <option value="556">Al Maqarr</option> <option value="62">Al Masar Gallery </option> <option value="344">Al Masar Gallery | The Art Lounge</option> <option value="648">Al Rab3 Cultural Center</option> <option value="18315">Al Rehab Paintball Club </option> <option value="2871">Al Sagheer Salon &amp; Spa</option> <option value="205">Al Saraya Boat</option> <option value="355">Alchemy</option> <option value="15112">Alchemy - Sindbad Club</option> <option value="176">Alef Bookstore Alexandria</option> <option value="388">Alef Bookstore Heliopolis</option> <option value="391">Alef Bookstore Maadi</option> <option value="389">Alef Bookstore October</option> <option value="392">Alef Bookstore Zamalek</option> <option value="10986">Alegria</option> <option value="497">Alexandria</option> <option value="202">Alexandria City Centre</option> <option value="348">Alexandria Opera House</option> <option value="381">Alexandria Sporting Club</option> <option value="282">Alina's Beauty Salon</option> <option value="17191">All Saints' Cathedral</option> <option value="12088">All Saints' Cathedral,</option> <option value="1790">All The Perks</option> <option value="10948">AL-Masah Hotel</option> <option value="350">Almaz</option> <option value="19394">Almaza Bay</option> <option value="5905">Al-Mu'izz Street</option> <option value="17194">Aloush Café</option> <option value="221">Altisimo</option> <option value="232">Alto's Bistro</option> <option value="297">Ambassador Club</option> <option value="17205">American University In Cairo</option> <option value="10968">Americana Plaza</option> <option value="25">Amici</option> <option value="334">Amici Bar &amp; Restaurant Heliopolis</option> <option value="2846">Amina K.</option> <option value="1723">Ammos Club</option> <option value="10979">Amoun Hotel</option> <option value="11036">Ampersand Eatery &amp; City Garden</option> <option value="11040">AMPM</option> <option value="70">Amuse - Lifestyle Concept Store</option> <option value="19396">Amwaj North Coast</option> <option value="10976">Ancient Sands Resort</option> <option value="17132">Andiamo Pizza Garden &amp; Bar</option> <option value="512">Andrea Sakkara</option> <option value="10960">Andrea Zayed</option> <option value="17147">Antakh - beanbags &amp; alternative furniture</option> <option value="2876">Antique Khana</option> <option value="55">Aqua</option> <option value="364">Aqua E Luce</option> <option value="16125">Aqua Ladies Pool - Ruya Club</option> <option value="18258">Aqua Sun</option> <option value="321">Aquatonic Beach</option> <option value="2888">Arab Digital Expression Foundation</option> <option value="325">Arab Music Institute</option> <option value="255">Arabella Country Club </option> <option value="30">Arabesque</option> <option value="7926">Arabic Studies Academy</option> <option value="481">Arasya</option> <option value="18319">Arcade Gallery</option> <option value="18296">Ardi </option> <option value="253">ARJEELA</option> <option value="346">Arkan</option> <option value="1687">Arkan Center</option> <option value="146">Armada Boat </option> <option value="198">Armed Forces Officers Club</option> <option value="401">Around The Corner Cafe &amp; Restaurant</option> <option value="515">Arrivals Piazza</option> <option value="12073">Art Cafe Galleria40</option> <option value="640">Art Cafe Gouna</option> <option value="382">Art Cafe Maadi</option> <option value="383">Art Corner Gallery</option> <option value="384">Art Khan</option> <option value="1770">Art Lounge Cairo</option> <option value="589">Art School</option> <option value="11018">Art Square Academy</option> <option value="596">Art Talks</option> <option value="628">Art Voyage</option> <option value="377">Artellewa</option> <option value="127">Arthropologie - Contemp Art Gallery</option> <option value="16">Articulate Baboon</option> <option value="609">Artistic Creativity Centre</option> <option value="18269">Arts Talk</option> <option value="1799">Arts-Mart</option> <option value="1796">Arts-Mart the Gallery</option> <option value="544">ArtTalks - Education &amp; Exhibition Space</option> <option value="231">Asha's and Chop Chop</option> <option value="188">Asia Bar</option> <option value="10953">Asian Corner</option> <option value="300">Astoria</option> <option value="2875">Astrotrips</option> <option value="18308">Aswan</option> <option value="2890">Atelier Alexandria</option> <option value="63">AUC Campus</option> <option value="75">AUC Campus (Tahrir)</option> <option value="17144">AUC Falaki Theater</option> <option value="18301">AUC School Of Continuing Education </option> <option value="13107">Aura Arena </option> <option value="1804">Aurora</option> <option value="222">Austrian Cultural Forum</option> <option value="12093">Autovrooom</option> <option value="14111">Avalanche Showroom </option> <option value="328">Awan</option> <option value="2881">Awtad Bazaar</option> <option value="2892">Ayla Beach Camp</option> <option value="1727">BA Arts Center</option> <option value="244">Baad El Bahr</option> <option value="12079">Bab 18 Art Space</option> <option value="1803">Bab El Nile</option> <option value="12062">Backfire</option> <option value="18323">Baheya Restaurant Maadi</option> <option value="11021">Balassi Institute</option> <option value="439">Balcon Heliopolis</option> <option value="426">Balloon Theatre</option> <option value="12063">Baltazar</option> <option value="172">Bamboo</option> <option value="335">BAR D'O</option> <option value="415">Bar Tabac</option> <option value="2816">Barbacoa</option> <option value="19402">Bardo Clubhouse</option> <option value="134">Barney's Nursery</option> <option value="12084">Baron Hotel Heliopolis Cairo</option> <option value="22444">Baron Hotels &amp; Resorts Egypt</option> <option value="1800">Baron Palace</option> <option value="15121">Basata Eco-Lodge</option> <option value="18360">Basement - Urban Pub</option> <option value="5907">Bayside</option> <option value="11043">Bayside Red Sea</option> <option value="1702">Bayt Al-Sinnari</option> <option value="519">BCA Maadi Clubhouse</option> <option value="17216">Beano's Café</option> <option value="1676">Bebetoo Night Space</option> <option value="19411">Bedouin Moon Hotel</option> <option value="602">Beetroot</option> <option value="12087">BeFit Egypt</option> <option value="18288">BeFit Maadi</option> <option value="376">Beirut</option> <option value="578">Beit El Raseef</option> <option value="273">Beit El Sehemy</option> <option value="394">Beit El Sennary (Sennary House)</option> <option value="18277">Beit El Sura</option> <option value="17218">Bella Figura</option> <option value="56">Bella, Four Seasons Cairo Hotel at Nile Plaza</option> <option value="116">Bellini Bar </option> <option value="209">Bellini Cocktail Lounge </option> <option value="353">Berytus Pub</option> <option value="17235">Beverly Hills </option> <option value="558">Beymen Café</option> <option value="149">Beymen Mall</option> <option value="302">Bianchi</option> <option value="227">Bibliotheca Alexandria</option> <option value="574">Big Dune Camp</option> <option value="256">Big Inflatable Dome</option> <option value="17223">Bikers Joint</option> <option value="27">Bikya Book Cafe</option> <option value="291">Bikya BookCafe</option> <option value="17203">Billy Beez Cairo </option> <option value="18359">Billy Beez New Cairo </option> <option value="585">Blacklight Club</option> <option value="18302">Bloom</option> <option value="1728">Blu Bar</option> <option value="17189">Blue Beach Club</option> <option value="17178">Blue Blue</option> <option value="83">Blue Nile</option> <option value="161">Blue Restaurant</option> <option value="20430">Bogali</option> <option value="17148">Bohemian</option> <option value="239">Boho Gallery</option> <option value="586">Bongoz Studio</option> <option value="478">Bonne Journée</option> <option value="10963">Bookchino</option> <option value="18245">Books &amp; Beans </option> <option value="469">Boosters </option> <option value="2845">Borsa</option> <option value="168">Boss Restaurant &amp; Rock Cafe</option> <option value="390">Boulevard</option> <option value="21439">Bourbon</option> <option value="1692">Boutique Basha</option> <option value="11015">Bouza Roll</option> <option value="656">Bridges Cultural Center</option> <option value="343">British Council</option> <option value="18280">British Council Egypt</option> <option value="2855">British Intenational School Cairo</option> <option value="96">Buddha-Bar</option> <option value="538">Bull's Eye Pub</option> <option value="1734">Bungalows</option> <option value="1671">Burgerque</option> <option value="12075">Burgundy</option> <option value="87">Bus Stop</option> <option value="11046">Bus Stop New Cairo</option> <option value="19403">Bus Stop Sahl Hasheesh</option> <option value="1761">Byblos Authentic Lebanese Restaurant</option> <option value="18292">Byoum Al Fayoum</option> <option value="631">Cable Park</option> <option value="1750">Cachimbas</option> <option value="590">Café Blanc</option> <option value="8926">Cafe D'Nile</option> <option value="1704">Café Suprême</option> <option value="10974">Cafe Supreme Almaza</option> <option value="2820">Cafe Supreme Mohendessin</option> <option value="526">Cafe Supreme New Cairo</option> <option value="1769">Cafe Supreme Sheraton</option> <option value="572">Cafe Tabasco</option> <option value="429">Café under EMDP (Egyptian Media Development Program)</option> <option value="318">Cairo</option> <option value="271">Cairo &amp; Alex</option> <option value="11008">Cairo American College ( CAC )</option> <option value="301">Cairo Atelier</option> <option value="564">Cairo Capital Club</option> <option value="1738">Cairo Citadel</option> <option value="438">Cairo Conservatoire</option> <option value="1724">Cairo Contemporary Dance Center</option> <option value="4905">Cairo Culture Center</option> <option value="380">Cairo Fair Ground</option> <option value="407">Cairo Festival City </option> <option value="17146">Cairo Film School</option> <option value="2885">Cairo Hacker Space</option> <option value="18303">Cairo International Conference Center</option> <option value="517">Cairo International Convention &amp; Exhibition Centre</option> <option value="139">Cairo International Stadium</option> <option value="3">Cairo Jazz Club</option> <option value="22454">Cairo Jazz Club 610</option> <option value="220">Cairo Marriott Hotel &amp; Omar Khayyam Casino</option> <option value="21">Cairo Opera House</option> <option value="2838">Cairo Sporting Club</option> <option value="658">Cairo Stadium</option> <option value="43">Cairo Tower</option> <option value="3902">Cairo University</option> <option value="237">Cairo White </option> <option value="17208">Cairo-Berlin Club </option> <option value="259">Cala Art Gallery </option> <option value="10958">Canadian international College</option> <option value="18259">Canale Undici</option> <option value="10954">Capital Business Park</option> <option value="299">Caprice Beach Club &amp; Restaurant</option> <option value="357">Car Cafe Club</option> <option value="18294">Caravanserai</option> <option value="16123">Career Gates</option> <option value="483">Carlos</option> <option value="18287">Carpaccio - Nile Lounge</option> <option value="333">Casablanca</option> <option value="12080">Casino El Hamam</option> <option value="18389">Castle Zaman</option> <option value="145">Cataract Pyramids Resort </option> <option value="288">Cavallini</option> <option value="251">C-bar El Gouna</option> <option value="1743">Center for Arab-West Understanding Cairo</option> <option value="18264">Central Bank Of Egypt Club</option> <option value="19398">Centre Rézodanse Egypte</option> <option value="17222">Centro Global Solutions</option> <option value="12060">Chameleon Coworking</option> <option value="18320">Cheeky Monkeys El Gouna</option> <option value="17133">Cheers Maadi</option> <option value="1746">Chez Jean Claude</option> <option value="22448">Chez Richard</option> <option value="19399">Chill &amp; Grill Sharm</option> <option value="511">Chopsticks</option> <option value="351">CICC</option> <option value="5908">Ciel</option> <option value="18373">Cima</option> <option value="324">Cimatheque</option> <option value="11024">Cinema Daal</option> <option value="1679">Cinema Green Plaza</option> <option value="10956">Cinema Palace</option> <option value="18325">Cinema Radio Passageway</option> <option value="7921">Cinema Rio's Roof</option> <option value="581">Cinema Rio's Roof Top</option> <option value="332">Cinematic Culture Centre</option> <option value="457">Citadel Azur Hotel Sahl Hasheesh</option> <option value="268">City Center Alexandria</option> <option value="12049">City Center Maadi</option> <option value="18247">City Club</option> <option value="17154">City Gate </option> <option value="10967">City Square</option> <option value="1678">City Stars Mall</option> <option value="14109">Cleo</option> <option value="17202">Clique Beach Club </option> <option value="453">Cloud Eleven</option> <option value="60">Club 35</option> <option value="352">Club 35 Alexandria</option> <option value="11001">Club 707</option> <option value="68">Club 88</option> <option value="17128">Club Central</option> <option value="15123">Club MINT </option> <option value="138">Club Republican Guard</option> <option value="5909">Cocco Beach Club</option> <option value="2866">Color Beach Club</option> <option value="17213">Comics Restaurant &amp; Cafe</option> <option value="1765">Community Services Association (CSA)</option> <option value="18300">Complete Leather</option> <option value="1696">Concorde El Salam Hotel Cairo</option> <option value="166">Conrad Cairo</option> <option value="17186">Container</option> <option value="170">Contemporary Image Collective (CIC)</option> <option value="252">Coralia Club Dahab</option> <option value="337">Cordoba Art Gallery</option> <option value="10975">Courtyard Maadi</option> <option value="11023">Creative Egypt</option> <option value="19416">Crossfit Engine38 Cairo</option> <option value="543">Culture Palace - El Fayoum</option> <option value="1751">Culture Resource</option> <option value="18316">DA HOUSE</option> <option value="294">DAAD Center </option> <option value="10970">Dahab</option> <option value="18318">Dahshur Residence</option> <option value="22455">Dai Gallery</option> <option value="1700">Dal Forno</option> <option value="204">Dandy Mega Mall</option> <option value="11038">Dar Merit</option> <option value="33">Darb 1718</option> <option value="281">Darts</option> <option value="18262">Dawar</option> <option value="11039">Dayra Camp</option> <option value="372">Deals</option> <option value="366">Deals 14</option> <option value="593">Deals Heliopolis</option> <option value="358">Deals Mohandessin</option> <option value="365">Deals Zamalek</option> <option value="2830">Deco</option> <option value="11041">Deep South Diving</option> <option value="604">Deeply Club</option> <option value="443">Deja Vu Lounge &amp; Restaurant</option> <option value="12065">Delight</option> <option value="625">DEO - Deutsche Evangelische Oberschule</option> <option value="283">Design Emporium</option> <option value="12086">Designopia Zone</option> <option value="123">Designopolis </option> <option value="1719">Diamond Boat</option> <option value="254">Dice Disco </option> <option value="19422">Dijon Bistro</option> <option value="1784">Dina Maghawry Design </option> <option value="539">Dina Maghrawy Design</option> <option value="19400">Dip Seaside Pub &amp; Desert Lounge</option> <option value="15117">Diplo</option> <option value="547">Dishes - Zamalek Branch</option> <option value="580">District</option> <option value="18284">Dive Urge Camp</option> <option value="35">Diwan</option> <option value="119">Diwan Alexandria</option> <option value="11014">Diwan Bookstore Zayed</option> <option value="37">Diwan Heliopolis</option> <option value="295">Diwan Maadi</option> <option value="250">Dj Academy In Cairo Campus</option> <option value="2869">Dogmania Park</option> <option value="340">Dokan Boutique</option> <option value="12068">Dos Canas</option> <option value="646">Doum Cultural Foundation</option> <option value="141">Down Town Mall</option> <option value="45">Downtown</option> <option value="606">Downtown Katameya</option> <option value="18249">Downtown Mall</option> <option value="18343">Dream Beach </option> <option value="2849">Dreamland</option> <option value="2815">Dune Raider Sandboarding</option> <option value="17138">Dunes Beach</option> <option value="17229">Dunes Restaurant &amp; Bar</option> <option value="488">DuPort Pool Club </option> <option value="3900">Duroub Gallery</option> <option value="624">Dusit Thani</option> <option value="215">Dusit Thani Lake View Cairo</option> <option value="10962">DWZ Kairo</option> <option value="18344">Eastwind</option> <option value="1801">Eat &amp; Barrel</option> <option value="17212">Eatery</option> <option value="17214">Ebda3</option> <option value="1695">Ecole Saint Gabriel</option> <option value="18372">Eden Ibiza Sharm El Sheikh</option> <option value="18394">Edex Business Solutions</option> <option value="287">Egypt</option> <option value="238">Egyptian Center for Culture &amp; Art</option> <option value="2856">Egyptian Center For International Cultural Cooperation</option> <option value="18339">Egyptian Centre for International Cultural Cooperation</option> <option value="18385">‎Egyptian Film Critics Association </option> <option value="427">Egyptian Stock Exchange (Borsa) </option> <option value="3898">Eight Fitness Club </option> <option value="1776">Eish &amp; Malh</option> <option value="257">Eklego Design Heliopolis Showroom</option> <option value="19405">El Alamein Airport</option> <option value="185">El Amir Taz Palace</option> <option value="508">El Dammah Theater</option> <option value="654">El Dayaa</option> <option value="1680">El Dokan</option> <option value="18306">El Fann Theater</option> <option value="17">El Genina Theater</option> <option value="249">El Gezira Sporting Club</option> <option value="378">El Gomhouria Theatre</option> <option value="17193">El Gouna </option> <option value="18330">El Gouna Golf Club</option> <option value="17173">El Horreya Garden</option> <option value="599">El Korba</option> <option value="106">El Madrasa</option> <option value="42">El Mastaba Center</option> <option value="18266">El Mesa7a Art &amp; Cultural Center</option> <option value="12070">El Moez street </option> <option value="649">El Mojito</option> <option value="18346">El Orman Garden </option> <option value="409">El Raseef</option> <option value="13">El Sawy Culturewheel </option> <option value="1708">El Shemy House</option> <option value="192">El Tanboura Hall</option> <option value="1669">El Tonsy Hotel Cairo</option> <option value="460">El Venue</option> <option value="3903">El Wa7a Village</option> <option value="18274">Eldorado Lodge &amp; Restaurant</option> <option value="18347">Element Watersports El Gouna</option> <option value="15113">Elements Club &amp; Lounge </option> <option value="12083">Elements Yoga</option> <option value="17192">El-Shallal</option> <option value="17234">Embassy of the Netherlands In Egypt</option> <option value="551">Emerald Empire</option> <option value="2889">Escape</option> <option value="10959">Escape Home</option> <option value="210">Esplanade Cafe Restaurant's</option> <option value="494">Estoril</option> <option value="15115">Exit </option> <option value="627">F3</option> <option value="1758">Fab Lab Egypt</option> <option value="19423">Fab Lab Maadi </option> <option value="19401">Faculty Of Physical Education For Boys</option> <option value="498">Fagnoon Art School</option> <option value="542">Fair Trade Egypt</option> <option value="2884">Fair Trade Maadi</option> <option value="97">Fairmont Heliopolis &amp; Towers</option> <option value="32">Fairmont Nile City</option> <option value="293">Falaki Theatre</option> <option value="2836">Family Park</option> <option value="18331">Family Park El Rehab City</option> <option value="19393">Fantasiam</option> <option value="527">Favorito</option> <option value="10991">Fawzy Fawzy Youssef Open Air Amphitheater</option> <option value="1741">Fayoum</option> <option value="583">Fayoum Art Center</option> <option value="211">Fayruz</option> <option value="1766">FDA Gym </option> <option value="18314">Fekra Cultural Center</option> <option value="1698">Fel Felucca</option> <option value="247">Fel Rawaan Lounge &amp; Cafe</option> <option value="1703">Feteera</option> <option value="6915">Fibers Club Marassi</option> <option value="7922">Fibers Maadi</option> <option value="395">Filini</option> <option value="98">First Indigo</option> <option value="448">First Mall</option> <option value="154">First Residence</option> <option value="272">Fish Makan</option> <option value="2843">Fitbox</option> <option value="10950">FitZone</option> <option value="11042">Flambé</option> <option value="479">Floor 10 </option> <option value="17199">Flow Wellness Centers</option> <option value="17167">Fluka </option> <option value="17198">For Humanity Foundation</option> <option value="436">Fountain Blue</option> <option value="464">Fountain Park Compound</option> <option value="216">Four Seasons First Residence</option> <option value="174">Four Seasons Hotel Alexandria At San Stefano</option> <option value="143">Four Seasons Hotel Cairo at Nile Plaza</option> <option value="219">Four Seasons Resort Sharm El Sheikh</option> <option value="2844">French Consulate</option> <option value="1684">French Cultural Center</option> <option value="94">French Embassy</option> <option value="19426">French Institute In Alexandria</option> <option value="180">French Institute In Cairo</option> <option value="1807">Fufa</option> <option value="319">Fustat Market </option> <option value="289">Fuze Bar</option> <option value="1788">Gabriel Restaurant</option> <option value="1787">Galleria40</option> <option value="16124">Galleria40 Culture Lab</option> <option value="6913">Gallery Grant</option> <option value="242">Gallery Misr</option> <option value="1775">Gallery Nokio</option> <option value="13106">Garbi </option> <option value="17166">Gardenia Garden</option> <option value="2883">Gelato Mio</option> <option value="413">German University In Cairo</option> <option value="450">Gezira Art Center</option> <option value="266">Gezira Sporting Club</option> <option value="330">Gezirah Art Center</option> <option value="88">Gezirah Youth Center</option> <option value="10978">Gharb Sohail Island</option> <option value="661">Ghazala Bay Resort</option> <option value="18241">Ghazala Hotel </option> <option value="1797">Gigi Burger Bar </option> <option value="18295">Gigi's Burger Bar </option> <option value="495">GIZ</option> <option value="550">Glee Zone</option> <option value="496">Global Peace Party</option> <option value="1774">Goes Sailing</option> <option value="1689">Goethe Cultural Center</option> <option value="76">Goethe Institute</option> <option value="423">Goethe Institute &amp; Radio Cinema</option> <option value="1778">Golden Boat</option> <option value="386">Golden City Stars Cinemas</option> <option value="303">Golf Porto Marina</option> <option value="4904">Golio's</option> <option value="152">Gouna Marina</option> <option value="441">Graffiti</option> <option value="18261">Graffiti Cairo</option> <option value="17175">Gramophone</option> <option value="64">Grand Hyatt</option> <option value="5910">Grand Lodge Club</option> <option value="18239">Grand Nile Tower Hotel</option> <option value="579">Grand Royal Hotel</option> <option value="18345">Grand Royal Motel</option> <option value="12082">Grapes Restaurant &amp; Lounge</option> <option value="18268">Gravity Code</option> <option value="2831">Greater Cairo Library</option> <option value="1760">Greek Restaurants</option> <option value="12064">Green Habits</option> <option value="17152">Green Plaza Mall </option> <option value="11000">Greenland Pre Vert International School</option> <option value="49">Grizzly Diner</option> <option value="18341">Grümart Egypt</option> <option value="1809">Gŭ Bar</option> <option value="525">Gypsum Gallery</option> <option value="5911">Hacienda Bay</option> <option value="13105">Hacienda White </option> <option value="2891">Hakamoro</option> <option value="2853">Hanager Art Gallery</option> <option value="158">Hard Rock</option> <option value="320">Hassan &amp; Morkos Tent</option> <option value="1699">Hawadeet Bookstore</option> <option value="2893">Hayda</option> <option value="17179">Heaven Dana Beach Camp</option> <option value="603">Heineken Soccer Bar</option> <option value="449">Heliopolis</option> <option value="228">Heliopolis Greek Club</option> <option value="577">Heliopolis Library</option> <option value="17227">Heliopolis Sporting Club</option> <option value="263">Heliopolis Sporting Club (H.S.C)</option> <option value="18324">Helnan Aswan Hotel</option> <option value="17224">Helnan Dreamland Hotel</option> <option value="10944">Helnan Land Mark</option> <option value="549">Hers</option> <option value="573">High Charisma Training Academy</option> <option value="18278">Hilton Alexandria Green Plaza</option> <option value="19418">Hilton Ballroom</option> <option value="502">Hilton Hurghada Resort </option> <option value="157">Holiday Inn Citystars</option> <option value="10973">Holiday Inn Maadi</option> <option value="1783">Hooligans</option> <option value="19427">HOPE - Egyptian Baladi Rescue &amp; Rehabilitation</option> <option value="616">Hosapeer Theatre</option> <option value="430">Hotel Viennoise</option> <option value="18265">House Of Cocoa</option> <option value="12054">Hoxton House</option> <option value="15114">Hurghada </option> <option value="17165">Hurghada Marina Boulevard </option> <option value="1795">Ice Cairo</option> <option value="11027">Ignite</option> <option value="1752">Il Divino Pizzeria</option> <option value="1672">iL Mulino</option> <option value="187">Il Ritrovo</option> <option value="2858">Image Furniture</option> <option value="107">Imperial Boat</option> <option value="17207">Indigo</option> <option value="18363">InFocus</option> <option value="10951">Information Technology Institute (ITI)</option> <option value="8927">Innoventures</option> <option value="17221">Intense</option> <option value="18322">Interact Alexandria Al Montazah</option> <option value="22">InterContinental Citystars Hotel</option> <option value="130">International Park</option> <option value="41">Islamic Cairo</option> <option value="151">Italian Cultural Institute</option> <option value="591">Italian Fashion Academy</option> <option value="503">Jambalaya</option> <option value="1686">Janaklees Studio</option> <option value="10998">Jars &amp; Jazz</option> <option value="338">Jazz Mate</option> <option value="12069">Jeera Compound</option> <option value="10971">Jeff de Bruges Cairo</option> <option value="2877">Jesuit Cairo</option> <option value="1754">Jesuit Cultural Center</option> <option value="18310">Jesuit Theater</option> <option value="148">Jesuites petit college </option> <option value="636">Jobo's Sports Bar</option> <option value="468">Johnny's</option> <option value="532">Johnny's Pub</option> <option value="269">Joud</option> <option value="155">Juliana Club</option> <option value="12066">Just Cook</option> <option value="233">JW Marriott Hotel Cairo</option> <option value="214">JW’s Steakhouse</option> <option value="642">Kafein</option> <option value="559">Kamala</option> <option value="18374">Karakeeb </option> <option value="18299">Karim Cinema </option> <option value="1701">Karmet Ibn Hanei Cultural Center</option> <option value="12097">Karnak Temple</option> <option value="541">Katameya Heights</option> <option value="128">Katameya Heights Club House</option> <option value="2850">KAVA Restaurant and Bar</option> <option value="12072">Kazlak </option> <option value="10972">Kazoku</option> <option value="2825">Kazouza</option> <option value="19395">Kazouza Sheikh Zayed</option> <option value="18281">Keji Egypt</option> <option value="10943">Kemet Art &amp; Design</option> <option value="162">Kempinsk Chocolate Lounge</option> <option value="165">Kempinski Chic Dining Area</option> <option value="217">Kempinski Hotel Soma Bay</option> <option value="46">Kempinski Jazz Bar</option> <option value="218">Kempinski Nile Hotel</option> <option value="163">Kempinski Shishawy</option> <option value="20431">Khan Al Maghraby</option> <option value="18311">Khan Laila Book-Cafe</option> <option value="657">Khanah</option> <option value="10999">Kids Garden</option> <option value="406">Kidville</option> <option value="2886">Kidzania</option> <option value="1712">King Marriott</option> <option value="18367">Kiteboarding Club El Gouna</option> <option value="2861">Kiteloop</option> <option value="356">Kiwi Café and Restaurant</option> <option value="555">KLounge</option> <option value="613">Kodak Passageway</option> <option value="18267">Korba</option> <option value="1697">Kozbara Kitchen</option> <option value="612">Krak Baby</option> <option value="2857">Kuka Egypt</option> <option value="1806">La Bodega </option> <option value="1722">La Bodega Sahel</option> <option value="17231">La Cantina</option> <option value="456">La Casa International Exhibition For Furniture and Decoration</option> <option value="1814">La Dolce Vita</option> <option value="19397">La Femme Beach</option> <option value="12053">La Hacienda - Ras Sudr</option> <option value="633">La Madeleine</option> <option value="73">La Maison Blanche</option> <option value="19406">La Maison Bleue</option> <option value="8929">La Residence des Cascades</option> <option value="19428">La Taberna</option> <option value="12094">La Vista Cascada</option> <option value="19413">Lads n' Lasses Nursery</option> <option value="10993">Lady Diana Maadi</option> <option value="17184">LaGoonie Restaurant &amp; Bar</option> <option value="531">Laila Le Bistro</option> <option value="18369">LakeHouse - The Club</option> <option value="279">Lan Tania</option> <option value="446">Lasirena Resort &amp; Hotel EL-Sokhna</option> <option value="12061">Latin Love Dance School Cairo</option> <option value="594">L'Aubergine</option> <option value="595">L'Aubergine Heliopolis</option> <option value="1756">Lax Gym &amp; Beauty Center</option> <option value="485">Layali</option> <option value="15116">Lazib Inn Resort &amp; Spa</option> <option value="10955">Le Caire Art Contemporain </option> <option value="305">Le Capitol</option> <option value="534">Le Clessidre Beach</option> <option value="48">Le Deck</option> <option value="10980">Le Duplex Cairo</option> <option value="4902">Le Jardin</option> <option value="1707">Le Lido Clubhouse</option> <option value="433">Le Marché</option> <option value="617">Le Méridien Cairo Airport Hotel</option> <option value="619">Le Méridien Dahab Resort</option> <option value="129">Le Meridien Pyramids Hotel &amp; Spa</option> <option value="546">Le Nez</option> <option value="65">Le Pacha 1901</option> <option value="566">Le Pacha 1901 West</option> <option value="414">Le Passage Cairo Hotel</option> <option value="17196">Le Passage Cairo Hotel &amp; Casino</option> <option value="563">Le Sud</option> <option value="370">Le Tabasco Restaurant</option> <option value="18270">Leap Development Hub</option> <option value="178">Left Bank</option> <option value="434">Leonardo</option> <option value="2826">Leqaa' Downtown</option> <option value="400">Level</option> <option value="19429">LifeUP Factory</option> <option value="112">Little Buddha </option> <option value="115">Little Buddha Sharm</option> <option value="19409">Little Head Camp</option> <option value="10964">Little Swiss</option> <option value="2870">LIV Lounge</option> <option value="565">Loca Loca</option> <option value="78">Loft Fifty Nine</option> <option value="10966">Loft21</option> <option value="18293">Lord Of The Wings </option> <option value="11012">Lotus</option> <option value="19412">Lucid 51</option> <option value="13104">Lucid Training</option> <option value="18248">Lucille's Restaurant</option> <option value="13103">Lush Boutique Showroom</option> <option value="1802">Luxor to Aswan Boat</option> <option value="341">Luxury </option> <option value="275">Lycée Al-Horreya</option> <option value="117">Lycee El Horreya</option> <option value="18305">Lycée Français d'Alexandrie</option> <option value="18327">Lychee</option> <option value="398">M/S Lady Diana Nile Cruise</option> <option value="11030">Ma7ali</option> <option value="13102">Maadi</option> <option value="530">Maadi Grand Mall</option> <option value="131">Maadi Overstock Gallery</option> <option value="197">Maadi Sporting Club &amp; Yacht</option> <option value="19421">Maadi,Cairo</option> <option value="1813">Maagana Camp</option> <option value="458">Maat Dance M.E.C.A</option> <option value="17188">Maayan's Heaven Camp</option> <option value="21435">Mada nursery </option> <option value="10990">Madaar</option> <option value="22450">Madinat Jumeirah</option> <option value="207">Maestro</option> <option value="2879">Magnolia Cafe</option> <option value="575">Maharani</option> <option value="11033">Maison Du Caire</option> <option value="18290">Maison Pyramide</option> <option value="191">Makan</option> <option value="18291">Malak Gabr Arts Theater</option> <option value="11009">Malaz Massoud</option> <option value="199">Mall Of Arabia</option> <option value="18326">Mall Of Egypt</option> <option value="11011">Mandala Yoga Retreats</option> <option value="447">Mangroovy Beach</option> <option value="12077">Manial Palace and Museum</option> <option value="11005">Manistrly Palace</option> <option value="17170">Mansoureya Park</option> <option value="22458">Mantis </option> <option value="437">Marassi</option> <option value="1739">Maria's</option> <option value="1721">Marina</option> <option value="12098">Marina Lodge Port Ghalib </option> <option value="19415">Marlicious</option> <option value="22452">Marriott Mena House</option> <option value="12096">Marsa Alam </option> <option value="17139">Marseilia Beach 4</option> <option value="7916">Marsilia 4</option> <option value="17129">Martin's Beach Club</option> <option value="38">Mashrabia Art Gallery</option> <option value="17219">Massalla Garden </option> <option value="506">Matarma Bay</option> <option value="18390">Mawlana</option> <option value="12052">Mazg</option> <option value="379">Medrar</option> <option value="420">Medrar Space &amp; Hotel Viennoise</option> <option value="345">Meet Up</option> <option value="561">Meeting Point</option> <option value="411">Megawra</option> <option value="54">Melouk Bar</option> <option value="1674">Mena House Hotel</option> <option value="50">Merryland</option> <option value="312">Meshmesheya</option> <option value="1731">Miami Theatre</option> <option value="1667">Mille Pezzi Studio</option> <option value="2894">MIMET Film Studio</option> <option value="17153">Ministry of Culture</option> <option value="1744">Minya</option> <option value="2851">Mirage City</option> <option value="18243">Mirage Mall Cairo</option> <option value="11013">Miramar Studio</option> <option value="10949">Mishkah</option> <option value="264">Misr International University</option> <option value="410">Misr Language School</option> <option value="51">Misr Opera House</option> <option value="17195">Misr University For Science And Technology </option> <option value="18246">MIU</option> <option value="2882">Mivida</option> <option value="459">Mizan</option> <option value="265">Modern Science &amp; Art ( MSA University )</option> <option value="175">Moevenpick Hotel - Media City</option> <option value="126">Mogamaa El-Nessour</option> <option value="1768">Mohamed Al Sagheer Salons</option> <option value="514">Mojito Club</option> <option value="236">Mojo's Lounge &amp; Grill </option> <option value="17200">Montreal Club &amp; Bar</option> <option value="86">Moods Restaurant &amp; Beach Club</option> <option value="329">Moon Deck</option> <option value="2828">Mori Sushi</option> <option value="18377">Motion Club </option> <option value="18376">Motoclub Egypt</option> <option value="7920">Mountain View</option> <option value="11028">Mountain View New Cairo</option> <option value="15122">Mountain View North coast</option> <option value="1735">Mousa Coast</option> <option value="18263">Mövenpick Hotel Cairo Pyramids</option> <option value="6914">Mporium Mall</option> <option value="14110">Mudra Yoga Studio</option> <option value="404">Mulligan's Pub</option> <option value="440">Multiple Venues</option> <option value="18382">Murphy's Beach House</option> <option value="22459">Music Zone</option> <option value="11010">Nafas</option> <option value="2867">Nahdet El Mahrousa</option> <option value="18307">Narmer American College </option> <option value="10969">Nasr City</option> <option value="267">Nayroyz Club</option> <option value="1812">Nesima Resort</option> <option value="196">Netherlands-Flemish Institute</option> <option value="17209">Nevin Altmann</option> <option value="455">New Giza</option> <option value="452">New Greek Club</option> <option value="17217">New Marina , Gouna</option> <option value="1780">New Palace Hotel Cairo</option> <option value="100">New President Hotel</option> <option value="7915">New Suez Canal</option> <option value="5904">Ney Lounge</option> <option value="137">Nice Lounge Bar</option> <option value="2841">Nile Art Gallery</option> <option value="118">Nile City Towers Mall</option> <option value="72">Nile Country Club</option> <option value="361">Nile Cruise</option> <option value="1715">Nile Holding</option> <option value="18309">Nile Kayak Club </option> <option value="316">Nile Lily</option> <option value="323">Nile Maxim</option> <option value="10992">Nile Museum</option> <option value="80">Nile Smile Ballroom</option> <option value="2878">Nile Spirit Dahabya</option> <option value="2833">Nile Sunset Annex</option> <option value="296">Nile Terrace (Pool)</option> <option value="17197">Nineteen Twenty Five</option> <option value="435">Noble House</option> <option value="195">Nocchio Art &amp; Design Gallery</option> <option value="347">Nola</option> <option value="18336">Nola Cupcake 6th October</option> <option value="653">Nola cupcakes</option> <option value="15119">Nola Tanta</option> <option value="3899">North Coast</option> <option value="1792">Novotel Cairo Airport</option> <option value="629">Nowhereland Tattoo Studio</option> <option value="10938">Nuba</option> <option value="18395">NUbar</option> <option value="150">Nubian Villa</option> <option value="402">Nun Center</option> <option value="1713">Nuweiba</option> <option value="560">OAK Grill</option> <option value="234">Obar</option> <option value="8928">Obour City</option> <option value="1685">Odeon Cinema Alexandria</option> <option value="11031">Old French Consulate</option> <option value="12076">Oldies Food &amp; Drinks</option> <option value="1763">Olivo Pizzeria</option> <option value="18252">Omar Khayam Boat </option> <option value="465">Omar Khayyam Boat </option> <option value="276">On Toast </option> <option value="136">On Top</option> <option value="18285">ONE OAK - Steak &amp; Sushi Bar</option> <option value="19430">OPIA Cairo</option> <option value="140">Opium</option> <option value="22439">Ora Restobar</option> <option value="22457">Orient For Film and Theatre Productions</option> <option value="431">Oriental Hall AUC</option> <option value="11037">Orman Garden</option> <option value="11035">Osana Family Wellness</option> <option value="10981">Osiris</option> <option value="160">Osmanly </option> <option value="1755">Osmosis Kiteboarding</option> <option value="339">Otium</option> <option value="650">OUTLAW BIKERS STATION</option> <option value="11049">Ouzoud Camp</option> <option value="499">Overtime Bar &amp; Restaurant </option> <option value="91">Pacha Sharm</option> <option value="169">Paintball park </option> <option value="10961">Palm Hills</option> <option value="224">Pane Vino</option> <option value="189">Pangaea Club</option> <option value="101">Papas Beach Club</option> <option value="500">Paradise Beach Resort</option> <option value="354">Paranoia Pub</option> <option value="22440">Pasta Città</option> <option value="1665">Pavlova</option> <option value="639">Peanuts</option> <option value="18275">Peanuts Bar</option> <option value="19407">Peanuts Bar El Gouna</option> <option value="52">Pearl Club</option> <option value="472">Pearl Island</option> <option value="193">Peking Restaurant</option> <option value="2896">Pepenero</option> <option value="2873">Petro Sport</option> <option value="545">Phenomena</option> <option value="368">Photopia Studio</option> <option value="10984">Piano Piano Cafe</option> <option value="17211">Pianola Pub &amp; Lounge</option> <option value="12078">Piazzini Restaurant</option> <option value="67">Picasso Art Gallery</option> <option value="12050">Picasso East Art Gallery</option> <option value="12055">Pier 88</option> <option value="11022">Pink Floyd Coffeeshop</option> <option value="290">Pizza Pool Bar</option> <option value="10988">Place Des Arts</option> <option value="2835">Platinum Club</option> <option value="17210">Point 90 Mall</option> <option value="2880">Pole Fit Egypt</option> <option value="2834">Pomme De Pain</option> <option value="2840">Pop Up Shop</option> <option value="598">Porto Cairo Mall</option> <option value="490">Porto Marina</option> <option value="18313">Porto Sharm El Sheikh</option> <option value="651">Porto Sokhna</option> <option value="133">Portobello Ristorante Italiano</option> <option value="258">Posh Boutique Cairo</option> <option value="274">Prince Taz Palace</option> <option value="77">Private Yacht</option> <option value="314">Privilege Sharm</option> <option value="2818">Pro Helvetia Cairo</option> <option value="17162">PUB 55</option> <option value="428">Public Storefront</option> <option value="310">Puff Pie</option> <option value="39">Purple Lounge &amp; Bar</option> <option value="18357">Pyramid Hills</option> <option value="10940">Pyramids Loft</option> <option value="562">Pyramisa Cairo Hotel</option> <option value="15120">Qaitbay Citadel</option> <option value="359">Qasr El Bawity</option> <option value="417">Qasr El Nil</option> <option value="614">Qasr El Nil Theatre</option> <option value="105">Qatanyea Dunes</option> <option value="7925">Qattamyia Observatory</option> <option value="422">Radio Cinema</option> <option value="424">Radio Cinema &amp; Oriental Hall AUC</option> <option value="110">Radisson Blu Hotel</option> <option value="6912">Rafaheya</option> <option value="280">Raj</option> <option value="132">Ramada El Ain El Sokhna</option> <option value="315">Ramadana</option> <option value="241">Ramses Hilton Hotel</option> <option value="477">Ramses Hilton's Maharaja Restaurant</option> <option value="17142">Ras Abu Galum</option> <option value="8937">Ras Mohammed National Park</option> <option value="1815">Ras Shitan </option> <option value="17155">Ras Sudr</option> <option value="71">Rawabet Garage Theatre</option> <option value="528">Rawabet Theater</option> <option value="22445">Rawi</option> <option value="510">Ray Club/Lounge</option> <option value="445">Red Carpet Resort</option> <option value="19408">Red Club Port Ghalib</option> <option value="8936">Red Sea</option> <option value="307">Reform Pilates</option> <option value="367">Regina Club </option> <option value="2819">Renaissance Hotel </option> <option value="235">Republican Gaurds Club</option> <option value="153">Risas</option> <option value="226">Rithmo</option> <option value="1670">Riva Hurghada</option> <option value="647">Riverside</option> <option value="1673">Riviera Beach &amp; Hotels</option> <option value="18362">Rivulet</option> <option value="1789">Rixos Sharm El Sheikh</option> <option value="17204">RMC Theater - Cairo Fairground </option> <option value="18383">RMC Theater North Coast</option> <option value="270">Rocca razzo</option> <option value="375">Rocks</option> <option value="18304">Rofayda Health Park</option> <option value="17172">Rohana Yoga Studio</option> <option value="17181">Roman Theater Open Air</option> <option value="336">Roof Bar</option> <option value="147">Rooftop</option> <option value="2817">Rooftop Garden City</option> <option value="17164">Rooftop Lounge Garden City</option> <option value="11032">Rooftop of 22</option> <option value="2874">Rooftop Supper Club</option> <option value="1726">Room Art Space</option> <option value="396">Rouge</option> <option value="298">Roxy Square</option> <option value="102">Royal Club Mohamed Aly </option> <option value="9937">Royal Maxim Palace Kempinski</option> <option value="518">Royale</option> <option value="520">Rumours</option> <option value="111">Rush</option> <option value="11048">Rush Sports Lounge</option> <option value="223">Russian Culture Center</option> <option value="40">Rustic House Villa</option> <option value="95">Ruya Club</option> <option value="171">Saad Zaghloul Cultural Center</option> <option value="660">Sabaya</option> <option value="18328">Sadiki Cafe</option> <option value="15">Safar Khan Art Gallery</option> <option value="2848">Safari Beach Nuweiba</option> <option value="18361">Safari Park</option> <option value="246">Safir Hotel Cairo</option> <option value="493">Sahl Hasheesh</option> <option value="331">Saigon Restaurant and Lounge</option> <option value="467">Saki Sushi Lounge</option> <option value="10987">Sakina Wellness Center</option> <option value="190">Sakkara Country Club</option> <option value="84">Sakkara Nest Club</option> <option value="10985">Salah El Din Citadel</option> <option value="2852">Salon El Mahrousa</option> <option value="362">Salt</option> <option value="18240">Sami Amin Store</option> <option value="1690">Samia Allouba Gym &amp; Fitness Centrers </option> <option value="584">Samuel Dunes</option> <option value="18244">Sanafir Club</option> <option value="2872">SANE</option> <option value="2868">Sane Egypt</option> <option value="22447">Sara's Organic Food</option> <option value="2842">Sattva Steps</option> <option value="1705">Scratch Dj School</option> <option value="18387">Scratch Media Production</option> <option value="18381">Sea Hub</option> <option value="17177">Sea Salt Beach Bistro &amp; Bar</option> <option value="89">Seasons Country Club</option> <option value="99">Secret Location</option> <option value="2847">Sednaoui Department Store</option> <option value="59">Semiramis InterContinental</option> <option value="12091">Senzo Sporting Club</option> <option value="309">SEQUOIA</option> <option value="22456">Sera Chillout</option> <option value="1664">Seven Grains</option> <option value="17226">Seven Heaven Camp</option> <option value="1764">Shakti Egypt</option> <option value="466">Shaolin</option> <option value="634">Sharm El Sheikh</option> <option value="1767">Sheikh Zayed City</option> <option value="18386">Sheraton Cairo Hotel &amp; Casino</option> <option value="8932">Sheraton Soma Bay Resort</option> <option value="416">Sherazade</option> <option value="655">Sherlock Holmes Pub</option> <option value="208">Shogun</option> <option value="104">Shooting Club</option> <option value="17136">Shooting Club Alexandria </option> <option value="201">Shooting Club Katameya</option> <option value="1798">Sidewalk</option> <option value="12101">Sinai </option> <option value="19404">Sindbad Club Hotel</option> <option value="10989">Siwa</option> <option value="1772">Skateimpact</option> <option value="17176">Skull Pharaos MC Egypt</option> <option value="15111">Sky Pool &amp; Park</option> <option value="10983">Sky Roof</option> <option value="11045">Sliders Cable Park</option> <option value="486">Slik Egypt</option> <option value="17183">Smart Art</option> <option value="61">Smart Village</option> <option value="11002">Smart Village Maadi</option> <option value="7917">Smoha Club</option> <option value="17130">Smouha Club </option> <option value="1791">SODIC</option> <option value="245">Sofitel El Gezirah Hotel</option> <option value="1808">Sofitel Old Cataract Hotel</option> <option value="1757">Sofitel Winter Palace Hotel</option> <option value="592">Sokhna Golf Club</option> <option value="18379">Sol Beach</option> <option value="568">Solana</option> <option value="213">Solitaire Boat</option> <option value="156">Solitaire Yacht</option> <option value="1773">SOMA Art</option> <option value="2862">Soma Bay</option> <option value="385">Sonesta Hotel</option> <option value="473">Soul Kitesurfing Center</option> <option value="22451">Soul Lounge</option> <option value="11003">Soul Motion Dance Studio</option> <option value="509">South Beach </option> <option value="177">Space Sharm</option> <option value="1666">Spatis</option> <option value="1794">Spatis Club</option> <option value="22443">Speakeasy Egypt</option> <option value="58">Spice Restaurant </option> <option value="1663">Sports Development Centre</option> <option value="17190">St. John The Baptist Church</option> <option value="260">St. John's Church</option> <option value="167">Stage One</option> <option value="505">Stallions Gouna Camp</option> <option value="12081">Stanley Beach </option> <option value="2823">Stara</option> <option value="203">Stars Centre</option> <option value="17182">Steigenberger Al Dau Beach Hotel</option> <option value="21432">Steigenberger Hotel </option> <option value="18283">Stella Di Mare Makadi </option> <option value="85">Stella Di Mare Resort</option> <option value="18282">Stella Di Mare Sharm </option> <option value="31">Stiletto Style Lounge</option> <option value="569">Strada</option> <option value="1683">Studio El Madina</option> <option value="425">Studio Emad Eddin</option> <option value="2837">Studio Zat</option> <option value="474">Sud</option> <option value="206">Sufi Bookstore</option> <option value="18312">Sultan Al-Ashraf Qaytbay Mosque</option> <option value="18364">Sultan Qaitbay Mosque </option> <option value="108">Sunrise Garden Beach Hotel</option> <option value="537">Supreme Heliopolis </option> <option value="608">Swan Lake New Cairo</option> <option value="2854">Swan Lake October</option> <option value="19414">Swedish Institute Alexandria </option> <option value="81">Swiss Club</option> <option value="12095">Swiss Cooperation Office</option> <option value="12056">Swiss Embassy</option> <option value="2822">Swiss Inn Nile Hotel</option> <option value="1710">Syren Bar</option> <option value="19419">Taba Heights</option> <option value="92">Tabla</option> <option value="322">Tabla North Coast</option> <option value="14">Tache Art Gallery</option> <option value="182">Tadreeb Training Center</option> <option value="306">Tagine</option> <option value="7923">Tahrir Lounge</option> <option value="19425">Taj Mahal Sharm</option> <option value="17168">Talaat Harb Club</option> <option value="327">Talaat Harb Culture Center</option> <option value="621">Talee'a Theatre</option> <option value="313">Tamara</option> <option value="18370">Tamara Elna</option> <option value="304">Tamarai "The Café"</option> <option value="34">Tamarai Sokhna</option> <option value="638">Tamr Henna</option> <option value="626">Taracina Dock</option> <option value="2895">Teatro El Maadi</option> <option value="12059">Teatro Eskendria</option> <option value="2863">TEDA Swiss Inn Plaza Hotel</option> <option value="18368">Ted's</option> <option value="1729">Telal Compound</option> <option value="387">Tempo Restaurant and Lounge</option> <option value="12051">Terrazzina Beach</option> <option value="405">The Aquarium Grotto Garden</option> <option value="557">The Bar</option> <option value="17185">The Bartender </option> <option value="10947">The Battlefield Egypt</option> <option value="17127">The Beach Bar</option> <option value="10945">The Black &amp; White Desert</option> <option value="8933">The Breakers</option> <option value="18371">The Breathing Room</option> <option value="1777">The British School Of Egypt</option> <option value="262">The British University In Egypt - BUE</option> <option value="317">The Bus Stop Zone</option> <option value="1681">The Cabine</option> <option value="399">The Cave</option> <option value="18356">The Cave Sharm El Sheikh</option> <option value="470">The Chef</option> <option value="18388">The Chinese Garden</option> <option value="18238">The Citadel Grill</option> <option value="529">The Closet</option> <option value="442">The Club House</option> <option value="397">The Club House Uptown Cairo</option> <option value="21434">The Clubhouse, Uptown Cairo</option> <option value="19417">The Coffee Bean &amp; Tea Leaf Egypt</option> <option value="17201">The Cork Pub</option> <option value="18237">The Courtyard</option> <option value="18255">The Design Studio By Azza Fahmy</option> <option value="1718">The District</option> <option value="620">The District Maadi</option> <option value="12100">The District Mall</option> <option value="18273">The Doll House </option> <option value="12092">The Edward's</option> <option value="135">The Egyptian Desert</option> <option value="18254">The Egyptian Museum</option> <option value="18321">The Embassy Beach Club</option> <option value="10994">The Fashion Atelier</option> <option value="21433">The Field</option> <option value="29">The First Mall</option> <option value="536">The Gabriel</option> <option value="618">The Garden</option> <option value="18391">The Garden Café </option> <option value="576">The Garden Court Café</option> <option value="10977">The Garden Nile Front</option> <option value="610">The Greek Campus</option> <option value="225">The Grill</option> <option value="17215">The Horror House</option> <option value="22441">The Island Lounge</option> <option value="444">The Karvin Hotel</option> <option value="18256">The Lemon Tree &amp; Co. </option> <option value="17137">The Lemon Tree &amp; Co. In Marassi</option> <option value="18350">The Lemon Tree &amp; Co. Katameya</option> <option value="17228">The Lodge</option> <option value="212">The Lounge</option> <option value="1786">The Music Tent</option> <option value="10965">The Nest</option> <option value="11004">The Nile Ritz-Carlton</option> <option value="11047">The Oberoi Sahl Hasheesh</option> <option value="2887">The Pharaonic Village</option> <option value="18340">The Pink Elephant</option> <option value="1677">The Platform</option> <option value="1736">The Platform North Coast</option> <option value="278">The Pyramids </option> <option value="1742">The Pyramids Of Giza</option> <option value="412">The Residence of the Belgian Ambassador</option> <option value="480">The Roof</option> <option value="12074">The Shala </option> <option value="10941">The Shelter</option> <option value="17230">The Sherlock Holmes Pub</option> <option value="552">The Smokery</option> <option value="17149">The Smokery Beach</option> <option value="1805">The Smokery Gouna</option> <option value="516">The Snug</option> <option value="18342">The Spin Egypt</option> <option value="18286">The Spot </option> <option value="11025">The Tap East</option> <option value="1782">The Tap Maadi</option> <option value="15118">The Tap North</option> <option value="22453">The Tap West</option> <option value="69">The Temple Deck</option> <option value="261">The Temple Deck, Nile Pharaoh</option> <option value="142">The Terrace Cairo</option> <option value="17236">The Three Corners Rihana Resort &amp; Inn</option> <option value="641">The Tipsy Teapot</option> <option value="1706">The Vegan Kitchen</option> <option value="11034">The Vibe</option> <option value="17232">The Wellness Hub</option> <option value="17180">The Westin Cairo Golf Resort &amp; Spa</option> <option value="18242">The Women's Association Of Cairo</option> <option value="587">The Workshops</option> <option value="17169">Tijuana Beach &amp; Lounge </option> <option value="623">Tipsy Bar</option> <option value="9">TIU</option> <option value="1737">Tivoli Dome Marina</option> <option value="374">Tivoli Dome Zayed</option> <option value="10942">Tolip Family Park Hotel</option> <option value="18348">Tolip Hotel</option> <option value="18393">Tolip Hotel Alexandria</option> <option value="630">Tondoba Bay</option> <option value="17220">Topaz Cafe &amp; Restaurant</option> <option value="8">Townhouse Gallery</option> <option value="1771">Townhouse Rawabet</option> <option value="588">Tremendous Dance Valley</option> <option value="1717">Trianon Le Salon</option> <option value="159">TroTToir</option> <option value="17134">TRUX</option> <option value="540">Tunis Village</option> <option value="240">Tutti Matti</option> <option value="11007">Tutti Matti New Cairo</option> <option value="489">Tutti Piatti</option> <option value="10995">Two Fold</option> <option value="13109">U Bistro &amp; Bar</option> <option value="230">U.S. Embassy</option> <option value="18392">U.S. Embassy Cairo</option> <option value="2827">Ubuntu Art Gallery</option> <option value="10952">UnderGround</option> <option value="18337">Underground Cairo </option> <option value="1785">Uptown Cairo</option> <option value="22449">URBN</option> <option value="13108">Vapiano Egypt</option> <option value="19410">Vaquero</option> <option value="533">Vent</option> <option value="1730">Venue Lounge &amp; bar</option> <option value="535">Veranda</option> <option value="570">Veranda, Nile Maxim</option> <option value="487">VIBE Studio</option> <option value="184">Viennoise Hotel </option> <option value="2829">Viking Restaurant</option> <option value="597">Villa #2</option> <option value="82">Villa 371</option> <option value="186">Villa 55 Restaurant &amp; Cafe</option> <option value="513">Villa 88</option> <option value="4903">Villa Ayda</option> <option value="18365">Villa Baboushka</option> <option value="12085">Villa Belle Époque</option> <option value="18375">Villa Dream</option> <option value="1714">Villa El Masry</option> <option value="1709">Villa Mercedes </option> <option value="144">Villa Mohamed Abbas</option> <option value="1716">Villa Paulo</option> <option value="605">Vinny's Pizzeria</option> <option value="523">Vintage</option> <option value="17145">Vintage Bar</option> <option value="1745">Vintage Bar &amp; Lounge</option> <option value="371">Virgin Megastore</option> <option value="5912">Void</option> <option value="632">Wabi Sabi</option> <option value="1759">Wadi Degla Protectorates</option> <option value="17233">Wadi Degla Sporting Club </option> <option value="12099">Wadi El Gemal </option> <option value="18236">Wadi El Hitan </option> <option value="17206">Wadi El Rayan </option> <option value="7924">Wadi Genai</option> <option value="18366">Waffilicious</option> <option value="482">Wahawi - Ramadan Lounge </option> <option value="1748">Wanas Concept Store</option> <option value="11017">Waterway Compound</option> <option value="1682">Wekalet Behna</option> <option value="18257">Werk It</option> <option value="22446">Westin</option> <option value="2897">Westown Hub</option> <option value="17171">White Bay Sidi Heneish</option> <option value="90">White Beach Bar &amp; Lounge</option> <option value="18380">White Beach Club </option> <option value="17131">White Coast</option> <option value="66">WIF</option> <option value="194">Wikalet El Ghouri</option> <option value="292">Wind Beach</option> <option value="476">Windows on the World Restaurant</option> <option value="18338">Windsor Hotel</option> <option value="521">Wings in Flavours</option> <option value="11016">Womanlike Fitness</option> <option value="18276">Wunder Kind </option> <option value="17163">Wunjo</option> <option value="504">YallaYoga</option> <option value="286">Yasso Lounge</option> <option value="18289">Yellow Umbrella </option> <option value="1762">Yoga Vibes</option> <option value="18317">YogaKhana </option> <option value="12067">Yumamia</option> <option value="18298">Z Beauty Academy </option> <option value="79">Zamalek</option> <option value="18335">Zamalek , Cairo</option> <option value="662">Zamalek Aquarium Grotto</option> <option value="93">Zamalek Art Gallery</option> <option value="18297">Zamalek Cinema </option> <option value="12102">Zamalek Market</option> <option value="611">Zawya</option> <option value="454">Zein Terracina</option> <option value="179">Zeitouna Lebanese Bistro</option> <option value="567">Zen Art Gallery</option> <option value="2839">Zen Space</option> <option value="492">Zeus Restaurant &amp; Lounge</option> <option value="11029">Zewail City Of Science &amp; Technology</option> <option value="1810">Zia Amelia Ristorante Italiano</option> <option value="8935">Zigzag</option> <option value="57">Zitouni, Four Seasons Hotel Cairo at Nile Plaza Hotel</option> <option value="18378">Zone 100</option> <option value="471">ZUCCA</option> <option value="18329">Zulu</option> </select> </li> 
+             <li> <p>Date To:</p> <input type="text" name="text" class="calender-text" id="datepicker2"> </li> 
+            </ul> 
+           </div> 
+           <input class="calender-button" type="submit" value="search" id="btn"> 
+           <br>
+           <br> 
+           <div class="clear"></div> 
+           <div id="loadd" style="display:none;align-content:center"> 
+            <center>
+             <img src="/Content/Images/loading.gif">
+            </center> 
+           </div> 
+           <div class="all-search-calll"> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </section> 
+      </div> 
+      <div id="Recommend"></div> 
+      <div class="back-big"> 
+      </div> 
+      <div class="event-left"> 
+       <div class="rec-event"> 
+        <div class="title-all">
+          RECOMMENDED EVENTS 
+        </div> 
+        <div class="inner-rec-event"> 
+         <div class="main-recommended"> 
+          <div class="recommended-img"> 
+           <a href="/Events/122972"><img src="/Content/Admin/Uploads/EventsImages/6dbd6952-88e7-4a7e-a773-9d7918aded3d.jpg" width="161" height="161" alt="D-CAF: The Second Copy 2045 @ French Consulate"></a> 
+          </div> 
+          <div class="recommended-title"> 
+           <h2><a href="/Events/122972">D-CAF: The Second Copy 2045 @ French Consulate</a></h2> 
+          </div> 
+          <div class="date">
+            24 Mar 2018 
+          </div> 
+         </div> 
+         <div class="main-recommended"> 
+          <div class="recommended-img"> 
+           <a href="/Events/122975"><img src="/Content/Admin/Uploads/EventsImages/be4da830-40ad-4872-8a74-9e10303df783.jpg" width="161" height="161" alt="D-CAF: And Here I Am @ Townhouse Gallery"></a> 
+          </div> 
+          <div class="recommended-title"> 
+           <h2><a href="/Events/122975">D-CAF: And Here I Am @ Townhouse Gallery</a></h2> 
+          </div> 
+          <div class="date">
+            24 Mar 2018 
+          </div> 
+         </div> 
+         <div class="main-recommended"> 
+          <div class="recommended-img"> 
+           <a href="/Events/122959"><img src="/Content/Admin/Uploads/EventsImages/f8b95066-1108-4bcf-b0e3-fb5a5e2f26c9.jpg" width="161" height="161" alt="D-CAF: As Far as My Fingers Take Me @ Hub "></a> 
+          </div> 
+          <div class="recommended-title"> 
+           <h2><a href="/Events/122959">D-CAF: As Far as My Fingers Take Me @ Hub </a></h2> 
+          </div> 
+          <div class="date">
+            24 Mar 2018 
+          </div> 
+         </div> 
+         <div class="main-recommended"> 
+          <div class="recommended-img"> 
+           <a href="/Events/122570"><img src="/Content/Admin/Uploads/EventsImages/879eaa5a-6f9f-47a9-a768-bb688485cc75.jpg" width="161" height="161" alt="Tuesday After Work Affair @ CJC 610"></a> 
+          </div> 
+          <div class="recommended-title"> 
+           <h2><a href="/Events/122570">Tuesday After Work Affair @ CJC 610</a></h2> 
+          </div> 
+          <div class="date">
+            27 Mar 2018 
+          </div> 
+         </div> 
+         <div class="main-recommended"> 
+          <div class="recommended-img"> 
+           <a href="/Events/122884"><img src="/Content/Admin/Uploads/EventsImages/2f9f9557-4620-40be-a9d9-3942bc6e0e07.jpg" width="161" height="161" alt="Adonis &amp; Abu @ CJC 610"></a> 
+          </div> 
+          <div class="recommended-title"> 
+           <h2><a href="/Events/122884">Adonis &amp; Abu @ CJC 610</a></h2> 
+          </div> 
+          <div class="date">
+            28 Mar 2018 
+          </div> 
+         </div> 
+         <div class="main-recommended"> 
+          <div class="recommended-img"> 
+           <a href="/Events/123184"><img src="/Content/Admin/Uploads/EventsImages/9823e0f7-875c-4d74-a4e9-83ef1ee1123b.jpg" width="161" height="161" alt="Farra's Birthday @ Cairo Jazz Club"></a> 
+          </div> 
+          <div class="recommended-title"> 
+           <h2><a href="/Events/123184">Farra's Birthday @ Cairo Jazz Club</a></h2> 
+          </div> 
+          <div class="date">
+            29 Mar 2018 
+          </div> 
+         </div> 
+         <div class="main-recommended"> 
+          <div class="recommended-img"> 
+           <a href="/Events/123299"><img src="/Content/Admin/Uploads/EventsImages/e3df3a4f-ed37-4b77-b7fb-32cb652c4ed9.jpg" width="161" height="161" alt="Roots  @ Sakkara Country Club"></a> 
+          </div> 
+          <div class="recommended-title"> 
+           <h2><a href="/Events/123299">Roots @ Sakkara Country Club</a></h2> 
+          </div> 
+          <div class="date">
+            29 Mar 2018 
+          </div> 
+         </div> 
+         <div class="main-recommended"> 
+          <div class="recommended-img"> 
+           <a href="/Events/122801"><img src="/Content/Admin/Uploads/EventsImages/daf4cae2-dd50-4071-b080-ac825dbd29f5.png" width="161" height="161" alt="Mahragan  Islam Chipsy @ Underground"></a> 
+          </div> 
+          <div class="recommended-title"> 
+           <h2><a href="/Events/122801">Mahragan Islam Chipsy @ Underground</a></h2> 
+          </div> 
+          <div class="date">
+            29 Mar 2018 
+          </div> 
+         </div> 
+         <div class="main-recommended"> 
+          <div class="recommended-img"> 
+           <a href="/Events/123112"><img src="/Content/Admin/Uploads/EventsImages/af386fdb-e5dc-41c2-8da3-e5f7be19d4a5.jpg" width="161" height="161" alt="Cairo Flea Market @ Palm Hills Club"></a> 
+          </div> 
+          <div class="recommended-title"> 
+           <h2><a href="/Events/123112">Cairo Flea Market @ Palm Hills Club</a></h2> 
+          </div> 
+          <div class="date">
+            30 Mar 2018 
+          </div> 
+         </div> 
+         <div class="main-recommended"> 
+          <div class="recommended-img"> 
+           <a href="/Events/123189"><img src="/Content/Admin/Uploads/EventsImages/5a59c4b0-db7f-486a-a991-5d1337e6ae60.jpg" width="161" height="161" alt="Alak Jackson &amp; AK @ Cairo Jazz Club 610"></a> 
+          </div> 
+          <div class="recommended-title"> 
+           <h2><a href="/Events/123189">Alak Jackson &amp; AK @ Cairo Jazz Club 610</a></h2> 
+          </div> 
+          <div class="date">
+            30 Mar 2018 
+          </div> 
+         </div> 
+         <div class="main-recommended"> 
+          <div class="recommended-img"> 
+           <a href="/Events/123187"><img src="/Content/Admin/Uploads/EventsImages/92376c6c-6e78-48fc-9b6d-afbad3dbd6ad.jpg" width="161" height="161" alt="Mohasseb Anniversary ft. Heavy Pins  @ CJC"></a> 
+          </div> 
+          <div class="recommended-title"> 
+           <h2><a href="/Events/123187">Mohasseb Anniversary ft. Heavy Pins @ CJC</a></h2> 
+          </div> 
+          <div class="date">
+            30 Mar 2018 
+          </div> 
+         </div> 
+         <div class="main-recommended"> 
+          <div class="recommended-img"> 
+           <a href="/Events/123027"><img src="/Content/Admin/Uploads/EventsImages/ad6f0d78-c408-4804-b332-b8da7df04f57.jpg" width="161" height="161" alt="The Cadillacs @ CJC 610"></a> 
+          </div> 
+          <div class="recommended-title"> 
+           <h2><a href="/Events/123027">The Cadillacs @ CJC 610</a></h2> 
+          </div> 
+          <div class="date">
+            31 Mar 2018 
+          </div> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="clear"></div> 
+      <div class="back-big"> 
+      </div> 
+     </div> 
+     <div class="right-calender"> 
+      <div class="right-ad-bottom"> 
+       <div class="even-ad-inn"> 
+        <!--/*
+  *
+  * Revive Adserver Javascript Tag
+  * - Generated with Revive Adserver v3.2.0
+  *
+  */--> 
+        <!--/*
+  * The backup image section of this tag has been generated for use on a
+  * non-SSL page. If this tag is to be placed on an SSL page, change the
+  *   'http://gornany.info/revive/www/delivery/...'
+  * to
+  *   'https://gornany.info/revive/www/delivery/...'
+  *
+  * This noscript section of this tag only shows image banners. There
+  * is no width or height in these banners, so if you want these tags to
+  * allocate space for the ad before it shows, you will need to add this
+  * information to the <img> tag.
+  *
+  * If you do not want to deal with the intricities of the noscript
+  * section, delete the tag (from <noscript>... to </noscript>). On
+  * average, the noscript tag is called from less than 1% of internet
+  * users.
+  */--> 
+        <script type="text/javascript"><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://gornany.info/revive/www/delivery/ajs.php':'http://gornany.info/revive/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=64");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+        <noscript>
+         <a href="http://gornany.info/revive/www/delivery/ck.php?n=adb5f9da&amp;cb=INSERT_RANDOM_NUMBER_HERE" target="_blank"><img src="http://gornany.info/revive/www/delivery/avw.php?zoneid=64&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=adb5f9da" border="0" alt=""></a>
+        </noscript> 
+       </div> 
+       <div class="even-ad-inn"> 
+        <!--/*
+  *
+  * Revive Adserver Javascript Tag
+  * - Generated with Revive Adserver v3.2.0
+  *
+  */--> 
+        <!--/*
+  * The backup image section of this tag has been generated for use on a
+  * non-SSL page. If this tag is to be placed on an SSL page, change the
+  *   'http://gornany.info/revive/www/delivery/...'
+  * to
+  *   'https://gornany.info/revive/www/delivery/...'
+  *
+  * This noscript section of this tag only shows image banners. There
+  * is no width or height in these banners, so if you want these tags to
+  * allocate space for the ad before it shows, you will need to add this
+  * information to the <img> tag.
+  *
+  * If you do not want to deal with the intricities of the noscript
+  * section, delete the tag (from <noscript>... to </noscript>). On
+  * average, the noscript tag is called from less than 1% of internet
+  * users.
+  */--> 
+        <script type="text/javascript"><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://gornany.info/revive/www/delivery/ajs.php':'http://gornany.info/revive/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=65");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+        <noscript>
+         <a href="http://gornany.info/revive/www/delivery/ck.php?n=a78d8fc2&amp;cb=INSERT_RANDOM_NUMBER_HERE" target="_blank"><img src="http://gornany.info/revive/www/delivery/avw.php?zoneid=65&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a78d8fc2" border="0" alt=""></a>
+        </noscript> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+   <div class="all-footer-ads"> 
+    <div class="footer-ads"> 
+     <!--/*
+  *
+  * Revive Adserver Asynchronous JS Tag
+  * - Generated with Revive Adserver v3.2.0
+  *
+  */--> 
+     <ins data-revive-zoneid="66" data-revive-id="ed59dc4e1f70f19d7e79e344f1ed0b7a"></ins> 
+     <script async src="//gornany.info/revive/www/delivery/asyncjs.php"></script> 
+    </div> 
+    <div class="footer-ads"> 
+     <!--/*
+  *
+  * Revive Adserver Asynchronous JS Tag
+  * - Generated with Revive Adserver v3.2.0
+  *
+  */--> 
+     <ins data-revive-zoneid="67" data-revive-id="ed59dc4e1f70f19d7e79e344f1ed0b7a"></ins> 
+     <script async src="//gornany.info/revive/www/delivery/asyncjs.php"></script> 
+    </div> 
+   </div> 
+   <div class="clear"></div> 
+  </div> 
+  <div class="footer"> 
+   <div class="center"> 
+    <div class="all-footer-top"> 
+     <div class="all-mo4"> 
+      <div class="mo4-logo"> 
+       <a href="http://www.mo4network.com" target="_blank"><img src="/Content/Images/mo4.png"></a> 
+      </div> 
+      <div class="mo4-social"> 
+       <ul> 
+        <li> <a href="https://www.facebook.com/MO4Network?fref=ts" target="_blank"></a> </li> 
+        <li> <a href="https://instagram.com/mo4network/" target="_blank"></a> </li> 
+        <li> <a href="https://twitter.com/mo4network" target="_blank"></a> </li> 
+        <li> <a href="https://www.snapchat.com/add/mo4network" target="_blank"></a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="all-footer-menu"> 
+      <ul> 
+       <li> <a href="/">Home</a> </li> 
+       <li> <a href="/Calendar">Events</a> </li> 
+       <li> <a href="/Buzz">Buzz</a> </li> 
+       <li> <a href="/In-Depth"> In-Depth </a> </li> 
+       <li> <a href="/LifeStyle"> LIFESTYLE </a> </li> 
+       <li> <a href="/Fashion"> Fashion </a> </li> 
+       <li> <a href="/Eats"> Eats </a> </li> 
+       <li> <a href="/ArtsAndCulture"> ARTS &amp; CULTURE </a> </li> 
+      </ul> 
+      <ul> 
+       <li> <a href="/SceneNoise"> SCENE NOISE </a> </li> 
+       <li> <a href="/BusinessAndPolitics"> Business</a> </li> 
+       <li> <a href="/geek"> geek </a> </li> 
+       <li> <a href="/Travel"> Travel </a> </li> 
+       <li> <a href="/Listicles"> Listicles </a> </li> 
+       <li> <a href="/SceneTV"> SCENE TV </a> </li> 
+       <li> <a href="/Movies"> CINEMA GUIDE</a> </li> 
+      </ul> 
+     </div> 
+     <div class="cairo-scene-ist"> 
+      <div class="footer-search"> 
+       <form action="/Master/Search" method="post"> 
+        <input class="text-search-footer" type="text" placeholder="Search" name="search" required> 
+        <button class="search-button-footer"></button> 
+        <div class="clear"></div> 
+       </form> 
+      </div> 
+      <div class="footer-title"> 
+       <h4> follow CairoScene</h4> 
+      </div> 
+      <div class="footer-social"> 
+       <ul> 
+        <li> <a href="https://www.facebook.com/CairoScene" target="_blank"></a> </li> 
+        <li> <a href="http://instagram.com/cairoscene" target="_blank"></a> </li> 
+        <li> <a href="https://twitter.com/CairoScene" target="_blank"></a> </li> 
+        <li> <a href="https://www.youtube.com/user/CairoScene" target="_blank"></a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+    <div class="footer-bottom"> 
+     <div class="footer-bottom-menu"> 
+      <ul> 
+       <li> <a href="/AboutUs"> ABOUT US </a> </li> 
+       <li> <a href="/Contact/Advertise"> ADVERTISE </a> </li> 
+       <li> <a href="/Contact">CONTACT US</a> </li> 
+       <li> <a href="/Privacy">PRIVACY </a> </li> 
+      </ul> 
+      <div class="clear"></div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--<div style="margin: 5px auto; width: 100%;"><a target="_blank" href="http://www.nike.com/eg/en_gb/c/running/lunarepic-flyknit/?cp=gsns_brm_30616_running_nike_lunarepic_cscene"><img src="/Content/Images/nike5.jpg" style="display: block;width: 100%;" /></a></div>--> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-25817050-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>   
+ </body>
+</html>

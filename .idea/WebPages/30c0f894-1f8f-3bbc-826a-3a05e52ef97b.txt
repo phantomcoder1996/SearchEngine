@@ -1,0 +1,1410 @@
+https://stackoverflow.com/questions?sort=frequent
+<!doctype html>
+<html>
+ <head> 
+  <title>Frequent Questions - Stack Overflow</title> 
+  <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d"> 
+  <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a"> 
+  <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:url" content="https://stackoverflow.com/questions?sort=frequent"> 
+  <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:domain" content="stackoverflow.com"> 
+  <meta name="twitter:title" property="og:title" itemprop="title name" content="Frequent Questions"> 
+  <meta name="twitter:description" property="og:description" itemprop="description" content="Stack Overflow | The World’s Largest Online Community for Developers"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+  <script src="https://cdn.sstatic.net/Js/stub.en.js?v=57e020fde11a"></script> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=596945d5421b"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=94cd993a63cf"> 
+  <script>
+        StackExchange.init({"locale":"en","serverTime":1521843107,"routeName":"Questions/List","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"childUrl":"https://meta.stackoverflow.com","enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"d16a35da63103e8b1162221b85b5952621651c541085caea15d1785affbc32a4","tid":"7cfcab58-5ac1-45f5-d592-4c12c36e98e1","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4}}, {"site":{"allowImageUploads":true,"commentHighlightingWithCSS":true,"enableUserHovercards":true,"styleCode":true,"enableImgurHttps":true,"forceHttpsImages":true},"userMessaging":{},"comments":{},"userProfile":{"openGraphAPIKey":"58740831ad23540e00c58987"},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"paths":{},"markdown":{"asteriskIntraWordEmphasis":true},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad"},"subscriptions":{}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"fd71fcd78b2c","js/moderator.en.js":"d350b664ddb3","js/full-anon.en.js":"81c19a49c169","js/full.en.js":"6d6c19847a8b","js/wmd.en.js":"a349c871bd62","js/third-party/jquery.autocomplete.min.js":"bdb258e949a8","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"4804a16f7074","js/help.en.js":"a1c2d4ed1321","js/tageditor.en.js":"bff66e3469d5","js/tageditornew.en.js":"586ffe22ab58","js/inline-tag-editing.en.js":"e7aa31e8eba1","js/revisions.en.js":"8f22ba768cac","js/review.en.js":"5eda79317cf4","js/tagsuggestions.en.js":"78eee7c19ab2","js/post-validation.en.js":"ec745f184617","js/explore-qlist.en.js":"66e52888786d","js/events.en.js":"8f07ed802b6b","js/keyboard-shortcuts.en.js":"8588a17139dd","js/external-editor.en.js":"3c50622b803d","js/adops.en.js":"22a9bd59b1e9","js/external-editor.en.js":"3c50622b803d","js/snippet-javascript.en.js":"6596eb95a324","js/snippet-javascript-codemirror.en.js":"6e1735fcf180"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script> 
+  <noscript id="noscript-css">
+   <style>body,.top-bar{margin-top:1.9em}</style>
+  </noscript> 
+ </head> 
+ <body class="questions-page new-topbar"> 
+  <script async src="https://js-sec.indexww.com/ht/p/185901-159836282584097.js"></script> 
+  <div id="notify-container"></div> 
+  <div id="custom-header"></div> 
+  <header class="top-bar js-top-bar _fixed"> 
+   <div class="-container"> 
+    <div class="-main"> 
+     <a href="https://stackoverflow.com" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:3, destination:8})"> <span class="-img">Stack Overflow</span> </a> 
+     <nav class="navigation" role="navigation" aria-label="site navigation"> 
+      <ol class="-list"> 
+       <li class="-item _current"> <a id="nav-questions" href="/questions" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:true, location:3, destination:1})">Questions</a> </li> 
+       <li class="-item"> <a id="nav-jobs" href="/jobs?med=site-ui&amp;ref=jobs-tab" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:3, destination:6})">Developer Jobs</a> </li> 
+       <li class="-item"> <a id="nav-tags" href="/tags" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:3, destination:2})">Tags</a> </li> 
+       <li class="-item"> <a id="nav-users" href="/users" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:3, destination:3})">Users</a> </li> 
+      </ol> 
+     </nav> 
+    </div> 
+    <form id="search" action="/search" method="get" class="searchbar" autocomplete="off" role="search"> 
+     <input name="q" type="text" placeholder="Search…" value="" tabindex="1" autocomplete="off" maxlength="240" class="f-input js-search-field"> 
+     <button type="submit" aria-label="Search..." class="btn-topbar-primary js-search-submit">
+      <svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewbox="0 0 18 18">
+       <path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z" />
+      </svg></button> 
+    </form> 
+    <div class="-actions"> 
+     <nav class="secondary-nav"> 
+      <div class="-dialog-container js-topbar-dialog-corral"> 
+       <div class="topbar-dialog siteSwitcher-dialog dno"> 
+        <div class="header"> 
+         <h3><a href="https://stackoverflow.com">current community</a> </h3> 
+        </div> 
+        <div class="modal-content current-site-container"> 
+         <ul class="current-site"> 
+          <li> 
+           <div class="related-links"> 
+            <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:14 })">help</a> 
+            <a href="https://chat.stackoverflow.com" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a> 
+           </div> <a href="https://stackoverflow.com" class="current-site-link site-link js-gps-track" data-id="1" data-gps-track="site_switcher.click({ item_type:3 })"> 
+            <div class="favicon favicon-stackoverflow site-icon" title="Stack Overflow"></div> Stack Overflow </a> </li> 
+          <li class="related-site"> 
+           <div class="L-shaped-icon-container"> 
+            <span class="L-shaped-icon"></span> 
+           </div> <a href="https://meta.stackoverflow.com" class="site-link js-gps-track" data-id="552" data-gps-track="site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })"> 
+            <div class="favicon favicon-stackoverflowmeta site-icon" title="Meta Stack Overflow"></div> Meta Stack Overflow </a> </li> 
+         </ul> 
+        </div> 
+        <div class="header" id="your-communities-header"> 
+         <h3> your communities </h3> 
+        </div> 
+        <div class="modal-content" id="your-communities-section"> 
+         <div class="call-to-login"> 
+          <a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or 
+          <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%3fsort%3dfrequent" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list. 
+         </div> 
+        </div> 
+        <div class="header"> 
+         <h3><a href="https://stackexchange.com/sites">more stack exchange communities</a> </h3> 
+         <a href="https://stackoverflow.blog" class="fr">company blog</a> 
+        </div> 
+        <div class="modal-content"> 
+         <div class="child-content"></div> 
+        </div> 
+       </div> 
+       <div class="topbar-dialog help-dialog js-help-dialog dno"> 
+        <div class="modal-content"> 
+         <ul> 
+          <li> <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })"> Tour <span class="item-summary"> Start here for a quick overview of the site </span> </a> </li> 
+          <li> <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })"> Help Center <span class="item-summary"> Detailed answers to any questions you might have </span> </a> </li> 
+          <li> <a href="https://meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })"> Meta <span class="item-summary"> Discuss the workings and policies of this site </span> </a> </li> 
+          <li> <a href="https://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })"> About Us <span class="item-summary"> Learn more about Stack Overflow the company </span> </a> </li> 
+          <li> <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })"> Business <span class="item-summary"> Learn more about hiring developers or posting ads with us </span> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+      <ol class="-list"> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages"> 
+         <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewbox="0 0 20 18">
+          <path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z" />
+         </svg> <span class="indicator-badge js-unread-count _important" style="display: none;"></span> </a> </li> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive"> 
+         <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z" />
+         </svg> <span class="indicator-badge js-unread-count _positive" style="display: none;"></span> </a> </li> 
+       <li class="-item"><a href="#" class="-link js-help-button" title="Help Center and other resources"> 
+         <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z" />
+         </svg> </a></li> 
+       <li class="-item"> <a href="https://stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 172 Stack Exchange sites"> 
+         <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z" />
+         </svg> </a> </li> 
+      </ol> 
+     </nav> 
+     <div class="-ctas"> 
+      <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%3fsort%3dfrequent" class="login-link btn-clear" rel="nofollow">Log In</a> 
+      <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link btn-topbar-primary" rel="nofollow" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]">Sign Up</a> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+        StackExchange.scrollPadding.setPaddingTop(60, 10);     </script> 
+  <div id="announcement-banner" data-campaign="2018-03-13.dev-survey-2018" data-cookie="notice-dsr" data-expire-date="1524211200000"> 
+   <div class="-container"> 
+    <span class="-body">The results are in!</span> 
+    <a class="-link js-link js-gps-track" href="https://insights.stackoverflow.com/survey/2018/" data-ga="[&quot;dev-survey-2018&quot;,&quot;Announcement Banner&quot;,&quot;https://insights.stackoverflow.com/survey/2018/&quot;,null,{&quot;dimension4&quot;:&quot;dev-survey-2018&quot;}]" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 3, action: 2})">See the 2018 Developer Survey results. »</a> 
+    <a class="-dismiss js-dismiss js-gps-track" href="#" title="dismiss" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 3, action: 1})">
+     <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewbox="0 0 18 18">
+      <path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z" />
+     </svg></a> 
+   </div> 
+  </div> 
+  <script>
+    StackExchange.ready(function () {
+        var $banner = $('#announcement-banner');
+
+        function setCookie(value) {
+            $.cookie($banner.data('cookie'), value, {
+                expires: (new Date($banner.data('expire-date'))),
+                path: '/'
+            });
+        }
+
+        $banner.find('.js-link').click(function () {
+            setCookie('2;' + Date.now());
+        });
+
+        $banner.find('.js-dismiss').click(function () {
+            setCookie('4;' + Date.now());
+            $banner.animate({ height: '0', opacity: 0 }, 'fast', 'linear', function () { $banner.remove(); });
+            return false;
+        });
+    });
+</script> 
+  <div class="container"> 
+   <div id="content" class="snippet-hidden"> 
+    <div id="mainbar" role="main" aria-labelledby="h-all-questions"> 
+     <div class="subheader"> 
+      <h1 id="h-all-questions">All Questions</h1> 
+      <div id="tabs"> 
+       <a href="/questions?sort=newest" data-nav-xhref="" title="The most recently asked questions" data-value="newest" data-shortcut="N"> newest</a> 
+       <a href="/questions?sort=featured" data-nav-xhref="" title="Questions with open bounties" data-value="featured" data-shortcut="E"> <span class="bounty-indicator-tab">395</span> featured</a> 
+       <a class="youarehere " href="/questions?sort=frequent" data-nav-xhref="" title="Questions with the most links" data-value="frequent" data-shortcut="F"> frequent</a> 
+       <a href="/questions?sort=votes" data-nav-xhref="" title="Questions with the most votes" data-value="votes" data-shortcut="V"> votes</a> 
+       <a href="/questions?sort=active" data-nav-xhref="" title="Questions that have recent activity" data-value="active" data-shortcut="A"> active</a> 
+       <a id="tab-switch" href="/unanswered" data-nav-xhref="" title="Switch to unanswered tabs" data-value="" data-shortcut=""> unanswered</a> 
+      </div> 
+     </div> 
+     <div id="questions"> 
+      <div class="question-summary" id="question-summary-218384"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>211</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>12</strong>answers 
+         </div> 
+        </div> 
+        <div class="views supernova" title="1,762,903 views">
+          1.8m views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/218384/what-is-a-nullpointerexception-and-how-do-i-fix-it" class="question-hyperlink">What is a NullPointerException, and how do I fix it?</a></h3> 
+        <div class="excerpt">
+          What are Null Pointer Exceptions (java.lang.NullPointerException) and what causes them? What methods/tools can be used to determine the cause so that you stop the exception from causing the program ... 
+        </div> 
+        <div class="tags t-java t-nullpointerexception"> 
+         <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> 
+         <a href="/questions/tagged/nullpointerexception" class="post-tag" title="show questions tagged 'nullpointerexception'" rel="tag">nullpointerexception</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info"> 
+          <div class="user-details"> 
+           <span class="community-wiki" title="This post is community owned as of Oct 31 '17 at 23:56. Votes do not generate reputation, and it can be edited by users with 100 rep"> community wiki </span> 
+          </div>
+          <br> 
+          <div class="user-details"> 
+           <a id="history-218384" href="/posts/218384/revisions" title="show revision history for this post"> Ziggy </a> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-14220321"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post high-scored-post"><strong>3901</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>32</strong>answers 
+         </div> 
+        </div> 
+        <div class="views supernova" title="994,918 views">
+          995k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/14220321/how-do-i-return-the-response-from-an-asynchronous-call" class="question-hyperlink">How do I return the response from an asynchronous call?</a></h3> 
+        <div class="excerpt">
+          I have a function foo which makes an Ajax request. How can I return the response from foo? I tried returning the value from the success callback as well as assigning the response to a local variable ... 
+        </div> 
+        <div class="tags t-javascript t-ajax t-asynchronous t-ecmascript-6 t-ecmascript-2017"> 
+         <a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged 'javascript'" rel="tag">javascript</a> 
+         <a href="/questions/tagged/ajax" class="post-tag" title="show questions tagged 'ajax'" rel="tag">ajax</a> 
+         <a href="/questions/tagged/asynchronous" class="post-tag" title="show questions tagged 'asynchronous'" rel="tag">asynchronous</a> 
+         <a href="/questions/tagged/ecmascript-6" class="post-tag" title="show questions tagged 'ecmascript-6'" rel="tag">ecmascript-6</a> 
+         <a href="/questions/tagged/ecmascript-2017" class="post-tag" title="show questions tagged 'ecmascript-2017'" rel="tag">ecmascript-2017</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info user-hover"> 
+          <div class="user-action-time">
+            asked 
+           <span title="2013-01-08 17:06:14Z" class="relativetime">Jan 8 '13 at 17:06</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/218196/felix-kling">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/4P5DY.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/218196/felix-kling">Felix Kling</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score 492,766" dir="ltr">493k</span>
+            <span title="111 gold badges"><span class="badge1"></span><span class="badgecount">111</span></span>
+            <span title="786 silver badges"><span class="badge2"></span><span class="badgecount">786</span></span>
+            <span title="831 bronze badges"><span class="badge3"></span><span class="badgecount">831</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-60174"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post high-scored-post"><strong>2782</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>28</strong>answers 
+         </div> 
+        </div> 
+        <div class="views supernova" title="1,346,021 views">
+          1.3m views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/60174/how-can-i-prevent-sql-injection-in-php" class="question-hyperlink">How can I prevent SQL injection in PHP?</a></h3> 
+        <div class="excerpt">
+          If user input is inserted without modification into an SQL query, then the application becomes vulnerable to SQL injection, like in the following example: $unsafe_variable = $_POST['user_input']; ... 
+        </div> 
+        <div class="tags t-php t-mysql t-sql t-security t-sql-injection"> 
+         <a href="/questions/tagged/php" class="post-tag" title="show questions tagged 'php'" rel="tag">php</a> 
+         <a href="/questions/tagged/mysql" class="post-tag" title="show questions tagged 'mysql'" rel="tag">mysql</a> 
+         <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a> 
+         <a href="/questions/tagged/security" class="post-tag" title="show questions tagged 'security'" rel="tag">security</a> 
+         <a href="/questions/tagged/sql-injection" class="post-tag" title="show questions tagged 'sql-injection'" rel="tag">sql-injection</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info"> 
+          <div class="user-details"> 
+           <span class="community-wiki" title="This post is community owned as of Nov 5 '12 at 16:18. Votes do not generate reputation, and it can be edited by users with 100 rep"> community wiki </span> 
+          </div>
+          <br> 
+          <div class="user-details"> 
+           <a id="history-60174" href="/posts/60174/revisions" title="show revision history for this post"> 44 revs, 36 users 14%<br></a>
+           <a href="/users/428190">Andrew G. Johnson</a>  
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-5963269"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post high-scored-post"><strong>2227</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>23</strong>answers 
+         </div> 
+        </div> 
+        <div class="views supernova" title="192,695 views">
+          193k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/5963269/how-to-make-a-great-r-reproducible-example" class="question-hyperlink">How to make a great R reproducible example?</a></h3> 
+        <div class="excerpt">
+          When discussing performance with colleagues, teaching, sending a bug report or searching for guidance on mailing lists and here on SO, a reproducible example is often asked and always helpful. What ... 
+        </div> 
+        <div class="tags t-r t-r-faq"> 
+         <a href="/questions/tagged/r" class="post-tag" title="show questions tagged 'r'" rel="tag">r</a> 
+         <a href="/questions/tagged/r-faq" class="post-tag" title="show questions tagged 'r-faq'" rel="tag">r-faq</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info"> 
+          <div class="user-details"> 
+           <span class="community-wiki" title="This post is community owned as of May 12 '11 at 13:21. Votes do not generate reputation, and it can be edited by users with 100 rep"> community wiki </span> 
+          </div>
+          <br> 
+          <div class="user-details"> 
+           <a id="history-5963269" href="/posts/5963269/revisions" title="show revision history for this post"> 13 revs, 9 users 46%<br></a>
+           <a href="/users/3604745">Hack-R</a>  
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-1732348"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post high-scored-post"><strong>1325</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>35</strong>answers 
+         </div> 
+        </div> 
+        <div class="views supernova" title="2,197,077 views">
+          2.2m views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags" class="question-hyperlink">RegEx match open tags except XHTML self-contained tags</a></h3> 
+        <div class="excerpt">
+          I need to match all of these opening tags: &lt;p&gt; &lt;a href="foo"&gt; But not these: &lt;br /&gt; &lt;hr class="foo" /&gt; I came up with this and wanted to make sure I've got it right. I am ... 
+        </div> 
+        <div class="tags t-html t-regex t-xhtml"> 
+         <a href="/questions/tagged/html" class="post-tag" title="show questions tagged 'html'" rel="tag">html</a> 
+         <a href="/questions/tagged/regex" class="post-tag" title="show questions tagged 'regex'" rel="tag">regex</a> 
+         <a href="/questions/tagged/xhtml" class="post-tag" title="show questions tagged 'xhtml'" rel="tag">xhtml</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info"> 
+          <div class="user-details"> 
+           <span class="community-wiki" title="This post is community owned as of Nov 19 '09 at 1:13. Votes do not generate reputation, and it can be edited by users with 100 rep"> community wiki </span> 
+          </div>
+          <br> 
+          <div class="user-details"> 
+           <a id="history-1732348" href="/posts/1732348/revisions" title="show revision history for this post"> 11 revs, 7 users 58%<br></a>
+           <a href="/users/142233">Jeff</a>  
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-4660142"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post high-scored-post"><strong>1880</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>33</strong>answers 
+         </div> 
+        </div> 
+        <div class="views supernova" title="883,909 views">
+          884k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/4660142/what-is-a-nullreferenceexception-and-how-do-i-fix-it" class="question-hyperlink">What is a NullReferenceException, and how do I fix it?</a></h3> 
+        <div class="excerpt">
+          I have some code and when it executes, it throws a NullReferenceException, saying: Object reference not set to an instance of an object. What does this mean, and what can I do to fix this error? 
+        </div> 
+        <div class="tags t-cñ t-ûnet t-vbûnet t-null t-nullreferenceexception"> 
+         <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged 'c#'" rel="tag">c#</a> 
+         <a href="/questions/tagged/.net" class="post-tag" title="show questions tagged '.net'" rel="tag">.net</a> 
+         <a href="/questions/tagged/vb.net" class="post-tag" title="show questions tagged 'vb.net'" rel="tag">vb.net</a> 
+         <a href="/questions/tagged/null" class="post-tag" title="show questions tagged 'null'" rel="tag">null</a> 
+         <a href="/questions/tagged/nullreferenceexception" class="post-tag" title="show questions tagged 'nullreferenceexception'" rel="tag">nullreferenceexception</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info"> 
+          <div class="user-details"> 
+           <span class="community-wiki" title="This post is community owned as of Jul 30 '15 at 8:22. Votes do not generate reputation, and it can be edited by users with 100 rep"> community wiki </span> 
+          </div>
+          <br> 
+          <div class="user-details"> 
+           <a id="history-4660142" href="/posts/4660142/revisions" title="show revision history for this post"> 22 revs, 16 users 40%<br></a>
+           <a href="/users/76337">John Saunders</a>  
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-513832"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>727</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>23</strong>answers 
+         </div> 
+        </div> 
+        <div class="views supernova" title="2,974,278 views">
+          3.0m views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/513832/how-do-i-compare-strings-in-java" class="question-hyperlink">How do I compare strings in Java?</a></h3> 
+        <div class="excerpt">
+          I've been using the == operator in my program to compare all my strings so far. However, I ran into a bug, changed one of them into .equals() instead, and it fixed the bug. Is == bad? When should it ... 
+        </div> 
+        <div class="tags t-java t-string t-equality"> 
+         <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> 
+         <a href="/questions/tagged/string" class="post-tag" title="show questions tagged 'string'" rel="tag">string</a> 
+         <a href="/questions/tagged/equality" class="post-tag" title="show questions tagged 'equality'" rel="tag">equality</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info"> 
+          <div class="user-details"> 
+           <span class="community-wiki" title="This post is community owned as of Dec 17 '13 at 11:46. Votes do not generate reputation, and it can be edited by users with 100 rep"> community wiki </span> 
+          </div>
+          <br> 
+          <div class="user-details"> 
+           <a id="history-513832" href="/posts/513832/revisions" title="show revision history for this post"> Nathan H </a> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-12859942"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post high-scored-post"><strong>2093</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>14</strong>answers 
+         </div> 
+        </div> 
+        <div class="views supernova" title="170,996 views">
+          171k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/12859942/why-shouldnt-i-use-mysql-functions-in-php" class="question-hyperlink">Why shouldn't I use mysql_* functions in PHP?</a></h3> 
+        <div class="excerpt">
+          What are the technical reasons for why one shouldn't use mysql_* functions? (e.g. mysql_query(), mysql_connect() or mysql_real_escape_string())? Why should I use something else even if they work on ... 
+        </div> 
+        <div class="tags t-php t-mysql t-database"> 
+         <a href="/questions/tagged/php" class="post-tag" title="show questions tagged 'php'" rel="tag">php</a> 
+         <a href="/questions/tagged/mysql" class="post-tag" title="show questions tagged 'mysql'" rel="tag">mysql</a> 
+         <a href="/questions/tagged/database" class="post-tag" title="show questions tagged 'database'" rel="tag">database</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info user-hover"> 
+          <div class="user-action-time">
+            asked 
+           <span title="2012-10-12 13:18:39Z" class="relativetime">Oct 12 '12 at 13:18</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/871050/madara-uchiha">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/a7a50a9492be737b0c012a839338272a?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/871050/madara-uchiha">Madara Uchiha</a>
+           <span class="mod-flair" title="moderator">♦</span> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score 105,867" dir="ltr">106k</span>
+            <span title="38 gold badges"><span class="badge1"></span><span class="badgecount">38</span></span>
+            <span title="189 silver badges"><span class="badge2"></span><span class="badgecount">189</span></span>
+            <span title="240 bronze badges"><span class="badge3"></span><span class="badgecount">240</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-4261133"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>875</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>24</strong>answers 
+         </div> 
+        </div> 
+        <div class="views supernova" title="1,275,499 views">
+          1.3m views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/4261133/php-notice-undefined-variable-notice-undefined-index-and-notice-undef" class="question-hyperlink">PHP: “Notice: Undefined variable”, “Notice: Undefined index”, and “Notice: Undefined offset”</a></h3> 
+        <div class="excerpt">
+          I am running a PHP script, and keep getting errors like: Notice: Undefined variable: my_variable_name in C:\wamp\www\mypath\index.php on line 10 Notice: Undefined index: my_index C:\wamp\www\... 
+        </div> 
+        <div class="tags t-php t-arrays t-variables t-warnings t-undefined-index"> 
+         <a href="/questions/tagged/php" class="post-tag" title="show questions tagged 'php'" rel="tag">php</a> 
+         <a href="/questions/tagged/arrays" class="post-tag" title="show questions tagged 'arrays'" rel="tag">arrays</a> 
+         <a href="/questions/tagged/variables" class="post-tag" title="show questions tagged 'variables'" rel="tag">variables</a> 
+         <a href="/questions/tagged/warnings" class="post-tag" title="show questions tagged 'warnings'" rel="tag">warnings</a> 
+         <a href="/questions/tagged/undefined-index" class="post-tag" title="show questions tagged 'undefined-index'" rel="tag">undefined-index</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info"> 
+          <div class="user-details"> 
+           <span class="community-wiki" title="This post is community owned as of Nov 23 '10 at 21:52. Votes do not generate reputation, and it can be edited by users with 100 rep"> community wiki </span> 
+          </div>
+          <br> 
+          <div class="user-details"> 
+           <a id="history-4261133" href="/posts/4261133/revisions" title="show revision history for this post"> 23 revs, 15 users 29%<br></a>
+           <a href="/users/187606">Pekka 웃</a>  
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-388242"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post high-scored-post"><strong>4255</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views supernova" title="1,820,401 views">
+          1.8m views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/388242/the-definitive-c-book-guide-and-list" class="question-hyperlink">The Definitive C++ Book Guide and List</a></h3> 
+        <div class="excerpt">
+          This question attempts to collect the few pearls among the dozens of bad C++ books that are published every year. Unlike many other programming languages, which are often picked up on the go from ... 
+        </div> 
+        <div class="tags t-cçç t-cçç-faq"> 
+         <a href="/questions/tagged/c%2b%2b" class="post-tag" title="show questions tagged 'c++'" rel="tag">c++</a> 
+         <a href="/questions/tagged/c%2b%2b-faq" class="post-tag" title="show questions tagged 'c++-faq'" rel="tag">c++-faq</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info"> 
+          <div class="user-details"> 
+           <span class="community-wiki" title="This post is community owned as of Dec 23 '08 at 5:23. Votes do not generate reputation, and it can be edited by users with 100 rep"> community wiki </span> 
+          </div>
+          <br> 
+          <div class="user-details"> 
+           <a id="history-388242" href="/posts/388242/revisions" title="show revision history for this post"> 95 revs, 51 users 23%<br></a>
+           <a href="/users/140719">sbi</a>  
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-18050071"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>443</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>13</strong>answers 
+         </div> 
+        </div> 
+        <div class="views supernova" title="360,903 views">
+          361k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/18050071/php-parse-syntax-errors-and-how-to-solve-them" class="question-hyperlink">PHP parse/syntax errors; and how to solve them?</a></h3> 
+        <div class="excerpt">
+          Everyone runs into syntax errors. Even experienced programmers make typos. For newcomers it's just part of the learning process. However, it's often easy to interpret error messages such as: PHP ... 
+        </div> 
+        <div class="tags t-php t-parsing t-debugging t-syntax-error"> 
+         <a href="/questions/tagged/php" class="post-tag" title="show questions tagged 'php'" rel="tag">php</a> 
+         <a href="/questions/tagged/parsing" class="post-tag" title="show questions tagged 'parsing'" rel="tag">parsing</a> 
+         <a href="/questions/tagged/debugging" class="post-tag" title="show questions tagged 'debugging'" rel="tag">debugging</a> 
+         <a href="/questions/tagged/syntax-error" class="post-tag" title="show questions tagged 'syntax-error'" rel="tag">syntax-error</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info"> 
+          <div class="user-details"> 
+           <span class="community-wiki" title="This post is community owned as of Aug 22 '13 at 23:11. Votes do not generate reputation, and it can be edited by users with 100 rep"> community wiki </span> 
+          </div>
+          <br> 
+          <div class="user-details"> 
+           <a id="history-18050071" href="/posts/18050071/revisions" title="show revision history for this post"> 25 revs, 10 users 58%<br></a>
+           <a href="/users/345031">mario</a>  
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-750486"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post high-scored-post"><strong>2166</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>34</strong>answers 
+         </div> 
+        </div> 
+        <div class="views supernova" title="262,278 views">
+          262k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/750486/javascript-closure-inside-loops-simple-practical-example" class="question-hyperlink">JavaScript closure inside loops – simple practical example</a></h3> 
+        <div class="excerpt">
+          var funcs = []; for (var i = 0; i &lt; 3; i++) { // let's create 3 functions funcs[i] = function() { // and store them in funcs console.log("My value: " + i); // each should log ... 
+        </div> 
+        <div class="tags t-javascript t-loops t-closures"> 
+         <a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged 'javascript'" rel="tag">javascript</a> 
+         <a href="/questions/tagged/loops" class="post-tag" title="show questions tagged 'loops'" rel="tag">loops</a> 
+         <a href="/questions/tagged/closures" class="post-tag" title="show questions tagged 'closures'" rel="tag">closures</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info user-hover"> 
+          <div class="user-action-time">
+            asked 
+           <span title="2009-04-15 06:06:20Z" class="relativetime">Apr 15 '09 at 6:06</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/9021/nickf">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/f092dfd45793e9483281d4205b674823?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/9021/nickf">nickf</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score 344,733" dir="ltr">345k</span>
+            <span title="163 gold badges"><span class="badge1"></span><span class="badgecount">163</span></span>
+            <span title="571 silver badges"><span class="badge2"></span><span class="badgecount">571</span></span>
+            <span title="669 bronze badges"><span class="badge3"></span><span class="badgecount">669</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-605845"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post high-scored-post"><strong>1942</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>27</strong>answers 
+         </div> 
+        </div> 
+        <div class="views supernova" title="161,528 views">
+          162k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/605845/do-i-cast-the-result-of-malloc" class="question-hyperlink">Do I cast the result of malloc?</a></h3> 
+        <div class="excerpt">
+          In this question, someone suggested in a comment that I should not cast the result of malloc, i.e. int *sieve = malloc(sizeof(int) * length); rather than: int *sieve = (int *) malloc(sizeof(int) * ... 
+        </div> 
+        <div class="tags t-c t-malloc t-casting"> 
+         <a href="/questions/tagged/c" class="post-tag" title="show questions tagged 'c'" rel="tag">c</a> 
+         <a href="/questions/tagged/malloc" class="post-tag" title="show questions tagged 'malloc'" rel="tag">malloc</a> 
+         <a href="/questions/tagged/casting" class="post-tag" title="show questions tagged 'casting'" rel="tag">casting</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info user-hover"> 
+          <div class="user-action-time">
+            asked 
+           <span title="2009-03-03 10:13:02Z" class="relativetime">Mar 3 '09 at 10:13</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/61989/patrick-mcdonald">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/23d0af63ab371e90fa713a96d3066d59?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/61989/patrick-mcdonald">Patrick McDonald</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score 37,868" dir="ltr">37.9k</span>
+            <span title="13 gold badges"><span class="badge1"></span><span class="badgecount">13</span></span>
+            <span title="84 silver badges"><span class="badge2"></span><span class="badgecount">84</span></span>
+            <span title="106 bronze badges"><span class="badge3"></span><span class="badgecount">106</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-12573816"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post high-scored-post"><strong>1123</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>27</strong>answers 
+         </div> 
+        </div> 
+        <div class="views supernova" title="389,066 views">
+          389k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/12573816/what-is-an-undefined-reference-unresolved-external-symbol-error-and-how-do-i-fix" class="question-hyperlink">What is an undefined reference/unresolved external symbol error and how do I fix it?</a></h3> 
+        <div class="excerpt">
+          What are undefined reference/unresolved external symbol errors? What are common causes and how to fix/prevent them? Feel free to edit/add your own. 
+        </div> 
+        <div class="tags t-cçç t-linker-errors t-undefined-reference t-cçç-faq t-unresolved-external"> 
+         <a href="/questions/tagged/c%2b%2b" class="post-tag" title="show questions tagged 'c++'" rel="tag">c++</a> 
+         <a href="/questions/tagged/linker-errors" class="post-tag" title="show questions tagged 'linker-errors'" rel="tag">linker-errors</a> 
+         <a href="/questions/tagged/undefined-reference" class="post-tag" title="show questions tagged 'undefined-reference'" rel="tag">undefined-reference</a> 
+         <a href="/questions/tagged/c%2b%2b-faq" class="post-tag" title="show questions tagged 'c++-faq'" rel="tag">c++-faq</a> 
+         <a href="/questions/tagged/unresolved-external" class="post-tag" title="show questions tagged 'unresolved-external'" rel="tag">unresolved-external</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info user-hover"> 
+          <div class="user-action-time">
+            asked 
+           <span title="2012-09-24 22:27:40Z" class="relativetime">Sep 24 '12 at 22:27</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/673730/luchian-grigore">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/5d1e4893fe7a566e6e4b90876b642163?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/673730/luchian-grigore">Luchian Grigore</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score 187,168" dir="ltr">187k</span>
+            <span title="39 gold badges"><span class="badge1"></span><span class="badgecount">39</span></span>
+            <span title="343 silver badges"><span class="badge2"></span><span class="badgecount">343</span></span>
+            <span title="503 bronze badges"><span class="badge3"></span><span class="badgecount">503</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-588004"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post high-scored-post"><strong>2087</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>22</strong>answers 
+         </div> 
+        </div> 
+        <div class="views supernova" title="205,131 views">
+          205k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/588004/is-floating-point-math-broken" class="question-hyperlink">Is floating point math broken?</a></h3> 
+        <div class="excerpt">
+          0.1 + 0.2 == 0.3 -&gt; false 0.1 + 0.2 -&gt; 0.30000000000000004 Why does this happen? 
+        </div> 
+        <div class="tags t-math t-language-agnostic t-floating-point t-floating-accuracy"> 
+         <a href="/questions/tagged/math" class="post-tag" title="show questions tagged 'math'" rel="tag">math</a> 
+         <a href="/questions/tagged/language-agnostic" class="post-tag" title="show questions tagged 'language-agnostic'" rel="tag">language-agnostic</a> 
+         <a href="/questions/tagged/floating-point" class="post-tag" title="show questions tagged 'floating-point'" rel="tag">floating-point</a> 
+         <a href="/questions/tagged/floating-accuracy" class="post-tag" title="show questions tagged 'floating-accuracy'" rel="tag">floating-accuracy</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info user-hover"> 
+          <div class="user-action-time">
+            asked 
+           <span title="2009-02-25 21:39:02Z" class="relativetime">Feb 25 '09 at 21:39</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/62118/cato-johnston">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/fbc2de70a03c5b320aded81f6c0eb489?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/62118/cato-johnston">Cato Johnston</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score 12,477" dir="ltr">12.5k</span>
+            <span title="8 gold badges"><span class="badge1"></span><span class="badgecount">8</span></span>
+            <span title="31 silver badges"><span class="badge2"></span><span class="badgecount">31</span></span>
+            <span title="41 bronze badges"><span class="badge3"></span><span class="badgecount">41</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <br class="cbt"> 
+     <div class="page-sizer fr"> 
+      <a href="/questions?pagesize=15&amp;sort=frequent" title="show 15 items per page" class="page-numbers current">15</a> 
+      <a href="/questions?pagesize=30&amp;sort=frequent" title="show 30 items per page" class="page-numbers ">30</a> 
+      <a href="/questions?pagesize=50&amp;sort=frequent" title="show 50 items per page" class="page-numbers ">50</a> 
+      <span class="page-numbers desc">per page</span> 
+     </div>
+     <div class="pager fl"> 
+      <span class="page-numbers current">1</span> 
+      <a href="/questions?page=2&amp;sort=frequent" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+      <a href="/questions?page=3&amp;sort=frequent" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+      <a href="/questions?page=4&amp;sort=frequent" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+      <a href="/questions?page=5&amp;sort=frequent" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+      <span class="page-numbers dots">…</span> 
+      <a href="/questions?page=98899&amp;sort=frequent" title="go to page 98899"> <span class="page-numbers">98899</span> </a> 
+      <a href="/questions?page=2&amp;sort=frequent" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+     </div> 
+    </div> 
+    <div id="sidebar" role="complementary" aria-label="sidebar"> 
+     <div class="module" id="questions-count"> 
+      <div class="-details"> 
+       <div class="summarycount al">
+        1,483,478
+       </div> 
+       <p>questions</p> 
+      </div> 
+      <div class="aside-cta" role="navigation" aria-label="ask new question"> 
+       <a href="/questions/ask" class="btn-outlined">Ask Question</a> 
+      </div> 
+     </div> 
+     <div class="module community-bulletin" data-tracker="cb=1"> 
+      <div class="related"> 
+       <div class="bulletin-title">
+         Upcoming Events 
+       </div> 
+       <hr> 
+       <div class="spacer bulletin-item-important"> 
+        <div class="bulletin-item-type">
+         <a href="https://stackoverflow.com/election" class="question-hyperlink" data-ga="[&quot;Community Bulletin Board&quot;,&quot;Upcoming Events&quot;,&quot;https://stackoverflow.com/election&quot;,null,null]">
+          <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div></a>
+        </div> 
+        <div class="bulletin-item-content"> 
+         <a href="https://stackoverflow.com/election" class="question-hyperlink" data-ga="[&quot;Community Bulletin Board&quot;,&quot;Upcoming Events&quot;,&quot;https://stackoverflow.com/election&quot;,null,null]">2018 Community Moderator Election</a> 
+         <div>
+          ends 
+          <span title="2018-03-27 20:00:00Z" class="relativetime">in 4 days</span>
+         </div> 
+        </div> 
+        <br class="cbt"> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="dfp-tsb" class="everyonelovesstackoverflow"></div> 
+     <div id="hireme"></div> 
+     <script>;(function(){var a=function(a){for(var b=[],c=1;c<arguments.length;c++)b[c-1]=arguments[c];for(var d,e=0,f=b;e<f.length;e++)for(var g in d=f[e],d)a[g]=d[g];return a};window.clc=a(window.clc||{},{autoload:function(){'function'==typeof window.clc.load?window.clc.load():window.clc.cmd.push(function(a){return a.load()})},init:function(b){try{if(!b.allowed||!new RegExp(b.allowed).test(location.hostname))return;if('none'===getComputedStyle(document.getElementById('hireme')).display)return;window.clc.options&&(b=a(b,window.clc.options));var c=b.wv;if(document.hidden&&c){var d=function(){document.hidden||(window.clc.init(b),document.removeEventListener('visibilitychange',d))};return void document.addEventListener('visibilitychange',d)}window.clc.options=b,b.al&&window.clc.autoload();var e=/Trident/i.test(navigator.userAgent)?b.lib.replace(/(\.min)?\.js(\?v=[0-9a-fA-F]+)?$/,'.ie$1.js$2'):b.lib,f=document.createElement('script');f.async=!0,f.src=e,document.body.appendChild(f)}catch(a){}}}),window.clc.cmd||(window.clc.cmd=[]),window.clc.loadDisplayAds=function(){var a="clc.stackoverflow.com",b={slots:{lb:[[728,90]],mlb:[[728,90]],sb:function(a){return'dfp-tsb'===a?[[300,250],[300,600]]:[[300,250]]},"tag-sponsorship":[[730,135]],"mobile/lb":[[320,50]]},ids:{"dfp-tlb":'lb',"dfp-mlb":'mlb',"dfp-tsb":'sb',"dfp-isb":'sb',"dfp-tag":'tag-sponsorship',"dfp-m-tlb":'mobile/lb',"clc-tlb":'lb',"clc-mlb":'mlb',"clc-tsb":'sb'}},c=/^\/tags\//.test(location.pathname)||/^\/questions\/tagged\//.test(location.pathname)?'tag-pages':'question-pages',d=location.hostname;/^clc\./.test(location.hostname)&&(d='test/dev.stackoverflow.com');var e=[4385506061,4386578282,4386579572],f=function(a){a.style.height=a.style.maxHeight=a.style.minHeight='auto',a.style.display='none',[].forEach.call(a.children,f)},g=function(b){new Image().src='https://'+a+'/stalled.gif?'+b},h=function(){var a=document.createElement('div');a.className='adsbox',a.id='clc-abd',a.style.position='absolute',a.style.pointerEvents='none',a.innerHTML='&nbsp;',document.body.appendChild(a)},i=function(){return function(a){var b=a.serviceName,c=a.slot,d=a.lineItemId;try{var h=c.getSlotElementId(),i=[];h||i.push('id=0');var j=document.getElementById(h);if(!h||j?j.hasAttribute('data-clc-stalled')&&i.push('st=1'):i.push('el=0'),0!==i.length)return void g(i.join('&'));-1===e.indexOf(d)?j.setAttribute('data-clc-prefilled','true'):f(j),j.setAttribute('data-clc-ready','true')}catch(a){var k=document.querySelector('#dfp-tsb, #dfp-isb, #clc-tsb');k&&k.setAttribute('data-clc-ready','true'),g('e=1')}}},j=function(a){return function(){var e=window.googletag;h();var f=e.pubads();f.enableSingleRequest(),f.addEventListener('slotRenderEnded',i(a));var g=window.dfp_targeting||{};g&&Object.keys(g).forEach(function(a){f.setTargeting(a,g[a])});for(var j,k=0,l=a;k<l.length;k++){j=l[k],'dfp-isb'===j&&f.setTargeting('Sidebar',['Inline']),'dfp-tsb'===j&&f.setTargeting('Sidebar',['Right']);var m=b.ids[j],n=b.slots[m];'function'==typeof n&&(n=n(j));var o='/'+'248424177'+'/'+d+'/'+m+'/'+c,p=e.defineSlot(o,n,j);('tag-sponsorship'===m||'sb'==m)&&p.setCollapseEmptyDiv(!0,!0),p.addService(f),!1}e.enableServices();for(var j,q=0,r=a;q<r.length;q++)j=r[q],e.display(j)}},k=function(a){return document.getElementById(a)},l=function(a){return'none'===getComputedStyle(a).display},m=function(a){return!l(a)},n=function(a){return!!a};return function(a){a=a&&0<a.length?a:Object.keys(b.ids);var c=a.map(k).filter(n).filter(function(a){return /^\s*$/.test(a.innerHTML)}).filter(m).map(function(a){return a.id});if(a.map(k).filter(n).filter(l).forEach(f),0!==c.length){window.googletag=window.googletag||{},window.googletag.cmd=window.googletag.cmd||[],window.googletag.cmd.push(j(c));var d=document.createElement('script');d.async=!0,d.src='https://www.googletagservices.com/tag/js/gpt.js',document.body.appendChild(d)}}}()})(),window.clc.init.call(null, {"lib":"https://cdn.sstatic.net/clc/clc.min.js?v=1e02551fa930","style":"https://cdn.sstatic.net/clc/styles/clc.min.css?v=905391554886","u":"https://clc.stackoverflow.com/markup.js","wa":true,"kt":2000,"tto":true,"h":"clc.stackoverflow.com","allowed":"^(((talent\\.)?stackoverflow)|(blog\\.codinghorror)|(serverfault|askubuntu)|([^\\.]+\\.stackexchange))\\.com$","wv":true,"al":false});</script> 
+     <script>
+window.clc_request='AqEtDxILkdUIAAAAAAAAAAACAAAAAQAAAAAAAAAAALhP_nVRIcRk5VE';                    clc.autoload();
+                var dfp_targeting={Registered:['false']};                                    clc.loadDisplayAds();
+            </script> 
+     <div class="module js-gps-related-tags" id="related-tags"> 
+      <h4 id="h-related-tags">Related Tags</h4> 
+      <div data-name="java"> 
+       <a href="/questions/tagged/java" class="post-tag no-tag-menu" title="show questions tagged 'java'" rel="tag">java</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">144470</span></span> 
+      </div> 
+      <div data-name="c#"> 
+       <a href="/questions/tagged/c%23" class="post-tag no-tag-menu" title="show questions tagged 'c#'" rel="tag">c#</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">130327</span></span> 
+      </div> 
+      <div data-name="javascript"> 
+       <a href="/questions/tagged/javascript" class="post-tag no-tag-menu" title="show questions tagged 'javascript'" rel="tag">javascript</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">126029</span></span> 
+      </div> 
+      <div data-name="android"> 
+       <a href="/questions/tagged/android" class="post-tag no-tag-menu" title="show questions tagged 'android'" rel="tag"><img src="//i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">118504</span></span> 
+      </div> 
+      <div data-name="python"> 
+       <a href="/questions/tagged/python" class="post-tag no-tag-menu" title="show questions tagged 'python'" rel="tag">python</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">94778</span></span> 
+      </div> 
+      <div data-name="php"> 
+       <a href="/questions/tagged/php" class="post-tag no-tag-menu" title="show questions tagged 'php'" rel="tag">php</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">86620</span></span> 
+      </div> 
+      <div data-name="jquery"> 
+       <a href="/questions/tagged/jquery" class="post-tag no-tag-menu" title="show questions tagged 'jquery'" rel="tag">jquery</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">67617</span></span> 
+      </div> 
+      <div data-name="c++"> 
+       <a href="/questions/tagged/c%2b%2b" class="post-tag no-tag-menu" title="show questions tagged 'c++'" rel="tag">c++</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">65168</span></span> 
+      </div> 
+      <div data-name="ios"> 
+       <a href="/questions/tagged/ios" class="post-tag no-tag-menu" title="show questions tagged 'ios'" rel="tag">ios</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">58291</span></span> 
+      </div> 
+      <div data-name="html"> 
+       <a href="/questions/tagged/html" class="post-tag no-tag-menu" title="show questions tagged 'html'" rel="tag">html</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">48057</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name=".net"> 
+       <a href="/questions/tagged/.net" class="post-tag no-tag-menu" title="show questions tagged '.net'" rel="tag">.net</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">40935</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="css"> 
+       <a href="/questions/tagged/css" class="post-tag no-tag-menu" title="show questions tagged 'css'" rel="tag">css</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">36740</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="mysql"> 
+       <a href="/questions/tagged/mysql" class="post-tag no-tag-menu" title="show questions tagged 'mysql'" rel="tag">mysql</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">35902</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="objective-c"> 
+       <a href="/questions/tagged/objective-c" class="post-tag no-tag-menu" title="show questions tagged 'objective-c'" rel="tag">objective-c</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">34082</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="sql"> 
+       <a href="/questions/tagged/sql" class="post-tag no-tag-menu" title="show questions tagged 'sql'" rel="tag">sql</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">33379</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="iphone"> 
+       <a href="/questions/tagged/iphone" class="post-tag no-tag-menu" title="show questions tagged 'iphone'" rel="tag">iphone</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">32500</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="c"> 
+       <a href="/questions/tagged/c" class="post-tag no-tag-menu" title="show questions tagged 'c'" rel="tag">c</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">31827</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="asp.net"> 
+       <a href="/questions/tagged/asp.net" class="post-tag no-tag-menu" title="show questions tagged 'asp.net'" rel="tag">asp.net</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">30138</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="r"> 
+       <a href="/questions/tagged/r" class="post-tag no-tag-menu" title="show questions tagged 'r'" rel="tag">r</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">28434</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="ruby-on-rails"> 
+       <a href="/questions/tagged/ruby-on-rails" class="post-tag no-tag-menu" title="show questions tagged 'ruby-on-rails'" rel="tag">ruby-on-rails</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">23374</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="arrays"> 
+       <a href="/questions/tagged/arrays" class="post-tag no-tag-menu" title="show questions tagged 'arrays'" rel="tag">arrays</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">20141</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="json"> 
+       <a href="/questions/tagged/json" class="post-tag no-tag-menu" title="show questions tagged 'json'" rel="tag">json</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">19736</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="sql-server"> 
+       <a href="/questions/tagged/sql-server" class="post-tag no-tag-menu" title="show questions tagged 'sql-server'" rel="tag"><img src="//i.stack.imgur.com/gfrSH.png" height="16" width="18" alt="" class="sponsor-tag-img">sql-server</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">19138</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="swift"> 
+       <a href="/questions/tagged/swift" class="post-tag no-tag-menu" title="show questions tagged 'swift'" rel="tag">swift</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">18411</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="angularjs"> 
+       <a href="/questions/tagged/angularjs" class="post-tag no-tag-menu" title="show questions tagged 'angularjs'" rel="tag">angularjs</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">18196</span></span> 
+      </div> 
+      <a href="#" class="show-more js-show-more js-gps-track" data-gps-track="related_tags.click({ item_type:2 })"> more related tags </a> 
+      <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script> 
+     </div> 
+     <div id="hot-network-questions" class="module tex2jax_ignore"> 
+      <h4> <a href="https://stackexchange.com/questions?tab=hot" class="js-gps-track" data-gps-track="posts_hot_network.click({ item_type:1, location:9 })"> Hot Network Questions </a> </h4> 
+      <ul> 
+       <li> 
+        <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="https://tex.stackexchange.com/questions/422838/how-to-fix-the-error-of-align" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })"> How to fix the error of align </a> </li> 
+       <li> 
+        <div class="favicon favicon-chemistry" title="Chemistry Stack Exchange"></div><a href="https://chemistry.stackexchange.com/questions/93909/do-electrons-have-some-volume-area-or-shape" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:431 }); posts_hot_network.click({ item_type:2, location:9 })"> Do electrons have some volume, area or shape? </a> </li> 
+       <li> 
+        <div class="favicon favicon-diy" title="Home Improvement Stack Exchange"></div><a href="https://diy.stackexchange.com/questions/136062/how-to-finish-jagged-edge-of-kitchen-subway-tile" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:73 }); posts_hot_network.click({ item_type:2, location:9 })"> How to finish jagged edge of kitchen subway tile? </a> </li> 
+       <li> 
+        <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="https://puzzling.stackexchange.com/questions/62349/my-prefix-is-food-my-suffix-is-rude" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:559 }); posts_hot_network.click({ item_type:2, location:9 })"> My prefix is food, my suffix is rude </a> </li> 
+       <li> 
+        <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="https://english.stackexchange.com/questions/437979/proverb-if-something-is-managed-by-many-things-are-missed" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })"> Proverb: If Something is Managed By Many, Things Are Missed </a> </li> 
+       <li> 
+        <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="https://codegolf.stackexchange.com/questions/160034/shape-identifying-program" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })"> Shape Identifying Program </a> </li> 
+       <li> 
+        <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="https://electronics.stackexchange.com/questions/364221/help-me-identify-a-component-on-a-pcb" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:135 }); posts_hot_network.click({ item_type:2, location:9 })"> Help me identify a component on a PCB </a> </li> 
+       <li> 
+        <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="https://scifi.stackexchange.com/questions/184129/how-does-black-panther-leave-scratches-on-captain-americas-shield-in-civil-war" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })"> How does Black Panther leave scratches on Captain America's shield in Civil War </a> </li> 
+       <li> 
+        <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="https://security.stackexchange.com/questions/181580/why-is-math-random-not-designed-to-be-cryptographically-secure" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:162 }); posts_hot_network.click({ item_type:2, location:9 })"> Why is Math.random() not designed to be cryptographically secure? </a> </li> 
+       <li> 
+        <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="https://english.stackexchange.com/questions/437986/what-is-the-term-for-an-argumentative-style-that-relies-on-immediately-extrapola" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })"> What is the term for an argumentative style that relies on immediately extrapolating or threatening worst outcomes? </a> </li> 
+       <li> 
+        <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="https://puzzling.stackexchange.com/questions/62343/my-birthday-is-uncommon" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:559 }); posts_hot_network.click({ item_type:2, location:9 })"> My birthday is uncommon </a> </li> 
+       <li> 
+        <div class="favicon favicon-photo" title="Photography Stack Exchange"></div><a href="https://photo.stackexchange.com/questions/97430/whats-the-best-way-to-light-up-a-subject-thats-far-away" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:61 }); posts_hot_network.click({ item_type:2, location:9 })"> What's the best way to light up a subject that's far away? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="https://money.stackexchange.com/questions/93372/what-marks-the-beginning-of-a-bear-market" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:93 }); posts_hot_network.click({ item_type:2, location:9 })"> What marks the beginning of a bear market? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-softwareengineering" title="Software Engineering Stack Exchange"></div><a href="https://softwareengineering.stackexchange.com/questions/368213/should-a-rest-api-return-a-500-internal-server-error-to-indicate-that-a-query-re" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:131 }); posts_hot_network.click({ item_type:2, location:9 })"> Should a REST API return a 500 Internal Server Error to indicate that a query references an object that does not exist? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="https://scifi.stackexchange.com/questions/184127/what-is-the-blood-status-of-a-person-born-to-a-half-blood-and-pure-blood" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })"> What is the blood status of a person born to a half-blood and pure-blood? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="https://codegolf.stackexchange.com/questions/159881/am-i-a-self-number" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })"> Am I a Self Number? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-stats" title="Cross Validated"></div><a href="https://stats.stackexchange.com/questions/336261/how-to-statistically-prove-if-a-column-has-categorical-data-or-not-using-python" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:65 }); posts_hot_network.click({ item_type:2, location:9 })"> How to statistically prove if a column has categorical data or not using Python </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-aviation" title="Aviation Stack Exchange"></div><a href="https://aviation.stackexchange.com/questions/49737/are-german-japanese-and-chinese-companies-not-able-to-build-aircraft-jet-engin" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:528 }); posts_hot_network.click({ item_type:2, location:9 })"> Are German, Japanese, and Chinese companies not able to build aircraft jet engines on their own? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="https://security.stackexchange.com/questions/182159/can-it-see-my-google-drive-traffic" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:162 }); posts_hot_network.click({ item_type:2, location:9 })"> Can IT see my Google Drive traffic? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="https://codegolf.stackexchange.com/questions/159945/implement-lazy-drop-sort" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })"> Implement Lazy Drop Sort </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="https://money.stackexchange.com/questions/93371/can-a-merchant-accept-some-visa-cards-but-not-others" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:93 }); posts_hot_network.click({ item_type:2, location:9 })"> Can a merchant accept some Visa cards but not others? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-law" title="Law Stack Exchange"></div><a href="https://law.stackexchange.com/questions/27063/do-i-have-the-right-to-enter-into-someone-house-without-permission-if-my-child-i" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:617 }); posts_hot_network.click({ item_type:2, location:9 })"> Do I have the right to enter into someone house without permission if my child is in there? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-raspberrypi" title="Raspberry Pi Stack Exchange"></div><a href="https://raspberrypi.stackexchange.com/questions/81723/additional-hardware-needed-for-gps-receiver" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:447 }); posts_hot_network.click({ item_type:2, location:9 })"> Additional hardware needed for GPS receiver? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-math" title="Mathematics Stack Exchange"></div><a href="https://math.stackexchange.com/questions/2704941/whats-the-precise-meaning-of-the-expression-induced-by-in-mathematics" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:69 }); posts_hot_network.click({ item_type:2, location:9 })"> What's the precise meaning of the expression "induced by" in mathematics? </a> </li> 
+      </ul> 
+      <a href="#" class="show-more js-show-more js-gps-track" data-gps-track="posts_hot_network.click({ item_type:3, location:9 })"> more hot questions </a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <footer id="footer" class="site-footer js-footer" role="contentinfo"> 
+   <div class="site-footer--container"> 
+    <div class="site-footer--logo"> 
+     <a href="https://stackoverflow.com">
+      <svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewbox="0 0 32 37">
+       <g>
+        <path fill="#BCBBBB" d="M26 33v-9h4v13H0V24h4v9z" />
+        <path d="M23.1 25.99l.68-2.95-16.1-3.35L7 23l16.1 2.99zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm4.2-7.4L26 18.4l2.1-2.5L15.4 5.3l-2.1 2.5zM21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM7 30h16v-3H7v3z" fill="#F48024" />
+       </g>
+      </svg></a> 
+    </div> 
+    <nav class="site-footer--nav"> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://stackoverflow.com" class="js-gps-track" data-gps-track="footer.click({ location: 3, link: 15})">Stack Overflow</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 16})">Questions</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 17})">Jobs</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 11})">Developer Jobs Directory</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 28})">Salary Calculator</a></li> 
+       <li class="-item"><a href="/help" class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 3 })">Help</a></li> 
+       <li class="-item"><a onclick="StackExchange.switchMobile(&quot;on&quot;)" class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 12 })">Mobile</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://www.stackoverflowbusiness.com/?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-business-category" class="js-gps-track" data-gps-track="footer.click({ location: 3, link: 19 })">Stack Overflow<br> Business</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 20 })">Talent</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-advertise" class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 21 })">Ads</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/enterprise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 22 })">Enterprise</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 3, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 7 })" href="https://stackexchange.com/legal">Legal</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 8 })" href="https://stackexchange.com/legal/privacy-policy">Privacy Policy</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--categories-nav site-footer--col__visible"> 
+      <a href="#" class="site-footer--back js-footer-back">
+       <svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewbox="0 0 18 18">
+        <path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z" />
+       </svg></a> 
+      <div> 
+       <h5 class="-title"><a href="https://stackexchange.com">Stack Exchange<br> Network</a></h5> 
+       <ul class="-list"> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 3, link: 24 })" data-target="Technology">Technology</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 3, link: 24 })" data-target="Life / Arts">Life / Arts</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 3, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 3, link: 24 })" data-target="Science">Science</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 3, link: 24 })" data-target="Other">Other</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="site-footer--categories"> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li> 
+        <li class="-item"><a href="https://serverfault.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="system and network administrators">Server Fault</a></li> 
+        <li class="-item"><a href="https://superuser.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="computer enthusiasts and power users">Super User</a></li> 
+        <li class="-item"><a href="https://webapps.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of web applications">Web Applications</a></li> 
+        <li class="-item"><a href="https://askubuntu.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li> 
+        <li class="-item"><a href="https://webmasters.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="pro webmasters">Webmasters</a></li> 
+        <li class="-item"><a href="https://gamedev.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and independent game developers">Game Development</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://tex.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li> 
+        <li class="-item"><a href="https://softwareengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li> 
+        <li class="-item"><a href="https://unix.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li> 
+        <li class="-item"><a href="https://apple.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li> 
+        <li class="-item"><a href="https://wordpress.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li> 
+        <li class="-item"><a href="https://gis.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li> 
+        <li class="-item"><a href="https://electronics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://android.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li> 
+        <li class="-item"><a href="https://security.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="information security professionals">Information Security</a></li> 
+        <li class="-item"><a href="https://dba.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li> 
+        <li class="-item"><a href="https://drupal.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li> 
+        <li class="-item"><a href="https://sharepoint.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li> 
+        <li class="-item"><a href="https://ux.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="user experience researchers and experts">User Experience</a></li> 
+        <li class="-item"><a href="https://mathematica.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://salesforce.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li> 
+        <li class="-item"><a href="https://expressionengine.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li> 
+        <li class="-item"><a href="https://pt.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Português</a></li> 
+        <li class="-item"><a href="https://blender.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li> 
+        <li class="-item"><a href="https://networkengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="network engineers">Network Engineering</a></li> 
+        <li class="-item"><a href="https://crypto.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li> 
+        <li class="-item"><a href="https://codereview.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="peer programmer code reviews">Code Review</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://magento.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li> 
+        <li class="-item"><a href="https://softwarerecs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li> 
+        <li class="-item"><a href="https://dsp.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li> 
+        <li class="-item"><a href="https://emacs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li> 
+        <li class="-item"><a href="https://raspberrypi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li> 
+        <li class="-item"><a href="https://ru.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="программистов">Stack Overflow на русском</a></li> 
+        <li class="-item"><a href="https://codegolf.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://es.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores y profesionales de la informática">Stack Overflow en español</a></li> 
+        <li class="-item"><a href="https://ethereum.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li> 
+        <li class="-item"><a href="https://datascience.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li> 
+        <li class="-item"><a href="https://arduino.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li> 
+        <li class="-item"><a href="https://bitcoin.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (28) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://photo.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li> 
+        <li class="-item"><a href="https://scifi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li> 
+        <li class="-item"><a href="https://graphicdesign.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li> 
+        <li class="-item"><a href="https://movies.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li> 
+        <li class="-item"><a href="https://music.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li> 
+        <li class="-item"><a href="https://worldbuilding.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li> 
+        <li class="-item"><a href="https://cooking.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://diy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li> 
+        <li class="-item"><a href="https://money.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li> 
+        <li class="-item"><a href="https://academia.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li> 
+        <li class="-item"><a href="https://law.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (15) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://english.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li> 
+        <li class="-item"><a href="https://skeptics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientific skepticism">Skeptics</a></li> 
+        <li class="-item"><a href="https://judaism.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li> 
+        <li class="-item"><a href="https://travel.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li> 
+        <li class="-item"><a href="https://christianity.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li> 
+        <li class="-item"><a href="https://ell.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li> 
+        <li class="-item"><a href="https://japanese.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://gaming.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li> 
+        <li class="-item"><a href="https://bicycles.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li> 
+        <li class="-item"><a href="https://rpg.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li> 
+        <li class="-item"><a href="https://anime.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li> 
+        <li class="-item"><a href="https://puzzling.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li> 
+        <li class="-item"><a href="https://mechanics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (33) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://mathoverflow.net" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional mathematicians">MathOverflow</a></li> 
+        <li class="-item"><a href="https://math.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li> 
+        <li class="-item"><a href="https://stats.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li> 
+        <li class="-item"><a href="https://cstheory.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li> 
+        <li class="-item"><a href="https://physics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li> 
+        <li class="-item"><a href="https://chemistry.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientists, academics, teachers and students">Chemistry</a></li> 
+        <li class="-item"><a href="https://biology.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="biology researchers, academics, and students">Biology</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://cs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li> 
+        <li class="-item"><a href="https://philosophy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (10) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Other"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://meta.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li> 
+        <li class="-item"><a href="https://stackapps.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li> 
+        <li class="-item"><a href="https://api.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li> 
+        <li class="-item"><a href="https://data.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li> 
+        <li class="-item"><a href="https://area51.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="proposing new sites in the Stack Exchange network">Area 51</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </nav> 
+    <div class="site-footer--copyright fs-fine"> 
+     <ul class="-list"> 
+      <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 3, link:4 })" href="https://stackoverflow.blog?blb=1">Blog</a></li> 
+      <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li> 
+      <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li> 
+      <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li> 
+     </ul> 
+     <p class="mt-auto mb24"> site design / logo © 2018 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license">attribution required</a>. <span id="svnrev">rev&nbsp;2018.3.23.29561</span> </p> 
+    </div> 
+   </div> 
+  </footer> 
+  <noscript> 
+   <div id="noscript-warning">
+    Stack Overflow works best with JavaScript enabled 
+    <img src="https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"> 
+   </div> 
+  </noscript> 
+  <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                var trackingCodes = [
+                    'UA-5620270-1'
+                ];
+
+                        trackingCodes.push('UA-108242619-1');
+
+                StackExchange.ga.init({
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: trackingCodes
+                });
+
+
+
+
+                    StackExchange.ga.setDimension('dimension3', 'Questions/List');
+
+                StackExchange.ga.trackPageView();
+            });
+            
+/**/
+            
+            var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+            (function() {
+                var ssl = 'https:' == document.location.protocol,
+                    s = document.getElementsByTagName('script')[0],
+                    qc = document.createElement('script');
+                 qc.async = true;
+                    qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                    s.parentNode.insertBefore(qc, s);
+                    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+/**/
+                 var sc = document.createElement('script');
+                    sc.async = true;
+                    sc.src = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+                    s.parentNode.insertBefore(sc, s);
+                    _comscore.push({ c1: "2", c2: "17440561" });
+            })();
+            
+
+</script>  
+ </body>
+</html>

@@ -1,0 +1,433 @@
+https://www.tutorialspoint.com/adobe_indesign_cc/index.htm
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>Adobe InDesign CC Tutorial</title> 
+  <meta name="description" content="Adobe InDesign CC Tutorial for Beginners - Learn Adobe InDesign CC in simple and easy steps starting from basic to advanced concepts with examples including Introduction, Desktop Publishing Introduction, Popular DTP Software, Workspace Basics, Create the First Document, Page Management, Section Options, Text Frames, Story Editor, Spellchecking Features, Find/Change Function, Import, Edit, Fitting, Color and Transparency Images, Image Links, QR Codes, Selection Tools and Fill Strokes, Drop Shadows, Special Effects to Objects, Eyedropper Tool, Find/Change Feature For Objects, Swatches, Color Panel, Gradients and Blends, Paths and Outlines, Stack Objects, Layers, Nest, Align, Transformation, Text Wrap and Anchor Objects, Characters, Text, Paragraph Formatting, Paragraph and Character Styles, Tables, Long, Interactive, Package, Print Documents and Booklets, Table of Contents, Ebook, Preflighting, Export Documents as PDFs, Selective Text Frame Export, Word and InDesign, Word File Import to InDesign, Word to Indesign, Photoshop and Illustrator Workflows, Export InDesign Artwork, Preserve Layers and Vectors."> 
+  <meta name="keywords" content="Adobe InDesign CC, Tutorial, Learning, Introduction, Desktop Publishing Introduction, Popular DTP Software, Workspace Basics, Create the First Document, Page Management, Section Options, Text Frames, Story Editor, Spellchecking Features, Find/Change Function, Import, Edit, Fitting, Color and Transparency Images, Image Links, QR Codes, Selection Tools and Fill Strokes, Drop Shadows, Special Effects to Objects, Eyedropper Tool, Find/Change Feature For Objects, Swatches, Color Panel, Gradients and Blends, Paths and Outlines, Stack Objects, Layers, Nest, Align, Transformation, Text Wrap and Anchor Objects, Characters, Text, Paragraph Formatting, Paragraph and Character Styles, Tables, Long, Interactive, Package, Print Documents and Booklets, Table of Contents, Ebook, Preflighting, Export Documents as PDFs, Selective Text Frame Export, Word and InDesign, Word File Import to InDesign, Word to Indesign, Photoshop and Illustrator Workflows, Export InDesign Artwork, Preserve Layers and Vectors."> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #ee2374 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #ee2374 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #ee2374 !important;}
+.submenu-item{ border-bottom: 2px solid #ee2374 !important; border-top: 2px solid #ee2374 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#ee2374; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/adobe_indesign_cc/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-2"> 
+      <aside class="sidebar"> 
+       <div class="mini-logo"> 
+        <img src="/adobe_indesign_cc/images/adobe-indesign-mini-logo.jpg" alt="Adobe InDesign CC Tutorial"> 
+       </div> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Adobe InDesign CC Tutorial</li> 
+        <li><a href="/adobe_indesign_cc/index.htm">Adobe InDesign CC - Home</a></li> 
+        <li><a href="/adobe_indesign_cc/desktop_publishing_introduction.htm">Desktop Publishing - Introduction</a></li> 
+        <li><a href="/adobe_indesign_cc/desktop_publishing_popular_dtp_software.htm">Popular DTP Software</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_introduction.htm">InDesign CC - Introduction</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_workspace_basics.htm">InDesign CC - Workspace Basics</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_create_first_document.htm">Create the First Document</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_page_management.htm">InDesign CC - Page Management</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_section_options.htm">InDesign CC - Section Options</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_text_frames.htm">InDesign CC - Text Frames</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_story_editor.htm">InDesign CC - Story Editor</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_spellchecking_features.htm">Spellchecking Features</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_find_change_function.htm">InDesign CC - Find/Change Function</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_import_images.htm">InDesign CC - Import Images</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_image_links.htm">InDesign CC - Image Links</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_edit_images.htm">InDesign CC - Edit Images</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_image_fitting.htm">InDesign CC - Image Fitting</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_image_transparency.htm">InDesign CC - Image Transparency</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_qr_codes.htm">InDesign CC - QR Codes</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_selection_tools_and_fill_strokes.htm">Selection Tools &amp; Fill Strokes</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_image_color_and_transparency.htm">Image Color &amp; Transparency</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_drop_shadows.htm">InDesign CC - Drop Shadows</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_special_effects_to_objects.htm">Special Effects to Objects</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_eyedropper_tool.htm">InDesign CC - Eyedropper Tool</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_find_change_feature_for_objects.htm">Find/Change Feature for Objects</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_swatches_panel.htm">InDesign CC - Swatches Panel</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_color_panel.htm">InDesign CC - Color Panel</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_gradients_and_blends.htm">InDesign CC - Gradients &amp; Blends</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_paths_and_outlines.htm">InDesign CC - Paths &amp; Outlines</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_stack_objects.htm">InDesign CC - Stack Objects</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_layers.htm">InDesign CC - Layers</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_nest_objects.htm">InDesign CC - Nest Objects</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_align_objects.htm">InDesign CC - Align Objects</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_text_wrap_and_anchor_objects.htm">Text Wrap &amp; Anchor Objects</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_object_transformation.htm">InDesign CC - Object Transformation</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_characters.htm">InDesign CC - Characters</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_text_formatting.htm">InDesign CC - Text Formatting</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_paragraph_formatting.htm">InDesign CC - Paragraph Formatting</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_paragraph_and_character_styles.htm">Paragraph &amp; Character Styles</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_tables.htm">InDesign CC - Tables</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_long_documents.htm">InDesign CC - Long Documents</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_table_of_contents.htm">InDesign CC - Table of Contents</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_interactive_documents.htm">InDesign CC - Interactive Documents</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_ebook.htm">InDesign CC - Ebook</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_preflighting.htm">InDesign CC - Preflighting</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_package_documents.htm">InDesign CC - Package Documents</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_print_documents_and_booklets.htm">Print Documents &amp; Booklets</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_export_documents_as_pdfs.htm">Export Documents as PDFs</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_selective_text_frame_export.htm">Selective Text Frame Export</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_and_word.htm">Word &amp; InDesign</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_import_word_file_indesign.htm">Word File Import to InDesign</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_word_to_indesign_cc.htm">Word To InDesign</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_photoshop_and_illustrator_workflows.htm">Photoshop &amp; Illustrator Workflows</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_export_artwork.htm">Export InDesign Artwork</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_preserve_layers_and_vectors.htm">Preserve Layers &amp; Vectors</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Adobe InDesign CC Resources</li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_quick_guide.htm">Adobe InDesign CC - Quick Guide</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_useful_resources.htm">Adobe InDesign CC - Resources</a></li> 
+        <li><a href="/adobe_indesign_cc/adobe_indesign_cc_discussion.htm">Adobe InDesign CC - Discussion</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary push-bottom left-menu special"> 
+        <li class="sreading">Selected Reading</li> 
+        <li><a target="_top" href="/upsc_ias_exams.htm">UPSC IAS Exams Notes</a></li> 
+        <li><a target="_top" href="/developers_best_practices/index.htm">Developer's Best Practices</a></li> 
+        <li><a target="_top" href="/questions_and_answers.htm">Questions and Answers</a></li> 
+        <li><a target="_top" href="/effective_resume_writing.htm">Effective Resume Writing</a></li> 
+        <li><a target="_top" href="/hr_interview_questions/index.htm">HR Interview Questions</a></li> 
+        <li><a target="_top" href="/computer_glossary.htm">Computer Glossary</a></li> 
+        <li><a target="_top" href="/computer_whoiswho.htm">Who is Who</a></li> 
+       </ul> 
+      </aside> 
+     </div> 
+     <!-- PRINTING STARTS HERE --> 
+     <div class="row"> 
+      <div class="content"> 
+       <div class="col-md-7 middle-col"> 
+        <div class="cover"> 
+         <img class="img-responsive" src="/adobe_indesign_cc/images/adobe-indesign.jpg" alt="Adobe InDesign CC Tutorial"> 
+        </div> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/adobe_indesign_cc/desktop_publishing_introduction.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <div class="clearer"></div> 
+        <hr> 
+        <h1>Adobe InDesign CC Tutorial</h1> 
+        <div class="center-aligned tutorial-menu"> 
+         <form action="/job_search.php" method="POST"> 
+          <input type="hidden" name="search_string" value="Adobe InDesign CC"> 
+          <button type="button" class="btn btn-default btn-sm btn-buy-tutorial"><i class="icon icon-file-pdf-o"></i><a href="/adobe_indesign_cc/adobe_indesign_cc_pdf_version.htm"> PDF Version</a></button> 
+          <button type="button" class="btn btn-default btn-sm btn-quick-guide"><i class="icon icon-book"></i><a href="/adobe_indesign_cc/adobe_indesign_cc_quick_guide.htm"> Quick Guide</a></button> 
+          <button type="button" class="btn btn-default btn-sm btn-extra-links"><i class="icon icon-external-link"></i><a href="/adobe_indesign_cc/adobe_indesign_cc_useful_resources.htm"> Resources</a></button> 
+          <button type="submit" class="btn btn-default btn-sm btn-job-search"><i class="icon icon-suitcase"></i> Job Search</button> 
+          <button type="button" class="btn btn-default btn-sm btn-job-search"><i class="fa fa-wechat"></i><a href="/adobe_indesign_cc/adobe_indesign_cc_discussion.htm"> Discussion</a></button> 
+         </form> 
+        </div> 
+        <p>Adobe InDesign is a part of the Adobe Creative Suite and is an upgrade from Aldus PageMaker, a widely used Desktop Publishing (DTP) software which was subsequently purchased by Adobe. Adobe InDesign is available on Windows and Mac and can be purchased as a standalone product or as part of the Adobe Creative Suite. The functions and capabilities of InDesign are much more than what is possible with a word processing program such as Microsoft Word. It is the de facto program used by large publishing houses and big websites. This tutorial aims to give a comprehensive tour of the program enabling you to leverage its full potential.</p> 
+        <h1>Audience</h1> 
+        <p>This tutorial is intended for InDesign users of all levels of experience. Beginners will find valuable information on how to set up the right document layout and choosing the best colors. Intermediate users will find information on adjusting transparency, inserting QR codes and working with objects and layers. Advanced users will find handy information on creating eBooks, preflighting and packaging documents, and also transitioning workflows between InDesign and popular software such as Word, Photoshop, and Illustrator. All lessons apply equally to users of both Windows and Mac versions of the program.</p> 
+        <h1>Prerequisites</h1> 
+        <p>Users are expected to have a basic knowledge of navigating around their OS (Windows or Mac) and installing software. If you’re installing this software for the first time, you would be needing an Adobe account to download the latest trial version from Adobe’s website which is valid for 30 days, post which you can purchase and convert it into a subscription. Purchasing a subscription also gives you access to other Creative Suite apps depending on your plan. You can also purchase only InDesign; however, it would be more cost-effective to purchase it in a bundle. It is recommended to ensure that your computer meets the minimum requirements, which can be checked at <b>https://helpx.adobe.com/uk/indesign/systemrequirements.html</b> to ensure a smooth experience. You can work on your own templates or download them online from <a href="https://indesignsecrets.com/" target="_blank" rel="nofollow">www.indesignsecrets.com</a> or any such website.</p> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="print-btn center"> 
+         <a href="/cgi-bin/printpage.cgi" target="_blank"><i class="icon icon-print big-font"></i> Print</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/adobe_indesign_cc/desktop_publishing_introduction.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <hr> 
+        <!-- PRINTING ENDS HERE --> 
+        <div class="bottomgooglead"> 
+         <div class="bottomadtag">
+          Advertisements
+         </div> 
+         <!-- /60931893/tutorial_bottom_leader_board --> 
+         <div id="div-gpt-ad-1510138782906-3"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-3'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="col-md-3" id="rightbar"> 
+        <div class="ysubscribe"> 
+         <script async src="https://apis.google.com/js/platform.js"></script> 
+         <div class="g-ytsubscribe" data-channelid="UCVLbzhxVTiTLiVKeGV7WEBg" data-layout="full" data-count="default"></div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_top --> 
+         <div id="div-gpt-ad-1510138782906-2" style="height:250px; width:300px;"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-2'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_middle --> 
+         <div id="div-gpt-ad-1510138782906-1"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-1'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_bottom --> 
+         <div id="div-gpt-ad-1510138782906-0"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-0'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Libs --> 
+  <script type="text/javascript" src="/theme/js/custom-min.js?v=7"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.pg-icon').click(function(){
+   $('.wrapLoader').show();
+});
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Adobe InDesign CC Tutorial",
+    "name": "Adobe InDesign CC Tutorial",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.tutorialspoint.com/adobe_indesign_cc/index.htm"
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tutorialspoint.com/adobe_indesign_cc/images/adobe-indesign.jpg",
+        "width": 613,
+        "height": 194
+    },
+    "author": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "datePublished": "January 08 2018 06:21:50.",
+    "dateModified": "January 08 2018 06:21:50.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "description": "Adobe InDesign is a part of the Adobe Creative Suite and is an upgrade from Aldus PageMaker, a widely used Desktop Publishing (DTP) software which was subsequently purchased by Adobe. Adobe InDesign is available on Windows and Mac and can be purchased as ..."
+}
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "name": "www.tutorialspoint.com",
+                "@id": "https://www.tutorialspoint.com"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "name": "Adobe Indesign Cc",
+                "@id": "https://www.tutorialspoint.com/adobe_indesign_cc"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "name": "Adobe InDesign CC - Home"
+            }
+        }
+    ]
+}
+</script>    
+ </body>
+</html>

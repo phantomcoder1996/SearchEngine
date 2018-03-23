@@ -1,0 +1,2454 @@
+http://www.cairoscene.com/LifeStyle
+<html dir="ltr">
+ <head> 
+  <title>LIFESTYLE</title> 
+  <meta charset="utf-8"> 
+  <link href="https://fonts.googleapis.com/css?family=Molengo|Oswald:300,400,700" rel="stylesheet"> 
+  <link rel="SHORTCUT ICON" href="/Content/Images/favicon.png"> 
+  <link rel="stylesheet" type="text/css" href="/Content/Css/Style6.css"> 
+  <script type="text/javascript" src="/Content/Scripts/jquery-1.8.1.min.js"></script> 
+  <script type="text/javascript" src="/Content/Scripts/jquery.cycle.all.pack.js"></script> 
+  <script type="text/javascript" src="/Content/Scripts/jquery.simplyscroll.js"></script> 
+  <script type="text/javascript" src="/Content/Scripts/Scripts.js"></script> 
+  <!-- Facebook Pixel Code --> 
+  <script>
+        !function (f, b, e, v, n, t, s) {
+            if (f.fbq) return; n = f.fbq = function () {
+                n.callMethod ?
+                n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+            }; if (!f._fbq) f._fbq = n;
+            n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0;
+            t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s)
+        }(window,
+        document, 'script', 'https://connect.facebook.net/en_US/fbevents.js');
+        fbq('init', '467413490301320', {
+            em: 'insert_email_variable'
+        });
+        fbq('track', 'PageView');
+    </script> 
+  <noscript> &lt;img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=467413490301320&amp;amp;ev=PageView&amp;amp;noscript=1"&gt; 
+  </noscript> 
+  <!-- DO NOT MODIFY --> 
+  <!-- End Facebook Pixel Code --> 
+  <script>
+//        $(document).ready(function () {
+//            $(".eventsholder").jCarouselLite({
+//                btnNext: ".next",
+//                btnPrev: ".prev",
+//                vertical: false,
+//                visible: 5,
+//                auto: 0,
+//                speed: 'fast',
+//            });
+//        });
+
+        function OpenWindow() {
+            var Win =
+            window.open('http://eepurl.com/tA-rf', 'Subscribe Mo4 News Letter', 'left=0,top=0,width=800,height=600,toolbar=0,scrollbars=0,status=0');
+            Win.focus();
+
+            //	 window.open('http://eepurl.com/tA-rf', 'Subscribe Mo4 News Letter', 'toolbar=0,status=0,width=626,height=436');
+            //          window.focus();
+        }
+    </script> 
+  <script>
+        $(document).ready(function () {
+            $('#s3').click(function () {
+                $('.menu-search').slideToggle("slow");
+                $(this).toggleClass('change');
+                $('#s3').toggleClass('fa-search-out');
+                //$('.over-lay').css("display","block");
+                return false;
+            })
+        });
+    </script> 
+  <script type="text/javascript">
+        $(document).ready(function () {
+            $('.hide1').click(function () {
+                $(this).css({ "background-color": "#333", "color": "#fff" });
+                $('.hide2').css({ "border-bottom": "2px solid #e50e6e;", "background-color": "#f1f1f1", "color": "#e50e6e" });
+                $('.hide3').css({ "border-bottom": "2px solid #3e9dc9;", "background-color": "#f1f1f1", "color": "#3e9dc9" });
+                $('.new-content-tap1').css({ 'display': 'block' });
+                $('.new-content-tap2').css({ 'display': 'none' });
+                $('.new-content-tap3').css({ 'display': 'none' });
+                $('.hide-old-tap').css({ 'display': 'none' });
+            });
+            $('.hide2').click(function () {
+                $(this).css({ "background-color": "#e50e6e", "color": "#fff" });
+                $('.hide1').css({ "border-bottom": "2px solid #333;", "background-color": "#f1f1f1", "color": "#333" });
+                $('.hide3').css({ "border-bottom": "2px solid #3e9dc9;", "background-color": "#f1f1f1", "color": "#3e9dc9" });
+                $('.new-content-tap2').css({ 'display': 'block' });
+                $('.new-content-tap1').css({ 'display': 'none' });
+                $('.new-content-tap3').css({ 'display': 'none' });
+                $('.hide-old-tap').css({ 'display': 'none' });
+            });
+            $('.hide3').click(function () {
+                $(this).css({ "background-color": "#3e9dc9", "color": "#fff" });
+                $('.hide1').css({ "border-bottom": "2px solid #333;", "background-color": "#f1f1f1", "color": "#333" });
+                $('.hide2').css({ "border-bottom": "2px solid #e50e6e;", "background-color": "#f1f1f1", "color": "#e50e6e" });
+                $('.new-content-tap3').css({ 'display': 'block' });
+                $('.new-content-tap2').css({ 'display': 'none' });
+                $('.new-content-tap1').css({ 'display': 'none' });
+                $('.hide-old-tap').css({ 'display': 'none' });
+            });
+            
+        });
+
+        function Rando() {
+            $.ajax({
+                url: '/Master/Random',
+                success: function (data) {
+                    $(".content-3").html(data);
+                }
+            })
+        }
+    </script> 
+  <script type="text/javascript" src="/Content/Scripts/top-top.js"></script> 
+  <script type="text/javascript" src="/Content/Scripts/top-main.js"></script> 
+  <script type="text/javascript">
+        $(document).ready(function () {
+            $().UItoTop({ easingType: 'easeOutQuart' });
+
+            $('#bookmarkme').click(function (e) {
+                e.preventDefault();
+                var bookmarkURL = window.location.href;
+                var bookmarkTitle = document.title;
+
+                if ('addToHomescreen' in window && window.addToHomescreen.isCompatible) {
+                    // Mobile browsers
+                    addToHomescreen({ autostart: false, startDelay: 0 }).show(true);
+                } else if (window.sidebar && window.sidebar.addPanel) {
+                    // Firefox version < 23
+                    window.sidebar.addPanel(bookmarkTitle, bookmarkURL, '');
+                } else if ((window.sidebar && /Firefox/i.test(navigator.userAgent)) || (window.opera && window.print)) {
+                    // Firefox version >= 23 and Opera Hotlist
+                    $(this).attr({
+                        href: bookmarkURL,
+                        title: bookmarkTitle,
+                        rel: 'sidebar'
+                    }).off(e);
+                    return true;
+                } else if (window.external && ('AddFavorite' in window.external)) {
+                    // IE Favorite
+                    window.external.AddFavorite(bookmarkURL, bookmarkTitle);
+                } else {
+                    // Other browsers (mainly WebKit - Chrome/Safari)
+                    alert('Pease press ' + (/Mac/i.test(navigator.userAgent) ? 'CMD' : 'Strg') + ' + D to add this page to your favorites.');
+                }
+
+                return false;
+            });
+        });
+    </script> 
+  <script type="text/javascript" src="/Content/Scripts/timeline-min.js"></script> 
+  <script type="text/javascript">
+        $(document).ready(function () {
+            var timeline = new Timeline("timeline", new Date()); // start date
+        });
+    </script> 
+  <script type="text/javascript">
+    function fulldate(Day, Month, Year) {
+        $.ajax({
+            url: '/Master/GetEvents',
+            data: { Day: Day, Month: Month, Year: Year },
+            success: function (data) {
+                $('.all-main-event').html(data);
+            }
+        })
+    }
+
+    function FunMore() {
+        var Num = $("#hdn").val();
+        var Cat = "LIFESTYLE";
+            $.ajax({
+                url: '/Category/More',
+                data: { Cat: Cat.replace(/&amp;/g, '&'), Num: Num },
+                success: function (data) {
+                    $('#Data').before(data);
+                    Num = parseInt(Num) + 1;
+                    $("#hdn").val(Num);
+                if ("False" == "FALSE") {
+                    $(".fara7-more").hide();
+                }
+
+            }
+        })
+    }
+    </script> 
+ </head> 
+ <body> 
+  <!--<div style="margin: 5px auto; width: 100%;"><a target="_blank" href="http://www.nike.com/eg/en_gb/c/running/lunarepic-flyknit/?cp=gsns_brm_30616_running_nike_lunarepic_cscene"><img src="/Content/Images/nike5.jpg" style="display: block;width: 100%;" /></a></div>--> 
+  <div id="fb-root"></div> 
+  <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=184586718278101&version=v2.3";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script> 
+  <div class="header"> 
+   <div class="top-header"> 
+    <div class="center"> 
+     <div class="top-links"> 
+      <ul> 
+       <!--<li>
+                            <a href="">RSS FEED</a>
+                        </li>--> 
+       <li> <a id="cont" href="javascript:void()">Contribute</a> 
+        <div class="cont-pop"> 
+         <a href="javascript:void()" class="overlay"></a> 
+         <div class="popup"> 
+          <div class="inner-pop"> 
+           <div class="contribute-choice"> 
+            <a class="close" href="javascript:void()"></a> 
+            <div class="con-title">
+              BECOME A REGULAR CONTRIBUTOR 
+            </div> 
+            <div class="con-des">
+              If you would like to contribute regularly to CairoScene please send your CV and writing samples to 
+             <a href="mailto:info@cairoscene.com">info@cairoscene.com</a> 
+            </div> 
+           </div> 
+           <div class="contribute-choice"> 
+            <div class="con-title">
+              CONTRIBUTE AN ARTICLE 
+            </div> 
+            <div class="con-des">
+              If you have an article up your sleeve that you think is perfect for publication on CairoScene, fill in the form below, paste in your article and upload any relevant photos. If we think you're article works you'll be contacted with a publication date! 
+            </div> 
+            <div class="submit-con"> 
+             <a href="/ArticleContbuter">Contribute An Article</a> 
+            </div> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+         </div> 
+        </div> </li> 
+       <li> <a href="/SuggestEvent">Suggest Event</a> </li> 
+       <li> <a href="javascript:void();" id="bookmarkme">BookMark</a> </li> 
+       <li> <a href="/Newsletter">Subscribe</a> </li> 
+      </ul> 
+     </div> 
+     <div class="all-right-top-header"> 
+      <div class="search2"> 
+       <a id="s3" class="fa-search-out" href="javascript:void()"></a> 
+      </div> 
+      <div class="menu-search"> 
+       <div class="search-header"> 
+        <form action="/Master/Search" method="post"> 
+         <input class="text-search" type="text" placeholder="Search" name="search" required> 
+         <button class="search-button">Search</button> 
+         <div class="clear"></div> 
+        </form> 
+       </div> 
+      </div> 
+      <!--<div class="over-lay">
+        </div>--> 
+      <div class="left-social"> 
+       <ul> 
+        <li> <a href="https://www.facebook.com/CairoScene" target="_blank"></a> </li> 
+        <li> <a href="http://instagram.com/cairoscene" target="_blank"></a> </li> 
+        <li> <a href="https://twitter.com/CairoScene" target="_blank"></a> </li> 
+        <li> <a href="https://www.youtube.com/user/CairoScene" target="_blank"></a> </li> 
+       </ul> 
+      </div> 
+      <div class="clear"></div> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+   <div class="middle-header"> 
+    <div class="center"> 
+     <div class="logo"> 
+      <h1><a href="/"><img src="/Content/Images/scene-logo.png" alt="Home"></a></h1> 
+     </div> 
+     <div class="top-ad"> 
+      <script type="text/javascript"><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://gornany.info/revive/www/delivery/ajs.php':'http://gornany.info/revive/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=11530");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+      <noscript>
+       <a href="http://gornany.info/revive/www/delivery/ck.php?n=a96377f7&amp;cb=INSERT_RANDOM_NUMBER_HERE" target="_blank"><img src="http://gornany.info/revive/www/delivery/avw.php?zoneid=11530&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=a96377f7" border="0" alt=""></a>
+      </noscript> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+   <div class="bottom-header"> 
+    <div class="center"> 
+     <div class="menu"> 
+      <ul> 
+       <li> <a class="org" href="/">home</a> </li> 
+       <li> <a class="org" href="/Calendar">Events</a> </li> 
+       <li> <a class="org open-sub" href="/Buzz">BUZZ</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Listicles/shatafa"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024043/d84d65e8-7046-42dd-9d09-aedd3923031f.JPG" alt="A Throne of Lies: 5 Types of Shatafa that Need to be Outlawed " width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Listicles/shatafa">A Throne of Lies: 5 Types of Shatafa that Need to be Outlawed </a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/Calling-Salma-Abu-Deif-help-us-make-this-Egyptian-s-prom-dream-come-true"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024061/806e488a-af41-4f8e-b1b5-301ebfa4ca8b.jpg" alt="Calling Salma Abu Deif, Help Us Make this Egyptian’s Prom Dream Come True" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/Calling-Salma-Abu-Deif-help-us-make-this-Egyptian-s-prom-dream-come-true">Calling Salma Abu Deif, Help Us Make this Egyptian’s Prom Dream Come True</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Fashion/Nile-Eyewear-New-Collection"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023974/4184bec6-a551-4100-b775-e4997948118e.jpg" alt="Nile Eyewear's Summer Collection Will Have You Taste the Sun and it's a Mouthful of Colour" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Fashion/Nile-Eyewear-New-Collection">Nile Eyewear's Summer Collection Will Have You Taste the Sun and it's a Mouthful of Colour</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/Religious-artefacts"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024068/5de4d0f5-70ac-4b83-8917-19c6795ecac3.jpg" alt="Egypt Finally Fully Documents all its Islamic, Coptic and Jewish Artefacts" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/Religious-artefacts">Egypt Finally Fully Documents all its Islamic, Coptic and Jewish Artefacts</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/eighty-million-trash"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024064/61134517-ea75-4f01-aa8f-5e6f30a1eda8.jpg" alt="Minister of Environment: Egypt Produces 80 Million Tonnes of Waste Annually" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/eighty-million-trash">Minister of Environment: Egypt Produces 80 Million Tonnes of Waste Annually</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/Buzz">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/In-Depth">In-Depth</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/In-Depth/modern-love"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024018/fb88a0bc-34c2-4e87-96da-6ec11ec07046.jpg" alt="This Modern <3 : Screening Intimacy" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/In-Depth/modern-love">This Modern &lt;3 : Screening Intimacy</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/ArtsAndCulture/darb-al-ahmar-craftsmen-british-photographer"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024041/59009f6a-3fca-4beb-9eae-40f95b235e9c.jpg" alt="Meet the British Photographer Who Captured Darb Al Ahmar's Forgotten Craftsmen" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/ArtsAndCulture/darb-al-ahmar-craftsmen-british-photographer">Meet the British Photographer Who Captured Darb Al Ahmar's Forgotten Craftsmen</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/In-Depth/egyptians-name-change"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024025/d0a3d5cf-1a2f-459d-b160-b1263e01ebfe.jpg" alt="What’s in a Name: Egyptians Recount How They Got Theirs Changed" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/In-Depth/egyptians-name-change">What’s in a Name: Egyptians Recount How They Got Theirs Changed</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/In-Depth/The-Democratic-Republic-of-Zamalek-The-Return-of-the-Prodigal-Son-Part-I"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023873/7d1c02bd-b704-4715-9556-94c3fd96d629.jpg" alt="The Democratic Republic of Zamalek: The Return of the Prodigal Son (Part II)" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/In-Depth/The-Democratic-Republic-of-Zamalek-The-Return-of-the-Prodigal-Son-Part-I">The Democratic Republic of Zamalek: The Return of the Prodigal Son (Part II)</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Business/john-casson-interview"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024017/a3c8f691-81b2-455c-b437-012afd27ff59.jpg" alt="John Casson, Egypt's Most Entrepreneurial Ambassador" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Business/john-casson-interview">John Casson, Egypt's Most Entrepreneurial Ambassador</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/In-Depth">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/LifeStyle">LIFESTYLE</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Fashion/Nile-Eyewear-New-Collection"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023974/4184bec6-a551-4100-b775-e4997948118e.jpg" alt="Nile Eyewear's Summer Collection Will Have You Taste the Sun and it's a Mouthful of Colour" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Fashion/Nile-Eyewear-New-Collection">Nile Eyewear's Summer Collection Will Have You Taste the Sun and it's a Mouthful of Colour</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Listicles/egyptians-afraid"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023966/7c668b4d-c869-4287-8a6d-9851da8a276a.jpg" alt="7 Things Egyptians are Afraid of " width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Listicles/egyptians-afraid">7 Things Egyptians are Afraid of </a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Eats/oak-grill-lebanese-conrad"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023907/b8b8d95a-9b74-4960-b50f-b8dec7e7c171.jpg" alt="An Honest to God Review of Conrad Cairo's Oak Grill" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Eats/oak-grill-lebanese-conrad">An Honest to God Review of Conrad Cairo's Oak Grill</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/LifeStyle/prime-residential-serviced-apartments-egypt"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023848/85f538b7-0b61-484f-8899-ae465e8a586f.jpg" alt="Prime Residential: The First Serviced Apartments Rental Company in Egypt" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/LifeStyle/prime-residential-serviced-apartments-egypt">Prime Residential: The First Serviced Apartments Rental Company in Egypt</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/talalya-egyptian-craftswomen"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023986/a5332530-4a95-4822-a749-330832623ac0.jpg" alt="Talalya: Crochet Beachwear Empowering Egyptian Craftswomen " width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/talalya-egyptian-craftswomen">Talalya: Crochet Beachwear Empowering Egyptian Craftswomen </a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/LifeStyle">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/Fashion">Fashion</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Fashion/Nile-Eyewear-New-Collection"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023974/4184bec6-a551-4100-b775-e4997948118e.jpg" alt="Nile Eyewear's Summer Collection Will Have You Taste the Sun and it's a Mouthful of Colour" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Fashion/Nile-Eyewear-New-Collection">Nile Eyewear's Summer Collection Will Have You Taste the Sun and it's a Mouthful of Colour</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Fashion/kojak-spring-collection-fairy-daze"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024024/c0562900-b7e1-4eaf-9c98-7d49136c1d25.jpeg" alt="Kojak's Spring Collection is Your Fairy-Tale Waiting to Happen" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Fashion/kojak-spring-collection-fairy-daze">Kojak's Spring Collection is Your Fairy-Tale Waiting to Happen</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/talalya-egyptian-craftswomen"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023986/a5332530-4a95-4822-a749-330832623ac0.jpg" alt="Talalya: Crochet Beachwear Empowering Egyptian Craftswomen " width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/talalya-egyptian-craftswomen">Talalya: Crochet Beachwear Empowering Egyptian Craftswomen </a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/jude-benhalim-mothers-day-bullet-collection"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024007/3d1b4ab9-de97-424f-bfea-709749931841.jpg" alt="Take a Bullet for Your Mama This Mother's Day, Courtesy of Jude Benhalim" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/jude-benhalim-mothers-day-bullet-collection">Take a Bullet for Your Mama This Mother's Day, Courtesy of Jude Benhalim</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Fashion/5-Egyptian-Designers-Killing-it-at-International-Fashion-Weeks"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023800/a407023e-5dea-4e42-a664-e640fca010d8.jpg" alt="5 Egyptian Designers Killing it at International Fashion Weeks" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Fashion/5-Egyptian-Designers-Killing-it-at-International-Fashion-Weeks">5 Egyptian Designers Killing it at International Fashion Weeks</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/Fashion">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/Eats">Eats</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Eats/oak-grill-lebanese-conrad"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023907/b8b8d95a-9b74-4960-b50f-b8dec7e7c171.jpg" alt="An Honest to God Review of Conrad Cairo's Oak Grill" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Eats/oak-grill-lebanese-conrad">An Honest to God Review of Conrad Cairo's Oak Grill</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/Mother-s-Day-Guide-2018"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023993/ce9ca1d8-16d8-4b0c-8a70-a350b9540d58.jpg" alt="Mother's Day Guide 2018" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/Mother-s-Day-Guide-2018">Mother's Day Guide 2018</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/tap-paddy"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023983/bc7de2f8-954a-4c3a-a7b5-db52389b8111.jpg" alt="Green Beer is Just the Beginning at The Tap this St. Patrick's Day" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/tap-paddy">Green Beer is Just the Beginning at The Tap this St. Patrick's Day</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Eats/carlo-concorde-italiano"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023924/6c74de45-bfe6-4397-b965-84b1211cfe03.jpg" alt="Cooking Up Memories: A Chat With Chef Carlo Di Nunzio at The Concorde" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Eats/carlo-concorde-italiano">Cooking Up Memories: A Chat With Chef Carlo Di Nunzio at The Concorde</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/healthy-food-poke-ball-lyfe"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023888/0f5a696f-4157-4f9e-ae90-b6714f21bf65.jpg" alt="There's a New Hawaiian Healthy Food Trend in Town and it's Called the 'Poke Bowl'" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/healthy-food-poke-ball-lyfe">There's a New Hawaiian Healthy Food Trend in Town and it's Called the 'Poke Bowl'</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/Eats">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/ArtsAndCulture">ARTS &amp; CULTURE</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/welad-el-balad-media-egypt-heritage"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023947/9181c0dd-cf35-4aaa-83b1-502ab01290d3.jpg" alt="How One Local Media Company is Taking a New Approach to Preserving Egypt's Cultural Heritage" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/welad-el-balad-media-egypt-heritage">How One Local Media Company is Taking a New Approach to Preserving Egypt's Cultural Heritage</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/ArtsAndCulture/darb-al-ahmar-craftsmen-british-photographer"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024041/59009f6a-3fca-4beb-9eae-40f95b235e9c.jpg" alt="Meet the British Photographer Who Captured Darb Al Ahmar's Forgotten Craftsmen" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/ArtsAndCulture/darb-al-ahmar-craftsmen-british-photographer">Meet the British Photographer Who Captured Darb Al Ahmar's Forgotten Craftsmen</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/ArtsAndCulture/alexandria-3000"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023988/00d683c4-fb13-4e76-a285-8944e2d0fb0a.jpg" alt="Alexandria 3000: Egyptian Artists Weaving Visions of a Time Yet to Come" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/ArtsAndCulture/alexandria-3000">Alexandria 3000: Egyptian Artists Weaving Visions of a Time Yet to Come</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/ArtsAndCulture/jebel-banat"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023949/ee67cd99-4cf1-4a2d-b95b-c59b89aa96d0.jpg" alt="Jebel Banat: A Bedouin Tale of Freedom Goes to Cannes' Short Film Corner" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/ArtsAndCulture/jebel-banat">Jebel Banat: A Bedouin Tale of Freedom Goes to Cannes' Short Film Corner</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Listicles/Grand-love-gestures-throughout-Egyptian-history"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023943/4e188167-dc0a-4c38-b74a-374818940b88.jpg" alt="6 Grand Love Gestures Throughout Egyptian History" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Listicles/Grand-love-gestures-throughout-Egyptian-history">6 Grand Love Gestures Throughout Egyptian History</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/ArtsAndCulture">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/SceneNoise"> SCENE NOISE </a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/SceneNoise/11-Must-Watch-Middle-Eastern-Music-Documentaries"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023897/6589461c-fef4-478f-b9e9-07b13227a7d1.jpg" alt="11 Must-Watch Middle Eastern Music Documentaries" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/SceneNoise/11-Must-Watch-Middle-Eastern-Music-Documentaries">11 Must-Watch Middle Eastern Music Documentaries</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/SceneNoise/Youssra-El-Hawary-Presents-her-Debut-Album-at-Intimate-Performance"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023598/fbeac778-07c5-46d7-b7c0-ac5f1e03afa9.jpg" alt="Youssra El Hawary Debuts her First Album with an Intimate Performance" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/SceneNoise/Youssra-El-Hawary-Presents-her-Debut-Album-at-Intimate-Performance">Youssra El Hawary Debuts her First Album with an Intimate Performance</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/SceneNoise/Relive-The-Chill-O-Posite-Experience-Dahab-s-Biggest-Music-Festival-To-Date"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023570/06dcf5a9-0e2c-49e0-b90a-196a1dde177f.png" alt="Relive The Chill O'Posite Experience, Dahab's Biggest Music Festival To Date" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/SceneNoise/Relive-The-Chill-O-Posite-Experience-Dahab-s-Biggest-Music-Festival-To-Date">Relive The Chill O'Posite Experience, Dahab's Biggest Music Festival To Date</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/SceneNoise/Youssra-El-Hawary-Teases-us-With-a-Sleek-Single-Bas-Kollo-Yehoo"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023513/6a1d0035-7c14-4bf5-beed-33fc68f2b4e5.jpg" alt="Youssra El Hawary Teases with Sleek New Single “Bas Kollo Yehoon”" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/SceneNoise/Youssra-El-Hawary-Teases-us-With-a-Sleek-Single-Bas-Kollo-Yehoo">Youssra El Hawary Teases with Sleek New Single “Bas Kollo Yehoon”</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/SceneNoise/Nader-Sadek-interviews-Nile-s-Karl-Sanders-Derek-Roddy-and-Mahmud-Gecekusu-In-Egypt"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023509/7dceb766-55bd-491a-8c83-24292b4f2ea5.png" alt="Nader Sadek interviews Nile's Karl Sanders, Derek Roddy and Mahmud Gecekusu In Egypt" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/SceneNoise/Nader-Sadek-interviews-Nile-s-Karl-Sanders-Derek-Roddy-and-Mahmud-Gecekusu-In-Egypt">Nader Sadek interviews Nile's Karl Sanders, Derek Roddy and Mahmud Gecekusu In Egypt</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/SceneNoise">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/Business">Business</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Business/john-casson-interview"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024017/a3c8f691-81b2-455c-b437-012afd27ff59.jpg" alt="John Casson, Egypt's Most Entrepreneurial Ambassador" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Business/john-casson-interview">John Casson, Egypt's Most Entrepreneurial Ambassador</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Business/RoadCast-On-Demand-Entertainment-on-Your-Commute"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023882/9894642b-4acf-449a-a215-4067e7c5478c.JPG" alt="RoadCast: On-Demand Entertainment on Your Commute" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Business/RoadCast-On-Demand-Entertainment-on-Your-Commute">RoadCast: On-Demand Entertainment on Your Commute</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/LifeStyle/How-Bushra-Teamed-Up-With-2-Startups-To-Inspire-400-000-Egyptians"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023745/f8cca079-a9ea-4e5f-a1da-78d3bac84f05.jpg" alt="How Bushra Teamed Up With 2 Startups To Inspire 400,000 Egyptians" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/LifeStyle/How-Bushra-Teamed-Up-With-2-Startups-To-Inspire-400-000-Egyptians">How Bushra Teamed Up With 2 Startups To Inspire 400,000 Egyptians</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Business/Dubai-Lynx-Kicks-Off-to-Shake-Up-the-Creative-Sector-in-the-Middle-East"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023717/59d1f65a-951b-480b-97bd-d49fb646e5f9.JPG" alt="Dubai Lynx Kicks Off to Shake Up the Creative Sector in the Middle East" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Business/Dubai-Lynx-Kicks-Off-to-Shake-Up-the-Creative-Sector-in-the-Middle-East">Dubai Lynx Kicks Off to Shake Up the Creative Sector in the Middle East</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Business/Meet-the-Marketing-Mavens-Behind-The-Success-of-some-of-Egypt-s-Biggest-Brands"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/973350/2e86ba64-2801-437a-b25f-73acf1352f41.jpg" alt="Meet the Marketing Mavens Behind The Success of some of Egypt's Biggest Brands" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Business/Meet-the-Marketing-Mavens-Behind-The-Success-of-some-of-Egypt-s-Biggest-Brands">Meet the Marketing Mavens Behind The Success of some of Egypt's Biggest Brands</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/BusinessAndPolitics">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/Geek">Geek</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/sophia-robot-egypt-summit"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024010/96782611-599d-4896-9f0e-757c589a77f5.jpg" alt="AI Robot that Wants to Destroy Humans is Coming to Egypt" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/sophia-robot-egypt-summit">AI Robot that Wants to Destroy Humans is Coming to Egypt</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Geek/egyptian-game-developers"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023856/432522b4-0dcd-4410-96be-8c05df28f48d.jpeg" alt="6 Egyptian Game Studios Keeping Local Gaming Alive" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Geek/egyptian-game-developers">6 Egyptian Game Studios Keeping Local Gaming Alive</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Geek/mate-10-lite-update"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023805/af995cb8-4dc5-4c01-a504-e685ea826f66.gif" alt="Your Notifications Will Only Be Visible To You With The New Face Unlock Feature From Huawei " width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Geek/mate-10-lite-update">Your Notifications Will Only Be Visible To You With The New Face Unlock Feature From Huawei </a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Geek/OPPO-F5-Red"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023726/8a2481ff-bdd0-488a-94a9-28e3559b43c1.jpg" alt="OPPO's Limited Edition F5 Red: Improving On a Winning Formula" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Geek/OPPO-F5-Red">OPPO's Limited Edition F5 Red: Improving On a Winning Formula</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/global-game-jam-2018"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023719/42278294-e225-453d-9bae-95febc7d08bf.jpg" alt="Egypt Hosts The World's Largest Game Hackathon" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/global-game-jam-2018">Egypt Hosts The World's Largest Game Hackathon</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/Geek">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/Travel">Travel</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/LifeStyle/couples-marriage-vacationgoals"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023829/db6e5366-b335-4b11-a9c8-e28346a47aea.jpg" alt="This Egyptian Couples Therapist Will Fix Your Marriage Via #VacationGoals" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/LifeStyle/couples-marriage-vacationgoals">This Egyptian Couples Therapist Will Fix Your Marriage Via #VacationGoals</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/Egyptian-Cycling-Egypt-Sudan"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023889/783bf437-3cad-4c7e-89d0-2709145314ea.jpg" alt="This 50-Year-Old Egyptian is Cycling From Egypt To Sudan and Back" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/Egyptian-Cycling-Egypt-Sudan">This 50-Year-Old Egyptian is Cycling From Egypt To Sudan and Back</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Travel/flyin-best-travel-agency-mena"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023859/a287e489-b710-42fa-9630-3652c6c1e874.jpg" alt="Flyin.com Crowned ‘Best Online Travel Agency’ in MENA for Third Year Running" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Travel/flyin-best-travel-agency-mena">Flyin.com Crowned ‘Best Online Travel Agency’ in MENA for Third Year Running</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Listicles/9-Best-Boutique-Hotels-in-Egypt"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023730/3caec8af-e834-4bf1-a766-734758a82ae1.jpg" alt="9 Gorgeous Boutique Hotels in Egypt" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Listicles/9-Best-Boutique-Hotels-in-Egypt">9 Gorgeous Boutique Hotels in Egypt</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Buzz/5-Photos-of-The-4-400-Year-Old-Tomb-Unearthed-Near-Giza-Pyramids-on-Saturday"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023783/0f0df48a-61a3-4f2f-bd62-21250196181e.jpg" alt="5 Photos of The 4,400-Year-Old Tomb Unearthed Near Giza Pyramids on Saturday" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Buzz/5-Photos-of-The-4-400-Year-Old-Tomb-Unearthed-Near-Giza-Pyramids-on-Saturday">5 Photos of The 4,400-Year-Old Tomb Unearthed Near Giza Pyramids on Saturday</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/Travel">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org open-sub" href="/Listicles">Listicles</a> 
+        <div class="dropdown"> 
+         <div class="center"> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Listicles/shatafa"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024043/d84d65e8-7046-42dd-9d09-aedd3923031f.JPG" alt="A Throne of Lies: 5 Types of Shatafa that Need to be Outlawed " width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Listicles/shatafa">A Throne of Lies: 5 Types of Shatafa that Need to be Outlawed </a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Listicles/egyptians-afraid"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023966/7c668b4d-c869-4287-8a6d-9851da8a276a.jpg" alt="7 Things Egyptians are Afraid of " width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Listicles/egyptians-afraid">7 Things Egyptians are Afraid of </a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/Listicles/Grand-love-gestures-throughout-Egyptian-history"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023943/4e188167-dc0a-4c38-b74a-374818940b88.jpg" alt="6 Grand Love Gestures Throughout Egyptian History" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/Listicles/Grand-love-gestures-throughout-Egyptian-history">6 Grand Love Gestures Throughout Egyptian History</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/ArtsAndCulture/dcaf-guide-2018"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023887/276a5392-d76e-4420-8a9b-9b6e2a644ddd.jpg" alt="The Culture Vulture's Guide to D-CAF 2018" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/ArtsAndCulture/dcaf-guide-2018">The Culture Vulture's Guide to D-CAF 2018</a></h2> 
+           </div> 
+          </div> 
+          <div class="article-menu"> 
+           <div class="article-menu-image"> 
+            <a href="/SceneNoise/11-Must-Watch-Middle-Eastern-Music-Documentaries"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023897/6589461c-fef4-478f-b9e9-07b13227a7d1.jpg" alt="11 Must-Watch Middle Eastern Music Documentaries" width="220" height="134"></a> 
+           </div> 
+           <div class="article-menu-title"> 
+            <h2><a href="/SceneNoise/11-Must-Watch-Middle-Eastern-Music-Documentaries">11 Must-Watch Middle Eastern Music Documentaries</a></h2> 
+           </div> 
+          </div> 
+          <div class="clear"></div> 
+          <div class="view-all-menu"> 
+           <a href="/Listicles">View All</a> 
+          </div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> </li> 
+       <li> <a class="org" href="/SceneTv"> SCENE TV</a> </li> 
+       <li> <a class="org" href="/Movies">CINEMA GUIDE</a> </li> 
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="container"> 
+   <div class="left-side"> 
+    <input type="hidden" id="hdn" value="1"> 
+    <div class="cat-all"> 
+     <div class="cat-title">
+       LIFESTYLE 
+     </div> 
+     <div class="big-image"> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Fashion/Nile-Eyewear-New-Collection"><img src="http://www.cairoscene.com//Content/Admin/Uploads/Articles/ArticlesMainPhoto/1023974/4184bec6-a551-4100-b775-e4997948118e.jpg" width="271" height="154" alt=""></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Fashion/Nile-Eyewear-New-Collection">Nile Eyewear's Summer Collection Will Have You Taste the Sun and it's a Mouthful of Colour</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           23 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Fashion/Nile-Eyewear-New-Collection">If your optical wardrobe needs an update, check out this local eyewear designer for</a> 
+         <a class="more" href="/Fashion/Nile-Eyewear-New-Collection">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+     </div> 
+     <div class="inner-cat"> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Buzz/talalya-egyptian-craftswomen"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023986/a5332530-4a95-4822-a749-330832623ac0.jpg" width="271" height="154" alt="Talalya: Crochet Beachwear Empowering Egyptian Craftswomen "></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Buzz/talalya-egyptian-craftswomen">Talalya: Crochet Beachwear Empowering Egyptian Craftswomen </a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           17 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Buzz/talalya-egyptian-craftswomen">The homegrown brand isn't just about the end result, but places just as much</a> 
+         <a class="more" href="/Buzz/talalya-egyptian-craftswomen">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Buzz/nute-stools"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023991/16680700-757d-497a-ba30-c881f5063cef.jpeg" width="271" height="154" alt="Nute: Sassy Stools and Entrepreneurial Spirit"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Buzz/nute-stools">Nute: Sassy Stools and Entrepreneurial Spirit</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           16 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Buzz/nute-stools">Two life-long friends fuse their individual talents to create one of Egypt's</a> 
+         <a class="more" href="/Buzz/nute-stools">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/In-Depth/The-Democratic-Republic-of-Zamalek-The-Return-of-the-Prodigal-Son-Part-I"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023873/7d1c02bd-b704-4715-9556-94c3fd96d629.jpg" width="271" height="154" alt="The Democratic Republic of Zamalek: The Return of the Prodigal Son (Part II)"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/In-Depth/The-Democratic-Republic-of-Zamalek-The-Return-of-the-Prodigal-Son-Part-I">The Democratic Republic of Zamalek: The Return of the Prodigal Son (Part II)</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           16 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/In-Depth/The-Democratic-Republic-of-Zamalek-The-Return-of-the-Prodigal-Son-Part-I">Back home for the first time in four years, Marc has to confront his father and</a> 
+         <a class="more" href="/In-Depth/The-Democratic-Republic-of-Zamalek-The-Return-of-the-Prodigal-Son-Part-I">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Buzz/jude-benhalim-mothers-day-bullet-collection"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024007/3d1b4ab9-de97-424f-bfea-709749931841.jpg" width="271" height="154" alt="Take a Bullet for Your Mama This Mother's Day, Courtesy of Jude Benhalim"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Buzz/jude-benhalim-mothers-day-bullet-collection">Take a Bullet for Your Mama This Mother's Day, Courtesy of Jude Benhalim</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           16 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Buzz/jude-benhalim-mothers-day-bullet-collection">The empowering designer is back with a revamped collection.</a> 
+         <a class="more" href="/Buzz/jude-benhalim-mothers-day-bullet-collection">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Buzz/Mother-s-Day-Guide-2018"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023993/ce9ca1d8-16d8-4b0c-8a70-a350b9540d58.jpg" width="271" height="154" alt="Mother's Day Guide 2018"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Buzz/Mother-s-Day-Guide-2018">Mother's Day Guide 2018</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           15 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Buzz/Mother-s-Day-Guide-2018">For 9 months, your momma's belly was your own private hotel. Now it's your turn to</a> 
+         <a class="more" href="/Buzz/Mother-s-Day-Guide-2018">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/In-Depth/first-Egyptian-porn-star"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023982/3bbf7a6e-1070-4c6d-b94d-20a0c2eadd90.jpg" width="271" height="154" alt="Meet the Self-Proclaimed First Egyptian Porn Star"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/In-Depth/first-Egyptian-porn-star">Meet the Self-Proclaimed First Egyptian Porn Star</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           14 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/In-Depth/first-Egyptian-porn-star">[Exclusive] The unapologetic aspiring actor-turned-porn-star opens up about how a</a> 
+         <a class="more" href="/In-Depth/first-Egyptian-porn-star">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/new-capital-futuristic-compound"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/993401/3527e4b4-db3d-4ee5-b5e5-42518402256b.jpg" width="271" height="154" alt="A Look at the New Capital's Most Futuristic Compound"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/new-capital-futuristic-compound">A Look at the New Capital's Most Futuristic Compound</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           13 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/new-capital-futuristic-compound">Leading real estate developer Misr Italia Properties' IL BOSCO redefines urban</a> 
+         <a class="more" href="/LifeStyle/new-capital-futuristic-compound">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Buzz/Egyptian-Woman-Doctor"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023956/7858b149-818c-4896-8088-7fef8425afa2.jpg" width="271" height="154" alt="Egyptian Female Surgeon is a Finalist for an International Award"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Buzz/Egyptian-Woman-Doctor">Egyptian Female Surgeon is a Finalist for an International Award</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           11 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Buzz/Egyptian-Woman-Doctor">Noha Khater is the only Egyptian finalist in the Cartier Women Initiative Awards</a> 
+         <a class="more" href="/Buzz/Egyptian-Woman-Doctor">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/Stories-of-Polygamy-Living-with-Your-Husband-s-Other-Wives"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023938/a25d1641-e954-4509-aef8-cdae47dd7aae.jpg" width="271" height="154" alt="Stories of Polygamy: Living with Your Husband's Other Wives"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/Stories-of-Polygamy-Living-with-Your-Husband-s-Other-Wives">Stories of Polygamy: Living with Your Husband's Other Wives</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           07 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/Stories-of-Polygamy-Living-with-Your-Husband-s-Other-Wives">We speak to three Egyptian wives who share their husbands’ hearts, revealing that</a> 
+         <a class="more" href="/LifeStyle/Stories-of-Polygamy-Living-with-Your-Husband-s-Other-Wives">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Buzz/district-relaunch-family-hub"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023866/ed0c7e77-17e7-417f-8519-6863a2ecdd8a.jpg" width="271" height="154" alt="The District Re-Launches as Cairo's Super Duper Ultimate Family Hub"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Buzz/district-relaunch-family-hub">The District Re-Launches as Cairo's Super Duper Ultimate Family Hub</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           02 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Buzz/district-relaunch-family-hub">Food, drink, entertainment and shopping are just the tip of the iceberg for the new</a> 
+         <a class="more" href="/Buzz/district-relaunch-family-hub">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/couples-marriage-vacationgoals"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023829/db6e5366-b335-4b11-a9c8-e28346a47aea.jpg" width="271" height="154" alt="This Egyptian Couples Therapist Will Fix Your Marriage Via #VacationGoals"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/couples-marriage-vacationgoals">This Egyptian Couples Therapist Will Fix Your Marriage Via #VacationGoals</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           01 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/couples-marriage-vacationgoals">We speak to the woman aiming to improve one marriage at a time with the first</a> 
+         <a class="more" href="/LifeStyle/couples-marriage-vacationgoals">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Buzz/InShape-Clinic-To-Open-First-Medical-Spa-In-Egypt"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023858/e433e04e-2c30-4081-9a28-e6dc8fa70274.JPG" width="271" height="154" alt="InShape Clinic to Open First All-Inclusive Medical Spa In Egypt"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Buzz/InShape-Clinic-To-Open-First-Medical-Spa-In-Egypt">InShape Clinic to Open First All-Inclusive Medical Spa In Egypt</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           01 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Buzz/InShape-Clinic-To-Open-First-Medical-Spa-In-Egypt">Whatever happened to taking an impromptu day off work, and indulging in some much</a> 
+         <a class="more" href="/Buzz/InShape-Clinic-To-Open-First-Medical-Spa-In-Egypt">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Buzz/nile-ritz-carlton-wedding"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023869/70fe9772-96be-4fd7-95e6-7bf73ec89560.jpg" width="271" height="154" alt="The Nile Ritz-Carlton's Wedding Packages Can Turn Your Fairy-Tale into a Reality"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Buzz/nile-ritz-carlton-wedding">The Nile Ritz-Carlton's Wedding Packages Can Turn Your Fairy-Tale into a Reality</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           01 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Buzz/nile-ritz-carlton-wedding">We love love, but we love fairytale weddings, minus the anxiety, more. </a> 
+         <a class="more" href="/Buzz/nile-ritz-carlton-wedding">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Buzz/key-for-a-key-al-marasem"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023877/05c31a89-a65d-4298-b333-b965af23586e.jpg" width="271" height="154" alt="Key for a Key: AlMarasem Development Launches Innovative CSR Campaign with Star-Studded Event"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Buzz/key-for-a-key-al-marasem">Key for a Key: AlMarasem Development Launches Innovative CSR Campaign with Star-Studded Event</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           28 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Buzz/key-for-a-key-al-marasem">The 'Key for a Key' initiative has already renovated 140 homes in Beni-Suef and</a> 
+         <a class="more" href="/Buzz/key-for-a-key-al-marasem">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Buzz/uberepair-car-maintenance-at-doorstep"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023880/3ac81e49-64ad-49ff-99b3-5c6222188e7b.png" width="271" height="154" alt="UberRepair: Car Maintenance and More at Your Doorstep"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Buzz/uberepair-car-maintenance-at-doorstep">UberRepair: Car Maintenance and More at Your Doorstep</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           27 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Buzz/uberepair-car-maintenance-at-doorstep">Uber joins forces with Nacita Auto-Care to bring us UberRepair.</a> 
+         <a class="more" href="/Buzz/uberepair-car-maintenance-at-doorstep">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Business/RoadCast-On-Demand-Entertainment-on-Your-Commute"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023882/9894642b-4acf-449a-a215-4067e7c5478c.JPG" width="271" height="154" alt="RoadCast: On-Demand Entertainment on Your Commute"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Business/RoadCast-On-Demand-Entertainment-on-Your-Commute">RoadCast: On-Demand Entertainment on Your Commute</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           26 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Business/RoadCast-On-Demand-Entertainment-on-Your-Commute">Now running its pilot phase, this ingenius local startup is bringing games, web</a> 
+         <a class="more" href="/Business/RoadCast-On-Demand-Entertainment-on-Your-Commute">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/mezany-online-experiences-hobbies"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023744/e83d3100-dc64-4df0-a7c6-c08c3043901c.jpg" width="271" height="154" alt="Mezany: The Online Platform Connecting Egyptians to New Experiences, Niche Hobbies and More"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/mezany-online-experiences-hobbies">Mezany: The Online Platform Connecting Egyptians to New Experiences, Niche Hobbies and More</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           25 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/mezany-online-experiences-hobbies">Whether you're looking for cooking classes, photography walks or even</a> 
+         <a class="more" href="/LifeStyle/mezany-online-experiences-hobbies">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Buzz/bulaq-photo-studio-backdrop-of-melon"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023836/64f977e3-6d41-4fbb-ab8d-a2bd55179c76.jpg" width="271" height="154" alt="A Bygone Bulaq Photo Studio &amp; A Backdrop of Melons "></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Buzz/bulaq-photo-studio-backdrop-of-melon">A Bygone Bulaq Photo Studio &amp; A Backdrop of Melons </a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           21 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Buzz/bulaq-photo-studio-backdrop-of-melon">When Mouwafak Chourbagui stumbles upon a studio in Bulaq, he rediscovers the simple</a> 
+         <a class="more" href="/Buzz/bulaq-photo-studio-backdrop-of-melon">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/peekaboo-maadi-park"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023605/23f317ea-2df7-40bd-9839-0208550058ef.jpg" width="271" height="154" alt="Welcome to Maadi's Coolest Parent-Friendly Play Park &amp; Party Organiser"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/peekaboo-maadi-park">Welcome to Maadi's Coolest Parent-Friendly Play Park &amp; Party Organiser</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           20 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/peekaboo-maadi-park">Rest easy parents, because Peekabo is your one-stop-shop for playtime, quiet time</a> 
+         <a class="more" href="/LifeStyle/peekaboo-maadi-park">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/In-Depth/Finding-Home-Between-Fifi-and-Kim"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023789/c55559d7-1004-4746-bb0f-e11b3cfe4a0f.jpg" width="271" height="154" alt="Identity Crisis: Finding Home Between Fifi and Kim"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/In-Depth/Finding-Home-Between-Fifi-and-Kim">Identity Crisis: Finding Home Between Fifi and Kim</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           19 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/In-Depth/Finding-Home-Between-Fifi-and-Kim">Sandwiched between Kim and Fifi, we live in a parallel universe erected to bring</a> 
+         <a class="more" href="/In-Depth/Finding-Home-Between-Fifi-and-Kim">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/bus-stop-new-cairo-reasons"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023833/253c2800-cd0d-4ae6-a2f5-c0b47530b60c.jpeg" width="271" height="154" alt="4 Reasons Why Bus Stop New Cairo Can Be Your Happy Place"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/bus-stop-new-cairo-reasons">4 Reasons Why Bus Stop New Cairo Can Be Your Happy Place</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           18 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/bus-stop-new-cairo-reasons">Sexy steaks, beer pong and one of the best sound systems out there makes Bus Stop</a> 
+         <a class="more" href="/LifeStyle/bus-stop-new-cairo-reasons">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Buzz/11-health-conscious-cafes-that-offer-almond-milk-in-Egyp"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023802/33c565a1-5165-4e20-8e20-c74c67c86a24.jpg" width="271" height="154" alt="You Can Get Dairy-Milk Alternatives at These 9 Cairo Spots "></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Buzz/11-health-conscious-cafes-that-offer-almond-milk-in-Egyp">You Can Get Dairy-Milk Alternatives at These 9 Cairo Spots </a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           17 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Buzz/11-health-conscious-cafes-that-offer-almond-milk-in-Egyp">Almond milk, anyone?</a> 
+         <a class="more" href="/Buzz/11-health-conscious-cafes-that-offer-almond-milk-in-Egyp">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Listicles/7-things-only-Egyptians-are-addicted-to"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023720/e64c1a77-6a17-4525-a828-69da9b1d414f.jpg" width="271" height="154" alt="7 Things Only Egyptians Are Addicted To"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Listicles/7-things-only-Egyptians-are-addicted-to">7 Things Only Egyptians Are Addicted To</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           15 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Listicles/7-things-only-Egyptians-are-addicted-to">What fun things do we overdo? </a> 
+         <a class="more" href="/Listicles/7-things-only-Egyptians-are-addicted-to">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/Social-Media-Egyptian-Housewives-Careers"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023826/6ed55d5f-4c02-4397-96f9-a93f9f94f188.jpg" width="271" height="154" alt="How Social Media Gave These 3 Egyptian Housewives Their Financial Independence Back"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/Social-Media-Egyptian-Housewives-Careers">How Social Media Gave These 3 Egyptian Housewives Their Financial Independence Back</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           15 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/Social-Media-Egyptian-Housewives-Careers">3 women, 3 generations; the same success story. </a> 
+         <a class="more" href="/LifeStyle/Social-Media-Egyptian-Housewives-Careers">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/In-Depth/A-Love-Letter-to-Cairo"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023819/88fbe6fe-fc53-4497-8da5-49f58456be06.jpg" width="271" height="154" alt="A Love Letter to Cairo "></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/In-Depth/A-Love-Letter-to-Cairo">A Love Letter to Cairo </a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           13 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/In-Depth/A-Love-Letter-to-Cairo">Alone this Valentine's, Mouwafak Chourbagui has decided to express his love to the</a> 
+         <a class="more" href="/In-Depth/A-Love-Letter-to-Cairo">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Buzz/What-Valentine-type-are-you"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023797/dd1b9fa2-85d1-4cce-aeb5-261e8cd58429.jpg" width="271" height="154" alt="Quiz: What Type of Valentine Date Are You?"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Buzz/What-Valentine-type-are-you">Quiz: What Type of Valentine Date Are You?</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           08 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Buzz/What-Valentine-type-are-you">Should you stay low? Or maybe kink it up? Answer these not-so-simple questions and</a> 
+         <a class="more" href="/Buzz/What-Valentine-type-are-you">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/nile-ritz-carlton-valentines-2018"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023732/07056b29-58e2-470d-8380-06bf8726eb72.jpg" width="271" height="154" alt="All You Need to Know for a Ritzier Valentine’s Day"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/nile-ritz-carlton-valentines-2018">All You Need to Know for a Ritzier Valentine’s Day</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           05 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/nile-ritz-carlton-valentines-2018">Sweep your loved ones off their feet this year with a ritzy evening full of</a> 
+         <a class="more" href="/LifeStyle/nile-ritz-carlton-valentines-2018">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/Cach-Blurr-and-Desimana-to-Compete-For-The-Best-Desperados-DIY-Party-This-February"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023750/3ee13e58-f716-4f12-96a9-24fe36fa9cde.jpg" width="271" height="154" alt="Caché, Blurr, and Desimana to Compete For The Best Desperados DIY Party This February"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/Cach-Blurr-and-Desimana-to-Compete-For-The-Best-Desperados-DIY-Party-This-February">Caché, Blurr, and Desimana to Compete For The Best Desperados DIY Party This February</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           04 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/Cach-Blurr-and-Desimana-to-Compete-For-The-Best-Desperados-DIY-Party-This-February">Each will craft up their own party with the same budget and tools, and you'll be</a> 
+         <a class="more" href="/LifeStyle/Cach-Blurr-and-Desimana-to-Compete-For-The-Best-Desperados-DIY-Party-This-February">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/El-Warshah"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023705/bcfd780d-f1f9-4913-a852-006539cf47be.jpg" width="271" height="154" alt="El Warshah: Creating Beautiful Décor From Driftwood"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/El-Warshah">El Warshah: Creating Beautiful Décor From Driftwood</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           02 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/El-Warshah">This Egyptian startup is offering exquisitely personalized and warm works of</a> 
+         <a class="more" href="/LifeStyle/El-Warshah">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/DowntownCairoGuide"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023769/dd874326-5633-4149-924c-555b84747188.jpg" width="271" height="154" alt="The Romantic's Guide to Downtown Cairo "></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/DowntownCairoGuide">The Romantic's Guide to Downtown Cairo </a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           02 Feb 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/DowntownCairoGuide">With Valentine's Day just around the corner, we've curated the ultimate romantic</a> 
+         <a class="more" href="/LifeStyle/DowntownCairoGuide">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/DHI-memoirs-balding-egyptian-man"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023733/192c59cb-302a-48f2-886a-602a108c3e69.jpg" width="271" height="154" alt="Memoirs of a Balding Egyptian Man"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/DHI-memoirs-balding-egyptian-man">Memoirs of a Balding Egyptian Man</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           31 Jan 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/DHI-memoirs-balding-egyptian-man">Ravaged by genetics and too many hormones, a man on the brink of baldness finds</a> 
+         <a class="more" href="/LifeStyle/DHI-memoirs-balding-egyptian-man">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/How-Bushra-Teamed-Up-With-2-Startups-To-Inspire-400-000-Egyptians"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023745/f8cca079-a9ea-4e5f-a1da-78d3bac84f05.jpg" width="271" height="154" alt="How Bushra Teamed Up With 2 Startups To Inspire 400,000 Egyptians"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/How-Bushra-Teamed-Up-With-2-Startups-To-Inspire-400-000-Egyptians">How Bushra Teamed Up With 2 Startups To Inspire 400,000 Egyptians</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           29 Jan 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/How-Bushra-Teamed-Up-With-2-Startups-To-Inspire-400-000-Egyptians">Bassita's new viral video, featuring Bushra, has reached over 400,000 views (and</a> 
+         <a class="more" href="/LifeStyle/How-Bushra-Teamed-Up-With-2-Startups-To-Inspire-400-000-Egyptians">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Buzz/The-Tap-West-Opens-in-Sheikh-Zayed-This-Weekend"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023743/24b88591-1120-4198-b287-0e01d9913844.jpg" width="271" height="154" alt="The Tap West Opens in Sheikh Zayed This Weekend"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Buzz/The-Tap-West-Opens-in-Sheikh-Zayed-This-Weekend">The Tap West Opens in Sheikh Zayed This Weekend</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           28 Jan 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Buzz/The-Tap-West-Opens-in-Sheikh-Zayed-This-Weekend">And here's everything you need to know about the insane 4-day lineup. This is</a> 
+         <a class="more" href="/Buzz/The-Tap-West-Opens-in-Sheikh-Zayed-This-Weekend">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/Listicles/7-Creative-Ways-Egypt-Can-Reduce-its-Population"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023715/7b11b784-75ff-4eaa-8a41-d285cd248566.jpg" width="271" height="154" alt="7 Creative Ways Egypt Can Reduce its Population"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/Listicles/7-Creative-Ways-Egypt-Can-Reduce-its-Population">7 Creative Ways Egypt Can Reduce its Population</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           26 Jan 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/Listicles/7-Creative-Ways-Egypt-Can-Reduce-its-Population">How long can we go on with the traffic, the pollution, and the kids in the cinemas</a> 
+         <a class="more" href="/Listicles/7-Creative-Ways-Egypt-Can-Reduce-its-Population">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/Naseej-textiles"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023716/d756f372-1d2e-4336-8a4e-b1f10e98f9ba.jpg" width="271" height="154" alt="The Egyptian Textile Brand Giving Our Homes a Much Needed Modern Makeover"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/Naseej-textiles">The Egyptian Textile Brand Giving Our Homes a Much Needed Modern Makeover</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           24 Jan 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/Naseej-textiles">With a century of collective talent and an innovative young mind at the helm,</a> 
+         <a class="more" href="/LifeStyle/Naseej-textiles">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="/LifeStyle/4-Egyptian-Athletes-Are-Walking-Across-Egypt-to-Raise-Awareness-Population-Growth"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023709/51eda2e3-2d5a-4db4-b7a5-6317855bdcd1.JPG" width="271" height="154" alt="These 4 Egyptian Athletes Are Walking Across Egypt to Raise Awareness on Population Growth"></a> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="/LifeStyle/4-Egyptian-Athletes-Are-Walking-Across-Egypt-to-Raise-Awareness-Population-Growth">These 4 Egyptian Athletes Are Walking Across Egypt to Raise Awareness on Population Growth</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           20 Jan 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="/LifeStyle/4-Egyptian-Athletes-Are-Walking-Across-Egypt-to-Raise-Awareness-Population-Growth">Nike's Brand Ambassador Manal Roustom has also joined to kickstart the adventure. </a> 
+         <a class="more" href="/LifeStyle/4-Egyptian-Athletes-Are-Walking-Across-Egypt-to-Raise-Awareness-Population-Growth">[...]</a> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div id="Data"></div> 
+     </div> 
+     <div class="clear"></div> 
+     <a class="fara7-more" href="javascript:void();" onclick="FunMore()">More</a> 
+    </div> 
+   </div> 
+   <!--End of left--> 
+   <!--right-side--> 
+   <div class="right-side"> 
+    <section class="tabs"> 
+     <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked> 
+     <label for="tab-1" class="tab-label-1 wow">TRENDING</label> 
+     <input id="tab-2" type="radio" name="radio-set" class="tab-selector-2"> 
+     <label for="tab-2" class="tab-label-2 wow">LATEST</label> 
+     <input id="tab-3" type="radio" name="radio-set" class="tab-selector-3"> 
+     <label for="tab-3" class="tab-label-3 wow" onclick="Rando()">surprise me</label> 
+     <!--<input id="tab-4" type="radio" name="radio-set" class="tab-selector-4" />
+                <label for="tab-4" class="tab-label-4">RECOMMENDED</label>--> 
+     <div class="clear-shadow"></div> 
+     <div class="content-tab"> 
+      <div class="content-1"> 
+       <div class="new-tap-buttons"> 
+        <a class="hide1" href="javascript:void(0)">Week</a> 
+        <a class="hide2" href="javascript:void(0)">Month</a> 
+        <a class="hide3" href="javascript:void(0)">Year</a> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="new-content-tap1"> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Buzz/Saudi-Women-No-Longer-Have-to-Wear-The-Abaya"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024056/f0160a85-cc6b-4960-aacb-34233bbf1428.png"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Buzz/Saudi-Women-No-Longer-Have-to-Wear-The-Abaya">Saudi Women No Longer Have to Wear the Abaya</a></h2> 
+          <p><a href="/Buzz/Saudi-Women-No-Longer-Have-to-Wear-The-Abaya">Crown Prince Mohamed Bin Salman made the announcement on a Sunday interview with CBS.</a><a class="more" href="/Buzz/Saudi-Women-No-Longer-Have-to-Wear-The-Abaya"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Buzz/egypt-best-destination-american-retirement"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024062/bc20640b-56da-4bae-be1f-c075547b606d.jpg"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Buzz/egypt-best-destination-american-retirement">Egypt Named Best Retirement Destination For US Citizens</a></h2> 
+          <p><a href="/Buzz/egypt-best-destination-american-retirement">Making the cut ahead of India, Mexico and Romania. </a><a class="more" href="/Buzz/egypt-best-destination-american-retirement"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/LifeStyle/prime-residential-serviced-apartments-egypt"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023848/85f538b7-0b61-484f-8899-ae465e8a586f.jpg"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/LifeStyle/prime-residential-serviced-apartments-egypt">Prime Residential: The First Serviced Apartments Rental Company in Egypt</a></h2> 
+          <p><a href="/LifeStyle/prime-residential-serviced-apartments-egypt">Sick of being duped by shady real estate agents in Egypt? Prime Residential makes things as easy as one, two, three.</a><a class="more" href="/LifeStyle/prime-residential-serviced-apartments-egypt"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Buzz/Middle-East-biggest-OBGYN-museum-egypt"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024051/b4e07929-89bc-4927-a4f8-52b72f3f7211.jpg"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Buzz/Middle-East-biggest-OBGYN-museum-egypt">Middle-East’s Biggest OBGYN Museum Opens in Egypt</a></h2> 
+          <p><a href="/Buzz/Middle-East-biggest-OBGYN-museum-egypt">Naguib Pasha Mahfouz’s personally curated collection of rare obstetric deformities and curios is once again open to the public.</a><a class="more" href="/Buzz/Middle-East-biggest-OBGYN-museum-egypt"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+       </div> 
+       <div class="new-content-tap2"> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Buzz/new-railway-red-sea-mediterranea"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023989/5e2e8315-b4a3-4a76-b680-ce863c1f2482.jpg"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Buzz/new-railway-red-sea-mediterranea">New Alamein-to-Ain Sokhna Railway Line Announced</a></h2> 
+          <p><a href="/Buzz/new-railway-red-sea-mediterranea">The announcement of the new project comes as part of a huge push to renew and enhance railway systems across Egypt.</a><a class="more" href="/Buzz/new-railway-red-sea-mediterranea"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Buzz/Saudi-Women-No-Longer-Have-to-Wear-The-Abaya"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024056/f0160a85-cc6b-4960-aacb-34233bbf1428.png"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Buzz/Saudi-Women-No-Longer-Have-to-Wear-The-Abaya">Saudi Women No Longer Have to Wear the Abaya</a></h2> 
+          <p><a href="/Buzz/Saudi-Women-No-Longer-Have-to-Wear-The-Abaya">Crown Prince Mohamed Bin Salman made the announcement on a Sunday interview with CBS.</a><a class="more" href="/Buzz/Saudi-Women-No-Longer-Have-to-Wear-The-Abaya"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Buzz/female-egyptian-pilot-first-arab-woman"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023945/c1dfb190-cf71-4c4a-af5f-12c63340bf78.jpg"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Buzz/female-egyptian-pilot-first-arab-woman">Egyptian Pilot Becomes First Arab Woman to Fly World's Largest Commercial Airliner</a></h2> 
+          <p><a href="/Buzz/female-egyptian-pilot-first-arab-woman">In a momentous and timely nod to women’s empowerment and equality, Nevin Darwish commandeers the world’s largest commercial aircraft.</a><a class="more" href="/Buzz/female-egyptian-pilot-first-arab-woman"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Buzz/fahita-off-air"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023950/380b3992-9545-48c4-91e3-b2a23d9dba86.jpg"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Buzz/fahita-off-air">Abla Fahita Pulled Off the Air</a></h2> 
+          <p><a href="/Buzz/fahita-off-air">CBC has made the decision to axe the ever-popular synthetic starlet's show till further notice.</a><a class="more" href="/Buzz/fahita-off-air"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+       </div> 
+       <div class="new-content-tap3"> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Buzz/US-Porn-Studio-Issues-Casting-Call-for-Auditions-in-Egypt"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/931889/09572f03-e0cb-4329-a053-4cc6466c95c9.JPG"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Buzz/US-Porn-Studio-Issues-Casting-Call-for-Auditions-in-Egypt">US Porn Studio Issues Casting Call for Auditions in Egypt</a></h2> 
+          <p><a href="/Buzz/US-Porn-Studio-Issues-Casting-Call-for-Auditions-in-Egypt">Casting starts next week for a three-week Pharaonic-themed production in the Los Angeles, California in June.</a><a class="more" href="/Buzz/US-Porn-Studio-Issues-Casting-Call-for-Auditions-in-Egypt"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Buzz/Cairo-Ranked-World-s-Most-Dangerous-City-for-Women"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/973199/7e4b9738-b5c7-42cc-9239-4594a687c017.jpg"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Buzz/Cairo-Ranked-World-s-Most-Dangerous-City-for-Women">Cairo Ranked World's Most Dangerous City for Women</a></h2> 
+          <p><a href="/Buzz/Cairo-Ranked-World-s-Most-Dangerous-City-for-Women">Cairo has been ranked the worst mega city for women in the world in terms of sexual violence, economic opportunities, harmful cultural</a><a class="more" href="/Buzz/Cairo-Ranked-World-s-Most-Dangerous-City-for-Women"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Buzz/Saudi-Prince-Rents-the-Pyramids-of-Giza-Site-for-40-Million-to-Propose-to-Girlfriend"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/942244/8d620990-7680-4a94-a143-2275bbc47ec7.jpg"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Buzz/Saudi-Prince-Rents-the-Pyramids-of-Giza-Site-for-40-Million-to-Propose-to-Girlfriend">Saudi Prince Rents the Pyramids of Giza for $40 Million to Propose to Girlfriend</a></h2> 
+          <p><a href="/Buzz/Saudi-Prince-Rents-the-Pyramids-of-Giza-Site-for-40-Million-to-Propose-to-Girlfriend">With a little help from UK-based concierge company, this Saudi Prince threw his girlfriend an epic surprise engagement party.</a><a class="more" href="/Buzz/Saudi-Prince-Rents-the-Pyramids-of-Giza-Site-for-40-Million-to-Propose-to-Girlfriend"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Buzz/Egypt-s-Newest-Public-Transport-Service-To-Be-Launched-By-Uber"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/973077/ce404984-db9e-49a0-995a-77d1d085b635.jpg"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Buzz/Egypt-s-Newest-Public-Transport-Service-To-Be-Launched-By-Uber">Egypt’s Newest Public Transport Service To Be Launched By Uber</a></h2> 
+          <p><a href="/Buzz/Egypt-s-Newest-Public-Transport-Service-To-Be-Launched-By-Uber">Uber are planning a new operation set to serve all of Egypt’s governorates.</a><a class="more" href="/Buzz/Egypt-s-Newest-Public-Transport-Service-To-Be-Launched-By-Uber"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+       </div> 
+       <div class="hide-old-tap"> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Buzz/Saudi-Women-No-Longer-Have-to-Wear-The-Abaya"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024056/f0160a85-cc6b-4960-aacb-34233bbf1428.png"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Buzz/Saudi-Women-No-Longer-Have-to-Wear-The-Abaya">Saudi Women No Longer Have to Wear the Abaya</a></h2> 
+          <p><a href="/Buzz/Saudi-Women-No-Longer-Have-to-Wear-The-Abaya">Crown Prince Mohamed Bin Salman made the announcement on a Sunday interview with CBS.</a><a class="more" href="/Buzz/Saudi-Women-No-Longer-Have-to-Wear-The-Abaya"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Buzz/egypt-best-destination-american-retirement"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024062/bc20640b-56da-4bae-be1f-c075547b606d.jpg"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Buzz/egypt-best-destination-american-retirement">Egypt Named Best Retirement Destination For US Citizens</a></h2> 
+          <p><a href="/Buzz/egypt-best-destination-american-retirement">Making the cut ahead of India, Mexico and Romania. </a><a class="more" href="/Buzz/egypt-best-destination-american-retirement"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Buzz/Middle-East-biggest-OBGYN-museum-egypt"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024051/b4e07929-89bc-4927-a4f8-52b72f3f7211.jpg"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Buzz/Middle-East-biggest-OBGYN-museum-egypt">Middle-East’s Biggest OBGYN Museum Opens in Egypt</a></h2> 
+          <p><a href="/Buzz/Middle-East-biggest-OBGYN-museum-egypt">Naguib Pasha Mahfouz’s personally curated collection of rare obstetric deformities and curios is once again open to the public.</a><a class="more" href="/Buzz/Middle-East-biggest-OBGYN-museum-egypt"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="inner-tab"> 
+         <div class="image-tabs"> 
+          <a href="/Listicles/egyptians-afraid"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023966/7c668b4d-c869-4287-8a6d-9851da8a276a.jpg"></a> 
+         </div> 
+         <div class="all-inner-tabs"> 
+          <h2><a href="/Listicles/egyptians-afraid">7 Things Egyptians are Afraid of </a></h2> 
+          <p><a href="/Listicles/egyptians-afraid">Will your habibi catch a grenade for you? Perhaps, but not if it rains...</a><a class="more" href="/Listicles/egyptians-afraid"> [...]</a></p> 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="content-2"> 
+       <div class="inner-tab"> 
+        <div class="image-tabs"> 
+         <a href="/Listicles/shatafa"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024043/d84d65e8-7046-42dd-9d09-aedd3923031f.JPG"></a> 
+        </div> 
+        <div class="all-inner-tabs"> 
+         <h2><a href="/Listicles/shatafa">A Throne of Lies: 5 Types of Shatafa that Need to be Outlawed </a></h2> 
+         <p><a href="/Listicles/shatafa">The sanitary refuge of a bathroom stall is all that is left between you and this hellish landscape, and even there, you’re never truly safe.</a><a class="more" href="/Listicles/shatafa"> [...]</a></p> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="inner-tab"> 
+        <div class="image-tabs"> 
+         <a href="/Buzz/Calling-Salma-Abu-Deif-help-us-make-this-Egyptian-s-prom-dream-come-true"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024061/806e488a-af41-4f8e-b1b5-301ebfa4ca8b.jpg"></a> 
+        </div> 
+        <div class="all-inner-tabs"> 
+         <h2><a href="/Buzz/Calling-Salma-Abu-Deif-help-us-make-this-Egyptian-s-prom-dream-come-true">Calling Salma Abu Deif, Help Us Make this Egyptian’s Prom Dream Come True</a></h2> 
+         <p><a href="/Buzz/Calling-Salma-Abu-Deif-help-us-make-this-Egyptian-s-prom-dream-come-true">An appeal to Salma Abu Deif's heart.</a><a class="more" href="/Buzz/Calling-Salma-Abu-Deif-help-us-make-this-Egyptian-s-prom-dream-come-true"> [...]</a></p> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="inner-tab"> 
+        <div class="image-tabs"> 
+         <a href="/Fashion/Nile-Eyewear-New-Collection"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023974/4184bec6-a551-4100-b775-e4997948118e.jpg"></a> 
+        </div> 
+        <div class="all-inner-tabs"> 
+         <h2><a href="/Fashion/Nile-Eyewear-New-Collection">Nile Eyewear's Summer Collection Will Have You Taste the Sun and it's a Mouthful of Colour</a></h2> 
+         <p><a href="/Fashion/Nile-Eyewear-New-Collection">If your optical wardrobe needs an update, check out this local eyewear designer for some summer accessories. </a><a class="more" href="/Fashion/Nile-Eyewear-New-Collection"> [...]</a></p> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="inner-tab"> 
+        <div class="image-tabs"> 
+         <a href="/In-Depth/modern-love"><img src="http://www.cairoscene.com/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024018/fb88a0bc-34c2-4e87-96da-6ec11ec07046.jpg"></a> 
+        </div> 
+        <div class="all-inner-tabs"> 
+         <h2><a href="/In-Depth/modern-love">This Modern &lt;3 : Screening Intimacy</a></h2> 
+         <p><a href="/In-Depth/modern-love">Has the screen affected our ability to truly connect? </a><a class="more" href="/In-Depth/modern-love"> [...]</a></p> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+      </div> 
+      <div class="content-3"> 
+      </div> 
+     </div> 
+     <div class="back-ground"> 
+     </div> 
+    </section> 
+    <div class="right-ad"> 
+     <script type="text/javascript"><!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://gornany.info/revive/www/delivery/ajs.php':'http://gornany.info/revive/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=11532");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+     <noscript>
+      <a href="http://gornany.info/revive/www/delivery/ck.php?n=aab432e2&amp;cb=INSERT_RANDOM_NUMBER_HERE" target="_blank"><img src="http://gornany.info/revive/www/delivery/avw.php?zoneid=11532&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=aab432e2" border="0" alt=""></a>
+     </noscript> 
+    </div> 
+    <div class="back-ground"> 
+    </div> 
+    <div class="best-of"> 
+     <div class="title-all">
+       EDITOR'S PICKS 
+     </div> 
+     <div class="inner-best"> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="http://www.cairoscene.com/In-Depth/The-Democratic-Republic-of-Zamalek-The-Return-of-the-Prodigal-Son-Part-I"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023873/7d1c02bd-b704-4715-9556-94c3fd96d629.jpg" width="271" height="154" alt="The Democratic Republic of Zamalek: The Return of the Prodigal Son (Part II)"></a> 
+        <div class="num-best"></div> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="http://www.cairoscene.com/In-Depth/The-Democratic-Republic-of-Zamalek-The-Return-of-the-Prodigal-Son-Part-I">The Democratic Republic of Zamalek: The Return of the Prodigal Son (Part II)</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           16 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="http://www.cairoscene.com/In-Depth/The-Democratic-Republic-of-Zamalek-The-Return-of-the-Prodigal-Son-Part-I">Back home for the first time in four years, Marc has to confront his father and find his own place in the new Republic</a> 
+         <a class="more" href="/http://www.cairoscene.com/In-Depth/The-Democratic-Republic-of-Zamalek-The-Return-of-the-Prodigal-Son-Part-I">[...]</a> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="Buzz/welad-el-balad-media-egypt-heritage"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1023947/9181c0dd-cf35-4aaa-83b1-502ab01290d3.jpg" width="271" height="154" alt="How One Local Media Company is Taking a New Approach to Preserving Egypt's Cultural Heritage"></a> 
+        <div class="num-best"></div> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="Buzz/welad-el-balad-media-egypt-heritage">How One Local Media Company is Taking a New Approach to Preserving Egypt's Cultural Heritage</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           20 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="Buzz/welad-el-balad-media-egypt-heritage">Senior Writer Mouwafak Chourbagui attended the region’s first conference on the role of media in protection of cultural heritage and was impressed by the organization’s work. </a> 
+         <a class="more" href="/Buzz/welad-el-balad-media-egypt-heritage">[...]</a> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="block"> 
+       <div class="block-photo"> 
+        <a href="http://www.cairoscene.com/Buzz/REDA"><img src="/Content/Admin/Uploads/Articles/ArticlesMainPhotoThumbnail/1024016/d889f6f3-87bc-48b4-9942-f5b44ef4d0d8.jpg" width="271" height="154" alt="This German-Egyptian's Art Project is Dispelling Repressive Notions Attached to the Veil"></a> 
+        <div class="num-best"></div> 
+       </div> 
+       <div class="bottom-block"> 
+        <div class="block-title"> 
+         <h2><a href="http://www.cairoscene.com/Buzz/REDA">This German-Egyptian's Art Project is Dispelling Repressive Notions Attached to the Veil</a></h2> 
+        </div> 
+        <div class="all-block-footer"> 
+         <div class="date-article alone">
+           16 Mar 2018 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="block-desc"> 
+         <a href="http://www.cairoscene.com/Buzz/REDA">Isra Abdou is the determined veiled young woman who decided to stand up to her oppressors.</a> 
+         <a class="more" href="/http://www.cairoscene.com/Buzz/REDA">[...]</a> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="back-ground"> 
+    </div> 
+    <div class="right-ad"> 
+     <script type="text/javascript">
+<!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://gornany.info/revive/www/delivery/ajs.php':'http://gornany.info/revive/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=11532");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+     <noscript>
+      <a href="http://gornany.info/revive/www/delivery/ck.php?n=aab432e2&amp;cb=INSERT_RANDOM_NUMBER_HERE" target="_blank"><img src="http://gornany.info/revive/www/delivery/avw.php?zoneid=11532&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=aab432e2" border="0" alt=""></a>
+     </noscript> 
+    </div> 
+    <div class="back-ground"> 
+    </div> 
+   </div> 
+   <div class="clear"> 
+   </div> 
+   <div class="recommmm"> 
+   </div> 
+   <div class="clear"> 
+   </div> 
+   <div class="under-recommend"> 
+    <div class="left-calender"> 
+     <div class="calender-all"> 
+      <div class="title-all"> 
+       <a href="/Calendar">EVENTS CALENDAR</a> 
+      </div> 
+      <div class="inner-calender"> 
+       <div class="calender-date"> 
+        <!--wrap--> 
+        <div id="wrap"> 
+         <div id="timeline"> 
+          <script>
+                                    $(".timeline_top ul li a").click(function (e) {
+                                        alert("1");
+                                        e.preventDefault();
+                                        $(this).addClass("today").siblings().removeClass("today");
+                                        $(".timeline_bottom ul li a").addClass("today").siblings().removeClass("today");
+                                    });
+                                    $(".timeline_bottom ul li a").click(function (e) {
+                                        alert("2");
+                                        e.preventDefault();
+                                        $(this).addClass("today").siblings().removeClass("today");
+                                        $(".timeline_top ul li a").addClass("today").siblings().removeClass("today");
+                                    });
+                                </script> 
+         </div> 
+        </div> 
+        <!--end warp--> 
+       </div> 
+       <div class="event-today">
+         Todays Events 
+       </div> 
+       <div class="show-all-event"> 
+        <a href="/Calendar">Show all events</a> 
+       </div> 
+       <div class="clear"></div> 
+       <div class="all-main-event"> 
+        <div class="main-event"> 
+         <div class="event-photo"> 
+          <a href="/Events/123315"><img src="http://www.cairoscene.com/Content/Admin/Uploads/EventsImages/04810420-b4a1-48cd-92ec-3416be0fab5f.jpg" alt="Habibi Funk &amp; Nur @ Mantis"></a> 
+          <div class="date">
+            Bars 
+          </div> 
+         </div> 
+         <div class="event-title"> 
+          <h2><a href="/Events/123315">Habibi Funk &amp; Nur @ Mantis</a></h2> 
+         </div> 
+         <div class="event-info">
+           Date: 3/24/2018 
+         </div> 
+         <div class="event-info">
+           Time: 3:00pm - 10:00pm 
+         </div> 
+         <div class="event-info">
+           Venue: Mantis 
+         </div> 
+        </div> 
+        <div class="main-event"> 
+         <div class="event-photo"> 
+          <a href="/Events/122963"><img src="http://www.cairoscene.com/Content/Admin/Uploads/EventsImages/39a5d858-a5e6-4732-b867-60d7d55f07f4.jpg" alt="D-CAF: Aysha @ Studio Nasibian Theater"></a> 
+          <div class="date">
+            Theatre 
+          </div> 
+         </div> 
+         <div class="event-title"> 
+          <h2><a href="/Events/122963">D-CAF: Aysha @ Studio Nasibian Theater</a></h2> 
+         </div> 
+         <div class="event-info">
+           Date: 3/24/2018 
+         </div> 
+         <div class="event-info">
+           Time: 8:00pm - 9:00pm 
+         </div> 
+         <div class="event-info">
+           Venue: Jesuit Cairo 
+         </div> 
+        </div> 
+        <div class="main-event"> 
+         <div class="event-photo"> 
+          <a href="/Events/123025"><img src="http://www.cairoscene.com/Content/Admin/Uploads/EventsImages/bfb99683-7c3b-4509-9688-903f99156a58.jpg" alt="Saturday Brunch &amp; Chill @ CJC 610"></a> 
+          <div class="date">
+            Clubs 
+          </div> 
+         </div> 
+         <div class="event-title"> 
+          <h2><a href="/Events/123025">Saturday Brunch &amp; Chill @ CJC 610</a></h2> 
+         </div> 
+         <div class="event-info">
+           Date: 3/24/2018 
+         </div> 
+         <div class="event-info">
+           Time: 2:00pm - 8:00pm 
+         </div> 
+         <div class="event-info">
+           Venue: Cairo Jazz Club 610 
+         </div> 
+        </div> 
+        <div class="main-event"> 
+         <div class="event-photo"> 
+          <a href="/Events/123316"><img src="http://www.cairoscene.com/Content/Admin/Uploads/EventsImages/bd088f05-d2df-4f3d-897a-e77d6b5be40d.jpg" alt="Pure House ft. Ayman Nageeb @ AEON"></a> 
+          <div class="date">
+            Bars 
+          </div> 
+         </div> 
+         <div class="event-title"> 
+          <h2><a href="/Events/123316">Pure House ft. Ayman Nageeb @ AEON</a></h2> 
+         </div> 
+         <div class="event-info">
+           Date: 3/24/2018 
+         </div> 
+         <div class="event-info">
+           Time: 10:00pm - 3:00am 
+         </div> 
+         <div class="event-info">
+           Venue: AEON 
+         </div> 
+        </div> 
+        <div class="main-event"> 
+         <div class="event-photo"> 
+          <a href="/Events/122986"><img src="http://www.cairoscene.com/Content/Admin/Uploads/EventsImages/63814fa1-a5c3-496a-b08b-b2ff2566bd3d.jpg" alt="D-CAF: Street Performances"></a> 
+          <div class="date">
+            Dance 
+          </div> 
+         </div> 
+         <div class="event-title"> 
+          <h2><a href="/Events/122986">D-CAF: Street Performances</a></h2> 
+         </div> 
+         <div class="event-info">
+           Date: 3/24/2018 
+         </div> 
+         <div class="event-info">
+           Time: 1:30pm - 4:30pm 
+         </div> 
+         <div class="event-info">
+           Venue: Sultan Al-Ashraf Qaytbay Mosque 
+         </div> 
+        </div> 
+        <div class="main-event"> 
+         <div class="event-photo"> 
+          <a href="/Events/123216"><img src="http://www.cairoscene.com/Content/Admin/Uploads/EventsImages/427278c4-73a5-49d0-b3fc-9a182c858cf0.jpg" alt="BIT TUNER @  Underground After 8"></a> 
+          <div class="date">
+            Clubs 
+          </div> 
+         </div> 
+         <div class="event-title"> 
+          <h2><a href="/Events/123216">BIT TUNER @ Underground After 8</a></h2> 
+         </div> 
+         <div class="event-info">
+           Date: 3/24/2018 
+         </div> 
+         <div class="event-info">
+           Time: 9:00pm - 
+         </div> 
+         <div class="event-info">
+           Venue: Underground Cairo 
+         </div> 
+        </div> 
+        <div class="main-event"> 
+         <div class="event-photo"> 
+          <a href="/Events/123306"><img src="http://www.cairoscene.com/Content/Admin/Uploads/EventsImages/5a9a2f9d-3691-4b49-87d6-5f1d47db39ab.jpg" alt="Bluezophrenia &amp; Crazy Ahmed @ The Tap East"></a> 
+          <div class="date">
+            Bars 
+          </div> 
+         </div> 
+         <div class="event-title"> 
+          <h2><a href="/Events/123306">Bluezophrenia &amp; Crazy Ahmed @ The Tap East</a></h2> 
+         </div> 
+         <div class="event-info">
+           Date: 3/24/2018 
+         </div> 
+         <div class="event-info">
+           Time: 5:00pm - 3:00am 
+         </div> 
+         <div class="event-info">
+           Venue: The Tap East 
+         </div> 
+        </div> 
+        <div class="main-event"> 
+         <div class="event-photo"> 
+          <a href="/Events/123179"><img src="http://www.cairoscene.com/Content/Admin/Uploads/EventsImages/fe601157-9ae1-4ae7-ae1f-42e5e13bdd88.jpg" alt="Basata @ Cairo Jazz Club"></a> 
+          <div class="date">
+            Clubs 
+          </div> 
+         </div> 
+         <div class="event-title"> 
+          <h2><a href="/Events/123179">Basata @ Cairo Jazz Club</a></h2> 
+         </div> 
+         <div class="event-info">
+           Date: 3/24/2018 
+         </div> 
+         <div class="event-info">
+           Time: 10:30pm - 3:00am 
+         </div> 
+         <div class="event-info">
+           Venue: Cairo Jazz Club 
+         </div> 
+        </div> 
+       </div> 
+       <div class="show-all-event"> 
+        <a href="/Calendar">Show all events</a> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="right-calender"> 
+     <div class="right-ad-bottom"> 
+      <div class="even-ad"> 
+       <!--/*
+  *
+  * Revive Adserver Asynchronous JS Tag
+  * - Generated with Revive Adserver v3.2.0
+  *
+  */--> 
+       <ins data-revive-zoneid="64" data-revive-id="ed59dc4e1f70f19d7e79e344f1ed0b7a"></ins> 
+       <script async src="//gornany.info/revive/www/delivery/asyncjs.php"></script> 
+      </div> 
+      <div class="even-ad"> 
+       <!--/*
+  *
+  * Revive Adserver Asynchronous JS Tag
+  * - Generated with Revive Adserver v3.2.0
+  *
+  */--> 
+       <ins data-revive-zoneid="65" data-revive-id="ed59dc4e1f70f19d7e79e344f1ed0b7a"></ins> 
+       <script async src="//gornany.info/revive/www/delivery/asyncjs.php"></script> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="clear"></div> 
+   </div> 
+   <div class="all-footer-ads"> 
+    <div class="footer-ads"> 
+     <!--/*
+          *
+          * Revive Adserver Javascript Tag
+          * - Generated with Revive Adserver v3.2.0
+          *
+          */--> 
+     <!--/*
+          * The backup image section of this tag has been generated for use on a
+          * non-SSL page. If this tag is to be placed on an SSL page, change the
+          *   'http://gornany.info/revive/www/delivery/...'
+          * to
+          *   'https://gornany.info/revive/www/delivery/...'
+          *
+          * This noscript section of this tag only shows image banners. There
+          * is no width or height in these banners, so if you want these tags to
+          * allocate space for the ad before it shows, you will need to add this
+          * information to the <img> tag.
+          *
+          * If you do not want to deal with the intricities of the noscript
+          * section, delete the tag (from <noscript>... to </noscript>). On
+          * average, the noscript tag is called from less than 1% of internet
+          * users.
+          */--> 
+     <script type="text/javascript">
+<!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://gornany.info/revive/www/delivery/ajs.php':'http://gornany.info/revive/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=66");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+     <noscript>
+      <a href="http://gornany.info/revive/www/delivery/ck.php?n=ab8ef3ad&amp;cb=INSERT_RANDOM_NUMBER_HERE" target="_blank"><img src="http://gornany.info/revive/www/delivery/avw.php?zoneid=66&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=ab8ef3ad" border="0" alt=""></a>
+     </noscript> 
+    </div> 
+    <div class="footer-ads"> 
+     <!--/*
+          *
+          * Revive Adserver Javascript Tag
+          * - Generated with Revive Adserver v3.2.0
+          *
+          */--> 
+     <!--/*
+          * The backup image section of this tag has been generated for use on a
+          * non-SSL page. If this tag is to be placed on an SSL page, change the
+          *   'http://gornany.info/revive/www/delivery/...'
+          * to
+          *   'https://gornany.info/revive/www/delivery/...'
+          *
+          * This noscript section of this tag only shows image banners. There
+          * is no width or height in these banners, so if you want these tags to
+          * allocate space for the ad before it shows, you will need to add this
+          * information to the <img> tag.
+          *
+          * If you do not want to deal with the intricities of the noscript
+          * section, delete the tag (from <noscript>... to </noscript>). On
+          * average, the noscript tag is called from less than 1% of internet
+          * users.
+          */--> 
+     <script type="text/javascript">
+<!--//<![CDATA[
+   var m3_u = (location.protocol=='https:'?'https://gornany.info/revive/www/delivery/ajs.php':'http://gornany.info/revive/www/delivery/ajs.php');
+   var m3_r = Math.floor(Math.random()*99999999999);
+   if (!document.MAX_used) document.MAX_used = ',';
+   document.write ("<scr"+"ipt type='text/javascript' src='"+m3_u);
+   document.write ("?zoneid=67");
+   document.write ('&amp;cb=' + m3_r);
+   if (document.MAX_used != ',') document.write ("&amp;exclude=" + document.MAX_used);
+   document.write (document.charset ? '&amp;charset='+document.charset : (document.characterSet ? '&amp;charset='+document.characterSet : ''));
+   document.write ("&amp;loc=" + escape(window.location));
+   if (document.referrer) document.write ("&amp;referer=" + escape(document.referrer));
+   if (document.context) document.write ("&context=" + escape(document.context));
+   if (document.mmm_fo) document.write ("&amp;mmm_fo=1");
+   document.write ("'><\/scr"+"ipt>");
+//]]>--></script>
+     <noscript>
+      <a href="http://gornany.info/revive/www/delivery/ck.php?n=affbf0a3&amp;cb=INSERT_RANDOM_NUMBER_HERE" target="_blank"><img src="http://gornany.info/revive/www/delivery/avw.php?zoneid=67&amp;cb=INSERT_RANDOM_NUMBER_HERE&amp;n=affbf0a3" border="0" alt=""></a>
+     </noscript> 
+    </div> 
+   </div> 
+   <div class="clear"></div> 
+  </div> 
+  <div class="footer"> 
+   <div class="center"> 
+    <div class="all-footer-top"> 
+     <div class="all-mo4"> 
+      <div class="mo4-logo"> 
+       <a href="http://www.mo4network.com" target="_blank"><img src="/Content/Images/mo4.png"></a> 
+      </div> 
+      <div class="mo4-social"> 
+       <ul> 
+        <li> <a href="https://www.facebook.com/MO4Network?fref=ts" target="_blank"></a> </li> 
+        <li> <a href="https://instagram.com/mo4network/" target="_blank"></a> </li> 
+        <li> <a href="https://twitter.com/mo4network" target="_blank"></a> </li> 
+        <li> <a href="https://www.snapchat.com/add/mo4network" target="_blank"></a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="all-footer-menu"> 
+      <ul> 
+       <li> <a href="/">Home</a> </li> 
+       <li> <a href="/Calendar">Events</a> </li> 
+       <li> <a href="/Buzz">Buzz</a> </li> 
+       <li> <a href="/In-Depth"> In-Depth </a> </li> 
+       <li> <a href="/LifeStyle"> LIFESTYLE </a> </li> 
+       <li> <a href="/Fashion"> Fashion </a> </li> 
+       <li> <a href="/Eats"> Eats </a> </li> 
+       <li> <a href="/ArtsAndCulture"> ARTS &amp; CULTURE </a> </li> 
+      </ul> 
+      <ul> 
+       <li> <a href="/SceneNoise"> SCENE NOISE </a> </li> 
+       <li> <a href="/BusinessAndPolitics"> Business</a> </li> 
+       <li> <a href="/geek"> geek </a> </li> 
+       <li> <a href="/Travel"> Travel </a> </li> 
+       <li> <a href="/Listicles"> Listicles </a> </li> 
+       <li> <a href="/SceneTV"> SCENE TV </a> </li> 
+       <li> <a href="/Movies"> CINEMA GUIDE</a> </li> 
+      </ul> 
+     </div> 
+     <div class="cairo-scene-ist"> 
+      <div class="footer-search"> 
+       <form action="/Master/Search" method="post"> 
+        <input class="text-search-footer" type="text" placeholder="Search" name="search" required> 
+        <button class="search-button-footer"></button> 
+        <div class="clear"></div> 
+       </form> 
+      </div> 
+      <div class="footer-title"> 
+       <h4> follow CairoScene</h4> 
+      </div> 
+      <div class="footer-social"> 
+       <ul> 
+        <li> <a href="https://www.facebook.com/CairoScene" target="_blank"></a> </li> 
+        <li> <a href="http://instagram.com/cairoscene" target="_blank"></a> </li> 
+        <li> <a href="https://twitter.com/CairoScene" target="_blank"></a> </li> 
+        <li> <a href="https://www.youtube.com/user/CairoScene" target="_blank"></a> </li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+    <div class="footer-bottom"> 
+     <div class="footer-bottom-menu"> 
+      <ul> 
+       <li> <a href="/AboutUs"> ABOUT US </a> </li> 
+       <li> <a href="/Contact/Advertise"> ADVERTISE </a> </li> 
+       <li> <a href="/Contact">CONTACT US</a> </li> 
+       <li> <a href="/Privacy">PRIVACY </a> </li> 
+      </ul> 
+      <div class="clear"></div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!--<div style="margin: 5px auto; width: 100%;"><a target="_blank" href="http://www.nike.com/eg/en_gb/c/running/lunarepic-flyknit/?cp=gsns_brm_30616_running_nike_lunarepic_cscene"><img src="/Content/Images/nike5.jpg" style="display: block;width: 100%;" /></a></div>--> 
+  <script type="text/javascript">
+
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-25817050-1']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+
+    </script>   
+ </body>
+</html>

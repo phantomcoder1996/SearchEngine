@@ -1,0 +1,895 @@
+https://www.tutorialspoint.com/questions/index.php
+<!doctype html>
+<html>
+ <head> 
+  <title>The Best Technical Questions And Answers - tutorialspoint</title> 
+  <meta charset="utf-8"> 
+  <meta property="og:type" content="website"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:domain" content="tutorialspoint.com"> 
+  <meta property="og:image" itemprop="image primaryImageOfPage" content="https://www.tutorialspoint.com/questions/images/qa_logo.jpg"> 
+  <!-- <meta property="og:image:width" content="" />
+         <meta property="og:image:height" content="" />--> 
+  <meta name="twitter:title" property="og:title" itemprop="title name" content="The Best Technical Questions And Answers"> 
+  <meta name="twitter:description" property="og:description" itemprop="description" content="The Best Technical Questions And Answers - Tutorialspoint "> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <meta name="Description" content="The Best Technical Questions And Answers - Tutorialspoint "> 
+  <meta name="Keywords" content="Tutorialspoint, questions, editing questions, giving answers, editing answers, correcting answers, multiple answers, fast answers, on different technical topics, such as questions on programming languages, web technologies , databases, OpenShift, Apache Bench, qTest, TestLodge, Power BI,  Kubernetes, Spring JDBC, Java Concurrency, Spring AOP, Gerrit, Spring MVC" "> 
+  <link href="https://www.tutorialspoint.com/questions/css/bootstrap.min.css" rel="stylesheet"> 
+  <link href="https://www.tutorialspoint.com/questions/css/qa.css" rel="stylesheet"> 
+  <link href="https://www.tutorialspoint.com/questions/css/responsive.css" rel="stylesheet"> 
+  <link href="https://www.tutorialspoint.com/questions/css/header.css" rel="stylesheet"> 
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries --> 
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// --> 
+  <!--[if lt IE 9]>
+         <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]--> 
+  <!-- container --> 
+  <script src="https://www.tutorialspoint.com/theme/js/questions/jquery.min.js"></script> 
+  <script src="https://www.tutorialspoint.com/theme/js/questions/modernizr-custom.js"></script> 
+  <script src="https://www.tutorialspoint.com/theme/js/questions/bootstrap.min.js"></script> 
+  <style>
+   select{border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+   ul.nav-list.primary>li a.videolink{background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+   .submenu-item{ border-bottom: 2px solid #224B2D !important; border-top: 2px solid #224B2D !important }
+   /*h1.logo img {background: #224B2D !important; }*/
+   .ace_scroller{overflow: auto!important;}
+   .header_icon{font-size:14px!important;clear:both;}
+</style> 
+  <script>      
+	var emailPattern =  /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+	var phonePattern = /^[0-9]{10}$/;
+	var numberPattern = /^\d*$/;
+	var baseurl = 'https://www.tutorialspoint.com/questions';
+	var homeurl = 'https://www.tutorialspoint.com';
+	var script_userid = '';
+	var webp = false;
+	var page_flag;   
+    $(document).ready(function(){    
+      if (typeof Modernizr.webp != "undefined") {
+         if(Modernizr.webp.valueOf()){
+            webp = true;
+         }
+      }
+    });       
+</script> 
+  <script src="https://www.tutorialspoint.com/theme/js/questions/qa.js"></script> 
+  <link href="https://www.tutorialspoint.com/questions/css/font-awesome.min.css?0001" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript" src="https://www.google.com/jsapi"></script> 
+ </head> 
+ <body> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <div id="right_obs-a" class="display-none" onclick="close_obs_sidenav_a()"></div> 
+  <div id="right_obs-b" class="display-none" onclick="close_obs_sidenav_b()"></div> 
+  <div class="wrap_loader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="divMask" style="display:none"></div> 
+  <header> 
+   <div class="container" id="tp-logo-container"> 
+    <div class="tp-first-nav pull-left tp-pointer tp-display-none" data-toggle="modal" data-target="#myModal"> 
+     <i class="fa fa-bars fa-lg"></i> 
+    </div> 
+    <h1 class="logo"> <a href="https://www.tutorialspoint.com/index.htm" title="tutorialspoint"> <img alt="tutorialspoint" class="tp-logo" src="http://www.tutorialspoint.com/questions/images/qa_logo.jpg"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="qa_search">
+       <i class="icon-search"></i>
+      </div> </li> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav();"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+     <li> 
+      <div class="tp-third-nav tp-display-none tp-pointer" id="liPMobile" onclick="openNav_b()"> 
+       <a href="javascript:void(0)"><i class="icon-user header_icon"></i></a> 
+      </div> </li> 
+    </ul> 
+    <div class="sidenav" id="mySidenav"> 
+     <a href="javascript:void(0)" class="closebtn tp-display-none tp-pull-right" onclick="closeNav()">×</a> 
+     <nav> 
+      <ul class="nav nav-pills nav-top"> 
+       <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+       <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+       <li> <a target="_blank" href="http://www.qries.com" rel="nofollow"><i class="fa fa-send"></i> &nbsp;Qries</a> </li> 
+       <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="https://www.tutorialspoint.com/theme/css/icons/image-editor.png" alt="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+       <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+       <li> <a href="/online_dev_tools.htm"> <i class="fa-wrench" style="opacity:.5"></i> Tools </a> </li> 
+       <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+       <li class="top-icons"> 
+        <ul class="social-icons"> 
+         <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+         <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+         <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+         <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+         <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+        </ul> </li> 
+      </ul> 
+     </nav> 
+     <div class="navbar nav-main"> 
+      <div class="container"> 
+       <nav class="nav-main mega-menu"> 
+        <ul class="nav nav-pills nav-main" id="mainMenu"> 
+         <li class="dropdown no-sub-menu"><a class="dropdown header_icon_align" href="https://www.tutorialspoint.com/questions/index.php"><i class="fa-send header_icon"></i> Q/A</a> </li> 
+         <li class="dropdown vMenu"><a class="dropdown header_icon_align vMenuL" href="https://www.tutorialspoint.com/tutorialslibrary.htm"><i class="fa-cubes header_icon"></i> Library</a></li> 
+         <li class="dropdown"><a class="dropdown header_icon_align" href="https://www.tutorialspoint.com/videotutorials/index.htm"><span class="fa-play-circle-o header_icon"></span> Videos</a></li> 
+         <li class="dropdown no-sub-menu"><a class="dropdown header_icon_align" href="https://www.tutorialspoint.com/tutor_connect/index.php"><i class="fa-user header_icon"></i> Tutors</a> </li> 
+         <li class="dropdown no-sub-menu"><a class="dropdown header_icon_align" href="https://www.tutorialspoint.com/codingground.htm"><i class="fa-code header_icon"></i> Coding Ground </a> </li> 
+         <!-- <li class="dropdown no-sub-menu"><a class="dropdown header_icon_align" href="https://www.tutorialspoint.com/online_dev_tools.htm" ><i class="fa-cog header_icon"></i> Tools</a> </li>
+                     <li class="dropdown no-sub-menu vMenuS"><a class="dropdown header_icon_align" href="javascript:void(0);"><i class="icon-search header_icon"></i> <br>Search</a> </li>--> 
+         <li class="dropdown no-sub-menu"> 
+          <div class="searchform-popup"> 
+           <input class="qa-search-box" type="text" id="txtQuestion" placeholder="Search questions" onfocus="if (this.value == 'Search questions...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search questions...';}" autocomplete="off"> 
+           <i class="fa-search qa-search-icon"></i> 
+           <div class="dropdown header_icon_align magnifying-glass" id="ancSearchQ">
+            <i class="icon-search header_icon"></i> Search 
+           </div> 
+           <div class="search_box" id="divHeaderQuestions"></div> 
+          </div> </li> 
+         <li class="dropdown no-sub-menu vMenuP qa_profile" id="liPMenu"> <a href="https://www.tutorialspoint.com/questions/login.php"><i class="fa-user header_icon"></i> Profile</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <div style="clear:both;"></div> 
+  <div class="alert alert-success" role="alert"> 
+   <i class="fa-close alert-close" title="close"></i> 
+   <span></span> 
+  </div> 
+  <div class="alert alert-danger" role="alert"> 
+   <i class="fa-close alert-close" title="close"></i> 
+   <span></span> 
+  </div> 
+  <div class="alert alert-warning" role="alert"> 
+   <i class="fa-close alert-close" title="close"></i> 
+   <span></span> 
+  </div> 
+  <div class="container"> 
+   <div class="col-md-12"> 
+    <div class="sidenav" id="mySidenav"> 
+     <!-- dropdown menu description --> 
+     <div class="vMenuDesc video_cont"> 
+      <div class="loader_bg" style="display:block!important;"> 
+       <div class="loadmenu_bg"></div> 
+      </div> 
+     </div> 
+     <div class="vMenuDesc library_cont"> 
+      <div class="loader_bg" style="display:block!important;"> 
+       <div class="loadmenu_bg"></div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="clear"></div> 
+   </div> 
+  </div> 
+  <div class="container"> 
+   <div class="col-md-12"> 
+    <div class="sidenav-b" id="mySidenav-b"></div> 
+   </div> 
+  </div> 
+  <div class="container"> 
+   <div class="col-md-12 qa_full_width"> 
+    <!-- center column content --> 
+    <div class=""> 
+     <div class="col-md-8 col3"> 
+      <div id="divIndexQuestions"> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Prabhas" title="Prabhas" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/13554/profile/60_90506-1512543588.jpg" alt="Prabhas"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Prabhas" title="Prabhas" target="_blank"><b>Prabhas</b></a>, 
+           <span class="action">asked 2d 12h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="Z3QzdlREWXFaa2VqSTQza05wOUhYQT09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="Z3QzdlREWXFaa2VqSTQza05wOUhYQT09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="Z3QzdlREWXFaa2VqSTQza05wOUhYQT09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostZ3QzdlREWXFaa2VqSTQza05wOUhYQT09"> 
+           <h1><a href="https://www.tutorialspoint.com/Apply-style-to-the-parent-if-it-has-a-child-with-CSS-and-HTML" target="_blank"> Apply style to the parent if it has a child with CSS and HTML</a></h1> 
+           <div class="qa_catgry" id="tags_Z3QzdlREWXFaa2VqSTQza05wOUhYQT09"> 
+           </div> 
+           <div class="qa_post_desc">
+             Are parent selectors present in CSS? I want to style to parent id it has a child with CSS and HTML. 
+           </div> 
+          </div> 
+          <div id="qeZ3QzdlREWXFaa2VqSTQza05wOUhYQT09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Maheshwari-Thakur-1" title="Maheshwari Thakur" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/13574/profile/60_99671-1512545646.jpg" alt="Maheshwari Thakur"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Maheshwari-Thakur-1" title="Maheshwari Thakur" target="_blank"><b>Maheshwari Thakur</b></a>, 
+           <span class="action">asked 2d 12h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="Sk03Sjh1UDVnSGdnYTgyRFNCcU56Zz09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="Sk03Sjh1UDVnSGdnYTgyRFNCcU56Zz09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="Sk03Sjh1UDVnSGdnYTgyRFNCcU56Zz09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostSk03Sjh1UDVnSGdnYTgyRFNCcU56Zz09"> 
+           <h1><a href="https://www.tutorialspoint.com/Flexbox-and-vertical-scroll-in-a-full-height-app-using-newer-Flexbox-API-with-HTML" target="_blank"> Flexbox and vertical scroll in a full-height app using newer Flexbox API with HTML</a></h1> 
+           <div class="qa_catgry" id="tags_Sk03Sjh1UDVnSGdnYTgyRFNCcU56Zz09"> 
+           </div> 
+           <div class="qa_post_desc">
+             How to set Flexbox and vertical scroll in a full-height app using Flexbox API? What is the usage of the flex property? 
+           </div> 
+          </div> 
+          <div id="qeSk03Sjh1UDVnSGdnYTgyRFNCcU56Zz09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Varun" title="varun" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/13559/profile/60_29674-1512637943.jpg" alt="varun"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Varun" title="varun" target="_blank"><b>varun</b></a>, 
+           <span class="action">asked 2d 12h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="MU9JYkpXamlDU1djeDdOL0IvdlBldz09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="MU9JYkpXamlDU1djeDdOL0IvdlBldz09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="MU9JYkpXamlDU1djeDdOL0IvdlBldz09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostMU9JYkpXamlDU1djeDdOL0IvdlBldz09"> 
+           <h1><a href="https://www.tutorialspoint.com/The-correct-way-to-work-with-HTML5-checkbox" target="_blank"> The correct way to work with HTML5 checkbox</a></h1> 
+           <div class="qa_catgry" id="tags_MU9JYkpXamlDU1djeDdOL0IvdlBldz09"> 
+           </div> 
+           <div class="qa_post_desc">
+             I am working on HTML5 these days. What is the perfect way to work with HTML5 checkbox? I want to set it for: , 
+           </div> 
+          </div> 
+          <div id="qeMU9JYkpXamlDU1djeDdOL0IvdlBldz09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Sai-Subramanyam" title="Sai Subramanyam" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/13512/profile/60_68191-1512710774.jpg" alt="Sai Subramanyam"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Sai-Subramanyam" title="Sai Subramanyam" target="_blank"><b>Sai Subramanyam</b></a>, 
+           <span class="action">asked 2d 12h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="UFpYRjdIK2NHSU4zMkd4ZUlQTFBsQT09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="UFpYRjdIK2NHSU4zMkd4ZUlQTFBsQT09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="UFpYRjdIK2NHSU4zMkd4ZUlQTFBsQT09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostUFpYRjdIK2NHSU4zMkd4ZUlQTFBsQT09"> 
+           <h1><a href="https://www.tutorialspoint.com/Prevent-iPhone-from-zooming-in-web-app-with-HTML" target="_blank"> Prevent iPhone from zooming in web-app with HTML </a></h1> 
+           <div class="qa_catgry" id="tags_UFpYRjdIK2NHSU4zMkd4ZUlQTFBsQT09"> 
+           </div> 
+           <div class="qa_post_desc">
+             How can I prevent iPhone from zooming in on ‘select’ in a web app with HTML? I want to restrict the user from zooming. 
+           </div> 
+          </div> 
+          <div id="qeUFpYRjdIK2NHSU4zMkd4ZUlQTFBsQT09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Ankith-Reddy" title="Ankith Reddy" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/22328/profile/60_142162-1519038074.jpg" alt="Ankith Reddy"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Ankith-Reddy" title="Ankith Reddy" target="_blank"><b>Ankith Reddy</b></a>, 
+           <span class="action">asked 2d 12h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="Wi9DMzZUQzJid2dTNlJkQW80ZHhlZz09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="Wi9DMzZUQzJid2dTNlJkQW80ZHhlZz09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="Wi9DMzZUQzJid2dTNlJkQW80ZHhlZz09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostWi9DMzZUQzJid2dTNlJkQW80ZHhlZz09"> 
+           <h1><a href="https://www.tutorialspoint.com/HTML5-Cross-Browser-iframe-post-message-child-to-parent" target="_blank"> HTML5 Cross Browser iframe post message - child to parent?</a></h1> 
+           <div class="qa_catgry" id="tags_Wi9DMzZUQzJid2dTNlJkQW80ZHhlZz09"> 
+           </div> 
+           <div class="qa_post_desc">
+             I want to apply HTML5 cross-browser iframe post message from child to parent. Which method or property should I use? 
+           </div> 
+          </div> 
+          <div id="qeWi9DMzZUQzJid2dTNlJkQW80ZHhlZz09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Giri-Raju" title="Giri Raju" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/13536/profile/60_72105-1512540773.jpg" alt="Giri Raju"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Giri-Raju" title="Giri Raju" target="_blank"><b>Giri Raju</b></a>, 
+           <span class="action">asked 2d 12h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="MTVKTTZCWk5mbER3bjMzNDdBZHNtQT09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="MTVKTTZCWk5mbER3bjMzNDdBZHNtQT09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="MTVKTTZCWk5mbER3bjMzNDdBZHNtQT09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostMTVKTTZCWk5mbER3bjMzNDdBZHNtQT09"> 
+           <h1><a href="https://www.tutorialspoint.com/HTML-5-versus-XHTML-1-0-Transitional" target="_blank"> HTML 5 versus XHTML 1.0 Transitional</a></h1> 
+           <div class="qa_catgry" id="tags_MTVKTTZCWk5mbER3bjMzNDdBZHNtQT09"> 
+           </div> 
+           <div class="qa_post_desc">
+             I am working on HTML5 and ear to know the difference between HTML5 and XHTML 1.0 Transitional. How can I convert HTML to XHTML? 
+           </div> 
+          </div> 
+          <div id="qeMTVKTTZCWk5mbER3bjMzNDdBZHNtQT09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Monica-Mona" title="Monica Mona" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/13520/profile/60_87298-1512650151.jpg" alt="Monica Mona"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Monica-Mona" title="Monica Mona" target="_blank"><b>Monica Mona</b></a>, 
+           <span class="action">asked 2d 12h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="aVdjTDBiU1BxV1lURGZlZXI4WjdXUT09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="aVdjTDBiU1BxV1lURGZlZXI4WjdXUT09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="aVdjTDBiU1BxV1lURGZlZXI4WjdXUT09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostaVdjTDBiU1BxV1lURGZlZXI4WjdXUT09"> 
+           <h1><a href="https://www.tutorialspoint.com/How-to-make-the-main-content-div-fill-height-of-screen-with-CSS-and-HTML" target="_blank"> How to make the main content div fill height of screen with CSS and HTML</a></h1> 
+           <div class="qa_catgry" id="tags_aVdjTDBiU1BxV1lURGZlZXI4WjdXUT09"> 
+           </div> 
+           <div class="qa_post_desc">
+             Which property should I use in HTML to make the main content div fill height of screen with CSS? I want to set the position of the element to be absolute as well. 
+           </div> 
+          </div> 
+          <div id="qeaVdjTDBiU1BxV1lURGZlZXI4WjdXUT09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Chandu-Yadav-1" title="Chandu yadav" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/22330/profile/60_142811-1519038104.jpg" alt="Chandu yadav"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Chandu-Yadav-1" title="Chandu yadav" target="_blank"><b>Chandu yadav</b></a>, 
+           <span class="action">asked 2d 12h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="RXRkT0lMMzJDR1FDNW9BVS9XakN5QT09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="RXRkT0lMMzJDR1FDNW9BVS9XakN5QT09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="RXRkT0lMMzJDR1FDNW9BVS9XakN5QT09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostRXRkT0lMMzJDR1FDNW9BVS9XakN5QT09"> 
+           <h1><a href="https://www.tutorialspoint.com/Get-pixel-color-from-canvas-with-HTML" target="_blank"> Get pixel color from canvas with HTML</a></h1> 
+           <div class="qa_catgry" id="tags_RXRkT0lMMzJDR1FDNW9BVS9XakN5QT09"> 
+           </div> 
+           <div class="qa_post_desc">
+             I want to get the pixel color from HTML5 canvas. The color should be in rgba format. How can I achieve this? 
+           </div> 
+          </div> 
+          <div id="qeRXRkT0lMMzJDR1FDNW9BVS9XakN5QT09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Mkotla" title="mkotla" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/13540/profile/60_41073-1512640012.jpg" alt="mkotla"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Mkotla" title="mkotla" target="_blank"><b>mkotla</b></a>, 
+           <span class="action">asked 2d 12h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="SFFTQ1dacHJOS1RneFZFZ2NXVTFaZz09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="SFFTQ1dacHJOS1RneFZFZ2NXVTFaZz09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="SFFTQ1dacHJOS1RneFZFZ2NXVTFaZz09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostSFFTQ1dacHJOS1RneFZFZ2NXVTFaZz09"> 
+           <h1><a href="https://www.tutorialspoint.com/Not-showing-a-placeholder-for-input-type-date-field-with-HTML5-How-to-solve-it" target="_blank"> Not showing a placeholder for input type=“date” field with HTML5. How to solve it?</a></h1> 
+           <div class="qa_catgry" id="tags_SFFTQ1dacHJOS1RneFZFZ2NXVTFaZz09"> 
+           </div> 
+           <div class="qa_post_desc">
+             I want to solve an issue I am facing right now as a placeholder. The placeholder for input type=”date” filed with HTML5 is not visible. 
+           </div> 
+          </div> 
+          <div id="qeSFFTQ1dacHJOS1RneFZFZ2NXVTFaZz09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Sharon-Christine" title="Sharon Christine" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/13517/profile/60_82215-1512649681.jpg" alt="Sharon Christine"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Sharon-Christine" title="Sharon Christine" target="_blank"><b>Sharon Christine</b></a>, 
+           <span class="action">asked 2d 13h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="Y0c3bTVEVzFtNS9yREJSaTBwRHZkZz09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="Y0c3bTVEVzFtNS9yREJSaTBwRHZkZz09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="Y0c3bTVEVzFtNS9yREJSaTBwRHZkZz09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostY0c3bTVEVzFtNS9yREJSaTBwRHZkZz09"> 
+           <h1><a href="https://www.tutorialspoint.com/Animating-canvas-to-infinitely-animate-the-noise-to-give-the-appearance-of-movement-in-HTML" target="_blank"> Animating canvas to infinitely animate the noise to give the appearance of movement in HTML</a></h1> 
+           <div class="qa_catgry" id="tags_Y0c3bTVEVzFtNS9yREJSaTBwRHZkZz09"> 
+           </div> 
+           <div class="qa_post_desc">
+             Which method should I use to place the image data onto the canvas? How to animate canvas to infinitely animate the noise? 
+           </div> 
+          </div> 
+          <div id="qeY0c3bTVEVzFtNS9yREJSaTBwRHZkZz09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Ankith-Reddy" title="Ankith Reddy" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/22328/profile/60_142162-1519038074.jpg" alt="Ankith Reddy"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Ankith-Reddy" title="Ankith Reddy" target="_blank"><b>Ankith Reddy</b></a>, 
+           <span class="action">asked 2d 13h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="QVo2aWc0UTZIY2E1M1dxczRaM3lTUT09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="QVo2aWc0UTZIY2E1M1dxczRaM3lTUT09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="QVo2aWc0UTZIY2E1M1dxczRaM3lTUT09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostQVo2aWc0UTZIY2E1M1dxczRaM3lTUT09"> 
+           <h1><a href="https://www.tutorialspoint.com/Place-autofocus-in-the-text-box-when-a-page-gets-loaded-without-JavaScript-support-in-HTML" target="_blank"> Place autofocus in the text box when a page gets loaded without JavaScript support in HTML?</a></h1> 
+           <div class="qa_catgry" id="tags_QVo2aWc0UTZIY2E1M1dxczRaM3lTUT09"> 
+           </div> 
+           <div class="qa_post_desc">
+             I want to place autofocus in the text box. When the page loads without JavaScript, the focus should be in the text box. 
+           </div> 
+          </div> 
+          <div id="qeQVo2aWc0UTZIY2E1M1dxczRaM3lTUT09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Radhakrishna" title="radhakrishna" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/13544/profile/60_40618-1512640354.jpg" alt="radhakrishna"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Radhakrishna" title="radhakrishna" target="_blank"><b>radhakrishna</b></a>, 
+           <span class="action">asked 2d 13h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="bzNXbzV5Z2t4T3BVRTNsYVpMOEtVdz09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="bzNXbzV5Z2t4T3BVRTNsYVpMOEtVdz09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="bzNXbzV5Z2t4T3BVRTNsYVpMOEtVdz09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostbzNXbzV5Z2t4T3BVRTNsYVpMOEtVdz09"> 
+           <h1><a href="https://www.tutorialspoint.com/Style-options-for-the-HTML5-Date-picker" target="_blank"> Style options for the HTML5 Date picker</a></h1> 
+           <div class="qa_catgry" id="tags_bzNXbzV5Z2t4T3BVRTNsYVpMOEtVdz09"> 
+           </div> 
+           <div class="qa_post_desc">
+             What are the style options to be available for HTML5 Date Picker? I want to add spacing and change the color scheme of the date picker. 
+           </div> 
+          </div> 
+          <div id="qebzNXbzV5Z2t4T3BVRTNsYVpMOEtVdz09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Sai-Subramanyam" title="Sai Subramanyam" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/13512/profile/60_68191-1512710774.jpg" alt="Sai Subramanyam"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Sai-Subramanyam" title="Sai Subramanyam" target="_blank"><b>Sai Subramanyam</b></a>, 
+           <span class="action">asked 2d 13h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="SGdHb0R2ZHI5RnpYUGFUbFNSOUkzZz09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="SGdHb0R2ZHI5RnpYUGFUbFNSOUkzZz09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="SGdHb0R2ZHI5RnpYUGFUbFNSOUkzZz09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostSGdHb0R2ZHI5RnpYUGFUbFNSOUkzZz09"> 
+           <h1><a href="https://www.tutorialspoint.com/Is-there-a-way-to-add-remove-several-classes-in-one-single-instruction-with-classList-in-HTML-and-JavaScript" target="_blank"> Is there a way to add/remove several classes in one single instruction with classList in HTML and JavaScript?</a></h1> 
+           <div class="qa_catgry" id="tags_SGdHb0R2ZHI5RnpYUGFUbFNSOUkzZz09"> 
+           </div> 
+           <div class="qa_post_desc">
+             How should I add or remove more than one classes in a single instruction with classList in HTML and JavaScript? Which methods should be used? 
+           </div> 
+          </div> 
+          <div id="qeSGdHb0R2ZHI5RnpYUGFUbFNSOUkzZz09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Vanithasree" title="vanithasree" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/13547/profile/60_85216-1512542720.jpg" alt="vanithasree"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Vanithasree" title="vanithasree" target="_blank"><b>vanithasree</b></a>, 
+           <span class="action">asked 2d 13h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="dmw1UkpFUlk4K2QzWHczTDRmZ2NRUT09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="dmw1UkpFUlk4K2QzWHczTDRmZ2NRUT09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="dmw1UkpFUlk4K2QzWHczTDRmZ2NRUT09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostdmw1UkpFUlk4K2QzWHczTDRmZ2NRUT09"> 
+           <h1><a href="https://www.tutorialspoint.com/Change-colour-of-an-image-drawn-on-an-HTML5-canvas-element" target="_blank"> Change colour of an image drawn on an HTML5 canvas element.</a></h1> 
+           <div class="qa_catgry" id="tags_dmw1UkpFUlk4K2QzWHczTDRmZ2NRUT09"> 
+           </div> 
+           <div class="qa_post_desc">
+             I want to change the color of an image that is drawn on an HTML5 canvas element. Which method is to be used for this? 
+           </div> 
+          </div> 
+          <div id="qedmw1UkpFUlk4K2QzWHczTDRmZ2NRUT09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="clsQuestionSection"> 
+        <div class=""> 
+         <div class="qa_widget qa_widget_popup"> 
+          <div class="user-profile-img"> 
+           <a href="https://www.tutorialspoint.com/questions/Maheshwari-Thakur-1" title="Maheshwari Thakur" target="_blank"><img src="https://www.tutorialspoint.com/assets/profiles/13574/profile/60_99671-1512545646.jpg" alt="Maheshwari Thakur"></a> 
+          </div> 
+          <div class="auth_profile"> 
+           <a href="https://www.tutorialspoint.com/questions/Maheshwari-Thakur-1" title="Maheshwari Thakur" target="_blank"><b>Maheshwari Thakur</b></a>, 
+           <span class="action">asked 2d 13h ago</span> 
+           <div class="qa_links"> 
+            <button type="button" class="clsFollowQuestion  btn btn-info btn-lg " title="0  Follower, Follow Question" data-qid="T2MvckE4SjRVeWpLcTJ1bndEb1oxZz09"><i class="fa-plus"></i>&nbsp;&nbsp;Follow</button> 
+            <button type="button" class="clsQuestionAns btn btn-info btn-lg " data-qid="T2MvckE4SjRVeWpLcTJ1bndEb1oxZz09"><i class="fa-pencil"></i> Answer</button> 
+            <button type="button" class="dropdown-toggle btn btn-info btn-lg edit-top-butn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="fa-caret-down"></i></button> 
+            <ul class="dropdown-menu arrow_box"> 
+             <li><a href="javascript:void(0);" class="ancEditQuestion" data-qid="T2MvckE4SjRVeWpLcTJ1bndEb1oxZz09"><i class="fa-pencil"></i> Edit Question</a></li> 
+            </ul> 
+           </div> 
+           <div class="clear"></div> 
+          </div> 
+          <div class="qa_post" id="qpostT2MvckE4SjRVeWpLcTJ1bndEb1oxZz09"> 
+           <h1><a href="https://www.tutorialspoint.com/HTML5-Canvas-and-z-index-issue-in-Google-Chrome" target="_blank"> HTML5 Canvas &amp; z-index issue in Google Chrome</a></h1> 
+           <div class="qa_catgry" id="tags_T2MvckE4SjRVeWpLcTJ1bndEb1oxZz09"> 
+           </div> 
+           <div class="qa_post_desc">
+             How to solve the HTML5 Canvas and z-index issue in Google Chrome web browser? 
+           </div> 
+          </div> 
+          <div id="qeT2MvckE4SjRVeWpLcTJ1bndEb1oxZz09"></div> 
+          <div class="clear"></div> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="job-index qa_widget" style="padding:0px 10px 0px 10px!important; margin:0px!important;"> 
+        <div class="pages"> 
+         <a title="Go to page 1 of 455" class="current number" href="https://www.tutorialspoint.com/questions/1">1</a> 
+         <a class="number" title="Go to page 2 of 455" href="https://www.tutorialspoint.com/questions/2">2</a> 
+         <a class="number" title="Go to page 3 of 455" href="https://www.tutorialspoint.com/questions/3">3</a> 
+         <a class="number" title="Go to page 4 of 455" href="https://www.tutorialspoint.com/questions/4">4</a> 
+         <a class="number" title="Go to page 5 of 455" href="https://www.tutorialspoint.com/questions/5">5</a> 
+         <a class="number" title="Go to page 6 of 455" href="https://www.tutorialspoint.com/questions/6">6</a> 
+         <a class="number" title="Go to page 7 of 455" href="https://www.tutorialspoint.com/questions/7">7</a> ... 
+         <a class="number" title="Go to page 455 of 455" href="https://www.tutorialspoint.com/questions/455">455</a> 
+         <a href="https://www.tutorialspoint.com/questions/2" title="Next Page">Next <i class="fa-arrow-right"></i></a> 
+        </div> 
+       </div> 
+       <div class="clear"></div> 
+       <div class="bottomgooglead qa_widget align-center"> 
+        <div class="bottomadtag">
+         Advertisements
+        </div> 
+        <script type="text/javascript"><!--
+                           var width = 580;
+                           var height = 400;
+                           var format = "580x400_as";
+                           if( window.innerWidth < 468 ){
+                               width = 300;
+                               height = 250;
+                               format = "300x250_as";
+                            }
+                            google_ad_client = "pub-7133395778201029";
+                            google_ad_width = width;
+                            google_ad_height = height;
+                            google_ad_format = format;
+                            google_ad_type = "image";
+                            google_ad_channel ="";
+                                 //-->
+                  </script> 
+        <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js"></script> 
+       </div> 
+      </div> 
+      <div class="loader_bg" id="divLoader"> 
+       <img src="https://www.tutorialspoint.com/images/questions/loader.gif" width="80" alt="Loading..."> 
+      </div> 
+     </div> 
+    </div> 
+    <!-- end of center column content --> 
+    <div class="col-md-4 col3 fixed"> 
+     <!-- right column content --> 
+     <div id=""> 
+      <div class="right" style="text-align:center;"> 
+       <button id="btnAskQuestion" class="qa_pop_save_btn" style="font-weight:bold;"><i class="fa-question-circle"></i> Ask Question</button> 
+      </div> 
+      <div id="divRightMenu"> 
+      </div> 
+      <div class="clear"></div> 
+      <div class="left_nav_header left_top_margin">
+       <i class="fa-briefcase"></i> Unanswered Questions 
+       <a href="https://www.tutorialspoint.com/questions/unanswered.php" class="qa_pop_btn qa_pop_save"><i class="fa-plus"></i> View All</a> 
+      </div> 
+      <div id="divLatestQuestions"></div> 
+      <!-- right column adds --> 
+      <div class="qa_adds"> 
+       <div class="google-ad" style="position:relative; left:20px;">
+        Advertisements
+       </div> 
+       <div class="rightgooglead"> 
+        <script type="text/javascript"><!--
+            google_ad_client = "pub-7133395778201029";
+            google_ad_width = 300;
+            google_ad_height = 250;
+            google_ad_format = "300x250_as";
+            google_ad_type = "image";
+            google_ad_channel ="";
+         //--></script> 
+        <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+         </script> 
+       </div> 
+       <div class="rightgooglead extra"> 
+        <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-2537027957187252";
+            google_ad_width = 300;
+            google_ad_height = 600;
+            google_ad_format = "300x600_as";
+            google_ad_type = "image";
+            google_ad_channel ="";
+            //--></script> 
+        <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+         </script> 
+       </div> 
+       <div class="rightgooglead extra"> 
+        <script type="text/javascript"><!--
+            google_ad_client = "ca-pub-2537027957187252";
+            /* Right Side Ad */
+            google_ad_slot = "right_side_ad";
+            google_ad_width = 300;
+            google_ad_height = 250;
+            //-->
+         </script> 
+        <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+         </script> 
+       </div> 
+      </div> 
+      <!-- end of right column adds --> 
+     </div> 
+     <script>
+    $(document).ready(function () {
+    getRightMenu();
+    function getRightMenu(){
+         $.ajax({
+                    url: baseurl + "/ajax/ajaxGetRightMenu.php",
+                    method: "POST",
+                    success: function (data) {
+                        $('#divRightMenu').html(data);
+                    }
+                });
+    }
+            getLatestQuestions();
+            function getLatestQuestions() {
+                $.ajax({
+                    url: baseurl + "/ajax/ajaxGetLatestQuestions.php",
+                    method: "POST",
+                    success: function (data) {
+                        $('#divLatestQuestions').html(data);
+                    }
+                });
+            }
+        });</script> 
+    </div> 
+    <!-- end of right column content --> 
+   </div> 
+  </div>  
+  <!-- End of Body Content --> 
+  <!-- Froala Editor Installization --> 
+  <link href="https://www.tutorialspoint.com/questions/css/froala_editor.pkd.min.css" rel="stylesheet" type="text/css"> 
+  <link href="https://www.tutorialspoint.com/questions/css/froala_style.min.css" rel="stylesheet" type="text/css"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/questions/js/froala_editor.pkgd.min.js"></script> 
+  <!----> 
+  <div class="footer-copyright"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-1 foot_all"> 
+      <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+     </div> 
+     <div class="col-md-4 col-sm-12 col-xs-12 foot_all"> 
+      <nav id="sub-menu"> 
+       <ul> 
+        <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+        <li><a href="/about/faq.htm">FAQ's</a></li> 
+        <li><a href="/about/about_helping.htm">Helping</a></li> 
+        <li><a href="/about/contact_us.htm">Contact</a></li> 
+       </ul> 
+      </nav> 
+     </div> 
+     <div class="col-md-3 col-sm-12 col-xs-12 foot_all"> 
+      <p>© Copyright 2017. All Rights Reserved.</p> 
+     </div> 
+     <div class="col-md-4 col-sm-12 col-xs-12" style="text-align:right;"> 
+      <div class="news-group"> 
+       <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {
+                this.value = '';
+            }" onblur="if (this.value == '') {
+                        this.value = 'Enter email for newsletter...';
+                    }"> 
+       <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+       <div id="newsresponse"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="qa-feed_form qa-feed_btm" id="divFeedBox"></div> 
+  <!--<button class="qa_feed" id="btnFeedBox"><i class="fa-commenting-o"></i></button>--> 
+  <button onclick="topFunction()" id="myBtn" title="Go to top" style="display: block;"><i class="fa-angle-up"></i></button> 
+  <div id="myQuestionModal" class="modal fade" data-backdrop="static"> 
+   <div class="modal-dialog modal-dialog-sub"> 
+    <!-- Modal content--> 
+    <div class="modal-content"> 
+     <button id="btnModalClose" type="button" class="close" data-dismiss="modal" title="Close"><i class="fa-close"></i></button> 
+     <div class="loader_bg" id="modal_loader"> 
+      <img src="https://www.tutorialspoint.com/images/questions/loader.gif" width="80" alt="loader"> 
+     </div> 
+     <div class="modal-body"> 
+     </div> 
+     <div class="clear"></div> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="popupDiv" class="overlay"> 
+   <div class="popup"> 
+    <div id="popupDivContent"></div> 
+    <div class="clear"></div> 
+   </div> 
+  </div> 
+  <div id="imagepopupDiv" class="imageoverlay"> 
+   <div class="imagepopup"> 
+    <div class="imginndiv fade-in one">
+     <a class="imageclose" href="javascript:void(0);" id="imagepopupClose" title="close"><i class="fa-close"></i> </a>
+    </div> 
+    <div id="imagepopupDivContent"></div> 
+   </div> 
+  </div> 
+  <script src="https://www.tutorialspoint.com/theme/js/questions/responsive.js"></script> 
+  <script src="https://www.tutorialspoint.com/theme/js/questions/progressively.js"></script> 
+  <script src="https://www.tutorialspoint.com/theme/js/questions/qa_footer.js"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.greyout').click(function(){
+   $('.wrapLoader').show();
+});
+</script>   
+ </body>
+</html>

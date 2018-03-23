@@ -14,16 +14,18 @@ import java.util.concurrent.ExecutorService;
 public class Resources implements Serializable{
     static Queue<Pair<String,String>> linkQueue=new LinkedList<>();
 
+
+
     //A set for storing the UUID of already visited URLs to avoid visiting them again
     static Set<String> visitedLinks=new TreeSet<>();
 
-    static ArrayList<String>downloaded=new ArrayList<>();
+ //   static ArrayList<String>downloaded=new ArrayList<>();
 
     public static ConcurrentHashMap<String,Set<String>> inLinks=new ConcurrentHashMap<>();
 
     public static ConcurrentHashMap<String,String> simHash=new ConcurrentHashMap<>();
 
-    public static ArrayList<FileInfo>scheduledDownloads=new ArrayList<>();
+  //  public static ArrayList<FileInfo>scheduledDownloads=new ArrayList<>();
 
     public static ArrayList<String>noRevisit=new ArrayList<>();
 
@@ -31,15 +33,17 @@ public class Resources implements Serializable{
 
     static int pageCount=0;
 
-    public static synchronized void addDownloaded(String hashLink)
-    {
-        downloaded.add(hashLink);
-    }
+    static Queue<String>linkQueue2=new LinkedList<>();
 
-    public static synchronized boolean isDownloaded(String hashLink)
-    {
-        return downloaded.contains(hashLink);
-    }
+   // public static synchronized void addDownloaded(String hashLink)
+//    {
+//        downloaded.add(hashLink);
+//    }
+
+  //  public static synchronized boolean isDownloaded(String hashLink)
+//    {
+//        return downloaded.contains(hashLink);
+//    }
     public static synchronized boolean isQueueEmpty()
     {
 
@@ -67,6 +71,32 @@ public class Resources implements Serializable{
         return front;
     }
 
+    public static synchronized boolean isQueueEmpty2()
+    {
+
+        return linkQueue2.isEmpty();
+
+    }
+
+    public static synchronized void addLinkToQueue2(String url)
+
+    {
+
+        linkQueue2.add(url);
+    }
+
+    public static synchronized String getLink2()
+    {
+        String front=null;
+        if(!linkQueue2.isEmpty())
+        {
+            front = linkQueue2.poll();
+
+
+
+        }
+        return front;
+    }
     public static synchronized void updateVisited(String uuid)
     {
          visitedLinks.add(uuid);
@@ -117,12 +147,12 @@ public class Resources implements Serializable{
 
        try {
            os.writeObject(new Integer(pageCount));
-           os.writeObject(linkQueue);
+           os.writeObject(linkQueue2);
            os.writeObject(visitedLinks);
-           os.writeObject(scheduledDownloads);
+           //os.writeObject(scheduledDownloads);
            os.writeObject(inLinks);
            os.writeObject(simHash);
-           os.writeObject(downloaded);
+         //  os.writeObject(downloaded);
            os.writeObject(noRevisit);
         //   os.writeObject(robotRead);
        } catch (IOException e) {
@@ -136,12 +166,13 @@ public class Resources implements Serializable{
         try {
             try {
                 pageCount=((Integer) is.readObject()).intValue();
-                linkQueue=(Queue<Pair<String,String>> )is.readObject();
+                //linkQueue=(Queue<Pair<String,String>> )is.readObject();
+                linkQueue2=(Queue<String>)is.readObject();
                 visitedLinks=(Set<String>)is.readObject();
-                scheduledDownloads=(ArrayList<FileInfo>)is.readObject();
+              //  scheduledDownloads=(ArrayList<FileInfo>)is.readObject();
                 inLinks=(ConcurrentHashMap<String,Set<String>>)is.readObject();
                 simHash=(ConcurrentHashMap<String,String>)is.readObject();
-                downloaded=(ArrayList<String>)is.readObject();
+              //  downloaded=(ArrayList<String>)is.readObject();
                 noRevisit=(ArrayList<String>)is.readObject();
            //     robotRead=(ConcurrentHashMap<String,ArrayList<String>>)is.readObject();
             } catch (ClassNotFoundException e) {
@@ -154,9 +185,9 @@ public class Resources implements Serializable{
     }
 
 
-    public synchronized static void addFileObject(FileInfo fileInfo) {
-        scheduledDownloads.add(fileInfo);
-    }
+   // public synchronized static void addFileObject(FileInfo fileInfo) {
+//        scheduledDownloads.add(fileInfo);
+//    }
 
     public synchronized static void decrementCount() {
         pageCount--;

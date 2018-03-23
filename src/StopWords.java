@@ -8,7 +8,7 @@ import java.util.ArrayList;
 
 public class StopWords {
     private String result;
-    private final String INPUT_FILE="/Users/macbookpro/Desktop/ThirdYearCMP/SecondTerm/APT/src/stop.txt";
+    private final String INPUT_FILE=System.getProperty("user.dir")+"stop.txt";
     ArrayList<String>words ;
 
     //constructor to make some initialization

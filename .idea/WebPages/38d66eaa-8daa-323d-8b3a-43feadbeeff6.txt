@@ -1,0 +1,963 @@
+https://stackoverflow.com/tags
+<!doctype html>
+<html>
+ <head> 
+  <title>Tags - Stack Overflow</title> 
+  <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d"> 
+  <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a"> 
+  <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:url" content="https://stackoverflow.com/tags"> 
+  <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:domain" content="stackoverflow.com"> 
+  <meta name="twitter:title" property="og:title" itemprop="title name" content="Tags"> 
+  <meta name="twitter:description" property="og:description" itemprop="description" content="Stack Overflow | The World’s Largest Online Community for Developers"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+  <script src="https://cdn.sstatic.net/Js/stub.en.js?v=57e020fde11a"></script> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=596945d5421b"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=94cd993a63cf"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=13dc725d5020"> 
+  <meta name="robots" content="noindex"> 
+  <script>
+        StackExchange.init({"locale":"en","serverTime":1521843107,"routeName":"Tags/List","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"childUrl":"https://meta.stackoverflow.com","enableSocialMediaInSharePopup":true,"protocol":"https"},"timingsGuid":"fbe0692c-c20c-4e20-be13-ca3e68b605ee","timingsInfo":"xrK/KZF14OTOorvJ9Ud+wcvicEObogKCKJc23gAfiS4Iz7rTLPzaJEjT0oNIO08lZgpjwdaWNz2+JnB8vftcwfcws6EVib5sDY7nPDzmR2hKdzQUu1my2a0PxY4ZB1QSFwdVJPbn2gfYE9J6q/JloxpOe3zE5pQGYCeK8tUgWJTSLN4YnkUO5aFidGGjAcgWW+2SRNF6DEmcDnviElqxrg==","user":{"fkey":"d16a35da63103e8b1162221b85b5952621651c541085caea15d1785affbc32a4","tid":"5f2ad6a7-b3bd-c385-2d80-1ff5b4f4d704","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4}}, {"site":{"allowImageUploads":true,"commentHighlightingWithCSS":true,"enableUserHovercards":true,"styleCode":true,"enableImgurHttps":true,"forceHttpsImages":true},"userMessaging":{},"comments":{},"userProfile":{"openGraphAPIKey":"58740831ad23540e00c58987"},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"paths":{},"markdown":{"asteriskIntraWordEmphasis":true},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad"},"subscriptions":{}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"fd71fcd78b2c","js/moderator.en.js":"d350b664ddb3","js/full-anon.en.js":"81c19a49c169","js/full.en.js":"6d6c19847a8b","js/wmd.en.js":"a349c871bd62","js/third-party/jquery.autocomplete.min.js":"bdb258e949a8","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"4804a16f7074","js/help.en.js":"a1c2d4ed1321","js/tageditor.en.js":"bff66e3469d5","js/tageditornew.en.js":"586ffe22ab58","js/inline-tag-editing.en.js":"e7aa31e8eba1","js/revisions.en.js":"8f22ba768cac","js/review.en.js":"5eda79317cf4","js/tagsuggestions.en.js":"78eee7c19ab2","js/post-validation.en.js":"ec745f184617","js/explore-qlist.en.js":"66e52888786d","js/events.en.js":"8f07ed802b6b","js/keyboard-shortcuts.en.js":"8588a17139dd","js/external-editor.en.js":"3c50622b803d","js/adops.en.js":"22a9bd59b1e9","js/external-editor.en.js":"3c50622b803d","js/snippet-javascript.en.js":"6596eb95a324","js/snippet-javascript-codemirror.en.js":"6e1735fcf180"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script> 
+  <noscript id="noscript-css">
+   <style>body,.top-bar{margin-top:1.9em}</style>
+  </noscript> 
+ </head> 
+ <body class="tags-page new-topbar"> 
+  <script async src="https://js-sec.indexww.com/ht/p/185901-159836282584097.js"></script> 
+  <div id="notify-container"></div> 
+  <div id="custom-header"></div> 
+  <header class="top-bar js-top-bar _fixed"> 
+   <div class="-container"> 
+    <div class="-main"> 
+     <a href="https://stackoverflow.com" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:24, destination:8})"> <span class="-img">Stack Overflow</span> </a> 
+     <nav class="navigation" role="navigation" aria-label="site navigation"> 
+      <ol class="-list"> 
+       <li class="-item"> <a id="nav-questions" href="/questions" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:24, destination:1})">Questions</a> </li> 
+       <li class="-item"> <a id="nav-jobs" href="/jobs?med=site-ui&amp;ref=jobs-tab" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:24, destination:6})">Developer Jobs</a> </li> 
+       <li class="-item _current"> <a id="nav-tags" href="/tags" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:true, location:24, destination:2})">Tags</a> </li> 
+       <li class="-item"> <a id="nav-users" href="/users" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:24, destination:3})">Users</a> </li> 
+      </ol> 
+     </nav> 
+    </div> 
+    <form id="search" action="/search" method="get" class="searchbar" autocomplete="off" role="search"> 
+     <input name="q" type="text" placeholder="Search…" value="" tabindex="1" autocomplete="off" maxlength="240" class="f-input js-search-field"> 
+     <button type="submit" aria-label="Search..." class="btn-topbar-primary js-search-submit">
+      <svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewbox="0 0 18 18">
+       <path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z" />
+      </svg></button> 
+    </form> 
+    <div class="-actions"> 
+     <nav class="secondary-nav"> 
+      <div class="-dialog-container js-topbar-dialog-corral"> 
+       <div class="topbar-dialog siteSwitcher-dialog dno"> 
+        <div class="header"> 
+         <h3><a href="https://stackoverflow.com">current community</a> </h3> 
+        </div> 
+        <div class="modal-content current-site-container"> 
+         <ul class="current-site"> 
+          <li> 
+           <div class="related-links"> 
+            <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:14 })">help</a> 
+            <a href="https://chat.stackoverflow.com" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a> 
+           </div> <a href="https://stackoverflow.com" class="current-site-link site-link js-gps-track" data-id="1" data-gps-track="site_switcher.click({ item_type:3 })"> 
+            <div class="favicon favicon-stackoverflow site-icon" title="Stack Overflow"></div> Stack Overflow </a> </li> 
+          <li class="related-site"> 
+           <div class="L-shaped-icon-container"> 
+            <span class="L-shaped-icon"></span> 
+           </div> <a href="https://meta.stackoverflow.com" class="site-link js-gps-track" data-id="552" data-gps-track="site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })"> 
+            <div class="favicon favicon-stackoverflowmeta site-icon" title="Meta Stack Overflow"></div> Meta Stack Overflow </a> </li> 
+         </ul> 
+        </div> 
+        <div class="header" id="your-communities-header"> 
+         <h3> your communities </h3> 
+        </div> 
+        <div class="modal-content" id="your-communities-section"> 
+         <div class="call-to-login"> 
+          <a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or 
+          <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2ftags" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list. 
+         </div> 
+        </div> 
+        <div class="header"> 
+         <h3><a href="https://stackexchange.com/sites">more stack exchange communities</a> </h3> 
+         <a href="https://stackoverflow.blog" class="fr">company blog</a> 
+        </div> 
+        <div class="modal-content"> 
+         <div class="child-content"></div> 
+        </div> 
+       </div> 
+       <div class="topbar-dialog help-dialog js-help-dialog dno"> 
+        <div class="modal-content"> 
+         <ul> 
+          <li> <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })"> Tour <span class="item-summary"> Start here for a quick overview of the site </span> </a> </li> 
+          <li> <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })"> Help Center <span class="item-summary"> Detailed answers to any questions you might have </span> </a> </li> 
+          <li> <a href="https://meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })"> Meta <span class="item-summary"> Discuss the workings and policies of this site </span> </a> </li> 
+          <li> <a href="https://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })"> About Us <span class="item-summary"> Learn more about Stack Overflow the company </span> </a> </li> 
+          <li> <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })"> Business <span class="item-summary"> Learn more about hiring developers or posting ads with us </span> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+      <ol class="-list"> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages"> 
+         <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewbox="0 0 20 18">
+          <path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z" />
+         </svg> <span class="indicator-badge js-unread-count _important" style="display: none;"></span> </a> </li> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive"> 
+         <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z" />
+         </svg> <span class="indicator-badge js-unread-count _positive" style="display: none;"></span> </a> </li> 
+       <li class="-item"><a href="#" class="-link js-help-button" title="Help Center and other resources"> 
+         <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z" />
+         </svg> </a></li> 
+       <li class="-item"> <a href="https://stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 172 Stack Exchange sites"> 
+         <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z" />
+         </svg> </a> </li> 
+      </ol> 
+     </nav> 
+     <div class="-ctas"> 
+      <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2ftags" class="login-link btn-clear" rel="nofollow">Log In</a> 
+      <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link btn-topbar-primary" rel="nofollow" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]">Sign Up</a> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+        StackExchange.scrollPadding.setPaddingTop(60, 10);     </script> 
+  <div id="announcement-banner" data-campaign="2018-03-13.dev-survey-2018" data-cookie="notice-dsr" data-expire-date="1524211200000"> 
+   <div class="-container"> 
+    <span class="-body">The results are in!</span> 
+    <a class="-link js-link js-gps-track" href="https://insights.stackoverflow.com/survey/2018/" data-ga="[&quot;dev-survey-2018&quot;,&quot;Announcement Banner&quot;,&quot;https://insights.stackoverflow.com/survey/2018/&quot;,null,{&quot;dimension4&quot;:&quot;dev-survey-2018&quot;}]" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 24, action: 2})">See the 2018 Developer Survey results. »</a> 
+    <a class="-dismiss js-dismiss js-gps-track" href="#" title="dismiss" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 24, action: 1})">
+     <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewbox="0 0 18 18">
+      <path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z" />
+     </svg></a> 
+   </div> 
+  </div> 
+  <script>
+    StackExchange.ready(function () {
+        var $banner = $('#announcement-banner');
+
+        function setCookie(value) {
+            $.cookie($banner.data('cookie'), value, {
+                expires: (new Date($banner.data('expire-date'))),
+                path: '/'
+            });
+        }
+
+        $banner.find('.js-link').click(function () {
+            setCookie('2;' + Date.now());
+        });
+
+        $banner.find('.js-dismiss').click(function () {
+            setCookie('4;' + Date.now());
+            $banner.animate({ height: '0', opacity: 0 }, 'fast', 'linear', function () { $banner.remove(); });
+            return false;
+        });
+    });
+</script> 
+  <div class="container"> 
+   <div id="content" class="snippet-hidden"> 
+    <div id="mainbar-full"> 
+     <div class="subheader"> 
+      <h1 id="h-tags">Tags</h1> 
+      <div id="tabs"> 
+       <a class="youarehere " href="/tags?tab=popular" data-nav-xhref="" title="most popular tags" data-value="popular" data-shortcut=""> popular</a> 
+       <a href="/tags?tab=name" data-nav-xhref="" title="tags in alphabetical order" data-value="name" data-shortcut=""> name</a> 
+       <a href="/tags?tab=new" data-nav-xhref="" title="recently created tags" data-value="new" data-shortcut=""> new</a> 
+      </div> 
+     </div> 
+     <div class="page-description"> 
+      <p>A tag is a keyword or label that categorizes your question with other, similar questions. Using the right tags makes it easier for others to find and answer your question.</p> 
+      <p><input id="tagfilter" class="f-input s-filter-input" autocomplete="off" name="tagfilter" type="text" maxlength="35" placeholder="Filter by tag name" autofocus></p> 
+     </div> 
+     <div id="tags_list"> 
+      <div id="tags-browser" class="grid-layout"> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged 'javascript'" rel="tag">javascript</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">1585133</span></span> 
+        <div class="excerpt">
+         JavaScript (not to be confused with Java) is a high-level, dynamic, multi-paradigm, weakly-typed language used for both client-side and server-side scripting. Use this tag for questions regarding ECMA…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/javascript?sort=newest&amp;days=1" title="854 questions tagged javascript in the last 24 hours">854 asked today</a>, 
+          <a href="/questions/tagged/javascript?sort=newest&amp;days=7" title="5747 questions tagged javascript in the last 7 days">5747 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">1391977</span></span> 
+        <div class="excerpt">
+         Java (not to be confused with JavaScript or JScript or JS) is a general-purpose object-oriented programming language designed to be used in conjunction with the Java Virtual Machine (JVM). "Java platf…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/java?sort=newest&amp;days=1" title="746 questions tagged java in the last 24 hours">746 asked today</a>, 
+          <a href="/questions/tagged/java?sort=newest&amp;days=7" title="4467 questions tagged java in the last 7 days">4467 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged 'c#'" rel="tag">c#</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">1192974</span></span> 
+        <div class="excerpt">
+         a high level, object-oriented programming language that is designed for building a variety of applications that run on the .NET Framework (or .NET Core). C# is simple, pow…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/c%23?sort=newest&amp;days=1" title="472 questions tagged c# in the last 24 hours">472 asked today</a>, 
+          <a href="/questions/tagged/c%23?sort=newest&amp;days=7" title="3061 questions tagged c# in the last 7 days">3061 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/php" class="post-tag" title="show questions tagged 'php'" rel="tag">php</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">1181434</span></span> 
+        <div class="excerpt">
+         a widely used, high-level, dynamic, object-oriented and interpreted scripting language primarily designed for server-side web development.
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/php?sort=newest&amp;days=1" title="513 questions tagged php in the last 24 hours">513 asked today</a>, 
+          <a href="/questions/tagged/php?sort=newest&amp;days=7" title="3292 questions tagged php in the last 7 days">3292 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="//i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">1086707</span></span> 
+        <div class="excerpt">
+         Google's mobile operating system, used for programming or developing digital devices (Smartphones, Tablets, Automobiles, TVs, Wear, Glass, IoT). For topics related to Android, use Android-s…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/android?sort=newest&amp;days=1" title="543 questions tagged android in the last 24 hours">543 asked today</a>, 
+          <a href="/questions/tagged/android?sort=newest&amp;days=7" title="3393 questions tagged android in the last 7 days">3393 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">922845</span></span> 
+        <div class="excerpt">
+         a dynamic and strongly typed programming language designed to emphasize usability. Two similar but mostly incompatible versions of Python are in widespread use (2 and 3). If you have a versi…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/python?sort=newest&amp;days=1" title="864 questions tagged python in the last 24 hours">864 asked today</a>, 
+          <a href="/questions/tagged/python?sort=newest&amp;days=7" title="5511 questions tagged python in the last 7 days">5511 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/jquery" class="post-tag" title="show questions tagged 'jquery'" rel="tag">jquery</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">903384</span></span> 
+        <div class="excerpt">
+         a popular cross-browser JavaScript library that facilitates Document Object Model (DOM) traversal, event handling, animations, and AJAX interactions by minimizing the discrepancies across br…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/jquery?sort=newest&amp;days=1" title="259 questions tagged jquery in the last 24 hours">259 asked today</a>, 
+          <a href="/questions/tagged/jquery?sort=newest&amp;days=7" title="1718 questions tagged jquery in the last 7 days">1718 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/html" class="post-tag" title="show questions tagged 'html'" rel="tag">html</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">736748</span></span> 
+        <div class="excerpt">
+         the standard markup language used for structuring web pages and formatting content. HTML describes the structure of a website semantically along with cues for pres…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/html?sort=newest&amp;days=1" title="349 questions tagged html in the last 24 hours">349 asked today</a>, 
+          <a href="/questions/tagged/html?sort=newest&amp;days=7" title="2391 questions tagged html in the last 7 days">2391 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/c%2b%2b" class="post-tag" title="show questions tagged 'c++'" rel="tag">c++</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">562134</span></span> 
+        <div class="excerpt">
+         a general-purpose programming language. It was originally designed as an extension to C, and keeps a similar syntax, but is now a completely different language. Use this tag for questions about…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/c%2b%2b?sort=newest&amp;days=1" title="228 questions tagged c++ in the last 24 hours">228 asked today</a>, 
+          <a href="/questions/tagged/c%2b%2b?sort=newest&amp;days=7" title="1608 questions tagged c++ in the last 7 days">1608 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/ios" class="post-tag" title="show questions tagged 'ios'" rel="tag">ios</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">556395</span></span> 
+        <div class="excerpt">
+         the mobile operating system running on the Apple iPhone, iPod touch, and iPad. Use this tag [ios] for questions related to programming on the iOS platform. Use the related tags [objective-c] an…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/ios?sort=newest&amp;days=1" title="239 questions tagged ios in the last 24 hours">239 asked today</a>, 
+          <a href="/questions/tagged/ios?sort=newest&amp;days=7" title="1428 questions tagged ios in the last 7 days">1428 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/css" class="post-tag" title="show questions tagged 'css'" rel="tag">css</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">527087</span></span> 
+        <div class="excerpt">
+         a representation style sheet language used for describing the look and formatting of HTML (Hyper Text Markup Language), XML (Extensible Markup Language) documents and S…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/css?sort=newest&amp;days=1" title="227 questions tagged css in the last 24 hours">227 asked today</a>, 
+          <a href="/questions/tagged/css?sort=newest&amp;days=7" title="1567 questions tagged css in the last 7 days">1567 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/mysql" class="post-tag" title="show questions tagged 'mysql'" rel="tag">mysql</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">511420</span></span> 
+        <div class="excerpt">
+         a free, open source Relational Database Management System (RDBMS) that uses Structured Query Language (SQL). DO NOT USE this tag for other DBs such as SQL Server, SQLite etc. These are diff…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/mysql?sort=newest&amp;days=1" title="213 questions tagged mysql in the last 24 hours">213 asked today</a>, 
+          <a href="/questions/tagged/mysql?sort=newest&amp;days=7" title="1442 questions tagged mysql in the last 7 days">1442 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">432557</span></span> 
+        <div class="excerpt">
+         a language for querying databases. Questions should include code examples, table structure, sample data, and a tag for the DBMS implementation (e.g. MySQL, PostgreSQ…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/sql?sort=newest&amp;days=1" title="219 questions tagged sql in the last 24 hours">219 asked today</a>, 
+          <a href="/questions/tagged/sql?sort=newest&amp;days=7" title="1350 questions tagged sql in the last 7 days">1350 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/asp.net" class="post-tag" title="show questions tagged 'asp.net'" rel="tag">asp.net</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">331373</span></span> 
+        <div class="excerpt">
+         a Microsoft web application development framework that allows programmers to build dynamic web sites, web applications and web services. It is useful to use this tag in conjunction with the…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/asp.net?sort=newest&amp;days=1" title="75 questions tagged asp.net in the last 24 hours">75 asked today</a>, 
+          <a href="/questions/tagged/asp.net?sort=newest&amp;days=7" title="510 questions tagged asp.net in the last 7 days">510 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/ruby-on-rails" class="post-tag" title="show questions tagged 'ruby-on-rails'" rel="tag">ruby-on-rails</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">289666</span></span> 
+        <div class="excerpt">
+         an open source full-stack web application framework written in Ruby. It follows the popular MVC framework model and is known for its "convention over configuration" approach to applic…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/ruby-on-rails?sort=newest&amp;days=1" title="70 questions tagged ruby-on-rails in the last 24 hours">70 asked today</a>, 
+          <a href="/questions/tagged/ruby-on-rails?sort=newest&amp;days=7" title="493 questions tagged ruby-on-rails in the last 7 days">493 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/objective-c" class="post-tag" title="show questions tagged 'objective-c'" rel="tag">objective-c</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">283281</span></span> 
+        <div class="excerpt">
+         should be used only on questions that are about Objective-C features or depend on code in the language. The tags [cocoa] and [cocoa-touch] should be used to ask about Apple's frameworks or cl…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/objective-c?sort=newest&amp;days=1" title="34 questions tagged objective-c in the last 24 hours">34 asked today</a>, 
+          <a href="/questions/tagged/objective-c?sort=newest&amp;days=7" title="205 questions tagged objective-c in the last 7 days">205 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/c" class="post-tag" title="show questions tagged 'c'" rel="tag">c</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">274024</span></span> 
+        <div class="excerpt">
+         a general-purpose computer programming language used for operating systems, libraries, games and other high performance work. This tag should be used with general questions concerning the C langu…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/c?sort=newest&amp;days=1" title="112 questions tagged c in the last 24 hours">112 asked today</a>, 
+          <a href="/questions/tagged/c?sort=newest&amp;days=7" title="751 questions tagged c in the last 7 days">751 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/.net" class="post-tag" title="show questions tagged '.net'" rel="tag">.net</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">266020</span></span> 
+        <div class="excerpt">
+         a software framework designed mainly for the Microsoft Windows operating system. It includes an implementation of the Base Class Library, Common Language Runtime (commonly referr…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/.net?sort=newest&amp;days=1" title="75 questions tagged .net in the last 24 hours">75 asked today</a>, 
+          <a href="/questions/tagged/.net?sort=newest&amp;days=7" title="438 questions tagged .net in the last 7 days">438 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/arrays" class="post-tag" title="show questions tagged 'arrays'" rel="tag">arrays</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">258919</span></span> 
+        <div class="excerpt">
+         an ordered data structure consisting of a collection of elements (values or variables), each identified by one or multiple indexes. When asking about specific variants of arrays, use these…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/arrays?sort=newest&amp;days=1" title="132 questions tagged arrays in the last 24 hours">132 asked today</a>, 
+          <a href="/questions/tagged/arrays?sort=newest&amp;days=7" title="864 questions tagged arrays in the last 7 days">864 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/angularjs" class="post-tag" title="show questions tagged 'angularjs'" rel="tag">angularjs</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">250624</span></span> 
+        <div class="excerpt">
+         Use for questions about AngularJS (1.x), the open-source JavaScript framework. Do NOT use this tag for Angular 2 or later versions; instead, use the [angular] tag.
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/angularjs?sort=newest&amp;days=1" title="64 questions tagged angularjs in the last 24 hours">64 asked today</a>, 
+          <a href="/questions/tagged/angularjs?sort=newest&amp;days=7" title="469 questions tagged angularjs in the last 7 days">469 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/r" class="post-tag" title="show questions tagged 'r'" rel="tag">r</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">230074</span></span> 
+        <div class="excerpt">
+         a free, open-source programming language and software environment for statistical computing, bioinformatics, visualization and general computing. Provide minimal, reproducible, representative exa…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/r?sort=newest&amp;days=1" title="240 questions tagged r in the last 24 hours">240 asked today</a>, 
+          <a href="/questions/tagged/r?sort=newest&amp;days=7" title="1483 questions tagged r in the last 7 days">1483 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/json" class="post-tag" title="show questions tagged 'json'" rel="tag">json</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">229669</span></span> 
+        <div class="excerpt">
+         a textual data interchange format and language-independent. Use this tag when this text format is involved. DO NOT USE THIS TAG FOR NATIVE JAVASCRIPT OBJECTS OR JA…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/json?sort=newest&amp;days=1" title="143 questions tagged json in the last 24 hours">143 asked today</a>, 
+          <a href="/questions/tagged/json?sort=newest&amp;days=7" title="830 questions tagged json in the last 7 days">830 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/sql-server" class="post-tag" title="show questions tagged 'sql-server'" rel="tag"><img src="//i.stack.imgur.com/gfrSH.png" height="16" width="18" alt="" class="sponsor-tag-img">sql-server</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">228072</span></span> 
+        <div class="excerpt">
+         a relational database management system (RDBMS). Use this tag for all SQL Server editions including Compact, Express, Azure, Fast-track, APS (formerly PDW) and Azure SQL DW. Do…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/sql-server?sort=newest&amp;days=1" title="115 questions tagged sql-server in the last 24 hours">115 asked today</a>, 
+          <a href="/questions/tagged/sql-server?sort=newest&amp;days=7" title="703 questions tagged sql-server in the last 7 days">703 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/iphone" class="post-tag" title="show questions tagged 'iphone'" rel="tag">iphone</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">218881</span></span> 
+        <div class="excerpt">
+         unless you are addressing Apple's iPhone and/or iPod touch specifically. For questions not dependent on hardware, use the tag [ios]. More tags to consider are [xcode] (but only if …
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/iphone?sort=newest&amp;days=1" title="12 questions tagged iphone in the last 24 hours">12 asked today</a>, 
+          <a href="/questions/tagged/iphone?sort=newest&amp;days=7" title="92 questions tagged iphone in the last 7 days">92 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/node.js" class="post-tag" title="show questions tagged 'node.js'" rel="tag">node.js</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">218532</span></span> 
+        <div class="excerpt">
+         an event-based, non-blocking, asynchronous I/O framework that uses Google's V8 JavaScript engine and libuv library. It is used for developing applications that make heavy use of the ability…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/node.js?sort=newest&amp;days=1" title="198 questions tagged node.js in the last 24 hours">198 asked today</a>, 
+          <a href="/questions/tagged/node.js?sort=newest&amp;days=7" title="1306 questions tagged node.js in the last 7 days">1306 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/ruby" class="post-tag" title="show questions tagged 'ruby'" rel="tag">ruby</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">193361</span></span> 
+        <div class="excerpt">
+         a multi-platform open-source, dynamic object-oriented interpreted language, created by Yukihiro Matsumoto (Matz) in 1995. The [ruby] tag is for questions related to the Ruby language, includin…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/ruby?sort=newest&amp;days=1" title="54 questions tagged ruby in the last 24 hours">54 asked today</a>, 
+          <a href="/questions/tagged/ruby?sort=newest&amp;days=7" title="310 questions tagged ruby in the last 7 days">310 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/swift" class="post-tag" title="show questions tagged 'swift'" rel="tag">swift</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">186645</span></span> 
+        <div class="excerpt">
+         a general-purpose, open-source programming language developed by Apple Inc. for their platforms and Linux. Use the tag only for questions about language features, or requiring code in Swift. …
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/swift?sort=newest&amp;days=1" title="188 questions tagged swift in the last 24 hours">188 asked today</a>, 
+          <a href="/questions/tagged/swift?sort=newest&amp;days=7" title="1264 questions tagged swift in the last 7 days">1264 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/regex" class="post-tag" title="show questions tagged 'regex'" rel="tag">regex</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">185452</span></span> 
+        <div class="excerpt">
+         Regular expressions provide a declarative language to match patterns within strings. They are commonly used for string validation, parsing, and transformation. Since regular expressions are not fully …
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/regex?sort=newest&amp;days=1" title="66 questions tagged regex in the last 24 hours">66 asked today</a>, 
+          <a href="/questions/tagged/regex?sort=newest&amp;days=7" title="505 questions tagged regex in the last 7 days">505 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/ajax" class="post-tag" title="show questions tagged 'ajax'" rel="tag">ajax</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">184827</span></span> 
+        <div class="excerpt">
+         a technique for creating seamless interactive websites via asynchronous data exchange between client and server. AJAX facilitates communication with the serve…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/ajax?sort=newest&amp;days=1" title="74 questions tagged ajax in the last 24 hours">74 asked today</a>, 
+          <a href="/questions/tagged/ajax?sort=newest&amp;days=7" title="457 questions tagged ajax in the last 7 days">457 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/xml" class="post-tag" title="show questions tagged 'xml'" rel="tag">xml</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">170838</span></span> 
+        <div class="excerpt">
+         a flexible, structured document format that defines human- and machine-readable encoding rules. 
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/xml?sort=newest&amp;days=1" title="55 questions tagged xml in the last 24 hours">55 asked today</a>, 
+          <a href="/questions/tagged/xml?sort=newest&amp;days=7" title="379 questions tagged xml in the last 7 days">379 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/asp.net-mvc" class="post-tag" title="show questions tagged 'asp.net-mvc'" rel="tag">asp.net-mvc</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">168726</span></span> 
+        <div class="excerpt">
+         an open source web application framework and tooling that implements a version of the model-view-controller (MVC) pattern tailored towards web applications and built upon …
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/asp.net-mvc?sort=newest&amp;days=1" title="61 questions tagged asp.net-mvc in the last 24 hours">61 asked today</a>, 
+          <a href="/questions/tagged/asp.net-mvc?sort=newest&amp;days=7" title="410 questions tagged asp.net-mvc in the last 7 days">410 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/django" class="post-tag" title="show questions tagged 'django'" rel="tag">django</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">166184</span></span> 
+        <div class="excerpt">
+         an open source server-side web application framework, written in Python. It is designed to reduce the effort required to create complex data-driven websites and web applications, with a spec…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/django?sort=newest&amp;days=1" title="116 questions tagged django in the last 24 hours">116 asked today</a>, 
+          <a href="/questions/tagged/django?sort=newest&amp;days=7" title="698 questions tagged django in the last 7 days">698 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/linux" class="post-tag" title="show questions tagged 'linux'" rel="tag">linux</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">161880</span></span> 
+        <div class="excerpt">
+         LINUX QUESTIONS MUST BE PROGRAMMING RELATED. Use this tag only if your question relates to programming using Linux APIs or Linux-specific behavior, not just because you happen to run your code on Linu…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/linux?sort=newest&amp;days=1" title="79 questions tagged linux in the last 24 hours">79 asked today</a>, 
+          <a href="/questions/tagged/linux?sort=newest&amp;days=7" title="525 questions tagged linux in the last 7 days">525 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/excel" class="post-tag" title="show questions tagged 'excel'" rel="tag">excel</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">142025</span></span> 
+        <div class="excerpt">
+         Only for questions on programming against Excel objects or files, or complex formula development. You may combine the Excel tag with VBA, VSTO, C#, VB.NET, PowerShell, OLE automation, and other progra…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/excel?sort=newest&amp;days=1" title="109 questions tagged excel in the last 24 hours">109 asked today</a>, 
+          <a href="/questions/tagged/excel?sort=newest&amp;days=7" title="663 questions tagged excel in the last 7 days">663 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/database" class="post-tag" title="show questions tagged 'database'" rel="tag">database</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">141699</span></span> 
+        <div class="excerpt">
+         an organized collection of data. It is the collection of schemas, tables, queries, reports, views, and other objects. The data are typically organized to model aspects of reality in a wa…
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/database?sort=newest&amp;days=1" title="79 questions tagged database in the last 24 hours">79 asked today</a>, 
+          <a href="/questions/tagged/database?sort=newest&amp;days=7" title="484 questions tagged database in the last 7 days">484 this week</a>
+         </div> 
+        </div> 
+       </div> 
+       <div class="grid-layout--cell tag-cell"> 
+        <a href="/questions/tagged/wpf" class="post-tag" title="show questions tagged 'wpf'" rel="tag">wpf</a>
+        <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">139355</span></span> 
+        <div class="excerpt">
+         a subsystem for rendering user interfaces in Windows-based applications.
+        </div> 
+        <div class="grid jc-spacebetween"> 
+         <div class="grid--cell stats-row">
+          <a href="/questions/tagged/wpf?sort=newest&amp;days=1" title="42 questions tagged wpf in the last 24 hours">42 asked today</a>, 
+          <a href="/questions/tagged/wpf?sort=newest&amp;days=7" title="286 questions tagged wpf in the last 7 days">286 this week</a>
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="pager fr"> 
+       <span class="page-numbers current">1</span> 
+       <a href="/tags?page=2&amp;tab=popular" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+       <a href="/tags?page=3&amp;tab=popular" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+       <a href="/tags?page=4&amp;tab=popular" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+       <a href="/tags?page=5&amp;tab=popular" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+       <span class="page-numbers dots">…</span> 
+       <a href="/tags?page=1520&amp;tab=popular" title="go to page 1520"> <span class="page-numbers">1520</span> </a> 
+       <a href="/tags?page=2&amp;tab=popular" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+      </div> 
+     </div> 
+     <div id="tags-legend"> 
+      <span> <a class="tag-synonym-link" href="/tags/synonyms" title="show all tag synonyms">tag synonyms</a> </span> 
+     </div> 
+     <script>
+        StackExchange.ready(function() {
+            $("#tagfilter").typeWatch({ highlight:true, wait:500, captureLength: -1, callback: finished });
+        });
+
+        var request = null;
+        function finished(txt) {
+            if (request) { request.abort(); }
+            request = $.ajax({
+                type: "POST",
+                url: "/filter/tags-for-index",
+                data: { filter: txt, tab: 'Popular' },
+                dataType: "html",
+                success: function (result) {
+                    var domelement = $(result);
+                    $("#tags_list").html(domelement);
+
+                    if (txt == "") {
+                        $(".pager").show();
+                    } else
+                    {
+                        $(".pager").hide();
+                    }
+
+                }
+            });
+        }
+    </script> 
+    </div> 
+   </div> 
+  </div> 
+  <footer id="footer" class="site-footer js-footer" role="contentinfo"> 
+   <div class="site-footer--container"> 
+    <div class="site-footer--logo"> 
+     <a href="https://stackoverflow.com">
+      <svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewbox="0 0 32 37">
+       <g>
+        <path fill="#BCBBBB" d="M26 33v-9h4v13H0V24h4v9z" />
+        <path d="M23.1 25.99l.68-2.95-16.1-3.35L7 23l16.1 2.99zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm4.2-7.4L26 18.4l2.1-2.5L15.4 5.3l-2.1 2.5zM21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM7 30h16v-3H7v3z" fill="#F48024" />
+       </g>
+      </svg></a> 
+    </div> 
+    <nav class="site-footer--nav"> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://stackoverflow.com" class="js-gps-track" data-gps-track="footer.click({ location: 24, link: 15})">Stack Overflow</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 16})">Questions</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 17})">Jobs</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 11})">Developer Jobs Directory</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 28})">Salary Calculator</a></li> 
+       <li class="-item"><a href="/help" class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 3 })">Help</a></li> 
+       <li class="-item"><a onclick="StackExchange.switchMobile(&quot;on&quot;)" class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 12 })">Mobile</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://www.stackoverflowbusiness.com/?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-business-category" class="js-gps-track" data-gps-track="footer.click({ location: 24, link: 19 })">Stack Overflow<br> Business</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 20 })">Talent</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-advertise" class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 21 })">Ads</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/enterprise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 22 })">Enterprise</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 24, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 7 })" href="https://stackexchange.com/legal">Legal</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 8 })" href="https://stackexchange.com/legal/privacy-policy">Privacy Policy</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--categories-nav site-footer--col__visible"> 
+      <a href="#" class="site-footer--back js-footer-back">
+       <svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewbox="0 0 18 18">
+        <path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z" />
+       </svg></a> 
+      <div> 
+       <h5 class="-title"><a href="https://stackexchange.com">Stack Exchange<br> Network</a></h5> 
+       <ul class="-list"> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 24, link: 24 })" data-target="Technology">Technology</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 24, link: 24 })" data-target="Life / Arts">Life / Arts</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 24, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 24, link: 24 })" data-target="Science">Science</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 24, link: 24 })" data-target="Other">Other</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="site-footer--categories"> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li> 
+        <li class="-item"><a href="https://serverfault.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="system and network administrators">Server Fault</a></li> 
+        <li class="-item"><a href="https://superuser.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="computer enthusiasts and power users">Super User</a></li> 
+        <li class="-item"><a href="https://webapps.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of web applications">Web Applications</a></li> 
+        <li class="-item"><a href="https://askubuntu.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li> 
+        <li class="-item"><a href="https://webmasters.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="pro webmasters">Webmasters</a></li> 
+        <li class="-item"><a href="https://gamedev.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and independent game developers">Game Development</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://tex.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li> 
+        <li class="-item"><a href="https://softwareengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li> 
+        <li class="-item"><a href="https://unix.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li> 
+        <li class="-item"><a href="https://apple.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li> 
+        <li class="-item"><a href="https://wordpress.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li> 
+        <li class="-item"><a href="https://gis.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li> 
+        <li class="-item"><a href="https://electronics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://android.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li> 
+        <li class="-item"><a href="https://security.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="information security professionals">Information Security</a></li> 
+        <li class="-item"><a href="https://dba.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li> 
+        <li class="-item"><a href="https://drupal.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li> 
+        <li class="-item"><a href="https://sharepoint.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li> 
+        <li class="-item"><a href="https://ux.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="user experience researchers and experts">User Experience</a></li> 
+        <li class="-item"><a href="https://mathematica.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://salesforce.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li> 
+        <li class="-item"><a href="https://expressionengine.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li> 
+        <li class="-item"><a href="https://pt.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Português</a></li> 
+        <li class="-item"><a href="https://blender.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li> 
+        <li class="-item"><a href="https://networkengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="network engineers">Network Engineering</a></li> 
+        <li class="-item"><a href="https://crypto.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li> 
+        <li class="-item"><a href="https://codereview.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="peer programmer code reviews">Code Review</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://magento.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li> 
+        <li class="-item"><a href="https://softwarerecs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li> 
+        <li class="-item"><a href="https://dsp.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li> 
+        <li class="-item"><a href="https://emacs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li> 
+        <li class="-item"><a href="https://raspberrypi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li> 
+        <li class="-item"><a href="https://ru.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="программистов">Stack Overflow на русском</a></li> 
+        <li class="-item"><a href="https://codegolf.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://es.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores y profesionales de la informática">Stack Overflow en español</a></li> 
+        <li class="-item"><a href="https://ethereum.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li> 
+        <li class="-item"><a href="https://datascience.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li> 
+        <li class="-item"><a href="https://arduino.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li> 
+        <li class="-item"><a href="https://bitcoin.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (28) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://photo.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li> 
+        <li class="-item"><a href="https://scifi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li> 
+        <li class="-item"><a href="https://graphicdesign.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li> 
+        <li class="-item"><a href="https://movies.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li> 
+        <li class="-item"><a href="https://music.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li> 
+        <li class="-item"><a href="https://worldbuilding.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li> 
+        <li class="-item"><a href="https://cooking.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://diy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li> 
+        <li class="-item"><a href="https://money.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li> 
+        <li class="-item"><a href="https://academia.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li> 
+        <li class="-item"><a href="https://law.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (15) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://english.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li> 
+        <li class="-item"><a href="https://skeptics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientific skepticism">Skeptics</a></li> 
+        <li class="-item"><a href="https://judaism.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li> 
+        <li class="-item"><a href="https://travel.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li> 
+        <li class="-item"><a href="https://christianity.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li> 
+        <li class="-item"><a href="https://ell.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li> 
+        <li class="-item"><a href="https://japanese.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://gaming.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li> 
+        <li class="-item"><a href="https://bicycles.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li> 
+        <li class="-item"><a href="https://rpg.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li> 
+        <li class="-item"><a href="https://anime.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li> 
+        <li class="-item"><a href="https://puzzling.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li> 
+        <li class="-item"><a href="https://mechanics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (33) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://mathoverflow.net" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional mathematicians">MathOverflow</a></li> 
+        <li class="-item"><a href="https://math.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li> 
+        <li class="-item"><a href="https://stats.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li> 
+        <li class="-item"><a href="https://cstheory.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li> 
+        <li class="-item"><a href="https://physics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li> 
+        <li class="-item"><a href="https://chemistry.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientists, academics, teachers and students">Chemistry</a></li> 
+        <li class="-item"><a href="https://biology.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="biology researchers, academics, and students">Biology</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://cs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li> 
+        <li class="-item"><a href="https://philosophy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (10) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Other"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://meta.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li> 
+        <li class="-item"><a href="https://stackapps.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li> 
+        <li class="-item"><a href="https://api.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li> 
+        <li class="-item"><a href="https://data.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li> 
+        <li class="-item"><a href="https://area51.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="proposing new sites in the Stack Exchange network">Area 51</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </nav> 
+    <div class="site-footer--copyright fs-fine"> 
+     <ul class="-list"> 
+      <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 24, link:4 })" href="https://stackoverflow.blog?blb=1">Blog</a></li> 
+      <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li> 
+      <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li> 
+      <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li> 
+     </ul> 
+     <p class="mt-auto mb24"> site design / logo © 2018 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license">attribution required</a>. <span id="svnrev">rev&nbsp;2018.3.23.29561</span> </p> 
+    </div> 
+   </div> 
+  </footer> 
+  <noscript> 
+   <div id="noscript-warning">
+    Stack Overflow works best with JavaScript enabled 
+    <img src="https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"> 
+   </div> 
+  </noscript> 
+  <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                var trackingCodes = [
+                    'UA-5620270-1'
+                ];
+
+                        trackingCodes.push('UA-108242619-1');
+
+                StackExchange.ga.init({
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: trackingCodes
+                });
+
+
+
+
+                    StackExchange.ga.setDimension('dimension3', 'Tags/List');
+
+                StackExchange.ga.trackPageView();
+            });
+            
+/**/
+            
+            var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+            (function() {
+                var ssl = 'https:' == document.location.protocol,
+                    s = document.getElementsByTagName('script')[0],
+                    qc = document.createElement('script');
+                 qc.async = true;
+                    qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                    s.parentNode.insertBefore(qc, s);
+                    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+/**/
+                 var sc = document.createElement('script');
+                    sc.async = true;
+                    sc.src = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+                    s.parentNode.insertBefore(sc, s);
+                    _comscore.push({ c1: "2", c2: "17440561" });
+            })();
+            
+
+</script>  
+ </body>
+</html>

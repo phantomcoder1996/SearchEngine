@@ -37,13 +37,13 @@ public class CommanderThread extends Thread implements Serializable{
         if(!Resources.noRevisit.isEmpty())
         {
             for(int i=0;i<Resources.noRevisit.size();i++)
-            Resources.addLinkToQueue(Resources.noRevisit.get(i),"");
+                Resources.addLinkToQueue2(Resources.noRevisit.get(i));
         }
         else {
             ArrayList<String> fileContent = FileUtility.readFileToStringArray(seedSetPath);
             for (int i = 0; i < fileContent.size(); i++) {
 
-                Resources.addLinkToQueue(fileContent.get(i), "");
+                Resources.addLinkToQueue2(fileContent.get(i));
 
             }
 
@@ -54,11 +54,80 @@ public class CommanderThread extends Thread implements Serializable{
 
     }
 
-    @Override public void run()
+//
+//    private void readSeedSet()
+//    {
+//        DBManager.retreiveURLs();
+//        if(!Resources.noRevisit.isEmpty())
+//        {
+//            for(int i=0;i<Resources.noRevisit.size();i++)
+//            Resources.addLinkToQueue(Resources.noRevisit.get(i),"");
+//        }
+//        else {
+//            ArrayList<String> fileContent = FileUtility.readFileToStringArray(seedSetPath);
+//            for (int i = 0; i < fileContent.size(); i++) {
+//
+//                Resources.addLinkToQueue(fileContent.get(i), "");
+//
+//            }
+//
+//        }
+//
+//
+//        //TODO: Fill queue with retreived urls
+//
+//    }
+
+//    @Override public void run()
+//    {
+//        //Commander: Get me that seed set at once :( !!!
+//        if(soldiersSize==0)
+//        readSeedSet();
+//        else
+//        {
+//            for(int i=0;i<soldiers.size();i++)
+//            {
+//                executor.execute(soldiers.get(i));
+//            }
+//        }
+//
+//        //Commander: I must think of a way to distribute the tasks among those lazy soldiers :( !!
+//        while((Resources.getCount()<maxWebPages))
+//        {
+//         //   System.out.println("Thread cnt from commander is "+Resources.getCount());
+//           if(!Resources.isQueueEmpty())
+//           {    Pair<String,String> url=Resources.getLink();
+//                //String urlHash= LinkParser.hashLink(url.getKey());
+//
+//                 String key=url.getKey();
+//                if(!Resources.isVisited(key)) { //TODO: Hash value changed
+//
+//
+//                    Resources.updateVisited(key); //TODO: Hash value changed
+//                    SoldierThread newSoldier=new SoldierThread(url.getKey(),url.getValue(), maxWebPages,downloadPath);
+//
+//                    soldiers.add(newSoldier);
+//
+//                    executor.execute(newSoldier);
+//                    //Thread myThread=new Thread(newSoldier);
+//                   // myThread.start();
+//
+//                }
+//            }
+//        //    System.out.println("q empty: "+Resources.isQueueEmpty());
+//        }
+//    //When maximum number of pages has been downloaded
+//             executor.shutdown();
+//
+//    }
+
+
+    @Override
+    public void run()
     {
         //Commander: Get me that seed set at once :( !!!
         if(soldiersSize==0)
-        readSeedSet();
+            readSeedSet();
         else
         {
             for(int i=0;i<soldiers.size();i++)
@@ -70,33 +139,32 @@ public class CommanderThread extends Thread implements Serializable{
         //Commander: I must think of a way to distribute the tasks among those lazy soldiers :( !!
         while((Resources.getCount()<maxWebPages))
         {
-         //   System.out.println("Thread cnt from commander is "+Resources.getCount());
-           if(!Resources.isQueueEmpty())
-           {    Pair<String,String> url=Resources.getLink();
-                //String urlHash= LinkParser.hashLink(url.getKey());
-
-                 String key=url.getKey();
-                if(!Resources.isVisited(key)) { //TODO: Hash value changed
+            //   System.out.println("Thread cnt from commander is "+Resources.getCount());
+            if(!Resources.isQueueEmpty2())
+            {    String url=Resources.getLink2();
+                String urlHash= LinkParser.hashLink(url);
 
 
-                    Resources.updateVisited(key); //TODO: Hash value changed
-                    SoldierThread newSoldier=new SoldierThread(url.getKey(),url.getValue(), maxWebPages,downloadPath);
+                if(!Resources.isVisited(urlHash)) { //TODO: Hash value changed
+
+
+                    Resources.updateVisited(urlHash); //TODO: Hash value changed
+                    SoldierThread newSoldier=new SoldierThread(url,"", maxWebPages,downloadPath);
 
                     soldiers.add(newSoldier);
 
                     executor.execute(newSoldier);
                     //Thread myThread=new Thread(newSoldier);
-                   // myThread.start();
+                    // myThread.start();
 
                 }
             }
-        //    System.out.println("q empty: "+Resources.isQueueEmpty());
+            //    System.out.println("q empty: "+Resources.isQueueEmpty());
         }
-    //When maximum number of pages has been downloaded
-             executor.shutdown();
+        //When maximum number of pages has been downloaded
+        executor.shutdown();
 
     }
-
 
     public void serializeCommanderThread(ObjectOutputStream os)
     {

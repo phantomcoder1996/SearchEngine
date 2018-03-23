@@ -1,0 +1,937 @@
+https://www.microsoft.com/trademarks
+<!doctype html>
+<html xmlns:mscom="http://schemas.microsoft.com/CMSvNext" xmlns:md="http://schemas.microsoft.com/mscom-data" class="no-js" lang="en" dir="ltr">
+ <head>
+  <meta http-equiv="x-ua-compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="ms.appid" content="JS:Legal">
+  <script type="text/javascript" src="//c.s-microsoft.com/en-us/CMSScripts/script.jsx?k=7F1B8B51-548D-40BB-E21B-D19E5566BF14"></script>
+  <link type="text/css" rel="stylesheet" href="https://assets.onestore.ms/cdnfiles/external/mwf/long/v1/v1.26.1/css/mwf-west-european-default.min.css">
+  <title>Microsoft Trademarks</title>
+  <meta name="Title" content="Microsoft Trademarks">
+  <meta name="CorrelationVector" content="OovdxDlcNkWJITJ1.1">
+  <meta name="Description" content="Non-exhaustive list of Microsoft Trademarks.">
+  <meta name="MscomContentLocale" content="en-us">
+  <meta name="keywords" content="trademarks; logos">
+  <meta property="og:title" content="Microsoft Trademarks">
+  <meta name="category" content="Intellectual Property">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://statics-uhf-wus.akamaized.net/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/48-4569b5/3c-162243/ea-687fe8/2b-450314/42-bd6a69/d1-038968/3c-12a025?ver=2.0" rel="stylesheet" type="text/css" media="screen">
+  <link href="https://statics-uhf-wus.akamaized.net/statics/override.css" rel="stylesheet" type="text/css" media="screen">
+  <script type="text/javascript" src="https://statics-uhf-wus.akamaized.net/shell/_scrf/js/themes=default/e8-1a2c1d/cb-ac922a/e6-bf47bb/b4-95d116/24-d7e7f4/8b-69e74f/e0-91371b/7e-793d88/d1-2b95bb/d8-ab9315/31-d1ef90/55-14fceb/b2-4f864e/62-69d670/31-f19446/b4-019073/40-e2e898/fc-e9ae0b/df-1dbe87/c9-92ebeb/1c-874c56/33-e5f0bf/e3-f83824/79-8a7614/19-091f7c/fd-6d2897/7a-7a4723/82-2940d9/46-380f2c/f3-8b0931/93-f95742?ver=2.0&amp;iife=1"></script>
+  <script type="text/javascript" src="https://mem.gfx.ms/meversion?partner=MSLegal&amp;market=en-us"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="OO__smcav0-IZSRMzM8t-8Vm3kzjD0qtHOmiRvhTBHc">
+  <meta name="msvalidate.01" content="F232CE8C4BA9089AAA80F1C0B3385932">
+ </head>
+ <body>
+  <span class="page-data-sources"></span>
+  <!-- UHF CSS Workarounds -->
+  <span>
+   <section id="headerArea" data-m="{&quot;cN&quot;:&quot;headerArea&quot;,&quot;cT&quot;:&quot;Area_coreuiArea&quot;,&quot;id&quot;:&quot;a1Body&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;Body&quot;}">
+    <div id="headerRegion" data-region-key="headerregion" data-m="{&quot;cN&quot;:&quot;headerRegion&quot;,&quot;cT&quot;:&quot;Region_coreui-region&quot;,&quot;id&quot;:&quot;r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;a1&quot;}">
+     <div id="headerUniversalHeader" data-m="{&quot;cN&quot;:&quot;headerUniversalHeader&quot;,&quot;cT&quot;:&quot;Module_coreui-universalheader&quot;,&quot;id&quot;:&quot;m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;r1a1&quot;}" data-module-id="Category|headerRegion|headerRegion|headerUniversalHeader|coreui-universalheader">
+      <div id="epb" class="x-hidden x-hidden-vp1 x-hidden-vp2 uhfc-universal-context context-uhf" data-m="{&quot;cN&quot;:&quot;epb_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;m1r1a1&quot;}">
+       <div class="c-uhfh-alert f-information epb-container epb-default-color" role="alert" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1m1r1a1&quot;}">
+        <div>
+         <p class="c-paragraph"><img alt="Microsoft Edge" data-src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/REZlo1?ver=5722" class="f-img-lzy"><span class="c-text-group"><span class="epb-launch">Try Microsoft Edge</span><span class="epb-text">A fast and secure browser that's designed for Windows 10</span></span><span class="c-group"><button id="close-epb" class="c-action-trigger c-action-cancel glyph-cancel" data-m="{&quot;cN&quot;:&quot;EPB-dismiss_nonnav&quot;,&quot;id&quot;:&quot;nn1c1c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c1m1r1a1&quot;}" aria-label="No thanks, I&amp;#39;ll try Microsoft Edge later. ">No thanks</button><a id="epbTryNow" data-telem-qsp="form=MY009W" aria-label="Get Started: Open this page in Microsoft Edge" class="epb-launch c-action-trigger c-action-open" data-m="{&quot;cN&quot;:&quot;EPB-launch_nav&quot;,&quot;id&quot;:&quot;n2c1c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c1m1r1a1&quot;}">Get started</a></span></p>
+        </div>
+       </div>
+      </div>
+      <a class="m-skip-to-main" href="#maincontent" tabindex="0" style="z-index:3000002" data-m="{&quot;cN&quot;:&quot;Skip to content_nonnav&quot;,&quot;id&quot;:&quot;nn2c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1m1r1a1&quot;}">Skip to main content</a>
+      <header role="banner" class="c-uhfh context-uhf no-js " itemscope data-header-footprint="en-us/MSLegal/MSLegalHeader" data-ckrate="1" data-magict="true" itemtype="http://schema.org/Organization">
+       <div class="theme-light js-global-head f-closed " data-m="{&quot;cN&quot;:&quot;Universal Header_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1m1r1a1&quot;}">
+        <div class="c-uhfh-gcontainer">
+         <button class="c-action-trigger c-glyph glyph-global-nav-button" aria-label="Header navigation menu" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;Mobile menu button_nonnav&quot;,&quot;id&quot;:&quot;nn1c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}"></button>
+         <button class="c-action-trigger c-glyph glyph-arrow-htmllegacy" aria-label="Close search" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;Close Search_nonnav&quot;,&quot;id&quot;:&quot;nn2c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}"></button>
+         <a id="uhfLogo" class="c-logo" itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft" data-m="{&quot;cN&quot;:&quot;GlobalNav_Logo_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}"><img itemprop="logo" itemscope class="c-image" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" role="none"><span role="none">Microsoft</span></a>
+         <div class="f-mobile-title">
+          <button class="c-action-trigger c-glyph glyph-chevron-left" aria-label="See more menu options" data-m="{&quot;cN&quot;:&quot;Mobile back button_nonnav&quot;,&quot;id&quot;:&quot;nn4c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}"></button>
+          <span data-global-title="Microsoft home" class="js-mobile-title">Legal Resources</span>
+          <button class="c-action-trigger c-glyph glyph-chevron-right" aria-label="See more menu options" data-m="{&quot;cN&quot;:&quot;Mobile forward button_nonnav&quot;,&quot;id&quot;:&quot;nn5c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}"></button>
+         </div>
+         <button class="c-action-trigger c-glyph glyph-chevron-left js-primary-paddle" data-m="{&quot;cN&quot;:&quot;Previous_nonnav&quot;,&quot;id&quot;:&quot;nn6c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}" aria-label="Show previous" tabindex="-1"></button>
+         <nav id="uhf-g-nav" class="c-uhfh-gnav" aria-labelledby="uhfLogo" role="navigation" data-m="{&quot;cN&quot;:&quot;Global nav_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c7c3c1m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}">
+          <ul class="js-paddle-items" role="none">
+           <li><a id="shellmenu_0" class="c-uhf-nav-link" href="https://products.office.com/en-us/home" data-m="{&quot;cN&quot;:&quot;GlobalNav_Office_nav&quot;,&quot;id&quot;:&quot;n1c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}">Office</a></li>
+           <li><a id="shellmenu_1" class="c-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/" data-m="{&quot;cN&quot;:&quot;GlobalNav_Windows_nav&quot;,&quot;id&quot;:&quot;n2c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}">Windows</a></li>
+           <li><a id="shellmenu_2" class="c-uhf-nav-link" href="https://www.microsoft.com/surface/en-us" data-m="{&quot;cN&quot;:&quot;GlobalNav_Surface_nav&quot;,&quot;id&quot;:&quot;n3c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}">Surface</a></li>
+           <li><a id="shellmenu_3" class="c-uhf-nav-link" href="https://www.xbox.com/en-us" data-m="{&quot;cN&quot;:&quot;GlobalNav_Xbox_nav&quot;,&quot;id&quot;:&quot;n4c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}">Xbox</a></li>
+           <li><a id="shellmenu_4" class="c-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/sale?icid=gm_nav_L0_salepage" data-m="{&quot;cN&quot;:&quot;GlobalNav_Deals_nav&quot;,&quot;id&quot;:&quot;n5c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}">Deals</a></li>
+           <li><a id="l1_support" class="c-uhf-nav-link" href="https://support.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;GlobalNav_Support_nav&quot;,&quot;id&quot;:&quot;n6c7c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}">Support</a></li>
+           <li>
+            <div class="c-uhf-menu js-nav-menu">
+             <button id="More-navigation" aria-expanded="false" aria-haspopup="true" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_nonnav&quot;,&quot;id&quot;:&quot;nn7c7c3c1m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}" style="white-space:nowrap">More</button>
+             <ul class="f-multi-column f-multi-column-6" aria-labelledby="More-navigation" aria-hidden="true" data-m="{&quot;cN&quot;:&quot;More_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}" role="none">
+              <li class="f-sub-menu js-nav-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c8c7c3c1m1r1a1&quot;}"><button id="Software-navigation" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c8c7c3c1m1r1a1&quot;}">Software</button>
+               <ul aria-labelledby="Software-navigation" aria-hidden="true" role="none">
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Software_WindowsApps_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_8" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/windows-10-apps" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_WindowsApps_nav&quot;,&quot;id&quot;:&quot;n1c2c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c1c8c7c3c1m1r1a1&quot;}">Windows apps</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Software_OneDrive_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_9" class="js-subm-uhf-nav-link" href="https://onedrive.live.com/about/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_OneDrive_nav&quot;,&quot;id&quot;:&quot;n1c3c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c1c8c7c3c1m1r1a1&quot;}">OneDrive</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Software_Outlook_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_10" class="js-subm-uhf-nav-link" href="https://outlook.live.com/owa/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_Outlook_nav&quot;,&quot;id&quot;:&quot;n1c4c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c1c8c7c3c1m1r1a1&quot;}">Outlook</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Software_Skype_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c1c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_11" class="js-subm-uhf-nav-link" href="https://www.skype.com/en/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_Skype_nav&quot;,&quot;id&quot;:&quot;n1c5c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c1c8c7c3c1m1r1a1&quot;}">Skype</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Software_OneNote_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c1c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_12" class="js-subm-uhf-nav-link" href="https://www.onenote.com/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_OneNote_nav&quot;,&quot;id&quot;:&quot;n1c6c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c1c8c7c3c1m1r1a1&quot;}">OneNote</a></li>
+               </ul></li>
+              <li class="f-sub-menu js-nav-menu" data-m="{&quot;cN&quot;:&quot;PCsAndDevices_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c8c7c3c1m1r1a1&quot;}"><button id="PCs&amp;Devices-navigation" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;GlobalNav_PCsAndDevices_nonnav&quot;,&quot;id&quot;:&quot;nn1c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c8c7c3c1m1r1a1&quot;}">PCs &amp; Devices </button>
+               <ul aria-labelledby="PCs&amp;Devices-navigation" aria-hidden="true" role="none">
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_PCsAndDevices_PCsAndTablets_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c2c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_14" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/devices" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_PCsAndDevices_PCsAndTablets_nav&quot;,&quot;id&quot;:&quot;n1c2c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c2c8c7c3c1m1r1a1&quot;}">PCs &amp; tablets</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_PCAndDevices_Accessories_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c2c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_15" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/accessories/en-us" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_PCAndDevices_Accessories_nav&quot;,&quot;id&quot;:&quot;n1c3c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c2c8c7c3c1m1r1a1&quot;}">Accessories</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_PCsAndDevices_VMAndMixedReality_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c2c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_16" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/virtualreality?icid=TopNavVirtualReality" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_PCsAndDevices_VMAndMixedReality_nav&quot;,&quot;id&quot;:&quot;n1c4c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c2c8c7c3c1m1r1a1&quot;}">VR &amp; mixed reality</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_PCsAndDevices_MicrosoftHololens_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c2c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_17" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/hololens" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_PCsAndDevices_MicrosoftHololens_nav&quot;,&quot;id&quot;:&quot;n1c5c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c2c8c7c3c1m1r1a1&quot;}">Microsoft HoloLens</a></li>
+               </ul></li>
+              <li class="f-sub-menu js-nav-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c8c7c3c1m1r1a1&quot;}"><button id="Entertainment-navigation" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c8c7c3c1m1r1a1&quot;}">Entertainment</button>
+               <ul aria-labelledby="Entertainment-navigation" aria-hidden="true" role="none">
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Products_DevicesAndXbox_XboxAndGames_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c3c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_19" class="js-subm-uhf-nav-link" href="https://www.xbox.com/en-us/games/xbox-one?xr=shellnav" data-m="{&quot;cN&quot;:&quot;GlobalNav_Products_DevicesAndXbox_XboxAndGames_nav&quot;,&quot;id&quot;:&quot;n1c2c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c3c8c7c3c1m1r1a1&quot;}">Xbox games</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Entertainment_PCGames_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c3c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_20" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/windows-10-games" data-m="{&quot;cN&quot;:&quot;GlobalNav_Entertainment_PCGames_nav&quot;,&quot;id&quot;:&quot;n1c3c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c3c8c7c3c1m1r1a1&quot;}">PC games</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Entertainment_WindowsDigitalGames_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c3c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_21" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/games/windows?icid=TopNavWindowsGames" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Entertainment_WindowsDigitalGames_nav&quot;,&quot;id&quot;:&quot;n1c4c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c3c8c7c3c1m1r1a1&quot;}">Windows digital games</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Entertainment_MoviesAndTV_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c3c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_22" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesAndTv" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Entertainment_MoviesAndTV_nav&quot;,&quot;id&quot;:&quot;n1c5c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c3c8c7c3c1m1r1a1&quot;}">Movies &amp; TV</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Entertainment_Books_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c3c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_23" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/books" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Entertainment_Books_nav&quot;,&quot;id&quot;:&quot;n1c6c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c3c8c7c3c1m1r1a1&quot;}">Books</a></li>
+               </ul></li>
+              <li class="f-sub-menu js-nav-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c8c7c3c1m1r1a1&quot;}"><button id="Business-navigation" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c8c7c3c1m1r1a1&quot;}">Business</button>
+               <ul aria-labelledby="Business-navigation" aria-hidden="true" role="none">
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Business_MicrosoftAzure_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c4c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_25" class="js-subm-uhf-nav-link" href="https://azure.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_MicrosoftAzure_nav&quot;,&quot;id&quot;:&quot;n1c2c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c4c8c7c3c1m1r1a1&quot;}">Microsoft Azure</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Business_MicrosoftDynamics365_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c4c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_26" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/dynamics365/home" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_MicrosoftDynamics365_nav&quot;,&quot;id&quot;:&quot;n1c3c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c4c8c7c3c1m1r1a1&quot;}">Microsoft Dynamics 365</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Business_Microsoft365_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c4c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_27" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/microsoft-365/?omkt=en-US" data-m="{&quot;cN&quot;:&quot;GlobalNav_Business_Microsoft365_nav&quot;,&quot;id&quot;:&quot;n1c4c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c4c8c7c3c1m1r1a1&quot;}">Microsoft 365</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Products_ForBusiness_CloudPlatform_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c4c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_28" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/cloud-platform" data-m="{&quot;cN&quot;:&quot;GlobalNav_Products_ForBusiness_CloudPlatform_nav&quot;,&quot;id&quot;:&quot;n1c5c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c4c8c7c3c1m1r1a1&quot;}">Cloud platform</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Business_Enterprise_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c4c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_29" class="js-subm-uhf-nav-link" href="https://enterprise.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_Enterprise_nav&quot;,&quot;id&quot;:&quot;n1c6c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c4c8c7c3c1m1r1a1&quot;}">Enterprise</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Business_DataPlatform_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c7c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c4c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_30" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/sql-server/ " data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_DataPlatform_nav&quot;,&quot;id&quot;:&quot;n1c7c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c7c4c8c7c3c1m1r1a1&quot;}">Data platform</a></li>
+               </ul></li>
+              <li class="f-sub-menu js-nav-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c8c7c3c1m1r1a1&quot;}"><button id="Developer&amp;IT-navigation" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c8c7c3c1m1r1a1&quot;}">Developer &amp; IT </button>
+               <ul aria-labelledby="Developer&amp;IT-navigation" aria-hidden="true" role="none">
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_DeveloperAndIT_.Net_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c5c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_32" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/net/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DeveloperAndIT_.Net_nav&quot;,&quot;id&quot;:&quot;n1c2c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c5c8c7c3c1m1r1a1&quot;}">.NET</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_DevelopersAndIT_VisualStudio_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c5c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_33" class="js-subm-uhf-nav-link" href="https://www.visualstudio.com/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DevelopersAndIT_VisualStudio_nav&quot;,&quot;id&quot;:&quot;n1c3c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c5c8c7c3c1m1r1a1&quot;}">Visual Studio</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_DeveloperAndIT_WindowsDevCenter_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c5c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_34" class="js-subm-uhf-nav-link" href="https://developer.microsoft.com/en-us/windows" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DeveloperAndIT_WindowsDevCenter_nav&quot;,&quot;id&quot;:&quot;n1c4c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c5c8c7c3c1m1r1a1&quot;}">Windows Dev Center</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_DeveloperAndIT_Docs.microsoft.com_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c5c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_35" class="js-subm-uhf-nav-link" href="https://docs.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DeveloperAndIT_Docs.microsoft.com_nav&quot;,&quot;id&quot;:&quot;n1c5c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c5c8c7c3c1m1r1a1&quot;}">Docs</a></li>
+               </ul></li>
+              <li class="f-sub-menu js-nav-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c8c7c3c1m1r1a1&quot;}"><button id="Other-navigation" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c8c7c3c1m1r1a1&quot;}">Other</button>
+               <ul aria-labelledby="Other-navigation" aria-hidden="true" role="none">
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Other_MicrosoftStore_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c6c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_37" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/home" data-m="{&quot;cN&quot;:&quot;GlobalNav_Other_MicrosoftStore_nav&quot;,&quot;id&quot;:&quot;n1c2c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c6c8c7c3c1m1r1a1&quot;}">Microsoft Store</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Products_SoftwareAndServices_FreeDownloadsAndSecurity_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c6c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_38" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/download/default.aspx" data-m="{&quot;cN&quot;:&quot;GlobalNav_Products_SoftwareAndServices_FreeDownloadsAndSecurity_nav&quot;,&quot;id&quot;:&quot;n1c3c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c6c8c7c3c1m1r1a1&quot;}">Free downloads &amp; security</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Products_ForStudentsAndEducators_Education_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c6c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_39" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/education" data-m="{&quot;cN&quot;:&quot;GlobalNav_Products_ForStudentsAndEducators_Education_nav&quot;,&quot;id&quot;:&quot;n1c4c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c6c8c7c3c1m1r1a1&quot;}">Education</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Other_Store_Locations_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c6c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_40" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/locations/find-a-store?icid=TopNavStoreLocations" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Other_Store_Locations_nav&quot;,&quot;id&quot;:&quot;n1c5c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c6c8c7c3c1m1r1a1&quot;}">Store locations</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Store_More_GiftCards_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c6c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_41" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/gift-cards" data-m="{&quot;cN&quot;:&quot;GlobalNav_Store_More_GiftCards_nav&quot;,&quot;id&quot;:&quot;n1c6c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c6c8c7c3c1m1r1a1&quot;}">Gift cards</a></li>
+               </ul></li>
+              <li class="f-multi-column-info"><a data-m="{&quot;cN&quot;:&quot;View all_nav&quot;,&quot;id&quot;:&quot;n7c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c8c7c3c1m1r1a1&quot;}" href="https://www.microsoft.com/en-us/sitemap.aspx" aria-label="View all" class="c-glyph">View all</a></li>
+             </ul>
+            </div></li>
+          </ul>
+         </nav>
+         <button class="c-action-trigger c-glyph glyph-chevron-right js-secondary-paddle" data-m="{&quot;cN&quot;:&quot;Next_nonnav&quot;,&quot;id&quot;:&quot;nn8c3c1m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}" aria-label="Show next" tabindex="-1"></button>
+         <div class="c-uhfh-actions" data-m="{&quot;cN&quot;:&quot;Header actions_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c9c3c1m1r1a1&quot;,&quot;sN&quot;:9,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}">
+          <form class="c-search" autocomplete="off" id="searchForm" name="searchForm" role="search" action="https://www.microsoft.com/en-us/legal/result.aspx" method="GET" data-seautosuggest="{&quot;queryParams&quot;:{&quot;market&quot;:&quot;en-us&quot;,&quot;clientId&quot;:&quot;7F27B536-CF6B-4C65-8638-A0F8CBDFCA65&quot;,&quot;sources&quot;:&quot;Microsoft-Terms,Iris-Products,DCatAll-Products&quot;,&quot;counts&quot;:&quot;5,1,5&quot;},&quot;familyNames&quot;:{&quot;Apps&quot;:&quot;App&quot;,&quot;Books&quot;:&quot;Book&quot;,&quot;Bundles&quot;:&quot;Bundle&quot;,&quot;Devices&quot;:&quot;Device&quot;,&quot;Fees&quot;:&quot;Fee&quot;,&quot;Games&quot;:&quot;Game&quot;,&quot;MusicAlbums&quot;:&quot;Album&quot;,&quot;MusicTracks&quot;:&quot;Song&quot;,&quot;MusicVideos&quot;:&quot;Video&quot;,&quot;MusicArtists&quot;:&quot;Artist&quot;,&quot;OperatingSystem&quot;:&quot;Operating System&quot;,&quot;Software&quot;:&quot;Software&quot;,&quot;Movies&quot;:&quot;Movie&quot;,&quot;TV&quot;:&quot;TV&quot;,&quot;CSV&quot;:&quot;Gift Card&quot;,&quot;VideoActor&quot;:&quot;Actor&quot;}}" data-seautosuggestapi="https://www.microsoft.com/services/api/v3/suggest" data-m="{&quot;cN&quot;:&quot;GlobalNav_Search_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c9c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c9c3c1m1r1a1&quot;}" aria-expanded="false">
+           <input data-m="{&quot;cN&quot;:&quot;SearchBox_nav&quot;,&quot;id&quot;:&quot;n2c1c9c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c9c3c1m1r1a1&quot;}" id="cli_shellHeaderSearchInput" aria-label="Search Microsoft Legal Resources" role="combobox" aria-autocomplete="list" aria-controls="universal-header-search-auto-suggest-transparent" aria-owns="universal-header-search-auto-suggest-ul" type="search" name="q" placeholder="Search Microsoft Legal Resources">
+           <button id="search" aria-label="Search" class="c-glyph" data-m="{&quot;cN&quot;:&quot;Search_nav&quot;,&quot;id&quot;:&quot;n3c1c9c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c9c3c1m1r1a1&quot;}" data-bi-dnt="true" data-bi-mto="true"></button>
+           <div class="m-auto-suggest" id="universal-header-search-auto-suggest-transparent" role="group">
+            <ul class="c-menu" id="universal-header-search-auto-suggest-ul" aria-hidden="true" data-bi-dnt="true" data-bi-mto="true" data-js-auto-suggest-position="default" role="listbox" data-tel="jsll" data-m="{&quot;cN&quot;:&quot;search suggestions_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c1c9c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c9c3c1m1r1a1&quot;}"></ul>
+           </div>
+          </form>
+          <a id="uhf-shopping-cart" aria-label="0 items in shopping cart" class="c-action-trigger c-glyph glyph-shopping-cart" href="https://www.microsoft.com/en-us/store/buy" data-m="{&quot;cN&quot;:&quot;GlobalNav_Cart_nav&quot;,&quot;bhvr&quot;:82,&quot;id&quot;:&quot;n2c9c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c9c3c1m1r1a1&quot;}"><span class="shopping-cart-amount x-hidden" aria-hidden="true">0</span></a>
+          <iframe id="shell-cart-count" data-src="//www.microsoft.com/store/buy/cartcount" style="display: none"></iframe>
+          <div id="meControl" class="c-me" data-signinsettings="{&quot;containerId&quot;:&quot;meControl&quot;,&quot;enabled&quot;:true,&quot;headerHeight&quot;:48,&quot;debug&quot;:false,&quot;extensibleLinks&quot;:[],&quot;userData&quot;:{&quot;idp&quot;:&quot;msa&quot;,&quot;firstName&quot;:&quot;&quot;,&quot;lastName&quot;:&quot;&quot;,&quot;memberName&quot;:&quot;&quot;,&quot;cid&quot;:&quot;&quot;,&quot;authenticatedState&quot;:&quot;3&quot;},&quot;rpData&quot;:{&quot;preferredIdp&quot;:&quot;msa&quot;,&quot;msaInfo&quot;:{&quot;signInUrl&quot;:&quot;/en-us/store/signin&quot;,&quot;signOutUrl&quot;:&quot;/en-us/store/signout&quot;,&quot;meUrl&quot;:&quot;https://login.live.com/me.srf?wa=wsignin1.0&quot;},&quot;aadInfo&quot;:{&quot;signOutUrl&quot;:&quot;/en-us/store/signout&quot;,&quot;appId&quot;:null,&quot;siteUrl&quot;:null,&quot;blockMsaFed&quot;:true}}}" data-m="{&quot;cN&quot;:&quot;GlobalNav_Account_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c9c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c9c3c1m1r1a1&quot;}">
+           <div class="msame_Header">
+            <div class="msame_Header_name">
+             Sign in
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="theme-dark brand-neutral js-cat-head" itemprop="brand" itemscope itemtype="http://schema.org/Brand" data-m="{&quot;cN&quot;:&quot;UHF category nav_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1m1r1a1&quot;}">
+        <div>
+         <a id="uhfCatLogo" class="c-logo" href="https://www.microsoft.com/en-us/legal/" aria-label="Legal Resources" itemprop="url" data-m="{&quot;cN&quot;:&quot;Legal Resources_nav&quot;,&quot;id&quot;:&quot;n1c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}"><span>Legal Resources</span></a>
+         <button class="c-action-trigger c-glyph glyph-chevron-left js-primary-paddle" aria-label="Scroll left" title="Scroll left" data-m="{&quot;cN&quot;:&quot;Previous_nonnav&quot;,&quot;id&quot;:&quot;nn2c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}" tabindex="-1"></button>
+         <button class="c-action-trigger c-glyph glyph-chevron-right js-secondary-paddle" aria-label="Scroll right" title="Scroll right" data-m="{&quot;cN&quot;:&quot;Next_nonnav&quot;,&quot;id&quot;:&quot;nn3c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}" tabindex="-1"></button>
+         <nav id="uhf-c-nav" role="navigation" aria-label="legal resources" class="js-paddle-items">
+          <div class="c-uhf-menu js-nav-menu" role="none">
+           <button id="shellmenu_42" aria-expanded="false" aria-haspopup="true" data-m="{&quot;cN&quot;:&quot;CatNav_Legal Home_nonnav&quot;,&quot;id&quot;:&quot;nn4c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">Legal Home</button>
+           <ul class="" aria-labelledby="shellmenu_42" aria-hidden="true" data-m="{&quot;cN&quot;:&quot;Legal Home_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c4c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}" role="none">
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Legal Home_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c5c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c4c1m1r1a1&quot;}"><a id="shellmenu_43" class="js-subm-uhf-nav-link" href="http://www.microsoft.com/legal" data-m="{&quot;cN&quot;:&quot;CatNav_Legal Home_nav&quot;,&quot;id&quot;:&quot;n1c1c5c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c5c4c1m1r1a1&quot;}">Legal Home</a></li>
+            <li class="f-sub-menu js-nav-menu" data-m="{&quot;cN&quot;:&quot;Legal Diversity \u0026 Inclusion_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c5c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c5c4c1m1r1a1&quot;}"><button id="LegalDiversity&amp;Inclusion-navigation" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;CatNav_Legal Diversity \u0026 Inclusion_nonnav&quot;,&quot;id&quot;:&quot;nn1c2c5c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c5c4c1m1r1a1&quot;}">Legal Diversity &amp; Inclusion</button>
+             <ul aria-labelledby="LegalDiversity&amp;Inclusion-navigation" aria-hidden="true" role="none">
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Diversity Home_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c2c5c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c2c5c4c1m1r1a1&quot;}"><a id="shellmenu_45" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/diversity/default.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Diversity Home_nav&quot;,&quot;id&quot;:&quot;n1c2c2c5c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c2c5c4c1m1r1a1&quot;}">Diversity Home</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Our work in CELA_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c2c5c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c2c5c4c1m1r1a1&quot;}"><a id="shellmenu_46" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/diversity/ourworkincela" data-m="{&quot;cN&quot;:&quot;CatNav_Our work in CELA_nav&quot;,&quot;id&quot;:&quot;n1c3c2c5c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c2c5c4c1m1r1a1&quot;}">Our work in CELA</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Diversifying the Profession_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c2c5c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c2c5c4c1m1r1a1&quot;}"><a id="shellmenu_47" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/diversity/addressingthepipeline" data-m="{&quot;cN&quot;:&quot;CatNav_Diversifying the Profession_nav&quot;,&quot;id&quot;:&quot;n1c4c2c5c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c2c5c4c1m1r1a1&quot;}">Diversifying the Profession</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Working with Law Firm Partners_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c2c5c4c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c2c5c4c1m1r1a1&quot;}"><a id="shellmenu_48" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/diversity/lawfirmdiversityprogram" data-m="{&quot;cN&quot;:&quot;CatNav_Working with Law Firm Partners_nav&quot;,&quot;id&quot;:&quot;n1c5c2c5c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c2c5c4c1m1r1a1&quot;}">Working with Law Firm Partners</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Diversity News_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c2c5c4c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c2c5c4c1m1r1a1&quot;}"><a id="shellmenu_49" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/diversity/news" data-m="{&quot;cN&quot;:&quot;CatNav_Diversity News_nav&quot;,&quot;id&quot;:&quot;n1c6c2c5c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c2c5c4c1m1r1a1&quot;}">Diversity News</a></li>
+             </ul></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Licensing Terms_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c5c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c5c4c1m1r1a1&quot;}"><a id="shellmenu_50" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/useterms" data-m="{&quot;cN&quot;:&quot;CatNav_Licensing Terms_nav&quot;,&quot;id&quot;:&quot;n1c3c5c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c5c4c1m1r1a1&quot;}">Licensing Terms</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Piracy_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c5c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c5c4c1m1r1a1&quot;}"><a id="shellmenu_51" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/piracy" data-m="{&quot;cN&quot;:&quot;CatNav_Piracy_nav&quot;,&quot;id&quot;:&quot;n1c4c5c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c5c4c1m1r1a1&quot;}">Piracy</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Productivity Solutions_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c5c4c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c5c4c1m1r1a1&quot;}"><a id="shellmenu_52" class="js-subm-uhf-nav-link" href="http://www.microsoft.com/legalproductivity" data-m="{&quot;cN&quot;:&quot;CatNav_Productivity Solutions_nav&quot;,&quot;id&quot;:&quot;n1c5c5c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c5c4c1m1r1a1&quot;}">Productivity Solutions</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Terms of Use_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c5c4c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c5c4c1m1r1a1&quot;}"><a id="shellmenu_53" class="js-subm-uhf-nav-link" href="https://aka.ms/mstou" data-m="{&quot;cN&quot;:&quot;CatNav_Terms of Use_nav&quot;,&quot;id&quot;:&quot;n1c6c5c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c5c4c1m1r1a1&quot;}">Terms of Use</a></li>
+           </ul>
+          </div>
+          <div class="c-uhf-menu js-nav-menu" role="none">
+           <button id="shellmenu_54" aria-expanded="false" aria-haspopup="true" data-m="{&quot;cN&quot;:&quot;CatNav_EthicsAndCompliance_nonnav&quot;,&quot;id&quot;:&quot;nn6c4c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">Ethics &amp; Compliance</button>
+           <ul class="" aria-labelledby="shellmenu_54" aria-hidden="true" data-m="{&quot;cN&quot;:&quot;EthicsAndCompliance_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c7c4c1m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}" role="none">
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Microsoft’s Compliance Program_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c7c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c7c4c1m1r1a1&quot;}"><a id="shellmenu_55" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/compliance" data-m="{&quot;cN&quot;:&quot;CatNav_Microsoft’s Compliance Program_nav&quot;,&quot;id&quot;:&quot;n1c1c7c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c7c4c1m1r1a1&quot;}">Microsoft’s Compliance Program</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;StandardsOfBusinessConduct_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c7c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c7c4c1m1r1a1&quot;}"><a id="shellmenu_56" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/compliance/sbc/default.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_StandardsOfBusinessConduct_nav&quot;,&quot;id&quot;:&quot;n1c2c7c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c7c4c1m1r1a1&quot;}">Standards of Business Conduct</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Report a concern_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c7c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c7c4c1m1r1a1&quot;}"><a id="shellmenu_57" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/compliance/integrity" data-m="{&quot;cN&quot;:&quot;CatNav_Report a concern_nav&quot;,&quot;id&quot;:&quot;n1c3c7c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c7c4c1m1r1a1&quot;}">Report a concern</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Microsoft’s Commitment to Anti-Corruption \u0026 Anti-Bribery_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c7c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c7c4c1m1r1a1&quot;}"><a id="shellmenu_58" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/compliance/anticorruption" data-m="{&quot;cN&quot;:&quot;CatNav_Microsoft’s Commitment to Anti-Corruption \u0026 Anti-Bribery_nav&quot;,&quot;id&quot;:&quot;n1c4c7c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c7c4c1m1r1a1&quot;}">Microsoft’s Commitment to Anti-Corruption &amp; Anti-Bribery</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;WEEE Compliance \u0026 RoHS Directives_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c7c4c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c7c4c1m1r1a1&quot;}"><a id="shellmenu_59" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/compliance/weee" data-m="{&quot;cN&quot;:&quot;CatNav_WEEE Compliance \u0026 RoHS Directives_nav&quot;,&quot;id&quot;:&quot;n1c5c7c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c7c4c1m1r1a1&quot;}">WEEE Compliance &amp; RoHS Directives</a></li>
+           </ul>
+          </div>
+          <div class="c-uhf-menu js-nav-menu" role="none">
+           <button id="shellmenu_60" aria-expanded="false" aria-haspopup="true" data-m="{&quot;cN&quot;:&quot;CatNav_IntellectualProperty_nonnav&quot;,&quot;id&quot;:&quot;nn8c4c1m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">Intellectual Property</button>
+           <ul class="" aria-labelledby="shellmenu_60" aria-hidden="true" data-m="{&quot;cN&quot;:&quot;IntellectualProperty_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c9c4c1m1r1a1&quot;,&quot;sN&quot;:9,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}" role="none">
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Intellectual Property Home_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c9c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c9c4c1m1r1a1&quot;}"><a id="shellmenu_61" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/intellectualproperty" data-m="{&quot;cN&quot;:&quot;CatNav_Intellectual Property Home_nav&quot;,&quot;id&quot;:&quot;n1c1c9c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c9c4c1m1r1a1&quot;}">Intellectual Property Home</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Copyrights_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c9c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c9c4c1m1r1a1&quot;}"><a id="shellmenu_62" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/permissions" data-m="{&quot;cN&quot;:&quot;CatNav_Copyrights_nav&quot;,&quot;id&quot;:&quot;n1c2c9c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c9c4c1m1r1a1&quot;}">Copyrights</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;IntellectualPropertyLicensing_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c9c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c9c4c1m1r1a1&quot;}"><a id="shellmenu_63" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/iplicensing" data-m="{&quot;cN&quot;:&quot;CatNav_IntellectualPropertyLicensing_nav&quot;,&quot;id&quot;:&quot;n1c3c9c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c9c4c1m1r1a1&quot;}">Intellectual Property Licensing</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;MicrosoftTechnologyLicensing_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c9c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c9c4c1m1r1a1&quot;}"><a id="shellmenu_64" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/mtl" data-m="{&quot;cN&quot;:&quot;CatNav_MicrosoftTechnologyLicensing_nav&quot;,&quot;id&quot;:&quot;n1c4c9c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c9c4c1m1r1a1&quot;}">Microsoft Technology Licensing</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Patents_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c9c4c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c9c4c1m1r1a1&quot;}"><a id="shellmenu_65" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/patents" data-m="{&quot;cN&quot;:&quot;CatNav_Patents_nav&quot;,&quot;id&quot;:&quot;n1c5c9c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c9c4c1m1r1a1&quot;}">Patents</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Trademarks_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c9c4c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c9c4c1m1r1a1&quot;}"><a id="shellmenu_66" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/trademarks" data-m="{&quot;cN&quot;:&quot;CatNav_Trademarks_nav&quot;,&quot;id&quot;:&quot;n1c6c9c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c9c4c1m1r1a1&quot;}">Trademarks</a></li>
+           </ul>
+          </div>
+          <div class="c-uhf-menu js-nav-menu" role="none">
+           <button id="shellmenu_67" aria-expanded="false" aria-haspopup="true" data-m="{&quot;cN&quot;:&quot;CatNav_AntitrustAndInteroperability_nonnav&quot;,&quot;id&quot;:&quot;nn10c4c1m1r1a1&quot;,&quot;sN&quot;:10,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">Antitrust &amp; Interoperability</button>
+           <ul class="" aria-labelledby="shellmenu_67" aria-hidden="true" data-m="{&quot;cN&quot;:&quot;AntitrustAndInteroperability_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c11c4c1m1r1a1&quot;,&quot;sN&quot;:11,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}" role="none">
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Antitrust_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c11c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c11c4c1m1r1a1&quot;}"><a id="shellmenu_68" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/antitrust" data-m="{&quot;cN&quot;:&quot;CatNav_Antitrust_nav&quot;,&quot;id&quot;:&quot;n1c1c11c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c11c4c1m1r1a1&quot;}">Antitrust</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;EuropeanCommissionDecisionOf2004_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c11c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c11c4c1m1r1a1&quot;}"><a id="shellmenu_69" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/antitrust/eudecision" data-m="{&quot;cN&quot;:&quot;CatNav_EuropeanCommissionDecisionOf2004_nav&quot;,&quot;id&quot;:&quot;n1c2c11c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c11c4c1m1r1a1&quot;}">European Commission Decision of 2004</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;European Commission LinkedIn Commitments_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c11c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c11c4c1m1r1a1&quot;}"><a id="shellmenu_70" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/antitrust/eudecision/linkedincommitments.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_European Commission LinkedIn Commitments_nav&quot;,&quot;id&quot;:&quot;n1c3c11c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c11c4c1m1r1a1&quot;}">European Commission LinkedIn Commitments</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Interoperability_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c11c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c11c4c1m1r1a1&quot;}"><a id="shellmenu_71" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/interoperability" data-m="{&quot;cN&quot;:&quot;CatNav_Interoperability_nav&quot;,&quot;id&quot;:&quot;n1c4c11c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c11c4c1m1r1a1&quot;}">Interoperability</a></li>
+           </ul>
+          </div>
+          <div class="c-uhf-menu js-nav-menu" role="none">
+           <button id="shellmenu_72" aria-expanded="false" aria-haspopup="true" data-m="{&quot;cN&quot;:&quot;CatNav_ArbitrationAndDisputeResolution_nonnav&quot;,&quot;id&quot;:&quot;nn12c4c1m1r1a1&quot;,&quot;sN&quot;:12,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">Arbitration &amp; Dispute Resolution</button>
+           <ul class="" aria-labelledby="shellmenu_72" aria-hidden="true" data-m="{&quot;cN&quot;:&quot;ArbitrationAndDisputeResolution_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c13c4c1m1r1a1&quot;,&quot;sN&quot;:13,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}" role="none">
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;U.S. Arbitration \u0026 Dispute Resolution_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c13c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c13c4c1m1r1a1&quot;}"><a id="shellmenu_73" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/arbitration" data-m="{&quot;cN&quot;:&quot;CatNav_U.S. Arbitration \u0026 Dispute Resolution_nav&quot;,&quot;id&quot;:&quot;n1c1c13c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c13c4c1m1r1a1&quot;}">U.S. Arbitration &amp; Dispute Resolution </a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Demand for Arbitration_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c13c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c13c4c1m1r1a1&quot;}"><a id="shellmenu_74" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/arbitration/demand.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Demand for Arbitration_nav&quot;,&quot;id&quot;:&quot;n1c2c13c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c13c4c1m1r1a1&quot;}">Demand for Arbitration</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Notice of Dispute_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c13c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c13c4c1m1r1a1&quot;}"><a id="shellmenu_75" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/arbitration/notice.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Notice of Dispute_nav&quot;,&quot;id&quot;:&quot;n1c3c13c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c13c4c1m1r1a1&quot;}">Notice of Dispute</a></li>
+            <li class="f-sub-menu js-nav-menu" data-m="{&quot;cN&quot;:&quot;U.S. More Arbitration Terms_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c13c4c1m1r1a1&quot;}"><button id="U.S.MoreArbitrationTerms-navigation" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;CatNav_U.S. More Arbitration Terms_nonnav&quot;,&quot;id&quot;:&quot;nn1c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c13c4c1m1r1a1&quot;}">U.S. More Arbitration Terms</button>
+             <ul aria-labelledby="U.S.MoreArbitrationTerms-navigation" aria-hidden="true" role="none">
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;forMicrosoftOffice2013_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c4c13c4c1m1r1a1&quot;}"><a id="shellmenu_77" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/arbitration/office2013.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_forMicrosoftOffice2013_nav&quot;,&quot;id&quot;:&quot;n1c2c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c4c13c4c1m1r1a1&quot;}">for Microsoft Office 2013</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;forMicrosoftOneNote_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c4c13c4c1m1r1a1&quot;}"><a id="shellmenu_78" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/arbitration/onenote.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_forMicrosoftOneNote_nav&quot;,&quot;id&quot;:&quot;n1c3c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c4c13c4c1m1r1a1&quot;}">for Microsoft OneNote</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;forMicrosoftSkype_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c4c13c4c1m1r1a1&quot;}"><a id="shellmenu_79" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/arbitration/skype.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_forMicrosoftSkype_nav&quot;,&quot;id&quot;:&quot;n1c4c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c4c13c4c1m1r1a1&quot;}">for Microsoft Skype</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;forMicrosoftStore_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c4c13c4c1m1r1a1&quot;}"><a id="shellmenu_80" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/arbitration/msstore.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_forMicrosoftStore_nav&quot;,&quot;id&quot;:&quot;n1c5c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c4c13c4c1m1r1a1&quot;}">for Microsoft Store</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;forWindows8_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c4c13c4c1m1r1a1&quot;}"><a id="shellmenu_81" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/arbitration/windows8.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_forWindows8_nav&quot;,&quot;id&quot;:&quot;n1c6c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c4c13c4c1m1r1a1&quot;}">for Windows 8</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;forWindows8.1Preview_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c7c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c4c13c4c1m1r1a1&quot;}"><a id="shellmenu_82" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/arbitration/windows8_1.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_forWindows8.1Preview_nav&quot;,&quot;id&quot;:&quot;n1c7c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c7c4c13c4c1m1r1a1&quot;}">for Windows 8.1 Preview</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;forXboxLIVE_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c8c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c4c13c4c1m1r1a1&quot;}"><a id="shellmenu_83" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/arbitration/xbox-live.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_forXboxLIVE_nav&quot;,&quot;id&quot;:&quot;n1c8c4c13c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c8c4c13c4c1m1r1a1&quot;}">for Xbox LIVE</a></li>
+             </ul></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;European Union Arbitration \u0026 Dispute Resolution_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c13c4c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c13c4c1m1r1a1&quot;}"><a id="shellmenu_84" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/arbitration/EU-ODR.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_European Union Arbitration \u0026 Dispute Resolution_nav&quot;,&quot;id&quot;:&quot;n1c5c13c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c13c4c1m1r1a1&quot;}">European Union Arbitration &amp; Dispute Resolution </a></li>
+           </ul>
+          </div>
+          <a id="shellmenu_85" class="c-uhf-nav-link" href="https://www.microsoft.com/en-us/legal/class" data-m="{&quot;cN&quot;:&quot;CatNav_ConsumerSettlement_nav&quot;,&quot;id&quot;:&quot;n14c4c1m1r1a1&quot;,&quot;sN&quot;:14,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">Consumer Settlement</a>
+         </nav>
+        </div>
+       </div>
+      </header>
+     </div>
+    </div>
+   </section></span>
+  <div class="CSPvNext " xmlns="http://www.w3.org/1999/xhtml">
+   <span class="page-data-sources"></span>
+   <div id="signtesting" style="display: none"></div>
+   <div id="frameContainer" style="display: none"></div> 
+   <script>/*<![CDATA[*/function createSilentAuthFrame(){var n=document.createElement("iframe");n.src="https://"+window.location.hostname+"/en-us/silentauth";n.style="display: none";window.mscc?mscc.hasConsent()&&document.getElementById("frameContainer").appendChild(n):document.getElementById("frameContainer").appendChild(n)}window.addEventListener?window.addEventListener("load",createSilentAuthFrame,!1):window.attachEvent?window.attachEvent("onload",createSilentAuthFrame):window.onload=createSilentAuthFrame/*]]>*/</script>
+   <script>/*<![CDATA[*/function MscomLoadOptions(){var t="",n=document.createElement("meta"),i;n.name="ms.auth";n.content=isUserSignedIn;document.head&&document.head.appendChild(n);i={meControlOptions:{rpData:{msaInfo:{signInUrl:mscomSignInUrl,signOutUrl:mscomSignOutUrl},aadInfo:{signInUrl:mscomSignInUrl,signOutUrl:mscomSignOutUrl}},userData:{idp:authenticationType==="RPS"?window.msCommonShell.SupportedAuthIdp.MSA:window.msCommonShell.SupportedAuthIdp.AAD,firstName:typeof aFirstName=="undefined"?"":aFirstName,lastName:typeof aLastName=="undefined"?"":aLastName,memberName:typeof aMemberName=="undefined"?"":aMemberName,cid:typeof aCid=="undefined"?"":aCid,authenticatedState:typeof aAuthenticatedState=="undefined"?window.msCommonShell.AuthState.NotSignedIn:aAuthenticatedState}},events:{onSearch:function(){},onEventLog:function(n){if(typeof ms!="undefined")switch(n){case"MeControl_SignIn":if(t!==""){var i="//microsoftwindows.112.2o7.net/b/ss/msstores1-cmstest-prod/1/H.24.4/",e=((1+Math.random())*65536|0).toString(16).substring(1),u=encodeURIComponent(window.location.pathname.toLowerCase()),o=e+"?ns=microsoftwindows%26pageName=sitemuse%26v1=sitemuse%26events=event2%26c2=ToReplacepth1%26v2=ToReplacepth2%26pe=lnk_o%26pev2=click_sitemuse%26c3=signInClick%26v3=signInClick%26c4=no%26v4=no",s=new Image(0,0);i=i+decodeURIComponent(o);i=i.replace("ToReplacepth1",u);i=i.replace("ToReplacepth2",u);s.src=i}break;case"MeControl_SignOutAll":if(t!==""){var r="//microsoftwindows.112.2o7.net/b/ss/msstores1-cmstest-prod/1/H.24.4/",h=((1+Math.random())*65536|0).toString(16).substring(1),f=encodeURIComponent(window.location.pathname.toLowerCase()),c=h+"?ns=microsoftwindows%26pageName=sitemuse%26v1=sitemuse%26events=event2%26c2=ToReplacepth1%26v2=ToReplacepth2%26pe=lnk_o%26pev2=click_sitemuse%26c3=signOutClick%26v3=signOutClick%26c4=no%26v4=no",l=new Image(0,0);r=r+decodeURIComponent(c);r=r.replace("ToReplacepth1",f);r=r.replace("ToReplacepth2",f);l.src=i}break;case"MeControl_DropdownReady":console.log($(".msame_Header_chev").text());$(".msame_Header_chev").length&&($(".msame_Header_chev").text()?$(".msame_Header_chev").html($(".msame_Header_chev").text()).show():$(".msame_Header_chev").hide())}}}};window.msCommonShell.load(i)}var isUserSignedIn="0",href=encodeURIComponent(location.href),authenticationType="",mscomSignInUrl="/en-us/signin.aspx",mscomSignOutUrl="/en-us/signout.aspx";window.msCommonShell?MscomLoadOptions():window.onShellReadyToLoad=function(){window.onShellReadyToLoad=null;MscomLoadOptions()}/*]]>*/</script>
+  </div>
+  <script>/*<![CDATA[*/function DecodeHTML(){$(".msame_Header_chev").length&&($(".msame_Header_chev").text()?$(".msame_Header_chev").html($(".msame_Header_chev").text()).show():$(".msame_Header_chev").hide())}function checkDecode(){DecodeHTML();$(".msame_Header_chev").unbind("DOMSubtreeModified",checkDecode);$(".msame_Header_chev").unbind("DOMNodeInserted",checkDecode)}$(document).ready(function(){var i=document.getElementById("cli_shellHeaderSearchInput"),t=$(i).attr("placeholder").match(/&#(\d+);/g),r=t&&t.length,n;if(r)for(n=0;n<r;n++)i.placeholder=i.placeholder.replace(t[n],String.fromCharCode(t[n].match(/\d+/)))});$(document).ready(DecodeHTML);$(window).load(DecodeHTML);$(window).resize(function(){$(".msame_Header_chev").bind("DOMSubtreeModified",checkDecode);$(".msame_Header_chev").bind("DOMNodeInserted",checkDecode)});var _elementFound=!1;$(document).bind("DOMSubtreeModified",function(){_elementFound||$(".msame_chev_uhf").length>0&&(DecodeHTML(),_elementFound=!0)})/*]]>*/</script>
+  <main id="maincontent" data-grid="container">
+   <div data-grid="col-12" class="m-rich-content-block">
+    <h1 class="c-heading-1">Microsoft Trademarks</h1>
+    <div id="Arbitration_Trademark_Lang">
+     <div class="c-select f-border f-scroll">
+      <select id="border" aria-label="Translate below paragraph"><option value="ar">العربية (Arabic)</option><option value="zh">中文 (Chinese (Simplified))</option><option value="en">English (English)</option><option value="fr">Français (French)</option><option value="de">Deutsch (German)</option><option value="hi">हिन्दी (Hindi)</option><option value="ja">日本語 (Japanese)</option><option value="ko">한국어 (Korean)</option><option value="ru">Русский язык (Russian)</option><option value="es">Español (Spanish)</option><option value="tr">Türkçe (Turkish)</option></select>
+     </div>
+     <div lang="ar" id="ar" class="Legal_ContentSwitch_Content" style="display:none">
+      <p class="c-paragraph-1"> في حالة عدم ظهور أي اسم أو شعار في هذه القائمة، فلا يُعد ذلك تنازلاً عن أية حقوق ملكية فكرية تحتفظ بها Microsoft Corporation أو إحدى الشركات التابعة لها في أي من المنتجات أو الميزات أو أسماء الخدمات أو الشعارات الخاصة بها. الرجاء الرجوع إلى&nbsp; <a target="_self" class="c-hyperlink" href="https://aka.ms/trademarks-usage">General Microsoft Trademark Guidelines</a> &nbsp;لمزيد من المعلومات حول الاستخدام الملائم لعلاماتنا التجارية. </p>
+     </div>
+     <div lang="zh" id="zh" class="Legal_ContentSwitch_Content" style="display:none">
+      <p class="c-paragraph-1"> 如果某个名称或徽标未出现在此列表中，并不表示 Microsoft Corporation 或其子公司放弃其在任何产品、功能或服务名称或徽标中已确定的任何及全部知识产权。请参阅 <a target="_self" class="c-hyperlink" href="https://aka.ms/trademarks-usage">General Microsoft Trademark Guidelines</a>（英文版），了解有关正确使用商标的详细信息。 </p>
+     </div>
+     <div lang="en" id="en" class="Legal_ContentSwitch_Content" style="display:none">
+      <p class="c-paragraph-1"> When referring to Microsoft trademarks and the names of Microsoft software, products, and services on packaging, promotional materials, advertising, websites, and other collateral, follow the <a target="_self" class="c-hyperlink" href="https://aka.ms/trademarks-usage">Microsoft Trademark &amp; Brand Guidelines</a>. These guidelines set the basic rules for using Microsoft trademarks and Microsoft software, product, and service names. </p>
+      <p class="c-paragraph-1"> To the extent a name or logo does not appear on the list below, this does not constitute a waiver of any and all intellectual property rights that Microsoft Corporation or its subsidiaries has established in any of its product, feature, or service names, or logos. </p>
+      <p class="c-paragraph-1"> If you have a question that falls outside the scope of the guidelines and information provided on this website, please consult your legal counsel. If you have a trademark question about an existing agreement or other business dealings with Microsoft, please contact your account manager or Microsoft business contact. </p>
+     </div>
+     <div lang="fr" id="fr" class="Legal_ContentSwitch_Content" style="display:none">
+      <p class="c-paragraph-1"> Si un nom ou un logo n'apparaît pas dans cette liste, cela ne constitue pas une renonciation à tout droit de propriété intellectuelle que Microsoft Corporation ou ses filiales possèdent sur tout nom ou logo de produit, fonctionnalité ou service. Pour plus de détails sur l'utilisation correcte de nos marques commerciales, reportez-vous à l'adresse <a target="_self" class="c-hyperlink" href="https://aka.ms/trademarks-usage">General Microsoft Trademark Guidelines</a>&nbsp;(en Anglais). </p>
+     </div>
+     <div lang="de" id="de" class="Legal_ContentSwitch_Content" style="display:none">
+      <p class="c-paragraph-1"> Insofern ein Name oder ein Logo nicht auf dieser Liste enthalten ist, stellt dies keinen Verzicht auf gewerbliche Schutzrechte/Urheberrechte dar, die Microsoft Corporation oder ihre Niederlassungen an ihren Produkten, Funktionen oder Dienstnamen oder Logos begründet haben. Weitere Informationen zur ordnungsgemäßen Verwendung unserer Marken finden Sie in den <a target="_self" class="c-hyperlink" href="https://aka.ms/trademarks-usage">Allgemeinen Microsoft-Markenrichtlinien</a>. </p>
+     </div>
+     <div lang="hi" id="hi" class="Legal_ContentSwitch_Content" style="display:none">
+      <p class="c-paragraph-1"> इस सूची में किसी नाम या लोगो का उल्लेख नहीं होने का आशय यह नहीं है कि वह Microsoft Corporationया इसके अनुषंगियों के किसी उत्पाद , सुविधा या सेवा के नाम या लोगो के लिए हासिल किए गए किसी और सभी बौद्धिक संपदा अधिकारों का हिस्सा नहीं है. &nbsp;ट्रेडमार्क के उचित उपयोग के संबंध में अधिक जानकारी के लिए कृपया <a target="_self" class="c-hyperlink" href="https://aka.ms/trademarks-usage">General Microsoft Trademark Guidelines</a> देखें. </p>
+     </div>
+     <div lang="ja" id="ja" class="Legal_ContentSwitch_Content" style="display:none">
+      <p class="c-paragraph-1"> 本リストに掲載されていない名称またはロゴについても、Microsoft Corporationのあらゆる製品、機能、サービス名称またはロゴに対して、 Microsoft Corporation またはその子会社が設定した知的財産権のすべてを放棄するものではありません。当社商標の適切な使用に関する詳細については、 <a target="_self" class="c-hyperlink" href="https://aka.ms/trademarks-usage">General Microsoft Trademark Guidelines</a> をご参照ください。 </p>
+     </div>
+     <div lang="ko" id="ko" class="Legal_ContentSwitch_Content" style="display:none">
+      <p class="c-paragraph-1"> 이름또는로고가이목록에표시되지않는다고해서 Microsoft Corporation 또는그자회사가특정해당제품 , 기능또는서비스이름또는로고에대해보유한특정또는모든지적재산권을포기한다고간주되는것은아닙니다 . Microsoft 상표의적절한사용법에대한자세한내용은 <a target="_self" class="c-hyperlink" href="https://www.microsoft.com/ko-kr/legal/intellectualproperty/trademarks/usage/default.aspx">Microsoft 일반 상표 지침</a> 을참조하십시오. </p>
+     </div>
+     <div lang="ru" id="ru" class="Legal_ContentSwitch_Content" style="display:none">
+      <p class="c-paragraph-1"> Отсутствие названия или эмблемы в данном списке не означает отказ от любых и всех прав на интеллектуальную собственность, принадлежащих корпорации Microsoft и ее дочерним организациям в отношении названия или эмблемы любого ее продукта, специальной возможности или услуги. Дополнительные сведения о надлежащем использовании товарных знаков Microsoft см. в <a target="_self" class="c-hyperlink" href="https://aka.ms/trademarks-usage">Общем руководстве по использованию товарных знаков Microsoft </a> (на английском языке). </p>
+     </div>
+     <div lang="es" id="es" class="Legal_ContentSwitch_Content" style="display:none">
+      <p class="c-paragraph-1"> El hecho de que un nombre o logotipo no aparezca en esta lista no constituye una renuncia de ningún derecho sobre la propiedad intelectual que Microsoft Corporation o sus subsidiarias hayan establecido en cualquiera de sus nombres de producto, de característica o de servicio, o logotipos. Consulte las <a target="_self" class="c-hyperlink" href="https://aka.ms/trademarks-usage">Instrucciones generales sobre marcas comerciales de Microsoft</a> para obtener más información relacionada con el uso adecuado de nuestras marcas comerciales. </p>
+     </div>
+     <div lang="tr" id="tr" class="Legal_ContentSwitch_Content" style="display:none">
+      <p class="c-paragraph-1"> Bir adın ya da logonun bu listede görülmemesi, Microsoft Corporation ya da bağlı kuruluşlarının herhangi bir ürünü, özelliği ya da hizmet adları ya da logoları üzerinde tesis ettikleri herhangi bir fikri mülkiyet hakkından feragat edildiği anlamına gelmez. Lütfen markalarımızın usulüne uygun kullanımı ile ilgili ayrıntılar için <a target="_self" class="c-hyperlink" href="https://aka.ms/trademarks-usage">Genel Microsoft Marka Kılavuzu</a>&nbsp;’na başvurun. </p>
+     </div>
+     <br>
+    </div>
+    <div data-grid="col-12 stack-2" class="rich-content-block" id="trademarkSection">
+     <div data-grid="col-3">
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer">0-9</button>
+        <ul hidden id="refine-drawer" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>343 Industries</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-A">A</button>
+        <ul hidden id="refine-drawer-A" class="c-list f-bare" aria-label="A" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Access</li>
+         <li> Access Launch Icon 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Access_Launch_Icon_2012_43_42.jpg?version=CC1481BF-1757-B450-8405-45767174E14D" class="mscom-image" alt="Access Launch Icon 2012"></li>
+         <li>Active Directory</li>
+         <li>ActiveX</li>
+         <li>Adera</li>
+         <li>Age of Empires</li>
+         <li>Age of Mythology</li>
+         <li>Aldhabi</li>
+         <li>AppLocker</li>
+         <li>Arc</li>
+         <li>Authenticode</li>
+         <li>Avatar Famestar</li>
+         <li>Azure</li>
+         <li> Azure Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Azure_Design_48_35.jpg?version=F113B9C8-5E8F-C502-F086-957358C58743" class="mscom-image" alt="Azure Design icon"></li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-B">B</button>
+        <ul hidden id="refine-drawer-B" class="c-list f-bare" aria-label="B" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Banjo-Kazooie</li>
+         <li>Banjo-Tooie</li>
+         <li>Bankshot Billiards</li>
+         <li>BigPark</li>
+         <li>Bing</li>
+         <li> Bing and Design 2013 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Bing_and_Design_2013_71_35.png?version=6B42B386-0AC1-904D-C585-D0A41560ABA0" class="mscom-image" alt="Bing and Design 2013 icon"></li>
+         <li> Bing Design 2013 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Bing_Design_2013_37_42.jpg?version=1AC7CF41-D031-C06A-A24D-D807DA6724B4" class="mscom-image" alt="Bing Design 2013 icon"></li>
+         <li> Bing Design 2016 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Bing_Design_2016_31_42.jpg?version=135D2AC8-5306-8DB8-D4B6-93B7E3D492C7" class="mscom-image" alt="Bing Design 2016 icon"></li>
+         <li>BitLocker</li>
+         <li>BitLocker To Go</li>
+         <li>BizSpark</li>
+         <li>BizTalk</li>
+         <li>Bloodforge</li>
+         <li>Blue Dragon</li>
+         <li>BlueTrack Technology</li>
+         <li> BlueTrack Technology Logo <br><img src="https://c.s-microsoft.com/en-us/CMSImages/BlueTrack_Technology_Logo_57_42.jpg?version=50798248-711A-D2AA-F89F-73268BA97AF9" class="mscom-image" alt="BlueTrack Technology Logo"></li>
+         <li>Bookdings</li>
+         <li>BranchCache</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-C">C</button>
+        <ul hidden id="refine-drawer-C" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Calibri</li>
+         <li>Cambria</li>
+         <li>Candara</li>
+         <li>ClearType</li>
+         <li>CodeLens</li>
+         <li>Comic Sans</li>
+         <li>Conker</li>
+         <li>ConnectR</li>
+         <li>Consolas</li>
+         <li>Constantia</li>
+         <li>Continuum</li>
+         <li>Convection</li>
+         <li>Corbel</li>
+         <li>Cortana</li>
+         <li> Cortana Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Cortana_Design_45_42.jpg?version=E774FCAD-9215-6DC2-BCC9-902EB7B0F8F6" class="mscom-image" alt="Cortana Design icon" title="Cortana Design icon"></li>
+         <li>Crackdown</li>
+         <li> Creeper Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Creeper_Design_42_40.jpg?version=A84CFF3C-6355-F27D-9401-1B4774E6637E" class="mscom-image" alt="Creeper Design icon" title="Creeper Design icon"></li>
+         <li>Crimson Alliance</li>
+         <li>Crimson Dragon</li>
+         <li> Crimson Omen Logo <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Crimson_Omen_Logo_37_42.jpg?version=954E1270-64F3-BF8A-883D-E82FB8E326FF" class="mscom-image" alt="Crimson Omen logo" title="Crimson Omen logo"></li>
+         <li>Crimson Skies</li>
+         <li>CURAH!</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-D">D</button>
+        <ul hidden id="refine-drawer-D" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Delve</li>
+         <li> Delve Launch Icon 2014 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Delve_Launch_Icon_2014_44_42.jpg?version=736B7EC3-0F48-6149-768B-521B89FED3C2" class="mscom-image" alt="Delve Launch Icon 2014" title="Delve Launch Icon 2014"></li>
+         <li>DeployR</li>
+         <li>DevelopR</li>
+         <li>Direct3D</li>
+         <li>DirectX</li>
+         <li>DistributedR</li>
+         <li>DreamSpark</li>
+         <li>Drivatar</li>
+         <li>Dynamics</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-E">E</button>
+        <ul hidden id="refine-drawer-E" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Engkoo</li>
+         <li>Every Street United</li>
+         <li>Excel</li>
+         <li> Excel Launch Icon 2010 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Excel_Launch_Icon_2010_38_37.jpg?version=FAEA4C29-3CEF-F27E-3F71-9C5C1293B4ED" class="mscom-image" alt="Excel Launch Icon 2010" title="Excel Launch Icon 2010"></li>
+         <li> Excel Launch Icon 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Excel_Launch_Icon_2012_44_42.jpg?version=4CA82BF0-8727-B955-EA2F-372C0566900A" class="mscom-image" alt="Excel Launch Icon 2012" title="Excel Launch Icon 2012"></li>
+         <li> Excel Launch Icon 2012 (color) <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Excel_Launch_Icon_2012_color_44_42.jpg.jpg?version=E56E649F-C175-7E0D-36DD-BA30EBAE9948" class="mscom-image" alt="Excel Launch Icon 2012 (color)" title="Excel Launch Icon 2012 (color)"></li>
+         <li> Exchange Launch Icon 2013 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Exchange_Launch_Icon_2013_42_42.jpg?version=132AA619-8C61-4B8E-532F-468D1595A2B3" class="mscom-image" alt="Exchange Launch Icon 2013" title="Exchange Launch Icon 2013"></li>
+         <li>ExpressRoute</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-F">F</button>
+        <ul hidden id="refine-drawer-F" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Fable</li>
+         <li>ForeFront</li>
+         <li>Forza Horizon</li>
+         <li>Forza Hub</li>
+         <li>Forza Motorsport</li>
+         <li> Forza Motorsport Logo <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Forza_Motorsport_Logo_57_42.jpg?version=7C9930F6-AF02-9E6E-C41F-94C4F152E5CC" class="mscom-image" alt="Forza Motorsport logo" title="Forza Motorsport logo"></li>
+         <li>Forzavista</li>
+         <li>Forzatech</li>
+         <li>Fusion Genesis</li>
+         <li>Fusion Sentient</li>
+         <li>Fuzion Frenzy</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-G">G</button>
+        <ul hidden id="refine-drawer-G" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Gabriola</li>
+         <li>Gadugi</li>
+         <li>Game with Fame</li>
+         <li>Gears of War</li>
+         <li>Georgia</li>
+         <li>GigJam</li>
+         <li>Gisha</li>
+         <li>Good Science</li>
+         <li>Grabbed by the Ghoulies</li>
+         <li>Groove</li>
+         <li> Groove Design 2015 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Groove_Design_2015_36_38.jpg?version=8C9F14F0-9300-E423-2B43-BDFA70B14BAD" class="mscom-image" alt="Groove Design 2015 icon" title="Groove Design 2015 icon"></li>
+         <li>GroupMe</li>
+         <li> GroupMe and Design (color) <br><img src="https://c.s-microsoft.com/en-us/CMSImages/GroupMe_and_Design_color_72_20.png?version=0C5098FD-9955-DBB6-39C9-DFC38147DED0" class="mscom-image" alt="GroupMe and Design (color) icon" title="GroupMe and Design (color) icon"></li>
+         <li> GroupMe Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/GroupMe_Design_38_42.jpg?version=D55626EC-A297-28C3-77F2-07CBC800E409" class="mscom-image" alt="GroupMe Design icon" title="GroupMe Design icon"></li>
+         <li>Gunpowder</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-H">H</button>
+        <ul hidden id="refine-drawer-H" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Halo</li>
+         <li> Halo Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Halo_Design_72_37.jpg?version=4B27BF2B-3567-834F-F82A-262303D4F7F5" class="mscom-image" alt="Halo Design icon" title="Halo Design icon"></li>
+         <li>Halo Reach</li>
+         <li>Halo Spartan Assault</li>
+         <li>Halo Wars</li>
+         <li>Halo Waypoint</li>
+         <li>Haunt</li>
+         <li>HDInsight</li>
+         <li>HealthVault</li>
+         <li> HealthVault Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/HealthVault_Design_42_42.png?version=8CC5B544-D18D-78E7-9829-C1AA24206B90" class="mscom-image" alt="HealthVault Design icon" title="HealthVault Design icon"></li>
+         <li>Hexic</li>
+         <li>HoloLens</li>
+         <li>Hyper-V</li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div data-grid="col-1-8"></div>
+     <div data-grid="col-3">
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-I">I</button>
+        <ul hidden id="refine-drawer-I" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Infinite Undiscovery</li>
+         <li>InfoPath</li>
+         <li> InfoPath Launch Icon 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/InfoPath_Launch_Icon_2012_43_42.jpg?version=382FF763-F42A-C3F0-50B6-E6005DB79B3A" class="mscom-image" alt="InfoPath Launch Icon 2012" title="InfoPath Launch Icon 2012"></li>
+         <li>Inkseine</li>
+         <li>InPrivate</li>
+         <li>Instaload</li>
+         <li>IntelliMirror</li>
+         <li>IntelliSense</li>
+         <li>IntelliTrace</li>
+         <li>InterFlow</li>
+         <li>Internet Explorer</li>
+         <li> Internet Explorer Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Internet_Explorer_Design_49_42.png?version=B4CBCBDC-6677-AE47-7099-65B2844B2B27" class="mscom-image" alt="Internet Explorer Design icon" title="Internet Explorer Design icon"></li>
+         <li>Iron Brigade</li>
+         <li>Iskoola Pota</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-J">J</button>
+        <ul hidden id="refine-drawer-J" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Joanna Dark</li>
+         <li>JScript</li>
+         <li>Jump Ahead</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-K">K</button>
+        <ul hidden id="refine-drawer-K" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Kameo</li>
+         <li>Killer Instinct</li>
+         <li> Killer Instinct Logo <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Killer_Instinct_Logo_36_42.png?version=331DC828-06F1-83F1-2438-2110536CA320" class="mscom-image" alt="Killer Instinct logo" title="Killer Instinct logo"></li>
+         <li>Kinect</li>
+         <li>Kinectimals</li>
+         <li>Kodu</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-L">L</button>
+        <ul hidden id="refine-drawer-L" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>LifeCam Cinema</li>
+         <li>LifeCam Show</li>
+         <li>LifeCam Studio</li>
+         <li>LifeChat</li>
+         <li>Lift London</li>
+         <li>LightSwitch</li>
+         <li>Lionhead</li>
+         <li> Lionhead Logo <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Lionhead_Logo_39_42.jpg?version=C3398796-D24B-10E7-A092-1CC2D70F03FB" class="mscom-image" alt="Lionhead logo" title="Lionhead logo"></li>
+         <li>Lips</li>
+         <li>Locust</li>
+         <li>Lost Odyssey</li>
+         <li>Lumia</li>
+         <li>Lync</li>
+         <li> Lync Launch Icon 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Lync_Launch_Icon_2012_44_42.jpg?version=965000C7-0C29-9766-C2B1-C67D2C495CBB" class="mscom-image" alt="Lync Launch Icon 2012" title="Lync Launch Icon 2012"></li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-M">M</button>
+        <ul hidden id="refine-drawer-M" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>MapPoint</li>
+         <li>Marcus Fenix</li>
+         <li>Marlow Briggs</li>
+         <li>Master Chief</li>
+         <li>Max &amp; The Magic Marker</li>
+         <li>Max: The Curse of Brotherhood</li>
+         <li>Meiryo</li>
+         <li>MechWarrior</li>
+         <li>Microsoft</li>
+         <li> Microsoft Corporate Logo <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Microsoft_Corporate_Logo_43_42.jpg?version=77D1E093-019E-5C72-083F-4DF9BF1362F5" class="mscom-image" alt="Microsoft Corporate logo" title="Microsoft Corporate logo"></li>
+         <li> Microsoft Corporate Composite Logo <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Microsoft_Corporate_Composite_Logo_72_15.jpg?version=AF7B274D-774B-0DCF-9FF8-6B1184D482DD" class="mscom-image" alt="Microsoft Corporate Composite logo" title="Microsoft Corporate Composite logo"></li>
+         <li>Microsoft Dynamics</li>
+         <li> Microsoft Dynamics Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Microsoft_Dynamics_Design_46_42.jpg?version=92D51492-C5B2-6CAC-6124-7760A53680E0" class="mscom-image" alt="Microsoft Dynamics Design icon" title="Microsoft Dynamics Design icon"></li>
+         <li> Microsoft Dynamics CRM Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Microsoft_Dynamics_CRM_Design_40_42.jpg?version=291B3B6C-CF95-259C-E8E6-60F3E9AFC461" class="mscom-image" alt="Microsoft Dynamics CRM Design icon" title="Microsoft Dynamics CRM Design icon"></li>
+         <li> Microsoft Dynamics Marketing Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Microsoft_Dynamics_Marketing_Design_43_44.jpg?version=E5F3B62B-88D3-90B2-B7EB-98182E4BE8A1" class="mscom-image" alt="Microsoft Dynamics Marketing Design icon" title="Microsoft Dynamics Marketing Design icon"></li>
+         <li> Microsoft Dynamics Social Listening Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Microsoft_Dynamics_Social_Listening_Design_42_44.jpg?version=6961AF87-C4FD-23FD-096C-F05ACA273653" class="mscom-image" alt="Microsoft Dynamics Social Listening Design icon" title="Microsoft Dynamics Social Listening Design icon"></li>
+         <li>Microsoft Edge</li>
+         <li> Microsoft Edge Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Microsoft_Edge_Design_43_42.jpg?version=C76D3BC0-78BE-C547-0050-A7C1E2772A44" class="mscom-image" alt="Microsoft Edge Design icon" title="Microsoft Edge Design icon"></li>
+         <li>Microsoft Envision</li>
+         <li>Microsoft Ignite</li>
+         <li> Microsoft Imagine Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Microsoft_Imagine_Design_72_19.jpg?version=41447814-0484-17E3-5B3D-A299D99F216C" class="mscom-image" alt="Microsoft Imagine Design icon" title="Microsoft Imagine Design icon"></li>
+         <li>Microsoft Intune</li>
+         <li> Microsoft Intune Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Microsoft_Intune_Design_48_40.jpg?version=0450C22E-8890-63B0-694E-EC6CB6D35EC4" class="mscom-image" alt="Microsoft Intune Design icon" title="Microsoft Intune Design icon"></li>
+         <li> Microsoft Partner Network Logo <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Microsoft_Partner_Network_Logo_45_40.jpg?version=FC69D3FA-BD23-C492-8E0A-A777256A207E" class="mscom-image" alt="Microsoft Partner Network logo" title="Microsoft Partner Network logo"></li>
+         <li>Microsoft Passport</li>
+         <li>Microsoft Press</li>
+         <li>Midtown Madness</li>
+         <li>Minecraft</li>
+         <li> Minecraft (stylized) <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Minecraft_stylized_88_20.jpg?version=E272124D-5A4E-F1D2-B67B-951FE8F4F274" class="mscom-image" alt="Minecraft (stylized) logo" title="Minecraft (stylized) logo"></li>
+         <li>Minecraft Realms</li>
+         <li>Minecon</li>
+         <li>MLX</li>
+         <li>Mojang</li>
+         <li> Mojang Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Mojang_Design_41_39.jpg?version=027DEE86-4B6F-EB44-07FB-907AFC250EFE" class="mscom-image" alt="Mojang Design icon" title="Mojang Design icon"></li>
+         <li>Moolboran</li>
+         <li>Monsters Love Candy</li>
+         <li>Mozaki</li>
+         <li>MSDN</li>
+         <li>MSN</li>
+         <li> MSN Butterfly Design 2015 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/MSN_Butterfly_Design_2015_27_46.jpg?version=3DF9CD67-F7EC-14ED-6A91-B54D3BCBD8A0" class="mscom-image" alt="MSN Butterfly Design 2015 icon" title="MSN Butterfly Design 2015 icon"></li>
+         <li> MSN Butterfly Design 2010 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/MSN_Butterfly_Design_2010_32_42.jpg?version=5A38BD3F-387A-7181-BA42-99471EFA91F2" class="mscom-image" alt="MSN Butterfly Design 2010 icon" title="MSN Butterfly Design 2010 icon"></li>
+         <li>MultiPoint</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-N">N</button>
+        <ul hidden id="refine-drawer-N" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Natural</li>
+         <li>NavReady</li>
+         <li>Nina</li>
+         <li>Ninety-Nine Nights</li>
+         <li>Nirmala</li>
+         <li>Nuads</li>
+         <li>Nyala</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-O">O</button>
+        <ul hidden id="refine-drawer-O" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li> Office 2010 Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Office_2010_Design_38_41.jpg?version=4AA06350-0029-5965-423E-8F595D0D708A" class="mscom-image" alt="Office 2010 Design icon" title="Office 2010 Design icon"></li>
+         <li> Office 2012 Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Office_2012_Design_35_42.jpg?version=ABB84E4B-7AE6-E816-9A50-A166A4961291" class="mscom-image" alt="Office 2012 Design icon" title="Office 2012 Design icon"></li>
+         <li> Office with Office 2012 Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Office_with_Office_2012_Design_68_31.png?version=29F6D2C5-B2C3-6554-3DC6-3A13F8D5E17D" class="mscom-image" alt="Office with Office 2012 Design icon" title="Office with Office 2012 Design icon"></li>
+         <li>Office 365</li>
+         <li>OneDrive</li>
+         <li> OneDrive Design 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/OneDrive_Design_2012_69_42.png?version=4CD06ACE-81EC-8969-A646-3AC69DF63AF6" class="mscom-image" alt="OneDrive Design 2012 icon" title="OneDrive Design 2012 icon"></li>
+         <li>OneGuide</li>
+         <li>OneNote</li>
+         <li> OneNote Launch Icon 2010 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/OneNote_Launch_Icon_2010_43_42.jpg?version=56699DDD-7963-FB1D-F0E5-6750E446EDB5" class="mscom-image" alt="OneNote Launch Icon 2010" title="OneNote Launch Icon 2010"></li>
+         <li> OneNote Launch Icon 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/OneNote_Launch_Icon_2012_43_42.jpg?version=A61AB955-4EA4-97A3-BE27-DF667B0CDB51" class="mscom-image" alt="OneNote Launch Icon 2012" title="OneNote Launch Icon 2012"></li>
+         <li>OpenType</li>
+         <li>Ori and the Blink Forest</li>
+         <li>Outlook</li>
+         <li> Outlook Launch Icon 2010 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Outlook_Launch_Icon_2010_43_42.jpg?version=B56579BF-EB8F-2527-BDB9-8C370AEA8887" class="mscom-image" alt="Outlook Launch Icon 2010" title="Outlook Launch Icon 2010"></li>
+         <li> Outlook Launch Icon 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Outlook_Launch_Icon_2012_44_42.jpg?version=8AED1919-315F-18A6-E0F6-0BE2F1F4854B" class="mscom-image" alt="Outlook Launch Icon 2012" title="Outlook Launch Icon 2012"></li>
+         <li> Outlook Launch Icon 2012 (color) <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Outlook_Launch_Icon_2012_color_41_38.jpg?version=40A0A688-30AF-4CC9-FCC6-9DEAB58A6359" class="mscom-image" alt="Outlook Launch Icon 2012 (color)" title="Outlook Launch Icon 2012 (color)"></li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-P">P</button>
+        <ul hidden id="refine-drawer-P" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>ParallelR</li>
+         <li>Perfect Dark</li>
+         <li>Perfect Dark Zero</li>
+         <li>PGR</li>
+         <li>Phantom Dust</li>
+         <li>PhotoDNA</li>
+         <li>Pinpoint</li>
+         <li>PixelSense</li>
+         <li>PlayReady</li>
+         <li>PowerApps</li>
+         <li> PowerApps Launch Icon 2016 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/PowerApps_Launch_Icon_2016_36_36.jpg?version=BDDDD0D5-67A9-EDE3-80A4-B824FD459889" class="mscom-image" alt="PowerApps Launch Icon 2016" title="PowerApps Launch Icon 2016"></li>
+         <li>PowerPoint</li>
+         <li> PowerPoint Launch Icon 2010 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/PowerPoint_Launch_Icon_2010_38_37.jpg?version=F67C4432-5E5A-E75A-27F0-CAF84F44F0DB" class="mscom-image" alt="PowerPoint Launch Icon 2010" title="PowerPoint Launch Icon 2010"></li>
+         <li> PowerPoint Launch Icon 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/PowerPoint_Launch_Icon_2012_43_42.jpg?version=968FE505-70A6-F763-98B8-9D5A7C64B9DF" class="mscom-image" alt="PowerPoint Launch Icon 2012" title="PowerPoint Launch Icon 2012"></li>
+         <li> PowerPoint Launch Icon 2012 (color) <br><img src="https://c.s-microsoft.com/en-us/CMSImages/PowerPoint_Launch_Icon_2012_color_41_39.jpg?version=3BF8401A-D284-8B80-8172-98C5C818FD73" class="mscom-image" alt="PowerPoint Launch Icon 2012 (color)" title="PowerPoint Launch Icon 2012 (color)"></li>
+         <li>PowerShell</li>
+         <li>Power BI</li>
+         <li> Power BI Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Power_BI_Design_42_39.jpg?version=22DE7B74-65D4-B489-30C2-83011F978FA9" class="mscom-image" alt="Power BI Design icon" title="Power BI Design icon"></li>
+         <li> Press Play Logo <br><img src="https://c.s-microsoft.com/en-us/CMSImagesPress_Play_Logo_53_42.png?version=FA34F8EF-B867-A7FA-E5C3-FB523AD75AC0" class="mscom-image" alt="Press Play logo" title="Press Play logo"></li>
+         <li>Project Gotham Racing</li>
+         <li> Project Launch Icon 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Project_Launch_Icon_2012_43_42.jpg?version=FBC0F553-F488-7CC8-427B-8E4D215DF0B8" class="mscom-image" alt="Project Launch Icon 2012" title="Project Launch Icon 2012"></li>
+         <li>Project Spark</li>
+         <li> Publisher Launch Icon 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Publisher_Launch_Icon_2012_43_42.jpg?version=7D4D6F6A-64DF-F256-83E9-8AFAE717FF83" class="mscom-image" alt="Publisher Launch Icon 2012" title="Publisher Launch Icon 2012"></li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-Q">Q</button>
+        <ul hidden id="refine-drawer-Q" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Quantum Break</li>
+        </ul>
+       </div>
+      </div>
+     </div>
+     <div data-grid="col-1-8"></div>
+     <div data-grid="col-3">
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-R">R</button>
+        <ul hidden id="refine-drawer-R" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Rare</li>
+         <li> Rare Logo <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Rare_Logo_39_42.jpg?version=E28F9EC3-6469-15A6-4D1B-7A543A892688" class="mscom-image" alt="Rare logo" title="Rare logo"></li>
+         <li>ReCore</li>
+         <li>RemoteFX</li>
+         <li>Revolution</li>
+         <li>Rise of Legends</li>
+         <li>Rise of Nations</li>
+         <li>RoundTable</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-S">S</button>
+        <ul hidden id="refine-drawer-S" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Scalebound</li>
+         <li>ScaleR</li>
+         <li>Sculpt</li>
+         <li>Sea of Thieves</li>
+         <li>Segoe</li>
+         <li>Selawik</li>
+         <li> Server Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Server_Design_38_42.jpg?version=48CDBB0F-D879-12B5-CC92-5EC30C70BA53" class="mscom-image" alt="Server Design icon" title="Server Design icon"></li>
+         <li>Shadowrun</li>
+         <li>SharePoint</li>
+         <li> SharePoint Launch Icon 2010 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/SharePoint_Launch_Icon_2010_39_38.jpg?version=4784DC4D-FC31-6EF2-A6A4-FCF14C030309" class="mscom-image" alt="SharePoint Launch Icon 2010" title="SharePoint Launch Icon 2010"></li>
+         <li> SharePoint Launch Icon 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/SharePoint_Launch_Icon_2012_43_42.jpg?version=C7407125-8425-7AE7-FCBF-3D071E3D896B" class="mscom-image" alt="SharePoint Launch Icon 2012" title="SharePoint Launch Icon 2012"></li>
+         <li>Silverlight</li>
+         <li> Silverlight Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Silverlight_Design_44_42.jpg?version=23D979DD-6CF4-6F98-B83A-086EE1E46A2E" class="mscom-image" alt="Silverlight Design icon" title="Silverlight Design icon"></li>
+         <li>Skype</li>
+         <li> Skype "S" Design (color) <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Skype_S_Design_color_52_42.jpg?version=E8DDF344-5BDE-EEB0-818C-F0BED50D6956" class="mscom-image" alt="Skype &quot;S&quot; Design (color) icon" title="Skype &quot;S&quot; Design (color) icon"></li>
+         <li> Skype Design (color) <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Skype_Design_color_72_30.jpg?version=B884CAEE-A271-468E-74C6-30FCB5D836E6" class="mscom-image" alt="Skype Design (color) icon" title="Skype Design (color) icon"></li>
+         <li> Skype "S" Design (B/W) <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Skype_S_Design_BW_42_42.png?version=8B7BC306-F5F4-9CF2-2C0D-CF1421706A6E" class="mscom-image" alt="Skype &quot;S&quot; Design (B/W) icon" title="Skype &quot;S&quot; Design (B/W) icon"></li>
+         <li> Skype Certified and Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Skype_Certified_and_Design_65_42.jpg?version=049C47B6-111B-FA32-1336-92D2F1D28ADF" class="mscom-image" alt="Skype Certified and Design icon" title="Skype Certified and Design icon"></li>
+         <li>Skype Manager</li>
+         <li>Skype Prime</li>
+         <li>Skype Pro</li>
+         <li>SmartGlass</li>
+         <li>SmartScreen</li>
+         <li>Snap Attack</li>
+         <li>Songsmith</li>
+         <li>SQL Server</li>
+         <li>Start Here!</li>
+         <li>State of Decay</li>
+         <li>StorScore</li>
+         <li>StorSimple</li>
+         <li>StreetSide</li>
+         <li>Surface</li>
+         <li>Surface Hub</li>
+         <li>Sway</li>
+         <li> Sway Launch Icon 2014 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Sway_Launch_Icon_2014_49_42.jpg?version=25A524E3-46B9-6759-447E-F8FFC9511BE4" class="mscom-image" alt="Sway Launch Icon 2014" title="Sway Launch Icon 2014"></li>
+         <li>Swiftkey</li>
+         <li>SyncToy</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-T">T</button>
+        <ul hidden id="refine-drawer-T" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Tablix</li>
+         <li>Tahoma</li>
+         <li>Tailgaming</li>
+         <li> Team Dakota Logo <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Team_Dakota_Logo_24_42.jpg?version=4B892C85-E720-0E4B-1F0B-C540549ED10D" class="mscom-image" alt="Team Dakota logo" title="Team Dakota logo"></li>
+         <li>Tentacles: Enter the Mind</li>
+         <li>The Coalition</li>
+         <li> The Coalition Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/The_Coalition_Design_49_42.jpg?version=50C7347E-616F-8C70-860A-288449E6C015" class="mscom-image" alt="The Coalition Design icon" title="The Coalition Design icon"></li>
+         <li>Trebuchet</li>
+         <li> TrueColor Logo <br><img src="https://c.s-microsoft.com/en-us/CMSImages/TrueColor_Logo_72_12.jpg?version=58B055A6-FDD8-6F69-A69A-96D1041C274E" class="mscom-image" alt="TrueColor logo" title="TrueColor logo"></li>
+         <li>TrueSkill</li>
+         <li>Turn 10</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-U">U</button>
+        <ul hidden id="refine-drawer-U" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>U-SQL</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-V">V</button>
+        <ul hidden id="refine-drawer-V" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Verdana</li>
+         <li>Visio</li>
+         <li> Visio Launch Icon 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Visio_Launch_Icon_2012_43_42.jpg?version=EB78B067-EB9F-EC4D-7358-969E0192CD6F" class="mscom-image" alt="Visio Launch Icon 2012" title="Visio Launch Icon 2012"></li>
+         <li>Visual Basic</li>
+         <li>Visual C++</li>
+         <li>Visual C#</li>
+         <li>VISUAL F#</li>
+         <li>Visual J++</li>
+         <li>Visual J#</li>
+         <li>Visual Studio</li>
+         <li> Visual Studio Design 2010 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Visual_Studio_Design_2010_72_37.jpg?version=AA83E257-7F51-2BE4-CCC1-91947FCE2183" class="mscom-image" alt="Visual Studio Design 2010 icon" title="Visual Studio Design 2010 icon"></li>
+         <li> Visual Studio Design 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Visual_Studio_Design_2012_43_42.jpg?version=689B408D-C6B8-B342-E806-F204E9827B78" class="mscom-image" alt="Visual Studio Design 2012 icon" title="Visual Studio Design 2012 icon"></li>
+         <li>Viva Piñata</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-W">W</button>
+        <ul hidden id="refine-drawer-W" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Webdings</li>
+         <li>WebGrease</li>
+         <li>WebMatrix</li>
+         <li>WebsiteSpark</li>
+         <li>Wedge</li>
+         <li>Windows</li>
+         <li>Windows 365</li>
+         <li>Windows Azure</li>
+         <li>Windows Hello</li>
+         <li>Windows lnk</li>
+         <li>Windows Intune</li>
+         <li> Windows Design 2001 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Windows_Design_2001_53_42.jpg?version=EA884620-25FC-8A1A-FDBE-33B43A6B67C0" class="mscom-image" alt="Windows Design 2001 icon" title="Windows Design 2001 icon"></li>
+         <li> Windows Design 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Windows_Design_2012_44_42.png?version=AC9AD1DE-678F-748F-99B2-42D7D560B3DD" class="mscom-image" alt="Windows Design 2012 icon" title="Windows Design 2012 icon"></li>
+         <li>Windows Media</li>
+         <li> Windows Media Player Icon <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Windows_Media_Player_Icon_44_42.jpg?version=ED7C2BB9-7446-21D1-BE00-4FA07B605B29" class="mscom-image" alt="Windows Media Player Icon" title="Windows Media Player Icon"></li>
+         <li>Windows Mobile</li>
+         <li>Windows Phone</li>
+         <li>Windows PowerShell</li>
+         <li>Windows Server</li>
+         <li> Windows Store Tile <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Windows_Store_Tile_43_42.jpg?version=798DA1BF-8B06-0075-565E-EF81BBAA2F91" class="mscom-image" alt="Windows Store Tile icon" title="Windows Store Tile icon"></li>
+         <li>Windows Vista</li>
+         <li>Wingdings</li>
+         <li> Word Launch Icon 2010 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Word_Launch_Icon_2010_44_42.jpg?version=772547B9-96C5-28D7-CE3D-1F6B0115627B" class="mscom-image" alt="Word Launch Icon 2010" title="Word Launch Icon 2010"></li>
+         <li> Word Launch Icon 2012 <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Word_Launch_Icon_2012_45_42.jpg?version=81658F04-896C-525A-20D3-8467468A0A84" class="mscom-image" alt="Word Launch Icon 2012" title="Word Launch Icon 2012"></li>
+         <li>Wordament</li>
+         <li>Wreckateer</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-X">X</button>
+        <ul hidden id="refine-drawer-X" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Xamarin</li>
+         <li>Xbox</li>
+         <li>Xbox 360</li>
+         <li> Xbox Authentic Product Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Xbox_Authentic_Product_Design_44_42.jpg?version=263E3E3D-D78C-C446-1ADB-D98AE10B87DB" class="mscom-image" alt="Xbox Authentic Product Design icon" title="Xbox Authentic Product Design icon"></li>
+         <li>Xbox Live</li>
+         <li>Xbox One</li>
+         <li>Xbox Smartglass</li>
+         <li> Xbox "Sphere" Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Xbox_Sphere_Design_50_34.jpg?version=CDF60CE1-C4EF-4B6A-B55D-20307CA94279" class="mscom-image" alt="Xbox &quot;Sphere&quot; Design icon" title="Xbox &quot;Sphere&quot; Design icon"></li>
+         <li> Xbox "X" Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Xbox_X_Design_46_38.jpg?version=D766DD93-2D74-AC65-4E30-32C60C40C9A6" class="mscom-image" alt="Xbox &quot;X&quot; Design icon" title="Xbox &quot;X&quot; Design icon"></li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-Y">Y</button>
+        <ul hidden id="refine-drawer-Y" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Yahei</li>
+         <li>Yammer</li>
+         <li> Yammer "Y" Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Yammer_Y_Design_43_42.jpg?version=93058CE2-D8CD-E7B2-2C7C-26E84D2E9525" class="mscom-image" alt="Yammer &quot;Y&quot; Design icon" title="Yammer &quot;Y&quot; Design icon"></li>
+         <li> Yammer and Design <br><img src="https://c.s-microsoft.com/en-us/CMSImages/Yammer_and_Design_72_15.jpg?version=EB1405DE-F92B-828D-76A4-65B4FD7DB863" class="mscom-image" alt="Yammer and Design icon" title="Yammer and Design icon"></li>
+         <li>YouthSpark</li>
+        </ul>
+       </div>
+      </div>
+      <div data-cols="1" data-view1="1" data-view2="1" data-view3="1" data-view4="1" class="row-fluid">
+       <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1 c-drawer f-divider">
+        <button class="c-glyph" aria-expanded="false" aria-controls="refine-drawer-Z">Z</button>
+        <ul hidden id="refine-drawer-Z" class="c-list f-bare" aria-label="#" data-js-select-type="multi-select" aria-hidden="true" style="height: 0px; overflow: hidden;">
+         <li>Zoo Tycoon</li>
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <script>/*<![CDATA[*/function legalSwitchContent_MWF(n,t){var i=$("#"+n);i.find(".Legal_ContentSwitch_Content").hide();t!=""&&i.find("#"+t).show();i.delegate("li.c-menu-item","click",function(){i.find(".Legal_ContentSwitch_Content").hide();var n=$(this).attr("id").indexOf("-"),t=$(this).attr("id").substring(n+1);i.find("#"+t).show()});i.delegate("li.c-menu-item","keydown",function(n){if(n.keyCode==13){i.find(".Legal_ContentSwitch_Content").hide();var t=$(this).attr("id").indexOf("-"),r=$(this).attr("id").substring(t+1);i.find("#"+r).show()}})}$(function(){legalSwitchContent_MWF("Arbitration_Trademark_Lang","en")})/*]]>*/</script>
+  </main>
+  <span>
+   <section id="footerArea" data-m="{&quot;cN&quot;:&quot;footerArea&quot;,&quot;cT&quot;:&quot;Area_coreuiArea&quot;,&quot;id&quot;:&quot;a2Body&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;Body&quot;}">
+    <div id="footerRegion" data-region-key="footerregion" data-m="{&quot;cN&quot;:&quot;footerRegion&quot;,&quot;cT&quot;:&quot;Region_coreui-region&quot;,&quot;id&quot;:&quot;r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;a2&quot;}">
+     <div id="footerUniversalFooter" data-m="{&quot;cN&quot;:&quot;footerUniversalFooter&quot;,&quot;cT&quot;:&quot;Module_coreui-universalfooter&quot;,&quot;id&quot;:&quot;m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;r1a2&quot;}" data-module-id="Category|footerRegion|footerRegion|footerUniversalFooter|coreui-universalfooter">
+      <footer id="uhf-footer" role="contentinfo" class="c-uhff context-uhf" data-uhf-mscc-rq="false" data-footer-footprint="en-us/MSLegal/MSLegalFooter" data-m="{&quot;cN&quot;:&quot;Uhf footer_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;m1r1a2&quot;}">
+       <nav class="c-uhff-nav" role="navigation" aria-label="Footer" data-m="{&quot;cN&quot;:&quot;Footer nav_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1m1r1a2&quot;}">
+        <div class="c-uhff-nav-row">
+         <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn1_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+          <h4 class="c-heading-4">What's new</h4>
+          <ul class="c-list f-bare">
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/surface/devices/surface-book-2/overview" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_SurfaceBook2_nav&quot;,&quot;id&quot;:&quot;n1c1c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Surface Book 2</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/surface/devices/surface-pro/overview" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_NewSurfacePro_nav&quot;,&quot;id&quot;:&quot;n2c1c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Surface Pro</a></li>
+           <li><a class="c-uhff-link" href="https://www.xbox.com/en-us/xbox-one-x" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_XboxOneX_nav&quot;,&quot;id&quot;:&quot;n3c1c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Xbox One X</a></li>
+           <li><a class="c-uhff-link" href="https://www.xbox.com/en-us/xbox-one-s?xr=shellnav" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_XboxOneS_nav&quot;,&quot;id&quot;:&quot;n4c1c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Xbox One S</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/virtualreality" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_VRandMixedReality_nav&quot;,&quot;id&quot;:&quot;n5c1c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">VR &amp; mixed reality</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/windows/windows-10-apps" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_Windows_10_apps_nav&quot;,&quot;id&quot;:&quot;n6c1c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Windows 10 apps</a></li>
+           <li><a class="c-uhff-link" href="https://store.office.com/en-us/appshome.aspx?" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_OfficeApps_nav&quot;,&quot;id&quot;:&quot;n7c1c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Office apps</a></li>
+          </ul>
+         </div>
+         <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn2_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+          <h4 class="c-heading-4">Store &amp; Support</h4>
+          <ul class="c-list f-bare">
+           <li><a class="c-uhff-link" href="https://account.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_AccountProfile_nav&quot;,&quot;id&quot;:&quot;n1c2c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Account profile</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/download" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_DownloadCenter_nav&quot;,&quot;id&quot;:&quot;n2c2c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Download Center</a></li>
+           <li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/p/?LinkID=824761&amp;clcid=0x409" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_SalesAndSupport_nav&quot;,&quot;id&quot;:&quot;n3c2c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Sales &amp; support</a></li>
+           <li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/p/?LinkID=824764&amp;clcid=0x409" data-m="{&quot;cN&quot;:&quot;MicrosoftStore_ExtendedHolidayReturns_nav&quot;,&quot;id&quot;:&quot;n4c2c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Returns</a></li>
+           <li><a class="c-uhff-link" href="https://account.microsoft.com/orders" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_OrderTracking_nav&quot;,&quot;id&quot;:&quot;n5c2c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Order tracking</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/locations/find-a-store" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_StoreLocations_nav&quot;,&quot;id&quot;:&quot;n6c2c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Store locations</a></li>
+           <li><a class="c-uhff-link" href="https://support.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_Support_nav&quot;,&quot;id&quot;:&quot;n7c2c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Support</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/buy-online-pick-up-in-store?icid=uhf_footer_bopuis" data-m="{&quot;cN&quot;:&quot;StoreandSupport_BuyOnlinePickUpInStore_nav&quot;,&quot;id&quot;:&quot;n8c2c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Buy online, pick up in store</a></li>
+          </ul>
+         </div>
+         <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn3_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+          <h4 class="c-heading-4">Education</h4>
+          <ul class="c-list f-bare">
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/education" data-m="{&quot;cN&quot;:&quot;Footer_Education_MicrosoftInEducation_nav&quot;,&quot;id&quot;:&quot;n1c3c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Microsoft in education</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/education/products/office/default.aspx" data-m="{&quot;cN&quot;:&quot;Footer_Education_OfficeForStudents_nav&quot;,&quot;id&quot;:&quot;n2c3c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Office for students</a></li>
+           <li><a class="c-uhff-link" href="https://products.office.com/en-us/academic/compare-office-365-education-plans" data-m="{&quot;cN&quot;:&quot;Footer_Education_Office365ForSchools_nav&quot;,&quot;id&quot;:&quot;n3c3c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Office 365 for schools</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/student" data-m="{&quot;cN&quot;:&quot;Footer_Education_DealsForStudentsandEducators_nav&quot;,&quot;id&quot;:&quot;n4c3c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Deals for students &amp; educators </a></li>
+           <li><a class="c-uhff-link" href="https://azure.microsoft.com/en-us/community/education/" data-m="{&quot;cN&quot;:&quot;Footer_MicrosoftAzureInEducation_nav&quot;,&quot;id&quot;:&quot;n5c3c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Microsoft Azure in education</a></li>
+          </ul>
+         </div>
+        </div>
+        <div class="c-uhff-nav-row">
+         <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn4_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+          <h4 class="c-heading-4">Enterprise</h4>
+          <ul class="c-list f-bare">
+           <li><a class="c-uhff-link" href="https://azure.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_MicrosoftAzure_nav&quot;,&quot;id&quot;:&quot;n1c4c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Microsoft Azure </a></li>
+           <li><a class="c-uhff-link" href="https://enterprise.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_Enterprise_nav&quot;,&quot;id&quot;:&quot;n2c4c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Enterprise</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/sql-server/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_DataPlatform_nav&quot;,&quot;id&quot;:&quot;n3c4c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Data platform</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/solution-providers" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_FindASolutionsProvider_nav&quot;,&quot;id&quot;:&quot;n4c4c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Find a solutions provider</a></li>
+           <li><a class="c-uhff-link" href="https://partner.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_MicrosoftPartnerResources_nav&quot;,&quot;id&quot;:&quot;n5c4c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Microsoft partner resources </a></li>
+           <li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkID=808093" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_MicrosoftAppSource_nav&quot;,&quot;id&quot;:&quot;n6c4c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Microsoft AppSource </a></li>
+           <li><a class="c-uhff-link" href="https://enterprise.microsoft.com/en-us/industries/discrete-manufacturing/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_ManufacturingAndResources_nav&quot;,&quot;id&quot;:&quot;n7c4c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Manufacturing &amp; resources</a></li>
+           <li><a class="c-uhff-link" href="https://enterprise.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_FinanciaServices_nav&quot;,&quot;id&quot;:&quot;n8c4c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Financial services</a></li>
+          </ul>
+         </div>
+         <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn5_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+          <h4 class="c-heading-4">Developer</h4>
+          <ul class="c-list f-bare">
+           <li><a class="c-uhff-link" href="https://www.visualstudio.com/" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftVisualStudio_nav&quot;,&quot;id&quot;:&quot;n1c5c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Microsoft Visual Studio</a></li>
+           <li><a class="c-uhff-link" href="https://developer.microsoft.com/en-us/windows" data-m="{&quot;cN&quot;:&quot;Footer_Developer_WindowsDevCenter_nav&quot;,&quot;id&quot;:&quot;n2c5c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Windows Dev Center</a></li>
+           <li><a class="c-uhff-link" href="https://msdn.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftDeveloperNetwork_nav&quot;,&quot;id&quot;:&quot;n3c5c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Developer Network</a></li>
+           <li><a class="c-uhff-link" href="https://technet.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Developer_TechNet_nav&quot;,&quot;id&quot;:&quot;n4c5c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">TechNet</a></li>
+           <li><a class="c-uhff-link" href="https://mva.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftVirtualAcademy_nav&quot;,&quot;id&quot;:&quot;n5c5c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Microsoft Virtual Academy</a></li>
+           <li><a class="c-uhff-link" href="https://developer.microsoft.com/en-us/store/register" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftDeveloperProgram_nav&quot;,&quot;id&quot;:&quot;n6c5c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Microsoft developer program</a></li>
+           <li><a class="c-uhff-link" href="https://channel9.msdn.com/" data-m="{&quot;cN&quot;:&quot;Footer_Developer_Channel9_nav&quot;,&quot;id&quot;:&quot;n7c5c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Channel 9</a></li>
+           <li><a class="c-uhff-link" href="https://developer.microsoft.com/en-us/office" data-m="{&quot;cN&quot;:&quot;Footer_Developer_OfficeDevCenter_nav&quot;,&quot;id&quot;:&quot;n8c5c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Office Dev Center</a></li>
+          </ul>
+         </div>
+         <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn6_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+          <h4 class="c-heading-4">Company</h4>
+          <ul class="c-list f-bare">
+           <li><a class="c-uhff-link" href="https://careers.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Company_Careers_nav&quot;,&quot;id&quot;:&quot;n1c6c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Careers</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/about" data-m="{&quot;cN&quot;:&quot;Footer_Company_AboutMicrosoft_nav&quot;,&quot;id&quot;:&quot;n2c6c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">About Microsoft</a></li>
+           <li><a class="c-uhff-link" href="https://news.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Company_CompanyNews_nav&quot;,&quot;id&quot;:&quot;n3c6c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Company news</a></li>
+           <li><a class="c-uhff-link" href="https://privacy.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Company_PrivacyAtMicrosoft_nav&quot;,&quot;id&quot;:&quot;n4c6c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Privacy at Microsoft</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/investor/default.aspx" data-m="{&quot;cN&quot;:&quot;Footer_Company_Investors_nav&quot;,&quot;id&quot;:&quot;n5c6c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Investors</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/diversity/" data-m="{&quot;cN&quot;:&quot;Footer_Company_DiversityAndInclusion_nav&quot;,&quot;id&quot;:&quot;n6c6c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Diversity and inclusion</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/accessibility/home" data-m="{&quot;cN&quot;:&quot;Footer_Company_Accessibility_nav&quot;,&quot;id&quot;:&quot;n7c6c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Accessibility</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/security/default.aspx" data-m="{&quot;cN&quot;:&quot;Footer_Company_Security_nav&quot;,&quot;id&quot;:&quot;n8c6c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Security</a></li>
+          </ul>
+         </div>
+        </div>
+       </nav>
+       <div class="c-uhff-base">
+        <a id="locale-picker-link" class="c-uhff-link c-uhff-lang-selector c-glyph glyph-world" href="http://www.microsoft.com/en-us/locale.aspx" data-m="{&quot;cN&quot;:&quot;locale_picker(US)_nav&quot;,&quot;id&quot;:&quot;n7c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">English (United States)</a>
+        <ul role="contentinfo" aria-label="Microsoft corporate links" class="c-list f-bare" data-m="{&quot;cN&quot;:&quot;Corp links_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c8c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+         <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/sitemap1.aspx" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_Sitemap_nav&quot;,&quot;id&quot;:&quot;n1c8c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">Sitemap</a></li>
+         <li><a class="c-uhff-link" href="https://support.microsoft.com/en-us/contactus" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_ContactUs_nav&quot;,&quot;id&quot;:&quot;n2c8c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">Contact us</a></li>
+         <li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_PrivacyandCookies_nav&quot;,&quot;id&quot;:&quot;n3c8c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">Privacy &amp; cookies </a></li>
+         <li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkID=206977" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_TermsOfUse_nav&quot;,&quot;id&quot;:&quot;n4c8c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">Terms of use</a></li>
+         <li><a class="c-uhff-link" href="https://www.microsoft.com/trademarks" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_Trademarks_nav&quot;,&quot;id&quot;:&quot;n5c8c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">Trademarks</a></li>
+         <li><a class="c-uhff-link" href="https://choice.microsoft.com" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_AboutourAds_nav&quot;,&quot;id&quot;:&quot;n6c8c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">About our ads</a></li>
+         <li>© Microsoft 2018</li>
+        </ul>
+       </div>
+      </footer>
+     </div>
+    </div>
+   </section></span>
+  <!-- [Begin] JSLL script includes -->
+  <!-- [End] JSLL script includes -->
+  <script async src="https://assets.onestore.ms/cdnfiles/external/mwf/long/v1/v1.26.1/scripts/mwf-auto-init-main.var.min.js"></script>
+  <script src="https://az725175.vo.msecnd.net/scripts/jsll-4.js" type="text/javascript"></script>
+  <script type="text/javascript">
+		var config = {
+		coreData: {
+				appId: "Legal"
+		}
+	};
+	awa.init(config);
+	</script> 
+ </body>
+</html>

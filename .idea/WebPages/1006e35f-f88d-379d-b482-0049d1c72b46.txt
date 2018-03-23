@@ -1,0 +1,793 @@
+https://www.ft.com/accessibility
+<!doctype html>
+<html lang="en-GB" prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# video: http://ogp.me/ns/video#" data-ab-state="fcfABTest:1,barrierFlipPriceOrder:control" class="no-js core o-hoverable-on o-typography--loading-sans o-typography--loading-sansBold o-typography--loading-serifDisplay o-typography--loading-serifDisplayBold" data-next-app="static" data-next-edition="international" data-next-is-production data-next-version="57868ca1fa813c779c71884879a255b667090d1a">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <title>Accessibility Home</title> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="theme-color" content="#333333"> 
+  <style>html{background-color:#fff1e5;}</style> 
+  <script>
+		LUX=(function(){var a=("undefined"!==typeof(LUX)&&"undefined"!==typeof(LUX.gaMarks)?LUX.gaMarks:[]);var d=("undefined"!==typeof(LUX)&&"undefined"!==typeof(LUX.gaMeasures)?LUX.gaMeasures:[]);var h="LUX_start";var j=window.performance;var k=("undefined"!==typeof(LUX)&&LUX.ns?LUX.ns:(Date.now?Date.now():+(new Date())));if(j&&j.timing&&j.timing.navigationStart){k=j.timing.navigationStart}function e(){if(j){if(j.now){return j.now()}else{if(j.webkitNow){return j.now()}else{if(j.msNow){return j.now()}else{if(j.mozNow){return j.now()}}}}}var m=Date.now?Date.now():+(new Date());return m-k}function b(m){if(j){if(j.mark){return j.mark(m)}else{if(j.webkitMark){return j.webkitMark(m)}}}a.push({name:m,entryType:"mark",startTime:e(),duration:0});return}function l(o,s,m){if("undefined"===typeof(s)&&g(h)){s=h}if(j){if(j.measure){if(s){if(m){return j.measure(o,s,m)}else{return j.measure(o,s)}}else{return j.measure(o)}}else{if(j.webkitMeasure){return j.webkitMeasure(o,s,m)}}}var q=0,n=e();if(s){var r=g(s);if(r){q=r.startTime}else{if(j&&j.timing&&j.timing[s]){q=j.timing[s]-j.timing.navigationStart}else{return}}}if(m){var p=g(m);if(p){n=p.startTime}else{if(j&&j.timing&&j.timing[m]){n=j.timing[m]-j.timing.navigationStart}else{return}}}d.push({name:o,entryType:"measure",startTime:q,duration:(n-q)});return}function g(m){return c(m,f())}function c(p,o){for(i=o.length-1;i>=0;i--){var n=o[i];if(p===n.name){return n}}return undefined}function f(){if(j){if(j.getEntriesByType){return j.getEntriesByType("mark")}else{if(j.webkitGetEntriesByType){return j.webkitGetEntriesByType("mark")}}}return a}return{mark:b,measure:l,gaMarks:a,gaMeasures:d}})();LUX.ns=(Date.now?Date.now():+(new Date()));LUX.ac=[];LUX.cmd=function(a){LUX.ac.push(a)};LUX.init=function(){LUX.cmd(["init"])};LUX.send=function(){LUX.cmd(["send"])};LUX.addData=function(a,b){LUX.cmd(["addData",a,b])};
+		LUX.samplerate = 40;
+		</script> 
+  <script data-next-speedcurve-lux-script src="https://cdn.speedcurve.com/js/lux.js?id=55181267" async defer></script> 
+  <link rel="preconnect" href="https://spoor-api.ft.com"> 
+  <link rel="preconnect" href="https://session-next.ft.com" crossorigin="use-credentials"> 
+  <link rel="preconnect" href="https://cdn.krxd.net"> 
+  <link rel="preconnect" href="https://beacon.krxd.net"> 
+  <link rel="preconnect" href="https://ads-api.ft.com"> 
+  <link rel="preconnect" href="https://www.googletagservices.com"> 
+  <link rel="preconnect" href="https://partner.googleadservices.com"> 
+  <link rel="preconnect" href="https://securepubads.g.doubleclick.net"> 
+  <link rel="preconnect" href="https://tpc.googlesyndication.com"> 
+  <link rel="preconnect" href="https://imasdk.googleapis.com"> 
+  <link rel="preconnect" href="https://z.moatads.com"> 
+  <script>
+		window.FT = window.FT || {};
+		window.FT.conditions = {};
+		window.FT.fireCondition = function (condition) {
+			var evName = 'FT.' + condition;
+			if (!window.FT.conditions[condition]) {
+				var ev;
+				try {
+					ev = new CustomEvent(evName);
+					// really annoying, but the CSSLoading might occur before polyfilling CustomEvent
+				} catch (e) {
+					ev = document.createEvent('CustomEvent')
+					ev.initCustomEvent(evName, false, false, null);
+				}
+				document.dispatchEvent(ev);
+				window.FT.conditions[condition] = 1;
+			}
+		};
+		window.FT.cssFileLoaded = function () {
+			if (!document.querySelector('link[data-is-next][rel="preload"][as="style"]')) {
+				window.FT.fireCondition('allStylesLoaded')
+			}
+		}
+		</script> 
+  <style class="n-layout-head-css">
+				html,body{margin:0;text-rendering:optimizeLegibility;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}main{display:block}body:not(.js-focus-visible) :focus{outline:2px solid #1aecff}body:not(.js-focus-visible) input:focus,body:not(.js-focus-visible) textarea:focus,body:not(.js-focus-visible) select:focus{-webkit-box-shadow:0 0 0 1px #1aecff;box-shadow:0 0 0 1px #1aecff}body.js-focus-visible .focus-visible{outline:2px solid #1aecff}body.js-focus-visible input.focus-visible,body.js-focus-visible textarea.focus-visible,body.js-focus-visible select.focus-visible{-webkit-box-shadow:0 0 0 1px #1aecff;box-shadow:0 0 0 1px #1aecff}body.js-focus-visible :focus:not(.focus-visible){outline:0}:focus-visible,body:not(.js-focus-visible) :focus{outline:unset}:focus-visible,body:not(.js-focus-visible) input:focus,body:not(.js-focus-visible) textarea:focus,body:not(.js-focus-visible) select:focus{-webkit-box-shadow:unset;box-shadow:unset}:focus-visible{outline:2px solid #1aecff}input:focus-visible,textarea:focus-visible,select:focus-visible{-webkit-box-shadow:0 0 0 1px #1aecff;box-shadow:0 0 0 1px #1aecff}html:focus,body:focus,[readonly]:focus{outline:none}a{background-color:transparent}a:active,a:hover{outline-width:0}abbr[title]{border-bottom:0;text-decoration:underline;-webkit-text-decoration:underline dotted;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}dfn{font-style:italic}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-0.25em}sup{top:-0.5em}img{border-style:none}optgroup{font-weight:bold}button,input,select{overflow:visible}button,input,select,textarea{margin:0}button,select{text-transform:none}button,[type="button"],[type="reset"],[type="submit"]{cursor:pointer}[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto}.o-grid-container{position:relative;margin-left:auto;margin-right:auto;min-width:240px;-webkit-box-sizing:border-box;box-sizing:border-box;max-width:1220px;padding-left:10px;padding-right:10px}@media (min-width: 46.25em){.o-grid-container{padding-left:20px;padding-right:20px}}@media (min-width: 46.25em){.o-grid-container{max-width:740px}}@media (min-width: 61.25em){.o-grid-container{max-width:980px}}@media (min-width: 76.25em){.o-grid-container{max-width:1220px}}.o-grid-container--bleed{padding-left:0;padding-right:0}.o-grid-row{clear:both;-ms-flex-wrap:wrap;flex-wrap:wrap;display:-webkit-box;display:-ms-flexbox;display:flex;margin-left:-10px;zoom:1}@media print{.o-grid-row{display:inherit}}@media (min-width: 46.25em){.o-grid-row{margin-left:-20px}}.o-grid-row:before,.o-grid-row:after{content:'';display:table;display:-webkit-box;display:-ms-flexbox;display:flex}.o-grid-row:after{clear:both}[data-o-grid-colspan]{position:relative;float:left;-webkit-box-flex:1;-ms-flex:1 1 0%;flex:1 1 0%;-webkit-box-sizing:border-box;box-sizing:border-box;padding-left:10px}@media (min-width: 46.25em){[data-o-grid-colspan]{padding-left:20px}}[data-o-grid-colspan~="0"]{display:none}[data-o-grid-colspan~="1"]{display:block;-ms-flex-preferred-size:8.33333%;flex-basis:8.33333%;min-width:8.33333%;max-width:8.33333%;width:8.33333%}[data-o-grid-colspan~="2"]{display:block;-ms-flex-preferred-size:16.66667%;flex-basis:16.66667%;min-width:16.66667%;max-width:16.66667%;width:16.66667%}[data-o-grid-colspan~="3"]{display:block;-ms-flex-preferred-size:25%;flex-basis:25%;min-width:25%;max-width:25%;width:25%}[data-o-grid-colspan~="4"]{display:block;-ms-flex-preferred-size:33.33333%;flex-basis:33.33333%;min-width:33.33333%;max-width:33.33333%;width:33.33333%}[data-o-grid-colspan~="5"]{display:block;-ms-flex-preferred-size:41.66667%;flex-basis:41.66667%;min-width:41.66667%;max-width:41.66667%;width:41.66667%}[data-o-grid-colspan~="6"]{display:block;-ms-flex-preferred-size:50%;flex-basis:50%;min-width:50%;max-width:50%;width:50%}[data-o-grid-colspan~="7"]{display:block;-ms-flex-preferred-size:58.33333%;flex-basis:58.33333%;min-width:58.33333%;max-width:58.33333%;width:58.33333%}[data-o-grid-colspan~="8"]{display:block;-ms-flex-preferred-size:66.66667%;flex-basis:66.66667%;min-width:66.66667%;max-width:66.66667%;width:66.66667%}[data-o-grid-colspan~="9"]{display:block;-ms-flex-preferred-size:75%;flex-basis:75%;min-width:75%;max-width:75%;width:75%}[data-o-grid-colspan~="10"]{display:block;-ms-flex-preferred-size:83.33333%;flex-basis:83.33333%;min-width:83.33333%;max-width:83.33333%;width:83.33333%}[data-o-grid-colspan~="11"]{display:block;-ms-flex-preferred-size:91.66667%;flex-basis:91.66667%;min-width:91.66667%;max-width:91.66667%;width:91.66667%}[data-o-grid-colspan~="12"]{display:block;-ms-flex-preferred-size:100%;flex-basis:100%;min-width:100%;max-width:100%;width:100%}.o-grid-row--compact{margin-left:0}.o-grid-row--compact>[data-o-grid-colspan]{padding-left:0}@media (min-width: 30.625em){[data-o-grid-colspan~="S0"]{display:none}[data-o-grid-colspan~="S1"]{display:block;-ms-flex-preferred-size:8.33333%;flex-basis:8.33333%;min-width:8.33333%;max-width:8.33333%;width:8.33333%}[data-o-grid-colspan~="S2"]{display:block;-ms-flex-preferred-size:16.66667%;flex-basis:16.66667%;min-width:16.66667%;max-width:16.66667%;width:16.66667%}[data-o-grid-colspan~="S3"]{display:block;-ms-flex-preferred-size:25%;flex-basis:25%;min-width:25%;max-width:25%;width:25%}[data-o-grid-colspan~="S4"]{display:block;-ms-flex-preferred-size:33.33333%;flex-basis:33.33333%;min-width:33.33333%;max-width:33.33333%;width:33.33333%}[data-o-grid-colspan~="S5"]{display:block;-ms-flex-preferred-size:41.66667%;flex-basis:41.66667%;min-width:41.66667%;max-width:41.66667%;width:41.66667%}[data-o-grid-colspan~="S6"]{display:block;-ms-flex-preferred-size:50%;flex-basis:50%;min-width:50%;max-width:50%;width:50%}[data-o-grid-colspan~="S7"]{display:block;-ms-flex-preferred-size:58.33333%;flex-basis:58.33333%;min-width:58.33333%;max-width:58.33333%;width:58.33333%}[data-o-grid-colspan~="S8"]{display:block;-ms-flex-preferred-size:66.66667%;flex-basis:66.66667%;min-width:66.66667%;max-width:66.66667%;width:66.66667%}[data-o-grid-colspan~="S9"]{display:block;-ms-flex-preferred-size:75%;flex-basis:75%;min-width:75%;max-width:75%;width:75%}[data-o-grid-colspan~="S10"]{display:block;-ms-flex-preferred-size:83.33333%;flex-basis:83.33333%;min-width:83.33333%;max-width:83.33333%;width:83.33333%}[data-o-grid-colspan~="S11"]{display:block;-ms-flex-preferred-size:91.66667%;flex-basis:91.66667%;min-width:91.66667%;max-width:91.66667%;width:91.66667%}[data-o-grid-colspan~="S12"]{display:block;-ms-flex-preferred-size:100%;flex-basis:100%;min-width:100%;max-width:100%;width:100%}}@media (min-width: 46.25em){[data-o-grid-colspan~="M0"]{display:none}[data-o-grid-colspan~="M1"]{display:block;-ms-flex-preferred-size:8.33333%;flex-basis:8.33333%;min-width:8.33333%;max-width:8.33333%;width:8.33333%}[data-o-grid-colspan~="M2"]{display:block;-ms-flex-preferred-size:16.66667%;flex-basis:16.66667%;min-width:16.66667%;max-width:16.66667%;width:16.66667%}[data-o-grid-colspan~="M3"]{display:block;-ms-flex-preferred-size:25%;flex-basis:25%;min-width:25%;max-width:25%;width:25%}[data-o-grid-colspan~="M4"]{display:block;-ms-flex-preferred-size:33.33333%;flex-basis:33.33333%;min-width:33.33333%;max-width:33.33333%;width:33.33333%}[data-o-grid-colspan~="M5"]{display:block;-ms-flex-preferred-size:41.66667%;flex-basis:41.66667%;min-width:41.66667%;max-width:41.66667%;width:41.66667%}[data-o-grid-colspan~="M6"]{display:block;-ms-flex-preferred-size:50%;flex-basis:50%;min-width:50%;max-width:50%;width:50%}[data-o-grid-colspan~="M7"]{display:block;-ms-flex-preferred-size:58.33333%;flex-basis:58.33333%;min-width:58.33333%;max-width:58.33333%;width:58.33333%}[data-o-grid-colspan~="M8"]{display:block;-ms-flex-preferred-size:66.66667%;flex-basis:66.66667%;min-width:66.66667%;max-width:66.66667%;width:66.66667%}[data-o-grid-colspan~="M9"]{display:block;-ms-flex-preferred-size:75%;flex-basis:75%;min-width:75%;max-width:75%;width:75%}[data-o-grid-colspan~="M10"]{display:block;-ms-flex-preferred-size:83.33333%;flex-basis:83.33333%;min-width:83.33333%;max-width:83.33333%;width:83.33333%}[data-o-grid-colspan~="M11"]{display:block;-ms-flex-preferred-size:91.66667%;flex-basis:91.66667%;min-width:91.66667%;max-width:91.66667%;width:91.66667%}[data-o-grid-colspan~="M12"]{display:block;-ms-flex-preferred-size:100%;flex-basis:100%;min-width:100%;max-width:100%;width:100%}}@media (min-width: 61.25em){[data-o-grid-colspan~="L0"]{display:none}[data-o-grid-colspan~="L1"]{display:block;-ms-flex-preferred-size:8.33333%;flex-basis:8.33333%;min-width:8.33333%;max-width:8.33333%;width:8.33333%}[data-o-grid-colspan~="L2"]{display:block;-ms-flex-preferred-size:16.66667%;flex-basis:16.66667%;min-width:16.66667%;max-width:16.66667%;width:16.66667%}[data-o-grid-colspan~="L3"]{display:block;-ms-flex-preferred-size:25%;flex-basis:25%;min-width:25%;max-width:25%;width:25%}[data-o-grid-colspan~="L4"]{display:block;-ms-flex-preferred-size:33.33333%;flex-basis:33.33333%;min-width:33.33333%;max-width:33.33333%;width:33.33333%}[data-o-grid-colspan~="L5"]{display:block;-ms-flex-preferred-size:41.66667%;flex-basis:41.66667%;min-width:41.66667%;max-width:41.66667%;width:41.66667%}[data-o-grid-colspan~="L6"]{display:block;-ms-flex-preferred-size:50%;flex-basis:50%;min-width:50%;max-width:50%;width:50%}[data-o-grid-colspan~="L7"]{display:block;-ms-flex-preferred-size:58.33333%;flex-basis:58.33333%;min-width:58.33333%;max-width:58.33333%;width:58.33333%}[data-o-grid-colspan~="L8"]{display:block;-ms-flex-preferred-size:66.66667%;flex-basis:66.66667%;min-width:66.66667%;max-width:66.66667%;width:66.66667%}[data-o-grid-colspan~="L9"]{display:block;-ms-flex-preferred-size:75%;flex-basis:75%;min-width:75%;max-width:75%;width:75%}[data-o-grid-colspan~="L10"]{display:block;-ms-flex-preferred-size:83.33333%;flex-basis:83.33333%;min-width:83.33333%;max-width:83.33333%;width:83.33333%}[data-o-grid-colspan~="L11"]{display:block;-ms-flex-preferred-size:91.66667%;flex-basis:91.66667%;min-width:91.66667%;max-width:91.66667%;width:91.66667%}[data-o-grid-colspan~="L12"]{display:block;-ms-flex-preferred-size:100%;flex-basis:100%;min-width:100%;max-width:100%;width:100%}}@media (min-width: 76.25em){[data-o-grid-colspan~="XL0"]{display:none}[data-o-grid-colspan~="XL1"]{display:block;-ms-flex-preferred-size:8.33333%;flex-basis:8.33333%;min-width:8.33333%;max-width:8.33333%;width:8.33333%}[data-o-grid-colspan~="XL2"]{display:block;-ms-flex-preferred-size:16.66667%;flex-basis:16.66667%;min-width:16.66667%;max-width:16.66667%;width:16.66667%}[data-o-grid-colspan~="XL3"]{display:block;-ms-flex-preferred-size:25%;flex-basis:25%;min-width:25%;max-width:25%;width:25%}[data-o-grid-colspan~="XL4"]{display:block;-ms-flex-preferred-size:33.33333%;flex-basis:33.33333%;min-width:33.33333%;max-width:33.33333%;width:33.33333%}[data-o-grid-colspan~="XL5"]{display:block;-ms-flex-preferred-size:41.66667%;flex-basis:41.66667%;min-width:41.66667%;max-width:41.66667%;width:41.66667%}[data-o-grid-colspan~="XL6"]{display:block;-ms-flex-preferred-size:50%;flex-basis:50%;min-width:50%;max-width:50%;width:50%}[data-o-grid-colspan~="XL7"]{display:block;-ms-flex-preferred-size:58.33333%;flex-basis:58.33333%;min-width:58.33333%;max-width:58.33333%;width:58.33333%}[data-o-grid-colspan~="XL8"]{display:block;-ms-flex-preferred-size:66.66667%;flex-basis:66.66667%;min-width:66.66667%;max-width:66.66667%;width:66.66667%}[data-o-grid-colspan~="XL9"]{display:block;-ms-flex-preferred-size:75%;flex-basis:75%;min-width:75%;max-width:75%;width:75%}[data-o-grid-colspan~="XL10"]{display:block;-ms-flex-preferred-size:83.33333%;flex-basis:83.33333%;min-width:83.33333%;max-width:83.33333%;width:83.33333%}[data-o-grid-colspan~="XL11"]{display:block;-ms-flex-preferred-size:91.66667%;flex-basis:91.66667%;min-width:91.66667%;max-width:91.66667%;width:91.66667%}[data-o-grid-colspan~="XL12"]{display:block;-ms-flex-preferred-size:100%;flex-basis:100%;min-width:100%;max-width:100%;width:100%}}[data-o-grid-colspan~="center"]{margin-left:auto;margin-right:auto;float:none}@font-face{src:url("https://www.ft.com/__origami/service/build/v2/files/o-fonts-assets@1.3.2/FinancierDisplayWeb-Regular.woff");font-family:FinancierDisplayWeb;font-weight:400;font-style:normal}@font-face{src:url("https://www.ft.com/__origami/service/build/v2/files/o-fonts-assets@1.3.2/FinancierDisplayWeb-Bold.woff");font-family:FinancierDisplayWeb;font-weight:700;font-style:normal}@font-face{src:url("https://www.ft.com/__origami/service/build/v2/files/o-fonts-assets@1.3.2/MetricWeb-Regular.woff");font-family:MetricWeb;font-weight:400;font-style:normal}@font-face{src:url("https://www.ft.com/__origami/service/build/v2/files/o-fonts-assets@1.3.2/MetricWeb-Semibold.woff");font-family:MetricWeb;font-weight:600;font-style:normal}html{font-family:sans-serif;font-size:0.8125em}a{color:#0a5e66;text-decoration:none;cursor:pointer;border-bottom:2px solid #ced4cc}a:hover{color:#08474d;border-bottom-color:#9db6b2}a:focus{color:#08474d;outline:2px solid #1aecff;border-bottom-color:transparent}.n-ui-hide{display:none}@media screen{.n-ui-hide\@screen{display:none}}@media print{.n-ui-hide\@print{display:none}}.no-js .n-ui-hide-no-js,.js .n-ui-hide-js,.core .n-ui-hide-core,.enhanced .n-ui-hide-enhanced{display:none}.n-ui-text-center{text-align:center}.n-ui-text-left{text-align:left}.n-ui-text-right{text-align:right}.n-ui-truncate{max-width:100%;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;word-wrap:normal}.o-normalise-clearfix{zoom:1}.o-normalise-clearfix:before,.o-normalise-clearfix:after{content:'';display:table;display:-webkit-box;display:-ms-flexbox;display:flex}.o-normalise-clearfix:after{clear:both}.o-normalise-visually-hidden{position:absolute;clip:rect(0 0 0 0);margin:-1px;border:0;overflow:hidden;padding:0;width:1px;height:1px;white-space:nowrap}.core .o--if-js,.enhanced .o--if-no-js{display:none !important}html{background-color:#fff1e5;color:#33302e}.enhanced{overflow-x:hidden}body{margin:0}.n-layout{display:table;width:100%;min-height:100vh;table-layout:fixed}.n-layout__row{display:table-row}.n-layout__row--content{height:100%}@media print{.n-layout,.n-layout__row{display:block}}.n-layout__row--footer{display:none}.o-ads,[data-o-ads-name]{-webkit-animation-name:none;animation-name:none}.o-ads iframe,[data-o-ads-name] iframe{background:none transparent}.o-ads--center{width:100%;text-align:center}.o-ads--empty{width:0;height:0;display:none;visibility:hidden}.o-ads--label-left .o-ads__inner::before{content:"▼ Advertisement ▼";display:block;font-size:14px}.o-ads--label-right .o-ads__inner::before{content:"▼ Advertisement ▼";display:block;font-size:14px;text-align:right}.o-ads--transition{will-change:min-height, padding, height;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);-webkit-transition:height 0.35s cubic-bezier(0.215, 0.61, 0.355, 1),min-height 0.35s cubic-bezier(0.215, 0.61, 0.355, 1),padding 0.35s cubic-bezier(0.215, 0.61, 0.355, 1);transition:height 0.35s cubic-bezier(0.215, 0.61, 0.355, 1),min-height 0.35s cubic-bezier(0.215, 0.61, 0.355, 1),padding 0.35s cubic-bezier(0.215, 0.61, 0.355, 1)}.o-ads--background{background-color:#ccc1b7}.o-ads--reserve-90{min-height:90px;height:90px;padding:10px 0;overflow:hidden}.o-ads--reserve-90[data-o-ads-loaded="MediumRectangle"],.o-ads--reserve-90[data-o-ads-loaded="Billboard"]{height:250px}.o-ads--reserve-250{height:250px;min-height:250px;padding:10px 0;overflow:hidden}.o-ads--reserve-250[data-o-ads-loaded="Leaderboard"] .o-ads__outer,.o-ads--reserve-250[data-o-ads-loaded="SuperLeaderboard"] .o-ads__outer{position:relative;top:50%;margin-top:-45px}.o-ads--reserve-90[data-o-ads-loaded="Responsive"],.o-ads--reserve-250[data-o-ads-loaded="Responsive"]{height:250px;min-height:250px;padding:10px 0}@media (max-width: 90em){.o-ads--reserve-90[data-o-ads-loaded="Responsive"],.o-ads--reserve-250[data-o-ads-loaded="Responsive"]{height:auto;min-height:calc(100vw * 0.1734);padding:0}}@media (max-width: 30.615em){.o-ads--reserve-90[data-o-ads-loaded="Responsive"],.o-ads--reserve-250[data-o-ads-loaded="Responsive"]{height:auto;min-height:calc(100vw * 0.481)}}.core .o-ads{display:none}@media print{.o-ads{display:none !important}}.advert{position:relative}.o-header{background-color:#fff1e5;color:#33302e}.o-header__row{border-bottom:1px solid #ccc1b7}.o-header__container{position:relative;margin-left:auto;margin-right:auto;min-width:240px;-webkit-box-sizing:border-box;box-sizing:border-box;max-width:1220px;padding-left:10px;padding-right:10px}@media (min-width: 46.25em){.o-header__container{padding-left:20px;padding-right:20px}}@media (min-width: 46.25em){.o-header__container{max-width:740px}}@media (min-width: 61.25em){.o-header__container{max-width:980px}}@media (min-width: 76.25em){.o-header__container{max-width:1220px}}.o-header__container:before,.o-header__container:after{content:'';display:table}.o-header__container:after{clear:both}.o-header__visually-hidden{position:absolute;clip:rect(0 0 0 0);margin:-1px;border:0;overflow:hidden;padding:0;width:1px;height:1px}.o-header__top-wrapper{display:table;width:100%}.o-header__top-column{display:table-cell;vertical-align:middle}.o-header__top-column--left,.o-header__top-column--right{width:12.5%;white-space:nowrap}.o-header__top-column--left{text-align:left}.o-header__top-column--right{text-align:right}.o-header__top-column--center{text-align:center}.o-header__top-takeover{display:none}@media (min-width: 61.25em){.o-header__top-takeover{display:block}.o-header__top-takeover ~ *{display:none !important}}.o-header__top-link{color:inherit;text-decoration:none;border:0;display:inline-block;margin-left:10px;text-transform:uppercase;font-size:10px;text-align:center;height:40px;margin-top:4px;margin-bottom:4px}.o-header__top-link:hover{color:#33302e}.o-header__top-link--highlight,.o-header__top-link[aria-selected="true"],.o-header__top-link[aria-current]{color:#0a5e66}@media (min-width: 61.25em){.o-header__top-link{margin-left:20px;margin-top:30px;margin-bottom:30px}}@media (min-width: 46.25em){.o-header__top-link{margin-top:24px;margin-bottom:24px}}.o-header__top-link:before{display:inline-block;background-repeat:no-repeat;background-size:contain;background-position:50%;background-color:transparent;vertical-align:baseline;content:' ';width:40px;height:40px}.o-header__top-link:first-child{margin-left:-10px}.o-header__top-link--menu:before{background-image:url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:hamburger?source=o-icons&tint=%2333302E,%2333302E&format=svg");background-image:url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:hamburger?source=o-icons&tint=%2333302E,%2333302E&format=png&width=40") \9}.o-header__top-link--search:before{background-image:url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:search?source=o-icons&tint=%2333302E,%2333302E&format=svg");background-image:url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:search?source=o-icons&tint=%2333302E,%2333302E&format=png&width=40") \9}@media (max-width: 61.24em){.o-header__top-link--menu+.o-header__top-link--search{display:none}}.o-header__top-link--myft:before{background-image:url("https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-myft?source=o-header&tint=%2333302E,%2333302E&format=svg");background-image:url("https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-myft?source=o-header&tint=%2333302E,%2333302E&format=png&width=52") \9;width:35px;margin-top:0}@media (min-width: 46.25em){.o-header__top-link--myft:before{width:44px}}@media (min-width: 61.25em){.o-header__top-link--myft:before{width:52px}}.o-header__top-link-label{display:none}.o-header__top-logo{background-image:url("https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-ft-masthead?source=o-header&tint=%2333302E,%2333302E&format=svg");background-image:url("https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo:brand-ft-masthead?source=o-header&tint=%2333302E,%2333302E&format=png&width=500") \9;width:200px;height:16px;display:block;border:0;margin:16px auto;background-size:100% 100%;background-position:50%;background-repeat:no-repeat}@media (min-width: 30.625em){.o-header__top-logo{width:250px;height:20px}}@media (min-width: 46.25em){.o-header__top-logo{width:300px;height:24px;margin-top:24px;margin-bottom:24px}}@media (min-width: 61.25em){.o-header__top-logo{width:500px;height:40px;margin-top:30px;margin-bottom:30px}}.o-header__search{padding:12px 0;text-align:center;background:#ccc1b7}.o-header__search[aria-hidden="false"]{display:block}[data-o-header-search]{display:none}.o-header__search-form{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;max-width:640px;margin:0 auto}.o-header__search-term,.o-header__search-submit{line-height:normal;-webkit-box-sizing:border-box;box-sizing:border-box;height:32px;vertical-align:middle}.o-header__search-term{font-family:MetricWeb, sans-serif;background-size:21px 21px;min-height:28px;min-width:60px;padding:6px 8px 6px 8px;font-size:14px;line-height:14px;border-width:1px;border-radius:0;background:white;border-style:solid;border-color:transparent;-webkit-box-shadow:none;box-shadow:none;min-width:50%;-webkit-box-flex:1;-ms-flex-positive:1;flex-grow:1}.o-header__search-term:focus{outline:none;border-color:#0a5e66}.o-header__search-submit{display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;vertical-align:middle;margin:0;border-style:solid;text-align:center;text-decoration:none;font-family:MetricWeb,sans-serif;font-weight:600;border-radius:0;cursor:pointer;-webkit-transition:0.3s background-color, 0.15s color ease-out, 0.15s border-color ease-out;transition:0.3s background-color, 0.15s color ease-out, 0.15s border-color ease-out;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-clip:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-moz-appearance:none;-webkit-appearance:none;background-size:21px 21px;min-height:28px;min-width:60px;padding:6px 8px 6px 8px;font-size:14px;line-height:14px;border-width:1px;background-color:#0d7680;color:#fff;border-color:transparent;margin-left:12px}.o-header__search-submit[aria-selected=true],.o-header__search-submit[aria-pressed=true],.o-header__search-submit:not([disabled]):active{background-color:#08474d;color:#fff;border-color:transparent}.o-header__search-submit:not([disabled]):hover{background-color:#0a5e66;color:#fff;border-color:transparent;text-decoration:none}.o-header__search-submit:not([disabled]):focus{background-color:#0a5e66;color:#fff;border-color:transparent}.o-header__search-submit[disabled]{pointer-events:none;opacity:0.4;cursor:default}.o-header__search-close{background-image:url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:cross?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=svg");background-image:url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:cross?source=o-icons&tint=%23FFFFFF,%23FFFFFF&format=png&width=40") \9;width:40px;height:40px;display:inline-block;background-repeat:no-repeat;background-size:contain;background-position:50%;background-color:transparent;vertical-align:baseline;border:0;margin-left:12px;vertical-align:middle}@media (max-width: 46.24em){.o-header__search-close{display:none}}.o-header__nav{font-family:MetricWeb, sans-serif;font-size:16px;line-height:20px}.o-typography--loading-sans .o-header__nav{font-size:13.92px;font-family:sans-serif}.o-header__nav--mobile{white-space:nowrap}@media (min-width: 61.25em){.o-header__nav--mobile{display:none}}.o-header__nav--desktop{display:none}@media (min-width: 61.25em){.o-header__nav--desktop{display:block}}.o-header__nav-list{display:table;margin:0 auto;padding:0}.o-header__nav-list--left{float:left}.o-header__nav-list--right{float:right}.o-header__nav-item{display:table-cell;vertical-align:middle;padding-left:12px}.o-header__nav-item:first-child{padding-left:0}.o-header__nav--mobile .o-header__nav-item{padding-left:24px}.o-header__nav--mobile .o-header__nav-item:first-child{padding-left:0}@media (max-width: 46.24em){.o-header__nav-item--expanded{display:none}}.o-header__nav-link{color:inherit;text-decoration:none;border:0;position:relative;display:block;padding:12px 0;white-space:nowrap}.o-header__nav-link:hover{color:#33302e}.o-header__nav-link--highlight,.o-header__nav-link[aria-selected="true"],.o-header__nav-link[aria-current]{color:#0a5e66}.o-header__nav-link:after{content:'';position:absolute;bottom:0;left:0;width:100%;height:4px}.o-header__nav-link:hover:after{background-color:#33302e}.o-header__nav-link--highlight:after,.o-header__nav-link[aria-selected="true"]:after,.o-header__nav-link[aria-current]:after{background-color:#0a5e66}.o-header__nav-link--primary{font-weight:600;text-transform:uppercase;-webkit-font-smoothing:antialiased}.o-header__nav-button{display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;vertical-align:middle;margin:0;border-style:solid;text-align:center;text-decoration:none;font-family:MetricWeb,sans-serif;font-weight:600;border-radius:0;cursor:pointer;-webkit-transition:0.3s background-color, 0.15s color ease-out, 0.15s border-color ease-out;transition:0.3s background-color, 0.15s color ease-out, 0.15s border-color ease-out;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-clip:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-moz-appearance:none;-webkit-appearance:none;background-size:21px 21px;min-height:28px;min-width:60px;padding:6px 8px 6px 8px;font-size:14px;line-height:14px;border-width:1px;background-color:#0d7680;color:#fff;border-color:transparent}.o-header__nav-button[aria-selected=true],.o-header__nav-button[aria-pressed=true],.o-header__nav-button:not([disabled]):active{background-color:#08474d;color:#fff;border-color:transparent}.o-header__nav-button:not([disabled]):hover{background-color:#0a5e66;color:#fff;border-color:transparent;text-decoration:none}.o-header__nav-button:not([disabled]):focus{background-color:#0a5e66;color:#fff;border-color:transparent}.o-header__nav-button[disabled]{pointer-events:none;opacity:0.4;cursor:default}.o-header__anon{text-align:center}@media (min-width: 61.25em){.o-header__anon{display:none}}.o-header__anon-list{margin:0;padding:0}.o-header__anon-item{display:inline-block}.o-header__anon-item+.o-header__anon-item{position:relative;margin-left:11px;padding-left:12px}.o-header__anon-item+.o-header__anon-item:before{content:'';position:absolute;top:15%;left:0;height:70%;border-left:1px solid #ccc1b7}.o-header__anon-link{font-family:MetricWeb, sans-serif;font-size:14px;line-height:16px;color:inherit;text-decoration:none;border:0;position:relative;display:block;padding:12px 0;white-space:nowrap}.o-typography--loading-sans .o-header__anon-link{font-size:12.18px;font-family:sans-serif}.o-header__anon-link:hover{color:#33302e}.o-header__anon-link--highlight,.o-header__anon-link[aria-selected="true"],.o-header__anon-link[aria-current]{color:#0a5e66}.o-header__anon-link:after{content:'';position:absolute;bottom:0;left:0;width:100%;height:4px}.o-header__anon-link:hover:after{background-color:#33302e}.o-header__anon-link--highlight:after,.o-header__anon-link[aria-selected="true"]:after,.o-header__anon-link[aria-current]:after{background-color:#0a5e66}@-webkit-keyframes o-header-mega{0%{opacity:0}100%{opacity:1}}@keyframes o-header-mega{0%{opacity:0}100%{opacity:1}}.o-header__mega{font-family:MetricWeb, sans-serif;font-size:16px;line-height:20px;-webkit-box-shadow:0 1px 2px rgba(77,72,69,0.25),0 4px 6px rgba(77,72,69,0.1);box-shadow:0 1px 2px rgba(77,72,69,0.25),0 4px 6px rgba(77,72,69,0.1);display:none;position:absolute;top:100%;left:20px;right:20px;z-index:1;-webkit-box-sizing:border-box;box-sizing:border-box;padding:18px 0;border-top:1px solid #ccc1b7;background-color:#fff9f5}.o-typography--loading-sans .o-header__mega{font-size:13.92px;font-family:sans-serif}.o-header__mega[aria-expanded="true"],[data-o-header--no-js] :hover>.o-header__mega{display:block}.o-header__mega--animation{-webkit-animation:o-header-mega 0.5s ease-out;animation:o-header-mega 0.5s ease-out}.o-header__mega-wrapper{display:table;table-layout:fixed;width:100%;border-spacing:24px 0;margin-left:-24px}.o-header__mega-column{display:table-cell;padding-left:24px;border-left:1px solid #ccc1b7}.o-header__mega-column:first-child{border-left:0;padding-left:0}.o-header__mega-column--articles .o-header__mega-item:before{background-image:url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23990F3D,%23990F3D&format=svg");background-image:url("https://www.ft.com/__origami/service/image/v2/images/raw/fticon-v1:arrow-right?source=o-icons&tint=%23990F3D,%23990F3D&format=png&width=15") \9;width:15px;height:15px;display:inline-block;background-repeat:no-repeat;background-size:contain;background-position:50%;background-color:transparent;vertical-align:baseline;vertical-align:text-top;content:''}.o-header__mega-column--articles .o-header__mega-link{white-space:none}.o-header__mega-column--subsections{width:30%}.o-header__mega-column--subsections .o-header__mega-list{-webkit-columns:2;columns:2}.o-header__mega-column--subsections .o-header__mega-item:first-child{font-weight:600}.o-header__mega-heading{margin:0 0 12px;font-size:inherit;text-transform:uppercase}.o-header__mega-list{margin:0;padding:0;list-style:none}.o-header__mega-item{line-height:1.5}.o-header__mega-link{color:inherit;text-decoration:none;border:0}.o-header__mega-link:hover{color:#33302e}.o-header__mega-link--highlight,.o-header__mega-link[aria-selected="true"],.o-header__mega-link[aria-current]{color:#0a5e66}.o-header__mega-link:hover{text-decoration:underline}.o-header--simple .o-header__top-wrapper{height:55px}.o-header--simple .o-header__top-link{margin-top:4px;margin-bottom:4px}.o-header--simple .o-header__top-logo{margin-top:0;margin-bottom:0}@media (min-width: 61.25em){.o-header--simple .o-header__top-logo{width:300px;height:24px}}.o-header--simple .o-header__top-takeover .o-header__nav-link{padding:0;line-height:55px}.core [data-o-header-search]{display:block}.o-header__top-logo.o-header__top-logo--inlined{background-image:none}.o-header__top-logo.o-header__top-logo--inlined *{fill:#33302e}.o-header__top-link.o-header__top-link--inlined{width:40px;height:40px}.o-header__top-link.o-header__top-link--inlined:before{content:none}.o-header__top-link.o-header__top-link--inlined.o-header__top-link--myft{width:35px}@media (min-width: 46.25em){.o-header__top-link.o-header__top-link--inlined.o-header__top-link--myft{width:44px}}@media (min-width: 61.25em){.o-header__top-link.o-header__top-link--inlined.o-header__top-link--myft{width:52px}}.o-header__top-link.o-header__top-link--inlined.o-header__top-link--myft svg{width:35px;height:40px}@media (min-width: 46.25em){.o-header__top-link.o-header__top-link--inlined.o-header__top-link--myft svg{width:44px}}@media (min-width: 61.25em){.o-header__top-link.o-header__top-link--inlined.o-header__top-link--myft svg{width:52px}}.o-header__top-link.o-header__top-link--inlined *{fill:#33302e}.o-header__drawer-menu-button{display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;vertical-align:middle;margin:0;border-style:solid;text-align:center;text-decoration:none;font-family:MetricWeb,sans-serif;font-weight:600;border-radius:0;cursor:pointer;-webkit-transition:0.3s background-color, 0.15s color ease-out, 0.15s border-color ease-out;transition:0.3s background-color, 0.15s color ease-out, 0.15s border-color ease-out;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-clip:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-moz-appearance:none;-webkit-appearance:none;background-size:21px 21px;min-height:28px;min-width:60px;padding:6px 8px 6px 8px;font-size:14px;line-height:14px;border-width:1px;background-color:#0d7680;color:#fff;border-color:transparent;display:block;margin:16px}.o-header__drawer-menu-button[aria-selected=true],.o-header__drawer-menu-button[aria-pressed=true],.o-header__drawer-menu-button:not([disabled]):active{background-color:#08474d;color:#fff;border-color:transparent}.o-header__drawer-menu-button:not([disabled]):hover{background-color:#0a5e66;color:#fff;border-color:transparent;text-decoration:none}.o-header__drawer-menu-button:not([disabled]):focus{background-color:#0a5e66;color:#fff;border-color:transparent}.o-header__drawer-menu-button[disabled]{pointer-events:none;opacity:0.4;cursor:default}.o-header__mega{z-index:102 !important}.o-header__drawer,.o-header--sticky{display:none}.n-skip-link{z-index:107 !important;position:absolute;top:1em;left:-9999px;padding:0.5em 1em;background:#593380;color:#fff}.n-skip-link:focus{-webkit-box-shadow:0 1px 4px rgba(77,72,69,0.15),0 8px 14px rgba(77,72,69,0.2);box-shadow:0 1px 4px rgba(77,72,69,0.15),0 8px 14px rgba(77,72,69,0.2);left:0;color:#fff}.o-header__search-close{margin-bottom:-3px}.n-header__marketing-promo{background-color:#14bdcc;color:#fff;display:none}@media (min-width: 46.25em){.n-header__marketing-promo.visible{display:block}}.n-header__marketing-promo__container{display:table;height:56px}.n-header__marketing-promo__box{font-size:16px;line-height:20px;display:table-cell;vertical-align:middle;text-align:right;padding-right:310px;background:url("https://www.ft.com/__origami/service/image/v2/images/raw/http%3A%2F%2Fwww.ft.com%2F__assets%2Fcreatives%2Fproduct%2FPrintPackshot-2017-09-07_smallest.png?source=next") right bottom no-repeat;background-size:auto 48px;border-bottom:0}.n-header__marketing-promo__link{display:inline-block;-webkit-box-sizing:border-box;box-sizing:border-box;vertical-align:middle;margin:0;border-style:solid;text-align:center;text-decoration:none;font-family:MetricWeb,sans-serif;font-weight:600;border-radius:0;cursor:pointer;-webkit-transition:0.3s background-color, 0.15s color ease-out, 0.15s border-color ease-out;transition:0.3s background-color, 0.15s color ease-out, 0.15s border-color ease-out;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;background-clip:border-box;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;-moz-appearance:none;-webkit-appearance:none;background-size:21px 21px;min-height:28px;min-width:60px;padding:6px 8px 6px 8px;font-size:14px;line-height:14px;border-width:1px;background-color:transparent;color:#0d7680;border-color:#0d7680;background-color:#000;color:#17d4e6;border-color:#000;word-spacing:1px}.n-header__marketing-promo__link[aria-selected=true],.n-header__marketing-promo__link[aria-pressed=true],.n-header__marketing-promo__link:not([disabled]):active{background-color:#0d7680;color:#fff;border-color:#0d7680}.n-header__marketing-promo__link:not([disabled]):hover{background-color:rgba(13,118,128,0.1);color:#0d7680;border-color:#0d7680}.n-header__marketing-promo__link:not([disabled]):focus{background-color:rgba(13,118,128,0.1);color:#0d7680;border-color:#0d7680}.n-header__marketing-promo__link[disabled]{pointer-events:none;opacity:0.4;cursor:default}.n-header__marketing-promo__link[aria-selected=true],.n-header__marketing-promo__link[aria-pressed=true],.n-header__marketing-promo__link:not([disabled]):active{background-color:#000;color:#17d4e6;border-color:#000}.n-header__marketing-promo__link:not([disabled]):hover{background-color:#12aab8;color:#000;border-color:#000;text-decoration:none}.n-header__marketing-promo__link:not([disabled]):focus{background-color:#000;color:#17d4e6;border-color:#000}.n-header__marketing-promo__link,.n-header__marketing-promo__link:not([disabled]):active{color:#fff}.n-typeahead{display:none}.more-from-ft-title{font-family:FinancierDisplayWeb, serif;font-size:28px;line-height:32px;margin-top:0px;margin-bottom:20px;font-weight:400;font-size:24px;line-height:28px;margin-top:32px;color:#33302e}@media (min-width: 30.625em){.more-from-ft-title{font-size:32px;line-height:32px}}@media (min-width: 61.25em){.more-from-ft-title{font-size:40px;line-height:40px}}.o-typography--loading-display .more-from-ft-title{font-size:25.2px;font-family:serif}@media (min-width: 30.625em){.o-typography--loading-display .more-from-ft-title{font-size:28.8px}}@media (min-width: 61.25em){.o-typography--loading-display .more-from-ft-title{font-size:36px}}@media (min-width: 30.625em){.more-from-ft-title{font-size:40px;line-height:40px}}.more-from-ft-images{position:relative;display:none}.more-from-ft-images:before{content:'';position:absolute;height:100%;width:100vw;left:50%;margin-left:-50vw;background-color:#e6d9ce}@media (min-width: 30.625em){.more-from-ft-images{display:block}}.more-from-ft-image{display:block;max-width:100%;min-width:100%}.more-from-ft-links{-webkit-column-count:2;column-count:2;list-style:none;padding-left:0;margin-bottom:46px}@media (min-width: 30.625em){.more-from-ft-links{-webkit-column-count:3;column-count:3}}.more-from-ft-link{font-family:MetricWeb, sans-serif;font-size:14px;line-height:16px;color:#33302e;line-height:38px;border-bottom:0;display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.o-typography--loading-sans .more-from-ft-link{font-size:12.18px;font-family:sans-serif}@media (min-width: 30.625em){.more-from-ft-link{font-size:18px;line-height:20px;line-height:38px}}.more-from-ft-link:hover{color:#0a5e66}.a11y-heading{font-family:MetricWeb, sans-serif;font-size:24px;line-height:28px;font-weight:400;position:relative;background-color:#0a5e66;color:#fff;margin-top:0;margin-bottom:20px;padding:10px 0 10px 22px}.o-typography--loading-sans .a11y-heading{font-size:20.88px;font-family:sans-serif}.a11y-heading:after{content:"";position:absolute;top:0;left:50%;width:100vw;-webkit-transform:translateX(-50%);transform:translateX(-50%);height:100%;background-color:#0a5e66;z-index:-1}.a11y-subheading{margin:20px 0 0}.a11y-home p{font-family:MetricWeb, sans-serif;font-size:16px;line-height:20px}.o-typography--loading-sans .a11y-home p{font-size:13.92px;font-family:sans-serif}.a11y-home__cert{border-bottom:0}
+			</style> 
+  <!--[if gte IE 9]><!--> 
+  <link data-is-next rel="preload" href="//www.ft.com/__assets/hashed/static/46a3998c/main.css" as="style" onload="this.rel='stylesheet';window.FT.cssFileLoaded()"> 
+  <noscript>
+   <link rel="stylesheet" href="//www.ft.com/__assets/hashed/static/46a3998c/main.css">
+  </noscript> 
+  <!--<![endif]--> 
+  <!--[if lt IE 9]><link rel="stylesheet" href="//www.ft.com/__assets/hashed/static/46a3998c/main.css"><![endif]--> 
+  <link rel="icon" type="image/png" href="https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&amp;width=32&amp;height=32&amp;format=png" sizes="32x32"> 
+  <link rel="icon" type="image/png" href="https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&amp;width=194&amp;height=194&amp;format=png" sizes="194x194"> 
+  <link rel="apple-touch-icon" sizes="180x180" href="https://www.ft.com/__origami/service/image/v2/images/raw/ftlogo-v1%3Abrand-ft-logo-square-coloured?source=update-logos&amp;width=180&amp;height=180&amp;format=png"> 
+  <script>
+			// Don't show the Android install banner
+			window.addEventListener('beforeinstallprompt', function (ev) { ev.preventDefault(); return false; });
+		</script> 
+  <link rel="manifest" href="/assets/manifest/manifest-v6.json"> 
+  <meta name="msapplication-TileColor" content="#fff1e0"> 
+  <meta name="msapplication-TileImage" content="https://www.ft.com/__assets/creatives/brand-ft/icons/v3/mstile-144x144.png"> 
+  <meta property="og:locale" content="en_GB"> 
+  <meta property="og:site_name" content="Financial Times"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:pages" content="8860325749"> 
+  <meta name="twitter:site" content="@FinancialTimes"> 
+  <meta name="og:image" content="https://www.ft.com/__assets/creatives/brand-ft/icons/v3/open-graph.png"> 
+  <meta name="twitter:image" content="https://www.ft.com/__assets/creatives/brand-ft/icons/v3/open-graph.png"> 
+  <script>
+			var classes = document.documentElement.className; 
+			classes = classes.replace(/\bno-js\b/, 'js'); 
+			
+			var script = document.createElement('script');
+			var supportsDeferredScripts = "defer" in script && "async" in script;
+			
+			window.cutsTheMustard = (
+				typeof document.documentElement.dataset === 'object'
+				&& ('visibilityState' in document)
+				&& supportsDeferredScripts
+				);
+			
+			if (window.cutsTheMustard) {
+				classes = classes.replace(/\bcore\b/, 'enhanced');
+			}
+			
+			document.documentElement.className = classes;
+			(function () {
+				if (/(^|\s)o-typography-fonts-loaded=1(;|$)/.test(document.cookie)) {
+					var fontLabels = ['sans', 'sansBold', 'serifDisplay', 'serifDisplayBold'];
+					for (var i = 0; i < fontLabels.length; i++) {
+						document.documentElement.classList.remove('o-typography--loading-' + fontLabels[i]);
+					}
+				}
+			}());
+		</script> 
+ </head> 
+ <body data-next-is-logged-in="false" data-trackable="page:static/a11y-home"> 
+  <div class="o-cookie-message o-cookie-message--banner-centric" data-o-component="o-cookie-message"></div> 
+  <div class="n-layout"> 
+   <div class="n-layout__row n-layout__row--header"> 
+    <a data-trackable="a11y-survey-screen-reader" class="n-skip-link" href="https://www.ft.com/accessibility">Accessibility help</a> 
+    <a data-trackable="a11y-skip-to-navigation" class="n-skip-link" href="#site-navigation">Skip to navigation</a> 
+    <a data-trackable="a11y-skip-to-content" class="n-skip-link" href="#site-content">Skip to content</a> 
+    <a data-trackable="a11y-skip-to-footer" class="n-skip-link" href="#site-footer">Skip to footer</a> 
+    <header id="site-navigation" class="o-header" data-o-component="o-header" data-o-header--no-js tabindex="-1"> 
+     <div class="o-header__row o-header__anon" data-trackable="header-anon"> 
+      <ul class="o-header__anon-list"> 
+       <li class="o-header__anon-item"> <a class="o-header__anon-link" href="/login?location=/accessibility" data-trackable="Sign In">Sign In</a> </li> 
+       <li class="o-header__anon-item"> <a class="o-header__anon-link" href="/products?segmentId=f860e6c2-18af-ab30-cd5e-6e3a456f9265" data-trackable="Subscribe">Subscribe</a> </li> 
+      </ul> 
+     </div> 
+     <div class="o-header__row o-header__top" data-trackable="header-top"> 
+      <div class="o-header__container"> 
+       <div class="o-header__top-wrapper"> 
+        <div class="o-header__top-column o-header__top-column--left"> 
+         <a href="#o-header-drawer" class="o-header__top-link o-header__top-link--menu " aria-controls="o-header-drawer" title="Open drawer menu" aria-label="Open drawer menu" data-trackable="drawer-toggle"> <span class="o-header__top-link-label">Menu</span> </a> 
+         <a href="#o-header-search-primary" class="o-header__top-link o-header__top-link--search " aria-controls="o-header-search-primary" title="Search" aria-label="Search" data-trackable="search-toggle"> <span class="o-header__top-link-label">Search</span> </a> 
+        </div> 
+        <div class="o-header__top-column o-header__top-column--center"> 
+         <a class="o-header__top-logo " data-trackable="logo" href="/" title="Go to Financial Times homepage"> <span class="o-header__visually-hidden">Financial Times</span> </a> 
+        </div> 
+        <div class="o-header__top-column o-header__top-column--right"> 
+         <span class="o-header__top-link--myft__container"> <a class="o-header__top-link o-header__top-link--myft " href="/myft" data-trackable="my-ft" data-tour-stage="myFt" aria-label="My F T"> <span class="o-header__visually-hidden">myFT</span> </a> </span> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="o-header-search-primary" class="o-header__row o-header__search o-header__search--primary" data-trackable="header-search" data-o-header-search> 
+      <div class="o-header__container"> 
+       <form class="o-header__search-form" action="/search" role="search" aria-label="Site search" data-n-topic-search data-n-topic-search-categories="concepts,equities" data-n-topic-search-view-all> 
+        <label class="o-header__visually-hidden" for="o-header-search-term-primary">Search the <abbr title="Financial Times">FT</abbr></label> 
+        <input class="o-header__search-term" id="o-header-search-term-primary" name="q" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-trackable="search-term" placeholder="Search the FT" data-n-topic-search-input> 
+        <button class="o-header__search-submit" type="submit" data-trackable="search-submit"> Search </button> 
+        <button class="o-header__search-close o--if-js" type="button" aria-controls="o-header-search-primary" title="Close search bar" data-trackable="close"> <span class="o-header__visually-hidden">Close</span> </button> 
+       </form> 
+      </div> 
+     </div> 
+     <nav id="o-header-nav-desktop" class="o-header__row o-header__nav o-header__nav--desktop" role="navigation" aria-label="Primary navigation" data-trackable="header-nav:desktop"> 
+      <div class="o-header__container"> 
+       <ul class="o-header__nav-list o-header__nav-list--left" data-trackable="primary-nav"> 
+        <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary o-header-nav__list-link--highlight" href="/" id="o-header-link-0" data-trackable="Home">Home</a> </li> 
+        <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary o-header-nav__list-link--highlight" href="/world" id="o-header-link-1" data-trackable="World">World</a> 
+         <div class="o-header__mega" id="o-header-mega-1" role="group" aria-labelledby="o-header-link-1" data-o-header-mega data-trackable="meganav | "> 
+          <div class="o-header__container"> 
+           <div class="o-header__mega-wrapper"> 
+            <div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"> 
+             <div class="o-header__mega-heading">
+              Sections
+             </div> 
+             <div class="o-header__mega-content"> 
+              <ul class="o-header__mega-list"> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/world" data-trackable="link"> World Home </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/global-economy" data-trackable="link"> World Economy </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/world/uk" data-trackable="link"> UK </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/world/us" data-trackable="link"> US </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/world/asia-pacific/china" data-trackable="link"> China </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/world/africa" data-trackable="link"> Africa </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/world/asia-pacific" data-trackable="link"> Asia Pacific </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/emerging-markets" data-trackable="link"> Emerging Markets </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/world/europe" data-trackable="link"> Europe </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/world/americas" data-trackable="link"> Americas </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/world/mideast" data-trackable="link"> Middle East and North Africa </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"> 
+             <div class="o-header__mega-heading">
+              Most Read
+             </div> 
+             <div class="o-header__mega-content"> 
+              <ul class="o-header__mega-list"> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/b20e537a-2deb-11e8-a34a-7e7563b0b0f4" data-trackable="link"> Donald Trump to impose 25% tariffs on $60bn of Chinese imports </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/0bed5128-2e02-11e8-9b4b-bc4b9f08f381" data-trackable="link"> Tillerson takes veiled shots at Trump as he says farewell </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/e1578076-2d5e-11e8-a34a-7e7563b0b0f4" data-trackable="link"> French group wins contract to make UK passports after Brexit </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/d199a96c-2e20-11e8-9b4b-bc4b9f08f381" data-trackable="link"> Trump replaces McMaster with Bolton in day of turmoil </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/11e079da-2e1a-11e8-a34a-7e7563b0b0f4" data-trackable="link"> Wall Street remains unsettled by Trump policy moves </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> </li> 
+        <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary o-header-nav__list-link--highlight" href="/world/us" id="o-header-link-2" data-trackable="US">US</a> 
+         <div class="o-header__mega" id="o-header-mega-2" role="group" aria-labelledby="o-header-link-2" data-o-header-mega data-trackable="meganav | "> 
+          <div class="o-header__container"> 
+           <div class="o-header__mega-wrapper"> 
+            <div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"> 
+             <div class="o-header__mega-heading">
+              Sections
+             </div> 
+             <div class="o-header__mega-content"> 
+              <ul class="o-header__mega-list"> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/world/us" data-trackable="link"> US Home </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/us-economy" data-trackable="link"> US Economy </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/world/us/politics" data-trackable="link"> US Politics &amp; Policy </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/companies/us" data-trackable="link"> US Companies </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> </li> 
+        <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary o-header-nav__list-link--highlight" href="/companies" id="o-header-link-3" data-trackable="Companies">Companies</a> 
+         <div class="o-header__mega" id="o-header-mega-3" role="group" aria-labelledby="o-header-link-3" data-o-header-mega data-trackable="meganav | "> 
+          <div class="o-header__container"> 
+           <div class="o-header__mega-wrapper"> 
+            <div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"> 
+             <div class="o-header__mega-heading">
+              Sections
+             </div> 
+             <div class="o-header__mega-content"> 
+              <ul class="o-header__mega-list"> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/companies" data-trackable="link"> Companies Home </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/companies/energy" data-trackable="link"> Energy </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/companies/financials" data-trackable="link"> Financials </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/companies/health" data-trackable="link"> Health </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/companies/industrials" data-trackable="link"> Industrials </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/companies/media" data-trackable="link"> Media </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/professional-services" data-trackable="link"> Professional Services </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/companies/retail-consumer" data-trackable="link"> Retail &amp; Consumer </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/companies/technology" data-trackable="link"> Technology </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/companies/telecoms" data-trackable="link"> Telecoms </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/companies/transport" data-trackable="link"> Transport </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"> 
+             <div class="o-header__mega-heading">
+              Most Read
+             </div> 
+             <div class="o-header__mega-content"> 
+              <ul class="o-header__mega-list"> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/ca1a8880-2d05-11e8-9b4b-bc4b9f08f381" data-trackable="link"> Changing fortunes for Nokia and Ericsson </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/5da2ae70-2d4c-11e8-a34a-7e7563b0b0f4" data-trackable="link"> GlaxoSmithKline leads race to buy $20bn Pfizer unit </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/7cbf6024-2ce2-11e8-9b4b-bc4b9f08f381" data-trackable="link"> Qantas pushes boundaries with 17-hour ‘kangaroo route’ </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/e4e95b6c-2dac-11e8-9b4b-bc4b9f08f381" data-trackable="link"> Chief’s ‘hubris’ steered Cambridge Analytica to data scandal </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/b7b4646c-2df6-11e8-9b4b-bc4b9f08f381" data-trackable="link"> Unilever shareholder balks at London HQ move to Rotterdam </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> </li> 
+        <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary o-header-nav__list-link--highlight" href="/markets" id="o-header-link-4" data-trackable="Markets">Markets</a> 
+         <div class="o-header__mega" id="o-header-mega-4" role="group" aria-labelledby="o-header-link-4" data-o-header-mega data-trackable="meganav | "> 
+          <div class="o-header__container"> 
+           <div class="o-header__mega-wrapper"> 
+            <div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"> 
+             <div class="o-header__mega-heading">
+              Sections
+             </div> 
+             <div class="o-header__mega-content"> 
+              <ul class="o-header__mega-list"> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/markets" data-trackable="link"> Markets Home </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/fastft" data-trackable="link"> fastFT </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="https://ftalphaville.ft.com" data-trackable="link"> Alphaville </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="https://markets.ft.com/data" data-trackable="link"> Markets Data </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/markets/capital-markets" data-trackable="link"> Capital Markets </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/markets/commodities" data-trackable="link"> Commodities </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/markets/currencies" data-trackable="link"> Currencies </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/markets/equities" data-trackable="link"> Equities </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/fund-management" data-trackable="link"> Fund Management </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/markets/trading" data-trackable="link"> Trading </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"> 
+             <div class="o-header__mega-heading">
+              Most Read
+             </div> 
+             <div class="o-header__mega-content"> 
+              <ul class="o-header__mega-list"> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/11e079da-2e1a-11e8-a34a-7e7563b0b0f4" data-trackable="link"> Wall Street remains unsettled by Trump policy moves </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/bf791ec0-2d62-11e8-9b4b-bc4b9f08f381" data-trackable="link"> Economists’ cryptocurrency aims to avoid pitfalls of bitcoin </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/f78ec216-2d7a-11e8-a34a-7e7563b0b0f4" data-trackable="link"> US stocks slide as worries mount over global trade war </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/de0a8794-2e38-11e8-9b4b-bc4b9f08f381" data-trackable="link"> Wall St sell-off resumes as trade worries dominate </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/4ca72d20-2e10-11e8-9b4b-bc4b9f08f381" data-trackable="link"> JPMorgan weighs spin-off for blockchain project </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> </li> 
+        <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary o-header-nav__list-link--highlight" href="/opinion" id="o-header-link-5" data-trackable="Opinion">Opinion</a> 
+         <div class="o-header__mega" id="o-header-mega-5" role="group" aria-labelledby="o-header-link-5" data-o-header-mega data-trackable="meganav | "> 
+          <div class="o-header__container"> 
+           <div class="o-header__mega-wrapper"> 
+            <div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"> 
+             <div class="o-header__mega-heading">
+              Sections
+             </div> 
+             <div class="o-header__mega-content"> 
+              <ul class="o-header__mega-list"> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/opinion" data-trackable="link"> Opinion Home </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/comment/columnists" data-trackable="link"> Columnists </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/comment/ft-view" data-trackable="link"> FT View </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/comment/the-big-read" data-trackable="link"> The Big Read </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/instant-insight" data-trackable="link"> Instant Insight </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/lex" data-trackable="link"> Lex </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="https://ftalphaville.ft.com" data-trackable="link"> Alphaville </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/comment/blogs" data-trackable="link"> Blogs </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/comment/obituaries" data-trackable="link"> Obituaries </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/comment/letters" data-trackable="link"> Letters </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"> 
+             <div class="o-header__mega-heading">
+              Most Read
+             </div> 
+             <div class="o-header__mega-content"> 
+              <ul class="o-header__mega-list"> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/ca1a8880-2d05-11e8-9b4b-bc4b9f08f381" data-trackable="link"> Changing fortunes for Nokia and Ericsson </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/dc1bbd28-2c61-11e8-9b4b-bc4b9f08f381" data-trackable="link"> Chaos has its limits even in Donald Trump’s White House </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/9ba83ab2-2e34-11e8-9b4b-bc4b9f08f381" data-trackable="link"> John Bolton completes Trump’s America First goals </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/a3111968-2cf4-11e8-9b4b-bc4b9f08f381" data-trackable="link"> Britain’s latest Brexit strategy: any deal will do </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/7fcd730e-2ddd-11e8-9b4b-bc4b9f08f381" data-trackable="link"> Blue passports and public procurement </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> </li> 
+        <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary o-header-nav__list-link--highlight" href="/work-careers" id="o-header-link-6" data-trackable="Work &amp; Careers">Work &amp; Careers</a> 
+         <div class="o-header__mega" id="o-header-mega-6" role="group" aria-labelledby="o-header-link-6" data-o-header-mega data-trackable="meganav | "> 
+          <div class="o-header__container"> 
+           <div class="o-header__mega-wrapper"> 
+            <div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"> 
+             <div class="o-header__mega-heading">
+              Sections
+             </div> 
+             <div class="o-header__mega-content"> 
+              <ul class="o-header__mega-list"> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/work-careers" data-trackable="link"> Work &amp; Careers Home </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="http://rankings.ft.com/businessschoolrankings/rankings" data-trackable="link"> Business School Rankings </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/business-education" data-trackable="link"> Business Education </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/management/entrepreneurship" data-trackable="link"> Entrepreneurship </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/management/recruitment" data-trackable="link"> Recruitment </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/management/business-books" data-trackable="link"> Business Books </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"> 
+             <div class="o-header__mega-heading">
+              Most Read
+             </div> 
+             <div class="o-header__mega-content"> 
+              <ul class="o-header__mega-list"> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/be3f3d4e-2b5c-11e8-9b4b-bc4b9f08f381" data-trackable="link"> New York vs London: which is the better city for bringing up kids? </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/39429f75-49dd-4159-a680-3722093a06ee" data-trackable="link"> How MBA students get internships </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/33af4118-2c2b-11e8-9b4b-bc4b9f08f381" data-trackable="link"> ‘I will never retire’: working life with an Alzheimer’s diagnosis </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/d5ed022c-2d2e-11e8-a34a-7e7563b0b0f4" data-trackable="link"> Listen: How MBA students land internships </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/56a3d9ec-2d0a-11e8-a34a-7e7563b0b0f4" data-trackable="link"> Meet the Work Tribes — parent and co-worker </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> </li> 
+        <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary o-header-nav__list-link--highlight" href="/life-arts" id="o-header-link-7" data-trackable="Life &amp; Arts">Life &amp; Arts</a> 
+         <div class="o-header__mega" id="o-header-mega-7" role="group" aria-labelledby="o-header-link-7" data-o-header-mega data-trackable="meganav | "> 
+          <div class="o-header__container"> 
+           <div class="o-header__mega-wrapper"> 
+            <div class="o-header__mega-column o-header__mega-column--subsections" data-trackable="sections"> 
+             <div class="o-header__mega-heading">
+              Sections
+             </div> 
+             <div class="o-header__mega-content"> 
+              <ul class="o-header__mega-list"> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/life-arts" data-trackable="link"> Life &amp; Arts Home </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/arts" data-trackable="link"> Arts </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/books" data-trackable="link"> Books </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/life-arts/food-drink" data-trackable="link"> Food &amp; Drink </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/magazine" data-trackable="link"> FT Magazine </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/house-home" data-trackable="link"> House &amp; Home </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/next-act" data-trackable="link"> Next Act </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/life-arts/style" data-trackable="link"> Style </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/travel" data-trackable="link"> Travel </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+            <div class="o-header__mega-column o-header__mega-column--articles" data-trackable="popular"> 
+             <div class="o-header__mega-heading">
+              Most Read
+             </div> 
+             <div class="o-header__mega-content"> 
+              <ul class="o-header__mega-list"> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/c8772236-2b93-11e8-a34a-7e7563b0b0f4" data-trackable="link"> Why are Germans so obsessed with saving money? </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/be3f3d4e-2b5c-11e8-9b4b-bc4b9f08f381" data-trackable="link"> New York vs London: which is the better city for bringing up kids? </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/6dc708a4-2c99-11e8-a34a-7e7563b0b0f4" data-trackable="link"> There’s money in moderation: the rise of alcohol-free drinks </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/789f54d6-2c9c-11e8-a34a-7e7563b0b0f4" data-trackable="link"> Drink up: the real reason wine glasses keep getting bigger&nbsp; </a> </li> 
+               <li class="o-header__mega-item"> <a class="o-header__mega-link" href="/content/bde16d6a-2772-11e8-9274-2b13fccdc744" data-trackable="link"> Why Brexit could boost British farming </a> </li> 
+              </ul> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> </li> 
+       </ul> 
+       <ul class="o-header__nav-list o-header__nav-list--right" data-trackable="user-nav"> 
+        <li class="o-header__nav-item"> <a class="o-header__nav-link" href="/login?location=/accessibility" data-trackable="Sign In">Sign In</a> </li> 
+        <li class="o-header__nav-item"> <a class="o-header__nav-button" href="/products?segmentId=f860e6c2-18af-ab30-cd5e-6e3a456f9265" data-trackable="Subscribe">Subscribe</a> </li> 
+       </ul> 
+      </div> 
+     </nav> 
+    </header> 
+    <header class="o-header o-header--simple o-header--sticky o--if-js" aria-hidden="true" data-o-header--sticky> 
+     <div class="o-header__row o-header__top" data-trackable="header-sticky"> 
+      <div class="o-header__container"> 
+       <div class="o-header__top-wrapper"> 
+        <div class="o-header__top-column o-header__top-column--left"> 
+         <a href="#" class="o-header__top-link o-header__top-link--menu" aria-controls="o-header-drawer" data-trackable="drawer-toggle" tabindex="-1"> <span class="o-header__top-link-label">Menu</span> </a> 
+         <a href="#" class="o-header__top-link o-header__top-link--search" aria-controls="o-header-search-sticky" data-trackable="search-toggle" tabindex="-1"> <span class="o-header__top-link-label">Search</span> </a> 
+        </div> 
+        <div class="o-header__top-column o-header__top-column--center"> 
+         <div class="o-header__top-takeover"> 
+          <div class="o-header__nav"> 
+           <ul class="o-header__nav-list o-header__nav-list--left" data-trackable="primary-nav"> 
+            <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary " href="/" data-trackable="Home" tabindex="-1">Home</a> </li> 
+            <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary " href="/world" data-trackable="World" tabindex="-1">World</a> </li> 
+            <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary " href="/world/us" data-trackable="US" tabindex="-1">US</a> </li> 
+            <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary " href="/companies" data-trackable="Companies" tabindex="-1">Companies</a> </li> 
+            <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary " href="/markets" data-trackable="Markets" tabindex="-1">Markets</a> </li> 
+            <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary " href="/opinion" data-trackable="Opinion" tabindex="-1">Opinion</a> </li> 
+            <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary " href="/work-careers" data-trackable="Work &amp; Careers" tabindex="-1">Work &amp; Careers</a> </li> 
+            <li class="o-header__nav-item"> <a class="o-header__nav-link o-header__nav-link--primary " href="/life-arts" data-trackable="Life &amp; Arts" tabindex="-1">Life &amp; Arts</a> </li> 
+           </ul> 
+          </div> 
+         </div> 
+         <a class="o-header__top-logo o-header__hide--L" data-trackable="logo" href="/" title="Go to Financial Times homepage" tabindex="-1"> <span class="o-header__visually-hidden">Financial Times</span> </a> 
+        </div> 
+        <div class="o-header__top-column o-header__top-column--right"> 
+         <div class="o-header__nav"> 
+          <ul class="o-header__nav-list o-header__nav-list--right" data-trackable="user-nav"> 
+           <li class="o-header__nav-item "> <a class="o-header__nav-link" href="/login?location=/accessibility" data-trackable="Sign In" tabindex="-1"> Sign In </a> </li> 
+           <li class="o-header__nav-item o-header__nav-item--expanded"> <a class="o-header__nav-button" href="/products?segmentId=f860e6c2-18af-ab30-cd5e-6e3a456f9265" data-trackable="Subscribe" tabindex="-1"> Subscribe </a> </li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="o-header-search-sticky" class="o-header__row o-header__search o-header__search--sticky" data-trackable="header-search" data-o-header-search> 
+      <div class="o-header__container"> 
+       <form class="o-header__search-form" action="/search" role="search" aria-label="Site search" data-n-topic-search data-n-topic-search-categories="concepts,equities" data-n-topic-search-view-all> 
+        <label class="o-header__visually-hidden" for="o-header-search-term-sticky">Search the <abbr title="Financial Times">FT</abbr></label> 
+        <input class="o-header__search-term" id="o-header-search-term-sticky" name="q" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" data-trackable="search-term" placeholder="Search the FT" data-n-topic-search-input> 
+        <button class="o-header__search-submit" type="submit" data-trackable="search-submit"> Search </button> 
+        <button class="o-header__search-close o--if-js" type="button" aria-controls="o-header-search-sticky" title="Close search bar" data-trackable="close"> <span class="o-header__visually-hidden">Close</span> </button> 
+       </form> 
+      </div> 
+     </div> 
+    </header> 
+   </div> 
+   <div class="n-layout__row n-layout__row--content"> 
+    <main id="site-content" role="main" class="a11y-home"> 
+     <div class="o-grid-container o-grid-container--snappy"> 
+      <div class="o-grid-row"> 
+       <div data-o-grid-colspan="12 center"> 
+        <h1 class="a11y-heading">ACCESSIBILITY</h1> 
+        <h2 class="a11y-subheading o-typography-heading-level-4">Our commitment to you</h2> 
+        <p>At the Financial Times we aim to provide an accessible website for all our customers, including those who are older and who have disabilities. Our website is accredited accessible by the Digital Accessibility Centre, conforming to level AA of the <a href="https://www.w3.org/TR/WCAG20/">Web Content Accessibility Guidelines (WCAG 2.0)</a>.</p> 
+        <a class="a11y-home__cert" href="http://digitalaccessibilitycentre.org/index.php/financial-times" target="_blank"><img src="https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fwww.ft.com%2F__assets%2Fcreatives%2Fa11y%2Fdac.png?width=230&amp;source=next&amp;fit=scale-down" alt="Digital Accessibility Centre Accreditation Certificate (opens in a new window)"></a> 
+        <p>WCAG 2.0 provides criteria to make websites more accessible for people with disabilities. We take our responsibilities in this area very seriously and maintain continued efforts to improve accessibility on FT.com. If you have any questions or feedback, please <a href="https://help.ft.com/help/contact-us/">contact us</a>.</p> 
+        <h2 class="a11y-subheading o-typography-heading-level-4">User testing</h2> 
+        <p>This site was tested and found to be accessible to people using keyboard-only control, screen reader access on desktop and mobile, screen magnification and high-contrast mode. It has been tested by a team of experienced web analysts with disabilities. User testing has been conducted with individuals who are deaf, blind, colour blind, dyslexic, have low vision, are mobility impaired or have a learning difficulty.</p> 
+        <h2 class="a11y-subheading o-typography-heading-level-4">Site Limitations</h2> 
+        <p>All pages within <a href="https://www.ft.com ">www.ft.com</a> are accredited accessible. Pages in other sub-domains, such as <a href="https://markets.ft.com">markets.ft.com</a> and <a href="https://accounts.ft.com">accounts.ft.com</a> are still undergoing improvements and are not currently fully accessible.</p> 
+        <p>Most of our videos provide close captioning (CC), however some older videos (dating back 2016 and beyond) will not have this functionality. If this causes any inconvenience please do not hesitate to contact us.</p> 
+        <p>The controls in the comments section of our articles are powered by a third party tool and currently have limited accessibility, which we're working to improve.</p> 
+        <h2 class="a11y-subheading o-typography-heading-level-4">Contacting us</h2> 
+        <p>We welcome your feedback. If you have any problems accessing our content or think there's additional information that should be included in this page, please <a href="https://help.ft.com/help/contact-us/">contact us</a>.</p> 
+        <h2 class="a11y-subheading o-typography-heading-level-4">Conformance date</h2> 
+        <p>This accessibility statement was originally issued on November 2016. Latest update April 2017.</p> 
+       </div> 
+      </div> 
+     </div> 
+    </main> 
+   </div> 
+   <div class="n-layout__row n-layout__row--footer"> 
+    <footer id="site-footer" class="o-footer o-footer--theme-dark" data-o-component="o-footer"> 
+     <div class="o-footer__container"> 
+      <div class="o-footer__row"> 
+       <nav class="o-footer__matrix" role="navigation" aria-label="Useful links"> 
+        <div class="o-footer__matrix-group o-footer__matrix-group--1"> 
+         <div class="o-footer__matrix-title">
+           Support 
+         </div> 
+         <div class="o-footer__matrix-content" id="o-footer-section-0"> 
+          <div class="o-footer__matrix-column"> 
+           <a class="o-footer__matrix-link" href="/tour" data-trackable="View Site Tips">View Site Tips</a> 
+           <a class="o-footer__matrix-link" href="/feedback" data-trackable="Feedback">Feedback</a> 
+           <a class="o-footer__matrix-link" href="http://help.ft.com" data-trackable="Help Centre">Help Centre</a> 
+           <a class="o-footer__matrix-link" href="http://www.ft.com/aboutus" data-trackable="About Us">About Us</a> 
+           <a class="o-footer__matrix-link" href="/accessibility" data-trackable="Accessibility">Accessibility</a> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="o-footer__matrix-group o-footer__matrix-group--1"> 
+         <div class="o-footer__matrix-title">
+           Legal &amp; Privacy 
+         </div> 
+         <div class="o-footer__matrix-content" id="o-footer-section-1"> 
+          <div class="o-footer__matrix-column"> 
+           <a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/terms-conditions/" data-trackable="Terms &amp; Conditions">Terms &amp; Conditions</a> 
+           <a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/privacy/" data-trackable="Privacy">Privacy</a> 
+           <a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/cookies/" data-trackable="Cookies">Cookies</a> 
+           <a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/copyright/copyright-policy/" data-trackable="Copyright">Copyright</a> 
+           <a class="o-footer__matrix-link" href="https://help.ft.com/help/legal/slavery-statement/" data-trackable="Slavery Statement &amp; Policies">Slavery Statement &amp; Policies</a> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="o-footer__matrix-group o-footer__matrix-group--2"> 
+         <div class="o-footer__matrix-title" aria-controls="o-footer-section-2">
+           Services 
+         </div> 
+         <div class="o-footer__matrix-content" id="o-footer-section-2"> 
+          <div class="o-footer__matrix-column"> 
+           <a class="o-footer__matrix-link" href="http://live.ft.com/" data-trackable="FT Live">FT Live</a> 
+           <a class="o-footer__matrix-link" href="/securedrop" data-trackable="Share News Tips Securely" data-o-tracking-do-not-track="true">Share News Tips Securely</a> 
+           <a class="o-footer__matrix-link" href="http://www.ft.com/products" data-trackable="Individual Subscriptions">Individual Subscriptions</a> 
+           <a class="o-footer__matrix-link" href="https://enterprise.ft.com/en-gb/services/group-subscriptions/group-contact-us/?segmentId=e0a95430-6db2-1a45-3d1b-f51c1848ba6b&amp;cpccampaign=B2B_link_ft.com_footer" data-trackable="Group Subscriptions">Group Subscriptions</a> 
+           <a class="o-footer__matrix-link" href="https://enterprise.ft.com/en-gb/services/republishing/" data-trackable="Republishing">Republishing</a> 
+           <a class="o-footer__matrix-link" href="http://www.businessesforsale.com/ft2/notices" data-trackable="Contracts &amp; Tenders">Contracts &amp; Tenders</a> 
+          </div> 
+          <div class="o-footer__matrix-column"> 
+           <a class="o-footer__matrix-link" href="http://commerce.uk.reuters.com/purchase/mostPopular.do?rpc=471" data-trackable="Analysts Research">Analysts Research</a> 
+           <a class="o-footer__matrix-link" href="https://www.exec-appointments.com/" data-trackable="Executive Job Search">Executive Job Search</a> 
+           <a class="o-footer__matrix-link" href="http://fttoolkit.co.uk/" data-trackable="Advertise with the FT">Advertise with the FT</a> 
+           <a class="o-footer__matrix-link" href="https://twitter.com/financialtimes" data-trackable="Follow the FT on Twitter">Follow the FT on Twitter</a> 
+           <a class="o-footer__matrix-link" href="https://transact.ft.com/en-gb/" data-trackable="FT Transact">FT Transact</a> 
+           <a class="o-footer__matrix-link" href="https://enterprise.ft.com/en-gb/services/group-subscriptions/education/" data-trackable="Secondary Schools">Secondary Schools</a> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="o-footer__matrix-group o-footer__matrix-group--2"> 
+         <div class="o-footer__matrix-title" aria-controls="o-footer-section-3">
+           Tools 
+         </div> 
+         <div class="o-footer__matrix-content" id="o-footer-section-3"> 
+          <div class="o-footer__matrix-column"> 
+           <a class="o-footer__matrix-link" href="https://markets.ft.com/data/portfolio/dashboard" data-trackable="Portfolio">Portfolio</a> 
+           <a class="o-footer__matrix-link" href="https://www.ft.com/todaysnewspaper" data-trackable="Today's Newspaper (ePaper)">Today's Newspaper (ePaper)</a> 
+           <a class="o-footer__matrix-link" href="http://markets.ft.com/data/alerts/" data-trackable="Alerts Hub">Alerts Hub</a> 
+           <a class="o-footer__matrix-link" href="http://lexicon.ft.com/" data-trackable="Lexicon">Lexicon</a> 
+           <a class="o-footer__matrix-link" href="http://rankings.ft.com/businessschoolrankings/global-mba-ranking-2016?ft_site=falcon" data-trackable="MBA Rankings">MBA Rankings</a> 
+          </div> 
+          <div class="o-footer__matrix-column"> 
+           <a class="o-footer__matrix-link" href="https://markets.ft.com/data/world/economic-calendar" data-trackable="Economic Calendar">Economic Calendar</a> 
+           <a class="o-footer__matrix-link" href="/news-feed" data-trackable="News feed">News feed</a> 
+           <a class="o-footer__matrix-link" href="/newsletters" data-trackable="Newsletters">Newsletters</a> 
+           <a class="o-footer__matrix-link" href="https://markets.ft.com/research/Markets/Currencies?segid=70113" data-trackable="Currency Converter">Currency Converter</a> 
+          </div> 
+         </div> 
+        </div> 
+       </nav> 
+       <div class="o-footer__external-link o-footer__matrix-title"> 
+        <a class="o-footer__more-from-ft o-footer__matrix-title" href="http://ft.com/more-from-ft-group" data-trackable="more-from-ft">More from the FT Group</a> 
+       </div> 
+      </div> 
+      <div class="o-footer__copyright" role="contentinfo"> 
+       <small> Markets data delayed by at least 15 minutes. © THE FINANCIAL TIMES LTD 2018. <abbr title="Financial Times" aria-label="F T">FT</abbr> and ‘Financial Times’ are trademarks of The Financial Times Ltd.<br> The Financial Times and its journalism are subject to a self-regulation regime under the <a href="http://aboutus.ft.com/en-gb/ft-editorial-code/" aria-label="F T Editorial Code of Practice">FT Editorial Code of Practice</a>. </small> 
+      </div> 
+     </div> 
+     <div class="o-footer__brand"> 
+      <div class="o-footer__container"> 
+       <div class="o-footer__brand-logo"></div> 
+      </div> 
+     </div> 
+    </footer> 
+    <div class="o-header__drawer" id="o-header-drawer" role="navigation" aria-label="Drawer menu" data-o-header-drawer data-o-header-drawer--no-js data-trackable="drawer" data-trackable-terminate> 
+     <div class="o-header__drawer-inner"> 
+      <div class="o-header__drawer-tools"> 
+       <button type="button" class="o-header__drawer-tools-close" aria-controls="o-header-drawer" title="Close drawer menu" data-trackable="close"> <span class="o-header__visually-hidden">Close</span> </button> 
+       <a class="o-header__drawer-tools-logo" href="/" data-trackable="logo"> <span class="o-header__visually-hidden">Financial Times</span> </a> 
+       <p class="o-header__drawer-current-edition">International Edition</p> 
+      </div> 
+      <div class="o-header__drawer-search"> 
+       <form class="o-header__drawer-search-form" action="/search" role="search" aria-label="Site search" data-n-topic-search data-n-topic-search-categories="concepts,equities" data-n-topic-search-view-all> 
+        <label class="o-header__visually-hidden" for="o-header-drawer-search-term">Search the <abbr title="Financial Times">FT</abbr></label> 
+        <input class="o-header__drawer-search-term" id="o-header-drawer-search-term" name="q" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search the FT" data-trackable="search-term" data-n-topic-search-input> 
+        <button class="o-header__drawer-search-submit" type="submit" data-trackable="search-submit"> <span class="o-header__visually-hidden">Search</span> </button> 
+       </form> 
+      </div> 
+      <nav class="o-header__drawer-menu o-header__drawer-menu--primary o-header__drawer-homepage"> 
+       <ul class="o-header__drawer-menu-list"> 
+        <li class="o-header__drawer-menu-item" data-trackable="edition-switcher"> <a class="o-header__drawer-menu-link" href="/?edition=uk" data-trackable="uk">Switch to UK Edition</a> </li> 
+       </ul> 
+       <ul class="o-header__drawer-menu-list"> 
+        <li class="o-header__drawer-menu-item o-header__drawer-menu-item--heading">Top sections</li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/" data-trackable="Home">Home</a> </li> 
+        <li class="o-header__drawer-menu-item"> 
+         <div class="o-header__drawer-menu-toggle-wrapper"> 
+          <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="/world" data-trackable="World">World</a> 
+          <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-1" data-trackable="sub-level-toggle | World"> Show more World links </button> 
+         </div> 
+         <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-1" data-trackable="sub-level"> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/global-economy" data-trackable="World Economy">World Economy</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/world/uk" data-trackable="UK">UK</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/world/us" data-trackable="US">US</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/world/asia-pacific/china" data-trackable="China">China</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/world/africa" data-trackable="Africa">Africa</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/world/asia-pacific" data-trackable="Asia Pacific">Asia Pacific</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/emerging-markets" data-trackable="Emerging Markets">Emerging Markets</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/world/europe" data-trackable="Europe">Europe</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/world/americas" data-trackable="Americas">Americas</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/world/mideast" data-trackable="Middle East and North Africa">Middle East and North Africa</a> </li> 
+         </ul> </li> 
+        <li class="o-header__drawer-menu-item"> 
+         <div class="o-header__drawer-menu-toggle-wrapper"> 
+          <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="/world/us" data-trackable="US">US</a> 
+          <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-2" data-trackable="sub-level-toggle | US"> Show more US links </button> 
+         </div> 
+         <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-2" data-trackable="sub-level"> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/us-economy" data-trackable="US Economy">US Economy</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/world/us/politics" data-trackable="US Politics &amp; Policy">US Politics &amp; Policy</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/companies/us" data-trackable="US Companies">US Companies</a> </li> 
+         </ul> </li> 
+        <li class="o-header__drawer-menu-item"> 
+         <div class="o-header__drawer-menu-toggle-wrapper"> 
+          <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="/companies" data-trackable="Companies">Companies</a> 
+          <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-3" data-trackable="sub-level-toggle | Companies"> Show more Companies links </button> 
+         </div> 
+         <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-3" data-trackable="sub-level"> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/companies/energy" data-trackable="Energy">Energy</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/companies/financials" data-trackable="Financials">Financials</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/companies/health" data-trackable="Health">Health</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/companies/industrials" data-trackable="Industrials">Industrials</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/companies/media" data-trackable="Media">Media</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/professional-services" data-trackable="Professional Services">Professional Services</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/companies/retail-consumer" data-trackable="Retail &amp; Consumer">Retail &amp; Consumer</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/companies/technology" data-trackable="Technology">Technology</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/companies/telecoms" data-trackable="Telecoms">Telecoms</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/companies/transport" data-trackable="Transport">Transport</a> </li> 
+         </ul> </li> 
+        <li class="o-header__drawer-menu-item"> 
+         <div class="o-header__drawer-menu-toggle-wrapper"> 
+          <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="/markets" data-trackable="Markets">Markets</a> 
+          <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-4" data-trackable="sub-level-toggle | Markets"> Show more Markets links </button> 
+         </div> 
+         <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-4" data-trackable="sub-level"> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/fastft" data-trackable="fastFT">fastFT</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://ftalphaville.ft.com" data-trackable="Alphaville">Alphaville</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://markets.ft.com/data" data-trackable="Markets Data">Markets Data</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/markets/capital-markets" data-trackable="Capital Markets">Capital Markets</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/markets/commodities" data-trackable="Commodities">Commodities</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/markets/currencies" data-trackable="Currencies">Currencies</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/markets/equities" data-trackable="Equities">Equities</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/fund-management" data-trackable="Fund Management">Fund Management</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/markets/trading" data-trackable="Trading">Trading</a> </li> 
+         </ul> </li> 
+        <li class="o-header__drawer-menu-item"> 
+         <div class="o-header__drawer-menu-toggle-wrapper"> 
+          <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="/opinion" data-trackable="Opinion">Opinion</a> 
+          <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-5" data-trackable="sub-level-toggle | Opinion"> Show more Opinion links </button> 
+         </div> 
+         <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-5" data-trackable="sub-level"> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/comment/columnists" data-trackable="Columnists">Columnists</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/comment/ft-view" data-trackable="FT View">FT View</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/comment/the-big-read" data-trackable="The Big Read">The Big Read</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/instant-insight" data-trackable="Instant Insight">Instant Insight</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/lex" data-trackable="Lex">Lex</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://ftalphaville.ft.com" data-trackable="Alphaville">Alphaville</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/comment/blogs" data-trackable="Blogs">Blogs</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/comment/obituaries" data-trackable="Obituaries">Obituaries</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/comment/letters" data-trackable="Letters">Letters</a> </li> 
+         </ul> </li> 
+        <li class="o-header__drawer-menu-item"> 
+         <div class="o-header__drawer-menu-toggle-wrapper"> 
+          <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="/work-careers" data-trackable="Work &amp; Careers">Work &amp; Careers</a> 
+          <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-6" data-trackable="sub-level-toggle | Work &amp; Careers"> Show more Work &amp; Careers links </button> 
+         </div> 
+         <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-6" data-trackable="sub-level"> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="http://rankings.ft.com/businessschoolrankings/rankings" data-trackable="Business School Rankings">Business School Rankings</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/business-education" data-trackable="Business Education">Business Education</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/management/entrepreneurship" data-trackable="Entrepreneurship">Entrepreneurship</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/management/recruitment" data-trackable="Recruitment">Recruitment</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/management/business-books" data-trackable="Business Books">Business Books</a> </li> 
+         </ul> </li> 
+        <li class="o-header__drawer-menu-item"> 
+         <div class="o-header__drawer-menu-toggle-wrapper"> 
+          <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="/life-arts" data-trackable="Life &amp; Arts">Life &amp; Arts</a> 
+          <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-7" data-trackable="sub-level-toggle | Life &amp; Arts"> Show more Life &amp; Arts links </button> 
+         </div> 
+         <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-7" data-trackable="sub-level"> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/arts" data-trackable="Arts">Arts</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/books" data-trackable="Books">Books</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/life-arts/food-drink" data-trackable="Food &amp; Drink">Food &amp; Drink</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/magazine" data-trackable="FT Magazine">FT Magazine</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/house-home" data-trackable="House &amp; Home">House &amp; Home</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/next-act" data-trackable="Next Act">Next Act</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/life-arts/style" data-trackable="Style">Style</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/travel" data-trackable="Travel">Travel</a> </li> 
+         </ul> </li> 
+        <li class="o-header__drawer-menu-item"> 
+         <div class="o-header__drawer-menu-toggle-wrapper"> 
+          <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="/personal-finance" data-trackable="Personal Finance">Personal Finance</a> 
+          <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-8" data-trackable="sub-level-toggle | Personal Finance"> Show more Personal Finance links </button> 
+         </div> 
+         <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-8" data-trackable="sub-level"> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/personal-finance/property-mortgages" data-trackable="Property &amp; Mortgages">Property &amp; Mortgages</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/personal-finance/investments" data-trackable="Investments">Investments</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/pensions" data-trackable="Pensions">Pensions</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/personal-finance/tax" data-trackable="Tax">Tax</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/personal-finance/banking-savings" data-trackable="Banking &amp; Savings">Banking &amp; Savings</a> </li> 
+          <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="/personal-finance/advice-commment" data-trackable="Advice &amp; Comment">Advice &amp; Comment</a> </li> 
+         </ul> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/science" data-trackable="Science">Science</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/special-reports" data-trackable="Special Reports">Special Reports</a> </li> 
+        <li class="o-header__drawer-menu-item o-header__drawer-menu-item--heading">FT recommends</li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/lex" data-trackable="Lex">Lex</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://ftalphaville.ft.com" data-trackable="Alphaville">Alphaville</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/emerging-markets/em-squared" data-trackable="EM Squared">EM Squared</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/lunch-with-the-ft" data-trackable="Lunch with the FT">Lunch with the FT</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://www.ft.com/ft-confidential-research" data-trackable="FT Confidential Research">FT Confidential Research</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/video" data-trackable="Video">Video</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="https://www.ft.com/podcasts" data-trackable="Podcasts">Podcasts</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/comment/blogs" data-trackable="Blogs">Blogs</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/news-feed" data-trackable="News feed">News feed</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--unselected" href="/newsletters" data-trackable="Newsletters">Newsletters</a> </li> 
+        <li class="o-header__drawer-menu-item o-header__drawer-menu-item--divide"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--secondary o-header__drawer-menu-link--unselected" href="/myft" data-trackable="myFT">myFT</a> </li> 
+        <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--secondary o-header__drawer-menu-link--unselected" href="https://markets.ft.com/data/portfolio/dashboard" data-trackable="Portfolio">Portfolio</a> </li> 
+        <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--secondary o-header__drawer-menu-link--unselected" href="https://www.ft.com/todaysnewspaper" data-trackable="Today's Newspaper (ePaper)">Today's Newspaper (ePaper)</a> </li> 
+        <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--secondary o-header__drawer-menu-link--unselected" href="https://www.ft.com/crossword" data-trackable="Crossword">Crossword</a> </li> 
+       </ul> 
+      </nav> 
+      <nav class="o-header__drawer-menu o-header__drawer-menu--user" data-trackable="user-nav"> 
+       <ul class="o-header__drawer-menu-list"> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link" href="http://help.ft.com" data-trackable="Help Centre">Help Centre</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link" href="/products?segmentId=d290332b-e8e8-d29b-2ff4-2019b13f008a" data-trackable="Subscribe">Subscribe</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link" href="/login?location=/accessibility" data-trackable="Sign In">Sign In</a> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script>
+		(function(){var w=window;var doc=document;var preloadSupported=function(){try{return doc.createElement("link").relList.supports("preload")}catch(e){return false}}();function onloadCSS(ss,callback){var called;function newcb(){if(!called&&callback){called=true;callback.call(ss)}}if(ss.addEventListener){ss.addEventListener("load",newcb)}if(ss.attachEvent){ss.attachEvent("onload",newcb)}if("isApplicationInstalled"in navigator&&"onloadcssdefined"in ss){ss.onloadcssdefined(newcb)}}w.loadCSS=function(href,before,media){var ss=doc.createElement("link");var ref;if(before){ref=before}else{var refs=(doc.body||doc.getElementsByTagName("head")[0]).childNodes;ref=refs[refs.length-1]}var sheets=doc.styleSheets;ss.rel="stylesheet";ss.href=href;ss.media="only x";function ready(cb){if(doc.body){return cb()}setTimeout(function(){ready(cb)})}ready(function(){ref.parentNode.insertBefore(ss,before?ref:ref.nextSibling)});var onloadcssdefined=function(cb){var resolvedHref=ss.href;var i=sheets.length;while(i--){if(sheets[i].href===resolvedHref){return cb()}}setTimeout(function(){onloadcssdefined(cb)})};function loadCB(){if(ss.addEventListener){ss.removeEventListener("load",loadCB)}ss.media=media||"all"}if(ss.addEventListener){ss.addEventListener("load",loadCB)}ss.onloadcssdefined=onloadcssdefined;onloadcssdefined(loadCB);return ss};var allLinks=doc.getElementsByTagName("link");var link,newLink;for(var i=0;i<allLinks.length;i++){link=allLinks[i];if(link.rel==="preload"&&link.getAttribute("as")==="style"){if(preloadSupported){onloadCSS(link,function(){this.rel="stylesheet";w.FT.cssFileLoaded()})}else{newLink=w.loadCSS(link.href,link);link.rel=null;onloadCSS(newLink,function(){w.FT.cssFileLoaded()})}}}})();	window.FT.flags = {"articleRelatedContent":true,"ads":true,"clientAjaxErrorReporting":false,"clientDetailedErrorReporting":false,"javascript":true,"polyfills":true,"oTracking":true,"articleComments":true,"capiV2LinkedDataOrganisationHeader":false,"dummyFlag":false,"liveStreams":true,"articleScrollDepthTracking":true,"b2cMessagePrompt":true,"frontPageHeaderMarketsData":true,"krux":true,"aaa":false,"cookieMessage":true,"myFtApi":true,"streamOpenArticleInStream":true,"aa":false,"articleShareButtons":true,"kruxGoogleIntegration":true,"kruxAcxiomIntegration":true,"kruxDataLogixIntegration":true,"kruxIXIIntegration":true,"kruxExelateIntegration":true,"kruxAdAdvisorIntegration":true,"paywall":true,"floodlight":true,"sourcepoint":true,"contextualAdTargeting":true,"customStreamFragments":true,"nextSubscriptionAppWithUiTestHelpers":false,"streamBrandsDesign":true,"frontPageLayout":false,"giftArticle":true,"concurrencyBarrier":true,"frontPageMyFtSection":true,"headerMarketingPromo":false,"myFtApiWrite":true,"adTargetingUserApi":true,"videoPlayerAdvertising":true,"streamMostRead":true,"subscriptionAppErrorDebugging":false,"serviceWorker":true,"chartbeat":true,"chartbeatHud":false,"swMyftCaching":true,"openGraph":true,"googleConsumerSurvey":true,"premiumContentIndicator":true,"signupApiErrorDebugging":false,"paypalThrowErrorOnExpressCheckout":false,"paypalThrowErrorOnExpressCheckoutReturn":false,"nativeAds":true,"myFTCollections":true,"streamJobsBox":true,"preflightCookieTracking":true,"registerPageInlineLoginForm":false,"stickyHeaderAd":true,"nativeAdsArticle":true,"myFtDigestPromo":true,"regionalNews":true,"threeAdProposition":false,"horizontalFastFT":true,"newSchema":true,"appcache":true,"teaserUsePromotionalTitle":true,"syndication":true,"myFTEmailDisableABAlloc":true,"adCounterBlocking":false,"weekendPrintSubPromo":true,"softPurge":true,"longerCache":true,"ftlabsAudioPlayer":true,"swQAVariant":false,"nativeAdsStreamPage":true,"registeredAdBlockingCohort":false,"syndicationNew":true,"syndicationNewOverride":false,"streamRecommendedStoriesList":true,"frontPagePremiumSectionUpsell":true,"katGroupManagement":true,"syndicationNewUsersAwaiting":false,"fullBleedGraphics":true,"b2bSubscribersCohort":false,"shareArticleComponents":true,"individualB2bBarrier":true,"nativeAdsFrontPage":true,"frontPageInteractiveGraphics":true,"katLicenceAdmin":true,"barrierGuruStickiness":true,"insituVideoTeaser":true,"headlineTesting":false,"conversionSandbox":false,"katUsersManagement":true,"frontPagePremiumSection":true,"syndicationRedux":false,"subsB2cAdBlockingCohort":false,"syndicationPlatform":false,"channelReferrerBarriers":true,"disableAndroidSmartBanner":false,"disableIosSmartBanner":false,"standardB2cCohort":false,"subscriberCohort":false,"myFtNoContentDigests":true,"nextSignupAutoLogin":true,"premiumCohort":false,"b2bCommsCohort":false,"swAssetCaching":true,"syndicationDownloadMediaResource":true,"streamSurrogateKeys":true,"streamLongCache":true,"liveBlogs":true,"generatedAudioPlayer":false,"igPayGap":false,"nextSignupRegistration":true,"swAdsCaching":false,"fakeLiveBlogInProgress":false,"brainMessaging":true,"onboardingMessaging":false,"onboardingCohort":false,"webShareApi":false,"syndicationMaintenance":false,"swCanaryRelease":false,"refererCohort":true,"gdpr-test-apis":false,"nextSignupEnableTrialExclusions":true,"nextSubscriptionAppUpgrades":true,"syndicationMigrationComplete":true,"katIndividualUsageData":true,"newsletterSignupOnArticle":true,"katMaintenance":false,"noLazyLoadingFrontPage":false,"emergencyPublish":false,"cleanNBESignup":true,"onwardJourneyRibbon":false,"featuredArticleTemplate":true,"retention25PercentOff":false,"signupScrollDepthTracking":true,"preflightSimulateNotFound":false,"kmtOptMeIn":false,"routerSimulateNotFound":false,"inverseOnboardingCohort":true,"myFTInstantNotifications":true,"lureFtRexRecommendations":false,"nextProfilePage":false,"messageSlotBottom":false,"myftSincePreference":true,"katUsagePage":true,"katGroupFollowTopics":true,"myFtColdStart":true,"JanetBot":false,"speedcurveLux":true,"enableMessagingGuru":true,"gdprMyFtMarketingByPost":false,"prospectsEmailOnlySignup":false,"myftPrioritiseTopics":false,"prospectCohort":false,"speedcurveLuxFlagsSupport":true,"controlCentrePreferencesPage":false,"visitedStoriesOnTeaser":true,"signupFormReorder":true,"messageSlotTop":false,"myftOnboardingPromo":false,"swgCohort":false,"searchHighlighting":false,"katShowFTasLicenceAdmins":false,"instantAlertsLambda":true,"igAnnotatorTest":false,"productPropositionBanner":false,"giftArticleV2":true,"signupMarketingConsent":false,"nextMultiStageSignup":false,"removeDigitalFromProductTitle":false,"mobileStickyHeader":true,"fcfABTest":"1","gdprReconsent":false,"kat2fa":false,"perfDate":false,"perfDate2":false,"perfFixedAdHeight":false,"nextSignupEditablePostcode":false,"perfCookie":false,"noStoreCache":false,"perfCriticalImages":false,"preloadJSWithoutPriority":false,"instantAlertEmailHeaders":false,"webfonts":true,"myftPopularTopicsFeed":false,"myftGroupEmptyTopics":true,"myftFillTheEmptySpaces":true,"perfJanky":false,"barrierFlipPriceOrder":false,"liveagentChatWindowOnSignupPage":true,"onwardJourneyInfiniteTeaser":false,"myFtDigestArticles":false,"imgLazyLoadThreshold":false,"preflightForceSecureTokens":true,"imgNoFadeOnLoad":false,"disableGiftArticleMessageArea":false,"backendTest":false,"signupApiPolling":false,"signupConsent":false,"validateAdsTraffic":false,"anonPremiumBarrier":false,"myFtNavigationV2":false,"welcomePanel":false};
+		window.FT.isAnonymous = true;
+		(function () {
+	
+			function loadError (err) {
+				window.FT.disableOErrors = true;
+				var img = new Image();
+				img.src = 'https://spoor-api.ft.com/px.gif?data=%7B%22category%22%3A%22javascript%22%2C%22action%22%3A%22load-error%22%2C%22system%22%3A%7B%22source%22%3A%22non-ctm%22%7D%2C%22user%22%3A%7B%7D%2C%22context%22%3A%7B%22product%22%3A%22next%22%2C%22script%22%3A%22' + encodeURIComponent(err.target.src) + '%22%7D%7D';
+				throw new URIError('Failed to load ' + err.target.src + ': falling back to core experience.');
+			};
+	
+			function loadScript (src, stopsExecutionOnLoadError) {
+				var script = document.createElement('script');
+				script.async = false;
+				script.src = src;
+				if (stopsExecutionOnLoadError) {
+					script.onerror = loadError;
+				}
+				document.head.appendChild(script);
+			};
+	
+			if (cutsTheMustard) {
+					loadScript('https://www.ft.com/__origami/service/polyfill/v2/polyfill.min.js?features=default,requestAnimationFrame,Promise,matchMedia,HTMLPictureElement,fetch,Array.prototype.find,Array.prototype.findIndex,Array.prototype.includes,IntersectionObserver,Map,Array.from,NodeList.prototype.@@iterator,Array.prototype.@@iterator,EventSource,Number.isInteger&flags=gated&source=next&unknown=polyfill', true);
+					loadScript('//www.ft.com/__assets/hashed/n-ui/fb751a55/font-loader.js', false);
+					loadScript('//www.ft.com/__assets/hashed/n-ui/3c490821/o-errors.js', false);
+					loadScript('//www.ft.com/__assets/hashed/n-ui/97ab340f/es5.js', true);
+					loadScript('//www.ft.com/__assets/hashed/static/66ca8903/main.js', true);
+			} else {
+				loadScript('https://www.ft.com/__origami/service/polyfill/v2/polyfill.min.js?features=HTMLPictureElement|always|gated&source=next&unknown=polyfill');
+			}
+		})()
+	</script> 
+  <script>
+			(function () {
+				if (!cutsTheMustard) {
+					var img = new Image();
+					img.src = 'https://spoor-api.ft.com/px.gif?data%3d%7b%22category%22%3a%22page%22%2c%22action%22%3a%22view%22%2c%22system%22%3a%7b%22source%22%3a%22non-ctm%22%7d%2c%22user%22%3a%7b%7d%2c%22context%22%3a%7b%22product%22%3a%22next%22%2c%22app%22%3a%22static%22%2c%22data%22%3a%7b%22source%22%3a%22cuts-the-mustard-check%22%7d%7d%7d';
+				}
+			})();
+		</script> 
+  <noscript data-o-component="o-tracking"> 
+   <img src="https://spoor-api.ft.com/px.gif?data%3d%7b%22category%22%3a%22page%22%2c%22action%22%3a%22view%22%2c%22system%22%3a%7b%22source%22%3a%22non-ctm%22%7d%2c%22user%22%3a%7b%7d%2c%22context%22%3a%7b%22product%22%3a%22next%22%2c%22app%22%3a%22static%22%2c%22data%22%3a%7b%22source%22%3a%22noscript%22%7d%7d%7d"> 
+  </noscript> 
+  <iframe src="/__appcache-manifest-loader.html" style="width:0; height:0; visibility:hidden; position:absolute; border:none" title="Please ignore" aria-hidden="true" role="presentation" tabindex="-1"></iframe>   
+ </body>
+</html>

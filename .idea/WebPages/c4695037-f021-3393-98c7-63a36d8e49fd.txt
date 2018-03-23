@@ -1,0 +1,402 @@
+https://www.tutorialspoint.com/online_marketing/index.htm
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>Online Marketing Tutorial</title> 
+  <meta name="description" content="Online Marketing Tutorial for Beginners - Learn Online Marketing in simple and easy steps starting from basic to advanced concepts with examples including trends in Online Marketing, Introduction, Terminology, SEO Friendly Website, Online Advertising, Mobile Advertising, Search Engine Marketing, E-Mail Marketing, Affiliate Marketing, Social media marketing, Reputation Marketing, Content Marketing, Blogs, banners, and forums, Web Analytics, Efforts, Impact, Pros and Cons, Celebrity Online Marketers."> 
+  <meta name="keywords" content="Online Marketing, tutorial, beginners, Introduction, Terminology, SEO Friendly Website, Online Advertising, Mobile Advertising, Search Engine Marketing, E-Mail Marketing, Affiliate Marketing, Social media marketing, Reputation Marketing, Content Marketing, Blogs, banners, and forums, Web Analytics, Efforts, Impact, Pros and Cons, Celebrity Online Marketers."> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #dc4b26 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #dc4b26 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #dc4b26 !important;}
+.submenu-item{ border-bottom: 2px solid #dc4b26 !important; border-top: 2px solid #dc4b26 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#dc4b26; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/online_marketing/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-2"> 
+      <aside class="sidebar"> 
+       <div class="mini-logo"> 
+        <img src="/online_marketing/images/online-marketing-mini-logo.jpg" alt="Online Marketing Tutorial"> 
+       </div> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li><a class="videolink" href="/online_marketing_training/index.asp" target="_blank"><img src="/online_marketing/images/online-marketing-video-tutorials.jpg" alt="Online Marketing Video Tutorials"></a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Online Marketing Tutorial</li> 
+        <li><a href="/online_marketing/index.htm">Online Marketing Home</a></li> 
+        <li><a href="/online_marketing/online_marketing_introduction.htm">Online Marketing Introduction</a></li> 
+        <li><a href="/online_marketing/online_marketing_terminology.htm">Online Marketing Terminology</a></li> 
+        <li><a href="/online_marketing/seo_friendly_website.htm">SEO Friendly Website</a></li> 
+        <li><a href="/online_marketing/online_advertising.htm">Online Advertising</a></li> 
+        <li><a href="/online_marketing/mobile_advertising.htm">Mobile Advertising</a></li> 
+        <li><a href="/online_marketing/search_engine_marketing.htm">Search Engine Marketing</a></li> 
+        <li><a href="/online_marketing/email_marketing.htm">E-Mail Marketing</a></li> 
+        <li><a href="/online_marketing/affiliate_marketing.htm">Affiliate Marketing</a></li> 
+        <li><a href="/online_marketing/social_media_marketing.htm">Social Media Marketing</a></li> 
+        <li><a href="/online_marketing/online_reputation_marketing.htm">Online Reputation Marketing</a></li> 
+        <li><a href="/online_marketing/content_marketing.htm">Content Marketing</a></li> 
+        <li><a href="/online_marketing/blogs_banners_and_forums.htm">Blogs, Banners &amp; Forums</a></li> 
+        <li><a href="/online_marketing/web_analytics.htm">Web Analytics</a></li> 
+        <li><a href="/online_marketing/online_marketing_efforts.htm">Online Marketing Efforts</a></li> 
+        <li><a href="/online_marketing/impact_pros_and_cons.htm">Impact, Pros &amp; Cons</a></li> 
+        <li><a href="/online_marketing/celebrity_online_marketers.htm">Celebrity Online Marketers</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Online Marketing Useful Resources</li> 
+        <li><a href="/online_marketing/online_marketing_quick_guide.htm">Online Marketing - Quick Guide</a></li> 
+        <li><a href="/online_marketing/online_marketing_useful_resources.htm">Online Marketing - Useful Resources</a></li> 
+        <li><a href="/online_marketing/online_marketing_discussion.htm">Online Marketing - Discussion</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary push-bottom left-menu special"> 
+        <li class="sreading">Selected Reading</li> 
+        <li><a target="_top" href="/upsc_ias_exams.htm">UPSC IAS Exams Notes</a></li> 
+        <li><a target="_top" href="/developers_best_practices/index.htm">Developer's Best Practices</a></li> 
+        <li><a target="_top" href="/questions_and_answers.htm">Questions and Answers</a></li> 
+        <li><a target="_top" href="/effective_resume_writing.htm">Effective Resume Writing</a></li> 
+        <li><a target="_top" href="/hr_interview_questions/index.htm">HR Interview Questions</a></li> 
+        <li><a target="_top" href="/computer_glossary.htm">Computer Glossary</a></li> 
+        <li><a target="_top" href="/computer_whoiswho.htm">Who is Who</a></li> 
+       </ul> 
+      </aside> 
+     </div> 
+     <!-- PRINTING STARTS HERE --> 
+     <div class="row"> 
+      <div class="content"> 
+       <div class="col-md-7 middle-col"> 
+        <div class="cover"> 
+         <img class="img-responsive" src="/online_marketing/images/online-marketing.jpg" alt="Online Marketing Tutorial"> 
+        </div> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/online_marketing/online_marketing_introduction.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <div class="clearer"></div> 
+        <hr> 
+        <h1>Online Marketing Tutorial</h1> 
+        <div class="center-aligned tutorial-menu"> 
+         <form action="/job_search.php" method="POST"> 
+          <input type="hidden" name="search_string" value="Online Marketing"> 
+          <button type="button" class="btn btn-default btn-sm btn-buy-tutorial"><i class="icon  icon-file-pdf-o"></i><a href="/online_marketing/online_marketing_pdf_version.htm"> PDF Version</a></button> 
+          <button type="button" class="btn btn-default btn-sm btn-quick-guide"><i class="icon  icon-book"></i><a href="/online_marketing/online_marketing_quick_guide.htm"> Quick Guide</a></button> 
+          <button type="button" class="btn btn-default btn-sm btn-extra-links"><i class="icon  icon-external-link"></i><a href="/online_marketing/online_marketing_useful_resources.htm"> Resources</a></button> 
+          <button type="submit" class="btn btn-default btn-sm btn-job-search"><i class="icon  icon-suitcase"></i> Job Search</button> 
+          <button type="button" class="btn btn-default btn-sm btn-job-search"><i class="fa fa-wechat"></i> <a href="/online_marketing/online_marketing_discussion.htm"> Discussion</a></button> 
+         </form> 
+        </div> 
+        <p>This is a brief tutorial that provides an overview of how to market your products and services using various online platforms. It describes various online marketing techniques such as Online Advertising, Mobile Advertising, Building SEO-Friendly Websites, Content Marketing, E-Mail marketing, as well as Web Analytics for Online Marketing. Moving forward, it also describes the impact of online marketing on the business and the pros and cons of online marketing.</p> 
+        <h1>Audience</h1> 
+        <p>This tutorial will be extremely useful for all those readers who aspire to learn the ropes of online marketing. It is especially targeted at readers who want to make their career in online marketing and advertising.</p> 
+        <h1>Prerequisites</h1> 
+        <p>It is expected that the readers of this tutorial have a basic understanding of the general diction used in the domain of internet and online marketing. It will be an added advantage if the readers have an inclination towards marketing, creativity, and learning marketing techniques.</p> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="print-btn center"> 
+         <a href="/cgi-bin/printpage.cgi" target="_blank"><i class="icon icon-print big-font"></i> Print</a> 
+        </div> 
+        <div class="pdf-btn"> 
+         <a href="/online_marketing/pdf/index.pdf" title="Online Marketing Tutorial" target="_blank"><i class="icon icon-file-pdf-o big-font"></i> PDF</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/online_marketing/online_marketing_introduction.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <hr> 
+        <!-- PRINTING ENDS HERE --> 
+        <div class="bottomgooglead"> 
+         <div class="bottomadtag">
+          Advertisements
+         </div> 
+         <!-- /60931893/tutorial_bottom_leader_board --> 
+         <div id="div-gpt-ad-1510138782906-3"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-3'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="col-md-3" id="rightbar"> 
+        <div class="ysubscribe"> 
+         <script async src="https://apis.google.com/js/platform.js"></script> 
+         <div class="g-ytsubscribe" data-channelid="UCVLbzhxVTiTLiVKeGV7WEBg" data-layout="full" data-count="default"></div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_top --> 
+         <div id="div-gpt-ad-1510138782906-2" style="height:250px; width:300px;"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-2'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_middle --> 
+         <div id="div-gpt-ad-1510138782906-1"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-1'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_bottom --> 
+         <div id="div-gpt-ad-1510138782906-0"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-0'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Libs --> 
+  <script type="text/javascript" src="/theme/js/custom-min.js?v=7"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.pg-icon').click(function(){
+   $('.wrapLoader').show();
+});
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Online Marketing Tutorial",
+    "name": "Online Marketing Tutorial",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.tutorialspoint.com/online_marketing/index.htm"
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tutorialspoint.com/online_marketing/images/online-marketing.jpg",
+        "width": 613,
+        "height": 194
+    },
+    "author": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "datePublished": "January 08 2018 06:24:45.",
+    "dateModified": "January 08 2018 06:24:45.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "description": "This is a brief tutorial that provides an overview of how to market your products and services using various online platforms. It describes various online marketing techniques such as Online Advertising, Mobile Advertising, Building SEO-Friendly Websites,..."
+}
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "name": "www.tutorialspoint.com",
+                "@id": "https://www.tutorialspoint.com"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "name": "Online Marketing",
+                "@id": "https://www.tutorialspoint.com/online_marketing"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "name": "Online Marketing Home"
+            }
+        }
+    ]
+}
+</script>    
+ </body>
+</html>

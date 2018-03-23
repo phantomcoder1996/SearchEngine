@@ -1,0 +1,396 @@
+https://www.tutorialspoint.com/intellij_idea/index.htm
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>Intellij Idea Tutorial</title> 
+  <meta name="description" content="Intellij Idea Tutorial for Beginners - Learn Intellij Idea in simple and easy steps starting from basic to advanced concepts with examples including Introduction, Installation and Configuration, Getting Familiar, Create First Java Project, Deep Dive, Deep Dive into Editor, Code Refactoring, Running Projects, Build Tools, Unit Testing, Debugging, Profiling, Version Control, Databases, Migrating from NetBeans, Migrating from Eclipse."> 
+  <meta name="keywords" content="Intellij Idea, Tutorial, Learning, Introduction, Installation and Configuration, Getting Familiar, Create First Java Project, Deep Dive, Deep Dive into Editor, Code Refactoring, Running Projects, Build Tools, Unit Testing, Debugging, Profiling, Version Control, Databases, Migrating from NetBeans, Migrating from Eclipse."> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #f28a20 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #f28a20 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #f28a20 !important;}
+.submenu-item{ border-bottom: 2px solid #f28a20 !important; border-top: 2px solid #f28a20 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#f28a20; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/intellij_idea/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-2"> 
+      <aside class="sidebar"> 
+       <div class="mini-logo"> 
+        <img src="/intellij_idea/images/intellij-idea-mini-logo.jpg" alt="Intellij Idea Tutorial"> 
+       </div> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Intellij Idea Tutorial</li> 
+        <li><a href="/intellij_idea/index.htm">Intellij Idea - Home</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_introduction.htm">Intellij Idea - Introduction</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_installation_and_configuration.htm">Installation and Configuration</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_getting_familiar.htm">Intellij Idea − Getting Familiar</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_create_first_java_project.htm">Create First Java Project</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_deep_dive.htm">Intellij Idea − Deep Dive</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_deep_dive_into_editor.htm">Intellij Idea − Deep Dive into Editor</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_code_refactoring.htm">Intellij Idea − Code Refactoring</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_running_projects.htm">Intellij Idea − Running Projects</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_build_tools.htm">Intellij Idea − Build Tools</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_unit_testing.htm">Intellij Idea − Unit Testing</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_debugging.htm">Intellij Idea − Debugging</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_profiling.htm">Intellij Idea − Profiling</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_version_control.htm">Intellij Idea − Version Control</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_databases.htm">Intellij Idea − Databases</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_migrating_from_netbeans.htm">Migrating from NetBeans</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_migrating_from_eclipse.htm">Intellij Idea − Migrating from Eclipse</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Intellij Idea Resources</li> 
+        <li><a href="/intellij_idea/intellij_idea_quick_guide.htm">Intellij Idea - Quick Guide</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_useful_resources.htm">Intellij Idea - Useful Resources</a></li> 
+        <li><a href="/intellij_idea/intellij_idea_discussion.htm">Intellij Idea - Discussion</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary push-bottom left-menu special"> 
+        <li class="sreading">Selected Reading</li> 
+        <li><a target="_top" href="/upsc_ias_exams.htm">UPSC IAS Exams Notes</a></li> 
+        <li><a target="_top" href="/developers_best_practices/index.htm">Developer's Best Practices</a></li> 
+        <li><a target="_top" href="/questions_and_answers.htm">Questions and Answers</a></li> 
+        <li><a target="_top" href="/effective_resume_writing.htm">Effective Resume Writing</a></li> 
+        <li><a target="_top" href="/hr_interview_questions/index.htm">HR Interview Questions</a></li> 
+        <li><a target="_top" href="/computer_glossary.htm">Computer Glossary</a></li> 
+        <li><a target="_top" href="/computer_whoiswho.htm">Who is Who</a></li> 
+       </ul> 
+      </aside> 
+     </div> 
+     <!-- PRINTING STARTS HERE --> 
+     <div class="row"> 
+      <div class="content"> 
+       <div class="col-md-7 middle-col"> 
+        <div class="cover"> 
+         <img class="img-responsive" src="/intellij_idea/images/intellij-idea.jpg" alt="Intellij Idea Tutorial"> 
+        </div> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/intellij_idea/intellij_idea_introduction.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <div class="clearer"></div> 
+        <hr> 
+        <h1>Intellij Idea Tutorial</h1> 
+        <div class="center-aligned tutorial-menu"> 
+         <form action="/job_search.php" method="POST"> 
+          <input type="hidden" name="search_string" value="Intellij Idea"> 
+          <button type="button" class="btn btn-default btn-sm btn-buy-tutorial"><i class="icon  icon-file-pdf-o"></i><a href="/intellij_idea/intellij_idea_pdf_version.htm"> PDF Version</a></button> 
+          <button type="button" class="btn btn-default btn-sm btn-quick-guide"><i class="icon  icon-book"></i><a href="/intellij_idea/intellij_idea_quick_guide.htm"> Quick Guide</a></button> 
+          <button type="button" class="btn btn-default btn-sm btn-extra-links"><i class="icon  icon-external-link"></i> <a href="/intellij_idea/intellij_idea_useful_resources.htm"> Resources</a></button> 
+          <button type="submit" class="btn btn-default btn-sm btn-job-search"><i class="icon  icon-suitcase"></i> Job Search</button> 
+          <button type="button" class="btn btn-default btn-sm btn-job-search"><i class="fa  fa-wechat"></i> <a href="/intellij_idea/intellij_idea_discussion.htm"> Discussion</a></button> 
+         </form> 
+        </div> 
+        <p>IntelliJ IDEA (hereafter referred as IntelliJ) is one of the most powerful and popular Integrated Development Environments (IDE) for Java. It was developed and is maintained by JetBrains, and is available in community and ultimate edition. This feature-rich IDE enables rapid development and helps in improving code quality. This tutorial starts with a basic introduction and slowly dives deep into the advanced features. The tutorial is divided into 2 parts: beginners can start from the first 4 chapters. Others can skip over directly to Chapter-5.</p> 
+        <h1>Audience</h1> 
+        <p>This tutorial is targeted for first-time learners, as well as moderate users of IntelliJ. Beginners will get a fair understanding about IntelliJ and its functioning, and others will be able to take their knowledge on this subject to the next level.</p> 
+        <h1>Prerequisites</h1> 
+        <p>This tutorial requires that the readers have some preliminary knowledge of the software development process, along with Java programming language. In the later sections of this tutorial, we will discuss integration with build tools, unit testing frameworks, debugger, profiling, version control system and database. It is assumed that the required tools are installed and configured on system and reader is familiar with those tools.</p> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="print-btn center"> 
+         <a href="/cgi-bin/printpage.cgi" target="_blank"><i class="icon icon-print big-font"></i> Print</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/intellij_idea/intellij_idea_introduction.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <hr> 
+        <!-- PRINTING ENDS HERE --> 
+        <div class="bottomgooglead"> 
+         <div class="bottomadtag">
+          Advertisements
+         </div> 
+         <!-- /60931893/tutorial_bottom_leader_board --> 
+         <div id="div-gpt-ad-1510138782906-3"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-3'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="col-md-3" id="rightbar"> 
+        <div class="ysubscribe"> 
+         <script async src="https://apis.google.com/js/platform.js"></script> 
+         <div class="g-ytsubscribe" data-channelid="UCVLbzhxVTiTLiVKeGV7WEBg" data-layout="full" data-count="default"></div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_top --> 
+         <div id="div-gpt-ad-1510138782906-2" style="height:250px; width:300px;"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-2'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_middle --> 
+         <div id="div-gpt-ad-1510138782906-1"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-1'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_bottom --> 
+         <div id="div-gpt-ad-1510138782906-0"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-0'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Libs --> 
+  <script type="text/javascript" src="/theme/js/custom-min.js?v=7"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.pg-icon').click(function(){
+   $('.wrapLoader').show();
+});
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Intellij Idea Tutorial",
+    "name": "Intellij Idea Tutorial",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.tutorialspoint.com/intellij_idea/index.htm"
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tutorialspoint.com/intellij_idea/images/intellij-idea.jpg",
+        "width": 613,
+        "height": 194
+    },
+    "author": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "datePublished": "February 17 2018 12:47:33.",
+    "dateModified": "February 17 2018 02:36:37.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "description": "IntelliJ IDEA (hereafter referred as IntelliJ) is one of the most powerful and popular Integrated Development Environments (IDE) for Java. It was developed and is maintained by JetBrains, and is available in community and ultimate edition. This feature-ri..."
+}
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "name": "www.tutorialspoint.com",
+                "@id": "https://www.tutorialspoint.com"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "name": "Intellij Idea",
+                "@id": "https://www.tutorialspoint.com/intellij_idea"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "name": "Intellij Idea - Home"
+            }
+        }
+    ]
+}
+</script>    
+ </body>
+</html>

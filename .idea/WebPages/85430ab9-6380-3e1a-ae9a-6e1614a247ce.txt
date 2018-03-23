@@ -1,0 +1,592 @@
+https://www.tutorialspoint.com/management_tutorials.htm
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>Management Tutorials</title> 
+  <meta name="description" content="Management Tutorials including Scrum, Project Management Concepts, PMP Certification, Eearn Value Management etc."> 
+  <meta name="Keywords" content="Scrum, Tutorials, Management, including, Management, Concepts, PMP, Certification, Eearn, Value, Management"> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #034676 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #034676 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #034676 !important;}
+.submenu-item{ border-bottom: 2px solid #034676 !important; border-top: 2px solid #034676 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#034676; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/blue/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div id="content" class="content full"> 
+    <div class="blue-bg background" style="height:330px;"> 
+     <span class="cat-title">Management Tutorials</span> 
+     <div class="cat-punch-line">
+      <img src="/scripts/img/slides/slide-title-border.png" alt="border">
+      <span> Management Exams Preparation and Tutorials </span>
+      <img src="/scripts/img/slides/slide-title-border.png" alt="border">
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="cg_prdts" style="position: relative; margin:-123px 0px 30px 0px;"> 
+   <div class="container"> 
+    <div class=""> 
+     <div class="col-md-3"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="container"> 
+   <div class="row"> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/appreciative_inquiry/index.htm" title="Learn Appreciative Inquiry"> <img style="width:100px; height:80px;" src="/images/appreciative_inquiry_icon.png" alt="Learn Appreciative Inquiry"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/advertisement_and_marketing_communications/index.htm" title="Learn Advertisement and Marketing Communications"> <img style="width:100px; height:80px;" src="/images/advertisement_and_marketing_communications_icon.png" alt="Learn Advertisement and Marketing Communications"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/aviation_management/index.htm" title="Learn Aviation Management"> <img style="width:100px; height:80px;" src="/images/aviation_management_icon.png" alt="Learn Aviation Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/bank_management/index.htm" title="Learn Bank Management"> <img style="width:100px; height:80px;" src="/images/bank_management_icon.png" alt="Learn Bank Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/brand_management/index.htm" title="Learn Brand Management"> <img style="width:100px; height:80px;" src="/images/brand_management_icon.png" alt="Learn Brand Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/business_analysis/index.htm" title="Learn Business Analysis"> <img style="width:100px; height:80px;" src="/images/business_analysis_icon.png" alt="Learn Business Analysis"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/business_law/index.htm" title="Learn Business Law"> <img style="width:100px; height:80px;" src="/images/business_law_icon.png" alt="Learn Business Law"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/business_sales_training/index.htm" title="Learn Business Sales Training"> <img style="width:100px; height:80px;" src="/images/business_sales_training_icon.png" alt="Learn Business Sales Training"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/classroom_management/index.htm" title="Classroom Management"> <img style="width:100px; height:80px;" src="/images/classroom_management_icon.png" alt="Classroom Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/coaching_and_mentoring/index.htm" title="Coaching and Mentoring"> <img style="width:100px; height:80px;" src="/images/coaching_and_mentoring_icon.png" alt="Coaching and Mentoring"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/collaborative_management/index.htm" title="Learn Collaborative Management"> <img style="width:100px; height:80px;" src="/images/collaborative_management_icon.png" alt="Learn Collaborative Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/consumer_behavior/index.htm" title="Learn Business Ethics"> <img style="width:100px; height:80px;" src="/images/consumer_behavior_icon.png" alt="Learn Business Ethics"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/customer_relationship_management/index.htm" title="Customer Relationship Management"> <img style="width:100px; height:80px;" src="/images/customer_relationship_management_icon.png" alt="Customer Relationship Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/customer_service/index.htm" title="Customer Service"> <img style="width:100px; height:80px;" src="/images/customer_service_icon.png" alt="Customer Service"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/earn_value_management/index.htm" title="Learn EVM"> <img style="width:100px; height:80px;" src="/images/earn_value_management_icon.png" alt="Learn EVM"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/employee_engagement/index.htm" title="Learn Employee Engagement"> <img style="width:100px; height:80px;" src="/images/employee_engagement_icon.png" alt="Learn Employee Engagement"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/employee_onboarding/index.htm" title="Learn Employee Onboarding"> <img style="width:100px; height:80px;" src="/images/employee_onboarding_icon.png" alt="Learn Employee Onboarding"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/entrepreneurship_development/index.htm" title="Learn Entrepreneurship Development"> <img style="width:100px; height:80px;" src="/images/entrepreneurship_development_icon.png" alt="Learn Entrepreneurship Development"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/entrepreneurship_skills/index.htm" title="Learn Entrepreneurship Skills"> <img style="width:100px; height:80px;" src="/images/entrepreneurship_skills_icon.png" alt="Learn Entrepreneurship Skills"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/food_and_beverage_services/index.htm" title="Food And Beverage Services"> <img style="width:100px; height:80px;" src="/images/food_and_beverage_services_icon.png" alt="Food And Beverage Services"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/food_production_operations/index.htm" title="Food Production Operations"> <img style="width:100px; height:80px;" src="/images/food_production_operations_icon.png" alt="Food Production Operations"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/front_office_management/index.htm" title="Front Office Management"> <img style="width:100px; height:80px;" src="/images/front_office_management_icon.png" alt="Front Office Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/functions_of_sales_manager/index.htm" title="Functions of Sales Manager"> <img style="width:100px; height:80px;" src="/images/functions_of_sales_manager_icon.png" alt="Functions of Sales Manager"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/hotel_housekeeping/index.htm" title="Hotel Housekeeping"> <img style="width:100px; height:80px;" src="/images/hotel_housekeeping_icon.png" alt="Hotel Housekeeping"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/human_resource_management/index.htm" title="Human Resource Management"> <img style="width:100px; height:80px;" src="/images/human_resource_management_icon.png" alt="Human Resource Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/individual_and_group_behavior/index.htm" title="Learn Individual and Group Behavior"> <img style="width:100px; height:80px;" src="/images/individual_and_group_behavior_icon.png" alt="Learn Individual and Group Behavior"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/international_business_management/index.htm" title="Learn International Business Management"> <img style="width:100px; height:80px;" src="/images/international_business_management_icon.png" alt="Learn International Business Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/international_finance/index.htm" title="Learn International Finance Management"> <img style="width:100px; height:80px;" src="/images/international_finance_icon.png" alt="Learn International Finance Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/international_marketing/index.htm" title="Learn International Marketing"> <img style="width:100px; height:80px;" src="/images/international_marketing_icon.png" alt="Learn International Marketing"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/kanban/index.htm" title="Learn Kanban"> <img style="width:100px; height:80px;" src="/images/kanban_icon.png" alt="Learn Kanban"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/knowledge_management/index.htm" title="Learn Knowledge Management"> <img style="width:100px; height:80px;" src="/images/knowledge_management_icon.png" alt="Learn Knowledge Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/management_concepts/index.htm" title="Project Management Concepts"> <img style="width:100px; height:80px;" src="/images/management_concepts_icon.png" alt="Project Management Concepts"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/management_principles/index.htm" title="Management Principles"> <img style="width:100px; height:80px;" src="/images/management_principles_icon.png" alt="Management Principles"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/managerial_economics/index.htm" title="Learn Managerial Economics"> <img style="width:100px; height:80px;" src="/images/managerial_economics_icon.png" alt="Learn Managerial Economics"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/marketing_management/index.htm" title="Marketing Management"> <img style="width:100px; height:80px;" src="/images/marketing_management_icon.png" alt="Marketing Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/outcome_measurement/index.htm" title="Outcome Measurement"> <img style="width:100px; height:80px;" src="/images/outcome_measurement_icon.png" alt="Outcome Measurement"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/organizational_behavior/index.htm" title="Organizational Behavior"> <img style="width:100px; height:80px;" src="/images/organizational_behavior_icon.png" alt="Organizational Behavior"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/organizational_design/index.htm" title="Learn Organizational Design"> <img style="width:100px; height:80px;" src="/images/organizational_design_icon.png" alt="Learn Organizational Design"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/performance_management/index.htm" title="Performance Management"> <img style="width:100px; height:80px;" src="/images/performance_management_icon.png" alt="Performance Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/personal_branding/index.htm" title="Personal Branding"> <img style="width:100px; height:80px;" src="/images/personal_branding_icon.png" alt="Personal Branding"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/public_library_management/index.htm" title="Public Library Management"> <img style="width:100px; height:80px;" src="/images/public_library_management_icon.png" alt="Public Library Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/pmp-exams/index.htm" title="PMP Examination"> <img style="width:100px; height:80px;" src="/images/pmp-exams_icon.png" alt="PMP Examination"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/professional_ethics/index.htm" title="Professional Ethics"> <img style="width:100px; height:80px;" src="/images/professional_ethics_icon.png" alt="Professional Ethics"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/recruitment_and_selection/index.htm" title="Recruitment and Selection"> <img style="width:100px; height:80px;" src="/images/recruitment_and_selection_icon.png" alt="Recruitment and Selection"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/retail_management/index.htm" title="Retail Management"> <img style="width:100px; height:80px;" src="/images/retail_management_icon.png" alt="Retail Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/rural_marketing/index.htm" title="Rural Marketing"> <img style="width:100px; height:80px;" src="/images/rural_marketing_icon.png" alt="Rural Marketing"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/sales_and_distribution_management/index.htm" title="Learn Sales and Distribution Management"> <img style="width:100px; height:80px;" src="/images/sales_and_distribution_management_icon.png" alt="Learn Sales and Distribution Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/scrum/index.htm" title="Learn Scrum"> <img style="width:100px; height:80px;" src="/images/scrum_icon.png" alt="Learn Scrum"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/shop_floor_management/index.htm" title="Learn Shop Floor Management"> <img style="width:100px; height:80px;" src="/images/shop_floor_management_icon.png" alt="Learn Shop Floor Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/strategic_management/index.htm" title="Strategic Management"> <img style="width:100px; height:80px;" src="/images/strategic_management_icon.png" alt="Strategic Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/supply_chain_management/index.htm" title="Supply Chain Management"> <img style="width:100px; height:80px;" src="/images/supply_chain_management_icon.png" alt="Supply Chain Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/talent_management/index.htm" title="Learn Talent Management"> <img style="width:100px; height:80px;" src="/images/talent_management_icon.png" alt="Learn Talent Management"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/tourism_management/index.htm" title="Learn Tourism Management"> <img style="width:100px; height:80px;" src="/images/tourism_management_icon.png" alt="Learn Tourism Management"> </a>
+     </div> 
+    </div> 
+    <h1 class="thick-heading">SELECTED READING</h1> 
+    <div class="selected-reading-boxes"> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/developers_best_practices/index.htm" title="Developer's Best Practices"> <img src="/images/developers-best-practices-icon.png" class="big-icon" alt="Developer's Best Practices"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/effective_resume_writing.htm" title="Effective Resume Writing"> <img src="/images/effective-resume-writing-icon.png" class="big-icon" alt="Effective Resume Writing"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/computer_glossary.htm" title="Computer Glossary"> <img src="/images/computer-glossary-icon.png" class="big-icon" alt="Computer Glossary"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/computer_whoiswho.htm" title="Who is Who in Computer"> <img src="/images/who-is-who-icon.png" class="big-icon" alt="Who is Who in Computer"> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <br> 
+  <footer class="inner"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="footer-ribon"> 
+      <span>Extras</span> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Mobile First</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><a class="iphone" href="https://itunes.apple.com/us/app/tutorials-point/id914891263?ls=1&amp;mt=8" target="_blank" rel="nofollow"><img alt="tutorialspoint iPhone App" src="/images/apple_store.jpg" class="mobile-apps"></a></li> 
+       <li><a class="android" href="https://play.google.com/store/apps/details?id=com.tutorialspoint.onlineviewer" target="_blank" rel="nofollow"><img alt="tutorialspoint Android app" src="/images/google_play.jpg" class="mobile-apps"></a></li> 
+       <li><a class="microsoft" href="http://www.windowsphone.com/s?appid=91249671-7184-4ad6-8a5f-d11847946b09" target="_blank" rel="nofollow"><img alt="tutorialspoint Windows app" src="/images/windows_store.jpg" class="mobile-apps"></a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>About us</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/index.htm">Company</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_team.htm">Our Team</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_careers.htm">Careers</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_privacy.htm">Privacy Policy</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_terms_of_use.htm">Terms of use</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Extra Links</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="icon icon-caret-right"></i> <a href="articles">Articles</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="online_dev_tools.htm">Dev Tools</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="free_web_graphics.htm">Free Graphics</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="online_file_conversion.htm">File Conversion</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="shared-tutorials.php">Shared Tutorials</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="https://www.tutorialspoint.com/netmeeting.php">NetMeeting</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="https://www.tutorialspoint.com/free_online_whiteboard.htm">Whiteboard</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="contact-details"> 
+       <h4>Contact Us</h4> 
+       <ul class="contact"> 
+        <li><p><i class="icon icon-map-marker"></i> <strong>Address:</strong> 3rd Floor, Jyoti Celestia, Madhapur, Hyderabad, Telangana 500081</p></li> 
+        <li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="about/contact_us.htm">Click Here</a></p></li> 
+        <li><p><i class="icon icon-dribbble"></i> <strong>Website:</strong> <a href="http://www.tutorialspoint.com">www.tutorialspoint.com</a></p></li> 
+       </ul> 
+      </div> 
+      <div class="social-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="http://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="http://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div>  
+  </footer> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/menu-style-min.css?v=1"> 
+  <script type="text/javascript" src="/theme/js/custom-min.js"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.greyout').click(function(){
+   $('.wrapLoader').show();
+});
+</script>   
+ </body>
+</html>

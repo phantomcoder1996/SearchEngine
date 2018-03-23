@@ -1,0 +1,1492 @@
+https://stackoverflow.com/questions/tagged/.htaccess
+<!doctype html>
+<html itemscope itemtype="http://schema.org/QAPage">
+ <head> 
+  <title>Newest '.htaccess' Questions - Stack Overflow</title> 
+  <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d"> 
+  <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a"> 
+  <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:url" content="https://stackoverflow.com/questions/tagged/.htaccess"> 
+  <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:domain" content="stackoverflow.com"> 
+  <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest '.htaccess' Questions"> 
+  <meta name="twitter:description" property="og:description" itemprop="description" content="Stack Overflow | The World’s Largest Online Community for Developers"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+  <script src="https://cdn.sstatic.net/Js/stub.en.js?v=57e020fde11a"></script> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=596945d5421b"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=94cd993a63cf"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=13dc725d5020"> 
+  <link rel="alternate" type="application/atom+xml" title="newest .htaccess questions feed" href="/feeds/tag?tagnames=.htaccess&amp;sort=newest"> 
+  <script>
+        StackExchange.init({"locale":"en","serverTime":1521843114,"routeName":"Questions/ListByTag","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"childUrl":"https://meta.stackoverflow.com","enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"d16a35da63103e8b1162221b85b5952621651c541085caea15d1785affbc32a4","tid":"98030be5-080c-1579-f801-2ccb63a1d4cd","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4}}, {"site":{"allowImageUploads":true,"commentHighlightingWithCSS":true,"enableUserHovercards":true,"styleCode":true,"enableImgurHttps":true,"forceHttpsImages":true},"userMessaging":{},"comments":{},"userProfile":{"openGraphAPIKey":"58740831ad23540e00c58987"},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"paths":{},"markdown":{"asteriskIntraWordEmphasis":true},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad"},"subscriptions":{}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"fd71fcd78b2c","js/moderator.en.js":"d350b664ddb3","js/full-anon.en.js":"81c19a49c169","js/full.en.js":"6d6c19847a8b","js/wmd.en.js":"a349c871bd62","js/third-party/jquery.autocomplete.min.js":"bdb258e949a8","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"4804a16f7074","js/help.en.js":"a1c2d4ed1321","js/tageditor.en.js":"bff66e3469d5","js/tageditornew.en.js":"586ffe22ab58","js/inline-tag-editing.en.js":"e7aa31e8eba1","js/revisions.en.js":"8f22ba768cac","js/review.en.js":"5eda79317cf4","js/tagsuggestions.en.js":"78eee7c19ab2","js/post-validation.en.js":"ec745f184617","js/explore-qlist.en.js":"66e52888786d","js/events.en.js":"8f07ed802b6b","js/keyboard-shortcuts.en.js":"8588a17139dd","js/external-editor.en.js":"3c50622b803d","js/adops.en.js":"22a9bd59b1e9","js/external-editor.en.js":"3c50622b803d","js/snippet-javascript.en.js":"6596eb95a324","js/snippet-javascript-codemirror.en.js":"6e1735fcf180"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script> 
+  <noscript id="noscript-css">
+   <style>body,.top-bar{margin-top:1.9em}</style>
+  </noscript> 
+ </head> 
+ <body class="tagged-questions-page new-topbar"> 
+  <script async src="https://js-sec.indexww.com/ht/p/185901-159836282584097.js"></script> 
+  <div id="notify-container"></div> 
+  <div id="custom-header"></div> 
+  <header class="top-bar js-top-bar _fixed"> 
+   <div class="-container"> 
+    <div class="-main"> 
+     <a href="https://stackoverflow.com" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:5, destination:8})"> <span class="-img">Stack Overflow</span> </a> 
+     <nav class="navigation" role="navigation" aria-label="site navigation"> 
+      <ol class="-list"> 
+       <li class="-item _current"> <a id="nav-questions" href="/questions" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:true, location:5, destination:1})">Questions</a> </li> 
+       <li class="-item"> <a id="nav-jobs" href="/jobs?med=site-ui&amp;ref=jobs-tab" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:5, destination:6})">Developer Jobs</a> </li> 
+       <li class="-item"> <a id="nav-tags" href="/tags" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:5, destination:2})">Tags</a> </li> 
+       <li class="-item"> <a id="nav-users" href="/users" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:5, destination:3})">Users</a> </li> 
+      </ol> 
+     </nav> 
+    </div> 
+    <form id="search" action="/search" method="get" class="searchbar" autocomplete="off" role="search"> 
+     <input name="q" type="text" placeholder="Search…" value="[.htaccess]" tabindex="1" autocomplete="off" maxlength="240" class="f-input js-search-field"> 
+     <button type="submit" aria-label="Search..." class="btn-topbar-primary js-search-submit">
+      <svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewbox="0 0 18 18">
+       <path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z" />
+      </svg></button> 
+    </form> 
+    <div class="-actions"> 
+     <nav class="secondary-nav"> 
+      <div class="-dialog-container js-topbar-dialog-corral"> 
+       <div class="topbar-dialog siteSwitcher-dialog dno"> 
+        <div class="header"> 
+         <h3><a href="https://stackoverflow.com">current community</a> </h3> 
+        </div> 
+        <div class="modal-content current-site-container"> 
+         <ul class="current-site"> 
+          <li> 
+           <div class="related-links"> 
+            <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:14 })">help</a> 
+            <a href="https://chat.stackoverflow.com" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a> 
+           </div> <a href="https://stackoverflow.com" class="current-site-link site-link js-gps-track" data-id="1" data-gps-track="site_switcher.click({ item_type:3 })"> 
+            <div class="favicon favicon-stackoverflow site-icon" title="Stack Overflow"></div> Stack Overflow </a> </li> 
+          <li class="related-site"> 
+           <div class="L-shaped-icon-container"> 
+            <span class="L-shaped-icon"></span> 
+           </div> <a href="https://meta.stackoverflow.com" class="site-link js-gps-track" data-id="552" data-gps-track="site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })"> 
+            <div class="favicon favicon-stackoverflowmeta site-icon" title="Meta Stack Overflow"></div> Meta Stack Overflow </a> </li> 
+         </ul> 
+        </div> 
+        <div class="header" id="your-communities-header"> 
+         <h3> your communities </h3> 
+        </div> 
+        <div class="modal-content" id="your-communities-section"> 
+         <div class="call-to-login"> 
+          <a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or 
+          <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2f.htaccess" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list. 
+         </div> 
+        </div> 
+        <div class="header"> 
+         <h3><a href="https://stackexchange.com/sites">more stack exchange communities</a> </h3> 
+         <a href="https://stackoverflow.blog" class="fr">company blog</a> 
+        </div> 
+        <div class="modal-content"> 
+         <div class="child-content"></div> 
+        </div> 
+       </div> 
+       <div class="topbar-dialog help-dialog js-help-dialog dno"> 
+        <div class="modal-content"> 
+         <ul> 
+          <li> <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })"> Tour <span class="item-summary"> Start here for a quick overview of the site </span> </a> </li> 
+          <li> <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })"> Help Center <span class="item-summary"> Detailed answers to any questions you might have </span> </a> </li> 
+          <li> <a href="https://meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })"> Meta <span class="item-summary"> Discuss the workings and policies of this site </span> </a> </li> 
+          <li> <a href="https://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })"> About Us <span class="item-summary"> Learn more about Stack Overflow the company </span> </a> </li> 
+          <li> <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })"> Business <span class="item-summary"> Learn more about hiring developers or posting ads with us </span> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+      <ol class="-list"> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages"> 
+         <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewbox="0 0 20 18">
+          <path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z" />
+         </svg> <span class="indicator-badge js-unread-count _important" style="display: none;"></span> </a> </li> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive"> 
+         <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z" />
+         </svg> <span class="indicator-badge js-unread-count _positive" style="display: none;"></span> </a> </li> 
+       <li class="-item"><a href="#" class="-link js-help-button" title="Help Center and other resources"> 
+         <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z" />
+         </svg> </a></li> 
+       <li class="-item"> <a href="https://stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 172 Stack Exchange sites"> 
+         <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z" />
+         </svg> </a> </li> 
+      </ol> 
+     </nav> 
+     <div class="-ctas"> 
+      <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2f.htaccess" class="login-link btn-clear" rel="nofollow">Log In</a> 
+      <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link btn-topbar-primary" rel="nofollow" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]">Sign Up</a> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+        StackExchange.scrollPadding.setPaddingTop(60, 10);     </script> 
+  <div id="announcement-banner" data-campaign="2018-03-13.dev-survey-2018" data-cookie="notice-dsr" data-expire-date="1524211200000"> 
+   <div class="-container"> 
+    <span class="-body">The results are in!</span> 
+    <a class="-link js-link js-gps-track" href="https://insights.stackoverflow.com/survey/2018/" data-ga="[&quot;dev-survey-2018&quot;,&quot;Announcement Banner&quot;,&quot;https://insights.stackoverflow.com/survey/2018/&quot;,null,{&quot;dimension4&quot;:&quot;dev-survey-2018&quot;}]" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 5, action: 2})">See the 2018 Developer Survey results. »</a> 
+    <a class="-dismiss js-dismiss js-gps-track" href="#" title="dismiss" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 5, action: 1})">
+     <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewbox="0 0 18 18">
+      <path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z" />
+     </svg></a> 
+   </div> 
+  </div> 
+  <script>
+    StackExchange.ready(function () {
+        var $banner = $('#announcement-banner');
+
+        function setCookie(value) {
+            $.cookie($banner.data('cookie'), value, {
+                expires: (new Date($banner.data('expire-date'))),
+                path: '/'
+            });
+        }
+
+        $banner.find('.js-link').click(function () {
+            setCookie('2;' + Date.now());
+        });
+
+        $banner.find('.js-dismiss').click(function () {
+            setCookie('4;' + Date.now());
+            $banner.animate({ height: '0', opacity: 0 }, 'fast', 'linear', function () { $banner.remove(); });
+            return false;
+        });
+    });
+</script> 
+  <div class="container"> 
+   <div id="content" class="snippet-hidden"> 
+    <div id="mainbar"> 
+     <div class="subheader"> 
+      <h1>Tagged Questions</h1> 
+      <div id="tabs"> 
+       <a href="/tags/.htaccess/info" data-nav-xhref="" title="information about this tag" data-value="" data-shortcut="I"> info</a> 
+       <a class="youarehere " href="/questions/tagged/.htaccess?sort=newest&amp;pageSize=15" data-nav-xhref="" title="The most recently asked questions" data-value="newest" data-shortcut="N"> newest</a> 
+       <a href="/questions/tagged/.htaccess?sort=frequent&amp;pageSize=15" data-nav-xhref="" title="Questions with the most links" data-value="frequent" data-shortcut="F"> frequent</a> 
+       <a href="/questions/tagged/.htaccess?sort=votes&amp;pageSize=15" data-nav-xhref="" title="Questions with the most votes" data-value="votes" data-shortcut="V"> votes</a> 
+       <a href="/questions/tagged/.htaccess?sort=active&amp;pageSize=15" data-nav-xhref="" title="Questions that have recent activity" data-value="active" data-shortcut="A"> active</a> 
+       <a id="tab-switch" href="/unanswered/tagged/.htaccess" data-nav-xhref="" title="Switch to unanswered tabs" data-value="" data-shortcut="U"> unanswered</a> 
+      </div> 
+     </div> 
+     <div class="question"> 
+      <div id="dfp-tag" class="everyonelovesstackoverflow"></div> 
+      <div class="welovestackoverflow mt12"> 
+       <p class="-excerpt"> Directory-level configuration file used by Apache web servers. Use this tag if and only if .htaccess content is directly involved in the topic. We know many people are using .htaccess, but kindly ask the members of the community to not use this tag, unless you know it is on-topic in your question. </p> 
+       <p style="margin-bottom: 0;" class="-footer"> <a title="tag wiki" href="/tags/.htaccess/info">learn more…</a> <span class="lsep">|</span> <a title="top answerers and askers in this tag" href="/tags/.htaccess/topusers">top users</a> <span class="lsep">|</span> <a title="common, alternate spellings or phrasings for this tag" href="/tags/.htaccess/synonyms">synonyms (1)</a> </p> 
+      </div> 
+     </div> 
+     <div id="questions" class="content-padding"> 
+      <div class="question-summary" id="question-summary-49458307"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="8 views">
+          8 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49458307/htaccess-file-hide-get-request-in-url" class="question-hyperlink">.htaccess file hide GET request in URL</a></h3> 
+        <div class="excerpt">
+          I am very new to .htaccess files and may have done mine wrong. I have been gathering snippets of code trying to get done what I want. This is what I have in my file so far I read this should be in ... 
+        </div> 
+        <div class="tags t-ûhtaccess t-url"> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+         <a href="/questions/tagged/url" class="post-tag" title="show questions tagged 'url'" rel="tag">url</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 21:06:52Z" class="relativetime">1 hour ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/6158642/jonw">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/adcd2f1b0c8da0363822f25da11c2deb?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/6158642/jonw">JonW</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">48</span>
+            <span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49455008"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="21 views">
+          21 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49455008/how-to-bypass-wordpress-htaccess" class="question-hyperlink">How to bypass wordpress htaccess</a></h3> 
+        <div class="excerpt">
+          The public_html folder contains a wordpress site. I have put a new Angular app in a subfolder called myapp. so www.domain.com -&gt; wordpress and wwww.domain.com/myapp -&gt; angular app Now, if i refresh ... 
+        </div> 
+        <div class="tags t-wordpress t-angular t-ûhtaccess"> 
+         <a href="/questions/tagged/wordpress" class="post-tag" title="show questions tagged 'wordpress'" rel="tag">wordpress</a> 
+         <a href="/questions/tagged/angular" class="post-tag" title="show questions tagged 'angular'" rel="tag">angular</a> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info user-hover"> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 17:06:04Z" class="relativetime">5 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/661196/cygnusx1">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/AxOll.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/661196/cygnusx1">Cygnusx1</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">4,110</span>
+            <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+            <span title="16 silver badges"><span class="badge2"></span><span class="badgecount">16</span></span>
+            <span title="34 bronze badges"><span class="badge3"></span><span class="badgecount">34</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49453238"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>-1</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="31 views">
+          31 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49453238/how-to-prevent-access-to-my-website-from-android-application" class="question-hyperlink">How to prevent access to my website from android application [on hold]</a></h3> 
+        <div class="excerpt">
+          is there a way to block the integration of my website in unauthorized android applications? This application may be use iframe or native android browser. Thank you in advance for your help. 
+        </div> 
+        <div class="tags t-android t-ûhtaccess t-web-applications t-website"> 
+         <a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="//i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+         <a href="/questions/tagged/web-applications" class="post-tag" title="show questions tagged 'web-applications'" rel="tag">web-applications</a> 
+         <a href="/questions/tagged/website" class="post-tag" title="show questions tagged 'website'" rel="tag">website</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 15:29:45Z" class="relativetime">6 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/6319903/a-moudarir">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/cUYuv.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/6319903/a-moudarir">A. Moudarir</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+            <span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49453048"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>-2</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="13 views">
+          13 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49453048/how-to-fix-htaccess-error-with-cpanel" class="question-hyperlink">How to fix htaccess error with cpanel [on hold]</a></h3> 
+        <div class="excerpt">
+          My .htaccess file is not working. Here's my code: RewriteEngine on RewriteRule I have tried fixing the syntax but cannot find a solution. I am using CPanel windows 10. 
+        </div> 
+        <div class="tags t-ûhtaccess"> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 15:19:04Z" class="relativetime">6 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/9541099/anonymous-joe">
+            <div class="gravatar-wrapper-32">
+             <img src="https://lh6.googleusercontent.com/-CwcyWf55Oe8/AAAAAAAAAAI/AAAAAAAAAEI/xtRL2Y_Z8F4/photo.jpg?sz=32" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/9541099/anonymous-joe">anonymous joe</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">3</span>
+            <span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49452624"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="19 views">
+          19 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49452624/redirect-old-pages" class="question-hyperlink">Redirect old pages</a></h3> 
+        <div class="excerpt">
+          I have an old website, which has been transfered to a wordpress install, with a lot of pages being numbered (That tells you the age of the website) and I want to redirect them to the main home page ... 
+        </div> 
+        <div class="tags t-regex t-wordpress t-ûhtaccess t-url-redirection"> 
+         <a href="/questions/tagged/regex" class="post-tag" title="show questions tagged 'regex'" rel="tag">regex</a> 
+         <a href="/questions/tagged/wordpress" class="post-tag" title="show questions tagged 'wordpress'" rel="tag">wordpress</a> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+         <a href="/questions/tagged/url-redirection" class="post-tag" title="show questions tagged 'url-redirection'" rel="tag">url-redirection</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 14:58:47Z" class="relativetime">7 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/7136901/solarblitz">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/fc3b3aeb5a461c9bc833d302b83d171c?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/7136901/solarblitz">Solarblitz</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49450954"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>1</strong></span> 
+           <div class="viewcount">
+            vote
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="11 views">
+          11 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49450954/how-to-redirect-image-path-to-different-path-with-the-same-image-name-using-htac" class="question-hyperlink">How to redirect image path to different path with the same image name using htaccess</a></h3> 
+        <div class="excerpt">
+          I have a path to my images path which looks like this example.com/image/file.png and some how i did this example.com/Image/file.png spacifying the image path with uppercase letter. How do i redirect ... 
+        </div> 
+        <div class="tags t-ûhtaccess t-redirect t-path"> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+         <a href="/questions/tagged/redirect" class="post-tag" title="show questions tagged 'redirect'" rel="tag">redirect</a> 
+         <a href="/questions/tagged/path" class="post-tag" title="show questions tagged 'path'" rel="tag">path</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 13:38:27Z" class="relativetime">8 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/8235983/peter">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/088fcdf4d033f2718b224ad4b094014e?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/8235983/peter">Peter</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">131</span>
+            <span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span>
+            <span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49448752"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="19 views">
+          19 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49448752/htaccess-force-trailing-slash-with-further-conditions" class="question-hyperlink">htaccess force trailing slash with further conditions</a></h3> 
+        <div class="excerpt">
+          I have an existing htaccess-file that redirects to a subfolder. It is necessary to have an trailing slash. I have add a rule that redirects to an url with a trailing slash, but since then the other ... 
+        </div> 
+        <div class="tags t-ûhtaccess t-trailing-slash"> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+         <a href="/questions/tagged/trailing-slash" class="post-tag" title="show questions tagged 'trailing-slash'" rel="tag">trailing-slash</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 11:34:52Z" class="relativetime">10 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/9539997/n-poj">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/232019f68cf7ed16d117c23345f59b78?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/9539997/n-poj">N.Poj</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49448632"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>1</strong></span> 
+           <div class="viewcount">
+            vote
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="11 views">
+          11 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49448632/hidden-robots-txt-file-blocking-root-domain-on-www-version-of-site-possible-hta" class="question-hyperlink">Hidden robots.txt file blocking root domain on www version of site, possible htaccess fix</a></h3> 
+        <div class="excerpt">
+          I'm trying to find a way to redirect or edit a ghost robots.txt file that is blocking the root domain on the www version of a site. The robots file in the root domain is not the same as the one ... 
+        </div> 
+        <div class="tags t-ûhtaccess t-robotsûtxt"> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+         <a href="/questions/tagged/robots.txt" class="post-tag" title="show questions tagged 'robots.txt'" rel="tag">robots.txt</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 11:28:26Z" class="relativetime">10 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/5894715/xione">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/L6Drn.png?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/5894715/xione">Xione</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">13</span>
+            <span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49447835"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>-2</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="18 views">
+          18 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49447835/url-rewriting-code-in-htaccess-file" class="question-hyperlink">Url rewriting code in htaccess file [on hold]</a></h3> 
+        <div class="excerpt">
+          This is my orginal link: http://mcoh.co.in/blog-single?id1=January-2018-party-speech&amp;id=10 and i required that url has to be in this format. http://mcoh.co.in/MCoH-Blog/January-2018-party-speech/... 
+        </div> 
+        <div class="tags t-php t-apache t-ûhtaccess t-url-rewriting t-url-rewrite-module"> 
+         <a href="/questions/tagged/php" class="post-tag" title="show questions tagged 'php'" rel="tag">php</a> 
+         <a href="/questions/tagged/apache" class="post-tag" title="show questions tagged 'apache'" rel="tag">apache</a> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+         <a href="/questions/tagged/url-rewriting" class="post-tag" title="show questions tagged 'url-rewriting'" rel="tag">url-rewriting</a> 
+         <a href="/questions/tagged/url-rewrite-module" class="post-tag" title="show questions tagged 'url-rewrite-module'" rel="tag">url-rewrite-module</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 10:42:56Z" class="relativetime">11 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/7918168/jeeva">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/622c272112f8edd9764e10dc5ddea578?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/7918168/jeeva">JEEVA</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+            <span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49447772"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="14 views">
+          14 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49447772/htaccess-rewrite-characters-in-link-and-to-a-different-directory" class="question-hyperlink">htaccess rewrite characters in link and to a different directory</a></h3> 
+        <div class="excerpt">
+          I am moving a large site with over 20 thousand pages and misc documents out of an old dream press site into a wordpress site. The structure of the old website is a mess. There are misc documents of ... 
+        </div> 
+        <div class="tags t-apache t-ûhtaccess"> 
+         <a href="/questions/tagged/apache" class="post-tag" title="show questions tagged 'apache'" rel="tag">apache</a> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 10:39:41Z" class="relativetime">11 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/743593/brandan">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/b5687bba48511fa20a22e322bdf50f92?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/743593/brandan">Brandan</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">130</span>
+            <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+            <span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span>
+            <span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49447761"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="13 views">
+          13 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49447761/trying-to-make-an-internal-redirect-from-example-com-about-to-example-comp-a" class="question-hyperlink">Trying to make an internal redirect from “example.com/about” to “example.com?p=about”</a></h3> 
+        <div class="excerpt">
+          I am trying to make an internal redirect (without changing the url in the client-browser) from "example.com/about" to "example.com?p=about". I added the the folowing code to my .htaccess file: ... 
+        </div> 
+        <div class="tags t-ûhtaccess t-redirect t-mod-rewrite t-internal t-internal-server-error"> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+         <a href="/questions/tagged/redirect" class="post-tag" title="show questions tagged 'redirect'" rel="tag">redirect</a> 
+         <a href="/questions/tagged/mod-rewrite" class="post-tag" title="show questions tagged 'mod-rewrite'" rel="tag">mod-rewrite</a> 
+         <a href="/questions/tagged/internal" class="post-tag" title="show questions tagged 'internal'" rel="tag">internal</a> 
+         <a href="/questions/tagged/internal-server-error" class="post-tag" title="show questions tagged 'internal-server-error'" rel="tag">internal-server-error</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 10:39:21Z" class="relativetime">11 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/8882389/patrice">
+            <div class="gravatar-wrapper-32">
+             <img src="https://lh4.googleusercontent.com/-M2WFTIOqppI/AAAAAAAAAAI/AAAAAAAAAXc/kkcDgadYYcU/photo.jpg?sz=32" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/8882389/patrice">Patrice</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">3</span>
+            <span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49447731"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>-1</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="15 views">
+          15 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49447731/htaccess-fake-directory-on-url-pretty-url" class="question-hyperlink">htaccess: fake directory on url - pretty url</a></h3> 
+        <div class="excerpt">
+          I have my site www.example.com and to improve the seo of this site I need to add words in my url. How can I create a fake directory on my url? From: http://www.example.com/index.php?variable=value ... 
+        </div> 
+        <div class="tags t-ûhtaccess t-variables t-url"> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+         <a href="/questions/tagged/variables" class="post-tag" title="show questions tagged 'variables'" rel="tag">variables</a> 
+         <a href="/questions/tagged/url" class="post-tag" title="show questions tagged 'url'" rel="tag">url</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 10:37:40Z" class="relativetime">11 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/9539805/craig">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/619b72c984340bda96097f9bf2cfe956?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/9539805/craig">Craig</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+            <span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49445234"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="18 views">
+          18 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49445234/permanent-redirecting-to-different-domain-via-htacces" class="question-hyperlink">Permanent redirecting to different domain via .htacces</a></h3> 
+        <div class="excerpt">
+          I got two domains. Lets say dom.com and dom.net. Now I got alias on dom.net to dom.com, so when I come to dom.net it shows me dom.com - this is set on admin's webpage. But I need when somebody ... 
+        </div> 
+        <div class="tags t-ûhtaccess t-redirect"> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+         <a href="/questions/tagged/redirect" class="post-tag" title="show questions tagged 'redirect'" rel="tag">redirect</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 08:24:07Z" class="relativetime">13 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/7812117/pan-prdel">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/617d09331c0d707810306f77c164a919?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/7812117/pan-prdel">Pan Prdel</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+            <span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49444464"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="24 views">
+          24 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49444464/make-dynamic-into-seo-frinedly-url-using-htaccess" class="question-hyperlink">Make dynamic into SEO frinedly URL using .htaccess</a></h3> 
+        <div class="excerpt">
+          So here is the thing... i have this PDF export module which generates ID dynamic URLs which i want to reform or redirect with use of .htaccess. I have tryed everything from internet but couldnt find ... 
+        </div> 
+        <div class="tags t-apache t-ûhtaccess t-url-routing"> 
+         <a href="/questions/tagged/apache" class="post-tag" title="show questions tagged 'apache'" rel="tag">apache</a> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+         <a href="/questions/tagged/url-routing" class="post-tag" title="show questions tagged 'url-routing'" rel="tag">url-routing</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 07:29:22Z" class="relativetime">14 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/7897311/paranoic">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/a3b053495e676682c184737229fecc9a?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/7897311/paranoic">paranoic</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+            <span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49443560"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>1</strong></span> 
+           <div class="viewcount">
+            vote
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="10 views">
+          10 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49443560/using-http-host-in-filesmatch-in-htaccess" class="question-hyperlink">Using HTTP Host in filesmatch in htaccess</a></h3> 
+        <div class="excerpt">
+          I am trying to match my sitemap based on host and it doesn't seem to be working. Can you help me figure this out. My sitemap is sitemap-localhost.xml since i am running on my local I have tried &amp;... 
+        </div> 
+        <div class="tags t-apache t-ûhtaccess"> 
+         <a href="/questions/tagged/apache" class="post-tag" title="show questions tagged 'apache'" rel="tag">apache</a> 
+         <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 06:22:10Z" class="relativetime">15 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/6550576/melvin-kiran">
+            <div class="gravatar-wrapper-32">
+             <img src="https://lh6.googleusercontent.com/-TcpcAXV7j-g/AAAAAAAAAAI/AAAAAAAAAEo/H456Kj8Fb7M/photo.jpg?sz=32" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/6550576/melvin-kiran">Melvin Kiran</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">13</span>
+            <span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <br class="cbt"> 
+     <div class="pager fl"> 
+      <span class="page-numbers current">1</span> 
+      <a href="/questions/tagged/.htaccess?page=2&amp;sort=newest&amp;pagesize=15" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+      <a href="/questions/tagged/.htaccess?page=3&amp;sort=newest&amp;pagesize=15" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+      <a href="/questions/tagged/.htaccess?page=4&amp;sort=newest&amp;pagesize=15" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+      <a href="/questions/tagged/.htaccess?page=5&amp;sort=newest&amp;pagesize=15" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+      <span class="page-numbers dots">…</span> 
+      <a href="/questions/tagged/.htaccess?page=4136&amp;sort=newest&amp;pagesize=15" title="go to page 4136"> <span class="page-numbers">4136</span> </a> 
+      <a href="/questions/tagged/.htaccess?page=2&amp;sort=newest&amp;pagesize=15" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+     </div>
+     <div class="page-sizer fr"> 
+      <a href="/questions/tagged/.htaccess?sort=newest&amp;pagesize=15" title="show 15 items per page" class="page-numbers current">15</a> 
+      <a href="/questions/tagged/.htaccess?sort=newest&amp;pagesize=30" title="show 30 items per page" class="page-numbers ">30</a> 
+      <a href="/questions/tagged/.htaccess?sort=newest&amp;pagesize=50" title="show 50 items per page" class="page-numbers ">50</a> 
+      <span class="page-numbers desc">per page</span> 
+     </div> 
+    </div> 
+    <div id="sidebar"> 
+     <div class="module" id="questions-count"> 
+      <div class="-details"> 
+       <div class="summarycount al">
+        62,029
+       </div> 
+       <p>questions tagged</p> 
+       <div class="tagged"> 
+        <a href="/questions/tagged/.htaccess" class="post-tag" title="show questions tagged '.htaccess'" rel="tag">.htaccess</a> 
+        <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="/tags/.htaccess/info">about&nbsp;»</a> 
+       </div> 
+      </div> 
+      <div class="aside-cta" role="navigation" aria-label="ask new question"> 
+       <a href="/questions/ask" class="btn-outlined">Ask Question</a> 
+      </div> 
+     </div> 
+     <div class="module community-bulletin" data-tracker="cb=1"> 
+      <div class="related"> 
+       <div class="bulletin-title">
+         Upcoming Events 
+       </div> 
+       <hr> 
+       <div class="spacer bulletin-item-important"> 
+        <div class="bulletin-item-type">
+         <a href="https://stackoverflow.com/election" class="question-hyperlink" data-ga="[&quot;Community Bulletin Board&quot;,&quot;Upcoming Events&quot;,&quot;https://stackoverflow.com/election&quot;,null,null]">
+          <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div></a>
+        </div> 
+        <div class="bulletin-item-content"> 
+         <a href="https://stackoverflow.com/election" class="question-hyperlink" data-ga="[&quot;Community Bulletin Board&quot;,&quot;Upcoming Events&quot;,&quot;https://stackoverflow.com/election&quot;,null,null]">2018 Community Moderator Election</a> 
+         <div>
+          ends 
+          <span title="2018-03-27 20:00:00Z" class="relativetime">in 4 days</span>
+         </div> 
+        </div> 
+        <br class="cbt"> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="dfp-tsb" class="everyonelovesstackoverflow"></div> 
+     <div id="hireme"></div> 
+     <script>;(function(){var a=function(a){for(var b=[],c=1;c<arguments.length;c++)b[c-1]=arguments[c];for(var d,e=0,f=b;e<f.length;e++)for(var g in d=f[e],d)a[g]=d[g];return a};window.clc=a(window.clc||{},{autoload:function(){'function'==typeof window.clc.load?window.clc.load():window.clc.cmd.push(function(a){return a.load()})},init:function(b){try{if(!b.allowed||!new RegExp(b.allowed).test(location.hostname))return;if('none'===getComputedStyle(document.getElementById('hireme')).display)return;window.clc.options&&(b=a(b,window.clc.options));var c=b.wv;if(document.hidden&&c){var d=function(){document.hidden||(window.clc.init(b),document.removeEventListener('visibilitychange',d))};return void document.addEventListener('visibilitychange',d)}window.clc.options=b,b.al&&window.clc.autoload();var e=/Trident/i.test(navigator.userAgent)?b.lib.replace(/(\.min)?\.js(\?v=[0-9a-fA-F]+)?$/,'.ie$1.js$2'):b.lib,f=document.createElement('script');f.async=!0,f.src=e,document.body.appendChild(f)}catch(a){}}}),window.clc.cmd||(window.clc.cmd=[]),window.clc.loadDisplayAds=function(){var a="clc.stackoverflow.com",b={slots:{lb:[[728,90]],mlb:[[728,90]],sb:function(a){return'dfp-tsb'===a?[[300,250],[300,600]]:[[300,250]]},"tag-sponsorship":[[730,135]],"mobile/lb":[[320,50]]},ids:{"dfp-tlb":'lb',"dfp-mlb":'mlb',"dfp-tsb":'sb',"dfp-isb":'sb',"dfp-tag":'tag-sponsorship',"dfp-m-tlb":'mobile/lb',"clc-tlb":'lb',"clc-mlb":'mlb',"clc-tsb":'sb'}},c=/^\/tags\//.test(location.pathname)||/^\/questions\/tagged\//.test(location.pathname)?'tag-pages':'question-pages',d=location.hostname;/^clc\./.test(location.hostname)&&(d='test/dev.stackoverflow.com');var e=[4385506061,4386578282,4386579572],f=function(a){a.style.height=a.style.maxHeight=a.style.minHeight='auto',a.style.display='none',[].forEach.call(a.children,f)},g=function(b){new Image().src='https://'+a+'/stalled.gif?'+b},h=function(){var a=document.createElement('div');a.className='adsbox',a.id='clc-abd',a.style.position='absolute',a.style.pointerEvents='none',a.innerHTML='&nbsp;',document.body.appendChild(a)},i=function(){return function(a){var b=a.serviceName,c=a.slot,d=a.lineItemId;try{var h=c.getSlotElementId(),i=[];h||i.push('id=0');var j=document.getElementById(h);if(!h||j?j.hasAttribute('data-clc-stalled')&&i.push('st=1'):i.push('el=0'),0!==i.length)return void g(i.join('&'));-1===e.indexOf(d)?j.setAttribute('data-clc-prefilled','true'):f(j),j.setAttribute('data-clc-ready','true')}catch(a){var k=document.querySelector('#dfp-tsb, #dfp-isb, #clc-tsb');k&&k.setAttribute('data-clc-ready','true'),g('e=1')}}},j=function(a){return function(){var e=window.googletag;h();var f=e.pubads();f.enableSingleRequest(),f.addEventListener('slotRenderEnded',i(a));var g=window.dfp_targeting||{};g&&Object.keys(g).forEach(function(a){f.setTargeting(a,g[a])});for(var j,k=0,l=a;k<l.length;k++){j=l[k],'dfp-isb'===j&&f.setTargeting('Sidebar',['Inline']),'dfp-tsb'===j&&f.setTargeting('Sidebar',['Right']);var m=b.ids[j],n=b.slots[m];'function'==typeof n&&(n=n(j));var o='/'+'248424177'+'/'+d+'/'+m+'/'+c,p=e.defineSlot(o,n,j);('tag-sponsorship'===m||'sb'==m)&&p.setCollapseEmptyDiv(!0,!0),p.addService(f),!1}e.enableServices();for(var j,q=0,r=a;q<r.length;q++)j=r[q],e.display(j)}},k=function(a){return document.getElementById(a)},l=function(a){return'none'===getComputedStyle(a).display},m=function(a){return!l(a)},n=function(a){return!!a};return function(a){a=a&&0<a.length?a:Object.keys(b.ids);var c=a.map(k).filter(n).filter(function(a){return /^\s*$/.test(a.innerHTML)}).filter(m).map(function(a){return a.id});if(a.map(k).filter(n).filter(l).forEach(f),0!==c.length){window.googletag=window.googletag||{},window.googletag.cmd=window.googletag.cmd||[],window.googletag.cmd.push(j(c));var d=document.createElement('script');d.async=!0,d.src='https://www.googletagservices.com/tag/js/gpt.js',document.body.appendChild(d)}}}()})(),window.clc.init.call(null, {"lib":"https://cdn.sstatic.net/clc/clc.min.js?v=1e02551fa930","style":"https://cdn.sstatic.net/clc/styles/clc.min.css?v=905391554886","u":"https://clc.stackoverflow.com/markup.js","wa":true,"kt":2000,"tto":true,"h":"clc.stackoverflow.com","allowed":"^(((talent\\.)?stackoverflow)|(blog\\.codinghorror)|(serverfault|askubuntu)|([^\\.]+\\.stackexchange))\\.com$","wv":true,"al":false});</script> 
+     <script>
+window.clc_request='Aq69-hULkdUIAAAAAAAAAAACAAAAAQAAAAALAAAAfC5odGFjY2Vzc3wAaAGTBjL5B74OMg';                    clc.autoload();
+                var dfp_targeting={Registered:['false'],'so-tag':['.htaccess']};                                    clc.loadDisplayAds();
+            </script> 
+     <div class="module js-gps-related-tags"> 
+      <h4 id="h-related-tags">Related Tags</h4> 
+      <div data-name="mod-rewrite"> 
+       <a href="/questions/tagged/.htaccess+mod-rewrite" class="post-tag no-tag-menu" title="show questions tagged '.htaccess mod-rewrite'" rel="tag">mod-rewrite</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">22668</span></span> 
+      </div> 
+      <div data-name="apache"> 
+       <a href="/questions/tagged/.htaccess+apache" class="post-tag no-tag-menu" title="show questions tagged '.htaccess apache'" rel="tag">apache</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">22164</span></span> 
+      </div> 
+      <div data-name="php"> 
+       <a href="/questions/tagged/.htaccess+php" class="post-tag no-tag-menu" title="show questions tagged '.htaccess php'" rel="tag">php</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">22068</span></span> 
+      </div> 
+      <div data-name="redirect"> 
+       <a href="/questions/tagged/.htaccess+redirect" class="post-tag no-tag-menu" title="show questions tagged '.htaccess redirect'" rel="tag">redirect</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">11735</span></span> 
+      </div> 
+      <div data-name="url-rewriting"> 
+       <a href="/questions/tagged/.htaccess+url-rewriting" class="post-tag no-tag-menu" title="show questions tagged '.htaccess url-rewriting'" rel="tag">url-rewriting</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">7887</span></span> 
+      </div> 
+      <div data-name="wordpress"> 
+       <a href="/questions/tagged/.htaccess+wordpress" class="post-tag no-tag-menu" title="show questions tagged '.htaccess wordpress'" rel="tag">wordpress</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">5378</span></span> 
+      </div> 
+      <div data-name="regex"> 
+       <a href="/questions/tagged/.htaccess+regex" class="post-tag no-tag-menu" title="show questions tagged '.htaccess regex'" rel="tag">regex</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">3939</span></span> 
+      </div> 
+      <div data-name="url"> 
+       <a href="/questions/tagged/.htaccess+url" class="post-tag no-tag-menu" title="show questions tagged '.htaccess url'" rel="tag">url</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">2231</span></span> 
+      </div> 
+      <div data-name="codeigniter"> 
+       <a href="/questions/tagged/.htaccess+codeigniter" class="post-tag no-tag-menu" title="show questions tagged '.htaccess codeigniter'" rel="tag">codeigniter</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">2196</span></span> 
+      </div> 
+      <div data-name="html"> 
+       <a href="/questions/tagged/.htaccess+html" class="post-tag no-tag-menu" title="show questions tagged '.htaccess html'" rel="tag">html</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">1733</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="https"> 
+       <a href="/questions/tagged/.htaccess+https" class="post-tag no-tag-menu" title="show questions tagged '.htaccess https'" rel="tag">https</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">1072</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="subdomain"> 
+       <a href="/questions/tagged/.htaccess+subdomain" class="post-tag no-tag-menu" title="show questions tagged '.htaccess subdomain'" rel="tag">subdomain</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">1070</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="ssl"> 
+       <a href="/questions/tagged/.htaccess+ssl" class="post-tag no-tag-menu" title="show questions tagged '.htaccess ssl'" rel="tag">ssl</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">945</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="url-redirection"> 
+       <a href="/questions/tagged/.htaccess+url-redirection" class="post-tag no-tag-menu" title="show questions tagged '.htaccess url-redirection'" rel="tag">url-redirection</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">884</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="javascript"> 
+       <a href="/questions/tagged/.htaccess+javascript" class="post-tag no-tag-menu" title="show questions tagged '.htaccess javascript'" rel="tag">javascript</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">873</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="http-status-code-301"> 
+       <a href="/questions/tagged/.htaccess+http-status-code-301" class="post-tag no-tag-menu" title="show questions tagged '.htaccess http-status-code-301'" rel="tag">http-status-code-301</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">756</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="seo"> 
+       <a href="/questions/tagged/.htaccess+seo" class="post-tag no-tag-menu" title="show questions tagged '.htaccess seo'" rel="tag">seo</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">742</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="laravel"> 
+       <a href="/questions/tagged/.htaccess+laravel" class="post-tag no-tag-menu" title="show questions tagged '.htaccess laravel'" rel="tag">laravel</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">726</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="apache2"> 
+       <a href="/questions/tagged/.htaccess+apache2" class="post-tag no-tag-menu" title="show questions tagged '.htaccess apache2'" rel="tag">apache2</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">699</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="nginx"> 
+       <a href="/questions/tagged/.htaccess+nginx" class="post-tag no-tag-menu" title="show questions tagged '.htaccess nginx'" rel="tag">nginx</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">612</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="http-status-code-404"> 
+       <a href="/questions/tagged/.htaccess+http-status-code-404" class="post-tag no-tag-menu" title="show questions tagged '.htaccess http-status-code-404'" rel="tag">http-status-code-404</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">579</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="dns"> 
+       <a href="/questions/tagged/.htaccess+dns" class="post-tag no-tag-menu" title="show questions tagged '.htaccess dns'" rel="tag">dns</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">561</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="magento"> 
+       <a href="/questions/tagged/.htaccess+magento" class="post-tag no-tag-menu" title="show questions tagged '.htaccess magento'" rel="tag">magento</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">533</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="http"> 
+       <a href="/questions/tagged/.htaccess+http" class="post-tag no-tag-menu" title="show questions tagged '.htaccess http'" rel="tag">http</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">515</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="joomla"> 
+       <a href="/questions/tagged/.htaccess+joomla" class="post-tag no-tag-menu" title="show questions tagged '.htaccess joomla'" rel="tag">joomla</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">483</span></span> 
+      </div> 
+      <a href="#" class="show-more js-show-more js-gps-track" data-gps-track="related_tags.click({ item_type:2 })"> more related tags </a> 
+      <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script> 
+     </div> 
+     <div id="hot-network-questions" class="module tex2jax_ignore"> 
+      <h4> <a href="https://stackexchange.com/questions?tab=hot" class="js-gps-track" data-gps-track="posts_hot_network.click({ item_type:1, location:9 })"> Hot Network Questions </a> </h4> 
+      <ul> 
+       <li> 
+        <div class="favicon favicon-retrocomputing" title="Retrocomputing Stack Exchange"></div><a href="https://retrocomputing.stackexchange.com/questions/6045/can-modern-ai-be-used-to-program-impressive-graphics-effects-on-very-low-perform" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:648 }); posts_hot_network.click({ item_type:2, location:9 })"> Can modern AI be used to program impressive graphics effects on very low performance home-retrocomputers, in particular 'A 3D-rotating-cube' </a> </li> 
+       <li> 
+        <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="https://workplace.stackexchange.com/questions/109469/how-to-stop-nicknames-from-being-used" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:423 }); posts_hot_network.click({ item_type:2, location:9 })"> How to stop nicknames from being used? </a> </li> 
+       <li> 
+        <div class="favicon favicon-graphicdesign" title="Graphic Design Stack Exchange"></div><a href="https://graphicdesign.stackexchange.com/questions/107144/can-illustrators-pencil-or-brush-tool-snap-to-lines-and-curves-while-drawing" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:174 }); posts_hot_network.click({ item_type:2, location:9 })"> Can Illustrator's Pencil or Brush tool snap to lines and curves while drawing? </a> </li> 
+       <li> 
+        <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="https://worldbuilding.stackexchange.com/questions/107676/are-there-physical-laws-making-this-kind-of-revival-impossible" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })"> Are there physical laws making this kind of revival impossible? </a> </li> 
+       <li> 
+        <div class="favicon favicon-ux" title="User Experience Stack Exchange"></div><a href="https://ux.stackexchange.com/questions/116824/facial-recognition-given-the-context-should-the-user-be-made-aware-of-the-pro" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:102 }); posts_hot_network.click({ item_type:2, location:9 })"> Facial recognition - Given the context, should the user be made aware of the process? </a> </li> 
+       <li> 
+        <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="https://codegolf.stackexchange.com/questions/160089/count-the-matchsticks" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })"> Count the Matchsticks </a> </li> 
+       <li> 
+        <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="https://academia.stackexchange.com/questions/106864/how-to-react-when-encountering-students-who-have-previously-failed-my-course" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })"> How to react when encountering students who have previously failed my course? </a> </li> 
+       <li> 
+        <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="https://mathematica.stackexchange.com/questions/169628/faster-trace-of-product-of-two-matrices" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:387 }); posts_hot_network.click({ item_type:2, location:9 })"> Faster trace of product of two matrices </a> </li> 
+       <li> 
+        <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="https://rpg.stackexchange.com/questions/119028/can-you-store-spare-vials-of-blood-to-refill-a-blood-reservoir" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:122 }); posts_hot_network.click({ item_type:2, location:9 })"> Can you store spare vials of blood to refill a Blood Reservoir? </a> </li> 
+       <li> 
+        <div class="favicon favicon-travel" title="Travel Stack Exchange"></div><a href="https://travel.stackexchange.com/questions/111621/can-i-return-to-the-united-states-as-a-tourist-after-being-here-illegally-for-mo" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:273 }); posts_hot_network.click({ item_type:2, location:9 })"> Can I return to the United States as a tourist after being here illegally for most of my life, as a minor? </a> </li> 
+       <li> 
+        <div class="favicon favicon-movies" title="Movies &amp; TV Stack Exchange"></div><a href="https://movies.stackexchange.com/questions/87545/what-is-danny-zorn-referring-to" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:367 }); posts_hot_network.click({ item_type:2, location:9 })"> What Is Danny Zorn Referring To? </a> </li> 
+       <li> 
+        <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="https://electronics.stackexchange.com/questions/364239/ohms-law-doesnt-seem-to-be-working-for-this-electric-motor" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:135 }); posts_hot_network.click({ item_type:2, location:9 })"> Ohm's law doesn't seem to be working for this electric motor </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="https://tex.stackexchange.com/questions/422782/labels-of-nodes-with-drop-shadow" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })"> labels of nodes with drop shadow </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-photo" title="Photography Stack Exchange"></div><a href="https://photo.stackexchange.com/questions/97430/whats-the-best-way-to-light-up-a-subject-thats-far-away" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:61 }); posts_hot_network.click({ item_type:2, location:9 })"> What's the best way to light up a subject that's far away? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="https://academia.stackexchange.com/questions/106883/in-academia-does-the-amount-of-material-that-one-has-to-learn-diminish-as-time" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })"> In academia, does the amount of material that one has to learn diminish as time progresses? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="https://codegolf.stackexchange.com/questions/159881/am-i-a-self-number" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })"> Am I a Self Number? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="https://codereview.stackexchange.com/questions/190255/basic-c-circle-class" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })"> Basic C++ Circle Class </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="https://academia.stackexchange.com/questions/106913/my-phd-supervisor-cannot-promise-me-date-to-defend-my-dissertation-before-my-vis" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })"> My PhD supervisor cannot promise me date to defend my dissertation before my visa expires. Should I just quit my PhD and start over? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-physics" title="Physics Stack Exchange"></div><a href="https://physics.stackexchange.com/questions/394942/how-does-this-baby-rattle-work" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:151 }); posts_hot_network.click({ item_type:2, location:9 })"> How does this baby rattle work? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="https://worldbuilding.stackexchange.com/questions/107627/how-can-mutually-assured-destruction-be-made-not-assured" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })"> How can Mutually Assured Destruction be made...not assured? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="https://money.stackexchange.com/questions/93371/can-a-merchant-accept-some-visa-cards-but-not-others" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:93 }); posts_hot_network.click({ item_type:2, location:9 })"> Can a merchant accept some Visa cards but not others? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="https://money.stackexchange.com/questions/93372/what-marks-the-beginning-of-a-bear-market" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:93 }); posts_hot_network.click({ item_type:2, location:9 })"> What marks the beginning of a bear market? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-raspberrypi" title="Raspberry Pi Stack Exchange"></div><a href="https://raspberrypi.stackexchange.com/questions/81723/additional-hardware-needed-for-gps-receiver" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:447 }); posts_hot_network.click({ item_type:2, location:9 })"> Additional hardware needed for GPS receiver? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="https://stackoverflow.com/questions/49451568/initialise-a-numpy-array-based-on-its-index" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })"> Initialise a NumPy array based on its index </a> </li> 
+      </ul> 
+      <a href="#" class="show-more js-show-more js-gps-track" data-gps-track="posts_hot_network.click({ item_type:3, location:9 })"> more hot questions </a> 
+     </div> 
+     <div id="feed-link"> 
+      <a href="/feeds/tag?tagnames=.htaccess&amp;sort=newest" title="the 30 newest .htaccess questions"> 
+       <svg aria-hidden="true" class="svg-icon fc-orange-400 iconRss" width="18" height="18" viewbox="0 0 18 18">
+        <path d="M1 3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3zm14.5 12C15.5 8.1 9.9 2.5 3 2.5V5a10 10 0 0 1 10 10h2.5zm-5 0A7.5 7.5 0 0 0 3 7.5V10a5 5 0 0 1 5 5h2.5zm-5 0A2.5 2.5 0 0 0 3 12.5V15h2.5z" />
+       </svg> newest .htaccess questions feed </a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <footer id="footer" class="site-footer js-footer" role="contentinfo"> 
+   <div class="site-footer--container"> 
+    <div class="site-footer--logo"> 
+     <a href="https://stackoverflow.com">
+      <svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewbox="0 0 32 37">
+       <g>
+        <path fill="#BCBBBB" d="M26 33v-9h4v13H0V24h4v9z" />
+        <path d="M23.1 25.99l.68-2.95-16.1-3.35L7 23l16.1 2.99zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm4.2-7.4L26 18.4l2.1-2.5L15.4 5.3l-2.1 2.5zM21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM7 30h16v-3H7v3z" fill="#F48024" />
+       </g>
+      </svg></a> 
+    </div> 
+    <nav class="site-footer--nav"> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://stackoverflow.com" class="js-gps-track" data-gps-track="footer.click({ location: 5, link: 15})">Stack Overflow</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 16})">Questions</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 17})">Jobs</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 11})">Developer Jobs Directory</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 28})">Salary Calculator</a></li> 
+       <li class="-item"><a href="/help" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 3 })">Help</a></li> 
+       <li class="-item"><a onclick="StackExchange.switchMobile(&quot;on&quot;)" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 12 })">Mobile</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://www.stackoverflowbusiness.com/?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-business-category" class="js-gps-track" data-gps-track="footer.click({ location: 5, link: 19 })">Stack Overflow<br> Business</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 20 })">Talent</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-advertise" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 21 })">Ads</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/enterprise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 22 })">Enterprise</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 5, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 7 })" href="https://stackexchange.com/legal">Legal</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 8 })" href="https://stackexchange.com/legal/privacy-policy">Privacy Policy</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--categories-nav site-footer--col__visible"> 
+      <a href="#" class="site-footer--back js-footer-back">
+       <svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewbox="0 0 18 18">
+        <path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z" />
+       </svg></a> 
+      <div> 
+       <h5 class="-title"><a href="https://stackexchange.com">Stack Exchange<br> Network</a></h5> 
+       <ul class="-list"> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Technology">Technology</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Life / Arts">Life / Arts</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Science">Science</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Other">Other</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="site-footer--categories"> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li> 
+        <li class="-item"><a href="https://serverfault.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="system and network administrators">Server Fault</a></li> 
+        <li class="-item"><a href="https://superuser.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="computer enthusiasts and power users">Super User</a></li> 
+        <li class="-item"><a href="https://webapps.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of web applications">Web Applications</a></li> 
+        <li class="-item"><a href="https://askubuntu.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li> 
+        <li class="-item"><a href="https://webmasters.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="pro webmasters">Webmasters</a></li> 
+        <li class="-item"><a href="https://gamedev.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and independent game developers">Game Development</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://tex.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li> 
+        <li class="-item"><a href="https://softwareengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li> 
+        <li class="-item"><a href="https://unix.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li> 
+        <li class="-item"><a href="https://apple.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li> 
+        <li class="-item"><a href="https://wordpress.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li> 
+        <li class="-item"><a href="https://gis.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li> 
+        <li class="-item"><a href="https://electronics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://android.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li> 
+        <li class="-item"><a href="https://security.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="information security professionals">Information Security</a></li> 
+        <li class="-item"><a href="https://dba.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li> 
+        <li class="-item"><a href="https://drupal.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li> 
+        <li class="-item"><a href="https://sharepoint.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li> 
+        <li class="-item"><a href="https://ux.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="user experience researchers and experts">User Experience</a></li> 
+        <li class="-item"><a href="https://mathematica.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://salesforce.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li> 
+        <li class="-item"><a href="https://expressionengine.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li> 
+        <li class="-item"><a href="https://pt.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Português</a></li> 
+        <li class="-item"><a href="https://blender.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li> 
+        <li class="-item"><a href="https://networkengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="network engineers">Network Engineering</a></li> 
+        <li class="-item"><a href="https://crypto.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li> 
+        <li class="-item"><a href="https://codereview.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="peer programmer code reviews">Code Review</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://magento.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li> 
+        <li class="-item"><a href="https://softwarerecs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li> 
+        <li class="-item"><a href="https://dsp.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li> 
+        <li class="-item"><a href="https://emacs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li> 
+        <li class="-item"><a href="https://raspberrypi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li> 
+        <li class="-item"><a href="https://ru.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="программистов">Stack Overflow на русском</a></li> 
+        <li class="-item"><a href="https://codegolf.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://es.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores y profesionales de la informática">Stack Overflow en español</a></li> 
+        <li class="-item"><a href="https://ethereum.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li> 
+        <li class="-item"><a href="https://datascience.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li> 
+        <li class="-item"><a href="https://arduino.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li> 
+        <li class="-item"><a href="https://bitcoin.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (28) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://photo.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li> 
+        <li class="-item"><a href="https://scifi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li> 
+        <li class="-item"><a href="https://graphicdesign.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li> 
+        <li class="-item"><a href="https://movies.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li> 
+        <li class="-item"><a href="https://music.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li> 
+        <li class="-item"><a href="https://worldbuilding.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li> 
+        <li class="-item"><a href="https://cooking.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://diy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li> 
+        <li class="-item"><a href="https://money.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li> 
+        <li class="-item"><a href="https://academia.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li> 
+        <li class="-item"><a href="https://law.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (15) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://english.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li> 
+        <li class="-item"><a href="https://skeptics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientific skepticism">Skeptics</a></li> 
+        <li class="-item"><a href="https://judaism.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li> 
+        <li class="-item"><a href="https://travel.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li> 
+        <li class="-item"><a href="https://christianity.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li> 
+        <li class="-item"><a href="https://ell.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li> 
+        <li class="-item"><a href="https://japanese.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://gaming.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li> 
+        <li class="-item"><a href="https://bicycles.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li> 
+        <li class="-item"><a href="https://rpg.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li> 
+        <li class="-item"><a href="https://anime.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li> 
+        <li class="-item"><a href="https://puzzling.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li> 
+        <li class="-item"><a href="https://mechanics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (33) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://mathoverflow.net" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional mathematicians">MathOverflow</a></li> 
+        <li class="-item"><a href="https://math.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li> 
+        <li class="-item"><a href="https://stats.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li> 
+        <li class="-item"><a href="https://cstheory.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li> 
+        <li class="-item"><a href="https://physics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li> 
+        <li class="-item"><a href="https://chemistry.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientists, academics, teachers and students">Chemistry</a></li> 
+        <li class="-item"><a href="https://biology.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="biology researchers, academics, and students">Biology</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://cs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li> 
+        <li class="-item"><a href="https://philosophy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (10) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Other"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://meta.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li> 
+        <li class="-item"><a href="https://stackapps.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li> 
+        <li class="-item"><a href="https://api.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li> 
+        <li class="-item"><a href="https://data.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li> 
+        <li class="-item"><a href="https://area51.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="proposing new sites in the Stack Exchange network">Area 51</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </nav> 
+    <div class="site-footer--copyright fs-fine"> 
+     <ul class="-list"> 
+      <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link:4 })" href="https://stackoverflow.blog?blb=1">Blog</a></li> 
+      <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li> 
+      <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li> 
+      <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li> 
+     </ul> 
+     <p class="mt-auto mb24"> site design / logo © 2018 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license">attribution required</a>. <span id="svnrev">rev&nbsp;2018.3.23.29561</span> </p> 
+    </div> 
+   </div> 
+  </footer> 
+  <noscript> 
+   <div id="noscript-warning">
+    Stack Overflow works best with JavaScript enabled 
+    <img src="https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"> 
+   </div> 
+  </noscript> 
+  <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                var trackingCodes = [
+                    'UA-5620270-1'
+                ];
+
+                        trackingCodes.push('UA-108242619-1');
+
+                StackExchange.ga.init({
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: trackingCodes
+                });
+
+
+
+                    StackExchange.ga.setDimension('dimension2', '|.htaccess|');
+
+                    StackExchange.ga.setDimension('dimension3', 'Questions/ListByTag');
+
+                StackExchange.ga.trackPageView();
+            });
+            
+/**/
+            
+            var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+            (function() {
+                var ssl = 'https:' == document.location.protocol,
+                    s = document.getElementsByTagName('script')[0],
+                    qc = document.createElement('script');
+                 qc.async = true;
+                    qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                    s.parentNode.insertBefore(qc, s);
+                    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+/**/
+                 var sc = document.createElement('script');
+                    sc.async = true;
+                    sc.src = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+                    s.parentNode.insertBefore(sc, s);
+                    _comscore.push({ c1: "2", c2: "17440561" });
+            })();
+            
+
+</script>  
+ </body>
+</html>

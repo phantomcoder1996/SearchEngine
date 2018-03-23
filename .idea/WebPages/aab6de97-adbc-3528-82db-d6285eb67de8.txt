@@ -1,0 +1,1179 @@
+https://www.mkyong.com/spring-boot/spring-boot-hibernate-search-example
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+  <meta name="google-site-verification" content="VsVvSTVAouAluNodWeR30BeIWTr4c84HvN4Fn9WBsak"> 
+  <!-- wp_head --> 
+  <title>Spring Boot + Hibernate Search example</title> 
+  <!-- All in One SEO Pack 2.2.7.1 by Michael Torbert of Semper Fi Web Design[290,354] --> 
+  <meta name="keywords" content="hibernate search,spring boot,wildfly"> 
+  <link rel="canonical" href="https://www.mkyong.com/spring-boot/spring-boot-hibernate-search-example/"> 
+  <!-- /all in one seo pack --> 
+  <link rel="dns-prefetch" href="//ajax.googleapis.com"> 
+  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com"> 
+  <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com"> 
+  <link rel="stylesheet" id="c16ss-style-css" href="https://www.mkyong.com/wp-content/plugins/c16-social-share/css/c16ss.css?ver=4.9.4" type="text/css" media="all"> 
+  <link rel="stylesheet" id="wpdiscuz-font-awesome-css" href="https://www.mkyong.com/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-4.6.3/css/font-awesome.min.css?ver=4.5.0" type="text/css" media="all"> 
+  <link rel="stylesheet" id="wpdiscuz-frontend-css-css" href="https://www.mkyong.com/wp-content/plugins/wpdiscuz/assets/css/wpdiscuz.css?ver=4.0.7" type="text/css" media="all"> 
+  <link rel="stylesheet" id="bootstrap4-cdn-css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css?ver=4.0.0" type="text/css" media="all"> 
+  <link rel="stylesheet" id="prism-css-css" href="https://www.mkyong.com/wp-content/themes/mkyong-bs4/assets/prism/prism.css?ver=20180316" type="text/css" media="all"> 
+  <link rel="stylesheet" id="mkyong-bs4-style-css" href="https://www.mkyong.com/wp-content/themes/mkyong-bs4/style.css?ver=20180316" type="text/css" media="all"> 
+  <script type="text/javascript" src="https://www.mkyong.com/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script> 
+  <script type="text/javascript" src="https://www.mkyong.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script> 
+  <script type="text/javascript" src="https://www.mkyong.com/wp-content/plugins/wpdiscuz/assets/third-party/wpdcookiejs/customcookie.js?ver=2.1.3"></script> 
+  <script type="text/javascript" src="https://www.mkyong.com/wp-content/plugins/wpdiscuz/assets/third-party/autogrow/jquery.autogrowtextarea.min.js?ver=3.0"></script> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var wpdiscuzAjaxObj = {"url":"https:\/\/www.mkyong.com\/wp-admin\/admin-ajax.php","wpdiscuz_options":{"wc_hide_replies_text":"Hide Replies","wc_show_replies_text":"Show Replies","wc_msg_required_fields":"Please fill out required fields","wc_invalid_field":"Some of field value is invalid","wc_error_empty_text":"please fill out this field to comment","wc_error_url_text":"url is invalid","wc_error_email_text":"email address is invalid","wc_invalid_captcha":"Invalid Captcha Code","wc_login_to_vote":"You Must Be Logged In To Vote","wc_deny_voting_from_same_ip":"You are not allowed to vote for this comment","wc_self_vote":"You cannot vote for your comment","wc_vote_only_one_time":"You've already voted for this comment","wc_voting_error":"Voting Error","wc_held_for_moderate":"Comment awaiting moderation","wc_comment_edit_not_possible":"Sorry, this comment no longer possible to edit","wc_comment_not_updated":"Sorry, the comment was not updated","wc_comment_not_edited":"You've not made any changes","wc_new_comment_button_text":"new comment","wc_new_comments_button_text":"new comments","wc_new_reply_button_text":"new reply on your comment","wc_new_replies_button_text":"new replies on your comments","wc_msg_input_min_length":"Input is too short","wc_msg_input_max_length":"Input is too long","is_user_logged_in":false,"commentListLoadType":"0","commentListUpdateType":"0","commentListUpdateTimer":"30","liveUpdateGuests":"1","wc_comment_bg_color":"#FEFEFE","wc_reply_bg_color":"#F8F8F8","wordpress_comment_order":"desc","commentsVoteOrder":true,"wordpressThreadCommentsDepth":"5","wordpressIsPaginate":"","commentTextMaxLength":null,"storeCommenterData":100000,"isCaptchaInSession":true,"isGoodbyeCaptchaActive":false,"facebookAppID":"","version":"4.0.7","wc_post_id":14670,"loadLastCommentId":"1055307","wc_captcha_show_for_guest":"0","wc_captcha_show_for_members":"0","is_email_field_required":1}};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="https://www.mkyong.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz.js?ver=4.0.7"></script> 
+  <link rel="prev" title="Mac OSX – Redirect .htaccess is not working ?" href="https://www.mkyong.com/mac/mac-osx-redirect-htaccess-is-not-working/"> 
+  <link rel="next" title="PrimeFaces – Open Window By Dropdown Selection" href="https://www.mkyong.com/jsf2/primefaces/primefaces-open-window-by-dropdown-selection/"> 
+  <style type="text/css">#wpcomm .wc_new_comment{background:#00B38F;}#wpcomm .wc_new_reply{background:#00B38F;}#wpcomm .wc-form-wrapper{background:#F9F9F9;}#wpcomm select,#wpcomm input[type="text"],#wpcomm input[type="email"],#wpcomm input[type="url"],#wpcomm input[type="date"],#wpcomm input[type="color"]{border:#D9D9D9 1px solid;}#wpcomm .wc-comment .wc-comment-right{background:#FEFEFE;}#wpcomm .wc-reply .wc-comment-right{background:#F8F8F8;}#wpcomm .wc-comment-text{font-size:14px;color:#555;}#wpcomm .wc-blog-administrator > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-administrator > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-administrator > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-editor > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-editor > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-editor > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-author > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-author > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-author > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-contributor > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-contributor > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-contributor > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-subscriber > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-subscriber > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-subscriber > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-post_author > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-post_author > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-post_author > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author a{color:#888888;}#wpcomm .wc-blog-guest > .wc-comment-left .wc-comment-label{background:#888888;}.wc-load-more-submit{border:1px solid #D9D9D9;}#wpcomm .wc-new-loaded-comment > .wc-comment-right{background:#FFFAD6;}.comments-area{width:auto;}.wpdiscuz-front-actions{background:#F9F9F9;}.wpdiscuz-subscribe-bar{background:#F9F9F9;}.wpdiscuz-sort-buttons{color:#bbbbbb;}.wpdiscuz-sort-button{color:#bbbbbb; cursor:pointer;}.wpdiscuz-sort-button:hover{color:#00B38F;cursor:pointer;}.wpdiscuz-sort-button-active{color:#00B38F!important;cursor:default!important;}#wpcomm .page-numbers{color:#555;border:#555 1px solid;}#wpcomm span.current{background:#555;}#wpcomm .wpdiscuz-readmore{cursor:pointer;color:#00B38F;} #wpcomm .wpdiscuz-textarea-wrap{border:#D9D9D9 1px solid;} .wpd-custom-field .wcf-pasiv-star, #wpcomm .wpdiscuz-item .wpdiscuz-rating > label {color: #DDDDDD;}#wpcomm .wpdiscuz-item .wpdiscuz-rating:not(:checked) > label:hover,.wpdiscuz-rating:not(:checked) > label:hover ~ label {   }#wpcomm .wpdiscuz-item .wpdiscuz-rating > input ~ label:hover, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label{color: #FFED85;} #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpcomm .wpdiscuz-item .wpdiscuz-rating > label:hover ~ input:checked ~ label, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked + label:hover ~ label, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover ~ label, .wpd-custom-field .wcf-activ-star, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label{ color:#FFD700;} #wpcomm .wc-cta-button:hover{border: 1px solid #00B38F!important; background:#00B38F!important; color:#fff!important;} #wpcomm .wc-cta-active{border: 1px solid #00B38F!important; background:#00B38F!important; color:#fff!important;}#wpcomm .wpf-cta:hover{color:#fff!important; background:#00B38F!important; border:1px solid #00B38F!important;}
+        
+#wpcomm .wpf-cta{ border: 1px solid #cccccc; color:#bbbbbb; }
+#wpcomm .wc-cta-button{ background:#888888; border:1px solid #888888; color:#ffffff;}
+#wpcomm .wc-cta-button-x{ background:#888888; border:1px solid #888888; color:#ffffff;}
+#wpcomm .wc-vote-link{border:1px solid #bbbbbb; color:#aaaaaa;}
+#wpcomm .wc-vote-result{border-top: 1px solid #bbbbbb; border-bottom: 1px solid #bbbbbb; color:#aaaaaa;}
+#wpcomm .wc-vote-result.wc-vote-result-like{border:1px solid #bbbbbb;}
+#wpcomm .wc-vote-result.wc-vote-result-dislike{border:1px solid #bbbbbb;}
+</style> 
+  <!-- ./wp_head --> 
+  <!-- Google Auto Ads --> 
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+  <script>
+					 (adsbygoogle = window.adsbygoogle || []).push({
+						  google_ad_client: "ca-pub-2836379775501347",
+						  enable_page_level_ads: true
+					 });
+				</script> 
+ </head> 
+ <body> 
+  <header class="navbar navbar-expand-lg navbar-dark fixed-top bg-blue"> 
+   <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Mkyong.com"> <img src="https://www.mkyong.com/wp-content/themes/mkyong-bs4/images/logo.png" width="180px" height="32px" alt="Mkyong.com Logo"> </a> 
+   <!-- Toggler/collapsibe Button --> 
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
+   <!-- Navbar links --> 
+   <div class="collapse navbar-collapse" id="navbarCollapse"> 
+    <div class="dropdown-divider"></div> 
+    <ul class="navbar-nav mr-auto"> 
+     <li class="nav-item"> <a class="nav-link" title="All Tutorials" href="/all-tutorials-on-mkyong-com/">All Tutorials</a> </li> 
+     <li class="nav-item"> <a class="nav-link" title="Java 8" href="/tutorials/java-8-tutorials/">Java 8</a> </li> 
+     <li class="nav-item"> <a class="nav-link" title="Spring Boot" href="/tutorials/spring-boot-tutorials/">Spring Boot</a> </li> 
+     <li class="nav-item"> <a class="nav-link" title="Contact" href="/contact-mkyong/">Contact</a> </li> 
+    </ul> 
+    <form class="form-inline" role="search" method="get" action="//www.mkyong.com/search/"> 
+     <input type="hidden" name="cx" value="partner-pub-2836379775501347:3714346998"> 
+     <input type="hidden" name="cof" value="FORID:10"> 
+     <input type="hidden" name="ie" value="UTF-8"> 
+     <input id="searchBox" name="q" class="form-control mr-sm-2" type="search" placeholder="Search for..." maxlength="50" aria-label="Search"> 
+     <button id="searchButton" class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button> 
+    </form> 
+   </div> 
+  </header> 
+  <div class="container"> 
+   <div class="row"> 
+    <div class="col-xl"> 
+     <div class="row"> 
+      <div class="col"> 
+       <div class="center ads-box ads-box-top-responsive"> 
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+        <!-- mkyong-top-responsive --> 
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2836379775501347" data-ad-slot="5333521399" data-ad-format="auto" data-ad-region="mkyongregion"></ins> 
+        <script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div id="main" class="col-xl"> 
+       <!-- google_ad_section_start(name=mkyongregion) --> 
+       <article id="post-14670"> 
+        <h1>Spring Boot + Hibernate Search example</h1> 
+        <div class="post-meta"> 
+         <div class="post-meta">
+          By 
+          <a href="https://www.mkyong.com/author/michael-good/" title="Michael Good class=" author" rel="author">Michael Good</a> | 
+          <time datetime="2017-09-19T07:56:35+00:00">September 19, 2017</time> | Viewed : 36,655 | 
+          <span>+1,698 pv/w</span>
+         </div> 
+        </div> 
+        <div id="post-content"> 
+         <p>Here we will create a Spring Boot web application example with Hibernate Search + Thymeleaf template engine, and deploy it as a WAR to Wildfly 10.1.</p> 
+         <p>Technologies used:</p> 
+         <ol> 
+          <li>Spring Boot 1.5.6.RELEASE</li> 
+          <li>Java 8</li> 
+          <li>Hibernate Search 5.6.1.Final</li> 
+          <li>Embedded Tomcat, Wildfly 8.1 Final &amp; 10.1 Final</li> 
+         </ol> 
+         <h2>1. Project Structure</h2> 
+         <p>A standard Maven project structure</p> 
+         <div class="pic"> 
+          <img src="http://www.mkyong.com/wp-content/uploads/2017/09/spring-boot-hibernate-search-example.png"> 
+         </div> 
+         <h2>1. Project Dependencies</h2> 
+         <div class="filename">
+          pom.xml
+         </div> 
+         <pre><code class="language-markup">
+&lt;?xml version="1.0" encoding="UTF-8"?&gt;
+&lt;project xmlns="http://maven.apache.org/POM/4.0.0" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
+	http://maven.apache.org/xsd/maven-4.0.0.xsd"&gt;
+    &lt;modelVersion&gt;4.0.0&lt;/modelVersion&gt;
+
+    &lt;groupId&gt;com.mkyong&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-boot-web-wildfly-search&lt;/artifactId&gt;
+    &lt;version&gt;0.0.1&lt;/version&gt;
+    &lt;packaging&gt;war&lt;/packaging&gt;
+    &lt;name&gt;mkyong-wildfly-spring-boot&lt;/name&gt;
+    &lt;description&gt;Spring Boot Web Hibernate Search Example&lt;/description&gt;
+
+    &lt;parent&gt;
+        &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+        &lt;artifactId&gt;spring-boot-starter-parent&lt;/artifactId&gt;
+        &lt;version&gt;1.5.6.RELEASE&lt;/version&gt;
+        &lt;relativePath/&gt; &lt;!-- lookup parent from repository --&gt;
+    &lt;/parent&gt;
+
+    &lt;properties&gt;
+        &lt;project.build.sourceEncoding&gt;UTF-8&lt;/project.build.sourceEncoding&gt;
+        &lt;project.reporting.outputEncoding&gt;UTF-8&lt;/project.reporting.outputEncoding&gt;
+        &lt;java.version&gt;1.8&lt;/java.version&gt;
+        &lt;logback.version&gt;1.1.9&lt;/logback.version&gt;
+    &lt;/properties&gt;
+
+    &lt;dependencies&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;
+            &lt;!--
+            Comment out if deploy as WAR file
+            &lt;exclusions&gt;
+                &lt;exclusion&gt;
+                    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+                    &lt;artifactId&gt;spring-boot-starter-tomcat&lt;/artifactId&gt;
+                &lt;/exclusion&gt;
+            &lt;/exclusions&gt;
+            --&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-boot-starter-thymeleaf&lt;/artifactId&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-boot-starter-data-jpa&lt;/artifactId&gt;
+        &lt;/dependency&gt;
+
+        &lt;!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-search-engine --&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.hibernate&lt;/groupId&gt;
+            &lt;artifactId&gt;hibernate-search-engine&lt;/artifactId&gt;
+            &lt;version&gt;5.6.1.Final&lt;/version&gt;
+            &lt;exclusions&gt;
+                &lt;exclusion&gt;
+                    &lt;groupId&gt;org.jboss.logging&lt;/groupId&gt;
+                    &lt;artifactId&gt;jboss-logging&lt;/artifactId&gt;
+                &lt;/exclusion&gt;
+            &lt;/exclusions&gt;
+        &lt;/dependency&gt;
+
+        &lt;!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-search-orm --&gt;
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.hibernate&lt;/groupId&gt;
+            &lt;artifactId&gt;hibernate-search-orm&lt;/artifactId&gt;
+            &lt;version&gt;5.6.1.Final&lt;/version&gt;
+            &lt;exclusions&gt;
+                &lt;exclusion&gt;
+                    &lt;groupId&gt;org.jboss.logging&lt;/groupId&gt;
+                    &lt;artifactId&gt;jboss-logging&lt;/artifactId&gt;
+                &lt;/exclusion&gt;
+            &lt;/exclusions&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.hsqldb&lt;/groupId&gt;
+            &lt;artifactId&gt;hsqldb&lt;/artifactId&gt;
+            &lt;scope&gt;runtime&lt;/scope&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;javax.servlet&lt;/groupId&gt;
+            &lt;artifactId&gt;javax.servlet-api&lt;/artifactId&gt;
+            &lt;scope&gt;provided&lt;/scope&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;org.jboss.logging&lt;/groupId&gt;
+            &lt;artifactId&gt;jboss-logging&lt;/artifactId&gt;
+            &lt;version&gt;3.3.0.Final&lt;/version&gt;
+        &lt;/dependency&gt;
+
+        &lt;dependency&gt;
+            &lt;groupId&gt;ch.qos.logback&lt;/groupId&gt;
+            &lt;artifactId&gt;logback-core&lt;/artifactId&gt;
+            &lt;version&gt;1.1.9&lt;/version&gt;
+        &lt;/dependency&gt;
+
+    &lt;/dependencies&gt;
+
+    &lt;build&gt;
+        &lt;plugins&gt;
+            &lt;plugin&gt;
+                &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+                &lt;artifactId&gt;spring-boot-maven-plugin&lt;/artifactId&gt;
+                &lt;configuration&gt;
+                    &lt;layout&gt;WAR&lt;/layout&gt;
+                    &lt;executable&gt;true&lt;/executable&gt;
+                    &lt;mainClass&gt;com.mkyong.WildflySpringBootApplication&lt;/mainClass&gt;
+                &lt;/configuration&gt;
+                &lt;executions&gt;
+                    &lt;execution&gt;
+                        &lt;goals&gt;
+                            &lt;goal&gt;repackage&lt;/goal&gt;
+                        &lt;/goals&gt;
+                    &lt;/execution&gt;
+                &lt;/executions&gt;
+            &lt;/plugin&gt;
+        &lt;/plugins&gt;
+    &lt;/build&gt;
+
+&lt;/project&gt;
+</code></pre> 
+         <h2>2. Model</h2> 
+         <p>For this example application, we are creating a website that allows you to search for rare baseball cards. So, we make our model the baseball card and annotate what are searchable fields.</p> 
+         <div class="filename">
+          BaseballCard.java
+         </div> 
+         <pre><code class="language-java">
+package com.mkyong.model;
+
+import org.hibernate.search.annotations.Field;
+import org.hibernate.search.annotations.Indexed;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
+@Indexed
+@Entity
+public class BaseballCard {
+
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
+    @Field
+    private String name;
+    @Field
+    private String rarityLevel;
+    @Field
+    private int year;
+	
+    //getters n setters
+
+}
+</code></pre> 
+         <h2>3. Repository</h2> 
+         <p>Here we have a Spring Data <code>CrudRepository</code> for the BaseballCard model that will allow us to perform the create and read functions needed.</p> 
+         <div class="filename">
+          BaseballCardRepository.java
+         </div> 
+         <pre><code class="language-java">
+package com.mkyong.dao;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.mkyong.model.BaseballCard;
+
+public interface BaseballCardRepository extends CrudRepository&lt;BaseballCard,Long&gt; {
+}
+</code></pre> 
+         <h2>4. Hibernate Search</h2> 
+         <div class="filename">
+          HibernateSearchService.java
+         </div> 
+         <pre><code class="language-java">
+package com.mkyong.service;
+
+import com.mkyong.model.BaseballCard;
+import org.apache.lucene.search.Query;
+import org.hibernate.search.jpa.FullTextEntityManager;
+import org.hibernate.search.jpa.Search;
+import org.hibernate.search.query.dsl.QueryBuilder;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
+
+import javax.persistence.EntityManager;
+import javax.persistence.NoResultException;
+import java.util.List;
+
+@Service
+public class HibernateSearchService {
+
+
+    @Autowired
+    private final EntityManager centityManager;
+
+
+    @Autowired
+    public HibernateSearchService(EntityManager entityManager) {
+        super();
+        this.centityManager = entityManager;
+    }
+
+
+    public void initializeHibernateSearch() {
+
+        try {
+            FullTextEntityManager fullTextEntityManager = Search.getFullTextEntityManager(centityManager);
+            fullTextEntityManager.createIndexer().startAndWait();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+    }
+
+    @Transactional
+    public List&lt;BaseballCard&gt; fuzzySearch(String searchTerm) {
+
+        FullTextEntityManager fullTextEntityManager = Search.getFullTextEntityManager(centityManager);
+        QueryBuilder qb = fullTextEntityManager.getSearchFactory().buildQueryBuilder().forEntity(BaseballCard.class).get();
+        Query luceneQuery = qb.keyword().fuzzy().withEditDistanceUpTo(1).withPrefixLength(1).onFields("name")
+                .matching(searchTerm).createQuery();
+
+        javax.persistence.Query jpaQuery = fullTextEntityManager.createFullTextQuery(luceneQuery, BaseballCard.class);
+
+        // execute search
+
+        List&lt;BaseballCard&gt; BaseballCardList = null;
+        try {
+            BaseballCardList = jpaQuery.getResultList();
+        } catch (NoResultException nre) {
+            ;// do nothing
+
+        }
+
+        return BaseballCardList;
+
+
+    }
+}
+</code></pre> 
+         <p>This configures the <code>HibernateSearchService</code> to be accessible.</p> 
+         <div class="filename">
+          HibernateSearchConfiguration.java
+         </div> 
+         <pre><code class="language-java">
+package com.mkyong;
+
+import javax.persistence.EntityManager;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import com.mkyong.service.HibernateSearchService;
+@EnableAutoConfiguration 
+@Configuration
+public class HibernateSearchConfiguration {
+
+	@Autowired
+	private EntityManager bentityManager;
+
+	@Bean
+	HibernateSearchService hibernateSearchService() {
+		HibernateSearchService hibernateSearchService = new HibernateSearchService(bentityManager);
+		hibernateSearchService.initializeHibernateSearch();
+		return hibernateSearchService;
+	}
+}
+</code></pre> 
+         <h2>5. Service for Model</h2> 
+         <p>This is a simple service that adds three cards to the repository for our example. For demonstration of SOLID programming principles, there is a separate interface for the service.</p> 
+         <div class="filename">
+          CardService.java
+         </div> 
+         <pre><code class="language-java">
+package com.mkyong.service;
+
+public interface CardService {
+
+    void addCards();
+    
+}
+</code></pre> 
+         <div class="filename">
+          CardServiceImpl.java
+         </div> 
+         <pre><code class="language-java">
+package com.mkyong.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.mkyong.dao.BaseballCardRepository;
+import com.mkyong.model.BaseballCard;
+
+@Service
+public class CardServiceImpl implements CardService {
+
+    @Autowired
+    BaseballCardRepository cardrepository;
+
+    BaseballCard TedWilliams = new BaseballCard();
+    BaseballCard BobGibson = new BaseballCard();
+    BaseballCard HonusWagner = new BaseballCard();
+
+    public void addCards() {
+        TedWilliams.setName("Ted Williams");
+        TedWilliams.setYear(1954);
+        TedWilliams.setRarityLevel("Very Rare");
+
+        cardrepository.save(TedWilliams);
+
+        BobGibson.setName("Bob Gibson");
+        BobGibson.setYear(1959);
+        BobGibson.setRarityLevel("Very Rare");
+
+        cardrepository.save(BobGibson);
+
+        HonusWagner.setName("Honus Wagner");
+        HonusWagner.setYear(1909);
+        HonusWagner.setRarityLevel("Rarest");
+
+        cardrepository.save(HonusWagner);
+
+        System.out.println("Cards have been added : " + cardrepository.findAll());
+
+    }
+}
+</code></pre> 
+         <h2>6. Controller</h2> 
+         <p>The controller is responsible for connecting the backend services to our front end Thymeleaf template.</p> 
+         <div class="filename">
+          CardController.java
+         </div> 
+         <pre><code class="language-java">
+package com.mkyong.controller;
+
+import com.mkyong.model.BaseballCard;
+import com.mkyong.service.CardService;
+import com.mkyong.service.HibernateSearchService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import java.util.List;
+
+@Controller
+public class CardController {
+
+    @Autowired
+    private HibernateSearchService searchservice;
+
+    @Autowired
+    private CardService cardservice;
+
+    @RequestMapping(value = "/", method = RequestMethod.GET)
+    public String search(@RequestParam(value = "search", required = false) String q, Model model) {
+        List&lt;BaseballCard&gt; searchResults = null;
+        try {
+            cardservice.addCards();
+            searchResults = searchservice.fuzzySearch(q);
+
+        } catch (Exception ex) {
+            // here you should handle unexpected errors
+            // ...
+            // throw ex;
+        }
+        model.addAttribute("search", searchResults);
+        return "index";
+
+    }
+
+}
+</code></pre> 
+         <h2>7. Configuration</h2> 
+         <p>Now we need to configure our Thymeleaf and Hibernate Search. </p> 
+         <div class="filename">
+          application.properties
+         </div> 
+         <pre><code class="language-bash">
+#==================================
+# = Thymeleaf configurations 
+#==================================
+spring.thymeleaf.check-template-location=true
+spring.thymeleaf.prefix=classpath:/templates/
+spring.thymeleaf.suffix=.html
+spring.thymeleaf.content-type=text/html
+spring.thymeleaf.cache=false
+server.contextPath=/
+#===================================
+#= 
+# Specify the Lucene Directory
+spring.jpa.properties.hibernate.search.default.directory_provider = filesystem
+
+# Using the filesystem DirectoryProvider you also have to specify the default
+# base directory for all indexes 
+spring.jpa.properties.hibernate.search.default.indexBase = indexpath
+</code></pre> 
+         <h2>8. Thymeleaf Template</h2> 
+         <p>For our Thymeleaf template, we have two purposes: allow the user to search and display the search results once a search is complete. Thankfully, Thymeleaf has conditional statements that allow us to display results if a user’s search returns items.</p> 
+         <div class="filename">
+          index.html
+         </div> 
+         <pre><code class="language-markup">
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;!-- META SECTION --&gt;
+    &lt;title&gt;Mkyong Wildfly Example&lt;/title&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=utf-8"/&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"/&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1"/&gt;
+    &lt;!-- END META SECTION --&gt;
+    &lt;!--  BEGIN STYLE --&gt;
+    &lt;style&gt;
+        table, th, td {
+            border: 1px solid black;
+            padding: 1px;
+        }
+    &lt;/style&gt;
+    &lt;!--  END STYLE --&gt;
+
+&lt;/head&gt;
+&lt;body&gt;
+&lt;form action="#" th:action="@{/}" th:object="${search}"&gt;
+    &lt;label for="search_input"&gt;Search:&lt;/label&gt; &lt;input name="search"
+                                                     id="search"&gt;
+    &lt;/input&gt;
+    &lt;div th:if="${not #lists.isEmpty(search)}"&gt;
+        &lt;h2&gt;Search Results&lt;/h2&gt;
+        &lt;table&gt;
+            &lt;thead&gt;
+            &lt;tr&gt;
+                &lt;th&gt;ID&lt;/th&gt;
+                &lt;th&gt;name&lt;/th&gt;
+                &lt;th&gt;rarity level&lt;/th&gt;
+                &lt;th&gt;year&lt;/th&gt;
+            &lt;/tr&gt;
+            &lt;/thead&gt;
+            &lt;tbody&gt;
+            &lt;tr th:each="search : ${search}"&gt;
+                &lt;td th:text="${search.id}"&gt;Text ...&lt;/td&gt;
+                &lt;td th:text="${search.name}"&gt;Text ...&lt;/td&gt;
+                &lt;td th:text="${search.rarityLevel}"&gt;Text ...&lt;/td&gt;
+                &lt;td th:text="${search.year}"&gt;Text...&lt;/td&gt;
+            &lt;/tr&gt;
+            &lt;/tbody&gt;
+        &lt;/table&gt;
+    &lt;/div&gt;
+&lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre> 
+         <h2>9. SpringBootApplication</h2> 
+         <div class="filename">
+          WildflySpringBootApplication.java
+         </div> 
+         <pre><code class="language-java">
+package com.mkyong;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class WildflySpringBootApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(WildflySpringBootApplication.class, args);
+    }
+
+}
+</code></pre> 
+         <h2>10. Demo</h2> 
+         <p>Start Spring Boot Application with the default embedded Tomcat container.</p> 
+         <pre><code class="language-java">
+$ mvn spring-boot:run
+</code></pre> 
+         <p>Access http://localhost:8080/</p> 
+         <div class="pic"> 
+          <img src="http://www.mkyong.com/wp-content/uploads/2017/09/spring-boot-hibernate-search-demo1.png"> 
+         </div> 
+         <p>I’ve searched “Ted” and the results are displayed in the table, http://localhost:8080/?search=ted</p> 
+         <div class="pic"> 
+          <img src="http://www.mkyong.com/wp-content/uploads/2017/09/spring-boot-hibernate-search-demo2.png"> 
+         </div> 
+         <h2>11. Deploy WAR file to Wildfly</h2> 
+         <p>The Wildfly is a JBoss open-source application server. Wildfly can be downloaded from their <a href="“http://wildfly.org/downloads/“" target="“_blank”">official website</a></p> 
+         <p><strong>Wildfly 10 comes with:</strong><br> ActiveMQ Artemis, HA Singleton Deployments, HA Singleton Message Driven Beans (MDBs) and MDB Delivery Groups, Stateless Session Bean and Message Driven Bean Automatic Pool Sizing, Hibernate 5</p> 
+         <p><strong>Wildfly 8 and 9:</strong><br> These versions do not come with the technologies built-in that Wildfly 10 has. This means we will not need to make exclusions in their configuration file.</p> 
+         <p>11.1 Exclude the embedded Tomcat container.</p> 
+         <div class="filename">
+          pom.xml
+         </div> 
+         <pre><code class="language-markup">
+	&lt;dependency&gt;
+           &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+            &lt;artifactId&gt;spring-boot-starter-web&lt;/artifactId&gt;
+            &lt;exclusions&gt;
+                &lt;exclusion&gt;
+                    &lt;groupId&gt;org.springframework.boot&lt;/groupId&gt;
+                    &lt;artifactId&gt;spring-boot-starter-tomcat&lt;/artifactId&gt;
+                &lt;/exclusion&gt;
+            &lt;/exclusions&gt;
+        &lt;/dependency&gt;
+</code></pre> 
+         <p>11.2 Extends <code>SpringBootServletInitializer</code></p> 
+         <div class="filename">
+          WildflySpringBootApplication.java
+         </div> 
+         <pre><code class="language-java">
+package com.mkyong;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import org.springframework.boot.web.support.SpringBootServletInitializer;
+
+@SpringBootApplication
+public class WildflySpringBootApplication extends SpringBootServletInitializer {
+
+    @Override
+    protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
+        return application.sources(WildflySpringBootApplication.class);
+    }
+
+    public static void main(String[] args) {
+        SpringApplication.run(WildflySpringBootApplication.class, args);
+    }
+
+}
+</code></pre> 
+         <p>11.3 Maven build and copy the WAR file to JBoss Wildfly and start it.</p> 
+         <div class="filename">
+          Terminal
+         </div> 
+         <pre><code class="language-bash">
+$ mvn package
+</code></pre> 
+         <p>11.4 Considerations for Wildfly 10</p> 
+         <p>For Wildfly 10 we need to make additional changes because of the technologies that come prepackaged with it. In our case, we are using Hibernate Search and that is packaged in Wildfly 10.</p> 
+         <p>For users of Wildfly 10, you need to create a <code>persistence.xml</code> file and enter:</p> 
+         <div class="filename">
+          persistence.xml
+         </div> 
+         <pre><code class="language-markup">
+wildfly.jpa.hibernate.search.module = none
+</code></pre> 
+         <p>Done.</p> 
+         <h2>Download Source Code</h2> 
+         <div class="download">
+           Download it – 
+          <a href="http://www.mkyong.com/wp-content/uploads/2017/09/spring-boot-hibernate-search-example.zip">spring-boot-hibernate-search-example.zip</a> (24 KB) 
+         </div> 
+         <h2>References</h2> 
+         <ol> 
+          <li><a href="https://docs.jboss.org/hibernate/search/5.6/reference/en-US/html_single/" target="_blank">Hibernate Search 5.6 Documentation</a></li> 
+          <li><a href="https://spring.io/blog/2014/03/07/deploying-spring-boot-applications" target="_blank">Deploying Spring Boot Applications</a></li> 
+          <li><a href="http://www.thymeleaf.org/doc/tutorials/2.1/thymeleafspring.html" target="_blank">Thymeleaf + Spring </a></li> 
+          <li><a href="https://www.mkyong.com/spring-boot/spring-boot-deploy-war-file-to-tomcat/" target="_blank">Spring Boot – Deploy WAR file to Tomcat</a></li> 
+         </ol> 
+         <div class="row"> 
+          <div class="col"> 
+           <div class="post-tag">
+            <a href="https://www.mkyong.com/tag/hibernate-search/" rel="tag">hibernate search</a> 
+            <a href="https://www.mkyong.com/tag/spring-boot/" rel="tag">spring boot</a> 
+            <a href="https://www.mkyong.com/tag/wildfly/" rel="tag">wildfly</a>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <!-- /.post-content --> 
+        <div class="ads-box"> 
+         <!--Carambola Script --> 
+         <img height="0" width="0" alt="" src="//pixel.watch/eey7" style="display:block;"> 
+         <script data-cfasync="false" class="carambola_InContent" type="text/javascript" cbola_wid="0">  
+			(function (i,d,s,o,m,r,c,l,w,q,y,h,g) {  
+			var e=d.getElementById(r);if(e===null){  
+			var t = d.createElement(o); t.src = g; t.id = r; t.setAttribute(m, s);t.async = 1;var n=d.getElementsByTagName(o)[0];n.parentNode.insertBefore(t, n); 
+			var dt=new Date().getTime();  
+			try{i[l][w+y](h,i[l][q+y](h)+'&'+dt);}catch(er){i[h]=dt;}  
+			} else if(typeof i[c]!=='undefined'){i[c]++}  
+			else{i[c]=1;}  
+			})(window, document, 'InContent', 'script', 'mediaType', 'carambola_proxy','Cbola_IC','localStorage','set','get','Item','cbolaDt','//route.carambo.la/inimage/getlayer?pid=myky82&did=112239&wid=0')  
+		</script> 
+        </div> 
+        <input type="hidden" id="mkyong-postId" value="14670"> 
+        <h4>About the Author</h4> 
+        <div id="author-info" class="media rounded"> 
+         <img alt="author image" src="https://secure.gravatar.com/avatar/f77dfc36768deaa8732702ccf8e2548e?s=96&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/f77dfc36768deaa8732702ccf8e2548e?s=192&amp;d=mm&amp;r=g 2x" class="avatar avatar-96 photo d-flex mr-3 rounded-circle" height="96" width="96"> 
+         <div class="media-body"> 
+          <h5 class="mt-0">Michael Good</h5> Michael is a software engineer located in the Washington DC area that is interested in Java, cyber security, and open source technologies. Follow his personal 
+          <a href="http://michaelcgood.com/">blog</a> to read more from Michael. 
+         </div> 
+        </div> 
+        <!-- Google recommend --> 
+        <div class="ads-box"> 
+         <!-- google recommend --> 
+         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+         <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-2836379775501347" data-ad-slot="3110889791"></ins> 
+         <script>
+			 (adsbygoogle = window.adsbygoogle || []).push({});
+		</script> 
+        </div> 
+        <!--
+	<div class="d-none d-md-block">
+		<div id="mk-related-post"></div>
+		<div id="mk-popular-post"></div>
+	</div>
+	--> 
+        <h4>Comments</h4> 
+        <div id="comment"> 
+         <div class="wpdiscuz_top_clearing"></div> 
+         <div id="comments" class="comments-area"> 
+          <div id="respond" style="width: 0;height: 0;clear: both;margin: 0;padding: 0;"></div> 
+          <h3 id="wc-comment-header">Leave a Reply</h3> 
+          <div id="wpcomm" class="wpdiscuz_unauth"> 
+           <div class="wc_social_plugin_wrapper"> 
+           </div> 
+           <div class="wc-form-wrapper wc-main-form-wrapper" id="wc-main-form-wrapper-0_0"> 
+            <div class="wpdiscuz-comment-message" style="display: block;"></div> 
+            <form class="wc_comm_form wc_main_comm_form" method="post" enctype="multipart/form-data"> 
+             <div class="wc-field-comment"> 
+              <div class="wc-field-avatararea"> 
+               <img alt="avatar" src="https://secure.gravatar.com/avatar/?s=48&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo avatar-default" height="48" width="48"> 
+              </div> 
+              <div class="wpdiscuz-item wc-field-textarea"> 
+               <div class="wpdiscuz-textarea-wrap "> 
+                <textarea id="wc-textarea-0_0" placeholder="Join the discussion" required name="wc_comment" class="wc_comment wpd-field"></textarea> 
+               </div> 
+              </div> 
+              <div class="clearfix"></div> 
+             </div> 
+             <div class="wc-form-footer" style="display: none;"> 
+              <div class="wpd-form-row"> 
+               <div class="wpd-form-col-left"> 
+                <div class="wpdiscuz-item wpd-has-icon"> 
+                 <div class="wpd-field-icon">
+                  <i class="fa fa-user"></i>
+                 </div> 
+                 <input required class="wc_name wpd-field" type="text" name="wc_name" value="" placeholder="Name" maxlength="50" pattern=".{3,50}" title=""> 
+                </div> 
+                <div class="wpdiscuz-item wpd-has-icon"> 
+                 <div class="wpd-field-icon">
+                  <i class="fa fa-at"></i>
+                 </div> 
+                 <input required class="wc_email wpd-field" type="email" name="wc_email" value="" placeholder="Email"> 
+                </div> 
+               </div> 
+               <div class="wpd-form-col-right"> 
+                <div class="wc-field-submit"> 
+                 <div class="wc_notification_checkboxes" style="display:block"> 
+                  <input id="wc_notification_new_comment-0_0" class="wc_notification_new_comment-0_0" value="comment" type="checkbox" name="wpdiscuz_notification_type"> 
+                  <label class="wc-label-comment-notify" for="wc_notification_new_comment-0_0">Notify of new replies to this comment</label>
+                  <br> 
+                 </div> 
+                 <input class="wc_comm_submit wc_not_clicked button alt" type="submit" name="submit" value="Post Comment"> 
+                </div> 
+               </div> 
+               <div class="clearfix"></div> 
+              </div> 
+             </div> 
+             <div class="clearfix"></div> 
+             <input type="hidden" class="wpdiscuz_unique_id" value="0_0" name="wpdiscuz_unique_id"> 
+            </form> 
+           </div> 
+           <div id="wpdiscuz_hidden_secondary_form" style="display: none;"> 
+            <div class="wc-form-wrapper wc-secondary-form-wrapper" id="wc-secondary-form-wrapper-wpdiscuzuniqueid" style="display: none;"> 
+             <div class="wpdiscuz-comment-message" style="display: block;"></div> 
+             <div class="wc-secondary-forms-social-content"></div> 
+             <form class="wc_comm_form wc-secondary-form-wrapper" method="post" enctype="multipart/form-data"> 
+              <div class="wc-field-comment"> 
+               <div class="wc-field-avatararea"> 
+                <img alt="avatar" src="https://secure.gravatar.com/avatar/?s=48&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo avatar-default" height="48" width="48"> 
+               </div> 
+               <div class="wpdiscuz-item wc-field-textarea"> 
+                <div class="wpdiscuz-textarea-wrap "> 
+                 <textarea id="wc-textarea-wpdiscuzuniqueid" placeholder="Join the discussion" required name="wc_comment" class="wc_comment wpd-field"></textarea> 
+                </div> 
+               </div> 
+               <div class="clearfix"></div> 
+              </div> 
+              <div class="wc-form-footer" style="display: none;"> 
+               <div class="wpd-form-row"> 
+                <div class="wpd-form-col-left"> 
+                 <div class="wpdiscuz-item wpd-has-icon"> 
+                  <div class="wpd-field-icon">
+                   <i class="fa fa-user"></i>
+                  </div> 
+                  <input required class="wc_name wpd-field" type="text" name="wc_name" value="" placeholder="Name" maxlength="50" pattern=".{3,50}" title=""> 
+                 </div> 
+                 <div class="wpdiscuz-item wpd-has-icon"> 
+                  <div class="wpd-field-icon">
+                   <i class="fa fa-at"></i>
+                  </div> 
+                  <input required class="wc_email wpd-field" type="email" name="wc_email" value="" placeholder="Email"> 
+                 </div> 
+                </div> 
+                <div class="wpd-form-col-right"> 
+                 <div class="wc-field-submit"> 
+                  <div class="wc_notification_checkboxes" style="display:block"> 
+                   <input id="wc_notification_new_comment-wpdiscuzuniqueid" class="wc_notification_new_comment-wpdiscuzuniqueid" value="comment" type="checkbox" name="wpdiscuz_notification_type"> 
+                   <label class="wc-label-comment-notify" for="wc_notification_new_comment-wpdiscuzuniqueid">Notify of new replies to this comment</label>
+                   <br> 
+                  </div> 
+                  <input class="wc_comm_submit wc_not_clicked button alt" type="submit" name="submit" value="Post Comment"> 
+                 </div> 
+                </div> 
+                <div class="clearfix"></div> 
+               </div> 
+              </div> 
+              <div class="clearfix"></div> 
+              <input type="hidden" class="wpdiscuz_unique_id" value="wpdiscuzuniqueid" name="wpdiscuz_unique_id"> 
+             </form> 
+            </div> 
+           </div> 
+           <div class="wpdiscuz-front-actions"> 
+            <div class="wpdiscuz-sort-buttons" style="font-size:14px;">
+             Sort by: &nbsp; 
+             <span class="wpdiscuz-sort-button wpdiscuz-date-sort-desc">newest</span> | 
+             <span class="wpdiscuz-sort-button wpdiscuz-date-sort-asc">oldest</span> | 
+             <span class="wpdiscuz-sort-button wpdiscuz-vote-sort-up">most voted</span> 
+            </div> 
+           </div> 
+           <div id="wcThreadWrapper" class="wc-thread-wrapper"> 
+            <div id="wc-comm-1053855_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Navneet" src="https://secure.gravatar.com/avatar/7232aa4122225e0802ac959581b8499a?s=64&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/7232aa4122225e0802ac959581b8499a?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1053855" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Navneet
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hi Michael,</p> 
+               <p>One of the well explained article. Keep up good work.</p> 
+               <p>Thanks.</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">2</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>6 months 2 days ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1053855_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1053849_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="AbrahamStalin" src="https://secure.gravatar.com/avatar/340a295a8e7712adaedc7ccf62c23b13?s=64&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/340a295a8e7712adaedc7ccf62c23b13?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1053849" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                AbrahamStalin
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Thanks, great article.</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">2</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>6 months 3 days ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1053849_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1055307_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Manjil Tamang" src="https://secure.gravatar.com/avatar/9fed6e41921be131f5a19ffb05f4e3e9?s=64&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/9fed6e41921be131f5a19ffb05f4e3e9?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1055307" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Manjil Tamang
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hi,<br> Anyone can tell how pagination is done here???</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>1 month 16 days ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1055307_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1054481_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Jayashree" src="https://secure.gravatar.com/avatar/6b16e03548edf142de8777207af55c2e?s=64&amp;d=mm&amp;r=g" srcset="https://secure.gravatar.com/avatar/6b16e03548edf142de8777207af55c2e?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1054481" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Jayashree
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Thank you</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>3 months 15 days ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1054481_0" style="clear:both"></div>
+            </div> 
+            <div class="wpdiscuz-comment-pagination"> 
+            </div> 
+           </div> 
+           <div class="wpdiscuz_clear"></div> 
+          </div> 
+         </div> 
+         <div class="wpdiscuz-loading-bar wpdiscuz-loading-bar-unauth">
+          <img class="wpdiscuz-loading-bar-img" alt="wpDiscuz" src="https://www.mkyong.com/wp-content/plugins/wpdiscuz/assets/img/loading.gif" width="32" height="25">
+         </div> 
+        </div> 
+        <!-- /#comment --> 
+       </article> 
+       <!-- /.article --> 
+       <!-- google_ad_section_end --> 
+      </div> 
+      <!-- only display in xl(>=1200px)--> 
+      <div class="col-xl-3 big-screen-ads" id="sidebar-right"> 
+       <div class="sidebar-box center"> 
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+        <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-2836379775501347" data-ad-slot="7072877400" data-ad-region="mkyongregion"></ins> 
+        <script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script> 
+       </div> 
+       <div class="sidebar-box center"> 
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+        <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-2836379775501347" data-ad-slot="5738517670" data-ad-region="mkyongregion"></ins> 
+        <script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script> 
+       </div> 
+       <div class="sidebar-box center"> 
+        <div data-type="ad" data-publisher="lqm.j2ee.site" data-zone="ron" data-format="300x250" data-tags="Java%2cSpring%2cAndroid%2cMobile%2cjQuery%2cUnit%20Test%2cASP.NET%20MVC%2cDI%2cTDD"></div> 
+       </div> 
+       <div class="sidebar-box center"> 
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+        <!-- mkyong-sidebar-300x600 --> 
+        <ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-2836379775501347" data-ad-slot="7953295395" data-ad-region="mkyongregion"></ins> 
+        <script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script> 
+       </div> 
+       <div class="sidebar-box center"> 
+        <div data-type="ad" data-publisher="lqm.j2ee.site" data-zone="ron" data-format="160x600" data-tags="Java%2cSpring%2cAndroid%2cMobile%2cjQuery%2cUnit%20Test%2cASP.NET%20MVC%2cDI%2cTDD"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!--/.row --> 
+  </div> 
+  <!--/.container --> 
+  <div class="container-fluid"> 
+   <div class="row"> 
+    <div class="ads-box center d-none d-xl-block"> 
+     <div data-type="ad" data-publisher="lqm.j2ee.site" data-zone="ron" data-format="728x90" data-tags="Java%2cSpring%2cAndroid%2cMobile%2cjQuery%2cUnit%20Test%2cASP.NET%20MVC%2cDI%2cTDD"></div> 
+    </div> 
+    <footer> 
+     <div id="footer-link" class="d-none d-md-block"> 
+      <div class="container"> 
+       <div class="row"> 
+        <div class="col-4"> 
+         <h4>Favorites Links</h4> 
+         <div class="menu-fav-links-container">
+          <ul id="menu-fav-links" class="menu">
+           <li id="menu-item-13669" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13669"><a href="http://developer.android.com/training/index.html">Android Getting Started</a></li> 
+           <li id="menu-item-13670" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13670"><a href="https://cloud.google.com/appengine/docs/java/">Google App Engine – Java</a></li> 
+           <li id="menu-item-13671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13671"><a href="http://docs.spring.io/spring/docs/2.5.x/reference/index.html">Spring 2.5.x Documentation</a></li> 
+           <li id="menu-item-13672" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13672"><a href="http://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/">Spring 3.2.x Documentation</a></li> 
+           <li id="menu-item-13673" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13673"><a href="http://docs.spring.io/spring/docs/4.1.x/spring-framework-reference/html/">Spring 4.1.x Documentation</a></li> 
+           <li id="menu-item-13675" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13675"><a href="http://docs.oracle.com/javaee/5/tutorial/doc/docinfo.html">Java EE 5 Tutorial</a></li> 
+           <li id="menu-item-13676" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13676"><a href="http://docs.oracle.com/javaee/6/tutorial/doc/docinfo.html">Java EE 6 Tutorial</a></li> 
+           <li id="menu-item-13677" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13677"><a href="https://docs.oracle.com/javaee/7/tutorial/index.html">Java EE 7 Tutorial</a></li> 
+           <li id="menu-item-13678" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13678"><a href="http://docs.oracle.com/javase/6/docs/api/overview-summary.html">Java 6 API</a></li> 
+           <li id="menu-item-13679" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13679"><a href="http://docs.oracle.com/javase/7/docs/api/overview-summary.html">Java 7 API</a></li> 
+           <li id="menu-item-13680" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13680"><a href="http://docs.oracle.com/javase/8/docs/api/overview-summary.html">Java 8 API</a></li> 
+           <li id="menu-item-14082" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14082"><a href="http://docs.oracle.com/javase/tutorial/index.html">Oracle J2SE Tutorials</a></li> 
+           <li id="menu-item-13681" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13681"><a href="https://javaserverfaces.java.net/">JSF Home Page</a></li> 
+           <li id="menu-item-13682" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13682"><a href="https://jsp.java.net/">JSP Home Page</a></li> 
+           <li id="menu-item-13674" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13674"><a href="http://search.maven.org/">Maven Central Repository</a></li> 
+           <li id="menu-item-14083" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14083"><a href="https://docs.gradle.org/current/userguide/userguide.html">Gradle User Guide</a></li> 
+           <li id="menu-item-13683" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13683"><a href="http://hibernate.org/orm/">Hibernate ORM</a></li> 
+           <li id="menu-item-13684" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13684"><a href="https://jax-ws.java.net/">JAX-WS Home Page</a></li> 
+           <li id="menu-item-13685" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13685"><a href="https://jax-ws.java.net/">JAX-RS Home Page (Jersey)</a></li> 
+           <li id="menu-item-14084" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14084"><a href="http://tomcat.apache.org/tomcat-8.0-doc/index.html">Tomcat 8 Documentation</a></li> 
+          </ul>
+         </div> 
+        </div> 
+        <div class="col-4"> 
+         <h4>Partners &amp; Bookmarks</h4> 
+         <div class="menu-partners-container">
+          <ul id="menu-partners" class="menu">
+           <li id="menu-item-13686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13686"><a title="JAX London" href="https://jaxlondon.com/?utm_source=mkyong.com&amp;utm_medium=referral&amp;utm_campaign=mediapartner">JAX London</a></li> 
+           <li id="menu-item-13664" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13664"><a href="http://www.javacodegeeks.com/">Java Code Geeks</a></li> 
+          </ul>
+         </div> 
+        </div> 
+        <div class="col-4"> 
+         <h4>About Mkyong.com</h4> 
+         <p>Mkyong.com is for Java and J2EE developers, all examples are simple and easy to understand, and well tested in my development environment. </p> 
+         <p> Mkyong.com is created, written by, and maintained by Yong Mook Kim, aka Mkyong. It is built on <a href="https://wordpress.org/" target="_blank">WordPress</a>, hosted by <a href="http://mkyong.com/go/liquidweb/" target="_blank">Liquid Web</a>, and the caches are served by CloudFlare CDN. </p> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <!-- /#footer-link --> 
+     <div id="footer-copyright"> 
+      <div class="container"> 
+       <div class="row"> 
+        <div class="col">
+          Copyright © 2008-2018 Mkyong.com, all rights reserved. 
+         <a href="/privacy-policy/">Privacy Policy</a> 
+        </div> 
+       </div> 
+       <script type="text/javascript">
+/* <![CDATA[ */
+r3f5x9JS=escape(document['referrer']);
+hf4N='95aa2947feba5d23fb021854abf5871c';
+hf4V='d8227541695c31ab44dce71367b7e01b';
+cm4S="form[action='https://www.mkyong.com/wp-comments-post.php']";
+jQuery(document).ready(function($){var e="#commentform, .comment-respond form, .comment-form, "+cm4S+", #lostpasswordform, #registerform, #loginform, #login_form, #wpss_contact_form";$(e).submit(function(){$("<input>").attr("type","hidden").attr("name","r3f5x9JS").attr("value",r3f5x9JS).appendTo(e);return true;});var h="form[method='post']";$(h).submit(function(){$("<input>").attr("type","hidden").attr("name",hf4N).attr("value",hf4V).appendTo(h);return true;});});
+/* ]]> */
+</script> 
+       <script type="text/javascript" src="https://www.mkyong.com/wp-includes/js/jquery/jquery.form.min.js?ver=4.2.1"></script> 
+       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?ver=3.2.1.slim"></script> 
+       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js?ver=1.12.9"></script> 
+       <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js?ver=4.0.0"></script> 
+       <script type="text/javascript" src="https://www.mkyong.com/wp-content/themes/mkyong-bs4/assets/prism/prism.js?ver=20180316"></script> 
+       <script type="text/javascript" src="https://www.mkyong.com/wp-content/plugins/wp-spamshield/js/jscripts-ftr2-min.js"></script> 
+      </div> 
+     </div> 
+     <!-- /#footer-copyright --> 
+     <!-- Google Analytics --> 
+     <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-752408-5', 'auto');
+		  ga('send', 'pageview');
+		</script> 
+     <!-- Developer Media --> 
+     <script type="text/javascript">
+			function _dmBootstrap(file) { 
+				var _dma = document.createElement('script');  
+				_dma.type = 'text/javascript'; 
+				_dma.async = true;  
+				_dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + file; 
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+			}
+			function _dmFollowup(file) { if (typeof DMAds === 'undefined')  _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+			(function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js'); setTimeout(_dmFollowup, 2000);})();
+		</script> 
+    </footer> 
+    <!-- /.footer --> 
+   </div> 
+  </div> 
+  <!--/.container-fluid -->  
+ </body>
+</html>

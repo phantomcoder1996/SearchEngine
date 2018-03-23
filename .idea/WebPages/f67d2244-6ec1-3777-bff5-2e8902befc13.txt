@@ -1,0 +1,427 @@
+https://www.tutorialspoint.com/misc_tutorials.htm
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>Tutorials on Miscellaneous Latest Technologies</title> 
+  <meta name="description" content="Tutorials on Miscellaneous Latest Technologies including SAP Material Management, WCF, CGI ( Common Gateway Interface), DLL, ebXML, GDB Debugger, Makefile, Parrot, RADIUS, RSS, SOAP, UDDI, Unix Socket, Web Services, XML-RPC, UML, Unix, WSDL, SVN, Git, MS Excel, MS Word etc."> 
+  <meta name="Keywords" content="Telecom, Tutorials, including, WCF, CGI ( Common Gateway Interface), DLL, ebXML, GDB Debugger, Makefile, Parrot, RADIUS, RSS, SOAP, UDDI, Unix Socket, Web Services, XML-RPC, UML, Unix, WSDL, SVN, Git, MS Excel, MS Word etc."> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #00420f !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #00420f url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #00420f !important;}
+.submenu-item{ border-bottom: 2px solid #00420f !important; border-top: 2px solid #00420f !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#00420f; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/green/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div id="content" class="content full"> 
+    <div class="green-bg background" style="height:330px;"> 
+     <span class="cat-title">Miscellaneous Tutorials</span> 
+     <div class="cat-punch-line">
+      <img src="/scripts/img/slides/slide-title-border.png" alt="border">
+      <span> Miscellaneous Latest Technologies </span>
+      <img src="/scripts/img/slides/slide-title-border.png" alt="border">
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="cg_prdts" style="position: relative; margin:-123px 0px 30px 0px;"> 
+   <div class="container"> 
+    <div class=""> 
+     <div class="col-md-3"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="container"> 
+   <div class="row"> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/adobe_indesign_cc/index.htm" title="Learn Adobe Indesign"> <img style="width:100px; height:80px;" src="/images/adobe_indesign_cc_icon.png" alt="Learn Adobe Indesign"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/adobe_robohelp/index.htm" title="Learn Adobe Robohelp"> <img style="width:100px; height:80px;" src="/images/adobe_robohelp_icon.png" alt="Learn Adobe Robohelp"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/abbreviations/index.htm" title="Learn abbreviations"> <img style="width:100px; height:80px;" src="/images/abbreviations_icon.png" alt="Learn abbreviations"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/cloudrail/index.htm" title="Learn CloudRail"> <img style="width:100px; height:80px;" src="/images/cloudrail_icon.png" alt="Learn CloudRail"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/dll/index.htm" title="Learn DLL"> <img style="width:100px; height:80px;" src="/images/dll_icon.png" alt="Learn DLL"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/drools/index.htm" title="Learn Drools"> <img style="width:100px; height:80px;" src="/images/drools_icon.png" alt="Learn Drools"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/elasticsearch/index.htm" title="Learn Elastic Search"> <img style="width:100px; height:80px;" src="/images/elasticsearch_icon.png" alt="Learn Elastic Search"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/gnu_debugger/index.htm" title="Learn GDB Debugger"> <img style="width:100px; height:80px;" src="/images/gnu_debugger_icon.png" alt="Learn GDB Debugger"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/gradle/index.htm" title="Learn Gradle"> <img style="width:100px; height:80px;" src="/images/gradle_icon.png" alt="Learn Gradle"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/ifsccode/index.htm" title="Get IFSC Code"> <img style="width:100px; height:80px;" src="/images/ifsccode_icon.png" alt="Get IFSC Code"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/itil/index.htm" title="Learn ITIL"> <img style="width:100px; height:80px;" src="/images/itil_icon.png" alt="Learn ITIL"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/itext/index.htm" title="Learn  iText"> <img style="width:100px; height:80px;" src="/images/itext_icon.png" alt="Learn  iText"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/openshift/index.htm" title="OpenShift"> <img style="width:100px; height:80px;" src="/images/openshift_icon.png" alt="OpenShift"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/pincode/index.htm" title="Pincode"> <img style="width:100px; height:80px;" src="/images/pincode_icon.png" alt="Pincode"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/jboss_fuse/index.htm" title="Learn Jboss Fuse"> <img style="width:100px; height:80px;" src="/images/jboss_fuse_icon.png" alt="Learn Jboss Fuse"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/radius/index.htm" title="Learn RADIUS"> <img style="width:100px; height:80px;" src="/images/radius_icon.png" alt="Learn RADIUS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/rss/index.htm" title="Learn RSS"> <img style="width:100px; height:80px;" src="/images/rss_icon.png" alt="Learn RSS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/salesforce/index.htm" title="Learn Salesforce"> <img style="width:100px; height:80px;" src="/images/salesforce_icon.png" alt="Learn Salesforce"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/tex_commands/index.htm" title="Learn Tex Commands"> <img style="width:100px; height:80px;" src="/images/tex_commands_icon.png" alt="Learn Tex Commands"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/tweetdeck/index.htm" title="Learn TweetDeck"> <img style="width:100px; height:80px;" src="/images/tweetdeck_icon.png" alt="Learn TweetDeck"> </a>
+     </div> 
+    </div> 
+    <h1 class="thick-heading">SELECTED READING</h1> 
+    <div class="selected-reading-boxes"> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/developers_best_practices/index.htm" title="Developer's Best Practices"> <img src="/images/developers-best-practices-icon.png" class="big-icon" alt="Developer's Best Practices"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/effective_resume_writing.htm" title="Effective Resume Writing"> <img src="/images/effective-resume-writing-icon.png" class="big-icon" alt="Effective Resume Writing"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/computer_glossary.htm" title="Computer Glossary"> <img src="/images/computer-glossary-icon.png" class="big-icon" alt="Computer Glossary"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/computer_whoiswho.htm" title="Who is Who in Computer"> <img src="/images/who-is-who-icon.png" class="big-icon" alt="Who is Who in Computer"> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <br> 
+  <footer class="inner"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="footer-ribon"> 
+      <span>Extras</span> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Mobile First</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><a class="iphone" href="https://itunes.apple.com/us/app/tutorials-point/id914891263?ls=1&amp;mt=8" target="_blank" rel="nofollow"><img alt="tutorialspoint iPhone App" src="/images/apple_store.jpg" class="mobile-apps"></a></li> 
+       <li><a class="android" href="https://play.google.com/store/apps/details?id=com.tutorialspoint.onlineviewer" target="_blank" rel="nofollow"><img alt="tutorialspoint Android app" src="/images/google_play.jpg" class="mobile-apps"></a></li> 
+       <li><a class="microsoft" href="http://www.windowsphone.com/s?appid=91249671-7184-4ad6-8a5f-d11847946b09" target="_blank" rel="nofollow"><img alt="tutorialspoint Windows app" src="/images/windows_store.jpg" class="mobile-apps"></a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>About us</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/index.htm">Company</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_team.htm">Our Team</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_careers.htm">Careers</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_privacy.htm">Privacy Policy</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_terms_of_use.htm">Terms of use</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Extra Links</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="icon icon-caret-right"></i> <a href="articles">Articles</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="online_dev_tools.htm">Dev Tools</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="free_web_graphics.htm">Free Graphics</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="online_file_conversion.htm">File Conversion</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="shared-tutorials.php">Shared Tutorials</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="https://www.tutorialspoint.com/netmeeting.php">NetMeeting</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="https://www.tutorialspoint.com/free_online_whiteboard.htm">Whiteboard</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="contact-details"> 
+       <h4>Contact Us</h4> 
+       <ul class="contact"> 
+        <li><p><i class="icon icon-map-marker"></i> <strong>Address:</strong> 3rd Floor, Jyoti Celestia, Madhapur, Hyderabad, Telangana 500081</p></li> 
+        <li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="about/contact_us.htm">Click Here</a></p></li> 
+        <li><p><i class="icon icon-dribbble"></i> <strong>Website:</strong> <a href="http://www.tutorialspoint.com">www.tutorialspoint.com</a></p></li> 
+       </ul> 
+      </div> 
+      <div class="social-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="http://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="http://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div>  
+  </footer> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/menu-style-min.css?v=1"> 
+  <script type="text/javascript" src="/theme/js/custom-min.js"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.greyout').click(function(){
+   $('.wrapLoader').show();
+});
+</script>   
+ </body>
+</html>

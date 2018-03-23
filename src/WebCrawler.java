@@ -21,74 +21,23 @@ public class WebCrawler {
   {
 
 
-//      String html = "<html><head><title>First parse</title></head>"
-//              + "<body><p>Parsed HTML into a doc.</p></body></html>";
-//
-//      Document doc = Jsoup.parse(html);
-//
-//      try {
-//          Document doc2=Jsoup.connect("https://www.searchmetrics.com/").get();
-//
-//          System.out.println(doc2);
-//          System.out.println(UUID.nameUUIDFromBytes(new String("https://www.searchmetrics.com/robots.txt").getBytes()));
-//          System.out.println(UUID.nameUUIDFromBytes(new String("https://www.searchmetrics.com/robots.txt").getBytes()));
-//          Elements link=doc2.getElementsByTag("a");
-//          for(Element e:link)
-//          { String fullUrl=e.baseUri();
-//            String link2=  e.attr("href").toString();
-//            System.out.println(link2);
-//            System.out.println(e.text());
-//            System.out.println(fullUrl);
-//            System.out.println();
-//          }
-//      } catch (IOException e) {
-//          e.printStackTrace();
-//      }
-//
-//      try {
-//          URL myUrl;
-//          RobotsFileReader rf;
-//          myUrl = new URL("https://www.searchmetrics.com/robots.txt");
-//          HttpURLConnection urlc= (HttpURLConnection)myUrl.openConnection();
-//          urlc.setRequestMethod("HEAD");
-//          urlc.connect();
-//          if(urlc.getResponseCode()==HttpURLConnection.HTTP_OK) {
-//              rf = new RobotsFileReader(myUrl);
-//
-//
-//          }
-//          myUrl = new URL("https://www.searchmetrics.com");
-//          HttpURLConnection urlc2= (HttpURLConnection)myUrl.openConnection();
-//         String d= LinkParser.getDocumentType(urlc);
-//
-//         System.out.println(d);
-//
-//
-//
-////          String linktext=myUrl.toString();
-////          Document doc3=Jsoup.connect(linktext).get();
-////          Elements link3=doc3.getElementsByTag("a");
-////          for(Element e:link3)
-////          {
-////              String link4=  e.attr("href").toString();
-////              if(link4.startsWith("/"))
-////              {
-////                  System.out.println(myUrl.getProtocol()+"://"+myUrl.getHost()+link4);
-////              }
-////          }
-//
-//
-//      } catch (Exception e) {
-//          e.printStackTrace();
-//      }
-//
-     // BFS myBFS=new BFS(5,20,"/Users/macbookpro/IdeaProjects/SearchEngine/.idea/WebPages/","/Users/macbookpro/IdeaProjects/SearchEngine/.idea/SeedSet/seedSet.txt");
-     // myBFS.start();
-
-    //  Runtime.getRuntime().addShutdownHook(new CheckPointSaver());
 
       long prevTime=System.currentTimeMillis();
       long prevTime2=prevTime;
+       int maxWebPages=500;
+
+      //Read number of pages from user
+      System.out.println("number of threads ?");
+      BufferedReader bf=new BufferedReader(new InputStreamReader(System.in));
+      Integer num=20;
+      try {
+          String ans=bf.readLine();
+          num=Integer.parseInt(ans);
+      } catch (IOException e) {
+          e.printStackTrace();
+      }
+
+
       //First: Connect to the dataBase
 
       DBManager.connect("localhost",27017,"SearchEngineDB");
@@ -100,7 +49,7 @@ public class WebCrawler {
 
 
       CommanderThread commanderThread=null;
-      commanderThread = new CommanderThread(5000, 30, "/Users/macbookpro/IdeaProjects/SearchEngine/.idea/WebPages/", "/Users/macbookpro/IdeaProjects/SearchEngine/.idea/SeedSet/seedSet.txt");
+      commanderThread = new CommanderThread(maxWebPages, num, System.getProperty("user.dir")+"/.idea/WebPages/", System.getProperty("user.dir")+"/.idea/SeedSet/seedSet.txt");
 
       //start Timer and backup every two minutes
 //      Timer timer=new Timer();
@@ -120,26 +69,29 @@ public class WebCrawler {
               e.printStackTrace();
           }
           System.out.println("Crawling started");
+          DBManager.updateCrawlerState("started");
 
       }
       commanderThread.start();
 
-      while(Resources.getCount()<5000)
+      while(Resources.getCount()<maxWebPages)
       {
           long curTime=System.currentTimeMillis();
-          if(curTime-prevTime>=20*1000) {
+          if(curTime-prevTime>=30*1000) {
               prevTime=curTime;
               serializeCrawler(commanderThread);
           }
-         if(curTime-prevTime2>=360000)
-          {
-              prevTime2=curTime;
-              DBManager.AddFilesToDB();
-          }
+//         if(curTime-prevTime2>=360000)
+//          {
+//              prevTime2=curTime;
+//              DBManager.AddFilesToDB();
+//          }
       }
 
-      DBManager.AddFilesToDB();
-      DBManager.updateInlinks();
+     // DBManager.AddFilesToDB();
+      System.out.println("up inlinks");
+      DBManager.updateInLinks2();
+      DBManager.updateCrawlerState("finished");
       try {
           // commanderThread.join();
           //Wait until commander thread terminates and then delete backup.txt

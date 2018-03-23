@@ -1,0 +1,767 @@
+https://www.tutorialspoint.com/articles/index.php
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head profile="http://gmpg.org/xfn/11"> 
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+  <title></title> 
+  <meta name="description" content=""> 
+  <meta name="Keywords" content="Short, articles, tutorials, latest, technologies, simple, easy, steps, specialized, Mobile Computing, Cloud Computing, Open Source, Linux, Microsoft, General IT, Computer Hardware."> 
+  <link rel="stylesheet" type="text/css" href="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/style.css" media="screen"> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #316441 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #316441 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #316441 !important;}
+.submenu-item{ border-bottom: 2px solid #316441 !important; border-top: 2px solid #316441 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#316441; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div class="container"> 
+    <!-- PRINTING STARTS HERE --> 
+    <div class="row"> 
+     <div class="content"> 
+      <div class="col-md-7 middle-col"> 
+       <h1>Short Articles</h1> 
+       <div class="center"> 
+        <small>The shortest articles on the hottest topics</small> 
+       </div> 
+       <div class="clearer"></div> 
+       <hr> 
+       <script type="text/javascript"><!--
+google_ad_client = "pub-7133395778201029";
+google_ad_width = 580;
+google_ad_height = 400;
+google_ad_format = "580x400_as";
+google_ad_type = "image";
+google_ad_channel ="";
+//--></script> 
+       <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js">
+</script> 
+       <hr> 
+       <div class="post"> 
+        <div id="post-26509" class="postbox"> 
+         <div class="post-thumb"> 
+          <a href="https://www.tutorialspoint.com/articles/red-hat-updates-openshift-container-platform-with-new-service-catalog" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=wp-content/themes/bigfoot/images/image-pending.gif&amp;h=200&amp;w=200&amp;zc=1" alt="Red Hat Updates OpenShift Container Platform with New Service Catalog"></a> 
+         </div> 
+         <!--end .post-thumb--> 
+         <h2><a href="https://www.tutorialspoint.com/articles/red-hat-updates-openshift-container-platform-with-new-service-catalog" rel="bookmark" title="Permanent Link to Red Hat Updates OpenShift Container Platform with New Service Catalog">Red Hat Updates OpenShift Container Platform with New Service Catalog</a></h2> 
+         <div class="post-date"> 
+          <em>Posted by <a href="https://www.tutorialspoint.com/articles/author/admin" title="Posts by admin" rel="author">admin</a> on September 22, 2017</em> 
+         </div> 
+         <!--end .post-date--> 
+         <div class="post-exerpt">
+          Red Hat, an American multinational software company, recently released an update of its OpenShift container platform on August 9. This update provides users with capacities which are taken from open-source... 
+         </div> 
+         <!--end .post-excerpt--> 
+         <div class="clear"></div> 
+        </div> 
+        <!--end .postbox--> 
+       </div> 
+       <!--end .post--> 
+       <div class="post"> 
+        <div id="post-26271" class="postbox"> 
+         <div class="post-thumb"> 
+          <a href="https://www.tutorialspoint.com/articles/what-is-the-foreseeable-future-of-wearable-devices" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2017/08/wearables-AR2.png	&amp;h=200&amp;w=200&amp;zc=1" alt="What is the foreseeable future of WEARABLE DEVICES?"></a> 
+         </div> 
+         <!--end .post-thumb--> 
+         <h2><a href="https://www.tutorialspoint.com/articles/what-is-the-foreseeable-future-of-wearable-devices" rel="bookmark" title="Permanent Link to What is the foreseeable future of WEARABLE DEVICES?">What is the foreseeable future of WEARABLE DEVICES?</a></h2> 
+         <div class="post-date"> 
+          <em>Posted by <a href="https://www.tutorialspoint.com/articles/author/payal" title="Posts by Payal Bhatnagar" rel="author">Payal Bhatnagar</a> on September 18, 2017</em> 
+         </div> 
+         <!--end .post-date--> 
+         <div class="post-exerpt">
+          One of the most electrifying fields in consumer technology is ‘wearable devices.’ Indeed 2014 was dubbed as the ‘Year of Wearable Technology;’ and by 2018, the technology is expected... 
+         </div> 
+         <!--end .post-excerpt--> 
+         <div class="clear"></div> 
+        </div> 
+        <!--end .postbox--> 
+       </div> 
+       <!--end .post--> 
+       <div class="post"> 
+        <div id="post-26287" class="postbox"> 
+         <div class="post-thumb"> 
+          <a href="https://www.tutorialspoint.com/articles/ways-to-speed-up-your-android-phone" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=wp-content/themes/bigfoot/images/image-pending.gif&amp;h=200&amp;w=200&amp;zc=1" alt="Ways To Speed Up Your Android Phone"></a> 
+         </div> 
+         <!--end .post-thumb--> 
+         <h2><a href="https://www.tutorialspoint.com/articles/ways-to-speed-up-your-android-phone" rel="bookmark" title="Permanent Link to Ways To Speed Up Your Android Phone">Ways To Speed Up Your Android Phone</a></h2> 
+         <div class="post-date"> 
+          <em>Posted by <a href="https://www.tutorialspoint.com/articles/author/kalpana-gaur" title="Posts by Kalpana Gaur" rel="author">Kalpana Gaur</a> on September 18, 2017</em> 
+         </div> 
+         <!--end .post-date--> 
+         <div class="post-exerpt">
+          No one likes a slow running smartphone, but over the time you may have noticed that your once-speedy Android device has slowed down considerably. There are plenty of tips and tricks to speed up your Android... 
+         </div> 
+         <!--end .post-excerpt--> 
+         <div class="clear"></div> 
+        </div> 
+        <!--end .postbox--> 
+       </div> 
+       <!--end .post--> 
+       <div class="post"> 
+        <div id="post-26368" class="postbox"> 
+         <div class="post-thumb"> 
+          <a href="https://www.tutorialspoint.com/articles/ransomware-locky-a-new-threat-decoded-and-how-to-protect-yourself" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2017/09/locky1-1.png	&amp;h=200&amp;w=200&amp;zc=1" alt="‘Ransomware Locky’ a new threat decoded and How to Protect Yourself."></a> 
+         </div> 
+         <!--end .post-thumb--> 
+         <h2><a href="https://www.tutorialspoint.com/articles/ransomware-locky-a-new-threat-decoded-and-how-to-protect-yourself" rel="bookmark" title="Permanent Link to ‘Ransomware Locky’ a new threat decoded and How to Protect Yourself.">‘Ransomware Locky’ a new threat decoded and How to Protect Yourself.</a></h2> 
+         <div class="post-date"> 
+          <em>Posted by <a href="https://www.tutorialspoint.com/articles/author/ckadarla" title="Posts by Chandra Prakash Kadarla" rel="author">Chandra Prakash Kadarla</a> on September 18, 2017</em> 
+         </div> 
+         <!--end .post-date--> 
+         <div class="post-exerpt">
+          A Government Organization CERT (Computer Emergency Response Team) has issued a high priority alert that a new ransomware Locky has spread like ransomware WannaCry which has compromised a huge number of... 
+         </div> 
+         <!--end .post-excerpt--> 
+         <div class="clear"></div> 
+        </div> 
+        <!--end .postbox--> 
+       </div> 
+       <!--end .post--> 
+       <div class="post"> 
+        <div id="post-25799" class="postbox"> 
+         <div class="post-thumb"> 
+          <a href="https://www.tutorialspoint.com/articles/act-the-under-graduate-college-admissions-test-by-the-act-inc" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2017/07/ACTTest.png	&amp;h=200&amp;w=200&amp;zc=1" alt="ACT – The Under-Graduate College Admissions Test by the ACT Inc."></a> 
+         </div> 
+         <!--end .post-thumb--> 
+         <h2><a href="https://www.tutorialspoint.com/articles/act-the-under-graduate-college-admissions-test-by-the-act-inc" rel="bookmark" title="Permanent Link to ACT – The Under-Graduate College Admissions Test by the ACT Inc.">ACT – The Under-Graduate College Admissions Test by the ACT Inc.</a></h2> 
+         <div class="post-date"> 
+          <em>Posted by <a href="https://www.tutorialspoint.com/articles/author/rajasuman" title="Posts by Raja Suman" rel="author">Raja Suman</a> on July 31, 2017</em> 
+         </div> 
+         <!--end .post-date--> 
+         <div class="post-exerpt">
+          The ACT (American College Testing) is a standardized test, most popular as an admissions test for Undergraduate Programs in U.S colleges. The ACT Inc., the owner of the test made the first paper in the... 
+         </div> 
+         <!--end .post-excerpt--> 
+         <div class="clear"></div> 
+        </div> 
+        <!--end .postbox--> 
+       </div> 
+       <!--end .post--> 
+       <div class="post"> 
+        <div id="post-25390" class="postbox"> 
+         <div class="post-thumb"> 
+          <a href="https://www.tutorialspoint.com/articles/bbc-is-reinventing-iplayer-to-contend-with-netflix-and-amazon" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2017/07/music-2471122_640.jpg	&amp;h=200&amp;w=200&amp;zc=1" alt="BBC is Reinventing iPlayer to contend With Netflix and Amazon"></a> 
+         </div> 
+         <!--end .post-thumb--> 
+         <h2><a href="https://www.tutorialspoint.com/articles/bbc-is-reinventing-iplayer-to-contend-with-netflix-and-amazon" rel="bookmark" title="Permanent Link to BBC is Reinventing iPlayer to contend With Netflix and Amazon">BBC is Reinventing iPlayer to contend With Netflix and Amazon</a></h2> 
+         <div class="post-date"> 
+          <em>Posted by <a href="https://www.tutorialspoint.com/articles/author/kmohanty" title="Posts by Kishor Mohanty" rel="author">Kishor Mohanty</a> on July 27, 2017</em> 
+         </div> 
+         <!--end .post-date--> 
+         <div class="post-exerpt">
+          In today’s fast paced life, we hardly get enough time to relax at our home to watch our favorite shows on television. Forget about the weekdays, even many of us are occupied on weekends too as there... 
+         </div> 
+         <!--end .post-excerpt--> 
+         <div class="clear"></div> 
+        </div> 
+        <!--end .postbox--> 
+       </div> 
+       <!--end .post--> 
+       <div class="post"> 
+        <div id="post-25752" class="postbox"> 
+         <div class="post-thumb"> 
+          <a href="https://www.tutorialspoint.com/articles/how-to-mail-a-business-contact-for-the-first-time" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2017/07/send-multiple-emails.jpg	&amp;h=200&amp;w=200&amp;zc=1" alt="How to Mail a Business Contact for the First Time?"></a> 
+         </div> 
+         <!--end .post-thumb--> 
+         <h2><a href="https://www.tutorialspoint.com/articles/how-to-mail-a-business-contact-for-the-first-time" rel="bookmark" title="Permanent Link to How to Mail a Business Contact for the First Time?">How to Mail a Business Contact for the First Time?</a></h2> 
+         <div class="post-date"> 
+          <em>Posted by <a href="https://www.tutorialspoint.com/articles/author/praveen_rajendran" title="Posts by Praveen Kumar Rajendran" rel="author">Praveen Kumar Rajendran</a> on July 27, 2017</em> 
+         </div> 
+         <!--end .post-date--> 
+         <div class="post-exerpt">
+          Mail has become one of the mainstream communication among the people. As it is faster than any medium of communication, it has become mandatory medium of communication, but still there are many people... 
+         </div> 
+         <!--end .post-excerpt--> 
+         <div class="clear"></div> 
+        </div> 
+        <!--end .postbox--> 
+       </div> 
+       <!--end .post--> 
+       <div class="post"> 
+        <div id="post-25724" class="postbox"> 
+         <div class="post-thumb"> 
+          <a href="https://www.tutorialspoint.com/articles/sat-the-undergraduate-college-admissions-test-by-the-college-board" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2017/07/Capture1.jpg	&amp;h=200&amp;w=200&amp;zc=1" alt="SAT – The Undergraduate College Admissions Test by the College Board"></a> 
+         </div> 
+         <!--end .post-thumb--> 
+         <h2><a href="https://www.tutorialspoint.com/articles/sat-the-undergraduate-college-admissions-test-by-the-college-board" rel="bookmark" title="Permanent Link to SAT – The Undergraduate College Admissions Test by the College Board">SAT – The Undergraduate College Admissions Test by the College Board</a></h2> 
+         <div class="post-date"> 
+          <em>Posted by <a href="https://www.tutorialspoint.com/articles/author/rajasuman" title="Posts by Raja Suman" rel="author">Raja Suman</a> on July 26, 2017</em> 
+         </div> 
+         <!--end .post-date--> 
+         <div class="post-exerpt">
+          The SAT is nearly a century old standardized test. The score on the test is one of the important admission criteria for colleges in the United States. A private, not-for-profit corporation, the College... 
+         </div> 
+         <!--end .post-excerpt--> 
+         <div class="clear"></div> 
+        </div> 
+        <!--end .postbox--> 
+       </div> 
+       <!--end .post--> 
+       <div class="post"> 
+        <div id="post-25652" class="postbox"> 
+         <div class="post-thumb"> 
+          <a href="https://www.tutorialspoint.com/articles/why-training-doesnt-help-your-organization" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2017/07/87639190-200x200-2.jpg	&amp;h=200&amp;w=200&amp;zc=1" alt="Why Training Doesn’t Help Your Organization!"></a> 
+         </div> 
+         <!--end .post-thumb--> 
+         <h2><a href="https://www.tutorialspoint.com/articles/why-training-doesnt-help-your-organization" rel="bookmark" title="Permanent Link to Why Training Doesn’t Help Your Organization!">Why Training Doesn’t Help Your Organization!</a></h2> 
+         <div class="post-date"> 
+          <em>Posted by <a href="https://www.tutorialspoint.com/articles/author/rgoel" title="Posts by Richa Goel" rel="author">Richa Goel</a> on July 25, 2017</em> 
+         </div> 
+         <!--end .post-date--> 
+         <div class="post-exerpt">
+          The first day of any employee, be a fresher or an experienced person, will always start off with a training session.&nbsp; The day long training completes with numerous amount of information, but does so much... 
+         </div> 
+         <!--end .post-excerpt--> 
+         <div class="clear"></div> 
+        </div> 
+        <!--end .postbox--> 
+       </div> 
+       <!--end .post--> 
+       <div class="post"> 
+        <div id="post-25685" class="postbox"> 
+         <div class="post-thumb"> 
+          <a href="https://www.tutorialspoint.com/articles/how-to-clear-pmp-examinations-in-just-four-weeks" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2017/07/62edca4277c7eafa215511b9a3532a05.jpg	&amp;h=200&amp;w=200&amp;zc=1" alt="How to Clear PMP Examinations in Just Four Weeks!"></a> 
+         </div> 
+         <!--end .post-thumb--> 
+         <h2><a href="https://www.tutorialspoint.com/articles/how-to-clear-pmp-examinations-in-just-four-weeks" rel="bookmark" title="Permanent Link to How to Clear PMP Examinations in Just Four Weeks!">How to Clear PMP Examinations in Just Four Weeks!</a></h2> 
+         <div class="post-date"> 
+          <em>Posted by <a href="https://www.tutorialspoint.com/articles/author/rajasuman" title="Posts by Raja Suman" rel="author">Raja Suman</a> on July 25, 2017</em> 
+         </div> 
+         <!--end .post-date--> 
+         <div class="post-exerpt">
+          Let’s discuss the tips for clearing the PMP Exam within 4 weeks. These tips are applicable for working professionals who take the Classroom 35-Hour Contact program and who cannot afford to apply for... 
+         </div> 
+         <!--end .post-excerpt--> 
+         <div class="clear"></div> 
+        </div> 
+        <!--end .postbox--> 
+       </div> 
+       <!--end .post--> 
+       <div class="clear"></div> 
+       <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <ins class="adsbygoogle" style="display:block" data-ad-format="fluid" data-ad-layout="image-side" data-ad-client="ca-pub-7133395778201029" data-ad-slot="5085372120"></ins> 
+       <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script> 
+       <div class="pagination"> 
+        <div class="left"></div> 
+        <div class="right">
+         <a href="https://www.tutorialspoint.com/articles/page/2">Next »</a>
+        </div>
+        <div class="clear"></div> 
+       </div> 
+       <!--end .pagination--> 
+       <div class="bottomgooglead"> 
+        <div class="bottomadtag">
+         Advertisements
+        </div> 
+        <!-- /60931893/tutorial_bottom_leader_board --> 
+        <div id="div-gpt-ad-1510138782906-3"> 
+         <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-3'); });
+</script> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="col-md-2"> 
+      <ul class="nav nav-list primary push-bottom left-menu special"> 
+       <li class="heading" style="font-size: 153%;; text-align: center;width: 267px;position: relative;left: -5px;">Popular Articles</li> 
+      </ul> 
+      <div class="widget" id="infinite_scroll"> 
+       <div id="tabber"> 
+        <div class="inside"> 
+         <div id="popular-posts" style="display: block;"> 
+          <ul> 
+           <li> <a href="https://www.tutorialspoint.com/articles/syncronization-in-threads-using-posix-thread" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/10/images.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Syncronization in threads using POSIX thread"></a> 
+            <div class="info"> 
+             <a title="Syncronization in threads using POSIX thread" href="https://www.tutorialspoint.com/articles/syncronization-in-threads-using-posix-thread">Syncronization in threads using POSIX thread</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/syncronization-in-threads-using-posix-thread#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/run-your-first-jsp-program-in-apache-tomcat-server" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/10/apache2.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Run your first JSP program in Apache Tomcat Server"></a> 
+            <div class="info"> 
+             <a title="Run your first JSP program in Apache Tomcat Server" href="https://www.tutorialspoint.com/articles/run-your-first-jsp-program-in-apache-tomcat-server">Run your first JSP program in Apache Tomcat Server</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/run-your-first-jsp-program-in-apache-tomcat-server#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/five-great-mobile-technologies-which-you-should-know-about" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/10/latest_mobile_technologies_and_their_advantages.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Five Great Mobile Technologies Which You Should Know About"></a> 
+            <div class="info"> 
+             <a title="Five Great Mobile Technologies Which You Should Know About" href="https://www.tutorialspoint.com/articles/five-great-mobile-technologies-which-you-should-know-about">Five Great Mobile Technologies Which You Should Know About</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/five-great-mobile-technologies-which-you-should-know-about#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/samsung-galaxy-note-ii-can-just-wow-you" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/10/249471_467684249938254_1272231660_n.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Samsung Galaxy Note ii Can Just Wow You"></a> 
+            <div class="info"> 
+             <a title="Samsung Galaxy Note ii Can Just Wow You" href="https://www.tutorialspoint.com/articles/samsung-galaxy-note-ii-can-just-wow-you">Samsung Galaxy Note ii Can Just Wow You</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/samsung-galaxy-note-ii-can-just-wow-you#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/what-does-ios-jailbreaking-mean" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/apple-iphone4s.png	&amp;h=46&amp;w=46&amp;zc=1" alt="What Does IOS Jailbreaking Mean?"></a> 
+            <div class="info"> 
+             <a title="What Does IOS Jailbreaking Mean?" href="https://www.tutorialspoint.com/articles/what-does-ios-jailbreaking-mean">What Does IOS Jailbreaking Mean?</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/what-does-ios-jailbreaking-mean#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/retina-display-and-its-advancement-in-mobile-world" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/nextgenretinamacbookpro.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Retina Display and Its Advancement in Mobile World"></a> 
+            <div class="info"> 
+             <a title="Retina Display and Its Advancement in Mobile World" href="https://www.tutorialspoint.com/articles/retina-display-and-its-advancement-in-mobile-world">Retina Display and Its Advancement in Mobile World</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/retina-display-and-its-advancement-in-mobile-world#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/ipad-mini-what-it-has-in-store" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2015/07/la-fi-tn-ipad-mini-rumor-roundup-photos-201210-006-copy.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="iPad Mini — What it Has in Store"></a> 
+            <div class="info"> 
+             <a title="iPad Mini — What it Has in Store" href="https://www.tutorialspoint.com/articles/ipad-mini-what-it-has-in-store">iPad Mini — What it Has in Store</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/ipad-mini-what-it-has-in-store#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/cracked-is-the-iphone-5-jailbroken" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2015/07/IPHONE5-JAILBROKEN-JAILBREAK.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Cracked!  Is the iPhone 5 Jailbroken?"></a> 
+            <div class="info"> 
+             <a title="Cracked!  Is the iPhone 5 Jailbroken?" href="https://www.tutorialspoint.com/articles/cracked-is-the-iphone-5-jailbroken">Cracked! Is the iPhone 5 Jailbroken?</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/cracked-is-the-iphone-5-jailbroken#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/what-is-the-third-generation-ipad" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/refurbished-third-generation-ipad.jpeg	&amp;h=46&amp;w=46&amp;zc=1" alt="What is the Third Generation iPad?"></a> 
+            <div class="info"> 
+             <a title="What is the Third Generation iPad?" href="https://www.tutorialspoint.com/articles/what-is-the-third-generation-ipad">What is the Third Generation iPad?</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/what-is-the-third-generation-ipad#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/how-the-maps-on-mobile-devices-help-you-find-your-destination-easily" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/maps-one.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="How the Maps on Mobile Devices Help You Find Your Destination Easily"></a> 
+            <div class="info"> 
+             <a title="How the Maps on Mobile Devices Help You Find Your Destination Easily" href="https://www.tutorialspoint.com/articles/how-the-maps-on-mobile-devices-help-you-find-your-destination-easily">How the Maps on Mobile Devices Help You Find Your Destination Easily</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/how-the-maps-on-mobile-devices-help-you-find-your-destination-easily#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/the-latest-trends-in-mobile-technology" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/expected_new_trends_at_mobile_world_congress_2012_ynie2_530x353.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="The Latest Trends in Mobile Technology"></a> 
+            <div class="info"> 
+             <a title="The Latest Trends in Mobile Technology" href="https://www.tutorialspoint.com/articles/the-latest-trends-in-mobile-technology">The Latest Trends in Mobile Technology</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/the-latest-trends-in-mobile-technology#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/what-users-have-to-say-about-mobile-broadband" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/huawei-mobile.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="What Users Have to Say About Mobile Broadband"></a> 
+            <div class="info"> 
+             <a title="What Users Have to Say About Mobile Broadband" href="https://www.tutorialspoint.com/articles/what-users-have-to-say-about-mobile-broadband">What Users Have to Say About Mobile Broadband</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/what-users-have-to-say-about-mobile-broadband#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/the-top-five-free-mobile-games-exclusively-for-you-2" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/89eadb9bb5aed23921ddd8d85538b67e525537c8.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="The Top Five Free Mobile Games Exclusively for You"></a> 
+            <div class="info"> 
+             <a title="The Top Five Free Mobile Games Exclusively for You" href="https://www.tutorialspoint.com/articles/the-top-five-free-mobile-games-exclusively-for-you-2">The Top Five Free Mobile Games Exclusively for You</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/the-top-five-free-mobile-games-exclusively-for-you-2#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/how-samsung-is-going-to-use-windows-8-mobile-devices" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/samsung-ativ-smart-pc.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="How Samsung is Going to Use Windows 8 Mobile Devices"></a> 
+            <div class="info"> 
+             <a title="How Samsung is Going to Use Windows 8 Mobile Devices" href="https://www.tutorialspoint.com/articles/how-samsung-is-going-to-use-windows-8-mobile-devices">How Samsung is Going to Use Windows 8 Mobile Devices</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/how-samsung-is-going-to-use-windows-8-mobile-devices#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/the-five-best-mobile-apps-which-you-can-download-for-free" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/business-insider-app-100-2012.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="The Five Best Mobile Apps Which You Can Download for Free"></a> 
+            <div class="info"> 
+             <a title="The Five Best Mobile Apps Which You Can Download for Free" href="https://www.tutorialspoint.com/articles/the-five-best-mobile-apps-which-you-can-download-for-free">The Five Best Mobile Apps Which You Can Download for Free</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/the-five-best-mobile-apps-which-you-can-download-for-free#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/can-android-technology-take-over-other-peers" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/mobile-android-technology-information.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Can Android Technology Take Over Other Peers?"></a> 
+            <div class="info"> 
+             <a title="Can Android Technology Take Over Other Peers?" href="https://www.tutorialspoint.com/articles/can-android-technology-take-over-other-peers">Can Android Technology Take Over Other Peers?</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/can-android-technology-take-over-other-peers#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/android-advancement-what-is-jelly-bean" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/jellybean1.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Android Advancement — What is Jelly Bean?"></a> 
+            <div class="info"> 
+             <a title="Android Advancement — What is Jelly Bean?" href="https://www.tutorialspoint.com/articles/android-advancement-what-is-jelly-bean">Android Advancement — What is Jelly Bean?</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/android-advancement-what-is-jelly-bean#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/how-to-get-started-with-twitter-for-android" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/twitter-apps-swift-twitter-android-app.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="How to Get Started With Twitter for Android"></a> 
+            <div class="info"> 
+             <a title="How to Get Started With Twitter for Android" href="https://www.tutorialspoint.com/articles/how-to-get-started-with-twitter-for-android">How to Get Started With Twitter for Android</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/how-to-get-started-with-twitter-for-android#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/how-to-update-your-android-version-on-mobile-phone" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/newversion.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="How to Update Your Android Version on Mobile Phone"></a> 
+            <div class="info"> 
+             <a title="How to Update Your Android Version on Mobile Phone" href="https://www.tutorialspoint.com/articles/how-to-update-your-android-version-on-mobile-phone">How to Update Your Android Version on Mobile Phone</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/how-to-update-your-android-version-on-mobile-phone#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/ipad-mini-vs-microsoft-surface-let-the-battle-begin" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/tablet-pile-3650_610x407.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="iPad Mini Vs. Microsoft Surface, Let the Battle Begin"></a> 
+            <div class="info"> 
+             <a title="iPad Mini Vs. Microsoft Surface, Let the Battle Begin" href="https://www.tutorialspoint.com/articles/ipad-mini-vs-microsoft-surface-let-the-battle-begin">iPad Mini Vs. Microsoft Surface, Let the Battle Begin</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/ipad-mini-vs-microsoft-surface-let-the-battle-begin#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/new-challenges-faced-by-apple-after-iphone-5" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/7378963508_e8a458a51b_z-1.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="New Challenges Faced by Apple After iPhone 5"></a> 
+            <div class="info"> 
+             <a title="New Challenges Faced by Apple After iPhone 5" href="https://www.tutorialspoint.com/articles/new-challenges-faced-by-apple-after-iphone-5">New Challenges Faced by Apple After iPhone 5</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/new-challenges-faced-by-apple-after-iphone-5#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/what-are-blackberry-advice-centers-for-developers" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/blackberry-jam-2012-rim-2.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="What are BlackBerry Advice Centers for Developers?"></a> 
+            <div class="info"> 
+             <a title="What are BlackBerry Advice Centers for Developers?" href="https://www.tutorialspoint.com/articles/what-are-blackberry-advice-centers-for-developers">What are BlackBerry Advice Centers for Developers?</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/what-are-blackberry-advice-centers-for-developers#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/iphone-5-leaves-behind-other-smartphones-by-miles" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/10/7400999170_d634dfd597.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="iPhone 5 Leaves Behind Other Smartphones by Miles"></a> 
+            <div class="info"> 
+             <a title="iPhone 5 Leaves Behind Other Smartphones by Miles" href="https://www.tutorialspoint.com/articles/iphone-5-leaves-behind-other-smartphones-by-miles">iPhone 5 Leaves Behind Other Smartphones by Miles</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/iphone-5-leaves-behind-other-smartphones-by-miles#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/how-mobile-technologies-have-helped-the-healthcare-industry" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/mobile-diabetes.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="How Mobile Technologies Have Helped the Healthcare Industry"></a> 
+            <div class="info"> 
+             <a title="How Mobile Technologies Have Helped the Healthcare Industry" href="https://www.tutorialspoint.com/articles/how-mobile-technologies-have-helped-the-healthcare-industry">How Mobile Technologies Have Helped the Healthcare Industry</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/how-mobile-technologies-have-helped-the-healthcare-industry#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/mobile-phone-8-surface-tablet" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/Windows-Phone-8-008.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Mobile Phone 8 –Surface Tablet"></a> 
+            <div class="info"> 
+             <a title="Mobile Phone 8 –Surface Tablet" href="https://www.tutorialspoint.com/articles/mobile-phone-8-surface-tablet">Mobile Phone 8 –Surface Tablet</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/mobile-phone-8-surface-tablet#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/can-rim-research-in-motion-survive-in-the-near-future" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/11/bold-touch-2011-05-02.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Can RIM (Research in Motion) Survive in the Near Future?"></a> 
+            <div class="info"> 
+             <a title="Can RIM (Research in Motion) Survive in the Near Future?" href="https://www.tutorialspoint.com/articles/can-rim-research-in-motion-survive-in-the-near-future">Can RIM (Research in Motion) Survive in the Near Future?</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/can-rim-research-in-motion-survive-in-the-near-future#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/windows-8-introduction-to-key-features-2" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/12/Windows-8.jpeg	&amp;h=46&amp;w=46&amp;zc=1" alt="Windows 8: Introduction to Key Features"></a> 
+            <div class="info"> 
+             <a title="Windows 8: Introduction to Key Features" href="https://www.tutorialspoint.com/articles/windows-8-introduction-to-key-features-2">Windows 8: Introduction to Key Features</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/windows-8-introduction-to-key-features-2#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/ninja-hacking-promises-to-defeat-current-security-technologies" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/12/Ninja.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Ninja hacking promises to defeat current security technologies"></a> 
+            <div class="info"> 
+             <a title="Ninja hacking promises to defeat current security technologies" href="https://www.tutorialspoint.com/articles/ninja-hacking-promises-to-defeat-current-security-technologies">Ninja hacking promises to defeat current security technologies</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/ninja-hacking-promises-to-defeat-current-security-technologies#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/what-is-cloud-computing" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/12/futuristic-display-Cloud-computing-touchscreen-interface-2.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="What is Cloud Computing?"></a> 
+            <div class="info"> 
+             <a title="What is Cloud Computing?" href="https://www.tutorialspoint.com/articles/what-is-cloud-computing">What is Cloud Computing?</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/what-is-cloud-computing#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/using-articles-for-marketing-online" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/12/shutterstock_113674411.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Using Articles for Marketing Online"></a> 
+            <div class="info"> 
+             <a title="Using Articles for Marketing Online" href="https://www.tutorialspoint.com/articles/using-articles-for-marketing-online">Using Articles for Marketing Online</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/using-articles-for-marketing-online#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/protecting-your-online-business-from-cyberthreats" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/12/Protecting-your-online-business-from-cyber-theft1.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Protecting your online business from cyberthreats"></a> 
+            <div class="info"> 
+             <a title="Protecting your online business from cyberthreats" href="https://www.tutorialspoint.com/articles/protecting-your-online-business-from-cyberthreats">Protecting your online business from cyberthreats</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/protecting-your-online-business-from-cyberthreats#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/developing-seo-tactics" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/12/SEO-flow-chart-on-a-whiteboard.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Developing SEO Tactics"></a> 
+            <div class="info"> 
+             <a title="Developing SEO Tactics" href="https://www.tutorialspoint.com/articles/developing-seo-tactics">Developing SEO Tactics</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/developing-seo-tactics#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/whats-in-store-for-cloud-computing-in-2013" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/12/Cloud-Computing.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="What’s in Store for Cloud Computing in 2013?"></a> 
+            <div class="info"> 
+             <a title="What’s in Store for Cloud Computing in 2013?" href="https://www.tutorialspoint.com/articles/whats-in-store-for-cloud-computing-in-2013">What’s in Store for Cloud Computing in 2013?</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/whats-in-store-for-cloud-computing-in-2013#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/should-you-upgrade-to-windows-8-find-out-now" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/12/windows8_upgrade_import_261344127203.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Should you upgrade to windows 8? Find out now!"></a> 
+            <div class="info"> 
+             <a title="Should you upgrade to windows 8? Find out now!" href="https://www.tutorialspoint.com/articles/should-you-upgrade-to-windows-8-find-out-now">Should you upgrade to windows 8? Find out now!</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/should-you-upgrade-to-windows-8-find-out-now#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/5-ways-to-keep-your-information-secure-in-the-cloud" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/12/shutterstock_111540815_Information-Secure-in-the-Cloud.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="5 Ways to Keep Your Information Secure in the Cloud"></a> 
+            <div class="info"> 
+             <a title="5 Ways to Keep Your Information Secure in the Cloud" href="https://www.tutorialspoint.com/articles/5-ways-to-keep-your-information-secure-in-the-cloud">5 Ways to Keep Your Information Secure in the Cloud</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/5-ways-to-keep-your-information-secure-in-the-cloud#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/getting-the-highest-level-of-security-in-windows" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/12/shutterstock_2340685security-in-Windows.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Getting the highest level of security in Windows"></a> 
+            <div class="info"> 
+             <a title="Getting the highest level of security in Windows" href="https://www.tutorialspoint.com/articles/getting-the-highest-level-of-security-in-windows">Getting the highest level of security in Windows</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/getting-the-highest-level-of-security-in-windows#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/helpful-hints-for-using-social-media-for-business-marketing" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/12/shutterstock_95135899Social-Media-for-Business-Marketing.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Helpful Hints for Using Social Media for Business Marketing"></a> 
+            <div class="info"> 
+             <a title="Helpful Hints for Using Social Media for Business Marketing" href="https://www.tutorialspoint.com/articles/helpful-hints-for-using-social-media-for-business-marketing">Helpful Hints for Using Social Media for Business Marketing</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/helpful-hints-for-using-social-media-for-business-marketing#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/helpful-tips-to-having-a-fan-tastic-facebook-page" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/12/shutterstock_113008468Facebook.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Helpful Tips to Having a FAN-tastic Facebook Page"></a> 
+            <div class="info"> 
+             <a title="Helpful Tips to Having a FAN-tastic Facebook Page" href="https://www.tutorialspoint.com/articles/helpful-tips-to-having-a-fan-tastic-facebook-page">Helpful Tips to Having a FAN-tastic Facebook Page</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/helpful-tips-to-having-a-fan-tastic-facebook-page#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/introduction-into-file-and-connection-encryption-in-windows" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/12/shutterstock_112844932encryption-in-Windows.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Introduction into file and connection encryption in Windows"></a> 
+            <div class="info"> 
+             <a title="Introduction into file and connection encryption in Windows" href="https://www.tutorialspoint.com/articles/introduction-into-file-and-connection-encryption-in-windows">Introduction into file and connection encryption in Windows</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/introduction-into-file-and-connection-encryption-in-windows#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+           <li> <a href="https://www.tutorialspoint.com/articles/marketing-old-vs-new" rel="bookmark"><img class="thumb" src="https://www.tutorialspoint.com/articles/wp-content/themes/bigfoot/includes/timthumb.php?src=	https://www.tutorialspoint.com/articles/wp-content/uploads/2012/12/shutterstock_72372853-Marketing-vs.-Social-Media-Marketing.jpg	&amp;h=46&amp;w=46&amp;zc=1" alt="Marketing: Old vs. New"></a> 
+            <div class="info"> 
+             <a title="Marketing: Old vs. New" href="https://www.tutorialspoint.com/articles/marketing-old-vs-new">Marketing: Old vs. New</a> 
+             <span class="meta"><a href="https://www.tutorialspoint.com/articles/marketing-old-vs-new#respond" class="comments-link">0 Comment</a></span> 
+            </div> 
+            <!--end .info--> 
+            <div class="clear"></div> </li> 
+          </ul> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <script>
+$(window).load(function() {
+    if( $('.middle-col').height() > $('#infinite_scroll').height()){
+         var ht = $('.middle-col').height() - 44;
+         $('#infinite_scroll').css("height", ht);
+    }
+});
+</script> 
+     </div> 
+     <div class="row"> 
+      <div class="col-md-3" id="rightbar"> 
+       <div class="ysubscribe"> 
+        <script async src="https://apis.google.com/js/platform.js"></script> 
+        <div class="g-ytsubscribe" data-channelid="UCVLbzhxVTiTLiVKeGV7WEBg" data-layout="full" data-count="default"></div> 
+       </div> 
+       <div class="rightgooglead"> 
+        <!-- /60931893/tutorial_right_top --> 
+        <div id="div-gpt-ad-1510138782906-2" style="height:250px; width:300px;"> 
+         <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-2'); });
+</script> 
+        </div> 
+       </div> 
+       <div class="rightgooglead"> 
+        <!-- /60931893/tutorial_right_middle --> 
+        <div id="div-gpt-ad-1510138782906-1"> 
+         <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-1'); });
+</script> 
+        </div> 
+       </div> 
+       <div class="rightgooglead"> 
+        <!-- /60931893/tutorial_right_bottom --> 
+        <div id="div-gpt-ad-1510138782906-0"> 
+         <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-0'); });
+</script> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="footer-copyright"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-1"> 
+      <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+     </div> 
+     <div class="col-md-4 col-sm-12 col-xs-12"> 
+      <nav id="sub-menu"> 
+       <ul> 
+        <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+        <li><a href="/about/faq.htm">FAQ's</a></li> 
+        <li><a href="/about/about_helping.htm">Helping</a></li> 
+        <li><a href="/about/contact_us.htm">Contact</a></li> 
+       </ul> 
+      </nav> 
+     </div> 
+     <div class="col-md-3 col-sm-12 col-xs-12"> 
+      <p>© Copyright 2018. All Rights Reserved.</p> 
+     </div> 
+     <div class="col-md-4 col-sm-12 col-xs-12"> 
+      <div class="news-group"> 
+       <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+       <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+       <div id="newsresponse"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div>  
+  <!-- Libs --> 
+  <script type="text/javascript" src="/theme/js/custom-min.js?v=7"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.pg-icon').click(function(){
+   $('.wrapLoader').show();
+});
+</script>    
+ </body>
+</html>

@@ -82,7 +82,9 @@ public class MyFileManager {
 
             String fileUUID = UUID.nameUUIDFromBytes(url.getBytes()).toString();
             fileName=fileUUID+".txt";
-            //   BufferedWriter writer = new BufferedWriter(new FileWriter(downloadPath + "/"+fileName));
+            BufferedWriter writer = new BufferedWriter(new FileWriter(downloadPath + "/"+fileName));
+            writer.write(url);
+            writer.newLine();
             line="";
             document=Jsoup.connect(url).get();
             fileTitle=document.title().toString();
@@ -103,7 +105,9 @@ public class MyFileManager {
 
             }
             line+=fileHeaders;
-//            writer.close();
+
+            writer.write(document.toString());
+            writer.close();
 
 
         }
@@ -226,10 +230,11 @@ public class MyFileManager {
         } catch (java.security.NoSuchAlgorithmException e) {
         }
     }
-    public FileInfo getFileInfo()
-    { return  new FileInfo(url,fileTitle,fileBody,fileHeaders,simHash,outlinks,myHash);}
+    public FileInfo getFileInfo() {
+        return new FileInfo(url, outlinks, myHash);
+        //  return  new FileInfo(url,fileTitle,fileBody,fileHeaders,simHash,outlinks,myHash);}
 
-
+    }
 
 
 }

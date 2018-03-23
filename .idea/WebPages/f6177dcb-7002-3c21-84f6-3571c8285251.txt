@@ -1,0 +1,430 @@
+https://www.tutorialspoint.com/google_plus/index.htm
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>Google Plus Tutorial</title> 
+  <meta name="description" content="Google Plus Tutorial for Beginners - Learn Google Plus in simple and easy steps starting from basic to advanced concepts with examples including Introduction, Business Page Setting, Creating a New Account, Navigating Through Google Plus, Adding Business Details, Uploading Profile Picture, Adding a Cover Picture, Circles, Communities, Hangouts, Events, Uploading a Post, Editing a Post, Deleting a Post, Resharing a Post, Reporting a Post, Foster User Engagement, Checking Notifications, Adding Managers, Notification Settings, Circle Settings, Photo and Video Settings, Profile Settings, Deleting an Account, Insights, Optimizing a Page, Claiming Vanity URL, Pluspost Ads, Badges, Creating a Badge, Connecting With YouTube, Social Linking."> 
+  <meta name="keywords" content="Google Plus, Tutorial, Introduction, Business Page Setting, Creating a New Account, Navigating Through Google Plus, Adding Business Details, Uploading Profile Picture, Adding a Cover Picture, Circles, Communities, Hangouts, Events, Uploading a Post, Editing a Post, Deleting a Post, Resharing a Post, Reporting a Post, Foster User Engagement, Checking Notifications, Adding Managers, Notification Settings, Circle Settings, Photo and Video Settings, Profile Settings, Deleting an Account, Insights, Optimizing a Page, Claiming Vanity URL, Pluspost Ads, Badges, Creating a Badge, Connecting With YouTube, Social Linking."> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #d11818 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #d11818 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #d11818 !important;}
+.submenu-item{ border-bottom: 2px solid #d11818 !important; border-top: 2px solid #d11818 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#d11818; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/google_plus/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-2"> 
+      <aside class="sidebar"> 
+       <div class="mini-logo"> 
+        <img src="/google_plus/images/google+-for-business-mini-logo.jpg" alt="Google Plus Tutorial"> 
+       </div> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Google Plus Tutorial</li> 
+        <li><a href="/google_plus/index.htm">Google Plus - Home</a></li> 
+        <li><a href="/google_plus/google_plus_introduction.htm">Google Plus - Introduction</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Setting up a Business Page</li> 
+        <li><a href="/google_plus/google_plus_business_page_setting.htm">Google Plus - Business Page Setting</a></li> 
+        <li><a href="/google_plus/google_plus_creating_new_account.htm">Creating a New Account</a></li> 
+        <li><a href="/google_plus/navigating_through_google_plus.htm">Navigating Through Google Plus</a></li> 
+        <li><a href="/google_plus/google_plus_adding_business_details.htm">Adding Business Details</a></li> 
+        <li><a href="/google_plus/google_plus_uploading_profile_picture.htm">Uploading Profile Picture</a></li> 
+        <li><a href="/google_plus/google_plus_adding_cover_picture.htm">Google Plus - Adding a Cover Picture</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Google Plus - Networking</li> 
+        <li><a href="/google_plus/google_plus_circles.htm">Google Plus - Circles</a></li> 
+        <li><a href="/google_plus/google_plus_communities.htm">Google Plus - Communities</a></li> 
+        <li><a href="/google_plus/google_plus_hangouts.htm">Google Plus - Hangouts</a></li> 
+        <li><a href="/google_plus/google_plus_events.htm">Google Plus - Events</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Google Plus - Posting Content</li> 
+        <li><a href="/google_plus/google_plus_uploading_post.htm">Google Plus - Uploading a Post</a></li> 
+        <li><a href="/google_plus/google_plus_editing_post.htm">Google Plus - Editing a Post</a></li> 
+        <li><a href="/google_plus/google_plus_deleting_post.htm">Google Plus - Deleting a Post</a></li> 
+        <li><a href="/google_plus/google_plus_resharing_post.htm">Google Plus - Resharing a Post</a></li> 
+        <li><a href="/google_plus/google_plus_reporting_post.htm">Google Plus - Reporting a Post</a></li> 
+        <li><a href="/google_plus/google_plus_foster_user_engagement.htm">Foster User Engagement</a></li> 
+        <li><a href="/google_plus/google_plus_checking_notifications.htm">Google Plus - Checking Notifications</a></li> 
+        <li><a href="/google_plus/google_plus_adding_managers.htm">Google Plus - Adding Managers</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Google Plus - Setting Settings</li> 
+        <li><a href="/google_plus/google_plus_notification_settings.htm">Google Plus - Notification Settings</a></li> 
+        <li><a href="/google_plus/google_plus_circle_settings.htm">Google Plus - Circle Settings</a></li> 
+        <li><a href="/google_plus/google_plus_photo_video_settings.htm">Google Plus - Photo &amp; Video Settings</a></li> 
+        <li><a href="/google_plus/google_plus_profile_settings.htm">Google Plus - Profile Settings</a></li> 
+        <li><a href="/google_plus/google_plus_deleting_account.htm">Google Plus - Deleting an Account</a></li> 
+        <li><a href="/google_plus/google_plus_insights.htm">Google Plus - Insights</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Google Plus - Optimization Process</li> 
+        <li><a href="/google_plus/google_plus_optimizing_page.htm">Google Plus - Optimizing a Page</a></li> 
+        <li><a href="/google_plus/google_plus_claiming_vanity_url.htm">Google Plus - Claiming Vanity URL</a></li> 
+        <li><a href="/google_plus/google_plus_post_ads.htm">Google Plus - +Post Ads</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Google Plus - Integration Process</li> 
+        <li><a href="/google_plus/google_plus_badges.htm">Google Plus - Badges</a></li> 
+        <li><a href="/google_plus/google_plus_creating_badge.htm">Google Plus - Creating a Badge</a></li> 
+        <li><a href="/google_plus/google_plus_connecting_with_youtube.htm">Connecting With YouTube</a></li> 
+        <li><a href="/google_plus/google_plus_social_linking.htm">Google Plus - Social Linking</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Google Plus Useful Resources</li> 
+        <li><a href="/google_plus/google_plus_quick_guide.htm">Google Plus - Quick Guide</a></li> 
+        <li><a href="/google_plus/google_plus_useful_resources.htm">Google Plus - Useful Resources</a></li> 
+        <li><a href="/google_plus/google_plus_discussion.htm">Google Plus - Discussion</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary push-bottom left-menu special"> 
+        <li class="sreading">Selected Reading</li> 
+        <li><a target="_top" href="/upsc_ias_exams.htm">UPSC IAS Exams Notes</a></li> 
+        <li><a target="_top" href="/developers_best_practices/index.htm">Developer's Best Practices</a></li> 
+        <li><a target="_top" href="/questions_and_answers.htm">Questions and Answers</a></li> 
+        <li><a target="_top" href="/effective_resume_writing.htm">Effective Resume Writing</a></li> 
+        <li><a target="_top" href="/hr_interview_questions/index.htm">HR Interview Questions</a></li> 
+        <li><a target="_top" href="/computer_glossary.htm">Computer Glossary</a></li> 
+        <li><a target="_top" href="/computer_whoiswho.htm">Who is Who</a></li> 
+       </ul> 
+      </aside> 
+     </div> 
+     <!-- PRINTING STARTS HERE --> 
+     <div class="row"> 
+      <div class="content"> 
+       <div class="col-md-7 middle-col"> 
+        <div class="cover"> 
+         <img class="img-responsive" src="/google_plus/images/google+-for-business.jpg" alt="Google Plus Tutorial"> 
+        </div> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/google_plus/google_plus_introduction.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <div class="clearer"></div> 
+        <hr> 
+        <h1>Google Plus Tutorial</h1> 
+        <div class="center-aligned tutorial-menu"> 
+         <form action="/job_search.php" method="POST"> 
+          <input type="hidden" name="search_string" value="Google Plus"> 
+          <button type="button" class="btn btn-default btn-sm btn-buy-tutorial"><i class="icon  icon-file-pdf-o"></i><a href="/google_plus/google_plus_pdf_version.htm"> PDF Version</a></button> 
+          <button type="button" class="btn btn-default btn-sm btn-quick-guide"><i class="icon  icon-book"></i><a href="/google_plus/google_plus_quick_guide.htm"> Quick Guide</a></button> 
+          <button type="button" class="btn btn-default btn-sm btn-extra-links"><i class="icon  icon-external-link"></i><a href="/google_plus/google_plus_useful_resources.htm"> Resources</a></button> 
+          <button type="submit" class="btn btn-default btn-sm btn-job-search"><i class="icon  icon-suitcase"></i> Job Search</button> 
+          <button type="submit" class="btn btn-default btn-sm btn-job-search"><i class="fa fa-wechat"></i><a href="/google_plus/google_plus_discussion.htm"> Discussion</a></button> 
+         </form> 
+        </div> 
+        <p>Google+, since its launch in 2011, has been a potentially important social platform to connect with like-minded people. It has grown beyond just being an interactive platform to share posts and photos, and is now actively used for business marketing and brand awareness. This tutorial explains how to use Google+ for personal and business purposes. How to build communities, add circles, and share ideas is explained using simple steps and screenshots for convenience. The tutorial also explains how connecting Google+ account with other social network helps to increase traffic to our website/page, leading to successful business opportunities.</p> 
+        <h1>Audience</h1> 
+        <p>This tutorial is designed for individuals who are keen to know how Google+ works towards their benefit, especially people involved in business who can use it for brand promotion.</p> 
+        <h1>Prerequisites</h1> 
+        <p>Before proceeding with this tutorial, you should have a good understanding of the fundamental concepts of marketing.</p> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="print-btn center"> 
+         <a href="/cgi-bin/printpage.cgi" target="_blank"><i class="icon icon-print big-font"></i> Print</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/google_plus/google_plus_introduction.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <hr> 
+        <!-- PRINTING ENDS HERE --> 
+        <div class="bottomgooglead"> 
+         <div class="bottomadtag">
+          Advertisements
+         </div> 
+         <!-- /60931893/tutorial_bottom_leader_board --> 
+         <div id="div-gpt-ad-1510138782906-3"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-3'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="col-md-3" id="rightbar"> 
+        <div class="ysubscribe"> 
+         <script async src="https://apis.google.com/js/platform.js"></script> 
+         <div class="g-ytsubscribe" data-channelid="UCVLbzhxVTiTLiVKeGV7WEBg" data-layout="full" data-count="default"></div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_top --> 
+         <div id="div-gpt-ad-1510138782906-2" style="height:250px; width:300px;"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-2'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_middle --> 
+         <div id="div-gpt-ad-1510138782906-1"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-1'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_bottom --> 
+         <div id="div-gpt-ad-1510138782906-0"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-0'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Libs --> 
+  <script type="text/javascript" src="/theme/js/custom-min.js?v=7"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.pg-icon').click(function(){
+   $('.wrapLoader').show();
+});
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Google Plus Tutorial",
+    "name": "Google Plus Tutorial",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.tutorialspoint.com/google_plus/index.htm"
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tutorialspoint.com/google_plus/images/google+-for-business.jpg",
+        "width": 613,
+        "height": 194
+    },
+    "author": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "datePublished": "January 08 2018 06:26:15.",
+    "dateModified": "January 08 2018 06:26:15.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "description": "Google+, since its launch in 2011, has been a potentially important social platform to connect with like-minded people. It has grown beyond just being an interactive platform to share posts and photos, and is now actively used for business marketing and b..."
+}
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "name": "www.tutorialspoint.com",
+                "@id": "https://www.tutorialspoint.com"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "name": "Google Plus",
+                "@id": "https://www.tutorialspoint.com/google_plus"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "name": "Google Plus - Home"
+            }
+        }
+    ]
+}
+</script>    
+ </body>
+</html>

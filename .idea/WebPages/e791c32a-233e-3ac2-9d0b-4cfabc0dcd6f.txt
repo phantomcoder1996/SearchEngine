@@ -1,0 +1,431 @@
+https://www.tutorialspoint.com/current_affairs/index.htm
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>Current Affairs 2016 and 2017 | General Knowledge for Competitive Exams</title> 
+  <meta name="description" content="Current Affairs 2016 and 2017 for Competitive Exams - A guide to provide you a precise summary and big collection of Multiple Choice Questions (MCQs) covering national and international current affairs  for the current years. This guide helps you in preparation for Indian competitive examinations like Bank PO, Banking, Railway, IAS, PCS, UPSC, CAT, GATE, CDS, NDA, MCA, MBA, Engineering, IBPS, Clerical Grade, Officer Grade etc."> 
+  <meta name="Keywords" content="Current, Affairs, Guide,  Precise, Summary, Collection, Multiple, Choice, Questions, (MCQs), National, International, Current, Affairs, Year, 2014, 1015, Helps, Preparation, Indian, Competitive, Examinations, Bank PO, Banking, Railway, IAS, PCS, UPSC, CAT, GATE, CDS, NDA, MCA, MBA, Engineering, IBPS, Clerical Grade, Officer"> 
+  <style>
+div.green-bg2 {
+    background: #3CB54B url(/images/pattern.png) repeat center center;
+}
+</style> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #3CB54B !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #3CB54B url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #3CB54B !important;}
+.submenu-item{ border-bottom: 2px solid #3CB54B !important; border-top: 2px solid #3CB54B !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#3CB54B; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/current_affairs_february_2016/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div id="content" class="content full"> 
+    <div class="green-bg2 background"> 
+     <span class="cat-title">Current Affairs</span> 
+     <div class="cat-punch-line">
+      <img src="/scripts/img/slides/slide-title-border.png" alt="border">
+      <span> Summary and Multiple Choice Questions </span>
+      <img src="/scripts/img/slides/slide-title-border.png" alt="border">
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <br> 
+  <div class="container"> 
+   <h1 class="thick-heading">Current Affairs 2016</h1> 
+   <div class="row"> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_january_2016/index.htm" title="Current Affairs January 2016"><img src="/current_affairs_january_2016/images/current-affairs-january-2016-mini-logo.jpg" alt="Current Affairs January 2016"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_february_2016/index.htm" title="Current Affairs February 2016"><img src="/current_affairs_february_2016/images/current-affairs-february-2016-mini-logo.jpg" alt="Current Affairs February 2016"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_march_2016/index.htm" title="Current Affairs March 2016"><img src="/current_affairs_march_2016/images/current-affairs-march-2016-mini-logo.jpg" alt="Current Affairs March 2016"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_april_2016/index.htm" title="Current Affairs April 2016"><img src="/current_affairs_april_2016/images/current-affairs-april-2016-mini-logo.jpg" alt="Current Affairs April 2016"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_may_2016/index.htm" title="Current Affairs May 2016"><img src="/current_affairs_may_2016/images/current-affairs-may-2016-mini-logo.jpg" alt="Current Affairs May 2016"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_june_2016/index.htm" title="Current Affairs June 2016"><img src="/current_affairs_june_2016/images/current-affairs-june-2016-mini-logo.jpg" alt="Current Affairs June 2016"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_july_2016/index.htm" title="Current Affairs July 2016"><img src="/current_affairs_july_2016/images/current-affairs-july-2016-mini-logo.jpg" alt="Current Affairs July 2016"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_august_2016/index.htm" title="Current Affairs August 2016"><img src="/current_affairs_august_2016/images/current-affairs-august-2016-mini-logo.jpg" alt="Current Affairs August 2016"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_september_2016/index.htm" title="Current Affairs September 2016"><img src="/current_affairs_september_2016/images/current-affairs-september-2016-mini-logo.jpg" alt="Current Affairs September 2016"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_october_2016/index.htm" title="Current Affairs October 2016"><img src="/current_affairs_october_2016/images/current-affairs-october-2016-mini-logo.jpg" alt="Current Affairs October 2016"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_november_2016/index.htm" title="Current Affairs November 2016"><img src="/current_affairs_november_2016/images/current-affairs-november-2016-mini-logo.jpg" alt="Current Affairs November 2016"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_december_2016/index.htm" title="Current Affairs December 2016"><img src="/current_affairs_december_2016/images/current-affairs-december-2016-mini-logo.jpg" alt="Current Affairs November 2016"></a> 
+     </div> 
+    </div> 
+   </div> 
+   <h1 class="thick-heading">Current Affairs 2017</h1> 
+   <div class="row"> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_january_2017/index.htm" title="Current Affairs January 2017"><img src="/current_affairs_january_2017/images/current-affairs-january-2017-mini-logo.jpg" alt="Current Affairs January 2017"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_february_2017/index.htm" title="Current Affairs February 2017"><img src="/current_affairs_february_2017/images/current-affairs-february-2017-mini-logo.jpg" alt="Current Affairs February 2017"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_march_2017/index.htm" title="Current Affairs March 2017"><img src="/current_affairs_march_2017/images/current-affairs-march-2017-mini-logo.jpg" alt="Current Affairs March 2017"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_april_2017/index.htm" title="Current Affairs April 2017"><img src="/current_affairs_april_2017/images/current-affairs-april-2017-mini-logo.jpg" alt="Current Affairs April 2017"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_may_2017/index.htm" title="Current Affairs May 2017"><img src="/current_affairs_may_2017/images/current-affairs-may-2017-mini-logo.jpg" alt="Current Affairs May 2017"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_june_2017/index.htm" title="Current Affairs June 2017"><img src="/current_affairs_june_2017/images/current-affairs-june-2017-mini-logo.jpg" alt="Current Affairs June 2017"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_july_2017/index.htm" title="Current Affairs July 2017"><img src="/current_affairs_july_2017/images/current-affairs-july-2017-mini-logo.jpg" alt="Current Affairs July 2017"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_august_2017/index.htm" title="Current Affairs August 2017"><img src="/current_affairs_august_2017/images/current-affairs-august-2017-mini-logo.jpg" alt="Current Affairs August 2017"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_september_2017/index.htm" title="Current Affairs September 2017"><img src="/current_affairs_september_2017/images/current-affairs-september-2017-mini-logo.jpg" alt="Current Affairs September 2017"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_october_2017/index.htm" title="Current Affairs October 2017"><img src="/current_affairs_october_2017/images/current-affairs-october-2017-mini-logo.jpg" alt="Current Affairs October 2017"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_november_2017/index.htm" title="Current Affairs November 2017"><img src="/current_affairs_november_2017/images/current-affairs-november-2017-mini-logo.jpg" alt="Current Affairs November 2017"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_december_2017/index.htm" title="Current Affairs December 2017"><img src="/current_affairs_december_2017/images/current-affairs-december-2017-mini-logo.jpg" alt="Current Affairs December 2017"></a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="container"> 
+   <div class="row"> 
+    <h1 class="thick-heading">Current Affairs 2018</h1> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_january_2018/index.htm" title="Current Affairs January 2018"><img src="/current_affairs_january_2018/images/current-affairs-january-2018-mini-logo.jpg" alt="Current Affairs January 2018"></a> 
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box big-box"> 
+      <a target="_top" href="/current_affairs_february_2018/index.htm" title="Current Affairs February 2018"><img src="/current_affairs_february_2018/images/current-affairs-february-2018-mini-logo.jpg" alt="Current Affairs February 2018"></a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <br> 
+  <div class="container"> 
+   <div class="row"> 
+    <h1 class="thick-heading">SELECTED READING</h1> 
+    <div class="selected-reading-boxes"> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/developers_best_practices/index.htm" title="Developer's Best Practices"> <img src="/images/developers-best-practices-icon.png" class="big-icon" alt="Developer's Best Practices"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/effective_resume_writing.htm" title="Effective Resume Writing"> <img src="/images/effective-resume-writing-icon.png" class="big-icon" alt="Effective Resume Writing"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/computer_glossary.htm" title="Computer Glossary"> <img src="/images/computer-glossary-icon.png" class="big-icon" alt="Computer Glossary"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/computer_whoiswho.htm" title="Who is Who in Computer"> <img src="/images/who-is-who-icon.png" class="big-icon" alt="Who is Who in Computer"> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <br> 
+  <footer class="inner"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="footer-ribon"> 
+      <span>Extras</span> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Mobile First</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><a class="iphone" href="https://itunes.apple.com/us/app/tutorials-point/id914891263?ls=1&amp;mt=8" target="_blank" rel="nofollow"><img alt="tutorialspoint iPhone App" src="/images/apple_store.jpg" class="mobile-apps"></a></li> 
+       <li><a class="android" href="https://play.google.com/store/apps/details?id=com.tutorialspoint.onlineviewer" target="_blank" rel="nofollow"><img alt="tutorialspoint Android app" src="/images/google_play.jpg" class="mobile-apps"></a></li> 
+       <li><a class="microsoft" href="http://www.windowsphone.com/s?appid=91249671-7184-4ad6-8a5f-d11847946b09" target="_blank" rel="nofollow"><img alt="tutorialspoint Windows app" src="/images/windows_store.jpg" class="mobile-apps"></a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>About us</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/index.htm">Company</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_team.htm">Our Team</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_careers.htm">Careers</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_privacy.htm">Privacy Policy</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_terms_of_use.htm">Terms of use</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Extra Links</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="icon icon-caret-right"></i> <a href="articles">Articles</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="online_dev_tools.htm">Dev Tools</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="free_web_graphics.htm">Free Graphics</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="online_file_conversion.htm">File Conversion</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="shared-tutorials.php">Shared Tutorials</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="https://www.tutorialspoint.com/netmeeting.php">NetMeeting</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="https://www.tutorialspoint.com/free_online_whiteboard.htm">Whiteboard</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="contact-details"> 
+       <h4>Contact Us</h4> 
+       <ul class="contact"> 
+        <li><p><i class="icon icon-map-marker"></i> <strong>Address:</strong> 3rd Floor, Jyoti Celestia, Madhapur, Hyderabad, Telangana 500081</p></li> 
+        <li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="about/contact_us.htm">Click Here</a></p></li> 
+        <li><p><i class="icon icon-dribbble"></i> <strong>Website:</strong> <a href="http://www.tutorialspoint.com">www.tutorialspoint.com</a></p></li> 
+       </ul> 
+      </div> 
+      <div class="social-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="http://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="http://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div>  
+  </footer> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/menu-style-min.css?v=1"> 
+  <script type="text/javascript" src="/theme/js/custom-min.js"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.greyout').click(function(){
+   $('.wrapLoader').show();
+});
+</script>   
+ </body>
+</html>

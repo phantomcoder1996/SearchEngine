@@ -1,0 +1,443 @@
+https://www.tutorialspoint.com/java/io/index.htm
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>Java.io package Tutorial</title> 
+  <meta name="description" content="Java.io package Tutorial for Beginners - Learning Java.io Packages in simple and easy steps : A beginner's tutorial containing complete knowledge of all the classes, interfaces, enumerations and exceptions have been explained with examples for beginners to advanced java programmers to understand Java Input, Output package."> 
+  <meta name="keywords" content="Java, I/O, packages, tutorial, classes, interfaces, enumerations, exceptions, examples, beginners, advanced, programmers."> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+pre.prettyprint.tryit {min-height:37px; background: #eee url(/java/io/images/try-it.jpg) top right no-repeat !important}select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #fcbf29 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #fcbf29 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #fcbf29 !important;}
+.submenu-item{ border-bottom: 2px solid #fcbf29 !important; border-top: 2px solid #fcbf29 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#fcbf29; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/java/io/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-2"> 
+      <aside class="sidebar"> 
+       <style>
+.ts{
+   vertical-align:middle !important;
+   text-align:center !important;   
+}
+</style> 
+       <div class="mini-logo"> 
+        <img src="/java/io/images/java.jpg" alt="Java.io Package Tutorial"> 
+       </div> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Java.io package classes</li> 
+        <li><a href="/java/io/index.htm">Java.io - Home</a></li> 
+        <li><a href="/java/io/java_io_bufferedinputstream.htm">Java.io - BufferedInputStream</a></li> 
+        <li><a href="/java/io/java_io_bufferedoutputstream.htm">Java.io - BufferedOutputStream</a></li> 
+        <li><a href="/java/io/java_io_bufferedreader.htm">Java.io - BufferedReader</a></li> 
+        <li><a href="/java/io/java_io_bufferedwriter.htm">Java.io - BufferedWriter</a></li> 
+        <li><a href="/java/io/java_io_bytearrayinputstream.htm">Java.io - ByteArrayInputStream</a></li> 
+        <li><a href="/java/io/java_io_bytearrayoutputstream.htm">Java.io - ByteArrayOutputStream</a></li> 
+        <li><a href="/java/io/java_io_chararrayreader.htm">Java.io - CharArrayReader</a></li> 
+        <li><a href="/java/io/java_io_chararraywriter.htm">Java.io - CharArrayWriter</a></li> 
+        <li><a href="/java/io/java_io_console.htm">Java.io - Console</a></li> 
+        <li><a href="/java/io/java_io_datainputstream.htm">Java.io - DataInputStream</a></li> 
+        <li><a href="/java/io/java_io_dataoutputstream.htm">Java.io - DataOutputStream</a></li> 
+        <li><a href="/java/io/java_io_file.htm">Java.io - File</a></li> 
+        <li><a href="/java/io/java_io_filedescriptor.htm">Java.io - FileDescriptor</a></li> 
+        <li><a href="/java/io/java_io_fileinputstream.htm">Java.io - FileInputStream</a></li> 
+        <li><a href="/java/io/java_io_fileoutputstream.htm">Java.io - FileOutputStream</a></li> 
+        <li><a href="/java/io/java_io_filepermission.htm">Java.io - FilePermission</a></li> 
+        <li><a href="/java/io/java_io_filereader.htm">Java.io - FileReader</a></li> 
+        <li><a href="/java/io/java_io_filewriter.htm">Java.io - FileWriter</a></li> 
+        <li><a href="/java/io/java_io_filterinputstream.htm">Java.io - FilterInputStream</a></li> 
+        <li><a href="/java/io/java_io_filteroutputstream.htm">Java.io - FilterOutputStream</a></li> 
+        <li><a href="/java/io/java_io_filterreader.htm">Java.io - FilterReader</a></li> 
+        <li><a href="/java/io/java_io_filterwriter.htm">Java.io - FilterWriter</a></li> 
+        <li><a href="/java/io/java_io_inputstream.htm">Java.io - InputStream</a></li> 
+        <li><a href="/java/io/java_io_inputstreamreader.htm">Java.io - InputStreamReader</a></li> 
+        <li><a href="/java/io/java_io_linenumberinputstream.htm">Java.io - LineNumberInputStream</a></li> 
+        <li><a href="/java/io/java_io_linenumberreader.htm">Java.io - LineNumberReader</a></li> 
+        <li><a href="/java/io/java_io_objectinputstream.htm">Java.io - ObjectInputStream</a></li> 
+        <li><a href="/java/io/java_io_objectinputstream.getfield.htm">Java.io - ObjectInputStream.GetField</a></li> 
+        <li><a href="/java/io/java_io_objectoutputstream.htm">Java.io - ObjectOutputStream</a></li> 
+        <li><a href="/java/io/java_io_objectoutputstream.putfield.htm">io - ObjectOutputStream.PutField</a></li> 
+        <li><a href="/java/io/java_io_objectstreamclass.htm">Java.io - ObjectStreamClass</a></li> 
+        <li><a href="/java/io/java_io_objectstreamfield.htm">Java.io - ObjectStreamField</a></li> 
+        <li><a href="/java/io/java_io_outputstream.htm">Java.io - OutputStream</a></li> 
+        <li><a href="/java/io/java_io_outputstreamwriter.htm">Java.io - OutputStreamWriter</a></li> 
+        <li><a href="/java/io/java_io_pipedinputstream.htm">Java.io - PipedInputStream</a></li> 
+        <li><a href="/java/io/java_io_pipedoutputstream.htm">Java.io - PipedOutputStream</a></li> 
+        <li><a href="/java/io/java_io_pipedreader.htm">Java.io - PipedReader</a></li> 
+        <li><a href="/java/io/java_io_pipedwriter.htm">Java.io - PipedWriter</a></li> 
+        <li><a href="/java/io/java_io_printstream.htm">Java.io - PrintStream</a></li> 
+        <li><a href="/java/io/java_io_printwriter.htm">Java.io - PrintWriter</a></li> 
+        <li><a href="/java/io/java_io_pushbackinputstream.htm">Java.io - PushbackInputStream</a></li> 
+        <li><a href="/java/io/java_io_pushbackreader.htm">Java.io - PushbackReader</a></li> 
+        <li><a href="/java/io/java_io_randomaccessfile.htm">Java.io - RandomAccessFile</a></li> 
+        <li><a href="/java/io/java_io_reader.htm">Java.io - Reader</a></li> 
+        <li><a href="/java/io/java_io_sequenceinputstream.htm">Java.io - SequenceInputStream</a></li> 
+        <li><a href="/java/io/java_io_serializablepermission.htm">Java.io - SerializablePermission</a></li> 
+        <li><a href="/java/io/java_io_streamtokenizer.htm">Java.io - StreamTokenizer</a></li> 
+        <li><a href="/java/io/java_io_stringbufferinputstream.htm">Java.io - StringBufferInputStream</a></li> 
+        <li><a href="/java/io/java_io_stringreader.htm">Java.io - StringReader</a></li> 
+        <li><a href="/java/io/java_io_stringwriter.htm">Java.io - StringWriter</a></li> 
+        <li><a href="/java/io/java_io_writer.htm">Java.io - Writer</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Java.io package extras</li> 
+        <li><a href="/java/io/java_io_interfaces.htm">Java.io - Interfaces</a></li> 
+        <li><a href="/java/io/java_io_exceptions.htm">Java.io - Exceptions</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Java.io package Useful Resources</li> 
+        <li><a href="/java/io/java_io_discussion.htm">Java.io - Discussion</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary push-bottom left-menu special"> 
+        <li class="sreading">Selected Reading</li> 
+        <li><a target="_top" href="/developers_best_practices/index.htm">Developer's Best Practices</a></li> 
+        <li><a target="_top" href="/questions_and_answers.htm">Questions and Answers</a></li> 
+        <li><a target="_top" href="/effective_resume_writing.htm">Effective Resume Writing</a></li> 
+        <li><a target="_top" href="/computer_glossary.htm">Computer Glossary</a></li> 
+        <li><a target="_top" href="/computer_whoiswho.htm">Who is Who</a></li> 
+       </ul> 
+      </aside> 
+     </div> 
+     <!-- PRINTING STARTS HERE --> 
+     <div class="row"> 
+      <div class="content"> 
+       <div class="col-md-7 middle-col"> 
+        <div class="cover"> 
+         <img class="img-responsive" src="/java/io/images/java.io-package.jpg" alt="Java.io Packages Tutorial"> 
+        </div> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/java/io/java_io_bufferedinputstream.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <div class="clearer"></div> 
+        <hr> 
+        <h1>Java.io package Tutorial</h1> 
+        <div class="center-aligned tutorial-menu"> 
+         <form action="/job_search.php" method="POST"> 
+          <input type="hidden" name="search_string" value="Java.io package"> 
+          <button type="button" class="btn btn-disabled btn-sm btn-buy-tutorial"><i class="icon  icon-file-pdf-o"></i> PDF Version</button> 
+          <button type="button" class="btn btn-disabled btn-sm btn-quick-guide"><i class="icon  icon-book"></i> Quick Guide</button> 
+          <button type="button" class="btn btn-disabled btn-sm btn-extra-links"><i class="icon  icon-external-link"></i>Resources</button> 
+          <button type="submit" class="btn btn-default btn-sm btn-job-search"><i class="icon  icon-suitcase"></i> Job Search</button> 
+          <button type="button" class="btn btn-default btn-sm btn-job-search"><i class="fa fa-wechat"></i> <a href="/java/io/java_io_discussion.htm"> Discussion</a></button> 
+         </form> 
+        </div> 
+        <p>Java.io package provides classes for system input and output through data streams, serialization and the file system. This reference will take you through simple and practical methods available in java.io package.</p> 
+        <h1>Audience</h1> 
+        <p>This reference has been prepared for the beginners to help them understand the basic functionality related to all the methods available in Java.io package.</p> 
+        <h1>Prerequisites</h1> 
+        <p>Before you start doing practice with various types of examples given in this reference, I'm making an assumption that you are already aware of basic Java Programming.</p> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="print-btn center"> 
+         <a href="/cgi-bin/printpage.cgi" target="_blank"><i class="icon icon-print big-font"></i> Print</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/java/io/java_io_bufferedinputstream.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <hr> 
+        <!-- PRINTING ENDS HERE --> 
+        <div class="bottomgooglead"> 
+         <div class="bottomadtag">
+          Advertisements
+         </div> 
+         <!-- /60931893/tutorial_bottom_leader_board --> 
+         <div id="div-gpt-ad-1510138782906-3"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-3'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="col-md-3" id="rightbar"> 
+        <div class="ysubscribe"> 
+         <script async src="https://apis.google.com/js/platform.js"></script> 
+         <div class="g-ytsubscribe" data-channelid="UCVLbzhxVTiTLiVKeGV7WEBg" data-layout="full" data-count="default"></div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_top --> 
+         <div id="div-gpt-ad-1510138782906-2" style="height:250px; width:300px;"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-2'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_middle --> 
+         <div id="div-gpt-ad-1510138782906-1"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-1'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_bottom --> 
+         <div id="div-gpt-ad-1510138782906-0"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-0'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Libs --> 
+  <script type="text/javascript" src="/theme/js/custom-min.js?v=7"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.pg-icon').click(function(){
+   $('.wrapLoader').show();
+});
+</script> 
+  <script type="text/javascript" src="/theme/js/jquery.colorbox-min.js"></script> 
+  <script type="text/javascript">
+   var tryit = new $.TryIt('/java/io/try_java.php');
+   tryit.compile();
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Java.io package Tutorial",
+    "name": "Java.io package Tutorial",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.tutorialspoint.com/java/io/index.htm"
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tutorialspoint.com/java/io/images/java.io-package.jpg",
+        "width": 613,
+        "height": 194
+    },
+    "author": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "datePublished": "March 12 2018 13:38:18.",
+    "dateModified": "August 15 2017 02:34:17.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "description": "Java.io package provides classes for system input and output through data streams, serialization and the file system. This reference will take you through simple and practical methods available in java.io package...."
+}
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "name": "www.tutorialspoint.com",
+                "@id": "https://www.tutorialspoint.com"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "name": "Java/io",
+                "@id": "https://www.tutorialspoint.com/java/io"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "name": null
+            }
+        }
+    ]
+}
+</script>    
+ </body>
+</html>

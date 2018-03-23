@@ -1,0 +1,674 @@
+https://www.tutorialspoint.com/videotutorials/index.htm
+<html>
+ <head> 
+  <title>Video Tutorials - Free Online Video Tutorials - tutorialspoint</title> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <meta name="Description" content="Video Tutorials - Free Online Video Tutorials - Video Tutorials - Free Online Video Tutorials"> 
+  <meta name="Keywords" content="Video Tutorials, Free Online Video Tutorials"> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com//theme/css/style-min.css"> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/videotutorials/css/vd.css?v=39.9"> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/videotutorials/css/responsive.css"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com//theme/js/script-min-v4.js"></script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+			<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+		<![endif]--> 
+  <style>
+   .sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default{background:#23bf4b!important; color:#fff;}
+   div.footer-copyright{background:#23bf4b url(../images/pattern.png)!important; color:#fff;}
+   .magnifying-glass{right:5px;}
+   .magnifying-glass:hover{background:transparent!important; color:#000!important;}
+   h1.logo img{background: #23bf4b!important; margin:5px!important;}
+   .qa_pop_enroll {background: #23bf4b!important;}
+   #btnEnroll {background: #23bf4b!important; border:none !important;}
+   </style>  
+  <script>
+   var emailPattern =  /^([\w-\.]+)@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.)|(([\w-]+\.)+))([a-zA-Z]{2,4}|[0-9]{1,3})(\]?)$/;
+   var phonePattern = /^[0-9]{10}$/;
+   var numberPattern = /^\d*$/;
+   var baseurl = 'https://www.tutorialspoint.com/';
+   var profile_baseurl = 'https://www.tutorialspoint.com/questions';
+   var videoapiurl = 'https://www.tutorialspoint.com';
+   var videobaseurl = 'https://www.tutorialspoint.com/videotutorials';
+   var asset_image_url = 'https://www.tutorialspoint.com/assets/videos';
+   var videos_image_url = 'https://www.tutorialspoint.com/assets/videos/courses';
+   var var_auth = '';
+   var webp = false;
+   $(document).ready(function(){      
+      if (typeof Modernizr.webp != "undefined") {
+         if(Modernizr.webp.valueOf()){
+            webp = true;
+         }
+      }
+   });
+</script> 
+  <script src="https://code.jquery.com/ui/1.10.4/jquery-ui.js"></script> 
+  <script src="https://www.tutorialspoint.com/videotutorials/js/flowplayer.min.js"></script> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/videotutorials/js/videos.js"></script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <div id="right_obs-a" class="display-none" onclick="close_obs_sidenav_a()"></div> 
+  <div id="right_obs-b" class="display-none" onclick="close_obs_sidenav_b()"></div> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="divMask" style="display:none"></div> 
+  <header> 
+   <div class="container" id="tp-logo-container"> 
+    <div class="tp-first-nav pull-left tp-pointer tp-display-none" onclick="openNav_a()"> 
+     <i class="fa fa-bars fa-lg"></i> 
+    </div> 
+    <h1 class="logo"> <a href="https://www.tutorialspoint.com/" title="tutorialspoint"> <img alt="tutorialspoint" class="tp-logo" src="https://www.tutorialspoint.com/videos/images/video_transparent_logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+     <li> 
+      <div class="tp-third-nav tp-display-none tp-pointer" id="liPMobile" onclick="openNav_b()"> 
+       <a href="https://www.tutorialspoint.com/videotutorials/login.php"><i class="icon-user header_icon"></i></a> 
+      </div> </li> 
+    </ul> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li><a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a></li> 
+      <li><a target="_blank" href="https://www.qries.com" rel="nofollow"><i class="fa fa-send"></i> &nbsp;Qries</a> </li> 
+      <li><a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li><a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li><a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a></li> 
+      <li><a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <a href="javascript:void(0)" class="closebtn tp-display-none tp-pull-right" onclick="closeNav()">×</a> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off" style="display: none; width: 0px; opacity: 0.3;"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+        <li class="dropdown no-sub-menu vMenuP" id="liPMenu"> <a href="https://www.tutorialspoint.com/videotutorials/login.php"><i class="icon-user header_icon"></i> Profile</a></li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <div style="clear:both;"></div> 
+  <div class="alert alert-success" role="alert" style="display:none;"> 
+   <i class="fa-close alert-close" title="close"></i> 
+   <span></span> 
+  </div> 
+  <div class="alert alert-danger" role="alert" style="display:none;"> 
+   <i class="fa-close alert-close" title="close"></i> 
+   <span></span> 
+  </div> 
+  <div class="alert alert-warning" role="alert" style="display:none;"> 
+   <i class="fa-close alert-close" title="close"></i> 
+   <span></span> 
+  </div> 
+  <div class="container"> 
+   <div class="col-md-12"> 
+    <div class="sidenav" id="mySidenav"> 
+     <div class="vMenuDesc video_cont"> 
+      <div class="loader_bg" style="display:block!important;"> 
+       <div class="loadmenu_bg"></div> 
+      </div> 
+     </div> 
+     <div class="vMenuDesc library_cont"> 
+      <div class="loader_bg" style="display:block!important;"> 
+       <div class="loadmenu_bg"></div> 
+      </div> 
+     </div> 
+    </div> 
+    <div class="clear"></div> 
+   </div> 
+  </div> 
+  <div class="container"> 
+   <div class="col-md-12"> 
+    <div class="sidenav-b" id="mySidenav-b"></div> 
+    <div class="clear"></div> 
+   </div> 
+  </div>
+  <style>.vd_box{min-height:323px;}
+.vd_box .vd_course{max-height:210px;}
+</style> 
+  <script> 
+$(document).ready(function() {
+   $('.pdfCat').click(function(e){
+      e.stopPropagation();
+      $('.pdfShow').toggle();
+   });
+   $(document).on('click', function(e) {
+      $el = $(".pdfShow");
+      if ($el.is(":visible")) {
+         $el.hide();         
+      }
+   });
+});
+</script> 
+  <div class="video-banner"> 
+   <div class="container"> 
+    <div class="row"> 
+     <img src="https://www.tutorialspoint.com/videotutorials/images/video-banner-img.png" alt="Video Tutorials" style="height:175px; float:left; margin:5px 0px 0px 0px;"> 
+     <h2> <a href="https://www.tutorialspoint.com/videotutorials/index.htm"> <img src="https://www.tutorialspoint.com/videotutorials/images/video-logo.png" alt="Video Tutorials" title="Video Tutorials"> </a><br> </h2> 
+    </div> 
+   </div> 
+  </div> 
+  <div role="main" class="main"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="full" id="center"> 
+      <h1 class="top-link-nav"> Video Tutorials 
+       <div class="pdf_links"> 
+        <a href="javascript:void(0);" class="pdfCat"><i class="fa-cubes"></i> &nbsp;Categories <i class="fa-caret-down"></i> &nbsp;</a> 
+       </div> </h1> 
+      <div class="container"> 
+       <div class="pdfShow"> 
+        <ul class=""> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/11th-Class"><i class="fa fa-caret-right"></i> 11th Class </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/12th-Class"><i class="fa fa-caret-right"></i> 12th Class </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/3D-and-Animation"><i class="fa fa-caret-right"></i> 3D &amp; Animation </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/9th-Class"><i class="fa fa-caret-right"></i> 9th Class </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Academic"><i class="fa fa-caret-right"></i> Academic </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Adobe"><i class="fa fa-caret-right"></i> Adobe </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Agriculture"><i class="fa fa-caret-right"></i> Agriculture </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Application-Software"><i class="fa fa-caret-right"></i> Application Software </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Bachelor-Classes"><i class="fa fa-caret-right"></i> Bachelor Classes </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Backend-Technologies"><i class="fa fa-caret-right"></i> Backend Technologies </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Biology"><i class="fa fa-caret-right"></i> Biology </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Business"><i class="fa fa-caret-right"></i> Business </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Business-Management"><i class="fa fa-caret-right"></i> Business Management </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Chemistry"><i class="fa fa-caret-right"></i> Chemistry </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Classroom-Management"><i class="fa fa-caret-right"></i> Classroom Management </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Communication"><i class="fa fa-caret-right"></i> Communication </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Data-and-Analytics"><i class="fa fa-caret-right"></i> Data &amp; Analytics </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Databases"><i class="fa fa-caret-right"></i> Databases </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Digital-Marketing"><i class="fa fa-caret-right"></i> Digital Marketing </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Economics"><i class="fa fa-caret-right"></i> Economics </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Embedded-System"><i class="fa fa-caret-right"></i> Embedded System </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Engineering-Classes"><i class="fa fa-caret-right"></i> Engineering Classes </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Frontend-Technologies"><i class="fa fa-caret-right"></i> Frontend Technologies </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Game-Development"><i class="fa fa-caret-right"></i> Game Development </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/IBM"><i class="fa fa-caret-right"></i> IBM </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Java-Technologies"><i class="fa fa-caret-right"></i> Java Technologies </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Mainframes"><i class="fa fa-caret-right"></i> Mainframes </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Management"><i class="fa fa-caret-right"></i> Management </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Mathematics"><i class="fa fa-caret-right"></i> Mathematics </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Media"><i class="fa fa-caret-right"></i> Media </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Microsoft"><i class="fa fa-caret-right"></i> Microsoft </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Mobile-Applications"><i class="fa fa-caret-right"></i> Mobile Applications </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Network-and-Security"><i class="fa fa-caret-right"></i> Network &amp; Security </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Personal-Development"><i class="fa fa-caret-right"></i> Personal Development </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Physics"><i class="fa fa-caret-right"></i> Physics </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Programming-Languages"><i class="fa fa-caret-right"></i> Programming Languages </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/SAP"><i class="fa fa-caret-right"></i> SAP </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Software-Engineering"><i class="fa fa-caret-right"></i> Software Engineering </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Software-Quality"><i class="fa fa-caret-right"></i> Software Quality </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Software-Testing"><i class="fa fa-caret-right"></i> Software Testing </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Testing-Frameworks"><i class="fa fa-caret-right"></i> Testing Frameworks </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Testing-Tools"><i class="fa fa-caret-right"></i> Testing Tools </a></li> 
+         <li><a href="https://www.tutorialspoint.com/videotutorials/category/Web-Development"><i class="fa fa-caret-right"></i> Web Development </a></li> 
+        </ul> 
+        <div class="clear"></div> 
+       </div> 
+      </div> 
+      <div id="divIndexCourses"> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vid_googlead"> 
+         <script type="text/javascript"><!--
+                        google_ad_client = "pub-7133395778201029";
+                        google_ad_width = 250;
+                        google_ad_height = 250;
+                        google_ad_format = "250x250_as";
+                        google_ad_type = "image";
+                        google_ad_channel ="";
+							 //--></script> 
+         <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js"></script> 
+        </div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vd_course" title="ExpressJS Online Training"> 
+         <a href="https://www.tutorialspoint.com/expressjs_online_training/index.asp"> <img data-type="png?t=1521843219" data-ctype="C" data-progressive="https://www.tutorialspoint.com/assets/videos/courses/163/images/course_163_image" class="progressive-img progressive-not-loaded" src="https://www.tutorialspoint.com/videotutorials/images/default_course_logo.png" alt="ExpressJS Online Training Image"> 
+          <div class="vd_course_title"> 
+           <div class="vd_header" style="background-color:#87bb38" title="ExpressJS Online Training">
+             ExpressJS Online Training 
+           </div> 
+           <div class="clear"></div> 
+           <div class="vd_category"> 
+            <p><span>Published on</span><b><i class="fa-calendar"></i>&nbsp;&nbsp;2018-03-19</b></p> 
+           </div> 
+          </div> </a> 
+        </div> 
+        <div class="clear"></div> 
+        <div class="vd_author_title"> 
+         <a href="https://www.tutorialspoint.com/videotutorials/profile/Anadi-Sharma" target="_blank" title="View Anadi Sharma Profile "> <img src="https://www.tutorialspoint.com/assets/profiles/8540/profile/60_25031-1511174557.jpg" alt="Anadi Sharma"> <span>Anadi Sharma</span> </a> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vd_course" title="Cultivation of Crops"> 
+         <a href="https://www.tutorialspoint.com/cultivation_of_crops/index.asp"> <img data-type="png?t=1521843219" data-ctype="C" data-progressive="https://www.tutorialspoint.com/assets/videos/courses/164/images/course_164_image" class="progressive-img progressive-not-loaded" src="https://www.tutorialspoint.com/videotutorials/images/default_course_logo.png" alt="Cultivation of Crops Image"> 
+          <div class="vd_course_title"> 
+           <div class="vd_header" style="background-color:#2e5e81" title="Cultivation of Crops">
+             Cultivation of Crops 
+           </div> 
+           <div class="clear"></div> 
+           <div class="vd_category"> 
+            <p><span>Published on</span><b><i class="fa-calendar"></i>&nbsp;&nbsp;2018-03-17</b></p> 
+           </div> 
+          </div> </a> 
+        </div> 
+        <div class="clear"></div> 
+        <div class="vd_author_title"> 
+         <a href="https://www.tutorialspoint.com/videotutorials/profile/Vandana-Annavaram" target="_blank" title="View Vandana Annavaram Profile "> <img src="https://www.tutorialspoint.com/videotutorials/images/profile_icon.png" alt="Vandana Annavaram"> <span>Vandana Annavaram</span> </a> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vd_course" title="Electromagnetic Waves"> 
+         <a href="https://www.tutorialspoint.com/electromagnetic_waves/index.asp"> <img data-type="png?t=1521843219" data-ctype="C" data-progressive="https://www.tutorialspoint.com/assets/videos/courses/158/images/course_158_image" class="progressive-img progressive-not-loaded" src="https://www.tutorialspoint.com/videotutorials/images/default_course_logo.png" alt="Electromagnetic Waves Image"> 
+          <div class="vd_course_title"> 
+           <div class="vd_header" style="background-color:#27abe2" title="Electromagnetic Waves">
+             Electromagnetic Waves 
+           </div> 
+           <div class="clear"></div> 
+           <div class="vd_category"> 
+            <p><span>Published on</span><b><i class="fa-calendar"></i>&nbsp;&nbsp;2018-01-01</b></p> 
+           </div> 
+          </div> </a> 
+        </div> 
+        <div class="clear"></div> 
+        <div class="vd_author_title"> 
+         <a href="https://www.tutorialspoint.com/videotutorials/profile/Mr-Pradeep-Kshetrapal" target="_blank" title="View Mr. Pradeep Kshetrapal Profile "> <img src="https://www.tutorialspoint.com/assets/profiles/12011/profile/60_38776-1511583153.jpg" alt="Mr. Pradeep Kshetrapal"> <span>Mr. Pradeep Kshetrapal</span> </a> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vd_course" title="Alternating Current"> 
+         <a href="https://www.tutorialspoint.com/alternating_current/index.asp"> <img data-type="png?t=1521843219" data-ctype="C" data-progressive="https://www.tutorialspoint.com/assets/videos/courses/157/images/course_157_image" class="progressive-img progressive-not-loaded" src="https://www.tutorialspoint.com/videotutorials/images/default_course_logo.png" alt="Alternating Current Image"> 
+          <div class="vd_course_title"> 
+           <div class="vd_header" style="background-color:#00a1f1" title="Alternating Current">
+             Alternating Current 
+           </div> 
+           <div class="clear"></div> 
+           <div class="vd_category"> 
+            <p><span>Published on</span><b><i class="fa-calendar"></i>&nbsp;&nbsp;2018-01-01</b></p> 
+           </div> 
+          </div> </a> 
+        </div> 
+        <div class="clear"></div> 
+        <div class="vd_author_title"> 
+         <a href="https://www.tutorialspoint.com/videotutorials/profile/Mr-Pradeep-Kshetrapal" target="_blank" title="View Mr. Pradeep Kshetrapal Profile "> <img src="https://www.tutorialspoint.com/assets/profiles/12011/profile/60_38776-1511583153.jpg" alt="Mr. Pradeep Kshetrapal"> <span>Mr. Pradeep Kshetrapal</span> </a> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vid_googlead"> 
+         <script type="text/javascript"><!--
+                               google_ad_client = "pub-7133395778201029";
+                               google_ad_width = 250;
+                               google_ad_height = 250;
+                               google_ad_format = "250x250_as";
+                               google_ad_type = "image";
+                               google_ad_channel ="";
+                               //--></script> 
+         <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js"></script> 
+        </div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vd_course" title="Continuity &amp; Differentiability"> 
+         <a href="https://www.tutorialspoint.com/continuity_and_differentiability/index.asp"> <img data-type="png?t=1521843219" data-ctype="C" data-progressive="https://www.tutorialspoint.com/assets/videos/courses/154/images/course_154_image" class="progressive-img progressive-not-loaded" src="https://www.tutorialspoint.com/videotutorials/images/default_course_logo.png" alt="Continuity &amp; Differentiability Image"> 
+          <div class="vd_course_title"> 
+           <div class="vd_header" style="background-color:#00aeef" title="Continuity &amp; Differentiability">
+             Continuity &amp; Differentiabi 
+           </div> 
+           <div class="clear"></div> 
+           <div class="vd_category"> 
+            <p><span>Published on</span><b><i class="fa-calendar"></i>&nbsp;&nbsp;2017-12-31</b></p> 
+           </div> 
+          </div> </a> 
+        </div> 
+        <div class="clear"></div> 
+        <div class="vd_author_title"> 
+         <a href="https://www.tutorialspoint.com/videotutorials/profile/Ridhi-Arora" target="_blank" title="View Ridhi Arora Profile "> <img src="https://www.tutorialspoint.com/assets/profiles/12234/profile/60_170044-1511789326.jpg" alt="Ridhi Arora"> <span>Ridhi Arora</span> </a> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vd_course" title=".NET Framework Online Training"> 
+         <a href="https://www.tutorialspoint.com/net_framework_online_training/index.asp"> <img data-type="png?t=1521843219" data-ctype="C" data-progressive="https://www.tutorialspoint.com/assets/videos/courses/153/images/course_153_image" class="progressive-img progressive-not-loaded" src="https://www.tutorialspoint.com/videotutorials/images/default_course_logo.png" alt=".NET Framework Online Training Image"> 
+          <div class="vd_course_title"> 
+           <div class="vd_header" style="background-color:#33ace7" title=".NET Framework Online Training">
+             .NET Framework Online Training 
+           </div> 
+           <div class="clear"></div> 
+           <div class="vd_category"> 
+            <p><span>Published on</span><b><i class="fa-calendar"></i>&nbsp;&nbsp;2017-12-29</b></p> 
+           </div> 
+          </div> </a> 
+        </div> 
+        <div class="clear"></div> 
+        <div class="vd_author_title"> 
+         <a href="https://www.tutorialspoint.com/videotutorials/profile/Anadi-Sharma" target="_blank" title="View Anadi Sharma Profile "> <img src="https://www.tutorialspoint.com/assets/profiles/8540/profile/60_25031-1511174557.jpg" alt="Anadi Sharma"> <span>Anadi Sharma</span> </a> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vd_course" title="Relation &amp; Function"> 
+         <a href="https://www.tutorialspoint.com/relation_and_function/index.asp"> <img data-type="png?t=1521843219" data-ctype="C" data-progressive="https://www.tutorialspoint.com/assets/videos/courses/152/images/course_152_image" class="progressive-img progressive-not-loaded" src="https://www.tutorialspoint.com/videotutorials/images/default_course_logo.png" alt="Relation &amp; Function Image"> 
+          <div class="vd_course_title"> 
+           <div class="vd_header" style="background-color:#288eaf" title="Relation &amp; Function">
+             Relation &amp; Function 
+           </div> 
+           <div class="clear"></div> 
+           <div class="vd_category"> 
+            <p><span>Published on</span><b><i class="fa-calendar"></i>&nbsp;&nbsp;2017-12-29</b></p> 
+           </div> 
+          </div> </a> 
+        </div> 
+        <div class="clear"></div> 
+        <div class="vd_author_title"> 
+         <a href="https://www.tutorialspoint.com/videotutorials/profile/Ridhi-Arora" target="_blank" title="View Ridhi Arora Profile "> <img src="https://www.tutorialspoint.com/assets/profiles/12234/profile/60_170044-1511789326.jpg" alt="Ridhi Arora"> <span>Ridhi Arora</span> </a> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vd_course" title="Inverse Trigonometric Function"> 
+         <a href="https://www.tutorialspoint.com/inverse_trigonometric_function/index.asp"> <img data-type="png?t=1521843219" data-ctype="C" data-progressive="https://www.tutorialspoint.com/assets/videos/courses/150/images/course_150_image" class="progressive-img progressive-not-loaded" src="https://www.tutorialspoint.com/videotutorials/images/default_course_logo.png" alt="Inverse Trigonometric Function Image"> 
+          <div class="vd_course_title"> 
+           <div class="vd_header" style="background-color:#ed194c" title="Inverse Trigonometric Function">
+             Inverse Trigonometric Function 
+           </div> 
+           <div class="clear"></div> 
+           <div class="vd_category"> 
+            <p><span>Published on</span><b><i class="fa-calendar"></i>&nbsp;&nbsp;2017-12-28</b></p> 
+           </div> 
+          </div> </a> 
+        </div> 
+        <div class="clear"></div> 
+        <div class="vd_author_title"> 
+         <a href="https://www.tutorialspoint.com/videotutorials/profile/Ridhi-Arora" target="_blank" title="View Ridhi Arora Profile "> <img src="https://www.tutorialspoint.com/assets/profiles/12234/profile/60_170044-1511789326.jpg" alt="Ridhi Arora"> <span>Ridhi Arora</span> </a> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vid_googlead"> 
+         <script type="text/javascript"><!--
+                               google_ad_client = "pub-7133395778201029";
+                               google_ad_width = 250;
+                               google_ad_height = 250;
+                               google_ad_format = "250x250_as";
+                               google_ad_type = "image";
+                               google_ad_channel ="";
+                               //--></script> 
+         <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js"></script> 
+        </div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vd_course" title="SAP Basis Online Training"> 
+         <a href="https://www.tutorialspoint.com/sap_basis_online_training/index.asp"> <img data-type="png?t=1521843219" data-ctype="C" data-progressive="https://www.tutorialspoint.com/assets/videos/courses/148/images/course_148_image" class="progressive-img progressive-not-loaded" src="https://www.tutorialspoint.com/videotutorials/images/default_course_logo.png" alt="SAP Basis Online Training Image"> 
+          <div class="vd_course_title"> 
+           <div class="vd_header" style="background-color:#036db0" title="SAP Basis Online Training">
+             SAP Basis Online Training 
+           </div> 
+           <div class="clear"></div> 
+           <div class="vd_category"> 
+            <p><span>Published on</span><b><i class="fa-calendar"></i>&nbsp;&nbsp;2017-12-28</b></p> 
+           </div> 
+          </div> </a> 
+        </div> 
+        <div class="clear"></div> 
+        <div class="vd_author_title"> 
+         <a href="https://www.tutorialspoint.com/videotutorials/profile/Sumit-Agarwal" target="_blank" title="View Sumit Agarwal Profile "> <img src="https://www.tutorialspoint.com/assets/profiles/15874/profile/60_131070-1514443981.png" alt="Sumit Agarwal"> <span>Sumit Agarwal</span> </a> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vd_course" title="Eclipse Online Training"> 
+         <a href="https://www.tutorialspoint.com/eclipse_online_training/index.asp"> <img data-type="png?t=1521843219" data-ctype="C" data-progressive="https://www.tutorialspoint.com/assets/videos/courses/147/images/course_147_image" class="progressive-img progressive-not-loaded" src="https://www.tutorialspoint.com/videotutorials/images/default_course_logo.png" alt="Eclipse Online Training Image"> 
+          <div class="vd_course_title"> 
+           <div class="vd_header" style="background-color:#342f6f" title="Eclipse Online Training">
+             Eclipse Online Training 
+           </div> 
+           <div class="clear"></div> 
+           <div class="vd_category"> 
+            <p><span>Published on</span><b><i class="fa-calendar"></i>&nbsp;&nbsp;2017-12-28</b></p> 
+           </div> 
+          </div> </a> 
+        </div> 
+        <div class="clear"></div> 
+        <div class="vd_author_title"> 
+         <a href="https://www.tutorialspoint.com/videotutorials/profile/Amit-Diwan-31676" target="_blank" title="View Amit Diwan Profile "> <img src="https://www.tutorialspoint.com/assets/profiles/14888/profile/60_136456-1514445571.jpg" alt="Amit Diwan"> <span>Amit Diwan</span> </a> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vd_course" title="Android Penetration Testing"> 
+         <a href="https://www.tutorialspoint.com/android_penetration_testing/index.asp"> <img data-type="png?t=1521843219" data-ctype="C" data-progressive="https://www.tutorialspoint.com/assets/videos/courses/146/images/course_146_image" class="progressive-img progressive-not-loaded" src="https://www.tutorialspoint.com/videotutorials/images/default_course_logo.png" alt="Android Penetration Testing Image"> 
+          <div class="vd_course_title"> 
+           <div class="vd_header" style="background-color:#b83446" title="Android Penetration Testing">
+             Android Penetration Testing 
+           </div> 
+           <div class="clear"></div> 
+           <div class="vd_category"> 
+            <p><span>Published on</span><b><i class="fa-calendar"></i>&nbsp;&nbsp;2017-12-28</b></p> 
+           </div> 
+          </div> </a> 
+        </div> 
+        <div class="clear"></div> 
+        <div class="vd_author_title"> 
+         <a href="https://www.tutorialspoint.com/videotutorials/profile/Sharad-Kumar" target="_blank" title="View Sharad Kumar Profile "> <img src="https://www.tutorialspoint.com/assets/profiles/7185/profile/60_162068-1511174364.jpg" alt="Sharad Kumar"> <span>Sharad Kumar</span> </a> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vd_course" title="SAP ABAP Online Training"> 
+         <a href="https://www.tutorialspoint.com/sap_abap_online_training/index.asp"> <img data-type="png?t=1521843219" data-ctype="C" data-progressive="https://www.tutorialspoint.com/assets/videos/courses/143/images/course_143_image" class="progressive-img progressive-not-loaded" src="https://www.tutorialspoint.com/videotutorials/images/default_course_logo.png" alt="SAP ABAP Online Training Image"> 
+          <div class="vd_course_title"> 
+           <div class="vd_header" style="background-color:#036db0" title="SAP ABAP Online Training">
+             SAP ABAP Online Training 
+           </div> 
+           <div class="clear"></div> 
+           <div class="vd_category"> 
+            <p><span>Published on</span><b><i class="fa-calendar"></i>&nbsp;&nbsp;2017-12-27</b></p> 
+           </div> 
+          </div> </a> 
+        </div> 
+        <div class="clear"></div> 
+        <div class="vd_author_title"> 
+         <a href="https://www.tutorialspoint.com/videotutorials/profile/Sanjo-Thomas" target="_blank" title="View Sanjo Thomas Profile "> <img src="https://www.tutorialspoint.com/assets/profiles/15329/profile/60_167616-1513849208.jpg" alt="Sanjo Thomas"> <span>Sanjo Thomas</span> </a> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="vd_box vd_box_h col-md-3 col-sm-4 col-lg-3"> 
+        <div class="vid_googlead"> 
+         <script type="text/javascript"><!--
+                               google_ad_client = "pub-7133395778201029";
+                               google_ad_width = 250;
+                               google_ad_height = 250;
+                               google_ad_format = "250x250_as";
+                               google_ad_type = "image";
+                               google_ad_channel ="";
+                               //--></script> 
+         <script type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/show_ads.js"></script> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="clear"></div> 
+      <div class="job-index"> 
+       <div class="pages"> 
+        <a title="Go to page 1 of 12" class="current number" href="https://www.tutorialspoint.com/videotutorials/index.htm?page=1">1</a> 
+        <a class="number" title="Go to page 2 of 12" href="https://www.tutorialspoint.com/videotutorials/index.htm?page=2">2</a> 
+        <a class="number" title="Go to page 3 of 12" href="https://www.tutorialspoint.com/videotutorials/index.htm?page=3">3</a> 
+        <a class="number" title="Go to page 4 of 12" href="https://www.tutorialspoint.com/videotutorials/index.htm?page=4">4</a> 
+        <a class="number" title="Go to page 5 of 12" href="https://www.tutorialspoint.com/videotutorials/index.htm?page=5">5</a> 
+        <a class="number" title="Go to page 6 of 12" href="https://www.tutorialspoint.com/videotutorials/index.htm?page=6">6</a> 
+        <a class="number" title="Go to page 7 of 12" href="https://www.tutorialspoint.com/videotutorials/index.htm?page=7">7</a> ... 
+        <a class="number" title="Go to page 12 of 12" href="https://www.tutorialspoint.com/videotutorials/index.htm?page=12">12</a> 
+        <a href="https://www.tutorialspoint.com/videotutorials/index.htm?page=2" title="Next Page">Next <i class="fa-arrow-right"></i></a> 
+       </div> 
+      </div> 
+      <br> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <script>
+	$(document).ready(function () {
+		progressively.init({});
+	});
+</script> 
+  <footer class="inner"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="footer-ribon"> 
+      <span>Extras</span> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Mobile First</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><a class="iphone" href="https://itunes.apple.com/us/app/tutorials-point/id914891263?ls=1&amp;mt=8" target="_blank" rel="nofollow"><img alt="tutorialspoint iPhone App" src="/images/apple_store.jpg" class="mobile-apps"></a></li> 
+       <li><a class="android" href="https://play.google.com/store/apps/details?id=com.tutorialspoint.onlineviewer" target="_blank" rel="nofollow"><img alt="tutorialspoint Android app" src="/images/google_play.jpg" class="mobile-apps"></a></li> 
+       <li><a class="microsoft" href="http://www.windowsphone.com/s?appid=91249671-7184-4ad6-8a5f-d11847946b09" target="_blank" rel="nofollow"><img alt="tutorialspoint Windows app" src="/images/windows_store.jpg" class="mobile-apps"></a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>About us</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/index.htm">Company</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_team.htm">Our Team</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_careers.htm">Careers</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_privacy.htm">Privacy Policy</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_terms_of_use.htm">Terms of use</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Extra Links</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="icon icon-caret-right"></i> <a href="articles">Articles</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="online_dev_tools.htm">Dev Tools</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="online_file_conversion.htm">File Conversion</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="shared-tutorials.php">Shared Tutorials</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="https://www.tutorialspoint.com/netmeeting.php">NetMeeting</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="https://www.tutorialspoint.com/free_online_whiteboard.htm">Whiteboard</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="contact-details"> 
+       <h4>Contact Us</h4> 
+       <ul class="contact"> 
+        <li><p><i class="icon icon-map-marker"></i> <strong>Address:</strong> 3rd Floor, Jyoti Celestia, Madhapur, Hyderabad, Telangana 500081</p></li> 
+        <li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="about/contact_us.htm">Click Here</a></p></li> 
+        <li><p><i class="icon icon-dribbble"></i> <strong>Website:</strong> <a href="http://www.tutorialspoint.com">www.tutorialspoint.com</a></p></li> 
+       </ul> 
+      </div> 
+      <div class="social-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="http://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="http://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2017. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div>  
+   <div id="popupDiv" class="overlay"> 
+    <div class="popup"> 
+     <a class="imageclose" href="javascript:void(0);" id="popupDivClose"> <i class="fa-close"></i> </a> 
+     <div id="popupDivContent"> 
+     </div> 
+    </div> 
+   </div> 
+  </footer> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/videotutorials/js/progressively.js"></script> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com//theme/js/custom-min.js"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+	_uacct = "UA-232293-6";
+	urchinTracker();
+	$('.greyout').click(function(){
+		$('.wrapLoader').show();
+	});
+</script>  
+ </body>
+</html>

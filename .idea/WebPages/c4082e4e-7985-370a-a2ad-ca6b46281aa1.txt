@@ -1,0 +1,1429 @@
+https://stackoverflow.com/unanswered
+<!doctype html>
+<html>
+ <head> 
+  <title>Highly Voted Unanswered Questions - Stack Overflow</title> 
+  <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d"> 
+  <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a"> 
+  <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:url" content="https://stackoverflow.com/unanswered"> 
+  <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:domain" content="stackoverflow.com"> 
+  <meta name="twitter:title" property="og:title" itemprop="title name" content="Highly Voted Unanswered Questions"> 
+  <meta name="twitter:description" property="og:description" itemprop="description" content="Stack Overflow | The World’s Largest Online Community for Developers"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+  <script src="https://cdn.sstatic.net/Js/stub.en.js?v=57e020fde11a"></script> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=596945d5421b"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=94cd993a63cf"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=13dc725d5020"> 
+  <script>
+        StackExchange.init({"locale":"en","serverTime":1521843109,"routeName":"Unanswered/List","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"childUrl":"https://meta.stackoverflow.com","enableSocialMediaInSharePopup":true,"protocol":"https"},"timingsGuid":"dff0cfc4-2c31-4308-8193-59842daa83ae","timingsInfo":"/HWPcjlsPCfVVkoplHiVsx7cmVi+jKC18LIdvF4vj18YxJw164jMyPDmpvnMIk4i1qzTR4cbPdX3XwWksxwZKxK7+PPnUqBCvvXHLXuLdm90rOgbdq5pAfIfQWSx120lui0h9wzmJU7lkOhYcMecs0aC2kwy/MXUQYfp9/fbLrt6cpDBF+VjqqdI3Q9oLVfJYsSKGSxMhqoqPqWH1VPy6yrKhc8E8iaj8i1rWSfEY6s=","user":{"fkey":"d16a35da63103e8b1162221b85b5952621651c541085caea15d1785affbc32a4","tid":"6d2797ec-2847-77a8-87d0-63fa72a3d354","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4}}, {"site":{"allowImageUploads":true,"commentHighlightingWithCSS":true,"enableUserHovercards":true,"styleCode":true,"enableImgurHttps":true,"forceHttpsImages":true},"userMessaging":{},"comments":{},"userProfile":{"openGraphAPIKey":"58740831ad23540e00c58987"},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"paths":{},"markdown":{"asteriskIntraWordEmphasis":true},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad"},"subscriptions":{}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"fd71fcd78b2c","js/moderator.en.js":"d350b664ddb3","js/full-anon.en.js":"81c19a49c169","js/full.en.js":"6d6c19847a8b","js/wmd.en.js":"a349c871bd62","js/third-party/jquery.autocomplete.min.js":"bdb258e949a8","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"4804a16f7074","js/help.en.js":"a1c2d4ed1321","js/tageditor.en.js":"bff66e3469d5","js/tageditornew.en.js":"586ffe22ab58","js/inline-tag-editing.en.js":"e7aa31e8eba1","js/revisions.en.js":"8f22ba768cac","js/review.en.js":"5eda79317cf4","js/tagsuggestions.en.js":"78eee7c19ab2","js/post-validation.en.js":"ec745f184617","js/explore-qlist.en.js":"66e52888786d","js/events.en.js":"8f07ed802b6b","js/keyboard-shortcuts.en.js":"8588a17139dd","js/external-editor.en.js":"3c50622b803d","js/adops.en.js":"22a9bd59b1e9","js/external-editor.en.js":"3c50622b803d","js/snippet-javascript.en.js":"6596eb95a324","js/snippet-javascript-codemirror.en.js":"6e1735fcf180"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script> 
+  <noscript id="noscript-css">
+   <style>body,.top-bar{margin-top:1.9em}</style>
+  </noscript> 
+ </head> 
+ <body class="unanswered-page new-topbar"> 
+  <script async src="https://js-sec.indexww.com/ht/p/185901-159836282584097.js"></script> 
+  <div id="notify-container"></div> 
+  <div id="custom-header"></div> 
+  <header class="top-bar js-top-bar _fixed"> 
+   <div class="-container"> 
+    <div class="-main"> 
+     <a href="https://stackoverflow.com" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:23, destination:8})"> <span class="-img">Stack Overflow</span> </a> 
+     <nav class="navigation" role="navigation" aria-label="site navigation"> 
+      <ol class="-list"> 
+       <li class="-item"> <a id="nav-questions" href="/questions" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:23, destination:1})">Questions</a> </li> 
+       <li class="-item"> <a id="nav-jobs" href="/jobs?med=site-ui&amp;ref=jobs-tab" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:23, destination:6})">Developer Jobs</a> </li> 
+       <li class="-item"> <a id="nav-tags" href="/tags" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:23, destination:2})">Tags</a> </li> 
+       <li class="-item"> <a id="nav-users" href="/users" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:23, destination:3})">Users</a> </li> 
+      </ol> 
+     </nav> 
+    </div> 
+    <form id="search" action="/search" method="get" class="searchbar" autocomplete="off" role="search"> 
+     <input name="q" type="text" placeholder="Search…" value="" tabindex="1" autocomplete="off" maxlength="240" class="f-input js-search-field"> 
+     <button type="submit" aria-label="Search..." class="btn-topbar-primary js-search-submit">
+      <svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewbox="0 0 18 18">
+       <path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z" />
+      </svg></button> 
+    </form> 
+    <div class="-actions"> 
+     <nav class="secondary-nav"> 
+      <div class="-dialog-container js-topbar-dialog-corral"> 
+       <div class="topbar-dialog siteSwitcher-dialog dno"> 
+        <div class="header"> 
+         <h3><a href="https://stackoverflow.com">current community</a> </h3> 
+        </div> 
+        <div class="modal-content current-site-container"> 
+         <ul class="current-site"> 
+          <li> 
+           <div class="related-links"> 
+            <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:14 })">help</a> 
+            <a href="https://chat.stackoverflow.com" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a> 
+           </div> <a href="https://stackoverflow.com" class="current-site-link site-link js-gps-track" data-id="1" data-gps-track="site_switcher.click({ item_type:3 })"> 
+            <div class="favicon favicon-stackoverflow site-icon" title="Stack Overflow"></div> Stack Overflow </a> </li> 
+          <li class="related-site"> 
+           <div class="L-shaped-icon-container"> 
+            <span class="L-shaped-icon"></span> 
+           </div> <a href="https://meta.stackoverflow.com" class="site-link js-gps-track" data-id="552" data-gps-track="site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })"> 
+            <div class="favicon favicon-stackoverflowmeta site-icon" title="Meta Stack Overflow"></div> Meta Stack Overflow </a> </li> 
+         </ul> 
+        </div> 
+        <div class="header" id="your-communities-header"> 
+         <h3> your communities </h3> 
+        </div> 
+        <div class="modal-content" id="your-communities-section"> 
+         <div class="call-to-login"> 
+          <a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or 
+          <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2funanswered" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list. 
+         </div> 
+        </div> 
+        <div class="header"> 
+         <h3><a href="https://stackexchange.com/sites">more stack exchange communities</a> </h3> 
+         <a href="https://stackoverflow.blog" class="fr">company blog</a> 
+        </div> 
+        <div class="modal-content"> 
+         <div class="child-content"></div> 
+        </div> 
+       </div> 
+       <div class="topbar-dialog help-dialog js-help-dialog dno"> 
+        <div class="modal-content"> 
+         <ul> 
+          <li> <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })"> Tour <span class="item-summary"> Start here for a quick overview of the site </span> </a> </li> 
+          <li> <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })"> Help Center <span class="item-summary"> Detailed answers to any questions you might have </span> </a> </li> 
+          <li> <a href="https://meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })"> Meta <span class="item-summary"> Discuss the workings and policies of this site </span> </a> </li> 
+          <li> <a href="https://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })"> About Us <span class="item-summary"> Learn more about Stack Overflow the company </span> </a> </li> 
+          <li> <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })"> Business <span class="item-summary"> Learn more about hiring developers or posting ads with us </span> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+      <ol class="-list"> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages"> 
+         <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewbox="0 0 20 18">
+          <path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z" />
+         </svg> <span class="indicator-badge js-unread-count _important" style="display: none;"></span> </a> </li> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive"> 
+         <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z" />
+         </svg> <span class="indicator-badge js-unread-count _positive" style="display: none;"></span> </a> </li> 
+       <li class="-item"><a href="#" class="-link js-help-button" title="Help Center and other resources"> 
+         <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z" />
+         </svg> </a></li> 
+       <li class="-item"> <a href="https://stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 172 Stack Exchange sites"> 
+         <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z" />
+         </svg> </a> </li> 
+      </ol> 
+     </nav> 
+     <div class="-ctas"> 
+      <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2funanswered" class="login-link btn-clear" rel="nofollow">Log In</a> 
+      <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link btn-topbar-primary" rel="nofollow" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]">Sign Up</a> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+        StackExchange.scrollPadding.setPaddingTop(60, 10);     </script> 
+  <div id="announcement-banner" data-campaign="2018-03-13.dev-survey-2018" data-cookie="notice-dsr" data-expire-date="1524211200000"> 
+   <div class="-container"> 
+    <span class="-body">The results are in!</span> 
+    <a class="-link js-link js-gps-track" href="https://insights.stackoverflow.com/survey/2018/" data-ga="[&quot;dev-survey-2018&quot;,&quot;Announcement Banner&quot;,&quot;https://insights.stackoverflow.com/survey/2018/&quot;,null,{&quot;dimension4&quot;:&quot;dev-survey-2018&quot;}]" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 23, action: 2})">See the 2018 Developer Survey results. »</a> 
+    <a class="-dismiss js-dismiss js-gps-track" href="#" title="dismiss" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 23, action: 1})">
+     <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewbox="0 0 18 18">
+      <path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z" />
+     </svg></a> 
+   </div> 
+  </div> 
+  <script>
+    StackExchange.ready(function () {
+        var $banner = $('#announcement-banner');
+
+        function setCookie(value) {
+            $.cookie($banner.data('cookie'), value, {
+                expires: (new Date($banner.data('expire-date'))),
+                path: '/'
+            });
+        }
+
+        $banner.find('.js-link').click(function () {
+            setCookie('2;' + Date.now());
+        });
+
+        $banner.find('.js-dismiss').click(function () {
+            setCookie('4;' + Date.now());
+            $banner.animate({ height: '0', opacity: 0 }, 'fast', 'linear', function () { $banner.remove(); });
+            return false;
+        });
+    });
+</script> 
+  <div class="container"> 
+   <div id="content" class="snippet-hidden"> 
+    <div id="mainbar"> 
+     <div class="subheader"> 
+      <h1 id="h-unanswered-questions">Unanswered Questions</h1> 
+      <div id="tabs"> 
+       <a href="/unanswered/tagged?tab=mytags" data-nav-xhref="" title="questions with tags that I've participated" data-value="mytags" data-shortcut="M"> my tags</a> 
+       <a href="/unanswered/tagged/?tab=newest" data-nav-xhref="" title="newest unanswered questions" data-value="newest" data-shortcut="N"> newest</a> 
+       <a class="youarehere " href="/unanswered/tagged/?tab=votes" data-nav-xhref="" title="highest voted unanswered questions" data-value="votes" data-shortcut="V"> votes</a> 
+       <a href="/unanswered/tagged/?tab=noanswers" data-nav-xhref="" title="questions with no answers" data-value="noanswers" data-shortcut="O"> no answers</a> 
+       <a id="tab-switch" href="/questions" data-nav-xhref="" title="Switch to all questions tabs" data-value="" data-shortcut="A"> all questions</a> 
+      </div> 
+     </div> 
+     <div id="questions"> 
+      <div class="question-summary" id="question-summary-26914692"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>249</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views warm" title="5,065 views">
+          5k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/26914692/scalaz-iteratees-lifting-enumeratort-to-match-iterateet-for-a-bigger-mo" class="question-hyperlink">Scalaz iteratees: “Lifting” `EnumeratorT` to match `IterateeT` for a “bigger” monad</a></h3> 
+        <div class="excerpt">
+          If I have an EnumeratorT and a corresponding IterateeT I can run them together: val en: EnumeratorT[String, Task] = EnumeratorT.enumList(List("a", "b", "c")) val it: IterateeT[String, Task, Int] = ... 
+        </div> 
+        <div class="tags t-scala t-monads t-scalaz t-enumerator t-iteratee"> 
+         <a href="/questions/tagged/scala" class="post-tag" title="show questions tagged 'scala'" rel="tag">scala</a> 
+         <a href="/questions/tagged/monads" class="post-tag" title="show questions tagged 'monads'" rel="tag">monads</a> 
+         <a href="/questions/tagged/scalaz" class="post-tag" title="show questions tagged 'scalaz'" rel="tag">scalaz</a> 
+         <a href="/questions/tagged/enumerator" class="post-tag" title="show questions tagged 'enumerator'" rel="tag">enumerator</a> 
+         <a href="/questions/tagged/iteratee" class="post-tag" title="show questions tagged 'iteratee'" rel="tag">iteratee</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time"> 
+           <a href="/questions/26914692/scalaz-iteratees-lifting-enumeratort-to-match-iterateet-for-a-bigger-mo" class="started-link">modified <span title="2018-03-16 11:42:38Z" class="relativetime">Mar 16 at 11:42</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/9460261/s-g">
+            <div class="gravatar-wrapper-32">
+             <img src="https://lh3.googleusercontent.com/-LRNsb7tG_hg/AAAAAAAAAAI/AAAAAAAAA7M/bK9MPOBln4I/photo.jpg?sz=32" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/9460261/s-g">S G</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">247</span>
+            <span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-36154375"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>114</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views warm" title="1,495 views">
+          1k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/36154375/android-content-experiments-with-tag-manager-not-showing-sessions-after-several" class="question-hyperlink">Android Content Experiments with Tag Manager not showing sessions after several days</a></h3> 
+        <div class="excerpt">
+          I followed the steps here to the letter and set up a content experiment for our Android app: https://support.google.com/tagmanager/answer/6003007?hl=en We've had Analytics in our app for several ... 
+        </div> 
+        <div class="tags t-android t-google-analytics t-google-tag-manager t-content-experiments"> 
+         <a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="//i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> 
+         <a href="/questions/tagged/google-analytics" class="post-tag" title="show questions tagged 'google-analytics'" rel="tag"><img src="//i.stack.imgur.com/6HFc3.png" height="16" width="18" alt="" class="sponsor-tag-img">google-analytics</a> 
+         <a href="/questions/tagged/google-tag-manager" class="post-tag" title="show questions tagged 'google-tag-manager'" rel="tag"><img src="//i.stack.imgur.com/hscIK.png" height="16" width="18" alt="" class="sponsor-tag-img">google-tag-manager</a> 
+         <a href="/questions/tagged/content-experiments" class="post-tag" title="show questions tagged 'content-experiments'" rel="tag">content-experiments</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info user-hover"> 
+          <div class="user-action-time"> 
+           <a href="/questions/36154375/android-content-experiments-with-tag-manager-not-showing-sessions-after-several/?lastactivity" class="started-link">modified <span title="2018-03-09 22:44:13Z" class="relativetime">Mar 9 at 22:44</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/-1/community">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/a007be5a61f6aa8f3e85ae2fc18dd66e?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/-1/community">Community</a>
+           <span class="mod-flair" title="moderator">♦</span> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+            <span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-8418857"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>87</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="828 views">
+          828 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/8418857/mbunit-under-linux-used-within-an-f-project" class="question-hyperlink">MbUnit under Linux, used within an F# project?</a></h3> 
+        <div class="excerpt">
+          I tried asking this on the gallio-users list, but the question failed to appear (Google Groups says the post was successful). I suppose the list might be moderated by someone who does not read his ... 
+        </div> 
+        <div class="tags t-ubuntu t-fñ t-mono t-mbunit t-gallio"> 
+         <a href="/questions/tagged/ubuntu" class="post-tag" title="show questions tagged 'ubuntu'" rel="tag">ubuntu</a> 
+         <a href="/questions/tagged/f%23" class="post-tag" title="show questions tagged 'f#'" rel="tag">f#</a> 
+         <a href="/questions/tagged/mono" class="post-tag" title="show questions tagged 'mono'" rel="tag">mono</a> 
+         <a href="/questions/tagged/mbunit" class="post-tag" title="show questions tagged 'mbunit'" rel="tag">mbunit</a> 
+         <a href="/questions/tagged/gallio" class="post-tag" title="show questions tagged 'gallio'" rel="tag">gallio</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time"> 
+           <a href="/questions/8418857/mbunit-under-linux-used-within-an-f-project" class="started-link">modified <span title="2017-12-13 02:11:36Z" class="relativetime">Dec 13 '17 at 2:11</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/5658350/dhiatn">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/3vhKa.png?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/5658350/dhiatn">DhiaTN</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">4,120</span>
+            <span title="9 gold badges"><span class="badge1"></span><span class="badgecount">9</span></span>
+            <span title="23 silver badges"><span class="badge2"></span><span class="badgecount">23</span></span>
+            <span title="38 bronze badges"><span class="badge3"></span><span class="badgecount">38</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-41027747"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>84</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views warm" title="4,067 views">
+          4k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/41027747/query-local-bitcoin-blockchain-with-c-sharp-net" class="question-hyperlink">Query LOCAL Bitcoin blockchain with C# .NET</a></h3> 
+        <div class="excerpt">
+          I am trying to check the balance of a given Bitcoin address by using ONLY the locally stored blockchain (downloaded via Bitcoin Core). Something similar to this (by using NBitCoin and/or QBitNinja), ... 
+        </div> 
+        <div class="tags t-cñ t-ûnet t-bitcoin t-blockchain"> 
+         <a href="/questions/tagged/c%23" class="post-tag" title="show questions tagged 'c#'" rel="tag">c#</a> 
+         <a href="/questions/tagged/.net" class="post-tag" title="show questions tagged '.net'" rel="tag">.net</a> 
+         <a href="/questions/tagged/bitcoin" class="post-tag" title="show questions tagged 'bitcoin'" rel="tag">bitcoin</a> 
+         <a href="/questions/tagged/blockchain" class="post-tag" title="show questions tagged 'blockchain'" rel="tag">blockchain</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time"> 
+           <a href="/questions/41027747/query-local-bitcoin-blockchain-with-c-sharp-net" class="started-link">modified <span title="2017-12-27 18:10:45Z" class="relativetime">Dec 27 '17 at 18:10</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/8465774/milad-rashidi">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/C9lG1.png?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/8465774/milad-rashidi">Milad Rashidi</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">675</span>
+            <span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span>
+            <span title="7 silver badges"><span class="badge2"></span><span class="badgecount">7</span></span>
+            <span title="26 bronze badges"><span class="badge3"></span><span class="badgecount">26</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-38856677"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>68</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views warm" title="1,034 views">
+          1k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/38856677/jstestdriver-on-netbeans-stops-testing-after-a-failed-assertion" class="question-hyperlink">JsTestDriver on NetBeans stops testing after a failed assertion</a></h3> 
+        <div class="excerpt">
+          I have set up JavaScript unit testing with JS Test Driver on Netbeans as per this link. I can have all tests run by command line. (On Windows PowerShell). Running as follows, tests do not stop ... 
+        </div> 
+        <div class="tags t-javascript t-netbeans t-js-test-driver"> 
+         <a href="/questions/tagged/javascript" class="post-tag" title="show questions tagged 'javascript'" rel="tag">javascript</a> 
+         <a href="/questions/tagged/netbeans" class="post-tag" title="show questions tagged 'netbeans'" rel="tag">netbeans</a> 
+         <a href="/questions/tagged/js-test-driver" class="post-tag" title="show questions tagged 'js-test-driver'" rel="tag">js-test-driver</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info user-hover"> 
+          <div class="user-action-time"> 
+           <a href="/questions/38856677/jstestdriver-on-netbeans-stops-testing-after-a-failed-assertion/?lastactivity" class="started-link">modified <span title="2018-03-07 03:43:53Z" class="relativetime">Mar 7 at 3:43</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/4172515/fool-dev">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/BYWxd.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/4172515/fool-dev">fool-dev</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">3,241</span>
+            <span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span>
+            <span title="14 silver badges"><span class="badge2"></span><span class="badgecount">14</span></span>
+            <span title="36 bronze badges"><span class="badge3"></span><span class="badgecount">36</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-44579839"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>66</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views warm" title="2,169 views">
+          2k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/44579839/ios-revert-camera-projection" class="question-hyperlink">iOS revert camera projection</a></h3> 
+        <div class="excerpt">
+          I'm trying to estimate my device position related to a QR code in space. I'm using ARKit and the Vision framework, both introduced in iOS11, but the answer to this question probably doesn't depend on ... 
+        </div> 
+        <div class="tags t-ios t-camera t-scenekit t-projection t-arkit"> 
+         <a href="/questions/tagged/ios" class="post-tag" title="show questions tagged 'ios'" rel="tag">ios</a> 
+         <a href="/questions/tagged/camera" class="post-tag" title="show questions tagged 'camera'" rel="tag">camera</a> 
+         <a href="/questions/tagged/scenekit" class="post-tag" title="show questions tagged 'scenekit'" rel="tag">scenekit</a> 
+         <a href="/questions/tagged/projection" class="post-tag" title="show questions tagged 'projection'" rel="tag">projection</a> 
+         <a href="/questions/tagged/arkit" class="post-tag" title="show questions tagged 'arkit'" rel="tag">arkit</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time"> 
+           <a href="/questions/44579839/ios-revert-camera-projection/?lastactivity" class="started-link">modified <span title="2018-01-06 19:02:11Z" class="relativetime">Jan 6 at 19:02</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/9182154/john">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/0e40cf8ed2304ad3c676342d1f967d97?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/9182154/john">John</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+            <span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-31971914"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>65</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="930 views">
+          930 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/31971914/add-a-new-native-class-to-webworkers-context-in-javascriptcore" class="question-hyperlink">Add a new native class to WebWorker's context in JavaScriptCore</a></h3> 
+        <div class="excerpt">
+          I have an application that extends JavaScript via JavaScriptCore, in a webkit-gtk browser. Right now I have several classes that I add to the global context like so: void create_js(gpointer context, ... 
+        </div> 
+        <div class="tags t-webkit t-javascriptcore"> 
+         <a href="/questions/tagged/webkit" class="post-tag" title="show questions tagged 'webkit'" rel="tag">webkit</a> 
+         <a href="/questions/tagged/javascriptcore" class="post-tag" title="show questions tagged 'javascriptcore'" rel="tag">javascriptcore</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time"> 
+           <a href="/questions/31971914/add-a-new-native-class-to-webworkers-context-in-javascriptcore" class="started-link">modified <span title="2018-01-11 22:22:22Z" class="relativetime">Jan 11 at 22:22</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/1678468/riot">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/2454a57e640ffe876e577948d010d15f?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/1678468/riot">Riot</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">9,640</span>
+            <span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span>
+            <span title="35 silver badges"><span class="badge2"></span><span class="badgecount">35</span></span>
+            <span title="51 bronze badges"><span class="badge3"></span><span class="badgecount">51</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-12163932"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>64</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views warm" title="5,313 views">
+          5k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/12163932/retrieve-calendar-items-outlook-api-webdav-displaying-strange-behaviour" class="question-hyperlink">Retrieve calendar items (Outlook API, WebDAV) displaying strange behaviour</a></h3> 
+        <div class="excerpt">
+          We are writing an MS Outlook plugin. To satisfy our business-logic, it should check all appointments between some dates. We are experiencing several problems with retrieving all items from calendars. ... 
+        </div> 
+        <div class="tags t-outlook t-exchange-server t-webdav t-outlook-object-model"> 
+         <a href="/questions/tagged/outlook" class="post-tag" title="show questions tagged 'outlook'" rel="tag">outlook</a> 
+         <a href="/questions/tagged/exchange-server" class="post-tag" title="show questions tagged 'exchange-server'" rel="tag">exchange-server</a> 
+         <a href="/questions/tagged/webdav" class="post-tag" title="show questions tagged 'webdav'" rel="tag">webdav</a> 
+         <a href="/questions/tagged/outlook-object-model" class="post-tag" title="show questions tagged 'outlook-object-model'" rel="tag">outlook-object-model</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time"> 
+           <a href="/questions/12163932/retrieve-calendar-items-outlook-api-webdav-displaying-strange-behaviour" class="started-link">modified <span title="2018-01-24 15:57:20Z" class="relativetime">Jan 24 at 15:57</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/2225787/agi-hammerthief">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/kqVps.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/2225787/agi-hammerthief">Agi Hammerthief</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">986</span>
+            <span title="12 silver badges"><span class="badge2"></span><span class="badgecount">12</span></span>
+            <span title="23 bronze badges"><span class="badge3"></span><span class="badgecount">23</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-43287685"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>55</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views warm" title="3,480 views">
+          3k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/43287685/xcode-8-3-libmobilegestalt-mobilegestaltsupport-m153" class="question-hyperlink">Xcode 8.3 libMobileGestalt MobileGestaltSupport.m:153:</a></h3> 
+        <div class="excerpt">
+          I'm using UIWebView xCode Version 8.3. My console continues to show me this error when I start the app and I do not understand what it means. In my UIViewController there is no code so I do not ... 
+        </div> 
+        <div class="tags t-ios t-xcode t-compiler-errors t-uiwebview t-xcode8"> 
+         <a href="/questions/tagged/ios" class="post-tag" title="show questions tagged 'ios'" rel="tag">ios</a> 
+         <a href="/questions/tagged/xcode" class="post-tag" title="show questions tagged 'xcode'" rel="tag">xcode</a> 
+         <a href="/questions/tagged/compiler-errors" class="post-tag" title="show questions tagged 'compiler-errors'" rel="tag">compiler-errors</a> 
+         <a href="/questions/tagged/uiwebview" class="post-tag" title="show questions tagged 'uiwebview'" rel="tag">uiwebview</a> 
+         <a href="/questions/tagged/xcode8" class="post-tag" title="show questions tagged 'xcode8'" rel="tag">xcode8</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time"> 
+           <a href="/questions/43287685/xcode-8-3-libmobilegestalt-mobilegestaltsupport-m153/?lastactivity" class="started-link">modified <span title="2018-03-16 23:43:17Z" class="relativetime">Mar 16 at 23:43</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/933325/alix">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/3bfe0458237238d5e36ee5a772658f66?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/933325/alix">Alix</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">1,952</span>
+            <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+            <span title="16 silver badges"><span class="badge2"></span><span class="badgecount">16</span></span>
+            <span title="31 bronze badges"><span class="badge3"></span><span class="badgecount">31</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-42526466"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>54</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>2</strong>answers 
+         </div> 
+        </div> 
+        <div class="views warm" title="5,107 views">
+          5k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/42526466/how-to-prevent-android-studio-avd-cannot-translate-guest-dns-ip-error-messag" class="question-hyperlink">How to prevent Android Studio / AVD “CANNOT TRANSLATE guest DNS ip” error messages?</a></h3> 
+        <div class="excerpt">
+          About every 4 second after I start the emulator device from my Android Studio project an error message is printed into the Run window. It's extremely annoying because it hijacks the focus. If I'm in ... 
+        </div> 
+        <div class="tags t-android-studio t-avd t-android-avd"> 
+         <a href="/questions/tagged/android-studio" class="post-tag" title="show questions tagged 'android-studio'" rel="tag"><img src="//i.stack.imgur.com/xqoqk.png" height="16" width="18" alt="" class="sponsor-tag-img">android-studio</a> 
+         <a href="/questions/tagged/avd" class="post-tag" title="show questions tagged 'avd'" rel="tag">avd</a> 
+         <a href="/questions/tagged/android-avd" class="post-tag" title="show questions tagged 'android-avd'" rel="tag">android-avd</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time"> 
+           <a href="/questions/42526466/how-to-prevent-android-studio-avd-cannot-translate-guest-dns-ip-error-messag/?lastactivity" class="started-link">modified <span title="2018-03-02 04:37:52Z" class="relativetime">Mar 2 at 4:37</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/181087/nightowl888">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/85700c2c160866ef6924fc491a3ce574?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/181087/nightowl888">NightOwl888</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score 37,806" dir="ltr">37.8k</span>
+            <span title="14 gold badges"><span class="badge1"></span><span class="badgecount">14</span></span>
+            <span title="78 silver badges"><span class="badge2"></span><span class="badgecount">78</span></span>
+            <span title="133 bronze badges"><span class="badge3"></span><span class="badgecount">133</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-12117428"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>54</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>3</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="996 views">
+          996 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/12117428/android-sencha-touch-2-phonegap-issue-for-4-0-x" class="question-hyperlink">Android - Sencha Touch 2 PhoneGap issue for 4.0.x</a></h3> 
+        <div class="excerpt">
+          I have an Android HTC Amaze and an Android HTC Desire. My Sencha Touch 2 apps wrapped by PhoneGap work excellent for the Desire but they refuse to load on the HTC Amaze 4.0.3. I'm getting this kind of ... 
+        </div> 
+        <div class="tags t-android t-caching t-cordova t-chromium t-web-based"> 
+         <a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="//i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> 
+         <a href="/questions/tagged/caching" class="post-tag" title="show questions tagged 'caching'" rel="tag">caching</a> 
+         <a href="/questions/tagged/cordova" class="post-tag" title="show questions tagged 'cordova'" rel="tag">cordova</a> 
+         <a href="/questions/tagged/chromium" class="post-tag" title="show questions tagged 'chromium'" rel="tag">chromium</a> 
+         <a href="/questions/tagged/web-based" class="post-tag" title="show questions tagged 'web-based'" rel="tag">web-based</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time"> 
+           <a href="/questions/12117428/android-sencha-touch-2-phonegap-issue-for-4-0-x/?lastactivity" class="started-link">modified <span title="2018-03-07 02:38:51Z" class="relativetime">Mar 7 at 2:38</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/1402846/pang">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/z5AzI.png?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/1402846/pang">Pang</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">6,376</span>
+            <span title="15 gold badges"><span class="badge1"></span><span class="badgecount">15</span></span>
+            <span title="59 silver badges"><span class="badge2"></span><span class="badgecount">59</span></span>
+            <span title="97 bronze badges"><span class="badge3"></span><span class="badgecount">97</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-2959"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>50</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views warm" title="1,702 views">
+          2k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/2959/how-to-get-indexing-service-and-modi-to-produce-full-text-over-ocr" class="question-hyperlink">How to get Indexing Service and MODI to produce Full-text over OCR?</a></h3> 
+        <div class="excerpt">
+          I have configured Indexing Service to index my files, which also include scanned images saved as hi-res TIFF files. I also installed MS Office 2003+ and configured MS Office Document Imaging (MODI) ... 
+        </div> 
+        <div class="tags t-ms-office t-ocr t-modi t-indexing-service"> 
+         <a href="/questions/tagged/ms-office" class="post-tag" title="show questions tagged 'ms-office'" rel="tag">ms-office</a> 
+         <a href="/questions/tagged/ocr" class="post-tag" title="show questions tagged 'ocr'" rel="tag">ocr</a> 
+         <a href="/questions/tagged/modi" class="post-tag" title="show questions tagged 'modi'" rel="tag">modi</a> 
+         <a href="/questions/tagged/indexing-service" class="post-tag" title="show questions tagged 'indexing-service'" rel="tag">indexing-service</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info user-hover"> 
+          <div class="user-action-time"> 
+           <a href="/questions/2959/how-to-get-indexing-service-and-modi-to-produce-full-text-over-ocr" class="started-link">modified <span title="2017-10-26 05:54:00Z" class="relativetime">Oct 26 '17 at 5:54</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/227/ishmaeel">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/10bfbb2c24e45e5bc9b7f4665703f7bd?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/227/ishmaeel">Ishmaeel</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score 10,624" dir="ltr">10.6k</span>
+            <span title="7 gold badges"><span class="badge1"></span><span class="badgecount">7</span></span>
+            <span title="54 silver badges"><span class="badge2"></span><span class="badgecount">54</span></span>
+            <span title="72 bronze badges"><span class="badge3"></span><span class="badgecount">72</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-24107890"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>49</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="849 views">
+          849 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/24107890/get-multiple-coverage-reports-in-coveralls-for-a-single-repository" class="question-hyperlink">Get multiple coverage reports in coveralls for a single repository</a></h3> 
+        <div class="excerpt">
+          Is it possible to get separate coverage reports for front-end and back-end tests for a single repository? It seems one possible way is to concatenate the lcov reports into one and then ship to ... 
+        </div> 
+        <div class="tags t-lcov t-coveralls"> 
+         <a href="/questions/tagged/lcov" class="post-tag" title="show questions tagged 'lcov'" rel="tag">lcov</a> 
+         <a href="/questions/tagged/coveralls" class="post-tag" title="show questions tagged 'coveralls'" rel="tag">coveralls</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time"> 
+           <a href="/questions/24107890/get-multiple-coverage-reports-in-coveralls-for-a-single-repository" class="started-link">modified <span title="2018-01-24 19:48:24Z" class="relativetime">Jan 24 at 19:48</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/2225787/agi-hammerthief">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/kqVps.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/2225787/agi-hammerthief">Agi Hammerthief</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">986</span>
+            <span title="12 silver badges"><span class="badge2"></span><span class="badgecount">12</span></span>
+            <span title="23 bronze badges"><span class="badge3"></span><span class="badgecount">23</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-34289854"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>47</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="706 views">
+          706 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/34289854/publishing-outlook-calendars-what-is-the-server-side-setting-for-sync-frequency" class="question-hyperlink">Publishing Outlook Calendars. What is the server-side setting for sync frequency?</a></h3> 
+        <div class="excerpt">
+          I'm working on a custom implementation of a server (VERY basic WebDAV) that accepts Outlook's published calendars. Outlook seems to have a setting (see the screenshot below) where it accepts a ... 
+        </div> 
+        <div class="tags t-calendar t-outlook t-exchange-server t-webdav t-caldav"> 
+         <a href="/questions/tagged/calendar" class="post-tag" title="show questions tagged 'calendar'" rel="tag">calendar</a> 
+         <a href="/questions/tagged/outlook" class="post-tag" title="show questions tagged 'outlook'" rel="tag">outlook</a> 
+         <a href="/questions/tagged/exchange-server" class="post-tag" title="show questions tagged 'exchange-server'" rel="tag">exchange-server</a> 
+         <a href="/questions/tagged/webdav" class="post-tag" title="show questions tagged 'webdav'" rel="tag">webdav</a> 
+         <a href="/questions/tagged/caldav" class="post-tag" title="show questions tagged 'caldav'" rel="tag">caldav</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info user-hover"> 
+          <div class="user-action-time"> 
+           <a href="/questions/34289854/publishing-outlook-calendars-what-is-the-server-side-setting-for-sync-frequency/?lastactivity" class="started-link">answered <span title="2016-03-10 21:11:00Z" class="relativetime">Mar 10 '16 at 21:11</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/208930/cahit">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/934ebefe1d8383fd2b58ff2aa3cb6456?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/208930/cahit">Cahit</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">1,676</span>
+            <span title="10 silver badges"><span class="badge2"></span><span class="badgecount">10</span></span>
+            <span title="17 bronze badges"><span class="badge3"></span><span class="badgecount">17</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-32870402"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>42</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>2</strong>answers 
+         </div> 
+        </div> 
+        <div class="views warm" title="2,302 views">
+          2k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/32870402/linking-fails-ilink32-error-fatal-unable-to-open-file-types-obj" class="question-hyperlink">Linking fails [ilink32 Error] Fatal: Unable to open file 'TYPES.OBJ'</a></h3> 
+        <div class="excerpt">
+          I have been updating code fomr an old legacy project build using C++ Builder 2010 to compile with C++ Builder 10 Seattle. I have mostly had to change paths, a lot of dupIgnore to TDuplicates::... 
+        </div> 
+        <div class="tags t-cççbuilder t-vcl t-cççbuilder-10-seattle"> 
+         <a href="/questions/tagged/c%2b%2bbuilder" class="post-tag" title="show questions tagged 'c++builder'" rel="tag">c++builder</a> 
+         <a href="/questions/tagged/vcl" class="post-tag" title="show questions tagged 'vcl'" rel="tag">vcl</a> 
+         <a href="/questions/tagged/c%2b%2bbuilder-10-seattle" class="post-tag" title="show questions tagged 'c++builder-10-seattle'" rel="tag">c++builder-10-seattle</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time"> 
+           <a href="/questions/32870402/linking-fails-ilink32-error-fatal-unable-to-open-file-types-obj/?lastactivity" class="started-link">answered <span title="2018-03-16 21:45:05Z" class="relativetime">Mar 16 at 21:45</span></a> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/9468441/akshay">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/7b5d62990597012654bdc1ddea210a68?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/9468441/akshay">Akshay</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">15</span>
+            <span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <br class="cbt"> 
+     <div class="page-sizer fr"> 
+      <a href="/unanswered/tagged/?tab=votes&amp;pagesize=15" title="show 15 items per page" class="page-numbers current">15</a> 
+      <a href="/unanswered/tagged/?tab=votes&amp;pagesize=30" title="show 30 items per page" class="page-numbers ">30</a> 
+      <a href="/unanswered/tagged/?tab=votes&amp;pagesize=50" title="show 50 items per page" class="page-numbers ">50</a> 
+      <span class="page-numbers desc">per page</span> 
+     </div> 
+     <div class="pager fl"> 
+      <span class="page-numbers current">1</span> 
+      <a href="/unanswered/tagged/?page=2&amp;tab=votes" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+      <a href="/unanswered/tagged/?page=3&amp;tab=votes" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+      <a href="/unanswered/tagged/?page=4&amp;tab=votes" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+      <a href="/unanswered/tagged/?page=5&amp;tab=votes" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+      <span class="page-numbers dots">…</span> 
+      <a href="/unanswered/tagged/?page=299283&amp;tab=votes" title="go to page 299283"> <span class="page-numbers">299283</span> </a> 
+      <a href="/unanswered/tagged/?page=2&amp;tab=votes" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+     </div> 
+    </div> 
+    <div id="sidebar"> 
+     <div class="module" id="questions-count"> 
+      <div class="-details"> 
+       <div class="summarycount al">
+        4,489,238
+       </div> 
+       <p><span>questions with no upvoted or accepted answers</span></p> 
+      </div> 
+      <div class="aside-cta" role="navigation" aria-label="ask new question"> 
+       <a href="/questions/ask" class="btn-outlined">Ask Question</a> 
+      </div> 
+     </div> 
+     <div class="module community-bulletin" data-tracker="cb=1"> 
+      <div class="related"> 
+       <div class="bulletin-title">
+         Upcoming Events 
+       </div> 
+       <hr> 
+       <div class="spacer bulletin-item-important"> 
+        <div class="bulletin-item-type">
+         <a href="https://stackoverflow.com/election" class="question-hyperlink" data-ga="[&quot;Community Bulletin Board&quot;,&quot;Upcoming Events&quot;,&quot;https://stackoverflow.com/election&quot;,null,null]">
+          <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div></a>
+        </div> 
+        <div class="bulletin-item-content"> 
+         <a href="https://stackoverflow.com/election" class="question-hyperlink" data-ga="[&quot;Community Bulletin Board&quot;,&quot;Upcoming Events&quot;,&quot;https://stackoverflow.com/election&quot;,null,null]">2018 Community Moderator Election</a> 
+         <div>
+          ends 
+          <span title="2018-03-27 20:00:00Z" class="relativetime">in 4 days</span>
+         </div> 
+        </div> 
+        <br class="cbt"> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="module"> 
+      <h4 id="h-related-tags">Unanswered Tags</h4> 
+      <div data-name="javascript"> 
+       <a href="/unanswered/tagged/javascript" class="post-tag no-tag-menu" title="show unanswered questions tagged 'javascript'">javascript</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">450116</span></span> 
+      </div> 
+      <div data-name="android"> 
+       <a href="/unanswered/tagged/android" class="post-tag no-tag-menu" title="show unanswered questions tagged 'android'"><img src="//i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">406706</span></span> 
+      </div> 
+      <div data-name="java"> 
+       <a href="/unanswered/tagged/java" class="post-tag no-tag-menu" title="show unanswered questions tagged 'java'">java</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">382798</span></span> 
+      </div> 
+      <div data-name="php"> 
+       <a href="/unanswered/tagged/php" class="post-tag no-tag-menu" title="show unanswered questions tagged 'php'">php</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">346891</span></span> 
+      </div> 
+      <div data-name="c#"> 
+       <a href="/unanswered/tagged/c%23" class="post-tag no-tag-menu" title="show unanswered questions tagged 'c#'">c#</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">290979</span></span> 
+      </div> 
+      <div data-name="jquery"> 
+       <a href="/unanswered/tagged/jquery" class="post-tag no-tag-menu" title="show unanswered questions tagged 'jquery'">jquery</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">244620</span></span> 
+      </div> 
+      <div data-name="python"> 
+       <a href="/unanswered/tagged/python" class="post-tag no-tag-menu" title="show unanswered questions tagged 'python'">python</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">229770</span></span> 
+      </div> 
+      <div data-name="html"> 
+       <a href="/unanswered/tagged/html" class="post-tag no-tag-menu" title="show unanswered questions tagged 'html'">html</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">198307</span></span> 
+      </div> 
+      <div data-name="ios"> 
+       <a href="/unanswered/tagged/ios" class="post-tag no-tag-menu" title="show unanswered questions tagged 'ios'">ios</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">182792</span></span> 
+      </div> 
+      <div data-name="mysql"> 
+       <a href="/unanswered/tagged/mysql" class="post-tag no-tag-menu" title="show unanswered questions tagged 'mysql'">mysql</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">143847</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="css"> 
+       <a href="/unanswered/tagged/css" class="post-tag no-tag-menu" title="show unanswered questions tagged 'css'">css</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">134046</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="c++"> 
+       <a href="/unanswered/tagged/c%2b%2b" class="post-tag no-tag-menu" title="show unanswered questions tagged 'c++'">c++</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">103475</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="asp.net"> 
+       <a href="/unanswered/tagged/asp.net" class="post-tag no-tag-menu" title="show unanswered questions tagged 'asp.net'">asp.net</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">98563</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="angularjs"> 
+       <a href="/unanswered/tagged/angularjs" class="post-tag no-tag-menu" title="show unanswered questions tagged 'angularjs'">angularjs</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">91374</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="sql"> 
+       <a href="/unanswered/tagged/sql" class="post-tag no-tag-menu" title="show unanswered questions tagged 'sql'">sql</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">90724</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="node.js"> 
+       <a href="/unanswered/tagged/node.js" class="post-tag no-tag-menu" title="show unanswered questions tagged 'node.js'">node.js</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">81661</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="ruby-on-rails"> 
+       <a href="/unanswered/tagged/ruby-on-rails" class="post-tag no-tag-menu" title="show unanswered questions tagged 'ruby-on-rails'">ruby-on-rails</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">75891</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="json"> 
+       <a href="/unanswered/tagged/json" class="post-tag no-tag-menu" title="show unanswered questions tagged 'json'">json</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">69032</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="objective-c"> 
+       <a href="/unanswered/tagged/objective-c" class="post-tag no-tag-menu" title="show unanswered questions tagged 'objective-c'">objective-c</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">68315</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="ajax"> 
+       <a href="/unanswered/tagged/ajax" class="post-tag no-tag-menu" title="show unanswered questions tagged 'ajax'">ajax</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">64073</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="wordpress"> 
+       <a href="/unanswered/tagged/wordpress" class="post-tag no-tag-menu" title="show unanswered questions tagged 'wordpress'">wordpress</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">62904</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="swift"> 
+       <a href="/unanswered/tagged/swift" class="post-tag no-tag-menu" title="show unanswered questions tagged 'swift'">swift</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">61979</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="r"> 
+       <a href="/unanswered/tagged/r" class="post-tag no-tag-menu" title="show unanswered questions tagged 'r'">r</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">58112</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="sql-server"> 
+       <a href="/unanswered/tagged/sql-server" class="post-tag no-tag-menu" title="show unanswered questions tagged 'sql-server'"><img src="//i.stack.imgur.com/gfrSH.png" height="16" width="18" alt="" class="sponsor-tag-img">sql-server</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">56407</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name=".net"> 
+       <a href="/unanswered/tagged/.net" class="post-tag no-tag-menu" title="show unanswered questions tagged '.net'">.net</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">53659</span></span> 
+      </div> 
+      <a href="#" class="show-more js-show-more js-gps-track" data-gps-track="related_tags.click({ item_type:2 })"> more related tags </a> 
+      <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <footer id="footer" class="site-footer js-footer" role="contentinfo"> 
+   <div class="site-footer--container"> 
+    <div class="site-footer--logo"> 
+     <a href="https://stackoverflow.com">
+      <svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewbox="0 0 32 37">
+       <g>
+        <path fill="#BCBBBB" d="M26 33v-9h4v13H0V24h4v9z" />
+        <path d="M23.1 25.99l.68-2.95-16.1-3.35L7 23l16.1 2.99zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm4.2-7.4L26 18.4l2.1-2.5L15.4 5.3l-2.1 2.5zM21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM7 30h16v-3H7v3z" fill="#F48024" />
+       </g>
+      </svg></a> 
+    </div> 
+    <nav class="site-footer--nav"> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://stackoverflow.com" class="js-gps-track" data-gps-track="footer.click({ location: 23, link: 15})">Stack Overflow</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 16})">Questions</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 17})">Jobs</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 11})">Developer Jobs Directory</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 28})">Salary Calculator</a></li> 
+       <li class="-item"><a href="/help" class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 3 })">Help</a></li> 
+       <li class="-item"><a onclick="StackExchange.switchMobile(&quot;on&quot;)" class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 12 })">Mobile</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://www.stackoverflowbusiness.com/?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-business-category" class="js-gps-track" data-gps-track="footer.click({ location: 23, link: 19 })">Stack Overflow<br> Business</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 20 })">Talent</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-advertise" class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 21 })">Ads</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/enterprise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 22 })">Enterprise</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 23, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 7 })" href="https://stackexchange.com/legal">Legal</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 8 })" href="https://stackexchange.com/legal/privacy-policy">Privacy Policy</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--categories-nav site-footer--col__visible"> 
+      <a href="#" class="site-footer--back js-footer-back">
+       <svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewbox="0 0 18 18">
+        <path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z" />
+       </svg></a> 
+      <div> 
+       <h5 class="-title"><a href="https://stackexchange.com">Stack Exchange<br> Network</a></h5> 
+       <ul class="-list"> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 23, link: 24 })" data-target="Technology">Technology</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 23, link: 24 })" data-target="Life / Arts">Life / Arts</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 23, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 23, link: 24 })" data-target="Science">Science</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 23, link: 24 })" data-target="Other">Other</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="site-footer--categories"> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li> 
+        <li class="-item"><a href="https://serverfault.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="system and network administrators">Server Fault</a></li> 
+        <li class="-item"><a href="https://superuser.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="computer enthusiasts and power users">Super User</a></li> 
+        <li class="-item"><a href="https://webapps.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of web applications">Web Applications</a></li> 
+        <li class="-item"><a href="https://askubuntu.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li> 
+        <li class="-item"><a href="https://webmasters.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="pro webmasters">Webmasters</a></li> 
+        <li class="-item"><a href="https://gamedev.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and independent game developers">Game Development</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://tex.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li> 
+        <li class="-item"><a href="https://softwareengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li> 
+        <li class="-item"><a href="https://unix.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li> 
+        <li class="-item"><a href="https://apple.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li> 
+        <li class="-item"><a href="https://wordpress.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li> 
+        <li class="-item"><a href="https://gis.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li> 
+        <li class="-item"><a href="https://electronics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://android.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li> 
+        <li class="-item"><a href="https://security.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="information security professionals">Information Security</a></li> 
+        <li class="-item"><a href="https://dba.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li> 
+        <li class="-item"><a href="https://drupal.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li> 
+        <li class="-item"><a href="https://sharepoint.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li> 
+        <li class="-item"><a href="https://ux.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="user experience researchers and experts">User Experience</a></li> 
+        <li class="-item"><a href="https://mathematica.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://salesforce.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li> 
+        <li class="-item"><a href="https://expressionengine.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li> 
+        <li class="-item"><a href="https://pt.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Português</a></li> 
+        <li class="-item"><a href="https://blender.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li> 
+        <li class="-item"><a href="https://networkengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="network engineers">Network Engineering</a></li> 
+        <li class="-item"><a href="https://crypto.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li> 
+        <li class="-item"><a href="https://codereview.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="peer programmer code reviews">Code Review</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://magento.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li> 
+        <li class="-item"><a href="https://softwarerecs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li> 
+        <li class="-item"><a href="https://dsp.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li> 
+        <li class="-item"><a href="https://emacs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li> 
+        <li class="-item"><a href="https://raspberrypi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li> 
+        <li class="-item"><a href="https://ru.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="программистов">Stack Overflow на русском</a></li> 
+        <li class="-item"><a href="https://codegolf.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://es.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores y profesionales de la informática">Stack Overflow en español</a></li> 
+        <li class="-item"><a href="https://ethereum.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li> 
+        <li class="-item"><a href="https://datascience.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li> 
+        <li class="-item"><a href="https://arduino.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li> 
+        <li class="-item"><a href="https://bitcoin.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (28) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://photo.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li> 
+        <li class="-item"><a href="https://scifi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li> 
+        <li class="-item"><a href="https://graphicdesign.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li> 
+        <li class="-item"><a href="https://movies.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li> 
+        <li class="-item"><a href="https://music.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li> 
+        <li class="-item"><a href="https://worldbuilding.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li> 
+        <li class="-item"><a href="https://cooking.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://diy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li> 
+        <li class="-item"><a href="https://money.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li> 
+        <li class="-item"><a href="https://academia.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li> 
+        <li class="-item"><a href="https://law.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (15) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://english.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li> 
+        <li class="-item"><a href="https://skeptics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientific skepticism">Skeptics</a></li> 
+        <li class="-item"><a href="https://judaism.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li> 
+        <li class="-item"><a href="https://travel.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li> 
+        <li class="-item"><a href="https://christianity.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li> 
+        <li class="-item"><a href="https://ell.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li> 
+        <li class="-item"><a href="https://japanese.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://gaming.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li> 
+        <li class="-item"><a href="https://bicycles.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li> 
+        <li class="-item"><a href="https://rpg.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li> 
+        <li class="-item"><a href="https://anime.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li> 
+        <li class="-item"><a href="https://puzzling.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li> 
+        <li class="-item"><a href="https://mechanics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (33) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://mathoverflow.net" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional mathematicians">MathOverflow</a></li> 
+        <li class="-item"><a href="https://math.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li> 
+        <li class="-item"><a href="https://stats.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li> 
+        <li class="-item"><a href="https://cstheory.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li> 
+        <li class="-item"><a href="https://physics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li> 
+        <li class="-item"><a href="https://chemistry.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientists, academics, teachers and students">Chemistry</a></li> 
+        <li class="-item"><a href="https://biology.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="biology researchers, academics, and students">Biology</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://cs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li> 
+        <li class="-item"><a href="https://philosophy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (10) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Other"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://meta.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li> 
+        <li class="-item"><a href="https://stackapps.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li> 
+        <li class="-item"><a href="https://api.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li> 
+        <li class="-item"><a href="https://data.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li> 
+        <li class="-item"><a href="https://area51.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="proposing new sites in the Stack Exchange network">Area 51</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </nav> 
+    <div class="site-footer--copyright fs-fine"> 
+     <ul class="-list"> 
+      <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 23, link:4 })" href="https://stackoverflow.blog?blb=1">Blog</a></li> 
+      <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li> 
+      <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li> 
+      <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li> 
+     </ul> 
+     <p class="mt-auto mb24"> site design / logo © 2018 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license">attribution required</a>. <span id="svnrev">rev&nbsp;2018.3.23.29561</span> </p> 
+    </div> 
+   </div> 
+  </footer> 
+  <noscript> 
+   <div id="noscript-warning">
+    Stack Overflow works best with JavaScript enabled 
+    <img src="https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"> 
+   </div> 
+  </noscript> 
+  <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                var trackingCodes = [
+                    'UA-5620270-1'
+                ];
+
+                        trackingCodes.push('UA-108242619-1');
+
+                StackExchange.ga.init({
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: trackingCodes
+                });
+
+
+
+
+                    StackExchange.ga.setDimension('dimension3', 'Unanswered/List');
+
+                StackExchange.ga.trackPageView();
+            });
+            
+/**/
+            
+            var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+            (function() {
+                var ssl = 'https:' == document.location.protocol,
+                    s = document.getElementsByTagName('script')[0],
+                    qc = document.createElement('script');
+                 qc.async = true;
+                    qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                    s.parentNode.insertBefore(qc, s);
+                    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+/**/
+                 var sc = document.createElement('script');
+                    sc.async = true;
+                    sc.src = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+                    s.parentNode.insertBefore(sc, s);
+                    _comscore.push({ c1: "2", c2: "17440561" });
+            })();
+            
+
+</script>  
+ </body>
+</html>

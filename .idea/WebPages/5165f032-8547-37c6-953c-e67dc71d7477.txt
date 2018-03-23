@@ -1,0 +1,781 @@
+https://www.tutorialspoint.com/tutor/pandiarajan_s_r/24510
+<html>
+ <head> 
+  <title>Pandiarajan S R</title> 
+  <meta name="Description" content="Pandiarajan S R - Trainer for Campus Recruitment Training, Communication, English Grammar, Public Speaking, Quantitative Aptitude, Reasoning, Resume and CV Writing and Spoken English"> 
+  <meta name="Keywords" content="Tutor, Connect, market, place, tutors, connecting, students, teach, learn, online, offline, career, growth"> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+   <link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+   <![endif]--> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #214070 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #214070 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #214070 !important;}
+.submenu-item{ border-bottom: 2px solid #214070 !important; border-top: 2px solid #214070 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#214070; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/blue/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <!-- tutors --> 
+  <script type="text/javascript" src="/theme/js/jquery.colorbox-min.js"></script> 
+  <script>
+      var baseurl = 'https://www.tutorialspoint.com/tutor_connect/';
+      var asset_image_url = 'https://www.tutorialspoint.com/assets/tutor_connect/';
+      var typeflag = '';
+      var login_userid = '';
+      function createCookie(name, value, days) {
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                var expires = "; expires=" + date.toGMTString();
+            }
+            else var expires = "";
+            document.cookie = name + "=" + value + expires + "; path=/";         
+         }
+
+         function readCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return 0;         
+         }
+         function eraseCookie(name) {
+            cookie_flag = 0;
+            createCookie(name, "", -1);
+         }
+   </script> 
+  <!--<link rel="stylesheet" href="http://0508.tutorialspoint.com/tutor_connect/css/tutors.css">--> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/tutor_connect/css/tutors.css"> 
+  <script src="https://maps.googleapis.com/maps/api/js?libraries=places"></script> 
+  <script src="https://www.tutorialspoint.com/tutor_connect/js/jquery.geocomplete.min.js"></script> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/tutor_connect/js/aes.js"></script> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/tutor_connect/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/tutor_connect/js/jquery-te-1.4.0.min.js"></script> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/tutor_connect/js/tutors1.js?v=10"></script> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/tutor_connect/js/jquery.bpopup.min.js"></script> 
+  <style>.srch-widget-banner img{float:left!important; margin:0px!important;} .srch-widget-banner h2{text-align:left!important;} .srch-widget-banner h5{text-align:left!important;}</style> 
+  <script>
+   $(document).ready(function(){
+      var lefth = $('.sm-height .bar').height();
+      var righth = $('.sm-height .rbar').height();
+         if( righth < lefth) {
+            $('.sm-height .rbar').height(lefth -30);
+         }
+       
+   });
+</script>   
+  <div id="divSendMessage" style="display:none;"> 
+   <div> 
+    <input type="hidden" value="" id="txtChatUserId"> 
+   </div> 
+   <div class="dialogbox"> 
+    <div style="width:49%; float:left; margin-right:8px;">
+     <label>To ::</label>
+     <input type="text" value="" id="txtChatName" readonly>
+    </div> 
+    <div style="width:49%; float:left;">
+     <label>From ::</label>
+     <input type="text" value="" id="txtChatFrom" readonly>
+    </div> 
+    <div class="clear"></div> 
+    <label>Subject ::</label>
+    <input type="text" class="txtClass" value="" id="txtChatSubject">
+    <b class="contact-error"></b> 
+    <div class="clear"></div> 
+    <label>Message ::</label>
+    <textarea id="txtChatMessage" class="txtClass" style="height:110px!important;resize:vertical;resize:horizontal;"></textarea>
+    <b class="contact-error"></b> 
+    <div class="clear"></div> 
+    <button id="btnSendMsg">Send</button> 
+   </div> 
+   <div style="clear:both;"></div> 
+  </div> 
+  <div class="srch-widget-banner"> 
+   <div class="container"> 
+    <div class="row"> 
+     <img src="https://www.tutorialspoint.com/tutor_connect/images/inside-baner-icon.png" alt="No Commission, No Fee, Just a Free Service"> 
+     <h2>No Commission, No Fee, Just a Free Service</h2> 
+     <h5>we help the tutors and students to connect together without any service charges</h5> 
+    </div> 
+   </div> 
+  </div> 
+  <script>
+   $(document).ready(function(){
+      $('#tabShow').hide();
+      $('#tabToggle').click(function(){
+         $('#tabShow').toggle(); 
+         $(this).hide();
+      });
+
+      var reviewRating = 0;
+      var userid = Number("0");
+      var tutorid = Number("24510");
+      $('#btnReviewPost').click(function(){
+         var reviewContent = $('#txtReviewContent').val();        
+         if($("input[name=reviewRating]").is(':checked')){
+            reviewRating = $("input[name=reviewRating]:checked").val();
+         }
+         
+         if(reviewContent == ''){            
+            $('#errorReview').html('Please enter review content');
+            $('#txtReviewContent').focus();
+            $('#txtReviewContent').css('border-color','red');
+            return false;
+         }
+         
+         else if (reviewRating == 0)
+         { 
+            $('#txtReviewContent').css('border-color','#ccc');
+            $('#errorReview').html('Please select rating');
+            $('.rated').focus();
+            $('.rated').css('border-color','red');           
+            return false;
+         }
+         
+         $('#errorReview').html('');
+         $('.rated').css('border-color','#ccc');  
+         $.ajax({
+            url: baseurl+"ajax/ajaxPostTutorReview.php",
+            method:"POST",
+            data: {"reviewContent":reviewContent,'reviewRating':reviewRating,'tutorid':tutorid}         
+         }).done(function(msg) { 
+            if(msg == -99)
+            {
+               window.location.href = baseurl+ 'index.php';
+            }
+            else if(msg === 0)
+            {
+               alert('Something went wrong! Please try after sometime.');
+            }
+            else if(msg == 2)
+            {
+               $('#tabShow').hide();
+               $('#txtReviewContent').val('');
+               reviewRating = 0;
+               $("input[name=reviewRating]").attr('checked', false);
+               alert('You have already given review for this tutor.');               
+            } else {
+               alert('Review Submitted Successfully.');
+               $('#txtReviewContent').val('');
+               reviewRating = 0;
+               $("input[name=reviewRating]").attr('checked', false);
+               $('#tabShow').hide();
+              // $('#tabToggle').show();
+            }
+         });
+      }); 
+         
+      $(".screenshot").mouseenter(function(e){
+        $('.maximize').show();
+      });
+       
+      $(".screenshot").click(function(e){            
+        var photo = $(this).data('photo');
+        var floder = $(this).data('floder');
+        var tobj = this;
+        $.ajax({               
+			   url: baseurl+"ajax/ajaxPhotoEnlarge.php",
+			   method:"POST",
+			   data: {"photo":photo,"floder":floder}
+			}).done(function(msg) {            
+			   $(tobj).next().html('<img src="'+msg+'" />');	
+            $(".photoEnlagreDive").hide();
+         
+            $(tobj).next().show();            
+			}); 
+      });
+      
+      
+      $('.photoEnlagreDive').on('mouseenter', function(e) {
+         $(".maximize").show();  
+         var $el = $(".photoEnlagreDive");
+         $(this).show();
+      });
+      
+      
+      $('.screenshot,.photoEnlagreDive').on('mouseleave', function(e) {
+          $(".maximize").hide();  
+         var $el = $(".photoEnlagreDive");
+         if ($el.is(":visible")) {
+            $el.hide();
+         } 
+      });
+      
+      
+      $(document).on('click', function(e) {
+         var $el = $(".photoEnlagreDive");         
+         if ($el.is(":visible")) {
+            $el.hide();
+         } 
+      });
+      
+     /*  
+      function readCookie(name) {
+         var nameEQ = name + "=";
+         var ca = document.cookie.split(';');
+         for (var i = 0; i < ca.length; i++) {
+             var c = ca[i];
+             while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+             if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+         }
+         return 0;         
+      }
+      */
+      
+      var cookie_tutor_send_user = readCookie("tp_tutor_send_user");
+      var cookie_tutor_send_name = readCookie("tp_tutor_send_name");
+      //console.log(userid);
+      //console.log(cookie_tutor_send_user);
+      if(userid != 0){
+         if(cookie_tutor_send_user != 0 ){
+            $('.sendmsg').trigger('click');
+         }
+      }      
+      
+   });
+</script> 
+  <div role="main" class="main"> 
+   <div class="container"> 
+    <!-- PRINTING STARTS HERE --> 
+    <div class="row"> 
+     <div class="content"> 
+      <div class="col-xs-12 col-sm-12 col-md-2"> 
+       <style>
+@media (min-width: 992px){ .col-md-2{padding:0px 3px;} .col-md-7{padding:0px 3px;} .col-md-3{padding:0px 3px;} }
+@media (min-width: 992px){.col-md-2 {width:22.66666667%!important;} .col-md-7 {width:51.33333333%;} }
+.unreadd{color:#f00; margin:-20px 0px 0px 4px !important; font-size:100%!important; position:absolute; right:120px;} 
+</style> 
+       <div class="job-desc top-jobs" style="margin-bottom:5px!important;padding:11px 4px 7px 4px!important;"> 
+        <a href="https://www.tutorialspoint.com/tutor_connect/index.php" target="_self"><img src="https://www.tutorialspoint.com/tutor_connect/images/tutor-connect-icon.png" alt="Tutor Connect - Connecting Tutors and Students" title="Tutor Connect - Connecting Tutors and Students"></a> 
+       </div> 
+       <div class="clear"></div> 
+       <div class="job-desc top-jobs" style="margin-bottom:8px!important;"> 
+        <div class="srch-login-links"> 
+         <a href="https://www.tutorialspoint.com/tutor_connect/user-login.php?type=signin" title="Registered User Login"><i class="fa-user login-icon"></i> Login</a> 
+         <a href="https://www.tutorialspoint.com/tutor_connect/registration.php" title="New User Register"><i class="fa-sign-in login-icon"></i> Signup</a> 
+        </div> 
+       </div> 
+       <div class="clear"></div> 
+       <div class="job-desc top-jobs"> 
+        <h4>Quick Links</h4> 
+        <ul class="nav nav-tab" style="margin:7px 0px 0px 2px!important"> 
+         <li><a href="https://www.tutorialspoint.com/tutor_connect/search_tutors.php"> <i class="fa-user"></i> &nbsp;Search Tutors</a> </li> 
+         <li><a href="https://www.tutorialspoint.com/tutor_connect/search_students.php"> <i class="fa-pencil-square-o"></i> &nbsp;Search Students</a> </li> 
+         <li><a href="https://www.tutorialspoint.com/tutor_connect/faq.php"> <i class="fa-check-square-o"></i> &nbsp;Tutor Connect FAQs</a> </li> 
+         <li><a href="https://www.tutorialspoint.com/whiteboard.htm" target="_blank"> <img src="https://www.tutorialspoint.com/theme/css/icons/image-editor.png" alt="Whiteboard" style="float:left;"> &nbsp;Whiteboard</a> </li> 
+         <li><a href="https://www.tutorialspoint.com/netmeeting.php" target="_blank"> <i class="fa-video-camera"></i> &nbsp;Net Meeting</a> </li> 
+        </ul> 
+       </div> 
+       <div class="clear"></div> 
+       <div class="job-desc top-jobs"> 
+        <h4>Related Tutors</h4> 
+        <ul class="nav nav-tab"> 
+         <li style="padding-bottom:7px;"> <a href="https://www.tutorialspoint.com/tutor/zaki_husain/13353" title="View Zaki Husain Profile"> 
+           <div class="related-tutors"> 
+            <span><img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/zakiaurgmailcom/profile/75_zakiaurgmailcom_image.jpg?timestamp=1521842562"></span> 
+            <div> 
+             <b>Zaki Husain</b>
+             <br> Tutor for Business Etiquette, Campus Rec ... active 
+            </div> 
+           </div> </a>
+          <div class="clear"></div> </li> 
+         <li style="padding-bottom:7px;"> <a href="https://www.tutorialspoint.com/tutor/nagaraju_boddu/7542" title="View Nagaraju Boddu Profile"> 
+           <div class="related-tutors"> 
+            <span><img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/nagarajuboddu416gmailcom/profile/75_nagarajuboddu416gmailcom_image.JPG?timestamp=1521842562"></span> 
+            <div> 
+             <b>Nagaraju Boddu</b>
+             <br> Tutor for Campus Recruitment Training, M ... active 
+            </div> 
+           </div> </a>
+          <div class="clear"></div> </li> 
+         <li style="padding-bottom:7px;"> <a href="https://www.tutorialspoint.com/tutor/dilip_kumar_singh/6976" title="View Dilip Kumar Singh Profile"> 
+           <div class="related-tutors"> 
+            <span><img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/dkumar8807gmailcom/profile/75_dkumar8807gmailcom_image.jpg?timestamp=1521842562"></span> 
+            <div> 
+             <b>Dilip Kumar Singh</b>
+             <br> Tutor for AJAX, ASP.Net, ASP.Net MVC, C, ... active 
+            </div> 
+           </div> </a>
+          <div class="clear"></div> </li> 
+         <li style="padding-bottom:7px;"> <a href="https://www.tutorialspoint.com/tutor/vamsi_k/13006" title="View Vamsi K Profile"> 
+           <div class="related-tutors"> 
+            <span><img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/vamsi031yahoocom/profile/75_vamsi031yahoocom_image.jpg?timestamp=1521842562"></span> 
+            <div> 
+             <b>Vamsi K</b>
+             <br> Tutor for Bigdata, C, Campus Recruitment ... active 
+            </div> 
+           </div> </a>
+          <div class="clear"></div> </li> 
+         <li style="padding-bottom:7px;"> <a href="https://www.tutorialspoint.com/tutor/souvik/21546" title="View Souvik Profile"> 
+           <div class="related-tutors"> 
+            <span><img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/sdas5560gmailcom/profile/75_sdas5560gmailcom_image.jpg?timestamp=1521842562"></span> 
+            <div> 
+             <b>Souvik</b>
+             <br> Tutor for C, C++, Campus Recruitment Tra ... active 
+            </div> 
+           </div> </a>
+          <div class="clear"></div> </li> 
+         <li style="padding-bottom:7px;"> <a href="https://www.tutorialspoint.com/tutor/sailendra_lal_ghosh/14312" title="View Sailendra Lal Ghosh Profile"> 
+           <div class="related-tutors"> 
+            <span><img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/sailendralalghoshgmailcom/profile/75_sailendralalghoshgmailcom_image.jpg?timestamp=1521842562"></span> 
+            <div> 
+             <b>Sailendra Lal Ghosh</b>
+             <br> Tutor for AJAX, C, Campus Recruitment Tr ... active 
+            </div> 
+           </div> </a>
+          <div class="clear"></div> </li> 
+         <li style="padding-bottom:7px;"> <a href="https://www.tutorialspoint.com/tutor/karthikeya_kumar/22658" title="View Karthikeya Kumar Profile"> 
+           <div class="related-tutors"> 
+            <span><img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/karthiksarmakgmailcom/profile/75_karthiksarmakgmailcom_image.jpg?timestamp=1521842562"></span> 
+            <div> 
+             <b>Karthikeya Kumar</b>
+             <br> Trainer for Campus Recruitment Training, ... active 
+            </div> 
+           </div> </a>
+          <div class="clear"></div> </li> 
+         <li style="padding-bottom:7px;"> <a href="https://www.tutorialspoint.com/tutor/gaurav_narang/24062" title="View Gaurav Narang Profile"> 
+           <div class="related-tutors"> 
+            <span><img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/gnarang2432gmailcom/profile/75_gnarang2432gmailcom_image.jpg?timestamp=1521842562"></span> 
+            <div> 
+             <b>Gaurav Narang</b>
+             <br> Tutor for C, C++, Campus Recruitment Tra ... active 
+            </div> 
+           </div> </a>
+          <div class="clear"></div> </li> 
+         <li style="padding-bottom:7px;"> <a href="https://www.tutorialspoint.com/tutor/subhasis_patra/24088" title="View Subhasis Patra Profile"> 
+           <div class="related-tutors"> 
+            <span><img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/subhasis210gmailcom/profile/75_subhasis210gmailcom_image.jpg?timestamp=1521842562"></span> 
+            <div> 
+             <b>Subhasis Patra</b>
+             <br> Trainer for C, C++, Campus Recruitment T ... active 
+            </div> 
+           </div> </a>
+          <div class="clear"></div> </li> 
+         <li style="padding-bottom:7px;"> <a href="https://www.tutorialspoint.com/tutor/shibani/12418" title="View Shibani Profile"> 
+           <div class="related-tutors"> 
+            <span><img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/shibanisatarupagmailcom/profile/75_shibanisatarupagmailcom_image.png?timestamp=1521842562"></span> 
+            <div> 
+             <b>Shibani</b>
+             <br> Tutor for Advanced Excel, Business Analy ... active 
+            </div> 
+           </div> </a>
+          <div class="clear"></div> </li> 
+        </ul> 
+       </div> 
+      </div> 
+      <div class="col-md-7"> 
+       <div> 
+        <div class="search-widget"> 
+         <form action="https://www.tutorialspoint.com/tutor_connect/search_tutors.php" method="post"> 
+          <div class="col-sm-12 col-md-12"> 
+           <div class="search-addon"> 
+            <i class="fa-search" style="padding:12px 12px;"></i> 
+            <input type="text" id="txtSearchText" value="" name="txtSearchText" class="search-control srh-wdg-input" placeholder="Search Tutors"> 
+            <select name="selType" class="search-control search-select"> <option value="subject">By Subject</option> <option value="name">By Name</option> </select> 
+            <input type="submit" value="Go" id="searchSubmit"> 
+            <div class="autocomplete-srch" id="subjectsDiv"></div> 
+            <div id="searchError"></div> 
+           </div> 
+          </div> 
+         </form> 
+         <div style="clear:both;"></div> 
+        </div> 
+        <script>
+    $(document).ready(function(){
+       $('#searchSubmit').click(function(){
+         var searchKey = $('#txtSearchText').val();
+         if(searchKey == ''){
+            $('#searchError').html('Please enter search keyword');
+            $('#txtSearchText').focus();
+            $('#txtSearchText').css('border-color','red');
+            $('#searchError').css('color','red');
+            return false;
+         }
+         $('#txtSearchText').css('border-color','#ccc');
+         $('#searchError').html('');
+       });
+    });
+    
+    </script> 
+       </div> 
+       <div class="clear"></div> 
+       <div class="big-middle-col" id="detailDiv"> 
+        <div class="tutpic" style="width:22%; float:left;"> 
+         <a href="javascript:void(0)" class="screenshot" data-photo="srpacademy32gmailcom_image.jpg" data-floder="srpacademy32gmailcom" title="Click to Enlarge Pandiarajan S R Photo" alt="Pandiarajan S R"> <img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/srpacademy32gmailcom/profile/200_srpacademy32gmailcom_image.jpg?timestamp=1521842562"> 
+          <div class="maximize" title="Click to Enlarge Pandiarajan S R Photo">
+           <i class="fa-search"></i>
+          </div> </a> 
+         <div class="photoEnlagreDive enlarge"></div> 
+         <div class="chat-msg"> 
+          <a class="sendmsg" href="#divSendMessage" data-user="24510" data-type="" data-name="Pandiarajan S R" title="Contact Pandiarajan S R"> <i class="fa-envelope-o"></i> Contact </a> 
+         </div> 
+        </div> 
+        <div class="job-desc col-xs-12 col-sm-12 col-md-9"> 
+         <div class="enduser"> 
+          <b id="nameShow">Pandiarajan S R </b> 
+          <p><b>Trainer for Campus Recruitment Training, Communication, English Grammar, Public Speaking, Quantitative Aptitude, Reasoning, Resume and CV Writing and Spoken English</b> </p> 
+          <p><i class="fa-globe"></i> English,Tamil</p> 
+          <p><i class="fa-map-marker"></i> Puliyangudi, Tamil Nadu, India</p> 
+          <p><i class="fa-check"></i> Available for : <b class="active-tutor inactive-tutor"> Online Teaching </b> | <b class="active-tutor inactive-tutor"> Tuition at my place </b> | <b class=" inactive-tutor"> Tuition at your place </b> </p> 
+          <div class="clear"></div> 
+          <div class="clear"></div> 
+          <p> <span>Campus Recruitment Training</span><span>Commmunication</span><span>English Grammar</span><span>Public Speaking</span><span>Quantitative Aptitude</span><span>Reasoning</span><span>Resume and CV Writing</span><span>Spoken English</span> </p> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+        <div class="user-widget"> 
+         <div class="about"> 
+          <h4>About</h4> 
+          <h6 style="text-transform:none!important;"> <span><img src="https://www.tutorialspoint.com/tutor_connect/images/blockquote-open.png" style="width:30px; height:25px; border:none;display:inline-block;"></span> Having 3+ years of teaching experience in Campus Recruitment Training, Communication, English Grammar, Public Speaking, Quantitative Aptitude, Reasoning, Resume and CV Writing and Spoken English. Proficient in teaching Quantitative Aptitude, Logical Reasoning, Verbal, Communication, Interview Training for Engineering students and Exam Aspirants (UPSC, TNPSC, MAT, GATE, TET, RRB and SSC. Complted Bachelor of Engineering. <span><img src="https://www.tutorialspoint.com/tutor_connect/images/blockquote-close.png" style="width:30px; height:25px; border:none;display:inline-block;"></span> </h6> 
+         </div> 
+        </div> 
+        <div class="clear"></div> 
+        <div class="user-widget"> 
+         <div class="about"> 
+          <h4>Expertise</h4> 
+          <div class="expertise"> 
+           <p><b>Campus Recruitment Training</b> <span> - 2 years experience</span> <strong>300 INR / Hour </strong></p> 
+           <p> <i>Interpersonal Skills</i><i> Communication Skills</i><i> Group Discussions</i><i> Technical Interviews</i><i> Personal Interviews</i> </p> 
+           <div class="clear"></div> 
+           <p>I can take you from the very basic to the end Interview Process. I can teach you topics like Presentation, Speed Maths, Quantitative Aptitude, Logical Reasoning, Effective Communication, Verbal, English Language, Public Speaking, E-mail writing, Telephone Etiquette, Written test preparation, Group Discussion, Technical and Interview facing tips, and help build an impressive resume with a Mock Interview to Make you well Prepared. </p> 
+          </div> 
+          <div class="expertise"> 
+           <p><b>Commmunication</b> <span> - 2 years experience</span> <strong>300 INR / Hour </strong></p> 
+           <p> <i>Linguistic communication</i><i> Non-verbal Communication</i> </p> 
+           <div class="clear"></div> 
+           <p>I can teach all topics in Communication. </p> 
+          </div> 
+          <div class="expertise"> 
+           <p><b>English Grammar</b> <span> - 4 years experience</span> <strong>400 INR / Hour </strong></p> 
+           <p> <i>Tenses</i><i> Parts of Speech</i><i> Sentence formation</i> </p> 
+           <div class="clear"></div> 
+           <p>You won't make those same mistakes again. Learn from me once and you are thorough in English grammar, Your writing&nbsp;and speaking both will go up&nbsp;a level. </p> 
+          </div> 
+          <div class="expertise"> 
+           <p><b>Public Speaking</b> <span> - 4 years experience</span> <strong>300 INR / Hour </strong></p> 
+           <p> <i>Full course</i> </p> 
+           <div class="clear"></div> 
+           <p>I can share you my tips and train you personally from the scratch to make you better. </p> 
+          </div> 
+          <div class="expertise"> 
+           <p><b>Quantitative Aptitude</b> <span> - 3 years experience</span> <strong>300 INR / Hour </strong></p> 
+           <p> <i>Full course</i> </p> 
+           <div class="clear"></div> 
+           <p>I can teach all topics in Quantitative Aptitude. </p> 
+          </div> 
+          <div class="expertise"> 
+           <p><b>Reasoning</b> <span> - 3 years experience</span> <strong>300 INR / Hour </strong></p> 
+           <p> <i>Full course</i> </p> 
+           <div class="clear"></div> 
+           <p>I can teach all topics in Reasoning. </p> 
+          </div> 
+          <div class="expertise"> 
+           <p><b>Resume and CV Writing</b> <span> - 2 years experience</span> <strong>300 INR / Hour </strong></p> 
+           <p> <i>Short</i><i> Impressive and Stand out CV making</i> </p> 
+           <div class="clear"></div> 
+           <p>I can teach all topics in Resume and CV Writing. </p> 
+          </div> 
+          <div class="expertise"> 
+           <p><b>Spoken English</b> <span> - 5 years experience</span> <strong>300 INR / Hour </strong></p> 
+           <p> <i>Speak fluent</i><i> Impressive English</i> </p> 
+           <div class="clear"></div> 
+           <p>I can teach all topics in Spoken English. </p> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="user-widget"> 
+         <div class="about"> 
+          <h4>Reviews</h4> No Reviews Yet! 
+         </div> 
+         <div class="clear"></div> 
+        </div> 
+        <div class="clear"></div> 
+       </div> 
+       <div class="bottomgooglead"> 
+        <div class="bottomadtag">
+         Advertisements
+        </div> 
+        <!-- /60931893/tutorial_bottom_leader_board --> 
+        <div id="div-gpt-ad-1510138782906-3"> 
+         <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-3'); });
+</script> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div class="col-md-3" id="rightbar"> 
+       <div class="ysubscribe"> 
+        <script async src="https://apis.google.com/js/platform.js"></script> 
+        <div class="g-ytsubscribe" data-channelid="UCVLbzhxVTiTLiVKeGV7WEBg" data-layout="full" data-count="default"></div> 
+       </div> 
+       <div class="rightgooglead"> 
+        <!-- /60931893/tutorial_right_top --> 
+        <div id="div-gpt-ad-1510138782906-2" style="height:250px; width:300px;"> 
+         <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-2'); });
+</script> 
+        </div> 
+       </div> 
+       <div class="rightgooglead"> 
+        <!-- /60931893/tutorial_right_middle --> 
+        <div id="div-gpt-ad-1510138782906-1"> 
+         <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-1'); });
+</script> 
+        </div> 
+       </div> 
+       <div class="rightgooglead"> 
+        <!-- /60931893/tutorial_right_bottom --> 
+        <div id="div-gpt-ad-1510138782906-0"> 
+         <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-0'); });
+</script> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="footer-copyright"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-1"> 
+      <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+     </div> 
+     <div class="col-md-4 col-sm-12 col-xs-12"> 
+      <nav id="sub-menu"> 
+       <ul> 
+        <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+        <li><a href="/about/faq.htm">FAQ's</a></li> 
+        <li><a href="/about/about_helping.htm">Helping</a></li> 
+        <li><a href="/about/contact_us.htm">Contact</a></li> 
+       </ul> 
+      </nav> 
+     </div> 
+     <div class="col-md-3 col-sm-12 col-xs-12"> 
+      <p>© Copyright 2018. All Rights Reserved.</p> 
+     </div> 
+     <div class="col-md-4 col-sm-12 col-xs-12"> 
+      <div class="news-group"> 
+       <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+       <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+       <div id="newsresponse"></div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div>  
+  <!-- Libs --> 
+  <script type="text/javascript" src="/theme/js/custom-min.js?v=7"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.pg-icon').click(function(){
+   $('.wrapLoader').show();
+});
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Trainer for Campus Recruitment Training, Communication, English Grammar, Public Speaking, Quantitative Aptitude, Reasoning, Resume and CV Writing and Spoken English",
+    "name": "Trainer for Campus Recruitment Training, Communication, English Grammar, Public Speaking, Quantitative Aptitude, Reasoning, Resume and CV Writing and Spoken English",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.tutorialspoint.com/tutor_connect/tutorprofileview.php?tutorid=24510"
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tutorialspoint.com",
+        "width": null,
+        "height": null
+    },
+    "author": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "datePublished": "December 31 1969 18:00:00.",
+    "dateModified": "December 31 1969 18:00:00.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "description": "..."
+}
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "name": "www.tutorialspoint.com",
+                "@id": "https://www.tutorialspoint.com"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "name": "Tutor Connect",
+                "@id": "https://www.tutorialspoint.com/tutor_connect"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "name": null
+            }
+        }
+    ]
+}
+</script>    
+ </body>
+</html>

@@ -1,0 +1,322 @@
+https://www.microsoft.com/microsoft-365/?omkt=en
+<!doctype html>
+<html xmlns:mscom="http://schemas.microsoft.com/CMSvNext" xmlns:md="http://schemas.microsoft.com/mscom-data" lang="en">
+ <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="ms.env" content="prod">
+  <meta name="360-site-verification" content="ea2f34040af425c66ef36ae0f8560563">
+  <meta name="baidu-site-verification" content="0qsWc7HMtJ">
+  <meta name="yandex-verification" content="4cf6dc837a8808a9">
+  <meta name="referrer" content="always">
+  <style id="pmg-outline-style">a:focus,a:active,.pmg-tabable:focus,.pmg-tabable:active{outline:none!important}</style>
+  <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE1r2ij"></script>
+  <link id="picchu" rel="stylesheet" href="https://c.s-microsoft.com/en-us/CMSStyles/style.csx?k=281e200e-9b9d-65cd-2c74-30d7b037476a">
+  <link id="mscom-grid" rel="stylesheet" href="https://c.s-microsoft.com/en-us/CMSStyles/style.csx?k=fca82fc2-7954-b91e-b81c-4261e92dcf94">
+  <link id="pmg-padding-margin-rtl-base-and-xs" rel="stylesheet" href="https://c.s-microsoft.com/en-us/CMSStyles/style.csx?k=e6a47027-b353-d55e-1811-e7d7a07dfe89">
+  <link id="pmg-padding-margin-rtl-s-and-m" rel="stylesheet" href="https://c.s-microsoft.com/en-us/CMSStyles/style.csx?k=3a9683a8-5ae8-2d14-601e-e4808cc695b3">
+  <link id="pmg-padding-margin-rtl-l-and-xl" rel="stylesheet" href="https://c.s-microsoft.com/en-us/CMSStyles/style.csx?k=5c040292-620a-5fe4-9b18-21f1e3b39d97">
+  <link id="pmg-padding-margin-base" rel="stylesheet" href="https://c.s-microsoft.com/en-us/CMSStyles/style.csx?k=c2e33032-b5f8-cc30-edc5-c542a894d66d">
+  <link id="pmg-padding-margin-xs" rel="stylesheet" href="https://c.s-microsoft.com/en-us/CMSStyles/style.csx?k=aafe126c-b1db-95ed-e8d2-58d40fc22458">
+  <link id="pmg-padding-margin-s" rel="stylesheet" href="https://c.s-microsoft.com/en-us/CMSStyles/style.csx?k=c9f0d11c-ddf1-4010-3d7a-e1c49078c8fd">
+  <link id="pmg-padding-margin-m" rel="stylesheet" href="https://c.s-microsoft.com/en-us/CMSStyles/style.csx?k=0aec16ac-55e6-9546-f5d7-dc0c39730044">
+  <link id="pmg-padding-margin-l" rel="stylesheet" href="https://c.s-microsoft.com/en-us/CMSStyles/style.csx?k=a4f135e4-45df-fdd6-e5c3-af1f991b8418">
+  <link id="pmg-padding-margin-xl" rel="stylesheet" href="https://c.s-microsoft.com/en-us/CMSStyles/style.csx?k=8e635ace-0105-636a-74e6-19e904c0d692">
+  <link id="pmg-shortcut-icon" rel="shortcut icon" href="/CMSImages/favicon.png?version=8a5247a4-aa03-c2d9-d3e0-c0a606c2c9f9" type="image/png">
+  <title>Microsoft 365 Enterprise</title>
+  <meta name="Title" content="Microsoft 365 Enterprise">
+  <meta name="CorrelationVector" content="++0wL2qeeE2lEKNA.2">
+  <meta name="Description" content="">
+  <meta name="MscomContentLocale" content="en">
+  <link href="https://statics-uhf-wus.akamaized.net/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/48-4569b5/3c-162243/ea-687fe8/2b-450314/42-bd6a69/d1-038968/3c-12a025?ver=2.0" rel="stylesheet" type="text/css" media="screen">
+  <link href="https://statics-uhf-wus.akamaized.net/statics/override.css" rel="stylesheet" type="text/css" media="screen">
+  <link href="https://uhf.microsoft.com/mscc/statics/mscc-0.4.0.min.css" rel="stylesheet" type="text/css" media="screen">
+  <link rel="stylesheet" type="text/css" href="https://c.s-microsoft.com/en/CMSStyles/style.csx?k=e05c46ae-8c96-a6f2-f73b-77a5ce91652f_1bd72526-3759-53c2-2c06-24a07e6a9ebb">
+  <script type="text/javascript" src="https://statics-uhf-wus.akamaized.net/shell/_scrf/js/themes=default/e8-1a2c1d/cb-ac922a/e6-bf47bb/b4-95d116/24-d7e7f4/8b-69e74f/e0-91371b/7e-793d88/d1-2b95bb/d8-ab9315/31-d1ef90/55-14fceb/b2-4f864e/62-69d670/31-f19446/b4-019073/40-e2e898/fc-e9ae0b/df-1dbe87/c9-92ebeb/1c-874c56/33-e5f0bf/e3-f83824/79-8a7614/19-091f7c/fd-6d2897/7a-7a4723/82-2940d9/46-380f2c/f3-8b0931/93-f95742?ver=2.0&amp;iife=1"></script>
+  <script type="text/javascript" src="https://mem.gfx.ms/meversion?partner=OfficeProducts&amp;market=en-ww"></script>
+  <script type="text/javascript" src="https://uhf.microsoft.com/mscc/statics/mscc-0.4.0.min.js"></script>
+  <script type="text/javascript" src="https://c.s-microsoft.com/en/CMSScripts/script.jsx?k=da6fc213-c3d8-dcb6-1429-16b93fa0ee4d_f9700d82-4d43-acc3-da1f-497a634dc40c_cb3d29b7-2f1f-5528-242e-53f6623ceec7_f38a87a4-c0c4-1ea7-1dd2-f0f4a139542d_1c0250d6-a2c7-25e2-857f-9c1f5be3bf87_c17d4f90-57b5-c305-751c-a876a6cba8fd_11280c0b-d94e-3fcc-5efd-d43b10757eb7_698f9ccf-e068-a19d-3ecf-9692b9eb6bf2_83e30d13-c0fc-3ce8-b2a5-f4cad1f73801_f73784f0-f565-8965-1634-4cca5b791a52_a65d16fd-c848-c800-f946-2da397e08e9e_b1c40e78-11fa-3ecc-4901-54ffc2def4b2_38e95e03-e538-05b3-9236-61ba10431172"></script>
+ </head>
+ <body>
+  <div class="pmg-page-wrapper CSPvNext" xmlns="http://www.w3.org/1999/xhtml">
+   <div id="2bb0eebb-0070-487a-a3b3-f46a4e7e83aa">
+    <span class="page-data-sources"></span>
+    <!-- UHF CSS Workarounds -->
+    <span>
+     <section id="headerArea" data-m="{&quot;cN&quot;:&quot;headerArea&quot;,&quot;cT&quot;:&quot;Area_coreuiArea&quot;,&quot;id&quot;:&quot;a1Body&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;Body&quot;}">
+      <div id="headerRegion" data-region-key="headerregion" data-m="{&quot;cN&quot;:&quot;headerRegion&quot;,&quot;cT&quot;:&quot;Region_coreui-region&quot;,&quot;id&quot;:&quot;r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;a1&quot;}">
+       <div id="headerUniversalHeader" data-m="{&quot;cN&quot;:&quot;headerUniversalHeader&quot;,&quot;cT&quot;:&quot;Module_coreui-universalheader&quot;,&quot;id&quot;:&quot;m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;r1a1&quot;}" data-module-id="Category|headerRegion|headerRegion|headerUniversalHeader|coreui-universalheader">
+        <div data-m="{&quot;cN&quot;:&quot;cookiebanner_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;m1r1a1&quot;}">
+         <div id="uhfCookieAlert">
+          <div id="msccBanner" dir="ltr" data-site-name="Microsoft.OneRenderFramework.Core" data-mscc-version="0.4.0" data-nver="aspnet-2.0.7" data-sver="0.1.2" class="cc-banner" role="alert">
+           <div class="cc-container">
+            <svg class="cc-icon cc-v-center" x="0px" y="0px" viewbox="0 0 44 44" height="30px" fill="none" stroke="currentColor">
+             <circle cx="22" cy="22" r="20" stroke-width="2"></circle>
+             <line x1="22" x2="22" y1="18" y2="33" stroke-width="3"></line>
+             <line x1="22" x2="22" y1="12" y2="15" stroke-width="3"></line>
+            </svg>
+            <span class="cc-v-center cc-text">This site uses cookies for analytics, personalized content and ads. By continuing to browse this site, you agree to this use.</span>
+            <a href="https://go.microsoft.com/fwlink/?linkid=845480" aria-label="Learn more about Microsoft&amp;#39;s Cookie Policy" id="msccLearnMore" class="cc-link cc-v-center cc-float-right" data-mscc-ic="false">Learn more</a>
+           </div>
+          </div>
+         </div>
+        </div>
+        <header role="banner" class="c-uhfh context-uhf no-js " itemscope data-header-footprint="en-ww/OfficeProducts/SPEheader" data-ckrate="1" data-magict="true" itemtype="http://schema.org/Organization">
+         <div class="theme-light js-global-head f-closed " data-m="{&quot;cN&quot;:&quot;Universal Header_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;m1r1a1&quot;}">
+          <div class="c-uhfh-gcontainer">
+           <button class="c-action-trigger c-glyph glyph-global-nav-button" aria-label="Header navigation menu" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;Mobile menu button_nonnav&quot;,&quot;id&quot;:&quot;nn1c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2m1r1a1&quot;}"></button>
+           <button class="c-action-trigger c-glyph glyph-arrow-htmllegacy" aria-label="Close search" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;Close Search_nonnav&quot;,&quot;id&quot;:&quot;nn2c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c2m1r1a1&quot;}"></button>
+           <a id="uhfLogo" class="c-logo" itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft" data-m="{&quot;cN&quot;:&quot;GlobalNav_Logo_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c2m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c2m1r1a1&quot;}"><img itemprop="logo" itemscope class="c-image" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" role="none"><span role="none">Microsoft</span></a>
+           <div class="f-mobile-title">
+            <button class="c-action-trigger c-glyph glyph-chevron-left" aria-label="See more menu options" data-m="{&quot;cN&quot;:&quot;Mobile back button_nonnav&quot;,&quot;id&quot;:&quot;nn4c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c2m1r1a1&quot;}"></button>
+            <span data-global-title="Microsoft home" class="js-mobile-title"></span>
+            <button class="c-action-trigger c-glyph glyph-chevron-right" aria-label="See more menu options" data-m="{&quot;cN&quot;:&quot;Mobile forward button_nonnav&quot;,&quot;id&quot;:&quot;nn5c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c2m1r1a1&quot;}"></button>
+           </div>
+           <button class="c-action-trigger c-glyph glyph-chevron-left js-primary-paddle" data-m="{&quot;cN&quot;:&quot;Previous_nonnav&quot;,&quot;id&quot;:&quot;nn6c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c2m1r1a1&quot;}" aria-label="Show previous" tabindex="-1"></button>
+           <button class="c-action-trigger c-glyph glyph-chevron-right js-secondary-paddle" data-m="{&quot;cN&quot;:&quot;Next_nonnav&quot;,&quot;id&quot;:&quot;nn7c2m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c2m1r1a1&quot;}" aria-label="Show next" tabindex="-1"></button>
+           <div class="c-uhfh-actions" data-m="{&quot;cN&quot;:&quot;Header actions_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c8c2m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c2m1r1a1&quot;}">
+            <form class="c-search" autocomplete="off" id="searchForm" name="searchForm" role="search" action="https://www.microsoft.com/en-us/search/result.aspx" method="GET" data-seautosuggest="{&quot;queryParams&quot;:{&quot;market&quot;:&quot;en-ww&quot;,&quot;clientId&quot;:&quot;7F27B536-CF6B-4C65-8638-A0F8CBDFCA65&quot;,&quot;sources&quot;:&quot;Microsoft-Terms,Iris-Products,DCatAll-Products&quot;,&quot;filter&quot;:&quot;ExcludeDCatProducts:DCatDevices-Products,DCatSoftware-Products,DCatBundles-Products&quot;,&quot;counts&quot;:&quot;5,1,5&quot;},&quot;familyNames&quot;:{&quot;Apps&quot;:&quot;App&quot;,&quot;Books&quot;:&quot;Book&quot;,&quot;Bundles&quot;:&quot;Bundle&quot;,&quot;Devices&quot;:&quot;Device&quot;,&quot;Fees&quot;:&quot;Fee&quot;,&quot;Games&quot;:&quot;Game&quot;,&quot;MusicAlbums&quot;:&quot;Album&quot;,&quot;MusicTracks&quot;:&quot;Song&quot;,&quot;MusicVideos&quot;:&quot;Video&quot;,&quot;MusicArtists&quot;:&quot;Artist&quot;,&quot;OperatingSystem&quot;:&quot;Operating System&quot;,&quot;Software&quot;:&quot;Software&quot;,&quot;Movies&quot;:&quot;Movie&quot;,&quot;TV&quot;:&quot;TV&quot;,&quot;CSV&quot;:&quot;Gift Card&quot;,&quot;VideoActor&quot;:&quot;Actor&quot;}}" data-seautosuggestapi="https://www.microsoft.com/services/api/v3/suggest" data-m="{&quot;cN&quot;:&quot;GlobalNav_Search_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c8c2m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}" aria-expanded="false">
+             <input data-m="{&quot;cN&quot;:&quot;SearchBox_nav&quot;,&quot;id&quot;:&quot;n2c1c8c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c8c2m1r1a1&quot;}" id="cli_shellHeaderSearchInput" aria-label="Search Microsoft.com" role="combobox" aria-autocomplete="list" aria-controls="universal-header-search-auto-suggest-transparent" aria-owns="universal-header-search-auto-suggest-ul" type="search" name="q" placeholder="Search Microsoft.com">
+             <input data-m="{&quot;cN&quot;:&quot;HiddenInput_nav&quot;,&quot;id&quot;:&quot;n4c1c8c2m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c8c2m1r1a1&quot;}" type="hidden" name="form" value="apps">
+             <button id="search" aria-label="Search" class="c-glyph" data-m="{&quot;cN&quot;:&quot;Search_nav&quot;,&quot;id&quot;:&quot;n5c1c8c2m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c1c8c2m1r1a1&quot;}" data-bi-dnt="true" data-bi-mto="true"></button>
+             <div class="m-auto-suggest" id="universal-header-search-auto-suggest-transparent" role="group">
+              <ul class="c-menu" id="universal-header-search-auto-suggest-ul" aria-hidden="true" data-bi-dnt="true" data-bi-mto="true" data-js-auto-suggest-position="default" role="listbox" data-tel="jsll" data-m="{&quot;cN&quot;:&quot;search suggestions_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c1c8c2m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c1c8c2m1r1a1&quot;}"></ul>
+             </div>
+            </form>
+            <div id="meControl" class="c-me" data-signinsettings="{&quot;containerId&quot;:&quot;meControl&quot;,&quot;enabled&quot;:true,&quot;headerHeight&quot;:48,&quot;debug&quot;:false,&quot;extensibleLinks&quot;:[{&quot;string&quot;:&quot;For home&quot;,&quot;url&quot;:&quot;https://www.office.com/?auth=1&quot;,&quot;id&quot;:&quot;global-office-account-personal&quot;},{&quot;string&quot;:&quot;Work, school or university&quot;,&quot;url&quot;:&quot;https://www.office.com/?auth=2&quot;,&quot;id&quot;:&quot;global-office-account-commercial&quot;}],&quot;userData&quot;:{&quot;idp&quot;:&quot;msa&quot;,&quot;firstName&quot;:&quot;&quot;,&quot;lastName&quot;:&quot;&quot;,&quot;memberName&quot;:&quot;&quot;,&quot;cid&quot;:&quot;&quot;,&quot;authenticatedState&quot;:&quot;3&quot;},&quot;rpData&quot;:{&quot;preferredIdp&quot;:&quot;msa&quot;,&quot;msaInfo&quot;:{&quot;signInUrl&quot;:&quot;&quot;,&quot;signOutUrl&quot;:&quot;&quot;,&quot;meUrl&quot;:&quot;https://login.live.com/me.srf?wa=wsignin1.0&quot;},&quot;aadInfo&quot;:{&quot;signOutUrl&quot;:&quot;&quot;,&quot;appId&quot;:null,&quot;siteUrl&quot;:null,&quot;blockMsaFed&quot;:true}}}" data-m="{&quot;cN&quot;:&quot;GlobalNav_Account_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c8c2m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c8c2m1r1a1&quot;}">
+             <div class="msame_Header">
+              <div class="msame_Header_name">
+               Sign in
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </header>
+       </div>
+      </div>
+     </section></span>
+    <div class="CSPvNext ">
+     <span class="page-data-sources"></span>
+     <div id="frameContainer" style="display: none"></div>
+     <script>/*<![CDATA[*/function createSilentAuthFrame(){var n=document.createElement("iframe");n.src="https://products.office.com/en-us/silentauth";n.style="display: none";document.getElementById("frameContainer").appendChild(n)}function MscomLoadOptions(){var n={meControlOptions:{rpData:{msaInfo:{signInUrl:mscomSignInUrl,signOutUrl:mscomSignOutUrl},aadInfo:{signInUrl:mscomSignInUrl,signOutUrl:mscomSignOutUrl}},userData:{idp:authenticationType==="RPS"?window.msCommonShell.SupportedAuthIdp.MSA:window.msCommonShell.SupportedAuthIdp.AAD,firstName:typeof aFirstName=="undefined"?"":aFirstName,lastName:typeof aLastName=="undefined"?"":aLastName,memberName:typeof aMemberName=="undefined"?"":aMemberName,cid:typeof aCid=="undefined"?"":aCid,authenticatedState:typeof aAuthenticatedState=="undefined"?window.msCommonShell.AuthState.NotSignedIn:aAuthenticatedState}},events:{onSearch:function(n){if(n){var t=n.q.value;typeof ms!="undefined";t&&typeof ms!="undefined"&&(ms["ms.pgarea"]="header",ms["ms.cmpgrp"]="nav",ms["ms.cmpnm"]="search",ms["ms.InteractionType"]="2",ms["ms.searchquery"]=t,ms["ms.Title"]="search",wcs["wcs.cot"]="4",MscomBeacon())}},onEventLog:function(n){if(typeof ms!="undefined"){ms["ms.pgarea"]="header";ms["ms.cmpgrp"]="nav";ms["ms.cmpnm"]="mecontrol";wcs["wcs.cot"]="1";switch(n){case"MeControl_SignIn":ms["ms.Title"]="sign-in";ms["ms.InteractionType"]="14";MscomBeacon();break;case"MeControl_RemoveUser":ms["ms.Title"]="remove account";ms["ms.InteractionType"]="1";MscomBeacon();break;case"MeControl_SwitchUser":ms["ms.Title"]="change account";ms["ms.InteractionType"]="1";MscomBeacon();break;case"MeControl_SignOutAll":ms["ms.Title"]="Sign-out";MscomBeacon();break;case"MeControl_ViewAccount":ms["ms.Title"]="View Account";MscomBeacon();break;case"MeControl_DropdownOpen":ms["ms.Title"]="Profile DropdownOpen";ms["ms.InteractionType"]="1";wcs["wcs.cot"]="5";MscomBeacon()}}}}},t;autoSuggestOptions!==null&&(t=initSearchSuggest(autoSuggestOptions.requestEndpoint,autoSuggestOptions.locale),n=$.extend(!0,{},n,t));window.msCommonShell.load(n)}window.addEventListener?window.addEventListener("load",createSilentAuthFrame,!1):window.attachEvent?window.attachEvent("onload",createSilentAuthFrame):window.onload=createSilentAuthFrame;var href=encodeURIComponent(location.href),authenticationType="",mscomSignInUrl="/en/signin.aspx",mscomSignOutUrl="/en/signout.aspx",autoSuggestOptions=null;window.msCommonShell?MscomLoadOptions():window.onShellReadyToLoad=function(){window.onShellReadyToLoad=null;MscomLoadOptions()}/*]]>*/</script>
+    </div>
+    <script>/*<![CDATA[*/function DecodeHTML(){$(".msame_Header_chev").length&&($(".msame_Header_chev").text()?$(".msame_Header_chev").html($(".msame_Header_chev").text()).show():$(".msame_Header_chev").hide())}function checkDecode(){DecodeHTML();$(".msame_Header_chev").unbind("DOMSubtreeModified",checkDecode)}$(document).ready(function(){var i=document.getElementById("cli_shellHeaderSearchInput"),t=$(i).attr("placeholder").match(/&#(\d+);/g),r=t&&t.length,n;if(r)for(n=0;n<r;n++)i.placeholder=i.placeholder.replace(t[n],String.fromCharCode(t[n].match(/\d+/)))});$(document).ready(DecodeHTML);$(window).load(DecodeHTML);$(window).resize(function(){$(".msame_Header_chev").bind("DOMSubtreeModified",checkDecode)})/*]]>*/</script>
+   </div>
+   <section id="pmg-body">
+    <div class="CSPvNext">
+     <div role="main">
+      <div id="pmg-ng-m365-homepage">
+       <div class="CSPvNext">
+        <section id="pmg-hero-version-2" class="pmg-pos-rel">
+         <div class="ms-grid pmg-xs-full">
+          <div class="ms-row pmg-pv-0030">
+           <!-- START Content -->
+           <div class="xs-col-24-24 m-col-3-24 xl-col-7-24"></div>
+           <div id="pmg-hv2-content" class="xs-col-24-24 m-col-18-24 xl-col-10-24 pmg-bgc-content pmg-txt-align-center">
+            <div class="pmg-pv-0070 pmg-mv-3570"></div>
+           </div>
+           <div class="xs-col-24-24 m-col-3-24 xl-col-7-24"></div>
+           <!-- END Content -->
+          </div>
+         </div>
+         <!-- Background Image -->
+         <div class="pmg-hero-img" role="img">
+          <img id="office-products-homepage-bgimage" src="https://c.s-microsoft.com/en/CMSImages/Hero_M365_1920x400.jpg?version=0c0ba523-5a1b-f354-ea6e-2bb70f36e3c7" class="mscom-image pmgJS-temp-hero hide-xs">
+         </div>
+        </section>
+        <section id="pmg-content-1" class="ms-grid">
+         <div class="ms-row pmg-pv-5050">
+          <div class="m-col-16-24 m-col-24-push-4 xs-pmg-pv-1010 m-pmg-pv-1030 pmg-xs-tac">
+           <h1 class="no-margin headline  pmg-ff-segoe-ui-regular pmg-cl-black">Introducing <span class="pmg-txt-nowrap">Microsoft 365</span></h1>
+           <p class="no-margin subtitle pmg-pv-2035 pmg-cl-black pmg-ff-segoe-ui-normal">A complete, intelligent solution, including <span class="pmg-txt-nowrap">Office 365</span>, Windows 10, and Enterprise Mobility + Security, that empowers everyone to be creative and work together, securely.</p>
+           <div class="pmg-xs-display-b pmg-m-display-ib pmg-ph-1010">
+            <a id="pmg-for-business-link" class="mscom-link pmg-min-w-280 button pmg-darker-blue pmg-cl-white pmg-outline-black pmg-outline-3 pmg-bdr-top-2 pmg-bdr-bottom-2 pmg-m-display-ib body-alt pmg-pv-1515" href="https://www.microsoft.com/en/microsoft-365/business">FOR BUSINESS</a>
+           </div>
+           <div class="pmg-xs-display-b pmg-m-display-ib pmg-ph-1010">
+            <a id="pmg-for-enterprise-link" class="mscom-link pmg-min-w-280 button pmg-darker-blue pmg-cl-white pmg-outline-black pmg-outline-3 pmg-bdr-top-2 pmg-bdr-bottom-2 pmg-m-display-ib body-alt pmg-pv-1515" href="https://www.microsoft.com/en/microsoft-365/enterprise/home">FOR ENTERPRISE</a>
+           </div>
+           <div class="pmg-xs-display-b pmg-m-display-ib pmg-ph-1010">
+            <a id="pmg-for-education-link" class="mscom-link pmg-min-w-280 button pmg-darker-blue pmg-cl-white pmg-outline-black pmg-outline-3 pmg-bdr-top-2 pmg-bdr-bottom-2 pmg-m-display-ib body-alt pmg-pv-1515" aria-label="FOR EDUCATION the Microsoft 365 education page" href="https://go.microsoft.com/fwlink/p/?linkid=864773">FOR EDUCATION</a>
+           </div>
+          </div>
+         </div>
+        </section>
+        <!--promo -->
+        <div id="firstline-Workforce-promo">
+         <section id="pmg-firstline-workforce-video" class="pmg-pos-rel">
+          <div class="ms-grid no-padding xl-pmg-pv-3070 m-pmg-pv-3070 m-pmg-mv-0005 xs-pmg-mv-0005">
+           <div class="xl-pmg-pv-7070 m-pmg-pv-1010">
+            <div class="ms-row no-margin">
+             <div class="m-col-24-24 xs-col-24-24  pmg-m-display-tc pmg-m-tal pmg-vertical-align-middle pmg-z-2 pmg-xs-tac pmg-m-no-bg m-pmg-ph-0000">
+              <h2 aria-level="2" class="pmg-ff-segoe-ui-semibold header pmg-cl-white tac pmg-cl-white tac no-margin m-pmg-pv-4000 xs-pmg-pv-4000"> Maximize the impact of your Firstline Workforce </h2>
+              <p class="xs-pmg-pv-1010 m-pmg-pv-1000 tac pmg-cl-white"> A global workforce 2 billion strong, unlock their potential today. </p>
+              <div class="tac m-pmg-pv-1000 xs-pmg-pv-0045">
+               <a id="demo-link" target="_self" class="mscom-link pmg-outline-black pmg-outline-3" aria-label="LEARN MORE at the Microsoft 365 for Firstline Workers page" href="https://www.microsoft.com/en/microsoft-365/enterprise/firstline"><span class="pmg-xs-display-ib pmg-cl-white pmg-fs-13px">LEARN MORE <img id="demo-img-arrow" src="https://c.s-microsoft.com/en/CMSImages/CTA_Arrow_White_10x19.png?version=6cc6e00b-e9bc-2b3a-f96c-e060ac477648" class="mscom-image mscom-image pmg-mv-0004 pmg-mh-1000 vam" alt="LEARN MORE at the Microsoft 365 for Firstline Workers page" width="10" height="19" role="presentation"></span></a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+          <!-- Background Image -->
+          <div class="pmg-hero-img">
+           <img src="https://c.s-microsoft.com/en/CMSImages/Image_FrontlinePromo_1920x393.jpg?version=e8b941e4-a9aa-0c14-f461-1185b1392137" class="mscom-image pmgJS-temp-video hide-xs" alt="Maximize the impact of your Firstline Workforce">
+          </div>
+         </section>
+        </div>
+        <input type="hidden" class="pmg-controls" value="[{'functionName':'SetHeroBackground','params':'sectionID:#pmg-firstline-workforce-video|backgroundDiv:.pmg-hero-img|imageControl:.pmgJS-temp-video|heroPosition:center'}]">
+        <section id="pmg-satya-announce-video" class="pmg-pos-rel">
+         <div class="ms-grid no-padding pmg-pv-5000">
+          <div class="m-pmg-pv-7050 xs-pmg-pv-7050">
+           <div class="ms-row no-margin">
+            <div class="m-col-24-24 xs-col-24-24  pmg-m-display-tc pmg-m-tal pmg-vertical-align-middle pmg-z-2 pmg-xs-tac pmg-m-no-bg m-pmg-ph-0000">
+             <p class="xs-pmg-pv-0010 m-pmg-pv-0000 tac"><a id="vide-button-1" class="mscom-link pmg-display-ib pmg-outline-white pmg-outline-3" aria-label="Watch Satya announce Microsoft 365" href="#"><img id="play-icon" src="https://c.s-microsoft.com/en/CMSImages/Icon_PlayButton_75x75.png?version=9bfd0c32-1e89-18a6-be5a-de52f71763a8" class="mscom-image pmg-hc-white-img vab" alt="Watch Satya announce Microsoft 365" title="Watch the video"></a></p>
+             <h2 aria-level="2" class="headline pmg-ff-segoe-ui-regular header no-margin m-pmg-pv-0570 xs-pmg-pv-0070 xs-pmg-mv-0300 tac pmg-cl-white tac"> Watch Satya announce Microsoft 365 </h2>
+            </div>
+           </div>
+          </div>
+         </div>
+         <!-- Background Image -->
+         <div class="pmg-hero-img">
+          <img id="pmg-satya-announce-video-background-img" src="https://c.s-microsoft.com/en/CMSImages/Image_SatyaAnnouncementVideo_1920x400.jpg?version=5a3eb65e-200d-9f7c-fb12-73ab3af077ec" class="mscom-image pmgJS-temp-video hide-xs" alt="Watch Satya announce Microsoft 365">
+         </div>
+        </section>
+        <input type="hidden" class="pmg-controls" value="[{'functionName':'SetHeroBackground','params':'sectionID:#pmg-satya-announce-video|backgroundDiv:.pmg-hero-img|imageControl:.pmgJS-temp-video|heroPosition:center'}]">
+        <section id="pmg-content-4" class="pmg-bg-ffffff pmg-mv-0003">
+         <div class="ms-grid">
+          <div class="ms-row pmg-pv-5555">
+           <div class="col-1-1 pmg-xs-tac">
+            <p class="no-margin"><span class="">Explore Microsoft&nbsp;365 products: </span><a id="pmg-explore-link-1" class="mscom-link pmg-outline-black pmg-outline-3 pmg-xs-display-ib" href="https://products.office.com/en/compare-all-microsoft-office-products?tab=2">Office&nbsp;365</a> &nbsp;|&nbsp; <a id="pmg-explore-link-2" class="mscom-link pmg-outline-black pmg-outline-3 pmg-xs-display-ib" href="https://go.microsoft.com/fwlink/p/?linkid=821162">Windows&nbsp;10</a> &nbsp;|&nbsp; <a id="pmg-explore-link-3" class="mscom-link pmg-outline-black pmg-outline-3 pmg-xs-display-ib" href="https://go.microsoft.com/fwlink/p/?linkid=821161">Enterprise Mobility + Security</a></p>
+           </div>
+          </div>
+         </div>
+        </section>
+        <!-- Modal Video -->
+        <section id="video-overlay" class="ms-grid pmg-video-popup pmg-popup-youtube pmg-pos-abs xs-pmg-ph-1010 xs-pmg-pv-2000 l-pmg-ph-2020 xs-pmg-mh-0000 xs-pmg-mv-0000 pmg-bg-d2d2d2 m-pmg-mh-left-auto m-pmg-mh-right-auto">
+         <div class="ms-row">
+          <div class="col-1-1">
+           <div class="pmg-popup-close">
+            <img id="pmg-video-close" src="https://c.s-microsoft.com/en/CMSImages/pmg-close-orange.PNG.png?version=58ebe137-88d8-9fdd-76ca-b3e5a752ea31" class="mscom-image" alt="Close video" width="20" height="20">
+           </div>
+          </div>
+         </div>
+         <div class="ms-row">
+          <div class="col-1-1 pmg-content-msn m-pmg-pv-2020 xs-pmg-pv-0010 m-pmg-ph-2020">
+           <div>
+            7df29bf1-69b6-431c-8834-c708cab90e8f
+           </div>
+          </div>
+         </div>
+        </section>
+       </div>
+       <input class="pmg-controls" type="hidden" value="[{'functionName':'SetHeroBackground','params':'sectionID:#pmg-hero-version-2|backgroundDiv:.pmg-hero-img|imageControl:.pmgJS-temp-hero|heroPosition:right'}]">
+       <input type="hidden" class="pmg-controls" value="[{'functionName':'VideoPopup','params':'control:#vide-button-1|container:#video-overlay'}]">
+      </div>
+     </div>
+    </div>
+   </section>
+   <span>
+    <section id="footerArea" data-m="{&quot;cN&quot;:&quot;footerArea&quot;,&quot;cT&quot;:&quot;Area_coreuiArea&quot;,&quot;id&quot;:&quot;a2Body&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;Body&quot;}">
+     <div id="footerRegion" data-region-key="footerregion" data-m="{&quot;cN&quot;:&quot;footerRegion&quot;,&quot;cT&quot;:&quot;Region_coreui-region&quot;,&quot;id&quot;:&quot;r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;a2&quot;}">
+      <div id="footerUniversalFooter" data-m="{&quot;cN&quot;:&quot;footerUniversalFooter&quot;,&quot;cT&quot;:&quot;Module_coreui-universalfooter&quot;,&quot;id&quot;:&quot;m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;r1a2&quot;}" data-module-id="Category|footerRegion|footerRegion|footerUniversalFooter|coreui-universalfooter">
+       <footer id="uhf-footer" role="contentinfo" class="c-uhff context-uhf" data-uhf-mscc-rq="false" data-footer-footprint="en-ww/OfficeProducts/SPEFooter" data-m="{&quot;cN&quot;:&quot;Uhf footer_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;m1r1a2&quot;}">
+        <nav class="c-uhff-nav" role="navigation" aria-label="Footer" data-m="{&quot;cN&quot;:&quot;Footer nav_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1m1r1a2&quot;}">
+         <div class="c-uhff-nav-row">
+          <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn1_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+           <h4 class="c-heading-4">What's new</h4>
+           <ul class="c-list f-bare">
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/surface/devices/surface-book-2/overview" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_SurfaceBook2_nav&quot;,&quot;id&quot;:&quot;n1c1c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Surface Book 2</a></li>
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/surface/devices/surface-pro/overview" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_NewSurfacePro_nav&quot;,&quot;id&quot;:&quot;n2c1c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Surface Pro</a></li>
+            <li><a class="c-uhff-link" href="https://www.xbox.com/en-us/xbox-one-x" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_XboxOneX_nav&quot;,&quot;id&quot;:&quot;n3c1c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Xbox One X</a></li>
+            <li><a class="c-uhff-link" href="https://www.xbox.com/en-us/xbox-one-s?xr=shellnav" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_XboxOneS_nav&quot;,&quot;id&quot;:&quot;n4c1c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Xbox One S</a></li>
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/virtualreality" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_VRandMixedReality_nav&quot;,&quot;id&quot;:&quot;n5c1c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">VR &amp; mixed reality</a></li>
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/windows/windows-10-apps" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_Windows_10_apps_nav&quot;,&quot;id&quot;:&quot;n6c1c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Windows 10 apps</a></li>
+            <li><a class="c-uhff-link" href="https://store.office.com/en-us/appshome.aspx?" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_OfficeApps_nav&quot;,&quot;id&quot;:&quot;n7c1c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Office apps</a></li>
+           </ul>
+          </div>
+          <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn2_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+           <h4 class="c-heading-4">Store &amp; Support</h4>
+           <ul class="c-list f-bare">
+            <li><a class="c-uhff-link" href="https://account.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_AccountProfile_nav&quot;,&quot;id&quot;:&quot;n1c2c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Account profile</a></li>
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/download" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_DownloadCenter_nav&quot;,&quot;id&quot;:&quot;n2c2c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Download Center</a></li>
+            <li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/p/?LinkID=824761&amp;clcid=0x409" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_SalesAndSupport_nav&quot;,&quot;id&quot;:&quot;n3c2c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Sales &amp; support</a></li>
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/extended-holiday-returns?icid=gm_fy18_hol_uhf_footer_whatsnew_extendedreturns" data-m="{&quot;cN&quot;:&quot;MicrosoftStore_ExtendedHolidayReturns_nav&quot;,&quot;id&quot;:&quot;n4c2c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Extended holiday returns</a></li>
+            <li><a class="c-uhff-link" href="https://account.microsoft.com/orders" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_OrderTracking_nav&quot;,&quot;id&quot;:&quot;n5c2c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Order tracking</a></li>
+            <li><a class="c-uhff-link" href="https://support.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_Support_nav&quot;,&quot;id&quot;:&quot;n6c2c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Support</a></li>
+           </ul>
+          </div>
+          <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn3_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+           <h4 class="c-heading-4">Education</h4>
+           <ul class="c-list f-bare">
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/education" data-m="{&quot;cN&quot;:&quot;Footer_Education_MicrosoftInEducation_nav&quot;,&quot;id&quot;:&quot;n1c3c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Microsoft in education</a></li>
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/education/products/office/default.aspx" data-m="{&quot;cN&quot;:&quot;Footer_Education_OfficeForStudents_nav&quot;,&quot;id&quot;:&quot;n2c3c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Office for students</a></li>
+            <li><a class="c-uhff-link" href="https://products.office.com/en-us/academic/compare-office-365-education-plans" data-m="{&quot;cN&quot;:&quot;Footer_Education_Office365ForSchools_nav&quot;,&quot;id&quot;:&quot;n3c3c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Office 365 for schools</a></li>
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/student" data-m="{&quot;cN&quot;:&quot;Footer_Education_DealsForStudentsandEducators_nav&quot;,&quot;id&quot;:&quot;n4c3c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Deals for students &amp; educators </a></li>
+            <li><a class="c-uhff-link" href="https://azure.microsoft.com/en-us/community/education/" data-m="{&quot;cN&quot;:&quot;Footer_MicrosoftAzureInEducation_nav&quot;,&quot;id&quot;:&quot;n5c3c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Microsoft Azure in education</a></li>
+           </ul>
+          </div>
+         </div>
+         <div class="c-uhff-nav-row">
+          <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn4_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+           <h4 class="c-heading-4">Enterprise</h4>
+           <ul class="c-list f-bare">
+            <li><a class="c-uhff-link" href="https://azure.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_MicrosoftAzure_nav&quot;,&quot;id&quot;:&quot;n1c4c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Microsoft Azure </a></li>
+            <li><a class="c-uhff-link" href="https://enterprise.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_Enterprise_nav&quot;,&quot;id&quot;:&quot;n2c4c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Enterprise</a></li>
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/sql-server/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_DataPlatform_nav&quot;,&quot;id&quot;:&quot;n3c4c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Data platform</a></li>
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/solution-providers" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_FindASolutionsProvider_nav&quot;,&quot;id&quot;:&quot;n4c4c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Find a solutions provider</a></li>
+            <li><a class="c-uhff-link" href="https://partner.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_MicrosoftPartnerResources_nav&quot;,&quot;id&quot;:&quot;n5c4c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Microsoft partner resources </a></li>
+            <li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkID=808093" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_MicrosoftAppSource_nav&quot;,&quot;id&quot;:&quot;n6c4c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Microsoft AppSource </a></li>
+            <li><a class="c-uhff-link" href="https://enterprise.microsoft.com/en-us/industries/discrete-manufacturing/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_ManufacturingAndResources_nav&quot;,&quot;id&quot;:&quot;n7c4c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Manufacturing &amp; resources</a></li>
+            <li><a class="c-uhff-link" href="https://enterprise.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_FinanciaServices_nav&quot;,&quot;id&quot;:&quot;n8c4c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Financial services</a></li>
+           </ul>
+          </div>
+          <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn5_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+           <h4 class="c-heading-4">Developer</h4>
+           <ul class="c-list f-bare">
+            <li><a class="c-uhff-link" href="https://www.visualstudio.com/" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftVisualStudio_nav&quot;,&quot;id&quot;:&quot;n1c5c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Microsoft Visual Studio</a></li>
+            <li><a class="c-uhff-link" href="https://developer.microsoft.com/en-us/windows" data-m="{&quot;cN&quot;:&quot;Footer_Developer_WindowsDevCenter_nav&quot;,&quot;id&quot;:&quot;n2c5c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Windows Dev Center</a></li>
+            <li><a class="c-uhff-link" href="https://msdn.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftDeveloperNetwork_nav&quot;,&quot;id&quot;:&quot;n3c5c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Developer Network</a></li>
+            <li><a class="c-uhff-link" href="https://technet.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Developer_TechNet_nav&quot;,&quot;id&quot;:&quot;n4c5c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">TechNet</a></li>
+            <li><a class="c-uhff-link" href="https://mva.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftVirtualAcademy_nav&quot;,&quot;id&quot;:&quot;n5c5c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Microsoft Virtual Academy</a></li>
+            <li><a class="c-uhff-link" href="https://developer.microsoft.com/en-us/store/register" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftDeveloperProgram_nav&quot;,&quot;id&quot;:&quot;n6c5c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Microsoft developer program</a></li>
+            <li><a class="c-uhff-link" href="https://channel9.msdn.com/" data-m="{&quot;cN&quot;:&quot;Footer_Developer_Channel9_nav&quot;,&quot;id&quot;:&quot;n7c5c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Channel 9</a></li>
+            <li><a class="c-uhff-link" href="https://developer.microsoft.com/en-us/office" data-m="{&quot;cN&quot;:&quot;Footer_Developer_OfficeDevCenter_nav&quot;,&quot;id&quot;:&quot;n8c5c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Office Dev Center</a></li>
+           </ul>
+          </div>
+          <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn6_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+           <h4 class="c-heading-4">Company</h4>
+           <ul class="c-list f-bare">
+            <li><a class="c-uhff-link" href="https://careers.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Company_Careers_nav&quot;,&quot;id&quot;:&quot;n1c6c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Careers</a></li>
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/about" data-m="{&quot;cN&quot;:&quot;Footer_Company_AboutMicrosoft_nav&quot;,&quot;id&quot;:&quot;n2c6c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">About Microsoft</a></li>
+            <li><a class="c-uhff-link" href="https://news.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Company_CompanyNews_nav&quot;,&quot;id&quot;:&quot;n3c6c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Company news</a></li>
+            <li><a class="c-uhff-link" href="https://privacy.microsoft.com/en-ww" data-m="{&quot;cN&quot;:&quot;Footer_Company_PrivacyAtMicrosoft_nav&quot;,&quot;id&quot;:&quot;n4c6c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Privacy at Microsoft</a></li>
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/investor/default.aspx" data-m="{&quot;cN&quot;:&quot;Footer_Company_Investors_nav&quot;,&quot;id&quot;:&quot;n5c6c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Investors</a></li>
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/diversity/" data-m="{&quot;cN&quot;:&quot;Footer_Company_DiversityAndInclusion_nav&quot;,&quot;id&quot;:&quot;n6c6c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Diversity and inclusion</a></li>
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/accessibility/home" data-m="{&quot;cN&quot;:&quot;Footer_Company_Accessibility_nav&quot;,&quot;id&quot;:&quot;n7c6c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Accessibility</a></li>
+            <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/security/default.aspx" data-m="{&quot;cN&quot;:&quot;Footer_Company_Security_nav&quot;,&quot;id&quot;:&quot;n8c6c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Security</a></li>
+           </ul>
+          </div>
+         </div>
+        </nav>
+        <div class="c-uhff-base">
+         <a id="locale-picker-link" class="c-uhff-link c-uhff-lang-selector c-glyph glyph-world" href="https://www.microsoft.com/en/microsoft-365/locale" data-m="{&quot;cN&quot;:&quot;locale_picker(US)_nav&quot;,&quot;id&quot;:&quot;n7c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">English (Other)</a>
+         <ul role="contentinfo" aria-label="Microsoft corporate links" class="c-list f-bare" data-m="{&quot;cN&quot;:&quot;Corp links_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c8c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+          <li><a class="c-uhff-link" href="https://support.microsoft.com/contactus" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_ContactUs_nav&quot;,&quot;id&quot;:&quot;n1c8c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">Contact Us</a></li>
+          <li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_PrivacyandCookies_nav&quot;,&quot;id&quot;:&quot;n2c8c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">Privacy &amp; Cookies</a></li>
+          <li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkID=206977" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_TermsOfUse_nav&quot;,&quot;id&quot;:&quot;n3c8c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">Terms of Use</a></li>
+          <li><a class="c-uhff-link" href="https://www.microsoft.com/trademarks" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_Trademarks_nav&quot;,&quot;id&quot;:&quot;n4c8c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">Trademarks</a></li>
+          <li><a class="c-uhff-link" href="https://choice.microsoft.com/" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_AboutourAds_nav&quot;,&quot;id&quot;:&quot;n5c8c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">About our ads</a></li>
+          <li>© Microsoft 2018</li>
+         </ul>
+        </div>
+       </footer>
+      </div>
+     </div>
+    </section></span>
+  </div>
+  <!-- LE button div -->
+  <div id="hiddenchat"></div>
+ </body>
+</html>

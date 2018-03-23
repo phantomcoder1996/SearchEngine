@@ -1,0 +1,797 @@
+https://www.tutorialspoint.com/web_development_tutorials.htm
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>Web Development Technologies</title> 
+  <meta name="description" content="Web Development Technologies - Tutorials for DOM, AngularJS, SVG, XSD, XPath, XSLT, Web Development Technologies including Adobe Flex, GWT, JSF, ASP.Net, HTML, HTML5, XHTML, CSS, Javascript, VBScript, jQuery, jQueryUI, Bootstrap, Prototype, script.aculo.us, Web Developer's Guide, Ruby on Rails etc."> 
+  <meta name="Keywords" content="Tutorials, AngularJS, SVG, XSD, XPath, XSLT, Flex, GWT, JSF, ASP.Net, HTML, HTML5, XHTML, CSS, Javascript, VBScript, jQuery, jQueryUI, Bootstrap, Prototype, script.aculo.us, Web Developer's Guide, Ruby on Rails "> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #353535 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #353535 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #353535 !important;}
+.submenu-item{ border-bottom: 2px solid #353535 !important; border-top: 2px solid #353535 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#353535; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/black/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div id="content" class="content full"> 
+    <div class="black-bg background" style="height:330px;"> 
+     <span class="cat-title">Web Tutorials</span> 
+     <div class="cat-punch-line">
+      <img src="/scripts/img/slides/slide-title-border.png" alt="border">
+      <span> Web Development Technologies </span>
+      <img src="/scripts/img/slides/slide-title-border.png" alt="border">
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="cg_prdts" style="position: relative; margin:-123px 0px 30px 0px;"> 
+   <div class="container"> 
+    <div class=""> 
+     <div class="col-md-3"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="container"> 
+   <div class="row"> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/ajax/index.htm" title="Learn Ajax"> <img style="width:100px; height:80px;" src="/images/ajax_icon.png" alt="Learn Ajax"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/amazon_web_services/index.htm" title="Learn Amazon Web Services"> <img style="width:100px; height:80px;" src="/images/amazon_web_services_icon.png" alt="Learn Amazon Web Services"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/angular_material/index.htm" title="Learn Angular Material"> <img style="width:100px; height:80px;" src="/images/angular_material_icon.png" alt="Learn Angular Material"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/angular2/index.htm" title="Learn Angular2"> <img style="width:100px; height:80px;" src="/images/angular2_icon.png" alt="Learn Angular2"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/angular4/index.htm" title="Learn Angular4"> <img style="width:100px; height:80px;" src="/images/angular4_icon.png" alt="Learn Angular4"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/angularjs/index.htm" title="Learn AngularJS"> <img style="width:100px; height:80px;" src="/images/angularjs_icon.png" alt="Learn AngularJS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/apache_tapestry/index.htm" title="Learn Apache Tapestry"> <img style="width:100px; height:80px;" src="/images/apache_tapestry_icon.png" alt="Learn Apache Tapestry"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/asp.net/index.htm" title="Learn ASP.Net"> <img style="width:100px; height:80px;" src="/images/asp.net_icon.png" alt="Learn ASP.Net"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/aurelia/index.htm" title="Learn Aurelia"> <img style="width:100px; height:80px;" src="/images/aurelia_icon.png" alt="Learn Aurelia"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/axure_rp/index.htm" title="Learn Axure RP"> <img style="width:100px; height:80px;" src="/images/axure_rp_icon.png" alt="Learn Axure RP"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/backbonejs/index.htm" title="Learn BackboneJS"> <img style="width:100px; height:80px;" src="/images/backbonejs_icon.png" alt="Learn BackboneJS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/bootstrap/index.htm" title="bootstrap"> <img style="width:100px; height:80px;" src="/images/bootstrap_icon.png" alt="bootstrap"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/cakephp/index.htm" title="Learn CakePHP"> <img style="width:100px; height:80px;" src="/images/cakephp_icon.png" alt="Learn CakePHP"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/cherrypy/index.htm" title="Learn CherryPy"> <img style="width:100px; height:80px;" src="/images/cherrypy_icon.png" alt="Learn CherryPy"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/codeigniter/index.htm" title="Learn Codeigniter"> <img style="width:100px; height:80px;" src="/images/codeigniter_icon.png" alt="Learn Codeigniter"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/coffeescript/index.htm" title="Learn CoffeeScript"> <img style="width:100px; height:80px;" src="/images/coffeescript_icon.png" alt="Learn CoffeeScript"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/cpanel/index.htm" title="Learn CPanel"> <img style="width:100px; height:80px;" src="/images/cpanel_icon.png" alt="Learn CPanel"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/css/index.htm" title="Learn CSS"> <img style="width:100px; height:80px;" src="/images/css_icon.png" alt="Learn CSS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/css_buttons/index.htm" title="Learn CSS Buttons"> <img style="width:100px; height:80px;" src="/images/css_buttons_icon.png" alt="Learn CSS Buttons"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/d3js/index.htm" title="Learn D3JS"> <img style="width:100px; height:80px;" src="/images/d3js_icon.png" alt="Learn D3JS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/dcjs/index.htm" title="Learn DC.js"> <img style="width:100px; height:80px;" src="/images/dcjs_icon.png" alt="Learn DC.js"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/django/index.htm" title="Learn Django"> <img style="width:100px; height:80px;" src="/images/django_icon.png" alt="Learn Django"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/drupal/index.htm" title="Learn Drupal"> <img style="width:100px; height:80px;" src="/images/drupal_icon.png" alt="Learn Drupal"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/electron/index.htm" title="Learn Electron"> <img style="width:100px; height:80px;" src="/images/electron_icon.png" alt="Learn Electron"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/emberjs/index.htm" title="Learn EmberJS"> <img style="width:100px; height:80px;" src="/images/emberjs_icon.png" alt="Learn EmberJS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/expressjs/index.htm" title="Learn ExpressJS"> <img style="width:100px; height:80px;" src="/images/expressjs_icon.png" alt="Learn ExpressJS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/extjs/index.htm" title="Learn ExtJS"> <img style="width:100px; height:80px;" src="/images/extjs_icon.png" alt="Learn ExtJS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/es6/index.htm" title="Learn ES6"> <img style="width:100px; height:80px;" src="/images/es6_icon.png" alt="Learn ES6"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/firebase/index.htm" title="Learn Firebase"> <img style="width:100px; height:80px;" src="/images/firebase_icon.png" alt="Learn Firebase"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/flask/index.htm" title="Learn Flask"> <img style="width:100px; height:80px;" src="/images/flask_icon.png" alt="Learn Flask"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/flex/index.htm" title="Learn Adobe Flex"> <img style="width:100px; height:80px;" src="/images/flex_icon.png" alt="Learn Adobe Flex"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/flexbox/index.htm" title="Learn Flexbox"> <img style="width:100px; height:80px;" src="/images/flexbox_icon.png" alt="Learn Flexbox"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/foundation/index.htm" title="Learn Foundation"> <img style="width:100px; height:80px;" src="/images/foundation_icon.png" alt="Learn Foundation"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/framework7/index.htm" title="Learn Framework7"> <img style="width:100px; height:80px;" src="/images/framework7_icon.png" alt="Learn Framework7"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/fuelphp/index.htm" title="Learn FuelPHP"> <img style="width:100px; height:80px;" src="/images/fuelphp_icon.png" alt="Learn FuelPHP"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/google_maps/index.htm" title="Learn Google Maps"> <img style="width:100px; height:80px;" src="/images/google_maps_icon.png" alt="Learn Google Maps"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/grav/index.htm" title="Learn Grav"> <img style="width:100px; height:80px;" src="/images/grav_icon.png" alt="Learn Grav"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/grunt/index.htm" title="Learn Grunt"> <img style="width:100px; height:80px;" src="/images/grunt_icon.png" alt="Learn Grunt"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/gulp/index.htm" title="Learn Grav"> <img style="width:100px; height:80px;" src="/images/gulp_icon.png" alt="Learn Grav"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/gwt/index.htm" title="Learn Google Web Toolkit"> <img style="width:100px; height:80px;" src="/images/gwt_icon.png" alt="Learn Google Web Toolkit"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/highcharts/index.htm" title="Learn Highcharts"> <img style="width:100px; height:80px;" src="/images/highcharts_icon.png" alt="Learn Highcharts"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/html/index.htm" title="Learn HTML"> <img style="width:100px; height:80px;" src="/images/html_icon.png" alt="Learn HTML"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/html5/index.htm" title="Learn HTML5"> <img style="width:100px; height:80px;" src="/images/html5_icon.png" alt="Learn HTML5"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/http/index.htm" title="Learn HTTP"> <img style="width:100px; height:80px;" src="/images/http_icon.png" alt="Learn HTTP"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/jasminejs/index.htm" title="Learn JasmineJS"> <img style="width:100px; height:80px;" src="/images/jasminejs_icon.png" alt="Learn JasmineJS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/javascript/index.htm" title="Learn JavaScript"> <img style="width:100px; height:80px;" src="/images/javascript_icon.png" alt="Learn JavaScript"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/joomla/index.htm" title="Learn Joomla"> <img style="width:100px; height:80px;" src="/images/joomla_icon.png" alt="Learn Joomla"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/jquery/index.htm" title="jquery"> <img style="width:100px; height:80px;" src="/images/jquery_icon.png" alt="jquery"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/jqueryui/index.htm" title="jqueryUI"> <img style="width:100px; height:80px;" src="/images/jqueryui_icon.png" alt="jqueryUI"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/jsf/index.htm" title="Learn JSF"> <img style="width:100px; height:80px;" src="/images/jsf_icon.png" alt="Learn JSF"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/knockoutjs/index.htm" title="Learn KnockoutJS"> <img style="width:100px; height:80px;" src="/images/knockoutjs_icon.png" alt="Learn KnockoutJS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/koajs/index.htm" title="Learn KoaJS"> <img style="width:100px; height:80px;" src="/images/koajs_icon.png" alt="Learn KoaJS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/laravel/index.htm" title="Learn Laravel"> <img style="width:100px; height:80px;" src="/images/laravel_icon.png" alt="Learn Laravel"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/less/index.htm" title="Learn LESS"> <img style="width:100px; height:80px;" src="/images/less_icon.png" alt="Learn LESS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/leafletjs/index.htm" title="Learn LeafletJS"> <img style="width:100px; height:80px;" src="/images/leafletjs_icon.png" alt="Learn LeafletJS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/mathml/index.htm" title="Learn MathML"> <img style="width:100px; height:80px;" src="/images/mathml_icon.png" alt="Learn MathML"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/magento/index.htm" title="Learn Magento Framework"> <img style="width:100px; height:80px;" src="/images/magento_icon.png" alt="Learn Magento Framework"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/materialdesignlite/index.htm" title="Learn Material Design Lite"> <img style="width:100px; height:80px;" src="/images/materialdesignlite_icon.png" alt="Learn Material Design Lite"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/materialize/index.htm" title="Learn Materialize"> <img style="width:100px; height:80px;" src="/images/materialize_icon.png" alt="Learn Materialize"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/mootools/index.htm" title="Learn Mootools"> <img style="width:100px; height:80px;" src="/images/mootools_icon.png" alt="Learn Mootools"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/mvc_framework/index.htm" title="Learn MVC Framework"> <img style="width:100px; height:80px;" src="/images/mvc_framework_icon.png" alt="Learn MVC Framework"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/phantomjs/index.htm" title="Learn PhantomJS"> <img style="width:100px; height:80px;" src="/images/phantomjs_icon.png" alt="Learn PhantomJS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/phalcon/index.htm" title="Learn Phalcon"> <img style="width:100px; height:80px;" src="/images/phalcon_icon.png" alt="Learn Phalcon"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/prototype/index.htm" title="Learn Prototype Framework"> <img style="width:100px; height:80px;" src="/images/prototype_icon.png" alt="Learn Prototype Framework"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/polymer/index.htm" title="Learn Polymer Framework"> <img style="width:100px; height:80px;" src="/images/polymer_icon.png" alt="Learn Polymer Framework"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/purecss/index.htm" title="Learn Pure.CSS"> <img style="width:100px; height:80px;" src="/images/purecss_icon.png" alt="Learn Pure.CSS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/richfaces/index.htm" title="Learn RichFaces"> <img style="width:100px; height:80px;" src="/images/richfaces_icon.png" alt="Learn RichFaces"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/reactjs/index.htm" title="Learn ReactJS"> <img style="width:100px; height:80px;" src="/images/reactjs_icon.png" alt="Learn ReactJS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/requirejs/index.htm" title="Learn RequireJS"> <img style="width:100px; height:80px;" src="/images/requirejs_icon.png" alt="Learn RequireJS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/restful/index.htm" title="RESTful Web Services"> <img style="width:100px; height:80px;" src="/images/restful_icon.png" alt="RESTful Web Services"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/ruby-on-rails-2.1/index.htm" title="Learn Ruby on Rails-2.1"> <img style="width:100px; height:80px;" src="/images/ruby-on-rails-2.1_icon.png" alt="Learn Ruby on Rails-2.1"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/ruby-on-rails/index.htm" title="Learn Ruby on Rails"> <img style="width:100px; height:80px;" src="/images/ruby-on-rails_icon.png" alt="Learn Ruby on Rails"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/sass/index.htm" title="Sass Tutorial"> <img style="width:100px; height:80px;" src="/images/sass_icon.png" alt="Sass Tutorial"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/sencha_touch/index.htm" title="Learn Sencha Touch"> <img style="width:100px; height:80px;" src="/images/sencha_touch_icon.png" alt="Learn Sencha Touch"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/script.aculo.us/index.htm" title="script.aculo.us"> <img style="width:100px; height:80px;" src="/images/script.aculo.us_icon.png" alt="script.aculo.us"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/svg/index.htm" title="Learn SVG"> <img style="width:100px; height:80px;" src="/images/svg_icon.png" alt="Learn SVG"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/symfony/index.htm" title="Learn Symfony"> <img style="width:100px; height:80px;" src="/images/symfony_icon.png" alt="Learn Symfony"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/turbogears/index.htm" title="Learn TurboGears"> <img style="width:100px; height:80px;" src="/images/turbogears_icon.png" alt="Learn TurboGears"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/typescript/index.htm" title="Learn Typescript"> <img style="width:100px; height:80px;" src="/images/typescript_icon.png" alt="Learn Typescript"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/vbscript/index.htm" title="Learn VBScript"> <img style="width:100px; height:80px;" src="/images/vbscript_icon.png" alt="Learn VBScript"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/vuejs/index.htm" title="Learn VueJS"> <img style="width:100px; height:80px;" src="/images/vuejs_icon.png" alt="Learn VueJS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/w3css/index.htm" title="Learn W3CSS"> <img style="width:100px; height:80px;" src="/images/w3css_icon.png" alt="Learn W3CSS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/web_developers_guide/index.htm" title="Web Developers Guide"> <img style="width:100px; height:80px;" src="/images/web_developers_guide_icon.png" alt="Web Developers Guide"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/web_icons/index.htm" title="Learn Web Icons"> <img style="width:100px; height:80px;" src="/images/web_icons_icon.png" alt="Learn Web Icons"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/web2py/index.htm" title="Learn Web2Py"> <img style="width:100px; height:80px;" src="/images/web2py_icon.png" alt="Learn Web2Py"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/webgl/index.htm" title="Learn WebGL"> <img style="width:100px; height:80px;" src="/images/webgl_icon.png" alt="Learn WebGL"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/webrtc/index.htm" title="Learn WebRTC"> <img style="width:100px; height:80px;" src="/images/webrtc_icon.png" alt="Learn WebRTC"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/webservices/index.htm" title="Learn Web Services"> <img style="width:100px; height:80px;" src="/images/webservices_icon.png" alt="Learn Web Services"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/website_development/index.htm" title="Learn Website Development"> <img style="width:100px; height:80px;" src="/images/website_development_icon.png" alt="Learn Website Development"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/websockets/index.htm" title="Learn Web Sockets"> <img style="width:100px; height:80px;" src="/images/websockets_icon.png" alt="Learn Web Sockets"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/wordpress/index.htm" title="Learn Wordpress"> <img style="width:100px; height:80px;" src="/images/wordpress_icon.png" alt="Learn Wordpress"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/xhtml/index.htm" title="Learn XHTML"> <img style="width:100px; height:80px;" src="/images/xhtml_icon.png" alt="Learn XHTML"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/yii/index.htm" title="Learn Yii"> <img style="width:100px; height:80px;" src="/images/yii_icon.png" alt="Learn Yii"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/zend_framework/index.htm" title="Learn Zend Framework"> <img style="width:100px; height:80px;" src="/images/zend_framework_icon.png" alt="Learn Zend Framework"> </a>
+     </div> 
+    </div> 
+    <h1 class="thick-heading">SELECTED READING</h1> 
+    <div class="selected-reading-boxes"> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/developers_best_practices/index.htm" title="Developer's Best Practices"> <img src="/images/developers-best-practices-icon.png" class="big-icon" alt="Developer's Best Practices"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/effective_resume_writing.htm" title="Effective Resume Writing"> <img src="/images/effective-resume-writing-icon.png" class="big-icon" alt="Effective Resume Writing"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/computer_glossary.htm" title="Computer Glossary"> <img src="/images/computer-glossary-icon.png" class="big-icon" alt="Computer Glossary"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/computer_whoiswho.htm" title="Who is Who in Computer"> <img src="/images/who-is-who-icon.png" class="big-icon" alt="Who is Who in Computer"> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <br> 
+  <footer class="inner"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="footer-ribon"> 
+      <span>Extras</span> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Mobile First</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><a class="iphone" href="https://itunes.apple.com/us/app/tutorials-point/id914891263?ls=1&amp;mt=8" target="_blank" rel="nofollow"><img alt="tutorialspoint iPhone App" src="/images/apple_store.jpg" class="mobile-apps"></a></li> 
+       <li><a class="android" href="https://play.google.com/store/apps/details?id=com.tutorialspoint.onlineviewer" target="_blank" rel="nofollow"><img alt="tutorialspoint Android app" src="/images/google_play.jpg" class="mobile-apps"></a></li> 
+       <li><a class="microsoft" href="http://www.windowsphone.com/s?appid=91249671-7184-4ad6-8a5f-d11847946b09" target="_blank" rel="nofollow"><img alt="tutorialspoint Windows app" src="/images/windows_store.jpg" class="mobile-apps"></a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>About us</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/index.htm">Company</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_team.htm">Our Team</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_careers.htm">Careers</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_privacy.htm">Privacy Policy</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_terms_of_use.htm">Terms of use</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Extra Links</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="icon icon-caret-right"></i> <a href="articles">Articles</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="online_dev_tools.htm">Dev Tools</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="free_web_graphics.htm">Free Graphics</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="online_file_conversion.htm">File Conversion</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="shared-tutorials.php">Shared Tutorials</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="https://www.tutorialspoint.com/netmeeting.php">NetMeeting</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="https://www.tutorialspoint.com/free_online_whiteboard.htm">Whiteboard</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="contact-details"> 
+       <h4>Contact Us</h4> 
+       <ul class="contact"> 
+        <li><p><i class="icon icon-map-marker"></i> <strong>Address:</strong> 3rd Floor, Jyoti Celestia, Madhapur, Hyderabad, Telangana 500081</p></li> 
+        <li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="about/contact_us.htm">Click Here</a></p></li> 
+        <li><p><i class="icon icon-dribbble"></i> <strong>Website:</strong> <a href="http://www.tutorialspoint.com">www.tutorialspoint.com</a></p></li> 
+       </ul> 
+      </div> 
+      <div class="social-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="http://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="http://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div>  
+  </footer> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/menu-style-min.css?v=1"> 
+  <script type="text/javascript" src="/theme/js/custom-min.js"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.greyout').click(function(){
+   $('.wrapLoader').show();
+});
+</script>   
+ </body>
+</html>

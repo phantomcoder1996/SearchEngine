@@ -1,0 +1,637 @@
+https://www.ft.com/servicestools/help/terms
+<!doctype html>
+<html lang="en" class="o-hoverable-on core">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> 
+  <meta name="robots" content="noindex, nofollow"> 
+  <title>Help | FT Help | FT.com Terms and Conditions</title> 
+  <meta name="viewport" content="initial-scale=1.0, width=device-width"> 
+  <!-- Add CTM styles --> 
+  <style type="text/css">
+        /* Hide any enhanced experience content when in core mode, and vice versa. */
+        .core .o--if-js,
+        .enhanced .o--if-no-js { display: none !important; }
+    </style> 
+  <!-- Add CTM check --> 
+  <!--
+      Perform your cuts the mustard test.
+      For information about what features come bundled with other
+      features in all browsers, see caniuse.com
+    --> 
+  <script>
+      var cutsTheMustard = ('querySelector' in document && 'localStorage' in window && 'addEventListener' in window);
+
+      if (cutsTheMustard) {
+        // Swap the `core` class on the HTML element for an `enhanced` one
+        // We're doing it early in the head to avoid a flash of unstyled content
+        document.documentElement.className = document.documentElement.className.replace(/\bcore\b/g, 'enhanced');
+      }
+
+
+      function ctmLoadScript (config, callback) {
+        if (cutsTheMustard) {
+          var head = document.head || document.getElementsByTagName('head')[0];
+          callback = callback || function () {};
+
+          callbackIssued = false;
+
+          var error = function (e) {
+            if (!callbackIssued) {
+              callbackIssued = true;
+
+              callback(e || new Error("Timeout"));
+            }
+          };
+
+          var success = function () {
+            if (!callbackIssued) {
+              callbackIssued = true;
+
+              callback(null);
+            }
+          };
+
+          script = document.createElement("script");
+          script.async = (config.async === false ? false : true);
+
+          if (config.charset) {
+            script.charset = config.charset;
+          }
+
+          script.src = config.src;
+
+          var destroy = function () {
+            if (script) {
+              // Handle memory leak in IE
+              script.onload = script.onreadystatechange = null;
+
+              // Remove the script
+              if ( script.parentNode ) {
+                script.parentNode.removeChild( script );
+              }
+
+              // Dereference the script
+              script = null;
+            }
+          };
+
+          script.onload = script.onreadystatechange = function( _, isAbort ) {
+            if ( isAbort || !script.readyState || /loaded|complete/.test( script.readyState ) ) {
+              destroy();
+
+              if (isAbort) {
+                error(new Error("Aborted."));
+                return;
+              }
+
+              success();
+            }
+          };
+
+          script.onerror = function () {
+            destroy();
+            error(new Error("Error loading script."));
+          };
+
+          head.insertBefore( script, head.firstChild );
+        }
+      }
+    </script> 
+  <!-- Add Polyfil service --> 
+  <script src="//cdn.polyfill.io/v1/polyfill.min.js"></script> 
+  <script src="//origami-build.ft.com/v2/bundles/js?modules=o-footer@^5.0.3,o-header@^6.5.1,o-fonts@^2.0.0,o-icons@^5.0.0,o-buttons@^4.0.2"></script> 
+  <script src="//registry.origami.ft.com/embedapi?autoload=resize"></script> 
+  <script>
+      (function () {
+        ctmLoadScript({
+          src: "https://help.ft.com/wp-content/themes/fthelp-production-1.0.7/js/main.js",
+          async: true
+        });
+      }());
+    </script> 
+  <link rel="stylesheet" href="https://help.ft.com/wp-content/themes/fthelp-production-1.0.7/style.css"> 
+  <link rel="stylesheet" href="//origami-build.ft.com/v2/bundles/css?modules=o-header@^6.5.1,o-fonts@^2.0.0,o-grid@^4.2.1,o-footer@^5.0.3,o-typography@^4.3.1,o-forms@^3.2.0,o-icons@^5.0.0,o-buttons@^4.4.0"> 
+  <script>
+    var cutsTheMustard = ('querySelector' in document && 'localStorage' in window && 'addEventListener' in window);
+    if (cutsTheMustard) {
+      // Swap the 'core' class on the HTML element for an 'enhanced' one
+      // We're doing it early in the head to avoid a flash of unstyled content
+      document.documentElement.className = document.documentElement.className.replace(/\bcore\b/g, 'enhanced');
+    }
+    </script> 
+  <meta name="robots" content="noindex,follow"> 
+  <link rel="dns-prefetch" href="//s.w.org"> 
+  <script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/2.4\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/help.ft.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=4.9.4"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55357,56692,8205,9792,65039],[55357,56692,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script> 
+  <style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style> 
+  <link rel="stylesheet" id="page-list-style-css" href="https://help.ft.com/wp-content/plugins/page-list/css/page-list.css?ver=5.1" type="text/css" media="all"> 
+  <link rel="https://api.w.org/" href="https://help.ft.com/wp-json/"> 
+  <link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://help.ft.com/xmlrpc.php?rsd"> 
+  <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://help.ft.com/wp-includes/wlwmanifest.xml"> 
+  <link rel="canonical" href="https://help.ft.com/help/legal-privacy/terms-conditions/"> 
+  <link rel="shortlink" href="https://help.ft.com/?p=307"> 
+  <link rel="alternate" type="application/json+oembed" href="https://help.ft.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhelp.ft.com%2Fhelp%2Flegal-privacy%2Fterms-conditions%2F"> 
+  <link rel="alternate" type="text/xml+oembed" href="https://help.ft.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhelp.ft.com%2Fhelp%2Flegal-privacy%2Fterms-conditions%2F&amp;format=xml"> 
+ </head> 
+ <body> 
+  <!-- Add fallback if browsers don't cut the mustard --> 
+  <div class="o-tracking o--if-no-js" data-o-component="o-tracking"> 
+   <div style="background:url('https://spoor-api.ft.com/px.gif?data=%7B%22category%22%3A%22page%22%2C%20%22action%22%3A%22view%22%2C%20%22system%22%3A%7B%22apiKey%22%3A%22qUb9maKfKbtpRsdp0p2J7uWxRPGJEP%22%2C%22source%22%3A%22o-tracking%22%2C%22version%22%3A%221.0.0%22%7D%2C%22context%22%3A%7B%22product%22%3A%22next%22%2C%22app%22%3A%22help%22%2C%22content%22%3A%7B%22asset_type%22%3A%22page%22%7D%7D%7D');"></div> 
+  </div> 
+  <a name="top"></a> 
+  <header class="o-header o-header--simple" data-o-component="o-header" data-o-header--no-js=""> 
+   <div class="o-header__row o-header__top"> 
+    <div class="o-header__container"> 
+     <div class="o-header__top-wrapper"> 
+      <div class="o-header__top-column o-header__top-column--center"> 
+       <a class="o-header__top-logo" href="//www.ft.com" title="Go to Financial Times homepage" data-trackable="ft-logo"> <span class="o-header__visually-hidden">Financial Times</span> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <div class="header-sub-brand-container"> 
+   <div class="header-sub-brand o-grid-container">
+    <h1 class="o-typography-subhead"><a href="/" data-trackable="sub-brand">Help Centre</a></h1>
+   </div> 
+  </div> 
+  <div class="legal-template o-grid-container" data-trackable="legal"> 
+   <div class="search-form o-grid-row"> 
+    <div data-o-grid-colspan="12"> 
+     <form role="search" method="get" id="searchform" class="searchform" action="/" _lpchecked="1"> 
+      <div class="o-forms o-forms--wide"> 
+       <div class="o-forms__affix-wrapper"> 
+        <input type="text" title="Search Help" placeholder="Search Help" class="o-forms__text" value="" name="s" id="s"> 
+        <div class="o-forms__suffix"> 
+         <button type="submit" data-trackable="search" class="o-buttons o-buttons--b2c" id="searchsubmit" name="search" title="Search"><i class="o-icons-icon o-icons-icon--search demo-icon"></i></button> 
+        </div> 
+       </div> 
+      </div> 
+     </form> 
+    </div> 
+   </div> 
+   <div class="o-grid-row"> 
+    <div data-o-grid-colspan="12 M4" class="chat-container">
+     <!-- PROD 03/10/2016 --> 
+     <div class="chat chat-online" id="liveagent_button_online_573D0000000L1IG"> 
+      <div>
+       Chat with FT Customer Service
+      </div> 
+      <a href="javascript:liveagent.startChat('573D0000000L1IG');void(0);" role="button" data-trackable="chat" class="cta chat-online o-buttons o-buttons--b2c">Start chat</a> 
+     </div> 
+     <div class="chat chat-offline" id="liveagent_button_offline_573D0000000L1IG"> 
+      <div>
+       Chat with FT Customer Service
+      </div> 
+      <a href="javascript:void(0)" role="button" class="cta chat-offline o-buttons o-buttons--b2c" data-trackable="chat" disabled>Currently offline</a> 
+     </div> 
+     <!-- chat button code --> 
+     <script type="text/javascript">
+  if (!window._laq) { window._laq = []; }
+    window._laq.push(function(){liveagent.showWhenOnline('573D0000000L1IG', document.getElementById('liveagent_button_online_573D0000000L1IG'));
+    liveagent.showWhenOffline('573D0000000L1IG', document.getElementById('liveagent_button_offline_573D0000000L1IG'));
+
+      var FT_User = document.cookie.indexOf('FT_User');
+      var FT_User_map = {};
+      if (FT_User > -1) {
+        FT_User_value = document.cookie.slice(FT_User).split(';')[0].split(':');
+        var v;
+        for (var i = 0; i < FT_User_value.length; i++) {
+          v = FT_User_value[i].split('=');
+          FT_User_map[v[0]] = v[1];
+        }
+        liveagent.addCustomDetail("erightsId", FT_User_map.ERIGHTSID).map("Contact", "FT_com_Id__c", true, true, true);
+        liveagent.addCustomDetail("Primary Email", FT_User_map.EMAIL).map("Contact", "Email", true, true, true);
+        liveagent.addCustomDetail("Page Name","Terms and Conditions").saveToTranscript("ReferrerUri");  
+        liveagent.addCustomDetail("Page Number", 1).saveToTranscript("Page_Number__c");
+      }
+
+  });
+</script> 
+     <!-- chat deployment code --> 
+     <script type="text/javascript" src="https://c.la1-c1-lon.salesforceliveagent.com/content/g/js/37.0/deployment.js"></script> 
+     <script type="text/javascript">
+  liveagent.init('https://d.la1-c1-lon.salesforceliveagent.com/chat', '572D0000000Gor4', '00D20000000LryV');
+  liveagent.setChatWindowWidth(494); 
+  liveagent.setChatWindowHeight(540);
+</script> 
+    </div> 
+    <div data-o-grid-colspan="12 Mhide">
+     <hr>
+    </div> 
+    <div data-o-grid-colspan="12 M8" class="content-container"> 
+     <h1>Terms and Conditions</h1> 
+     <p>Please read this carefully because it sets out the terms of a legally binding agreement between you and the Financial Times. If you subscribe to receive the Financial Times newspaper, <a href="/help/legal-privacy/terms-conditions/financial-times-newspaper-terms-and-conditions/">our newspaper terms and conditions</a> also apply.</p> 
+     <h3><b>Index to sections:</b></h3> 
+     <ol> 
+      <li style="font-weight: 400;"><b>Introduction</b></li> 
+      <li style="font-weight: 400;"><b>Access and use</b></li> 
+      <li style="font-weight: 400;"><b>Privacy policy and registration</b></li> 
+      <li style="font-weight: 400;"><b>Personal subscription services and temporary access passes</b></li> 
+      <li style="font-weight: 400;"><b>Renewal and cancellation of personal subscriptions</b></li> 
+      <li style="font-weight: 400;"><b>Who your personal subscription contract is with</b></li> 
+      <li style="font-weight: 400;"><b>User generated content</b></li> 
+      <li style="font-weight: 400;"><b>Third party sites and services</b></li> 
+      <li style="font-weight: 400;"><b>Our responsibilities to you</b></li> 
+      <li style="font-weight: 400;"><b>Choice of law and jurisdiction</b></li> 
+      <li style="font-weight: 400;"><b>General</b></li> 
+      <li style="font-weight: 400;"><b>Content ownership</b></li> 
+      <li style="font-weight: 400;"><b>Corporate information</b></li> 
+      <li style="font-weight: 400;"><b>Changes to terms and conditions</b></li> 
+     </ol> 
+     <h3><b>1. Introduction</b></h3> 
+     <p><span style="font-weight: 400;">This page sets out the terms and conditions on which you may use FT.com, the Financial Times newspaper and the content/services available on them (which we call “FT Content”). We only make these terms and conditions available in the English language.</span></p> 
+     <p><span style="font-weight: 400;">In these terms we use the term “FT.com” to refer to our website at </span><a href="http://ft.com/"><span style="font-weight: 400;">FT.com</span></a><span style="font-weight: 400;"> and our other mobile and online digital apps and services.</span></p> 
+     <p><span style="font-weight: 400;">Except where we state otherwise in Section 7, references in these terms and conditions to “FT” (or “we”, “us” or “our”) refer to the company operating FT.com. See Section 12 below for our corporate information.</span></p> 
+     <p><span style="font-weight: 400;">These terms apply in different ways depending on what type of user you are, as follows:</span></p> 
+     <p><b>Registered users and personal subscribers: </b><span style="font-weight: 400;">These terms apply to your use of FT.com and all FT Content irrespective of the delivery platform or device you use to access it. By accessing FT.com you are agreeing to these terms and conditions. If you do not agree with the terms and conditions you should not use FT.com or any FT Content and should cancel any subscription in accordance with your cancellation rights (see Section 6 below). If you have any questions please contact </span><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=help@ft.com"><span style="font-weight: 400;">help@ft.com</span></a><span style="font-weight: 400;">.</span></p> 
+     <p><span style="font-weight: 400;">We strongly recommend that you read these terms and conditions in their entirety. For further details of our registration and subscription options, please see our </span><a href="/help/trial-and-subscriptions/"><span style="font-weight: 400;">Registering and Subscribing Guide</span></a><span style="font-weight: 400;">.</span></p> 
+     <p><b>Users with access under an organisation’s subscription agreement: </b><span style="font-weight: 400;">Your continued access is primarily governed by the subscription agreement of the organisation through which you are able to use the FT.com website. Sections 4 to 6 below are not applicable to such users. The remaining terms and conditions apply to your use of the FT.com website or any FT Content. By accessing FT.com you are agreeing to these terms and conditions. If you do not agree with these terms and conditions, then you should not use FT.com or any FT Content.</span></p> 
+     <p><b>All users: </b><span style="font-weight: 400;">These terms and conditions replace all previous terms and conditions for FT.com. FT may update these terms and conditions for legal or regulatory reasons, or to reflect changes in our services or business practices. We will provide notice of any significant changes in Section 14 below. You should regularly check Section 14 to see if any changes have been made. If you are an FT.com subscriber, any changes to our terms and conditions will become effective from the date of your next payment following the change unless we notify you otherwise. If you are not an FT.com subscriber, any changes will become effective as soon as we post them on FT.com.</span></p> 
+     <p><span style="font-weight: 400;">We may in exceptional circumstances cease to publish FT.com, the FT Content or cease to provide subscription services. We will give you at least 90 days’ notice of this, if possible. If we do so, then we will have no further obligation to you, unless you are a personal subscriber in which case we will offer you a refund of the unexpired period of your paid subscription. See Section 5 for details.</span></p> 
+     <h3><b>2. Access and Use</b></h3> 
+     <p><span style="font-weight: 400;">Our ability to invest in high quality journalism depends on our users complying with this Section 2. Please read our </span><a href="/help/legal-privacy/copyright/copyright-policy/"><span style="font-weight: 400;">Copyright Policy</span></a><span style="font-weight: 400;"> that summarises how you are allowed to use FT Content and provides guidance on the types of use we do not permit without the purchase of additional licences from the FT. You agree that you will comply with our Copyright Policy.</span></p> 
+     <p><span style="font-weight: 400;">Organisations that may be using FT Content without the appropriate permissions may approach us with a view to discussing the purchase of a licence to legitimize that use. See&nbsp;</span><a href="http://ftcorporate.ft.com/"><span style="font-weight: 400;">http://ftcorporate.ft.com/</span></a><span style="font-weight: 400;"> for details.</span></p> 
+     <p><span style="font-weight: 400;">The amount and types of FT Content that you can view, and the platforms on which you can view FT Content, depend on what type of user you are and what type of subscription (if any) you have. We can vary the access rights of registered users who are not accessing through a paid subscription at any time at our discretion.</span></p> 
+     <p><span style="font-weight: 400;">For further access, we offer various types of individual and corporate subscription: see Section 4 for details of individual subscriptions, and </span><a href="http://ftcorporate.ft.com/"><span style="font-weight: 400;">http://ftcorporate.ft.com/</span></a><span style="font-weight: 400;"> for details of our corporate subscriptions. If you already have a subscription, details of your access rights can be found at </span><a href="https://registration.ft.com/youraccount/subscriptions"><span style="font-weight: 400;">Your Account</span></a><span style="font-weight: 400;">.</span></p> 
+     <h3><b>3. Privacy Policy and Registration</b></h3> 
+     <p><span style="font-weight: 400;">All information received by us from your use of FT.com will be used by FT in accordance with our </span><a href="/help/legal-privacy/privacy/"><span style="font-weight: 400;">Privacy Policy</span></a><span style="font-weight: 400;">. Please read this for details of how we may process your personal data.</span></p> 
+     <p><span style="font-weight: 400;">On registration, you must provide FT with accurate, complete registration information and it is your responsibility to update and maintain changes to that information on the applicable FT.com registration or subscription pages. FT is entitled to rely on any information you provide to us.</span></p> 
+     <p><span style="font-weight: 400;">Each registration is for a single user only. On registration, you will choose a user name and password (“ID”). The email address that you provide on registration must correspond to a named email account and not a generic or shared email account. You are not allowed to share your ID or give access to FT Content through your ID to anyone else. FT does not allow multiple users on a network or within an organization to use the same ID. FT may cancel or suspend your access to FT.com if you share your ID without further obligation to you. You may not create additional registration or subscription accounts for the benefit of others or with the aim of avoiding our use of IDs to control access to and use of FT.com.</span></p> 
+     <p><span style="font-weight: 400;">You are responsible for all use of FT.com made by you or anyone else using your ID and for preventing unauthorised use of your ID. If you believe there has been any breach of security such as the disclosure, theft or unauthorised use of your ID or any payment information, you must notify FT immediately by e-mailing us at </span><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=help@ft.com"><span style="font-weight: 400;">help@ft.com</span></a><span style="font-weight: 400;">. We recommend that you do not select an obvious user password (such as your name) and that you change it regularly.</span></p> 
+     <p><span style="font-weight: 400;">If you provide FT with an email address that will result in any messages FT may send you being sent to you via a network or device operated or owned by a third party (e.g. your employer or college) then you promise that you are entitled to receive those messages. You also agree that FT may stop sending messages to you without notifying you.</span></p> 
+     <p><span style="font-weight: 400;">If you are a registered user of or subscriber to FT.com then you may choose to use FT.com’s “Remember me” log in feature that enables you to be logged in automatically to FT.com whenever you visit FT.com without having to manually log in each time. We recommend that you do not enable this feature on any computer that is or may be used by anyone other than you in order to prevent unauthorized access by third parties to both your subscription details and features of FT.com personal to you.</span></p> 
+     <h3><b>4. Personal Subscription Services and Temporary Access Passes</b></h3> 
+     <p><span style="font-weight: 400;">We offer subscription services through FT.com and recommend that you read our </span><a href="/help/trial-and-subscriptions/"><span style="font-weight: 400;">Frequently Asked Questions</span></a><span style="font-weight: 400;"> for more details and before purchasing a subscription.</span></p> 
+     <p><b>Types of subscription:</b><span style="font-weight: 400;"> unless you purchase a subscription to use FT.com then your usage rights will be limited as set out at </span><a href="http://www.ft.com/psp"><span style="font-weight: 400;">www.ft.com/psp</span></a><span style="font-weight: 400;">. We offer various types of subscription: the options currently available are set out at </span><a href="http://www.ft.com/psp"><span style="font-weight: 400;">www.ft.com/psp</span></a><span style="font-weight: 400;">.</span></p> 
+     <p><span style="font-weight: 400;">In certain countries we also offer what we call a “Bundled Subscription” which allows you to purchase an FT.com subscription together with a subscription to buy the Financial Times newspaper.</span></p> 
+     <p><span style="font-weight: 400;">FT reserves the right to vary the amount of content and types of service that it makes available to different categories of user. If you are an FT.com subscriber, any significant reduction in the scope of your subscription will take effect only after we have given you at least 30 days’ notice, and will apply from the date of your next payment following that 30-day period. This does not apply where a type of content or service intended for Premium subscriptions is made available to Standard subscribers on an introductory, temporary or trial basis.</span></p> 
+     <p><b>Contract formation:</b><span style="font-weight: 400;"> FT will try to process your subscription promptly but does not guarantee that your subscription will be activated by any specified time. By submitting your payment and other subscription details, you are making an offer to us to buy a subscription. Your offer will only be accepted by us and a contract formed when we have successfully verified your payment details and email address, at which point we will provide you with access to your subscription. FT reserves the right to reject any offer in its discretion, for any or no reason.</span></p> 
+     <p><b>Payment details:</b><span style="font-weight: 400;"> when you purchase a subscription, you must provide us with complete and accurate payment information. By submitting payment details you promise that you are entitled to purchase a subscription using those payment details. If we do not receive payment authorization or any authorization is subsequently cancelled, we may immediately terminate or suspend your access to your subscription. In suspicious circumstances we may contact the issuing bank/payment provider and/or law enforcement authorities or other appropriate third parties. If you are entitled to a refund under these terms and conditions we will credit that refund to the card or other payment method you used to submit payment, unless it has expired in which case we will contact you.</span></p> 
+     <p><b>Pricing:</b><span style="font-weight: 400;"> the subscription price will be made clear to you on our sign-up pages or otherwise during the sign-up process and may vary from time to time or by country. You agree to pay the fees at the rates notified to you at the time you purchase your subscription. For certain subscriptions you can take out either an annual or monthly (or other frequency we offer) subscription. Other subscription services may only require a one-off payment. You can also take out any other fixed term or payment frequency that we may offer from time to time. The currency in which your subscription is payable will be specified during the order process, depending on the service and your country of residence. Eligibility for any discounts is ascertained at the time you subscribe and cannot be changed during the term of your subscription. We will always tell you in advance of any increase in the price of your subscription and offer you an opportunity to cancel it if you do not wish to pay the new price.</span></p> 
+     <p><b>Trial subscriptions:</b><span style="font-weight: 400;"> where we provide a trial subscription, we will inform you of the full subscription price that is payable after the trial period. After the trial, your subscription will renew automatically at the full subscription price unless you cancel your subscription before the end of the trial. To cancel your subscription during the trial please go to </span><a href="https://registration.ft.com/youraccount/details/core/view?execution=e2s1"><span style="font-weight: 400;">Manage Your Account</span></a><span style="font-weight: 400;"> and follow the simple cancellation instructions.</span></p> 
+     <p><span style="font-weight: 400;">Please note that no more than one trial subscription per subscriber is allowed in any twelve month period. We reserve the right to cancel any trial subscription immediately, without refund, if we become aware that the subscriber has already had another trial subscription in the previous twelve months.</span></p> 
+     <p><b>Taxes:</b><span style="font-weight: 400;"> Financial Times Limited (FT) is registered for VAT in a number of European Union (EU) countries. We also have some non-EU indirect tax registrations. Our UK VAT registration number is GB226162332. If you want any of our other tax ID numbers please contact&nbsp;</span><a href="/help/contact-us/"><span style="font-weight: 400;">customer services</span></a><span style="font-weight: 400;">.</span></p> 
+     <p><span style="font-weight: 400;">Unless otherwise indicated, prices stated on our website are inclusive of any applicable value added tax (VAT) or other sales taxes. The breakdown of any applicable VAT payable with your order is indicated on the invoice you will receive with your purchase.</span></p> 
+     <p><span style="font-weight: 400;">If you are based in the EU outside the UK, </span><a href="/help/legal/vat-and-invoicing-for-eu-customers/"><span style="font-weight: 400;">please click here</span></a><span style="font-weight: 400;"> for important information on how VAT is included in our prices.</span></p> 
+     <p><b>Pricing errors:</b><span style="font-weight: 400;"> if we incorrectly state a price to you whether online or otherwise, we are not obliged to provide you with a subscription at that price, even if we have mistakenly accepted your offer to buy a subscription at that price, and we reserve the right to subsequently notify you of any pricing error. If we do this, you may cancel the subscription without any obligation to us and we will refund you any money you have paid us in full, or you may pay the correct price. If you refuse to exercise either of these choices then we may cancel your subscription and will refund you any money you have paid us in full. We will always act in good faith in determining whether a genuine pricing error has occurred.</span></p> 
+     <p><b>Other costs:</b><span style="font-weight: 400;"> in addition to the subscription fee you are charged, certain banks and credit card issuers will charge a foreign transaction fee on transactions which take place abroad or in a foreign currency. The majority of payments for subscriptions we take by card are processed in the United Kingdom therefore please check with your bank or credit card issuer to find out if such charges will be applied to you; the FT is not responsible for any such charges. You are also responsible for paying any internet connection or telecommunications charges that you may incur by accessing FT.com or using the services available on it. For example, if you use any of our mobile services then your network operator may charge you for data or messaging services.</span></p> 
+     <p><b>Moving house:</b><span style="font-weight: 400;"> if you have a bundled subscription and are moving house, then we will transfer your newspaper delivery to your new address. However, if we are unable to provide you with a home delivery service to your new address, we will provide you with a pro rata refund for the newspaper element of your subscription, which means that we will refund part of your subscription fee for the unexpired period of the subscription.</span></p> 
+     <p><b>Newspaper delivery:</b><span style="font-weight: 400;"> FT will aim to commence delivery of the Financial Times newspaper to you within 2 business days (UK), 7-10 business days (Eurozone) or 10-12 business days (United States) of your subscription commencing, delivery times for other regions will be confirmed to you separately. Once delivery has commenced, the Financial Times newspaper will be delivered Monday through to Saturday at the one delivery address specified when your order was confirmed.</span></p> 
+     <h3><b>5. Renewal and Cancellation of Personal Subscriptions</b></h3> 
+     <p><b>Renewals:</b> <b>If you chose to pay monthly</b><span style="font-weight: 400;">, your subscription will continue until you tell us that you no longer wish to receive it, in which case you will stop paying the monthly fees. We will notify you at least 14 days in advance of any changes to the price in your subscription that will apply upon next monthly renewal. Please see the “How to cancel” section below for details of how to cancel your monthly subscription. </span><b>If you chose to pay annually,</b><span style="font-weight: 400;"> at least 14 days before each renewal you will be sent a reminder notice stating the rate that will apply for the renewal period. Unless you notify us before the end of your annual subscription period that you no longer wish to receive it, your annual subscription will renew for another year. We will charge the subscription using the same card or other payment method that you previously used.</span></p> 
+     <p><b>Initial cancellation period:</b><span style="font-weight: 400;"> Depending on the type of subscription you have, you may have a right to cancel your subscription within a limited period after placing your order, as follows.</span></p> 
+     <p><span style="font-weight: 400;">Online-only subscriptions</span><span style="font-weight: 400;">: If your subscription does not include newspaper deliveries, then by placing your order you agree that we may start your subscription immediately upon our accepting your order. This means that you are not entitled to a refund if you change your mind after we have provided you with access to your subscription.</span></p> 
+     <p><span style="font-weight: 400;">Newspaper or bundled subscriptions</span><span style="font-weight: 400;">: If your subscription includes newspaper deliveries (with or without any digital access), then you have the right to cancel your subscription, without giving any reason, within a </span><b>14 day</b><span style="font-weight: 400;"> period from the day on which you receive the first newspaper forming part of your subscription. If you exercise your right to cancel within that period, then we will reimburse all payments received from you, less a pro-rated amount for each newspaper you received before cancelling. You do not need to return any of the newspapers to us. For more details (including an optional cancellation form), see our </span><a href="/help/account-queries-2/changing-your-subscription/what-are-my-cancellation-rights/"><span style="font-weight: 400;">cancellation information</span></a><span style="font-weight: 400;">.</span></p> 
+     <p><b>Subsequent cancellation of your subscription:</b><span style="font-weight: 400;"> Except as set out in the previous section, you do not have any right to cancel your subscription or any part of it until the end of your then current subscription period. Although you may notify us of your intention to cancel at any time, such notice will only take effect at the end of your then current subscription period, and you will not receive a refund (except in the limited circumstances set out in these terms).</span></p> 
+     <p><b>How to cancel:</b><span style="font-weight: 400;"> You may notify us of your wish to cancel your subscription by contacting our Customer Services team at </span><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=help@ft.com"><span style="font-weight: 400;">help@ft.com</span></a><span style="font-weight: 400;">. Or alternatively, call + 44 (0)20 7775 6248 if you are in the UK, Europe or Rest of the World, +1 800 628 8088 for US and Canada and +852 2905 5555 for Asia. You may also use these telephone numbers to temporarily suspend newspaper delivery if you have an FT Bundled subscription, for example if you are going on holiday, although you must provide at least 5 business days advance notice for this to be implemented.</span></p> 
+     <p><b>Cancellations by us:</b><span style="font-weight: 400;"> FT reserves the right to suspend or terminate your subscription if you breach these terms and conditions, with or without notice and without further obligation to you. We may also suspend or terminate your subscription if we are prevented from providing services to you by circumstances beyond our control. If we terminate your subscription for any reason and/or permanently cease publishing FT.com, the FT Content or cease to provide subscription services then, unless there are exceptional circumstances, we will provide you with a pro rata refund to your credit card. This means that we will refund you with any amounts that you have paid us in advance that relate to any remaining and unexpired period of your subscription.</span></p> 
+     <p><b>Cancellation of your registration:</b><span style="font-weight: 400;"> If you are a registered user, but not a subscriber, then FT reserves the right to suspend or terminate your registration at any time, with or without notice and without further obligation to you. If you would like to cancel your registration then please contact our customer services team at </span><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=help@ft.com"><span style="font-weight: 400;">help@ft.com</span></a><span style="font-weight: 400;"> or using the telephone numbers set out above.</span></p> 
+     <h3><b>6. Who Your Personal Subscription Contract is with</b></h3> 
+     <p><span style="font-weight: 400;">If you buy an FT.com subscription only or temporary access pass or other subscription service or if you buy an FT Bundled subscription (i.e. FT.com subscription and Financial Times newspaper subscription together) and are resident in any country OTHER THAN those specified below, then you will be contracting with The Financial Times Limited, whose principal place of business is at One Southwark Bridge, London SE1 9HL, United Kingdom.</span></p> 
+     <p><span style="font-weight: 400;">If you buy an FT Bundled subscription (i.e. FT.com subscription and Financial Times newspaper subscription together) and are resident in one of the countries specified below, you will be contracting with the applicable entity listed below:</span></p> 
+     <ul> 
+      <li style="font-weight: 400;"><b>Americas: </b><span style="font-weight: 400;">F.T. Publications, Inc, whose principal place of business is at 330 Hudson Street, 8th Floor, New York, NY 10013, USA.</span></li> 
+      <li style="font-weight: 400;"><b>Japan or South Korea: </b>The Financial Times (Japan) Limited, whose principal place of business is at 10F Nihon Keizai Shimbunsha Tokyo Honsha Building, 1-3-7 Otemachi, Chiyoda-ku, Tokyo, 100-8066, Japan.</li> 
+      <li style="font-weight: 400;"><b>Singapore: </b><span style="font-weight: 400;">The Financial Times (Singapore) Pte Limited, whose principal place of business is at 60 Anson Road, #06-02 Mapletree Anson, Singapore 079914.</span></li> 
+      <li style="font-weight: 400;"><b>Asia </b><span style="font-weight: 400;">(other than Japan, South Korea or Singapore) </span><b>or</b> <b>Oceania:</b><span style="font-weight: 400;"> The Financial Times (H.K.) Limited, whose principal place of business is at The Center, 59th Floor, 99 Queens Road, Central, Hong Kong.</span></li> 
+     </ul> 
+     <p><span style="font-weight: 400;">These terms and conditions apply for the benefit for any or all of the above entities who may rely on them and/or enforce them in their own right.</span></p> 
+     <h3><b>7. User Generated Content</b></h3> 
+     <p><span style="font-weight: 400;">FT.com includes comments sections, blogs and other interactive features that allow interaction between users and between users and FT journalists (we call these “Forums”). We call the information posted to these Forums by users “User Generated Content” or “UGC”.</span></p> 
+     <p><span style="font-weight: 400;">If you wish to view or participate in a Forum then you must comply with any specific rules posted on the Forum. We also recommend that you read our Comments Guidelines which provide further guidance in relation to commenting on FT.com.</span></p> 
+     <p><span style="font-weight: 400;">You will retain ownership of the copyright in any of your UGC that you or we publish on FT.com so you are free to re-use it as you wish. You agree that if you post UGC to a Forum then you are granting FT a right (but not an obligation) unlimited in time to publish, re-use, archive, modify, delete or commercially exploit that UGC in whole or in part as we see fit, whether on FT.com or otherwise, without any requirement to pay you for this and with or without attribution to you. This means that you grant us a worldwide, non-exclusive, perpetual, irrevocable, royalty-free licence to use any UGC you publish in whole or in part in any manner and for any purpose whatsoever and without further obligation to you. You also waive any moral rights that you may have in regard to the UGC.</span></p> 
+     <p><span style="font-weight: 400;">You are responsible for all the content of any of your UGC that you or we publish. You are financially responsible to us for any claim against us by any third party that your UGC is not in accordance with the bullet points below or that otherwise relates to your UGC.</span></p> 
+     <p><span style="font-weight: 400;">You agree that you will:</span></p> 
+     <ul> 
+      <li style="font-weight: 400;"><span style="font-weight: 400;">only publish UGC that is your original content and will not infringe the copyright or other rights of any third party when publishing UGC.</span></li> 
+      <li style="font-weight: 400;"><span style="font-weight: 400;">not post, link to or otherwise publish any UGC containing any form of advertising or promotion for goods and services or any spam or other form of unsolicited communication.</span></li> 
+      <li style="font-weight: 400;"><span style="font-weight: 400;">not post, link to or otherwise publish any UGC with recommendations to buy or not buy a particular share or other investment or which contain confidential information of another party or which otherwise have the purpose of affecting the price or value of any share or other investment.</span></li> 
+      <li style="font-weight: 400;"><span style="font-weight: 400;">not post, link to or otherwise publish any UGC that is threatening, offensive, libellous, indecent or otherwise unlawful.</span></li> 
+      <li style="font-weight: 400;"><span style="font-weight: 400;">not post comments that are discriminatory in nature, for example, comments which make attacks on the grounds of race, religion, sex, gender, sexual orientation, disability or age.</span></li> 
+      <li style="font-weight: 400;"><span style="font-weight: 400;">respectfully challenge different points of view but not personally attack other commentators.</span></li> 
+      <li style="font-weight: 400;"><span style="font-weight: 400;">not disguise the origin of any UGC and not impersonate any person or entity (including FT employees or Forum guests or hosts) or misrepresent any connection with any person or entity.</span></li> 
+      <li style="font-weight: 400;"><span style="font-weight: 400;">not post or otherwise publish any UGC unrelated to the Forum or the Forum’s topic.</span></li> 
+      <li style="font-weight: 400;"><span style="font-weight: 400;">not post or transmit any UGC that contains software viruses, files or code designed to interrupt, destroy or limit the functionality of FT.com or any computer software or equipment.</span></li> 
+      <li style="font-weight: 400;"><span style="font-weight: 400;">not collect or store other users’ personal data.</span></li> 
+      <li style="font-weight: 400;"><span style="font-weight: 400;">not restrict or inhibit any other user from using the Forums.</span></li> 
+      <li style="font-weight: 400;"><span style="font-weight: 400;">comply with the guidelines for commenting set out in our </span><a href="http://help.ft.com/tools-services/commenting"><span style="font-weight: 400;">Commenting FAQ</span></a><span style="font-weight: 400;">.</span></li> 
+     </ul> 
+     <p><span style="font-weight: 400;">The Forums contain UGC submitted by users over whom FT has no control so we cannot therefore guarantee the accuracy, integrity or quality of any UGC. Some users may not behave properly and may post UGC that is misleading, untrue or offensive.</span></p> 
+     <p><span style="font-weight: 400;">It is not possible for FT to fully monitor all UGC published on FT.com but where we have actually received notice of any UGC that is potentially misleading, untrue, offensive, unlawful, infringes third party rights or is potentially in breach of these terms and conditions, then we will review that UGC, decide whether to remove it from FT.com and act accordingly. This may include banning a user from participation in UGC on FT.com.</span></p> 
+     <p><span style="font-weight: 400;">Our moderation and community team may contact you from time to time regarding your comments. Comments, including those made under a pseudonym, can be linked to your FT.com account by FT.</span></p> 
+     <p><span style="font-weight: 400;">For more guidance about commenting on FT.com, please see our </span><a href="http://help.ft.com/tools-services/commenting"><span style="font-weight: 400;">Commenting FAQ</span></a><span style="font-weight: 400;">. If you believe that any UGC published on FT.com infringes any legal rights that you may have or is not allowed under these terms and conditions, please notify us immediately with specific details by contacting us at </span><a href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;tf=1&amp;to=help@ft.com"><span style="font-weight: 400;">help@ft.com</span></a><span style="font-weight: 400;">.</span></p> 
+     <h3><b>8. Third Party Sites and Services</b></h3> 
+     <p><span style="font-weight: 400;">FT.com may contain links to other Internet websites or online and mobile services provided by independent third parties, including websites of our advertisers and sponsors (what we call “Third Party Sites”), either directly or through frames. Third Party Sites may be co-branded with FT and so include FT’s trade marks.</span></p> 
+     <p><span style="font-weight: 400;">It is your decision whether you purchase or use any third party products or services made available on or via Third Party Sites and you should read Section 9 below carefully. Our Privacy Policy does not apply to Third Party Sites.</span></p> 
+     <p><span style="font-weight: 400;">FT.com contains advertising and sponsorship. Advertisers and sponsors are responsible for ensuring that material submitted for inclusion on FT.com complies with international and national law. FT is not responsible for any error or inaccuracy in advertising or sponsorship material.</span></p> 
+     <p><span style="font-weight: 400;">Copyright in any software that is made available for download from FT.com belongs to FT or its suppliers. Your use of the software is governed by the terms of any licence agreement that may accompany or be included with the software. Do not install or use any of this software unless you agree to such licence agreement. FT is not responsible for any technical or other issues that may happen if you download third party software.</span></p> 
+     <h3><b>9. Our Responsibilities To You</b></h3> 
+     <p><b>A summary of what this section means:</b><span style="font-weight: 400;"> this section is important and you should read it carefully. It makes clear to what extent, if any, FT accepts responsibility (liability) to you for your use of FT.com or the FT Content or in respect of any third party products or services that we refer to or link to on FT.com. Unless you are a personal subscriber to FT.com or have a temporary access pass, we accept no financial responsibility to you arising from your use of FT.com or the FT Content. If you are a personal subscriber to FT.com or have a temporary access pass, we limit our financial responsibility to you arising from your use of FT.com or the FT Content to the price you paid for your subscription or temporary access pass.</span></p> 
+     <p><span style="font-weight: 400;">In no circumstances do we accept responsibility for your use of Third Party Sites or in respect of any Third Party Products. By Third Party Sites we mean websites, online or mobile services provided by third parties, including websites of advertisers and sponsors that may appear on FT.com. By Third Party Products we mean products or services provided by third parties.</span></p> 
+     <p><span style="font-weight: 400;">Although this means that we accept very little in the way of financial responsibility for your use of FT.com and the FT Content, we think this is fair on the basis that you can view certain content and services free-of-charge, and the cost of a subscription or temporary access pass for additional access rights is relatively inexpensive. It is not commercially possible for us to accept more responsibility for your use of FT.com than set out in this Section 9 taking into account that we permit you to use FT.com for no or a relatively inexpensive cost.</span></p> 
+     <p><b><i>Limitations of FT Content</i></b><b>:</b></p> 
+     <p><b>The FT Content (including any information we publish regarding Third Party Products) is only for your general information and entertainment purposes and is not intended to address your particular requirements. In particular, the FT Content, including UGC and any other content provided by third parties and distributed by FT.com, does not constitute any form of advice, recommendation, representation, endorsement or arrangement by FT. It is not intended to be and should not be relied upon by users in making (or refraining from making) any specific investment, purchase, sale or other decisions. Appropriate independent advice should be obtained before making any such decision, such as from a qualified financial adviser.</b></p> 
+     <p><b>Any agreements, transactions or other arrangements made between you and any third party named on (or linked to from) FT.com are at your own responsibility and entered into at your own risk. Any information that you receive via FT.com, whether or not it is classified as ”real time”, may have stopped being current by the time it reaches you. Share price information may be rounded up/down and therefore may not be entirely accurate</b><span style="font-weight: 400;">.</span></p> 
+     <p><b><i>What we promise</i></b><b>:</b></p> 
+     <p><b>FT promises to develop and operate FT.com with reasonable skill and care and will use reasonable efforts to promptly remedy any faults of which it is aware.</b></p> 
+     <p><b><i>What we do not promise</i></b><span style="font-weight: 400;">:</span></p> 
+     <p><b>FT does not provide any other promises or warranties about FT.com and the FT Content. FT.com and the FT Content are provided on an “as is” and “as available” basis. This means that FT does not make any promises in respect of FT.com or the services and functions available on or through FT.com or of the quality, completeness or accuracy of the information published on or linked to from FT.com other than as expressly stated above.</b></p> 
+     <p><b>The above disclaimers apply equally to your use of FT.com and all FT Content. Without limiting the above, FT is not liable for matters beyond its reasonable control. FT does not control third party communications networks (including your internet service provider), the internet, acts of god or the acts of third parties</b><span style="font-weight: 400;">.</span></p> 
+     <p><b><i>Our financial responsibility to you</i></b><b>:</b></p> 
+     <p><b>You agree that if we are in breach of these terms and conditions, we will only be responsible to you for any damages that you incur arising out of your use of FT.com or the FT Content (to the extent that FT’s liability is not otherwise excluded by this section 9) as follows:</b></p> 
+     <ul> 
+      <li style="font-weight: 400;"><b>If you incur any loss as a result of using FT.com or any FT Content outside the scope of these terms and conditions, FT accepts no responsibility (liability) to you for this.</b></li> 
+      <li style="font-weight: 400;"><b>You will be responsible for all claims, liabilities, damages, cost and expenses suffered or incurred as a result of your breach of these terms and conditions.</b></li> 
+      <li style="font-weight: 400;"><b>FT will only be responsible for loss or damage you suffer which is the reasonably foreseeable result of FT’s breach of a legal duty of care owed to you, but in no event shall the liability of the FT or its affiliates exceed the amount, if any, paid by you to the FT for the particular subscription product to which the claim relates.</b></li> 
+      <li style="font-weight: 400;"><b>FT will not be responsible to you for any loss or damage suffered by your business, such as lost data, lost profits or any business interruption.</b></li> 
+      <li style="font-weight: 400;"><b>If you have a personal subscription then you may terminate your subscription immediately in writing to FT if FT.com is unavailable or inaccessible to you for either (a) more than 3 consecutive days during your subscription; or (b) more than 5 days in a 30 day period, as a result of the fault or failure of FT, in which case we will refund you any amount that you have paid to us in advance that relates to any period which was still to run on your subscription. You may instead at your option receive a renewal to your subscription free-of-charge at the point of renewal.</b></li> 
+     </ul> 
+     <p><b>The limitations of liability in this section 9 apply for the benefit of FT, its affiliates, including those listed in section 6 and all of their respective officers, directors, employees, agents or any company who we transfer our rights and obligations to in accordance with these terms and conditions.</b></p> 
+     <p><b>To the full extent permitted by law you acknowledge and agree that our third party content and data suppliers have no liability whatsoever to you in respect of any of their data supplied to you as part of the FT Content.</b></p> 
+     <p><b>FT’s liability will not be limited in the case of death or personal injury directly caused by FT’s negligence in those countries where it is unlawful for FT to seek to exclude such liability.</b></p> 
+     <p><b><i>If you use either the Managed Funds or Personal Finance pages</i></b><b>:</b></p> 
+     <p><b>You agree that these areas of FT.com are designed for use by United Kingdom users only and you should not use them if you are ordinarily resident outside of the United Kingdom.</b></p> 
+     <h3><b>10. Choice of Law and Jurisdiction</b></h3> 
+     <p><span style="font-weight: 400;">If you are a user whose principal address or principal use of FT.com occurs in any jurisdiction other than the United States then these terms and conditions will be subject to English law. In this case, to the extent possible in the applicable jurisdiction, both you and we agree that the courts of England will (subject to the final paragraph in this Section 10) have non-exclusive jurisdiction to settle any dispute which may arise out of, under, or in connection with these terms and conditions.</span></p> 
+     <p><span style="font-weight: 400;">If you are a user whose principal address or principal use of FT.com occurs in the United States then these terms and conditions will be subject to the laws of the State of New York, without regard to its conflict of laws provisions. In this case, to the extent possible in the applicable jurisdiction, both you and we agree that the courts of the State of New York will (subject to the final paragraph in this Section 10) have non-exclusive jurisdiction to settle any dispute which may arise out of, under, or in connection with these terms and conditions.</span></p> 
+     <h3><b>11. General</b></h3> 
+     <p><span style="font-weight: 400;">You may not license or transfer any of your rights under these terms and conditions. We may transfer any of our rights or obligations under these terms and conditions to any company within the Financial Times group of companies but if we do so we will ensure that any company to whom we transfer our rights or obligations will continue to honour your rights under them.</span></p> 
+     <p><span style="font-weight: 400;">If any provision of these terms and conditions is found to be invalid by any court having competent jurisdiction, the invalidity of that provision will not affect the validity of the remaining provisions of these terms and conditions, which will remain in full force and effect.</span></p> 
+     <p><span style="font-weight: 400;">Failure by either party to exercise any right or remedy under these terms and conditions does not constitute a waiver of that right or remedy. Headings in these terms and conditions are for convenience only and will have no legal meaning or effect.</span></p> 
+     <p><span style="font-weight: 400;">These terms and conditions constitute the entire agreement between you and the FT relating to your use of the FT.com website, FT’s mobile and other online services, the Financial Times newspaper and the Content. They supersede all previous communications, representations and arrangements, either written or oral.</span></p> 
+     <p><span style="font-weight: 400;">FT.com is best viewed with one of our supported browsers. Our current list of supported browsers and the degree to which they are supported can be found </span><a href="http://help.ft.com/tools-services/browser-compatibility/"><span style="font-weight: 400;">here</span></a><span style="font-weight: 400;">. Any payment information you send to us over the Internet is encrypted using 128 bit Secure Socket Layer technology. SSL is currently the preferred method to securely transfer credit card data over the Internet.</span></p> 
+     <h3><b>12. Content ownership</b></h3> 
+     <p><span style="font-weight: 400;">All FT Content belongs to FT or its licensors who own all intellectual property rights (including copyright and database rights) in the FT Content and any selection or arrangement of the FT Content. No intellectual property rights in any FT Content are transferred to you. ”FT” and ”Financial Times” are registered trade marks and you may not use them without written permission from FT. You are permitted to use FT Content only as set out in our </span><a href="http://help.ft.com/tools-services/copyright-policy/"><span style="font-weight: 400;">Copyright Policy</span></a><span style="font-weight: 400;">.</span></p> 
+     <h3><b>13. Corporate Information</b></h3> 
+     <p><span style="font-weight: 400;">The Financial Times Limited is the publisher of the Financial Times newspaper and the FT.com website, and its corporate details are as follows: registered office address is Number One Southwark Bridge, London SE1 9HL; company number is 227590; VAT number GB226162332; and Data Protection Registration Number is Z7087146. In addition, the Managed Funds and Personal Finance areas of FT.com are operated separately by FT Personal Finance Limited whose corporate details are as follows: registered office address is Number One Southwark Bridge, London SE1 9HL; company number is 3855520; VAT number GB226162332; and Data Protection Registration Number is Z7670392.</span></p> 
+     <h3><b>14. Changes to Terms and Conditions</b></h3> 
+     <p><span style="font-weight: 400;">These terms and conditions were published on 19 May 2017 and replace with immediate effect the terms and conditions previously published on 18 November 2016.</span></p> 
+    </div> 
+   </div> 
+   <div class="o-grid-row"> 
+    <div data-o-grid-colspan="12" class="back-to-top-container"> 
+     <a href="#top" class="back-to-top" data-trackable="back-to-top"><i class="o-icons-icon o-icons-icon--arrow-up"></i>Back to the Top</a> 
+    </div> 
+   </div> 
+  </div> 
+  <footer class="o-footer o-footer--theme-dark" data-o-component="o-footer" data-o-footer--no-js="" data-trackable="footer" data-trackable-terminate=""> 
+   <div class="o-footer__container"> 
+    <div class="o-footer__row"> 
+     <nav class="o-footer__matrix" role="navigation" aria-label="Useful links"> 
+      <div class="o-footer__matrix-group o-footer__matrix-group--1" data-trackable="group | Support"> 
+       <h6 class="o-footer__matrix-title"> Support </h6> 
+       <div class="o-footer__matrix-content" id="o-footer-section-0"> 
+        <div class="o-footer__matrix-column"> 
+         <!-- a class="js-optout-link o-footer__matrix-link" data-trackable="opt-out" href="https://www.ft.com/opt-out-confirm?location=%2F" hidden="true">
+														Return to the old FT.com
+													</a -->
+         <a class="o-footer__matrix-link js-webapp-link" data-trackable="visit-webapp" href="https://app.ft.com" hidden>Open in app</a> 
+         <a class="o-footer__matrix-link js-android-link" data-trackable="open-android-app" href="http://www.ft.com/androidapp" hidden>Open in app</a> 
+         <a class="o-footer__matrix-link" href="http://help.ft.com" data-trackable="Help Centre">Help Centre</a> 
+         <a class="o-footer__matrix-link" href="http://www.ft.com/aboutus" data-trackable="About Us">About Us</a> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="o-footer__matrix-group o-footer__matrix-group--1" data-trackable="group | Legal &amp; Privacy"> 
+       <h6 class="o-footer__matrix-title"> Legal &amp; Privacy </h6> 
+       <div class="o-footer__matrix-content" id="o-footer-section-1"> 
+        <div class="o-footer__matrix-column"> 
+         <a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/terms-conditions/" data-trackable="Terms &amp; Conditions">Terms &amp; Conditions</a> 
+         <a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/privacy/" data-trackable="Privacy">Privacy</a> 
+         <a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/cookies/" data-trackable="Cookies">Cookies</a> 
+         <a class="o-footer__matrix-link" href="http://help.ft.com/help/legal-privacy/copyright/copyright-policy/" data-trackable="Copyright">Copyright</a> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="o-footer__matrix-group o-footer__matrix-group--2" data-trackable="group | Services"> 
+       <h6 class="o-footer__matrix-title" aria-controls="o-footer-section-2"> Services </h6> 
+       <div class="o-footer__matrix-content" id="o-footer-section-2"> 
+        <div class="o-footer__matrix-column"> 
+         <a class="o-footer__matrix-link" href="http://live.ft.com/" data-trackable="Conferences &amp; Events">Conferences &amp; Events</a> 
+         <a class="o-footer__matrix-link" href="https://sub.ft.com/spa_5" data-trackable="Individual Subscriptions">Individual Subscriptions</a> 
+         <a class="o-footer__matrix-link" href="http://enterprise.ft.com/en-gb/services/group-subscriptions/" data-trackable="Group Subscriptions">Group Subscriptions</a> 
+         <a class="o-footer__matrix-link" href="http://enterprise.ft.com/en-gb/services/republishing/" data-trackable="Republishing">Republishing</a> 
+         <a class="o-footer__matrix-link" href="http://www.businessesforsale.com/ft2/notices" data-trackable="Contracts &amp; Tenders">Contracts &amp; Tenders</a> 
+        </div> 
+        <div class="o-footer__matrix-column"> 
+         <a class="o-footer__matrix-link" href="https://commerce.uk.reuters.com/purchase/mostPopular.do?rpc=471" data-trackable="Analysts Research">Analysts Research</a> 
+         <a class="o-footer__matrix-link" href="https://www.exec-appointments.com/" data-trackable="Executive Job Search">Executive Job Search</a> 
+         <a class="o-footer__matrix-link" href="http://fttoolkit.co.uk/d/" data-trackable="Advertise with the FT">Advertise with the FT</a> 
+         <a class="o-footer__matrix-link" href="https://twitter.com/ft" data-trackable="Follow the FT on Twitter">Follow the FT on Twitter</a> 
+         <a class="o-footer__matrix-link" href="http://www.ft.com/ebooks" data-trackable="Ebooks">Ebooks</a> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="o-footer__matrix-group o-footer__matrix-group--2" data-trackable="group | Tools"> 
+       <h6 class="o-footer__matrix-title" aria-controls="o-footer-section-3"> Tools </h6> 
+       <div class="o-footer__matrix-content" id="o-footer-section-3"> 
+        <div class="o-footer__matrix-column"> 
+         <a class="o-footer__matrix-link" href="http://markets.ft.com/data/portfolio/dashboard" data-trackable="Portfolio">Portfolio</a> 
+         <a class="o-footer__matrix-link" href="http://www.ft.com/uk-edition" data-trackable="ePaper">ePaper</a> 
+         <a class="o-footer__matrix-link" href="http://markets.ft.com/data/alerts/" data-trackable="Alerts Hub">Alerts Hub</a> 
+         <a class="o-footer__matrix-link" href="http://lexicon.ft.com/?ft_site=falcon" data-trackable="Lexicon">Lexicon</a> 
+         <a class="o-footer__matrix-link" href="http://rankings.ft.com/businessschoolrankings/global-mba-ranking-2016?ft_site=falcon" data-trackable="MBA Rankings">MBA Rankings</a> 
+        </div> 
+        <div class="o-footer__matrix-column"> 
+         <a class="o-footer__matrix-link" href="http://markets.ft.com/data/world/economic-calendar" data-trackable="Economic Calendar">Economic Calendar</a> 
+         <a class="o-footer__matrix-link" href="https://www.ft.com/news-feed" data-trackable="News feed">News feed</a> 
+         <a class="o-footer__matrix-link" href="http://nbe.ft.com/nbe/profile.cfm?ft_site=falcon" data-trackable="Newsletters">Newsletters</a> 
+         <a class="o-footer__matrix-link" href="http://markets.ft.com/research/Markets/Currencies?segid=70113" data-trackable="Currency Converter">Currency Converter</a> 
+         <a class="o-footer__matrix-link" href="http://presscuttings.ft.com/presscuttings/search.htm" data-trackable="Press Cuttings">Press Cuttings</a> 
+        </div> 
+       </div> 
+      </div> 
+     </nav> 
+     <h6 class="o-footer__more-from-ft"> <a href="https://www.ft.com/more-from-ft-group">More from the FT Group <i class="o-icons-icon o-icons-icon--arrow-right"></i></a> </h6> 
+    </div> 
+    <div class="o-footer__copyright" role="contentinfo" data-trackable="small-print"> 
+     <small> Markets data delayed by at least 15 minutes. © THE FINANCIAL TIMES LTD . <abbr title="Financial Times">FT</abbr> and ‘Financial Times’ are trademarks of The Financial Times Ltd.<br> The Financial Times and its journalism are subject to a self-regulation regime under the <a href="http://www.ft.com/editorialcode">FT Editorial Code of Practice</a>. </small> 
+    </div> 
+   </div> 
+   <div class="o-footer__brand"> 
+    <div class="o-footer__container"> 
+     <div class="o-footer__brand-logo"></div> 
+    </div> 
+   </div> 
+  </footer>
+  <div class="o-header__drawer" id="o-header-drawer" data-o-header-drawer="" data-o-header-drawer--no-js="" data-trackable="drawer" data-trackable-terminate=""> 
+   <div class="o-header__drawer-inner"> 
+    <div class="o-header__drawer-tools"> 
+     <a class="o-header__drawer-tools-logo" href="https://www.ft.com/" data-trackable="logo"> <span class="o-header__visually-hidden">Financial Times</span> </a> 
+     <button type="button" class="o-header__drawer-tools-close" aria-controls="o-header-drawer" data-trackable="close"> <span class="o-header__visually-hidden">Close</span> </button> 
+    </div> 
+    <nav class="o-header__drawer-editions" role="navigation" aria-label="Edition switcher" data-trackable="edition-switcher"> 
+     <a class="o-header__drawer-editions-link" href="https://www.ft.com/?edition=uk" data-trackable="uk" aria-selected="true">UK Edition</a> 
+     <a class="o-header__drawer-editions-link" href="https://www.ft.com/?edition=international" data-trackable="international">International Edition</a> 
+    </nav> 
+    <div class="o-header__drawer-search"> 
+     <form class="o-header__drawer-search-form" action="/search" role="search" aria-label="Site search" data-typeahead=""> 
+      <label class="o-header__visually-hidden" for="o-header-drawer-search-term">Search the <abbr title="Financial Times">FT</abbr></label> 
+      <input class="o-header__drawer-search-term" id="o-header-drawer-search-term" name="q" type="text" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search the FT" data-trackable="search-term"> 
+      <button class="o-header__drawer-search-submit" type="submit" data-trackable="search-submit"> <span class="o-header__visually-hidden">Search</span> </button> 
+     </form> 
+    </div> 
+    <nav class="o-header__drawer-menu o-header__drawer-menu--primary" role="navigation" aria-label="Primary navigation" data-trackable="primary-nav"> 
+     <ul class="o-header__drawer-menu-list"> 
+      <li class="o-header__drawer-menu-item o-header__drawer-menu-item--heading"> Top sections </li> 
+      <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link-- o-header__drawer-menu-link--selected" href="https://www.ft.com/" aria-label="Current page" data-trackable="Home">Home</a> </li> 
+      <li class="o-header__drawer-menu-item "> 
+       <div class="o-header__drawer-menu-toggle-wrapper"> 
+        <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-2" data-trackable="sub-level-toggle | World"> Show more World links </button> 
+        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="https://www.ft.com/world" aria-label="Go to World" data-trackable="World">World</a> 
+       </div> 
+       <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-2" data-trackable="sub-level"> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/global-economy" aria-label="Go to World Economy" data-trackable="World Economy">World Economy</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/world/uk" aria-label="Go to UK" data-trackable="UK">UK</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/world/us" aria-label="Go to US" data-trackable="US">US</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/world/asia-pacific/china" aria-label="Go to China" data-trackable="China">China</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/world/africa" aria-label="Go to Africa" data-trackable="Africa">Africa</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/world/asia-pacific" aria-label="Go to Asia Pacific" data-trackable="Asia Pacific">Asia Pacific</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/markets/emerging-markets" aria-label="Go to Emerging Markets" data-trackable="Emerging Markets">Emerging Markets</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/world/europe" aria-label="Go to Europe" data-trackable="Europe">Europe</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/world/americas" aria-label="Go to Latin America" data-trackable="Latin America">Latin America</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/world/mideast" aria-label="Go to Middle East and North Africa" data-trackable="Middle East and North Africa">Middle East and North Africa</a> </li> 
+       </ul> </li> 
+      <li class="o-header__drawer-menu-item "> 
+       <div class="o-header__drawer-menu-toggle-wrapper"> 
+        <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-3" data-trackable="sub-level-toggle | UK"> Show more UK links </button> 
+        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="https://www.ft.com/world/uk" aria-label="Go to UK" data-trackable="UK">UK</a> 
+       </div> 
+       <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-3" data-trackable="sub-level"> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/global-economy/uk" aria-label="Go to UK Economy" data-trackable="UK Economy">UK Economy</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/world/uk/politics" aria-label="Go to UK Politics &amp; Policy" data-trackable="UK Politics &amp; Policy">UK Politics &amp; Policy</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/companies/uk" aria-label="Go to UK Companies" data-trackable="UK Companies">UK Companies</a> </li> 
+       </ul> </li> 
+      <li class="o-header__drawer-menu-item "> 
+       <div class="o-header__drawer-menu-toggle-wrapper"> 
+        <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-4" data-trackable="sub-level-toggle | Companies"> Show more Companies links </button> 
+        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="https://www.ft.com/companies" aria-label="Go to Companies" data-trackable="Companies">Companies</a> 
+       </div> 
+       <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-4" data-trackable="sub-level"> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/companies/energy" aria-label="Go to Energy" data-trackable="Energy">Energy</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/companies/financials" aria-label="Go to Financials" data-trackable="Financials">Financials</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/companies/health" aria-label="Go to Health" data-trackable="Health">Health</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/companies/industrials" aria-label="Go to Industrials" data-trackable="Industrials">Industrials</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/companies/media" aria-label="Go to Media" data-trackable="Media">Media</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/companies/retail-consumer" aria-label="Go to Retail &amp; Consumer" data-trackable="Retail &amp; Consumer">Retail &amp; Consumer</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/companies/technology" aria-label="Go to Technology" data-trackable="Technology">Technology</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/companies/telecoms" aria-label="Go to Telecoms" data-trackable="Telecoms">Telecoms</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/companies/transport" aria-label="Go to Transport" data-trackable="Transport">Transport</a> </li> 
+       </ul> </li> 
+      <li class="o-header__drawer-menu-item "> 
+       <div class="o-header__drawer-menu-toggle-wrapper"> 
+        <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-5" data-trackable="sub-level-toggle | Markets"> Show more Markets links </button> 
+        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="https://www.ft.com/markets" aria-label="Go to Markets" data-trackable="Markets">Markets</a> 
+       </div> 
+       <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-5" data-trackable="sub-level"> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/fastft" aria-label="Go to fastFT" data-trackable="fastFT">fastFT</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="http://ftalphaville.ft.com" aria-label="Go to Alphaville" data-trackable="Alphaville">Alphaville</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="http://markets.ft.com/data" aria-label="Go to Markets Data" data-trackable="Markets Data">Markets Data</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/markets/capital-markets" aria-label="Go to Capital Markets" data-trackable="Capital Markets">Capital Markets</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/markets/commodities" aria-label="Go to Commodities" data-trackable="Commodities">Commodities</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/markets/currencies" aria-label="Go to Currencies" data-trackable="Currencies">Currencies</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/markets/equities" aria-label="Go to Equities" data-trackable="Equities">Equities</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/fund-management" aria-label="Go to Fund Management" data-trackable="Fund Management">Fund Management</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/markets/trading" aria-label="Go to Trading" data-trackable="Trading">Trading</a> </li> 
+       </ul> </li> 
+      <li class="o-header__drawer-menu-item "> 
+       <div class="o-header__drawer-menu-toggle-wrapper"> 
+        <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-6" data-trackable="sub-level-toggle | Opinion"> Show more Opinion links </button> 
+        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="https://www.ft.com/comment" aria-label="Go to Opinion" data-trackable="Opinion">Opinion</a> 
+       </div> 
+       <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-6" data-trackable="sub-level"> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/comment/columnists" aria-label="Go to Columnists" data-trackable="Columnists">Columnists</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/comment/ft-view" aria-label="Go to FT View" data-trackable="FT View">FT View</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/comment/the-big-read" aria-label="Go to The Big Read" data-trackable="The Big Read">The Big Read</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/instant-insight" aria-label="Go to Instant Insight" data-trackable="Instant Insight">Instant Insight</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/lex" aria-label="Go to Lex" data-trackable="Lex">Lex</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="http://ftalphaville.ft.com" aria-label="Go to Alphaville" data-trackable="Alphaville">Alphaville</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/comment/blogs" aria-label="Go to Blogs" data-trackable="Blogs">Blogs</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/stream/sectionsId/MTIz-U2VjdGlvbnM=" aria-label="Go to Obituaries" data-trackable="Obituaries">Obituaries</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/comment/letters" aria-label="Go to Letters" data-trackable="Letters">Letters</a> </li> 
+       </ul> </li> 
+      <li class="o-header__drawer-menu-item "> 
+       <div class="o-header__drawer-menu-toggle-wrapper"> 
+        <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-7" data-trackable="sub-level-toggle | Work &amp; Careers"> Show more Work &amp; Careers links </button> 
+        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="https://www.ft.com/work-careers" aria-label="Go to Work &amp; Careers" data-trackable="Work &amp; Careers">Work &amp; Careers</a> 
+       </div> 
+       <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-7" data-trackable="sub-level"> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="http://rankings.ft.com/businessschoolrankings/rankings" aria-label="Go to Business School Rankings" data-trackable="Business School Rankings">Business School Rankings</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/business-education" aria-label="Go to Business Education" data-trackable="Business Education">Business Education</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/management/entrepreneurship" aria-label="Go to Entrepreneurship" data-trackable="Entrepreneurship">Entrepreneurship</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/management/recruitment" aria-label="Go to Recruitment" data-trackable="Recruitment">Recruitment</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/management/business-books" aria-label="Go to Business Books" data-trackable="Business Books">Business Books</a> </li> 
+       </ul> </li> 
+      <li class="o-header__drawer-menu-item "> 
+       <div class="o-header__drawer-menu-toggle-wrapper"> 
+        <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-8" data-trackable="sub-level-toggle | Life &amp; Arts"> Show more Life &amp; Arts links </button> 
+        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="https://www.ft.com/life-arts" aria-label="Go to Life &amp; Arts" data-trackable="Life &amp; Arts">Life &amp; Arts</a> 
+       </div> 
+       <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-8" data-trackable="sub-level"> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/house-home" aria-label="Go to House &amp; Home" data-trackable="House &amp; Home">House &amp; Home</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/books" aria-label="Go to Books" data-trackable="Books">Books</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/life-arts/food-drink" aria-label="Go to Food &amp; Drink" data-trackable="Food &amp; Drink">Food &amp; Drink</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/travel" aria-label="Go to Travel" data-trackable="Travel">Travel</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/life-arts/style" aria-label="Go to Style" data-trackable="Style">Style</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/arts" aria-label="Go to Arts" data-trackable="Arts">Arts</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/magazine" aria-label="Go to FT Magazine" data-trackable="FT Magazine">FT Magazine</a> </li> 
+       </ul> </li> 
+      <li class="o-header__drawer-menu-item "> 
+       <div class="o-header__drawer-menu-toggle-wrapper"> 
+        <button class="o-header__drawer-menu-toggle o-header__drawer-menu-toggle--unselected" aria-controls="o-header-drawer-child-9" data-trackable="sub-level-toggle | Personal Finance"> Show more Personal Finance links </button> 
+        <a class="o-header__drawer-menu-link o-header__drawer-menu-link--parent o-header__drawer-menu-link--unselected" href="https://www.ft.com/personal-finance" aria-label="Go to Personal Finance" data-trackable="Personal Finance">Personal Finance</a> 
+       </div> 
+       <ul class="o-header__drawer-menu-list o-header__drawer-menu-list--child" id="o-header-drawer-child-9" data-trackable="sub-level"> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/personal-finance/property-mortgages" aria-label="Go to Property &amp; Mortgages" data-trackable="Property &amp; Mortgages">Property &amp; Mortgages</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/personal-finance/investments" aria-label="Go to Investments" data-trackable="Investments">Investments</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/pensions" aria-label="Go to Pensions" data-trackable="Pensions">Pensions</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/personal-finance/tax" aria-label="Go to Tax" data-trackable="Tax">Tax</a> </li> 
+        <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--child o-header__drawer-menu-link--unselected" href="https://www.ft.com/personal-finance/banking-savings" aria-label="Go to Banking &amp; Savings" data-trackable="Banking &amp; Savings">Banking &amp; Savings</a> </li> 
+       </ul> </li> 
+      <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link-- o-header__drawer-menu-link--unselected" href="https://www.ft.com/special-reports" aria-label="Go to Special Reports" data-trackable="Special Reports">Special Reports</a> </li> 
+      <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link-- o-header__drawer-menu-link--unselected" href="https://www.ft.com/science-environment" aria-label="Go to Science &amp; Environment" data-trackable="Science &amp; Environment">Science &amp; Environment</a> </li> 
+      <li class="o-header__drawer-menu-item o-header__drawer-menu-item--heading"> FT recommends </li> 
+      <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link-- o-header__drawer-menu-link--unselected" href="https://www.ft.com/lex" aria-label="Go to Lex" data-trackable="Lex">Lex</a> </li> 
+      <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link-- o-header__drawer-menu-link--unselected" href="http://ftalphaville.ft.com" aria-label="Go to Alphaville" data-trackable="Alphaville">Alphaville</a> </li> 
+      <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link-- o-header__drawer-menu-link--unselected" href="https://www.ft.com/lunch-with-the-ft" aria-label="Go to Lunch with the FT" data-trackable="Lunch with the FT">Lunch with the FT</a> </li> 
+      <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link-- o-header__drawer-menu-link--unselected" href="http://video.ft.com/" aria-label="Go to Video" data-trackable="Video">Video</a> </li> 
+      <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link-- o-header__drawer-menu-link--unselected" href="https://www.ft.com/podcasts" aria-label="Go to Podcasts" data-trackable="Podcasts">Podcasts</a> </li> 
+      <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link-- o-header__drawer-menu-link--unselected" href="https://www.ft.com/comment/blogs" aria-label="Go to Blogs" data-trackable="Blogs">Blogs</a> </li> 
+      <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link-- o-header__drawer-menu-link--unselected" href="https://www.ft.com/news-feed" aria-label="Go to News feed" data-trackable="News feed">News feed</a> </li> 
+      <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link-- o-header__drawer-menu-link--unselected" href="http://nbe.ft.com/nbe/profile.cfm?ft_site=falcon" aria-label="Go to Newsletters" data-trackable="Newsletters">Newsletters</a> </li> 
+      <li class="o-header__drawer-menu-item o-header__drawer-menu-item--divide"> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--secondary o-header__drawer-menu-link--unselected" href="https://www.ft.com/myft" aria-label="Go to myFT" data-trackable="myFT">myFT</a> </li> 
+      <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--secondary o-header__drawer-menu-link--unselected" href="http://markets.ft.com/data/portfolio/dashboard" aria-label="Go to Portfolio" data-trackable="Portfolio">Portfolio</a> </li> 
+      <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--secondary o-header__drawer-menu-link--unselected" href="http://www.ft.com/uk-edition" aria-label="Go to ePaper" data-trackable="ePaper">ePaper</a> </li> 
+      <li class="o-header__drawer-menu-item "> <a class="o-header__drawer-menu-link o-header__drawer-menu-link--secondary o-header__drawer-menu-link--unselected" href="http://www.ft.com/life-arts/crossword?ft_site=falcon&amp;desktop=true" aria-label="Go to Crossword" data-trackable="Crossword">Crossword</a> </li> 
+     </ul> 
+    </nav> 
+    <nav class="o-header__drawer-menu o-header__drawer-menu--user" role="navigation" aria-label="User navigation" data-trackable="user-nav"> 
+     <ul class="o-header__drawer-menu-list"> 
+      <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link" href="http://help.ft.com" data-trackable="Help Centre" selected="true"> Help Centre </a> </li> 
+      <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link" href="https://www.ft.com/products?segID=400863&amp;segmentID=190b4443-dc03-bd53-e79b-b4b6fbd04e64" data-trackable="Subscribe"> Subscribe </a> </li> 
+      <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-link" href="https://www.ft.com/login?location=%2F" data-trackable="Sign In"> Sign In </a> </li> 
+      <li class="o-header__drawer-menu-item"> <a class="o-header__drawer-menu-button js-optout-link o-buttons o-buttons--standout" data-trackable="opt-out" href="https://www.ft.com/opt-out-confirm?location=%2F" hidden="true"> Return to the old FT.com </a> <a class="o-header__drawer-menu-button js-webapp-link o-buttons o-buttons--standout" data-trackable="visit-webapp" href="https://app.ft.com" hidden>Open in app</a> <a class="o-header__drawer-menu-button js-android-link o-buttons o-buttons--standout" data-trackable="open-android-app" href="http://www.ft.com/androidapp" hidden>Open in app</a> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+  </div> 
+  <script type="text/javascript" src="https://help.ft.com/wp-includes/js/wp-embed.min.js?ver=4.9.4"></script>  
+ </body>
+</html>

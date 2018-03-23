@@ -1,0 +1,1516 @@
+https://stackoverflow.com/questions/tagged/window-functions
+<!doctype html>
+<html itemscope itemtype="http://schema.org/QAPage">
+ <head> 
+  <title>Newest 'window-functions' Questions - Stack Overflow</title> 
+  <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d"> 
+  <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a"> 
+  <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:url" content="https://stackoverflow.com/questions/tagged/window-functions"> 
+  <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:domain" content="stackoverflow.com"> 
+  <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest 'window-functions' Questions"> 
+  <meta name="twitter:description" property="og:description" itemprop="description" content="Stack Overflow | The World’s Largest Online Community for Developers"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+  <script src="https://cdn.sstatic.net/Js/stub.en.js?v=57e020fde11a"></script> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=596945d5421b"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=94cd993a63cf"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=13dc725d5020"> 
+  <link rel="alternate" type="application/atom+xml" title="newest window-functions questions feed" href="/feeds/tag?tagnames=window-functions&amp;sort=newest"> 
+  <script>
+        StackExchange.init({"locale":"en","serverTime":1521843113,"routeName":"Questions/ListByTag","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"childUrl":"https://meta.stackoverflow.com","enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"d16a35da63103e8b1162221b85b5952621651c541085caea15d1785affbc32a4","tid":"d3670d53-8d98-5f49-3526-336fbc841151","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4}}, {"site":{"allowImageUploads":true,"commentHighlightingWithCSS":true,"enableUserHovercards":true,"styleCode":true,"enableImgurHttps":true,"forceHttpsImages":true},"userMessaging":{},"comments":{},"userProfile":{"openGraphAPIKey":"58740831ad23540e00c58987"},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"paths":{},"markdown":{"asteriskIntraWordEmphasis":true},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad"},"subscriptions":{}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"fd71fcd78b2c","js/moderator.en.js":"d350b664ddb3","js/full-anon.en.js":"81c19a49c169","js/full.en.js":"6d6c19847a8b","js/wmd.en.js":"a349c871bd62","js/third-party/jquery.autocomplete.min.js":"bdb258e949a8","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"4804a16f7074","js/help.en.js":"a1c2d4ed1321","js/tageditor.en.js":"bff66e3469d5","js/tageditornew.en.js":"586ffe22ab58","js/inline-tag-editing.en.js":"e7aa31e8eba1","js/revisions.en.js":"8f22ba768cac","js/review.en.js":"5eda79317cf4","js/tagsuggestions.en.js":"78eee7c19ab2","js/post-validation.en.js":"ec745f184617","js/explore-qlist.en.js":"66e52888786d","js/events.en.js":"8f07ed802b6b","js/keyboard-shortcuts.en.js":"8588a17139dd","js/external-editor.en.js":"3c50622b803d","js/adops.en.js":"22a9bd59b1e9","js/external-editor.en.js":"3c50622b803d","js/snippet-javascript.en.js":"6596eb95a324","js/snippet-javascript-codemirror.en.js":"6e1735fcf180"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script> 
+  <noscript id="noscript-css">
+   <style>body,.top-bar{margin-top:1.9em}</style>
+  </noscript> 
+ </head> 
+ <body class="tagged-questions-page new-topbar"> 
+  <script async src="https://js-sec.indexww.com/ht/p/185901-159836282584097.js"></script> 
+  <div id="notify-container"></div> 
+  <div id="custom-header"></div> 
+  <header class="top-bar js-top-bar _fixed"> 
+   <div class="-container"> 
+    <div class="-main"> 
+     <a href="https://stackoverflow.com" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:5, destination:8})"> <span class="-img">Stack Overflow</span> </a> 
+     <nav class="navigation" role="navigation" aria-label="site navigation"> 
+      <ol class="-list"> 
+       <li class="-item _current"> <a id="nav-questions" href="/questions" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:true, location:5, destination:1})">Questions</a> </li> 
+       <li class="-item"> <a id="nav-jobs" href="/jobs?med=site-ui&amp;ref=jobs-tab" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:5, destination:6})">Developer Jobs</a> </li> 
+       <li class="-item"> <a id="nav-tags" href="/tags" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:5, destination:2})">Tags</a> </li> 
+       <li class="-item"> <a id="nav-users" href="/users" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:5, destination:3})">Users</a> </li> 
+      </ol> 
+     </nav> 
+    </div> 
+    <form id="search" action="/search" method="get" class="searchbar" autocomplete="off" role="search"> 
+     <input name="q" type="text" placeholder="Search…" value="[window-functions]" tabindex="1" autocomplete="off" maxlength="240" class="f-input js-search-field"> 
+     <button type="submit" aria-label="Search..." class="btn-topbar-primary js-search-submit">
+      <svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewbox="0 0 18 18">
+       <path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z" />
+      </svg></button> 
+    </form> 
+    <div class="-actions"> 
+     <nav class="secondary-nav"> 
+      <div class="-dialog-container js-topbar-dialog-corral"> 
+       <div class="topbar-dialog siteSwitcher-dialog dno"> 
+        <div class="header"> 
+         <h3><a href="https://stackoverflow.com">current community</a> </h3> 
+        </div> 
+        <div class="modal-content current-site-container"> 
+         <ul class="current-site"> 
+          <li> 
+           <div class="related-links"> 
+            <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:14 })">help</a> 
+            <a href="https://chat.stackoverflow.com" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a> 
+           </div> <a href="https://stackoverflow.com" class="current-site-link site-link js-gps-track" data-id="1" data-gps-track="site_switcher.click({ item_type:3 })"> 
+            <div class="favicon favicon-stackoverflow site-icon" title="Stack Overflow"></div> Stack Overflow </a> </li> 
+          <li class="related-site"> 
+           <div class="L-shaped-icon-container"> 
+            <span class="L-shaped-icon"></span> 
+           </div> <a href="https://meta.stackoverflow.com" class="site-link js-gps-track" data-id="552" data-gps-track="site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })"> 
+            <div class="favicon favicon-stackoverflowmeta site-icon" title="Meta Stack Overflow"></div> Meta Stack Overflow </a> </li> 
+         </ul> 
+        </div> 
+        <div class="header" id="your-communities-header"> 
+         <h3> your communities </h3> 
+        </div> 
+        <div class="modal-content" id="your-communities-section"> 
+         <div class="call-to-login"> 
+          <a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or 
+          <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fwindow-functions" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list. 
+         </div> 
+        </div> 
+        <div class="header"> 
+         <h3><a href="https://stackexchange.com/sites">more stack exchange communities</a> </h3> 
+         <a href="https://stackoverflow.blog" class="fr">company blog</a> 
+        </div> 
+        <div class="modal-content"> 
+         <div class="child-content"></div> 
+        </div> 
+       </div> 
+       <div class="topbar-dialog help-dialog js-help-dialog dno"> 
+        <div class="modal-content"> 
+         <ul> 
+          <li> <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })"> Tour <span class="item-summary"> Start here for a quick overview of the site </span> </a> </li> 
+          <li> <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })"> Help Center <span class="item-summary"> Detailed answers to any questions you might have </span> </a> </li> 
+          <li> <a href="https://meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })"> Meta <span class="item-summary"> Discuss the workings and policies of this site </span> </a> </li> 
+          <li> <a href="https://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })"> About Us <span class="item-summary"> Learn more about Stack Overflow the company </span> </a> </li> 
+          <li> <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })"> Business <span class="item-summary"> Learn more about hiring developers or posting ads with us </span> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+      <ol class="-list"> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages"> 
+         <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewbox="0 0 20 18">
+          <path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z" />
+         </svg> <span class="indicator-badge js-unread-count _important" style="display: none;"></span> </a> </li> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive"> 
+         <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z" />
+         </svg> <span class="indicator-badge js-unread-count _positive" style="display: none;"></span> </a> </li> 
+       <li class="-item"><a href="#" class="-link js-help-button" title="Help Center and other resources"> 
+         <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z" />
+         </svg> </a></li> 
+       <li class="-item"> <a href="https://stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 172 Stack Exchange sites"> 
+         <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z" />
+         </svg> </a> </li> 
+      </ol> 
+     </nav> 
+     <div class="-ctas"> 
+      <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fwindow-functions" class="login-link btn-clear" rel="nofollow">Log In</a> 
+      <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link btn-topbar-primary" rel="nofollow" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]">Sign Up</a> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+        StackExchange.scrollPadding.setPaddingTop(60, 10);     </script> 
+  <div id="announcement-banner" data-campaign="2018-03-13.dev-survey-2018" data-cookie="notice-dsr" data-expire-date="1524211200000"> 
+   <div class="-container"> 
+    <span class="-body">The results are in!</span> 
+    <a class="-link js-link js-gps-track" href="https://insights.stackoverflow.com/survey/2018/" data-ga="[&quot;dev-survey-2018&quot;,&quot;Announcement Banner&quot;,&quot;https://insights.stackoverflow.com/survey/2018/&quot;,null,{&quot;dimension4&quot;:&quot;dev-survey-2018&quot;}]" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 5, action: 2})">See the 2018 Developer Survey results. »</a> 
+    <a class="-dismiss js-dismiss js-gps-track" href="#" title="dismiss" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 5, action: 1})">
+     <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewbox="0 0 18 18">
+      <path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z" />
+     </svg></a> 
+   </div> 
+  </div> 
+  <script>
+    StackExchange.ready(function () {
+        var $banner = $('#announcement-banner');
+
+        function setCookie(value) {
+            $.cookie($banner.data('cookie'), value, {
+                expires: (new Date($banner.data('expire-date'))),
+                path: '/'
+            });
+        }
+
+        $banner.find('.js-link').click(function () {
+            setCookie('2;' + Date.now());
+        });
+
+        $banner.find('.js-dismiss').click(function () {
+            setCookie('4;' + Date.now());
+            $banner.animate({ height: '0', opacity: 0 }, 'fast', 'linear', function () { $banner.remove(); });
+            return false;
+        });
+    });
+</script> 
+  <div class="container"> 
+   <div id="content" class="snippet-hidden"> 
+    <div id="mainbar"> 
+     <div class="subheader"> 
+      <h1>Tagged Questions</h1> 
+      <div id="tabs"> 
+       <a href="/tags/window-functions/info" data-nav-xhref="" title="information about this tag" data-value="" data-shortcut="I"> info</a> 
+       <a class="youarehere " href="/questions/tagged/window-functions?sort=newest&amp;pageSize=15" data-nav-xhref="" title="The most recently asked questions" data-value="newest" data-shortcut="N"> newest</a> 
+       <a href="/questions/tagged/window-functions?sort=featured&amp;pageSize=15" data-nav-xhref="" title="Questions with open bounties" data-value="featured" data-shortcut="E"> <span class="bounty-indicator-tab">1</span> featured</a> 
+       <a href="/questions/tagged/window-functions?sort=frequent&amp;pageSize=15" data-nav-xhref="" title="Questions with the most links" data-value="frequent" data-shortcut="F"> frequent</a> 
+       <a href="/questions/tagged/window-functions?sort=votes&amp;pageSize=15" data-nav-xhref="" title="Questions with the most votes" data-value="votes" data-shortcut="V"> votes</a> 
+       <a href="/questions/tagged/window-functions?sort=active&amp;pageSize=15" data-nav-xhref="" title="Questions that have recent activity" data-value="active" data-shortcut="A"> active</a> 
+       <a id="tab-switch" href="/unanswered/tagged/window-functions" data-nav-xhref="" title="Switch to unanswered tabs" data-value="" data-shortcut="U"> unanswered</a> 
+      </div> 
+     </div> 
+     <div class="question"> 
+      <div id="dfp-tag" class="everyonelovesstackoverflow"></div> 
+      <div class="welovestackoverflow mt12"> 
+       <p class="-excerpt"> A window function is a type of SQL operation that aggregates over a partition of the result set. </p> 
+       <p style="margin-bottom: 0;" class="-footer"> <a title="tag wiki" href="/tags/window-functions/info">learn more…</a> <span class="lsep">|</span> <a title="top answerers and askers in this tag" href="/tags/window-functions/topusers">top users</a> <span class="lsep">|</span> <a title="common, alternate spellings or phrasings for this tag" href="/tags/window-functions/synonyms">synonyms</a> </p> 
+      </div> 
+     </div> 
+     <div id="questions" class="content-padding"> 
+      <div class="question-summary" id="question-summary-49455963"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>1</strong></span> 
+           <div class="viewcount">
+            vote
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>2</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="19 views">
+          19 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49455963/postgres-how-to-sum-every-x-amount-of-rows-of-a-window-function-column" class="question-hyperlink">Postgres - How to SUM every x amount of rows of a window function column?</a></h3> 
+        <div class="excerpt">
+          I created a column using a window function called "avg_rev" that gives the average amount of revenue by sales region for the last 7 days using: AVG(rev) OVER (PARTITION BY sales_region ROWS BETWEEN 7 ... 
+        </div> 
+        <div class="tags t-sql t-postgresql t-window-functions"> 
+         <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a> 
+         <a href="/questions/tagged/postgresql" class="post-tag" title="show questions tagged 'postgresql'" rel="tag">postgresql</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 18:10:01Z" class="relativetime">4 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/9415870/javier-fernandez">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/dtxGj.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/9415870/javier-fernandez">Javier Fernandez</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">8</span>
+            <span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49447532"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>2</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="45 views">
+          45 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49447532/aggregating-timeranges-mssql" class="question-hyperlink">Aggregating timeranges MSSQL</a></h3> 
+        <div class="excerpt">
+          Give the following table which shows the login times on a computer, i would greatly appreciate if someone could help me write a MS SQL query which will provide the aggregated timespans in table 2: ... 
+        </div> 
+        <div class="tags t-sql-server t-datetime t-aggregation t-window-functions"> 
+         <a href="/questions/tagged/sql-server" class="post-tag" title="show questions tagged 'sql-server'" rel="tag"><img src="//i.stack.imgur.com/gfrSH.png" height="16" width="18" alt="" class="sponsor-tag-img">sql-server</a> 
+         <a href="/questions/tagged/datetime" class="post-tag" title="show questions tagged 'datetime'" rel="tag">datetime</a> 
+         <a href="/questions/tagged/aggregation" class="post-tag" title="show questions tagged 'aggregation'" rel="tag">aggregation</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-23 10:28:17Z" class="relativetime">11 hours ago</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/4306556/horia">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/682581bcca195605928cfadfae5f90de?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/4306556/horia">Horia</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">19</span>
+            <span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49436161"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>1</strong></span> 
+           <div class="viewcount">
+            vote
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>3</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="41 views">
+          41 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49436161/max-over-partition-by-in-oracle-sql" class="question-hyperlink">MAX() OVER PARTITION BY in Oracle SQL</a></h3> 
+        <div class="excerpt">
+          Good morning, I am trying to utilize the MAX() OVER PARTITION BY function to evaluate the most recent receipt for a specific part that my company has bought. Below is an example table of the ... 
+        </div> 
+        <div class="tags t-sql t-oracle t-window-functions"> 
+         <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a> 
+         <a href="/questions/tagged/oracle" class="post-tag" title="show questions tagged 'oracle'" rel="tag">oracle</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-22 18:39:41Z" class="relativetime">yesterday</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/4876561/bm0r3son">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/LrLr2.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/4876561/bm0r3son">bm0r3son</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">118</span>
+            <span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49419474"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="24 views">
+          24 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49419474/applying-a-windowed-count-over-week-dates-with-postgresql" class="question-hyperlink">Applying a windowed count over week dates with postgresql</a></h3> 
+        <div class="excerpt">
+          I have a table of Reviews that looks something like this: I'm trying to generate a result that returns 4 columns: Weeks, starting Monday (yyyy-mm-dd) Count of movies reviewed that week Count of ... 
+        </div> 
+        <div class="tags t-sql t-postgresql t-window-functions"> 
+         <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a> 
+         <a href="/questions/tagged/postgresql" class="post-tag" title="show questions tagged 'postgresql'" rel="tag">postgresql</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-22 02:18:04Z" class="relativetime">yesterday</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/896802/samthebrand">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/Ka5hp.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/896802/samthebrand">samthebrand</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">736</span>
+            <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+            <span title="15 silver badges"><span class="badge2"></span><span class="badgecount">15</span></span>
+            <span title="32 bronze badges"><span class="badge3"></span><span class="badgecount">32</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49417823"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>2</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="23 views">
+          23 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49417823/sql-aggregate-function-over-partitions" class="question-hyperlink">SQL Aggregate Function over partitions</a></h3> 
+        <div class="excerpt">
+          I'm relatively new to SQL but have learned some cool stuff. I'm getting results that don't make sense. I've got a query with several subqueries and what-not but I have a windowed function that isn't ... 
+        </div> 
+        <div class="tags t-sql t-sql-server t-window-functions"> 
+         <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a> 
+         <a href="/questions/tagged/sql-server" class="post-tag" title="show questions tagged 'sql-server'" rel="tag"><img src="//i.stack.imgur.com/gfrSH.png" height="16" width="18" alt="" class="sponsor-tag-img">sql-server</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-21 22:52:50Z" class="relativetime">yesterday</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/8291957/taylor-francis">
+            <div class="gravatar-wrapper-32">
+             <img src="https://lh6.googleusercontent.com/-imiJ8GHyMC8/AAAAAAAAAAI/AAAAAAAAEcc/bf4Bt7Df8dU/photo.jpg?sz=32" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/8291957/taylor-francis">Taylor Francis</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">91</span>
+            <span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49368902"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="17 views">
+          17 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49368902/sql-server-percentile-disc-for-column-median-without-partitioning" class="question-hyperlink">SQL Server: PERCENTILE_DISC for column median without partitioning</a></h3> 
+        <div class="excerpt">
+          I'm trying to run PERCENTILE_DISC on a column of values in a table to get their median. I notice that the function has a mandatory partition clause and I'm wondering if there's a way to not use it. I ... 
+        </div> 
+        <div class="tags t-sql t-sql-server t-window-functions"> 
+         <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a> 
+         <a href="/questions/tagged/sql-server" class="post-tag" title="show questions tagged 'sql-server'" rel="tag"><img src="//i.stack.imgur.com/gfrSH.png" height="16" width="18" alt="" class="sponsor-tag-img">sql-server</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info user-hover"> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-19 17:23:54Z" class="relativetime">Mar 19 at 17:23</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/717481/sparc-spread">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/0292aeefc5c774d3acd0ca14914c5db2?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/717481/sparc-spread">sparc_spread</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">5,681</span>
+            <span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span>
+            <span title="26 silver badges"><span class="badge2"></span><span class="badgecount">26</span></span>
+            <span title="38 bronze badges"><span class="badge3"></span><span class="badgecount">38</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49367130"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>2</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="43 views">
+          43 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49367130/django-orm-group-by-and-find-latest-item-of-each-group-window-functions" class="question-hyperlink">Django ORM group by, and find latest item of each group (window functions)</a></h3> 
+        <div class="excerpt">
+          Say we have a model as below class Cake(models.Model): baked_on = models.DateTimeField(auto_now_add=True) cake_name = models.CharField(max_length=20) Now, there are multiple Cakes baked on ... 
+        </div> 
+        <div class="tags t-django t-django-models t-django-rest-framework t-django-orm t-window-functions"> 
+         <a href="/questions/tagged/django" class="post-tag" title="show questions tagged 'django'" rel="tag">django</a> 
+         <a href="/questions/tagged/django-models" class="post-tag" title="show questions tagged 'django-models'" rel="tag">django-models</a> 
+         <a href="/questions/tagged/django-rest-framework" class="post-tag" title="show questions tagged 'django-rest-framework'" rel="tag">django-rest-framework</a> 
+         <a href="/questions/tagged/django-orm" class="post-tag" title="show questions tagged 'django-orm'" rel="tag">django-orm</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-19 15:49:58Z" class="relativetime">Mar 19 at 15:49</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/3650586/anomitra">
+            <div class="gravatar-wrapper-32">
+             <img src="https://lh5.googleusercontent.com/-_9n_YS7s33s/AAAAAAAAAAI/AAAAAAAAAGY/OAkSi00gc9M/photo.jpg?sz=32" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/3650586/anomitra">Anomitra</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">568</span>
+            <span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span>
+            <span title="21 bronze badges"><span class="badge3"></span><span class="badgecount">21</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49349762"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="11 views">
+          11 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49349762/pyspark-sliding-window-calculations" class="question-hyperlink">PySpark Sliding Window Calculations</a></h3> 
+        <div class="excerpt">
+          I have a PySpark dataframe on which I want to run a sliding window calculation. Here is sample code of the operation that I want to run (shown for pandas dataframe): df["Total"].shift(1).rolling(7, ... 
+        </div> 
+        <div class="tags t-pyspark t-window-functions t-moving-average"> 
+         <a href="/questions/tagged/pyspark" class="post-tag" title="show questions tagged 'pyspark'" rel="tag">pyspark</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+         <a href="/questions/tagged/moving-average" class="post-tag" title="show questions tagged 'moving-average'" rel="tag">moving-average</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-18 15:38:25Z" class="relativetime">Mar 18 at 15:38</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/1145581/user1145581">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/a4f0c192252378fed93b2da94f06d05a?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/1145581/user1145581">user1145581</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">420</span>
+            <span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span>
+            <span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span>
+            <span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49340962"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="31 views">
+          31 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49340962/pyspark-custom-defined-window-function" class="question-hyperlink">pyspark - custom defined window function</a></h3> 
+        <div class="excerpt">
+          Having a dataset as follows: +-----------+------------+------------+------------+------------+------------+ |date | open | high | low |close |second | +-----------+... 
+        </div> 
+        <div class="tags t-apache-spark t-pyspark t-window-functions"> 
+         <a href="/questions/tagged/apache-spark" class="post-tag" title="show questions tagged 'apache-spark'" rel="tag">apache-spark</a> 
+         <a href="/questions/tagged/pyspark" class="post-tag" title="show questions tagged 'pyspark'" rel="tag">pyspark</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-17 19:19:55Z" class="relativetime">Mar 17 at 19:19</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/1158652/simeon-kredatus">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/dc232a026f57e94e515422f3928a207d?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/1158652/simeon-kredatus">Simeon Kredatus</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">302</span>
+            <span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span>
+            <span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49321752"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="50 views">
+          50 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49321752/rows-between-current-row-preceding-and-exact-match-following" class="question-hyperlink">ROWS BETWEEN CURRENT ROW PRECEDING AND EXACT MATCH FOLLOWING</a></h3> 
+        <div class="excerpt">
+          considering the following dummy dataset ID EVENT VALUE SORT_KEY 1 submitted 10 1 1 action 20 2 1 closed 30 3 1 action 30 4 2 submitted 10 1 2 action 10 2 2 action 10 3 2 closed 10 4 2 action 10 5 3 ... 
+        </div> 
+        <div class="tags t-sql t-google-bigquery t-window-functions"> 
+         <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a> 
+         <a href="/questions/tagged/google-bigquery" class="post-tag" title="show questions tagged 'google-bigquery'" rel="tag"><img src="//i.stack.imgur.com/2NOCA.png" height="16" width="18" alt="" class="sponsor-tag-img">google-bigquery</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-16 13:17:09Z" class="relativetime">Mar 16 at 13:17</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/2017943/dariob">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/af63d163f159a4ddb1a90bf800c8cd60?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/2017943/dariob">DarioB</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">107</span>
+            <span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span>
+            <span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49310127"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="35 views">
+          35 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49310127/left-join-to-a-subquery-where-row-number-1" class="question-hyperlink">Left join to a subquery where Row_Number = 1</a></h3> 
+        <div class="excerpt">
+          I'm so stupid! What's the best way to handle the scenario below? ID 27 doesn't exist in SuperRadSubQuery, but it does exist in WayCoolLeftTable. If I run this entire query it doesn't return anything. ... 
+        </div> 
+        <div class="tags t-sql-server t-tsql t-left-join t-window-functions t-row-number"> 
+         <a href="/questions/tagged/sql-server" class="post-tag" title="show questions tagged 'sql-server'" rel="tag"><img src="//i.stack.imgur.com/gfrSH.png" height="16" width="18" alt="" class="sponsor-tag-img">sql-server</a> 
+         <a href="/questions/tagged/tsql" class="post-tag" title="show questions tagged 'tsql'" rel="tag">tsql</a> 
+         <a href="/questions/tagged/left-join" class="post-tag" title="show questions tagged 'left-join'" rel="tag">left-join</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+         <a href="/questions/tagged/row-number" class="post-tag" title="show questions tagged 'row-number'" rel="tag">row-number</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-15 22:16:42Z" class="relativetime">Mar 15 at 22:16</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/8501528/arthur">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/Hxyp3.png?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/8501528/arthur">Arthur</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">3</span>
+            <span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49303910"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>1</strong></span> 
+           <div class="viewcount">
+            vote
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>2</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="28 views">
+          28 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49303910/first-value-not-working-as-id-expect-with-partition-by" class="question-hyperlink">FIRST_VALUE not working as I'd expect with PARTITION BY</a></h3> 
+        <div class="excerpt">
+          Here is my test set: master_ref ref value 56279276 56279325 FRAME ASSEMBLY1 56279276 384062724 FRAME ASSEMBLY2 56279276 443450775 FRAME ASSEMBLY3 I want to retrieve the ... 
+        </div> 
+        <div class="tags t-sql t-oracle t-window-functions"> 
+         <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a> 
+         <a href="/questions/tagged/oracle" class="post-tag" title="show questions tagged 'oracle'" rel="tag">oracle</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-15 15:53:28Z" class="relativetime">Mar 15 at 15:53</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/890905/brandon-lehman">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/2eec6d35be53bd686e53ec8659ff7d50?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/890905/brandon-lehman">Brandon Lehman</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">34</span>
+            <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+            <span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span>
+            <span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49271556"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>1</strong></span> 
+           <div class="viewcount">
+            vote
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="59 views">
+          59 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49271556/reset-running-total-in-ms-sql-server-based-on-condition" class="question-hyperlink">Reset Running Total in MS SQL Server based on condition</a></h3> 
+        <div class="excerpt">
+          Calculate running total based on the value plus/minus or another table B (that resets the total) in another column by Account and Date. Example TableA - 1st Scenario ID Account Date ... 
+        </div> 
+        <div class="tags t-sql t-sql-server t-sum t-window-functions t-running-total"> 
+         <a href="/questions/tagged/sql" class="post-tag" title="show questions tagged 'sql'" rel="tag">sql</a> 
+         <a href="/questions/tagged/sql-server" class="post-tag" title="show questions tagged 'sql-server'" rel="tag"><img src="//i.stack.imgur.com/gfrSH.png" height="16" width="18" alt="" class="sponsor-tag-img">sql-server</a> 
+         <a href="/questions/tagged/sum" class="post-tag" title="show questions tagged 'sum'" rel="tag">sum</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+         <a href="/questions/tagged/running-total" class="post-tag" title="show questions tagged 'running-total'" rel="tag">running-total</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-14 07:05:46Z" class="relativetime">Mar 14 at 7:05</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/1041423/rachel">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/5f45ed3699496519091c703ddd286f29?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/1041423/rachel">rachel</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">55</span>
+            <span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span>
+            <span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span>
+            <span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49259321"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>2</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="37 views">
+          37 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49259321/window-function-to-select-the-most-recent-non-null-value-in-postgresql-doesnt-w" class="question-hyperlink">Window function to select the most recent non-null value in Postgresql doesn't work</a></h3> 
+        <div class="excerpt">
+          I have a simple dataset like this: CREATE TABLE test (ts timestamp, email varchar, title varchar, hobby varchar); insert into test values ('2017-01-01', 'me@me.com', 'blah', null), ('2017-01-02', '... 
+        </div> 
+        <div class="tags t-postgresql t-window-functions"> 
+         <a href="/questions/tagged/postgresql" class="post-tag" title="show questions tagged 'postgresql'" rel="tag">postgresql</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-13 14:55:42Z" class="relativetime">Mar 13 at 14:55</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/849354/littlebobbytables">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/21d92e60aa7179788093b60c029fe963?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/849354/littlebobbytables">LittleBobbyTables</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">1,344</span>
+            <span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span>
+            <span title="20 silver badges"><span class="badge2"></span><span class="badgecount">20</span></span>
+            <span title="42 bronze badges"><span class="badge3"></span><span class="badgecount">42</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49243979"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="38 views">
+          38 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49243979/spark-window-functions-first-match-in-window" class="question-hyperlink">Spark window functions: first match in window</a></h3> 
+        <div class="excerpt">
+          I'm trying to extend the results of my previous question, but haven't been able to figure out how to achieve my new goal. Before, I wanted to key on either a flag match or a string match. Now, I ... 
+        </div> 
+        <div class="tags t-scala t-apache-spark t-apache-spark-sql t-window-functions"> 
+         <a href="/questions/tagged/scala" class="post-tag" title="show questions tagged 'scala'" rel="tag">scala</a> 
+         <a href="/questions/tagged/apache-spark" class="post-tag" title="show questions tagged 'apache-spark'" rel="tag">apache-spark</a> 
+         <a href="/questions/tagged/apache-spark-sql" class="post-tag" title="show questions tagged 'apache-spark-sql'" rel="tag">apache-spark-sql</a> 
+         <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-12 20:34:17Z" class="relativetime">Mar 12 at 20:34</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/3474279/ajar">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/c7a91f74130a32feab327a7e40b639c2?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/3474279/ajar">Ajar</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">648</span>
+            <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+            <span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span>
+            <span title="16 bronze badges"><span class="badge3"></span><span class="badgecount">16</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <br class="cbt"> 
+     <div class="pager fl"> 
+      <span class="page-numbers current">1</span> 
+      <a href="/questions/tagged/window-functions?page=2&amp;sort=newest&amp;pagesize=15" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+      <a href="/questions/tagged/window-functions?page=3&amp;sort=newest&amp;pagesize=15" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+      <a href="/questions/tagged/window-functions?page=4&amp;sort=newest&amp;pagesize=15" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+      <a href="/questions/tagged/window-functions?page=5&amp;sort=newest&amp;pagesize=15" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+      <span class="page-numbers dots">…</span> 
+      <a href="/questions/tagged/window-functions?page=68&amp;sort=newest&amp;pagesize=15" title="go to page 68"> <span class="page-numbers">68</span> </a> 
+      <a href="/questions/tagged/window-functions?page=2&amp;sort=newest&amp;pagesize=15" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+     </div>
+     <div class="page-sizer fr"> 
+      <a href="/questions/tagged/window-functions?sort=newest&amp;pagesize=15" title="show 15 items per page" class="page-numbers current">15</a> 
+      <a href="/questions/tagged/window-functions?sort=newest&amp;pagesize=30" title="show 30 items per page" class="page-numbers ">30</a> 
+      <a href="/questions/tagged/window-functions?sort=newest&amp;pagesize=50" title="show 50 items per page" class="page-numbers ">50</a> 
+      <span class="page-numbers desc">per page</span> 
+     </div> 
+    </div> 
+    <div id="sidebar"> 
+     <div class="module" id="questions-count"> 
+      <div class="-details"> 
+       <div class="summarycount al">
+        1,012
+       </div> 
+       <p>questions tagged</p> 
+       <div class="tagged"> 
+        <a href="/questions/tagged/window-functions" class="post-tag" title="show questions tagged 'window-functions'" rel="tag">window-functions</a> 
+        <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="/tags/window-functions/info">about&nbsp;»</a> 
+       </div> 
+      </div> 
+      <div class="aside-cta" role="navigation" aria-label="ask new question"> 
+       <a href="/questions/ask" class="btn-outlined">Ask Question</a> 
+      </div> 
+     </div> 
+     <div class="module community-bulletin" data-tracker="cb=1"> 
+      <div class="related"> 
+       <div class="bulletin-title">
+         Upcoming Events 
+       </div> 
+       <hr> 
+       <div class="spacer bulletin-item-important"> 
+        <div class="bulletin-item-type">
+         <a href="https://stackoverflow.com/election" class="question-hyperlink" data-ga="[&quot;Community Bulletin Board&quot;,&quot;Upcoming Events&quot;,&quot;https://stackoverflow.com/election&quot;,null,null]">
+          <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div></a>
+        </div> 
+        <div class="bulletin-item-content"> 
+         <a href="https://stackoverflow.com/election" class="question-hyperlink" data-ga="[&quot;Community Bulletin Board&quot;,&quot;Upcoming Events&quot;,&quot;https://stackoverflow.com/election&quot;,null,null]">2018 Community Moderator Election</a> 
+         <div>
+          ends 
+          <span title="2018-03-27 20:00:00Z" class="relativetime">in 4 days</span>
+         </div> 
+        </div> 
+        <br class="cbt"> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="dfp-tsb" class="everyonelovesstackoverflow"></div> 
+     <div id="hireme"></div> 
+     <script>;(function(){var a=function(a){for(var b=[],c=1;c<arguments.length;c++)b[c-1]=arguments[c];for(var d,e=0,f=b;e<f.length;e++)for(var g in d=f[e],d)a[g]=d[g];return a};window.clc=a(window.clc||{},{autoload:function(){'function'==typeof window.clc.load?window.clc.load():window.clc.cmd.push(function(a){return a.load()})},init:function(b){try{if(!b.allowed||!new RegExp(b.allowed).test(location.hostname))return;if('none'===getComputedStyle(document.getElementById('hireme')).display)return;window.clc.options&&(b=a(b,window.clc.options));var c=b.wv;if(document.hidden&&c){var d=function(){document.hidden||(window.clc.init(b),document.removeEventListener('visibilitychange',d))};return void document.addEventListener('visibilitychange',d)}window.clc.options=b,b.al&&window.clc.autoload();var e=/Trident/i.test(navigator.userAgent)?b.lib.replace(/(\.min)?\.js(\?v=[0-9a-fA-F]+)?$/,'.ie$1.js$2'):b.lib,f=document.createElement('script');f.async=!0,f.src=e,document.body.appendChild(f)}catch(a){}}}),window.clc.cmd||(window.clc.cmd=[]),window.clc.loadDisplayAds=function(){var a="clc.stackoverflow.com",b={slots:{lb:[[728,90]],mlb:[[728,90]],sb:function(a){return'dfp-tsb'===a?[[300,250],[300,600]]:[[300,250]]},"tag-sponsorship":[[730,135]],"mobile/lb":[[320,50]]},ids:{"dfp-tlb":'lb',"dfp-mlb":'mlb',"dfp-tsb":'sb',"dfp-isb":'sb',"dfp-tag":'tag-sponsorship',"dfp-m-tlb":'mobile/lb',"clc-tlb":'lb',"clc-mlb":'mlb',"clc-tsb":'sb'}},c=/^\/tags\//.test(location.pathname)||/^\/questions\/tagged\//.test(location.pathname)?'tag-pages':'question-pages',d=location.hostname;/^clc\./.test(location.hostname)&&(d='test/dev.stackoverflow.com');var e=[4385506061,4386578282,4386579572],f=function(a){a.style.height=a.style.maxHeight=a.style.minHeight='auto',a.style.display='none',[].forEach.call(a.children,f)},g=function(b){new Image().src='https://'+a+'/stalled.gif?'+b},h=function(){var a=document.createElement('div');a.className='adsbox',a.id='clc-abd',a.style.position='absolute',a.style.pointerEvents='none',a.innerHTML='&nbsp;',document.body.appendChild(a)},i=function(){return function(a){var b=a.serviceName,c=a.slot,d=a.lineItemId;try{var h=c.getSlotElementId(),i=[];h||i.push('id=0');var j=document.getElementById(h);if(!h||j?j.hasAttribute('data-clc-stalled')&&i.push('st=1'):i.push('el=0'),0!==i.length)return void g(i.join('&'));-1===e.indexOf(d)?j.setAttribute('data-clc-prefilled','true'):f(j),j.setAttribute('data-clc-ready','true')}catch(a){var k=document.querySelector('#dfp-tsb, #dfp-isb, #clc-tsb');k&&k.setAttribute('data-clc-ready','true'),g('e=1')}}},j=function(a){return function(){var e=window.googletag;h();var f=e.pubads();f.enableSingleRequest(),f.addEventListener('slotRenderEnded',i(a));var g=window.dfp_targeting||{};g&&Object.keys(g).forEach(function(a){f.setTargeting(a,g[a])});for(var j,k=0,l=a;k<l.length;k++){j=l[k],'dfp-isb'===j&&f.setTargeting('Sidebar',['Inline']),'dfp-tsb'===j&&f.setTargeting('Sidebar',['Right']);var m=b.ids[j],n=b.slots[m];'function'==typeof n&&(n=n(j));var o='/'+'248424177'+'/'+d+'/'+m+'/'+c,p=e.defineSlot(o,n,j);('tag-sponsorship'===m||'sb'==m)&&p.setCollapseEmptyDiv(!0,!0),p.addService(f),!1}e.enableServices();for(var j,q=0,r=a;q<r.length;q++)j=r[q],e.display(j)}},k=function(a){return document.getElementById(a)},l=function(a){return'none'===getComputedStyle(a).display},m=function(a){return!l(a)},n=function(a){return!!a};return function(a){a=a&&0<a.length?a:Object.keys(b.ids);var c=a.map(k).filter(n).filter(function(a){return /^\s*$/.test(a.innerHTML)}).filter(m).map(function(a){return a.id});if(a.map(k).filter(n).filter(l).forEach(f),0!==c.length){window.googletag=window.googletag||{},window.googletag.cmd=window.googletag.cmd||[],window.googletag.cmd.push(j(c));var d=document.createElement('script');d.async=!0,d.src='https://www.googletagservices.com/tag/js/gpt.js',document.body.appendChild(d)}}}()})(),window.clc.init.call(null, {"lib":"https://cdn.sstatic.net/clc/clc.min.js?v=1e02551fa930","style":"https://cdn.sstatic.net/clc/styles/clc.min.css?v=905391554886","u":"https://clc.stackoverflow.com/markup.js","wa":true,"kt":2000,"tto":true,"h":"clc.stackoverflow.com","allowed":"^(((talent\\.)?stackoverflow)|(blog\\.codinghorror)|(serverfault|askubuntu)|([^\\.]+\\.stackexchange))\\.com$","wv":true,"al":false});</script> 
+     <script>
+window.clc_request='AsFQyRULkdUIAAAAAAAAAAACAAAAAQAAAAASAAAAfHdpbmRvdy1mdW5jdGlvbnN8AOMlcBsqOfVJBE0';                    clc.autoload();
+                var dfp_targeting={Registered:['false'],'so-tag':['window-functions']};                                    clc.loadDisplayAds();
+            </script> 
+     <div class="module js-gps-related-tags"> 
+      <h4 id="h-related-tags">Related Tags</h4> 
+      <div data-name="sql"> 
+       <a href="/questions/tagged/window-functions+sql" class="post-tag no-tag-menu" title="show questions tagged 'window-functions sql'" rel="tag">sql</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">730</span></span> 
+      </div> 
+      <div data-name="postgresql"> 
+       <a href="/questions/tagged/window-functions+postgresql" class="post-tag no-tag-menu" title="show questions tagged 'window-functions postgresql'" rel="tag">postgresql</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">405</span></span> 
+      </div> 
+      <div data-name="sql-server"> 
+       <a href="/questions/tagged/window-functions+sql-server" class="post-tag no-tag-menu" title="show questions tagged 'window-functions sql-server'" rel="tag"><img src="//i.stack.imgur.com/gfrSH.png" height="16" width="18" alt="" class="sponsor-tag-img">sql-server</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">188</span></span> 
+      </div> 
+      <div data-name="oracle"> 
+       <a href="/questions/tagged/window-functions+oracle" class="post-tag no-tag-menu" title="show questions tagged 'window-functions oracle'" rel="tag">oracle</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">135</span></span> 
+      </div> 
+      <div data-name="tsql"> 
+       <a href="/questions/tagged/window-functions+tsql" class="post-tag no-tag-menu" title="show questions tagged 'window-functions tsql'" rel="tag">tsql</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">80</span></span> 
+      </div> 
+      <div data-name="aggregate-functions"> 
+       <a href="/questions/tagged/window-functions+aggregate-functions" class="post-tag no-tag-menu" title="show questions tagged 'window-functions aggregate-functions'" rel="tag">aggregate-functions</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">80</span></span> 
+      </div> 
+      <div data-name="apache-spark"> 
+       <a href="/questions/tagged/window-functions+apache-spark" class="post-tag no-tag-menu" title="show questions tagged 'window-functions apache-spark'" rel="tag">apache-spark</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">58</span></span> 
+      </div> 
+      <div data-name="sql-server-2012"> 
+       <a href="/questions/tagged/window-functions+sql-server-2012" class="post-tag no-tag-menu" title="show questions tagged 'window-functions sql-server-2012'" rel="tag">sql-server-2012</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">42</span></span> 
+      </div> 
+      <div data-name="apache-spark-sql"> 
+       <a href="/questions/tagged/window-functions+apache-spark-sql" class="post-tag no-tag-menu" title="show questions tagged 'window-functions apache-spark-sql'" rel="tag">apache-spark-sql</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">42</span></span> 
+      </div> 
+      <div data-name="group-by"> 
+       <a href="/questions/tagged/window-functions+group-by" class="post-tag no-tag-menu" title="show questions tagged 'window-functions group-by'" rel="tag">group-by</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">29</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="row-number"> 
+       <a href="/questions/tagged/window-functions+row-number" class="post-tag no-tag-menu" title="show questions tagged 'window-functions row-number'" rel="tag">row-number</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">29</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="greatest-n-per-group"> 
+       <a href="/questions/tagged/window-functions+greatest-n-per-group" class="post-tag no-tag-menu" title="show questions tagged 'window-functions greatest-n-per-group'" rel="tag">greatest-n-per-group</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">27</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="gaps-and-islands"> 
+       <a href="/questions/tagged/window-functions+gaps-and-islands" class="post-tag no-tag-menu" title="show questions tagged 'window-functions gaps-and-islands'" rel="tag">gaps-and-islands</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">26</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="sql-server-2008"> 
+       <a href="/questions/tagged/window-functions+sql-server-2008" class="post-tag no-tag-menu" title="show questions tagged 'window-functions sql-server-2008'" rel="tag">sql-server-2008</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">25</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="pyspark"> 
+       <a href="/questions/tagged/window-functions+pyspark" class="post-tag no-tag-menu" title="show questions tagged 'window-functions pyspark'" rel="tag">pyspark</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">25</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="amazon-redshift"> 
+       <a href="/questions/tagged/window-functions+amazon-redshift" class="post-tag no-tag-menu" title="show questions tagged 'window-functions amazon-redshift'" rel="tag">amazon-redshift</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">25</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="google-bigquery"> 
+       <a href="/questions/tagged/window-functions+google-bigquery" class="post-tag no-tag-menu" title="show questions tagged 'window-functions google-bigquery'" rel="tag"><img src="//i.stack.imgur.com/2NOCA.png" height="16" width="18" alt="" class="sponsor-tag-img">google-bigquery</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">23</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="rank"> 
+       <a href="/questions/tagged/window-functions+rank" class="post-tag no-tag-menu" title="show questions tagged 'window-functions rank'" rel="tag">rank</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">22</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="scala"> 
+       <a href="/questions/tagged/window-functions+scala" class="post-tag no-tag-menu" title="show questions tagged 'window-functions scala'" rel="tag">scala</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">21</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="spark-dataframe"> 
+       <a href="/questions/tagged/window-functions+spark-dataframe" class="post-tag no-tag-menu" title="show questions tagged 'window-functions spark-dataframe'" rel="tag">spark-dataframe</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">21</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="common-table-expression"> 
+       <a href="/questions/tagged/window-functions+common-table-expression" class="post-tag no-tag-menu" title="show questions tagged 'window-functions common-table-expression'" rel="tag">common-table-expression</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">21</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="sum"> 
+       <a href="/questions/tagged/window-functions+sum" class="post-tag no-tag-menu" title="show questions tagged 'window-functions sum'" rel="tag">sum</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">20</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="mysql"> 
+       <a href="/questions/tagged/window-functions+mysql" class="post-tag no-tag-menu" title="show questions tagged 'window-functions mysql'" rel="tag">mysql</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">19</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="oracle11g"> 
+       <a href="/questions/tagged/window-functions+oracle11g" class="post-tag no-tag-menu" title="show questions tagged 'window-functions oracle11g'" rel="tag">oracle11g</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">18</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="analytic-functions"> 
+       <a href="/questions/tagged/window-functions+analytic-functions" class="post-tag no-tag-menu" title="show questions tagged 'window-functions analytic-functions'" rel="tag">analytic-functions</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">14</span></span> 
+      </div> 
+      <a href="#" class="show-more js-show-more js-gps-track" data-gps-track="related_tags.click({ item_type:2 })"> more related tags </a> 
+      <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script> 
+     </div> 
+     <div id="hot-network-questions" class="module tex2jax_ignore"> 
+      <h4> <a href="https://stackexchange.com/questions?tab=hot" class="js-gps-track" data-gps-track="posts_hot_network.click({ item_type:1, location:9 })"> Hot Network Questions </a> </h4> 
+      <ul> 
+       <li> 
+        <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="https://security.stackexchange.com/questions/182159/can-it-see-my-google-drive-traffic" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:162 }); posts_hot_network.click({ item_type:2, location:9 })"> Can IT see my Google Drive traffic? </a> </li> 
+       <li> 
+        <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="https://workplace.stackexchange.com/questions/109485/colleagues-making-fun-of-the-length-of-my-password" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:423 }); posts_hot_network.click({ item_type:2, location:9 })"> Colleagues making fun of the length of my password </a> </li> 
+       <li> 
+        <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="https://academia.stackexchange.com/questions/106935/knowing-when-the-code-is-good-enough" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })"> Knowing when the code is good enough </a> </li> 
+       <li> 
+        <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="https://worldbuilding.stackexchange.com/questions/107711/a-big-plain-that-remains-divided" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })"> A big plain that remains divided? </a> </li> 
+       <li> 
+        <div class="favicon favicon-photo" title="Photography Stack Exchange"></div><a href="https://photo.stackexchange.com/questions/97430/whats-the-best-way-to-light-up-a-subject-thats-far-away" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:61 }); posts_hot_network.click({ item_type:2, location:9 })"> What's the best way to light up a subject that's far away? </a> </li> 
+       <li> 
+        <div class="favicon favicon-interpersonal" title="Interpersonal Skills Stack Exchange"></div><a href="https://interpersonal.stackexchange.com/questions/12277/how-to-recover-from-being-falsely-seen-as-a-racist" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:680 }); posts_hot_network.click({ item_type:2, location:9 })"> How to recover from being falsely seen as a racist? </a> </li> 
+       <li> 
+        <div class="favicon favicon-mathematica" title="Mathematica Stack Exchange"></div><a href="https://mathematica.stackexchange.com/questions/169628/faster-trace-of-product-of-two-matrices" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:387 }); posts_hot_network.click({ item_type:2, location:9 })"> Faster trace of product of two matrices </a> </li> 
+       <li> 
+        <div class="favicon favicon-physics" title="Physics Stack Exchange"></div><a href="https://physics.stackexchange.com/questions/394942/how-does-this-baby-rattle-work" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:151 }); posts_hot_network.click({ item_type:2, location:9 })"> How does this baby rattle work? </a> </li> 
+       <li> 
+        <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="https://tex.stackexchange.com/questions/422838/how-to-fix-the-error-of-align" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })"> How to fix the error of align </a> </li> 
+       <li> 
+        <div class="favicon favicon-cooking" title="Seasoned Advice"></div><a href="https://cooking.stackexchange.com/questions/88493/identify-a-round-kitchen-tool-with-perforated-and-hinged-metal-leaves" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:49 }); posts_hot_network.click({ item_type:2, location:9 })"> Identify a round kitchen tool with perforated and hinged metal leaves </a> </li> 
+       <li> 
+        <div class="favicon favicon-writing" title="Writing Stack Exchange"></div><a href="https://writing.stackexchange.com/questions/34529/is-it-okay-if-i-wrote-a-story-based-on-true-historical-events" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:166 }); posts_hot_network.click({ item_type:2, location:9 })"> Is It Okay If I Wrote A Story Based On True Historical Events? </a> </li> 
+       <li> 
+        <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="https://puzzling.stackexchange.com/questions/62343/my-birthday-is-uncommon" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:559 }); posts_hot_network.click({ item_type:2, location:9 })"> My birthday is uncommon </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-retrocomputing" title="Retrocomputing Stack Exchange"></div><a href="https://retrocomputing.stackexchange.com/questions/6045/can-modern-ai-be-used-to-program-impressive-graphics-effects-on-very-low-perform" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:648 }); posts_hot_network.click({ item_type:2, location:9 })"> Can modern AI be used to program impressive graphics effects on very low performance home-retrocomputers, in particular 'A 3D-rotating-cube' </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-history" title="History Stack Exchange"></div><a href="https://history.stackexchange.com/questions/45231/why-did-stock-brokers-go-bankrupt-after-the-crash-of-29" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:324 }); posts_hot_network.click({ item_type:2, location:9 })"> Why did stock brokers go bankrupt after the crash of '29? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-softwareengineering" title="Software Engineering Stack Exchange"></div><a href="https://softwareengineering.stackexchange.com/questions/368213/should-a-rest-api-return-a-500-internal-server-error-to-indicate-that-a-query-re" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:131 }); posts_hot_network.click({ item_type:2, location:9 })"> Should a REST API return a 500 Internal Server Error to indicate that a query references an object that does not exist? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="https://worldbuilding.stackexchange.com/questions/107564/what-weapon-of-mass-destruction-could-theoretically-vaporize-a-whole-solar-syste" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })"> What weapon of mass destruction could theoretically vaporize a whole solar system? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="https://rpg.stackexchange.com/questions/119029/how-do-creatures-moving-on-the-same-initiative-handle-the-effects-of-sleep-and-h" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:122 }); posts_hot_network.click({ item_type:2, location:9 })"> How do creatures moving on the same initiative handle the effects of Sleep and Hypnotic Pattern? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-music" title="Music: Practice &amp; Theory Stack Exchange"></div><a href="https://music.stackexchange.com/questions/69117/will-playing-without-mistakes-at-all-become-easy-for-me-in-the-future" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:240 }); posts_hot_network.click({ item_type:2, location:9 })"> Will playing without mistakes at all become easy for me in the future? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-outdoors" title="The Great Outdoors Stack Exchange"></div><a href="https://outdoors.stackexchange.com/questions/18805/is-it-warmer-to-sleep-in-a-car-or-in-a-tent" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:395 }); posts_hot_network.click({ item_type:2, location:9 })"> Is it warmer to sleep in a car or in a tent? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-aviation" title="Aviation Stack Exchange"></div><a href="https://aviation.stackexchange.com/questions/49737/are-german-japanese-and-chinese-companies-not-able-to-build-aircraft-jet-engin" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:528 }); posts_hot_network.click({ item_type:2, location:9 })"> Are German, Japanese, and Chinese companies not able to build aircraft jet engines on their own? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-interpersonal" title="Interpersonal Skills Stack Exchange"></div><a href="https://interpersonal.stackexchange.com/questions/12280/what-to-do-when-a-friends-close-relative-dies" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:680 }); posts_hot_network.click({ item_type:2, location:9 })"> What to do when a friend's close relative dies? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-mathoverflow" title="MathOverflow"></div><a href="https://mathoverflow.net/questions/295696/short-papers-for-undergraduate-course-on-reading-scholarly-math" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:504 }); posts_hot_network.click({ item_type:2, location:9 })"> Short papers for undergraduate course on reading scholarly math </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-money" title="Personal Finance &amp; Money Stack Exchange"></div><a href="https://money.stackexchange.com/questions/93372/what-marks-the-beginning-of-a-bear-market" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:93 }); posts_hot_network.click({ item_type:2, location:9 })"> What marks the beginning of a bear market? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-law" title="Law Stack Exchange"></div><a href="https://law.stackexchange.com/questions/27063/do-i-have-the-right-to-enter-into-someone-house-without-permission-if-my-child-i" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:617 }); posts_hot_network.click({ item_type:2, location:9 })"> Do I have the right to enter into someone house without permission if my child is in there? </a> </li> 
+      </ul> 
+      <a href="#" class="show-more js-show-more js-gps-track" data-gps-track="posts_hot_network.click({ item_type:3, location:9 })"> more hot questions </a> 
+     </div> 
+     <div id="feed-link"> 
+      <a href="/feeds/tag?tagnames=window-functions&amp;sort=newest" title="the 30 newest window-functions questions"> 
+       <svg aria-hidden="true" class="svg-icon fc-orange-400 iconRss" width="18" height="18" viewbox="0 0 18 18">
+        <path d="M1 3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3zm14.5 12C15.5 8.1 9.9 2.5 3 2.5V5a10 10 0 0 1 10 10h2.5zm-5 0A7.5 7.5 0 0 0 3 7.5V10a5 5 0 0 1 5 5h2.5zm-5 0A2.5 2.5 0 0 0 3 12.5V15h2.5z" />
+       </svg> newest window-functions questions feed </a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <footer id="footer" class="site-footer js-footer" role="contentinfo"> 
+   <div class="site-footer--container"> 
+    <div class="site-footer--logo"> 
+     <a href="https://stackoverflow.com">
+      <svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewbox="0 0 32 37">
+       <g>
+        <path fill="#BCBBBB" d="M26 33v-9h4v13H0V24h4v9z" />
+        <path d="M23.1 25.99l.68-2.95-16.1-3.35L7 23l16.1 2.99zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm4.2-7.4L26 18.4l2.1-2.5L15.4 5.3l-2.1 2.5zM21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM7 30h16v-3H7v3z" fill="#F48024" />
+       </g>
+      </svg></a> 
+    </div> 
+    <nav class="site-footer--nav"> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://stackoverflow.com" class="js-gps-track" data-gps-track="footer.click({ location: 5, link: 15})">Stack Overflow</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 16})">Questions</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 17})">Jobs</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 11})">Developer Jobs Directory</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 28})">Salary Calculator</a></li> 
+       <li class="-item"><a href="/help" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 3 })">Help</a></li> 
+       <li class="-item"><a onclick="StackExchange.switchMobile(&quot;on&quot;)" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 12 })">Mobile</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://www.stackoverflowbusiness.com/?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-business-category" class="js-gps-track" data-gps-track="footer.click({ location: 5, link: 19 })">Stack Overflow<br> Business</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 20 })">Talent</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-advertise" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 21 })">Ads</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/enterprise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 22 })">Enterprise</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 5, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 7 })" href="https://stackexchange.com/legal">Legal</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 8 })" href="https://stackexchange.com/legal/privacy-policy">Privacy Policy</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--categories-nav site-footer--col__visible"> 
+      <a href="#" class="site-footer--back js-footer-back">
+       <svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewbox="0 0 18 18">
+        <path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z" />
+       </svg></a> 
+      <div> 
+       <h5 class="-title"><a href="https://stackexchange.com">Stack Exchange<br> Network</a></h5> 
+       <ul class="-list"> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Technology">Technology</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Life / Arts">Life / Arts</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Science">Science</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Other">Other</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="site-footer--categories"> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li> 
+        <li class="-item"><a href="https://serverfault.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="system and network administrators">Server Fault</a></li> 
+        <li class="-item"><a href="https://superuser.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="computer enthusiasts and power users">Super User</a></li> 
+        <li class="-item"><a href="https://webapps.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of web applications">Web Applications</a></li> 
+        <li class="-item"><a href="https://askubuntu.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li> 
+        <li class="-item"><a href="https://webmasters.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="pro webmasters">Webmasters</a></li> 
+        <li class="-item"><a href="https://gamedev.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and independent game developers">Game Development</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://tex.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li> 
+        <li class="-item"><a href="https://softwareengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li> 
+        <li class="-item"><a href="https://unix.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li> 
+        <li class="-item"><a href="https://apple.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li> 
+        <li class="-item"><a href="https://wordpress.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li> 
+        <li class="-item"><a href="https://gis.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li> 
+        <li class="-item"><a href="https://electronics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://android.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li> 
+        <li class="-item"><a href="https://security.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="information security professionals">Information Security</a></li> 
+        <li class="-item"><a href="https://dba.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li> 
+        <li class="-item"><a href="https://drupal.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li> 
+        <li class="-item"><a href="https://sharepoint.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li> 
+        <li class="-item"><a href="https://ux.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="user experience researchers and experts">User Experience</a></li> 
+        <li class="-item"><a href="https://mathematica.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://salesforce.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li> 
+        <li class="-item"><a href="https://expressionengine.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li> 
+        <li class="-item"><a href="https://pt.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Português</a></li> 
+        <li class="-item"><a href="https://blender.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li> 
+        <li class="-item"><a href="https://networkengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="network engineers">Network Engineering</a></li> 
+        <li class="-item"><a href="https://crypto.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li> 
+        <li class="-item"><a href="https://codereview.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="peer programmer code reviews">Code Review</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://magento.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li> 
+        <li class="-item"><a href="https://softwarerecs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li> 
+        <li class="-item"><a href="https://dsp.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li> 
+        <li class="-item"><a href="https://emacs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li> 
+        <li class="-item"><a href="https://raspberrypi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li> 
+        <li class="-item"><a href="https://ru.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="программистов">Stack Overflow на русском</a></li> 
+        <li class="-item"><a href="https://codegolf.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://es.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores y profesionales de la informática">Stack Overflow en español</a></li> 
+        <li class="-item"><a href="https://ethereum.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li> 
+        <li class="-item"><a href="https://datascience.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li> 
+        <li class="-item"><a href="https://arduino.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li> 
+        <li class="-item"><a href="https://bitcoin.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (28) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://photo.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li> 
+        <li class="-item"><a href="https://scifi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li> 
+        <li class="-item"><a href="https://graphicdesign.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li> 
+        <li class="-item"><a href="https://movies.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li> 
+        <li class="-item"><a href="https://music.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li> 
+        <li class="-item"><a href="https://worldbuilding.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li> 
+        <li class="-item"><a href="https://cooking.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://diy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li> 
+        <li class="-item"><a href="https://money.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li> 
+        <li class="-item"><a href="https://academia.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li> 
+        <li class="-item"><a href="https://law.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (15) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://english.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li> 
+        <li class="-item"><a href="https://skeptics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientific skepticism">Skeptics</a></li> 
+        <li class="-item"><a href="https://judaism.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li> 
+        <li class="-item"><a href="https://travel.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li> 
+        <li class="-item"><a href="https://christianity.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li> 
+        <li class="-item"><a href="https://ell.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li> 
+        <li class="-item"><a href="https://japanese.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://gaming.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li> 
+        <li class="-item"><a href="https://bicycles.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li> 
+        <li class="-item"><a href="https://rpg.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li> 
+        <li class="-item"><a href="https://anime.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li> 
+        <li class="-item"><a href="https://puzzling.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li> 
+        <li class="-item"><a href="https://mechanics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (33) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://mathoverflow.net" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional mathematicians">MathOverflow</a></li> 
+        <li class="-item"><a href="https://math.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li> 
+        <li class="-item"><a href="https://stats.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li> 
+        <li class="-item"><a href="https://cstheory.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li> 
+        <li class="-item"><a href="https://physics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li> 
+        <li class="-item"><a href="https://chemistry.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientists, academics, teachers and students">Chemistry</a></li> 
+        <li class="-item"><a href="https://biology.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="biology researchers, academics, and students">Biology</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://cs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li> 
+        <li class="-item"><a href="https://philosophy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (10) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Other"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://meta.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li> 
+        <li class="-item"><a href="https://stackapps.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li> 
+        <li class="-item"><a href="https://api.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li> 
+        <li class="-item"><a href="https://data.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li> 
+        <li class="-item"><a href="https://area51.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="proposing new sites in the Stack Exchange network">Area 51</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </nav> 
+    <div class="site-footer--copyright fs-fine"> 
+     <ul class="-list"> 
+      <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link:4 })" href="https://stackoverflow.blog?blb=1">Blog</a></li> 
+      <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li> 
+      <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li> 
+      <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li> 
+     </ul> 
+     <p class="mt-auto mb24"> site design / logo © 2018 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license">attribution required</a>. <span id="svnrev">rev&nbsp;2018.3.23.29561</span> </p> 
+    </div> 
+   </div> 
+  </footer> 
+  <noscript> 
+   <div id="noscript-warning">
+    Stack Overflow works best with JavaScript enabled 
+    <img src="https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"> 
+   </div> 
+  </noscript> 
+  <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                var trackingCodes = [
+                    'UA-5620270-1'
+                ];
+
+                        trackingCodes.push('UA-108242619-1');
+
+                StackExchange.ga.init({
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: trackingCodes
+                });
+
+
+
+                    StackExchange.ga.setDimension('dimension2', '|window-functions|');
+
+                    StackExchange.ga.setDimension('dimension3', 'Questions/ListByTag');
+
+                StackExchange.ga.trackPageView();
+            });
+            
+/**/
+            
+            var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+            (function() {
+                var ssl = 'https:' == document.location.protocol,
+                    s = document.getElementsByTagName('script')[0],
+                    qc = document.createElement('script');
+                 qc.async = true;
+                    qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                    s.parentNode.insertBefore(qc, s);
+                    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+/**/
+                 var sc = document.createElement('script');
+                    sc.async = true;
+                    sc.src = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+                    s.parentNode.insertBefore(sc, s);
+                    _comscore.push({ c1: "2", c2: "17440561" });
+            })();
+            
+
+</script>  
+ </body>
+</html>

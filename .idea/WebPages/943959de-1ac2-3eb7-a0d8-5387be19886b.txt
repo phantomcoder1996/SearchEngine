@@ -1,0 +1,822 @@
+https://www.tutorialspoint.com/academic_tutorials.htm
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>Academic Tutorials</title> 
+  <meta name="description" content="Academic Tutorials - Tutorials for professional academic courses  covering Object Oriented Analysis and Design, Signals and Systems, Operating System, Principle of Compiler, DBMS, Data Mining, Data Warehouse, Computer Fundamentals, Computer Networks, E-Commerce, HTTP, IPv4, IPv6, Cloud Computing, SEO, Computer Logical Organization, Management Information System etc."> 
+  <meta name="Keywords" content="Tutorials,  academic, courses,  covering, Signals and Systems, Operating System, Principle of Compiler, DBMS, Data Mining, Data Warehouse, Computer Fundamentals, Computer Networks, E-Commerce, HTTP, IPv4, IPv6, Cloud Computing, SEO, Computer Logical Organization, Management Information System  etc."> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #642122 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #642122 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #642122 !important;}
+.submenu-item{ border-bottom: 2px solid #642122 !important; border-top: 2px solid #642122 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#642122; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/red/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div id="content" class="content full"> 
+    <div class="red-bg background" style="height:330px;"> 
+     <span class="cat-title">Academic Tutorials</span> 
+     <div class="cat-punch-line">
+      <img src="/scripts/img/slides/slide-title-border.png" alt="border">
+      <span> Professional and Academic Courses </span>
+      <img src="/scripts/img/slides/slide-title-border.png" alt="border">
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="cg_prdts" style="position: relative; margin:-123px 0px 30px 0px;"> 
+   <div class="container"> 
+    <div class=""> 
+     <div class="col-md-3"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+     <div class="col-md-3 extra"> 
+      <div class="cg_box" style="padding: 7px; padding-bottom: 2px !important; background: #fff;"> 
+       <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+       <!-- Bottom Ad Unit --> 
+       <ins class="adsbygoogle" style="display:inline-block;width:250px;height:250px" data-ad-client="ca-pub-7133395778201029" data-ad-slot="2952991323"></ins> 
+       <script>
+                (adsbygoogle = window.adsbygoogle || []).push({});
+                </script> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <div class="container"> 
+   <div class="row"> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/cbse_syllabus/index.htm" title="CBSE Syllabus"> <img style="width:100px; height:80px;" src="/images/cbse_syllabus_icon.png" alt="CBSE Syllabus"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/amplifiers/index.htm" title="Amplifiers"> <img style="width:100px; height:80px;" src="/images/amplifiers_icon.png" alt="Amplifiers"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/accounting_basics/index.htm" title="Learn Accounting Basics"> <img style="width:100px; height:80px;" src="/images/accounting_basics_icon.png" alt="Learn Accounting Basics"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/adaptive_software_development/index.htm" title="Adaptive Software Development"> <img style="width:100px; height:80px;" src="/images/adaptive_software_development_icon.png" alt="Adaptive Software Development"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/agile/index.htm" title="Learn Agile Methodology"> <img style="width:100px; height:80px;" src="/images/agile_icon.png" alt="Learn Agile Methodology"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/analog_communication/index.htm" title="Learn Analog Communication"> <img style="width:100px; height:80px;" src="/images/analog_communication_icon.png" alt="Learn Analog Communication"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/antenna_theory/index.htm" title="Learn Antenna Theory"> <img style="width:100px; height:80px;" src="/images/antenna_theory_icon.png" alt="Learn Antenna Theory"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/artificial_intelligence/index.htm" title="Learn Artificial Intelligence"> <img style="width:100px; height:80px;" src="/images/artificial_intelligence_icon.png" alt="Learn Artificial Intelligence"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/artificial_neural_network/index.htm" title="Learn Artificial Neural Network"> <img style="width:100px; height:80px;" src="/images/artificial_neural_network_icon.png" alt="Learn Artificial Neural Network"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/automata_theory/index.htm" title="Learn Automata Theory"> <img style="width:100px; height:80px;" src="/images/automata_theory_icon.png" alt="Learn Automata Theory"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/auditing/index.htm" title="Auditing"> <img style="width:100px; height:80px;" src="/images/auditing_icon.png" alt="Auditing"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/basics_of_computers/index.htm" title="Learn Basics of Computers"> <img style="width:100px; height:80px;" src="/images/basics_of_computers_icon.png" alt="Learn Basics of Computers"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/basics_of_computer_science/index.htm" title="Learn Basics of Computers Science"> <img style="width:100px; height:80px;" src="/images/basics_of_computer_science_icon.png" alt="Learn Basics of Computers Science"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/basic_electronics/index.htm" title="Learn Basic Electronics"> <img style="width:100px; height:80px;" src="/images/basic_electronics_icon.png" alt="Learn Basic Electronics"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/behavior_driven_development/index.htm" title="Learn Behavior Driven Development"> <img style="width:100px; height:80px;" src="/images/behavior_driven_development_icon.png" alt="Learn Behavior Driven Development"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/biometrics/index.htm" title="Learn biometrics"> <img style="width:100px; height:80px;" src="/images/biometrics_icon.png" alt="Learn biometrics"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/cloud_computing/index.htm" title="Learn Cloud Computing"> <img style="width:100px; height:80px;" src="/images/cloud_computing_icon.png" alt="Learn Cloud Computing"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/compiler_design/index.htm" title="Learn Compiler Design"> <img style="width:100px; height:80px;" src="/images/compiler_design_icon.png" alt="Learn Compiler Design"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/computer_fundamentals/index.htm" title="Learn Computer Fundamentals"> <img style="width:100px; height:80px;" src="/images/computer_fundamentals_icon.png" alt="Learn Computer Fundamentals"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/computer_graphics/index.htm" title="Learn Computer Graphics"> <img style="width:100px; height:80px;" src="/images/computer_graphics_icon.png" alt="Learn Computer Graphics"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/computer_logical_organization/index.htm" title="Learn Computer Logical Organization"> <img style="width:100px; height:80px;" src="/images/computer_logical_organization_icon.png" alt="Learn Computer Logical Organization"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/computer_programming/index.htm" title="Computer Programming Fundamentals"> <img style="width:100px; height:80px;" src="/images/computer_programming_icon.png" alt="Computer Programming Fundamentals"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/communication_technologies/index.htm" title="Communication Technologies"> <img style="width:100px; height:80px;" src="/images/communication_technologies_icon.png" alt="Communication Technologies"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/control_systems/index.htm" title="Control Systems"> <img style="width:100px; height:80px;" src="/images/control_systems_icon.png" alt="Control Systems"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/convex_optimization/index.htm" title="Convex Optimization"> <img style="width:100px; height:80px;" src="/images/convex_optimization_icon.png" alt="Convex Optimization"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/cryptography/index.htm" title="Learn Cryptography"> <img style="width:100px; height:80px;" src="/images/cryptography_icon.png" alt="Learn Cryptography"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/cosmology/index.htm" title="Learn Cosmology"> <img style="width:100px; height:80px;" src="/images/cosmology_icon.png" alt="Learn Cosmology"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/data_communication_computer_network/index.htm" title="Data Communication and Computer Network"> <img style="width:100px; height:80px;" src="/images/data_communication_computer_network_icon.png" alt="Data Communication and Computer Network"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/data_mining/index.htm" title="Learn Data Mining"> <img style="width:100px; height:80px;" src="/images/data_mining_icon.png" alt="Learn Data Mining"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/data_structures_algorithms/index.htm" title="Learn Data Structure &amp; Algorithms"> <img style="width:100px; height:80px;" src="/images/data_structures_algorithms_icon.png" alt="Learn Data Structure &amp; Algorithms"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/design_and_analysis_of_algorithms/index.htm" title="Learn Design and Analysis of Algorithms"> <img style="width:100px; height:80px;" src="/images/design_and_analysis_of_algorithms_icon.png" alt="Learn Design and Analysis of Algorithms"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/dbms/index.htm" title="Learn DBMS"> <img style="width:100px; height:80px;" src="/images/dbms_icon.png" alt="Learn DBMS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/digital_communication/index.htm" title="Learn Digital Communication"> <img style="width:100px; height:80px;" src="/images/digital_communication_icon.png" alt="Learn Digital Communication"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/digital_circuits/index.htm" title="Learn Digital Circuits"> <img style="width:100px; height:80px;" src="/images/digital_circuits_icon.png" alt="Learn Digital Circuits"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/digital_signal_processing/index.htm" title="Digital Signal Processing"> <img style="width:100px; height:80px;" src="/images/digital_signal_processing_icon.png" alt="Digital Signal Processing"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/dip/index.htm" title="Digital Image Processing"> <img style="width:100px; height:80px;" src="/images/dip_icon.png" alt="Digital Image Processing"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/discrete_mathematics/index.htm" title="Discrete Mathematics"> <img style="width:100px; height:80px;" src="/images/discrete_mathematics_icon.png" alt="Discrete Mathematics"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/distributed_dbms/index.htm" title="Learn Distributed DBMS"> <img style="width:100px; height:80px;" src="/images/distributed_dbms_icon.png" alt="Learn Distributed DBMS"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/dsl/index.htm" title="Learn DSL"> <img style="width:100px; height:80px;" src="/images/dsl_icon.png" alt="Learn DSL"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/dwh/index.htm" title="Learn Data Warehouse"> <img style="width:100px; height:80px;" src="/images/dwh_icon.png" alt="Learn Data Warehouse"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/e_commerce/index.htm" title="Learn E-Commerce"> <img style="width:100px; height:80px;" src="/images/e_commerce_icon.png" alt="Learn E-Commerce"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/electronic_circuits/index.htm" title="Learn Electronic Circuits"> <img style="width:100px; height:80px;" src="/images/electronic_circuits_icon.png" alt="Learn Electronic Circuits"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/electronic_measuring_instruments/index.htm" title="Learn Electronic Measuring Instruments"> <img style="width:100px; height:80px;" src="/images/electronic_measuring_instruments_icon.png" alt="Learn Electronic Measuring Instruments"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/embedded_systems/index.htm" title="Learn Embedded Systems"> <img style="width:100px; height:80px;" src="/images/embedded_systems_icon.png" alt="Learn Embedded Systems"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/environmental_studies/index.htm" title="Learn Environmental Studies"> <img style="width:100px; height:80px;" src="/images/environmental_studies_icon.png" alt="Learn Environmental Studies"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/engineering_ethics/index.htm" title="Learn Engineering Ethics"> <img style="width:100px; height:80px;" src="/images/engineering_ethics_icon.png" alt="Learn Engineering Ethics"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/estimation_techniques/index.htm" title="Learn Estimation Techniques"> <img style="width:100px; height:80px;" src="/images/estimation_techniques_icon.png" alt="Learn Estimation Techniques"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/extreme_programming/index.htm" title="Learn Extreme Programming"> <img style="width:100px; height:80px;" src="/images/extreme_programming_icon.png" alt="Learn Extreme Programming"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/financial_accounting/index.htm" title="Learn Financial Accounting"> <img style="width:100px; height:80px;" src="/images/financial_accounting_icon.png" alt="Learn Financial Accounting"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/functional_programming/index.htm" title="Learn Functional Programming"> <img style="width:100px; height:80px;" src="/images/functional_programming_icon.png" alt="Learn Functional Programming"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/fundamentals_of_science_and_technology/index.htm" title="Fundamentals of Science and Technology"> <img style="width:100px; height:80px;" src="/images/fundamentals_of_science_and_technology_icon.png" alt="Fundamentals of Science and Technology"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/fuzzy_logic/index.htm" title="Learn Fuzzy Logic"> <img style="width:100px; height:80px;" src="/images/fuzzy_logic_icon.png" alt="Learn Fuzzy Logic"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/gate_syllabus/index.htm" title="Learn GATE Syllabus"> <img style="width:100px; height:80px;" src="/images/gate_syllabus_icon.png" alt="Learn GATE Syllabus"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/genetic_algorithms/index.htm" title="Learn Genetic Algorithms"> <img style="width:100px; height:80px;" src="/images/genetic_algorithms_icon.png" alt="Learn Genetic Algorithms"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/graph_theory/index.htm" title="Learn Graph Theory"> <img style="width:100px; height:80px;" src="/images/graph_theory_icon.png" alt="Learn Graph Theory"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/http/index.htm" title="Learn HTTP"> <img style="width:100px; height:80px;" src="/images/http_icon.png" alt="Learn HTTP"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/human_computer_interface/index.htm" title="Learn Human Computer Interface"> <img style="width:100px; height:80px;" src="/images/human_computer_interface_icon.png" alt="Learn Human Computer Interface"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/information_security_cyber_law/index.htm" title="Information Security and Cyber Law"> <img style="width:100px; height:80px;" src="/images/information_security_cyber_law_icon.png" alt="Information Security and Cyber Law"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/internet_of_things/index.htm" title="Internet of Things (IoT)"> <img style="width:100px; height:80px;" src="/images/internet_of_things_icon.png" alt="Internet of Things (IoT)"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/internet_technologies/index.htm" title="Internet Technologies"> <img style="width:100px; height:80px;" src="/images/internet_technologies_icon.png" alt="Internet Technologies"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/ipv4/index.htm" title="Learn IPv4"> <img style="width:100px; height:80px;" src="/images/ipv4_icon.png" alt="Learn IPv4"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/ipv6/index.htm" title="Learn IPv6"> <img style="width:100px; height:80px;" src="/images/ipv6_icon.png" alt="Learn IPv6"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/java_dip/index.htm" title="Digital Image Processing using Java"> <img style="width:100px; height:80px;" src="/images/java_dip_icon.png" alt="Digital Image Processing using Java"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/management_information_system/index.htm" title="Learn Management Information System"> <img style="width:100px; height:80px;" src="/images/management_information_system_icon.png" alt="Learn Management Information System"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/microprocessor/index.htm" title="Learn Microprocessor"> <img style="width:100px; height:80px;" src="/images/microprocessor_icon.png" alt="Learn Microprocessor"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/microservice_architecture/index.htm" title="Learn Microservice Architecture"> <img style="width:100px; height:80px;" src="/images/microservice_architecture_icon.png" alt="Learn Microservice Architecture"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/microwave_engineering/index.htm" title="Learn Microwave Engineering"> <img style="width:100px; height:80px;" src="/images/microwave_engineering_icon.png" alt="Learn Microwave Engineering"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/mobile_computing/index.htm" title="Learn Mobile Computing"> <img style="width:100px; height:80px;" src="/images/mobile_computing_icon.png" alt="Learn Mobile Computing"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/mobile_learning_essentials/index.htm" title="Mobile Learning Essentials"> <img style="width:100px; height:80px;" src="/images/mobile_learning_essentials_icon.png" alt="Mobile Learning Essentials"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/modelling_and_simulation/index.htm" title="Modelling and Simulation"> <img style="width:100px; height:80px;" src="/images/modelling_and_simulation_icon.png" alt="Modelling and Simulation"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/network_theory/index.htm" title="Network Theory"> <img style="width:100px; height:80px;" src="/images/network_theory_icon.png" alt="Network Theory"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/object_oriented_analysis_design/index.htm" title="Learn Object Oriented Analysis and Design"> <img style="width:100px; height:80px;" src="/images/object_oriented_analysis_design_icon.png" alt="Learn Object Oriented Analysis and Design"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/opennlp/index.htm" title="Learn OpenNLP"> <img style="width:100px; height:80px;" src="/images/opennlp_icon.png" alt="Learn OpenNLP"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/opencv/index.htm" title="Learn OpenCV"> <img style="width:100px; height:80px;" src="/images/opencv_icon.png" alt="Learn OpenCV"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/operating_system/index.htm" title="Learn Operating System"> <img style="width:100px; height:80px;" src="/images/operating_system_icon.png" alt="Learn Operating System"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/optical_networks/index.htm" title="Learn Optical Networks"> <img style="width:100px; height:80px;" src="/images/optical_networks_icon.png" alt="Learn Optical Networks"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/parallel_algorithm/index.htm" title="Learn Parallel Algorithm"> <img style="width:100px; height:80px;" src="/images/parallel_algorithm_icon.png" alt="Learn Parallel Algorithm"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/parallel_computer_architecture/index.htm" title="Parallel Computer Architecture"> <img style="width:100px; height:80px;" src="/images/parallel_computer_architecture_icon.png" alt="Parallel Computer Architecture"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/power_electronics/index.htm" title="Learn Power Electronics"> <img style="width:100px; height:80px;" src="/images/power_electronics_icon.png" alt="Learn Power Electronics"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/principles_of_communication/index.htm" title="Principles of Communication"> <img style="width:100px; height:80px;" src="/images/principles_of_communication_icon.png" alt="Principles of Communication"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/programming_methodologies/index.htm" title="Programming Methodologies"> <img style="width:100px; height:80px;" src="/images/programming_methodologies_icon.png" alt="Programming Methodologies"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/pulse_circuits/index.htm" title="Pulse Circuits"> <img style="width:100px; height:80px;" src="/images/pulse_circuits_icon.png" alt="Pulse Circuits"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/renewable_energy/index.htm" title="Renewable Energy"> <img style="width:100px; height:80px;" src="/images/renewable_energy_icon.png" alt="Renewable Energy"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/satellite_communication/index.htm" title="Learn Satellite Communication"> <img style="width:100px; height:80px;" src="/images/satellite_communication_icon.png" alt="Learn Satellite Communication"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/sdlc/index.htm" title="Learn SDLC (Software Development Life Cycle)"> <img style="width:100px; height:80px;" src="/images/sdlc_icon.png" alt="Learn SDLC (Software Development Life Cycle)"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/semiconductor_devices/index.htm" title="Learn Semiconductor Devices"> <img style="width:100px; height:80px;" src="/images/semiconductor_devices_icon.png" alt="Learn Semiconductor Devices"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/seo/index.htm" title="Learn Search Engine Optimization"> <img style="width:100px; height:80px;" src="/images/seo_icon.png" alt="Learn Search Engine Optimization"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/signals_and_systems/index.htm" title="Signals and Systems"> <img style="width:100px; height:80px;" src="/images/signals_and_systems_icon.png" alt="Signals and Systems"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/sinusoidal_oscillators/index.htm" title="Sinusoidal Oscillators"> <img style="width:100px; height:80px;" src="/images/sinusoidal_oscillators_icon.png" alt="Sinusoidal Oscillators"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/soa/index.htm" title="Learn SOA"> <img style="width:100px; height:80px;" src="/images/soa_icon.png" alt="Learn SOA"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/soap/index.htm" title="Learn SOAP"> <img style="width:100px; height:80px;" src="/images/soap_icon.png" alt="Learn SOAP"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/software_architecture_design/index.htm" title="Learn Software Architecture Design"> <img style="width:100px; height:80px;" src="/images/software_architecture_design_icon.png" alt="Learn Software Architecture Design"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/software_engineering/index.htm" title="Software Engineering"> <img style="width:100px; height:80px;" src="/images/software_engineering_icon.png" alt="Software Engineering"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/statistics/index.htm" title="Learn Statistics"> <img style="width:100px; height:80px;" src="/images/statistics_icon.png" alt="Learn Statistics"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/vlsi_design/index.htm" title="Learn VLSI Design"> <img style="width:100px; height:80px;" src="/images/vlsi_design_icon.png" alt="Learn VLSI Design"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/wireless_communication/index.htm" title="Learn Wireless Communication"> <img style="width:100px; height:80px;" src="/images/wireless_communication_icon.png" alt="Learn Wireless Communication"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/uddi/index.htm" title="Learn UDDI"> <img style="width:100px; height:80px;" src="/images/uddi_icon.png" alt="Learn UDDI"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/uml/index.htm" title="Learn UML"> <img style="width:100px; height:80px;" src="/images/uml_icon.png" alt="Learn UML"> </a>
+     </div> 
+    </div> 
+    <div class="col-md-3"> 
+     <div class="course-box"> 
+      <a target="_top" href="/unix_sockets/index.htm" title="Learn Unix Sockets"> <img style="width:100px; height:80px;" src="/images/unix_sockets_icon.png" alt="Learn Unix Sockets"> </a>
+     </div> 
+    </div> 
+    <h1 class="thick-heading">SELECTED READING</h1> 
+    <div class="selected-reading-boxes"> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/developers_best_practices/index.htm" title="Developer's Best Practices"> <img src="/images/developers-best-practices-icon.png" class="big-icon" alt="Developer's Best Practices"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/effective_resume_writing.htm" title="Effective Resume Writing"> <img src="/images/effective-resume-writing-icon.png" class="big-icon" alt="Effective Resume Writing"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/computer_glossary.htm" title="Computer Glossary"> <img src="/images/computer-glossary-icon.png" class="big-icon" alt="Computer Glossary"> </a> 
+      </div> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="course-box"> 
+       <a href="/computer_whoiswho.htm" title="Who is Who in Computer"> <img src="/images/who-is-who-icon.png" class="big-icon" alt="Who is Who in Computer"> </a> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <br> 
+  <footer class="inner"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="footer-ribon"> 
+      <span>Extras</span> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Mobile First</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><a class="iphone" href="https://itunes.apple.com/us/app/tutorials-point/id914891263?ls=1&amp;mt=8" target="_blank" rel="nofollow"><img alt="tutorialspoint iPhone App" src="/images/apple_store.jpg" class="mobile-apps"></a></li> 
+       <li><a class="android" href="https://play.google.com/store/apps/details?id=com.tutorialspoint.onlineviewer" target="_blank" rel="nofollow"><img alt="tutorialspoint Android app" src="/images/google_play.jpg" class="mobile-apps"></a></li> 
+       <li><a class="microsoft" href="http://www.windowsphone.com/s?appid=91249671-7184-4ad6-8a5f-d11847946b09" target="_blank" rel="nofollow"><img alt="tutorialspoint Windows app" src="/images/windows_store.jpg" class="mobile-apps"></a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>About us</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/index.htm">Company</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_team.htm">Our Team</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_careers.htm">Careers</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_privacy.htm">Privacy Policy</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="/about/about_terms_of_use.htm">Terms of use</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-2"> 
+      <h4>Extra Links</h4> 
+      <ul class="list icons list-unstyled"> 
+       <li><i class="icon icon-caret-right"></i> <a href="articles">Articles</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="online_dev_tools.htm">Dev Tools</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="free_web_graphics.htm">Free Graphics</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="online_file_conversion.htm">File Conversion</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="shared-tutorials.php">Shared Tutorials</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="https://www.tutorialspoint.com/netmeeting.php">NetMeeting</a></li> 
+       <li><i class="icon icon-caret-right"></i> <a href="https://www.tutorialspoint.com/free_online_whiteboard.htm">Whiteboard</a></li> 
+      </ul> 
+     </div> 
+     <div class="col-md-3"> 
+      <div class="contact-details"> 
+       <h4>Contact Us</h4> 
+       <ul class="contact"> 
+        <li><p><i class="icon icon-map-marker"></i> <strong>Address:</strong> 3rd Floor, Jyoti Celestia, Madhapur, Hyderabad, Telangana 500081</p></li> 
+        <li><p><i class="icon icon-envelope"></i> <strong>Email:</strong> <a href="about/contact_us.htm">Click Here</a></p></li> 
+        <li><p><i class="icon icon-dribbble"></i> <strong>Website:</strong> <a href="http://www.tutorialspoint.com">www.tutorialspoint.com</a></p></li> 
+       </ul> 
+      </div> 
+      <div class="social-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="http://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="http://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div>  
+  </footer> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/menu-style-min.css?v=1"> 
+  <script type="text/javascript" src="/theme/js/custom-min.js"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.greyout').click(function(){
+   $('.wrapLoader').show();
+});
+</script>   
+ </body>
+</html>

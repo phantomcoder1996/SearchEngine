@@ -1,0 +1,620 @@
+https://www.tutorialspoint.com/quantitative_aptitude/index.htm
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>Quantitative Aptitude Tutorial for IAS, PCS and other Civil Services Exams</title> 
+  <meta name="description" content="Quantitative Aptitude Tutorial for IAS, PCS and other Civil Services Exams - Learn Quantitative Aptitude in simple and easy steps starting from basic to advanced concepts with examples including overview, Number System, Basic Arithmetic, Decimals,  Fractions, Percentages, Ratios, H.C.F &amp; L.C.M., Discounts, Averages, Profit &amp; Loss, Squares &amp; Cubes, Height &amp; Distance,  Logarithm, Area Calculation, Volume Calculation,  Probability,  Permutation/Combination, Alligation or Mixture, Basic Equations, Boats &amp; Streams, Calendar, Compound Interest, Expenditure, Geometry, Mensuration, Progression, Speed &amp; Distance, Sets &amp; Unions, Tables, Charts etcd."> 
+  <meta name="keywords" content="Quantitative, Aptitude, Tutorial, Test, Preparation, Learn, Quantitative, and Data, Interpretation, aptitude, overview, Number System, Basic Arithmetic, Decimals,  Fractions, Percentages, Ratios, H.C.F &amp; L.C.M., Discounts, Averages, Profit &amp; Loss, Squares &amp; Cubes, Height &amp; Distance,  Logarithm, Area Calculation, Volume Calculation,  Probability,  Permutation/Combination, Alligation or Mixture, Basic Equations, Boats &amp; Streams, Calendar, Compound Interest, Expenditure, Geometry, Mensuration, Progression, Speed &amp; Distance, Sets &amp; Unions, Tables, Charts etcd."> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #3eaa1c !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #3eaa1c url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #3eaa1c !important;}
+.submenu-item{ border-bottom: 2px solid #3eaa1c !important; border-top: 2px solid #3eaa1c !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#3eaa1c; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/quantitative_aptitude/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-2"> 
+      <aside class="sidebar"> 
+       <div class="mini-logo"> 
+        <img src="/quantitative_aptitude/images/aptitude-mini-logo.jpg" alt="Quantitative Aptitude Tutorial"> 
+       </div> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Aptitude Test Preparation</li> 
+        <li><a href="/quantitative_aptitude/index.htm">Aptitude - Home</a></li> 
+        <li><a href="/quantitative_aptitude/aptitude_overview.htm">Aptitude - Overview</a></li> 
+        <li class="heading">Quantitative Aptitude</li> 
+       </ul> 
+       <div id="sidebar"> 
+        <div id="scroller"> 
+         <ul class="nav nav-list primary left-menu"> 
+          <li><a href="/quantitative_aptitude/aptitude_number_system.htm">Aptitude - Number System</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_number_system_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_number_system_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_number_system_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_arithmetic.htm">Aptitude - Basic Arithmetic</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_arithmetic_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_arithmetic_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_arithmetic_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_decimals.htm">Aptitude - Decimals</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_decimals_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_decimals_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_decimals_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_percentages.htm">Aptitude - Percentages</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_percentages_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_percentages_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_percentages_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_ratios.htm">Aptitude - Ratios</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_ratios_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_ratios_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_ratios_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_hcf_lcm.htm">Aptitude - H.C.F &amp; L.C.M.</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_hcf_lcm_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_hcf_lcm_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_hcf_lcm_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_discounts.htm">Aptitude - Discounts</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_discounts_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_discounts_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_discounts_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_averages.htm">Aptitude - Averages</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_averages_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_averages_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_averages_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_profit_loss.htm">Aptitude - Profits &amp; Loss</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_profit_loss_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_profit_loss_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_profit_loss_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_squares_cubes.htm">Aptitude - Squares &amp; Cubes</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_squares_cubes_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_squares_cubes_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_squares_cubes_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_height_distance.htm">Aptitude - Height &amp; Distance</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_height_distance_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_height_distance_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_height_distance_test.htm">Test</a></li> 
+           </ul> </li> 
+          <!--<li><a  href="/quantitative_aptitude/aptitude_logarithm.htm">Aptitude - Logarithm</a></li>--> 
+          <li><a href="/quantitative_aptitude/aptitude_area_calculation.htm">Aptitude - Area Calculation</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_area_calculation_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_area_calculation_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_area_calculation_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_volume_calculation.htm">Aptitude - Volume Calculation</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_volume_calculation_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_volume_calculation_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_volume_calculation_test.htm">Test</a></li> 
+           </ul> </li> 
+          <!--<li><a  href="/quantitative_aptitude/aptitude_probability.htm">Aptitude - Probability</a></li>
+<li><a  href="/quantitative_aptitude/aptitude_expenditure.htm">Aptitude - Expenditure</a></li>
+<li><a  href="/quantitative_aptitude/aptitude_permutation_combination.htm">Aptitude - Permutation/Combination</a></li>--> 
+          <li><a href="/quantitative_aptitude/aptitude_calendar.htm">Aptitude - Calendar</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_calendar_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_calendar_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_calendar_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_clock.htm">Aptitude - Clock</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_clock_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_clock_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_clock_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_simple_interest.htm">Aptitude - Simple Interest</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_simple_interest_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_simple_interest_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_simple_interest_test.htm">Test</a></li> 
+           </ul> </li> 
+          <!--<li><a  href="/quantitative_aptitude/aptitude_compound_interest.htm">Aptitude - Compound Interest</a></li>--> 
+          <li><a href="/quantitative_aptitude/aptitude_partnership.htm">Aptitude - Partnership</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_partnership_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_partnership_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_partnership_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_time_work.htm">Aptitude - Time &amp; Work</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_time_work_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_time_work_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_time_work_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_races_games.htm">Aptitude - Races &amp; games of skill</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_races_games_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_races_games_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_races_games_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_boats_streams.htm">Aptitude - Boats &amp; Streams</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_boats_streams_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_boats_streams_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_boats_streams_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_trains.htm">Aptitude - Trains</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_trains_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_trains_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_trains_test.htm">Test</a></li> 
+           </ul> </li> 
+          <!--<li><a  href="/quantitative_aptitude/aptitude_alligation_mixtures.htm">Aptitude - Alligation or Mixtures</a></li>
+<li><a  href="/quantitative_aptitude/aptitude_mensuration.htm">Aptitude - Mensuration</a></li>--> 
+          <li><a href="/quantitative_aptitude/aptitude_coordinate_geometry.htm">Aptitude - Co-ordinate Geometry</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_coordinate_geometry_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_coordinate_geometry_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_coordinate_geometry_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_geometry.htm">Aptitude - Geometry</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_geometry_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_geometry_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_geometry_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_basic_equations.htm">Aptitude - Basic Equations</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_basic_equations_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_basic_equations_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_basic_equations_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_speed_distance.htm">Aptitude - Speed &amp; Distance</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_speed_distance_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_speed_distance_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_speed_distance_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_pipes_cisterns.htm">Aptitude - Pipes &amp; Cisterns</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_pipes_cisterns_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_pipes_cisterns_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_pipes_cisterns_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_progression.htm">Aptitude - Progression</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_progression_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_progression_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_progression_test.htm">Test</a></li> 
+           </ul> </li> 
+          <!--<li><a  href="/quantitative_aptitude/aptitude_sets_unions.htm">Aptitude - Sets &amp; Unions</a></li>--> 
+          <li><a href="/quantitative_aptitude/aptitude_simplification.htm">Aptitude - Simplification</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_simplification_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_simplification_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_simplification_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_stock_market.htm">Aptitude - Stock Market</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_stock_market_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_stock_market_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_stock_market_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_ages.htm">Aptitude - Ages</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_ages_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_ages_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_ages_test.htm">Test</a></li> 
+           </ul> </li> 
+          <!--<li><a  href="/quantitative_aptitude/aptitude_surds_indices.htm">Aptitude - Surds &amp; Indices</a></li>--> 
+          <li><a href="/quantitative_aptitude/aptitude_chain_rules.htm">Aptitude - Chain Rules</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_chain_rules_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_chain_rules_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_chain_rules_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li class="heading">Data Interpretation</li> 
+          <!--<li><a  href="/quantitative_aptitude/aptitude_data_analysis.htm">Aptitude - Data Analysis</a></li>--> 
+          <li><a href="/quantitative_aptitude/aptitude_bar_charts.htm">Aptitude - Bar Charts</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_bar_charts_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_bar_charts_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_bar_charts_test.htm">Test</a></li> 
+           </ul> </li>
+          <li><a href="/quantitative_aptitude/aptitude_pie_charts.htm">Aptitude - Pie Charts</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_pie_charts_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_pie_charts_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_pie_charts_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_line_charts.htm">Aptitude - Line Charts</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_line_charts_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_line_charts_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_line_charts_test.htm">Test</a></li> 
+           </ul> </li> 
+          <li><a href="/quantitative_aptitude/aptitude_tables.htm">Aptitude - Tables</a> 
+           <ul class="submenu"> 
+            <li><a href="/quantitative_aptitude/aptitude_tables_examples.htm">Examples</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_tables_quiz.htm">Quiz</a></li> 
+            <li><a href="/quantitative_aptitude/aptitude_tables_test.htm">Test</a></li> 
+           </ul> </li> 
+          <!--<li><a  href="/quantitative_aptitude/aptitude_venn_diagram.htm">Aptitude - Venn Diagram</a></li>--> 
+         </ul> 
+        </div> 
+       </div> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Aptitude Useful Resources</li> 
+        <li><a href="/quantitative_aptitude/aptitude_questions_answers.htm">Aptitude - Questions &amp; Answers</a></li> 
+        <!--<li><a href="/quantitative_aptitude/aptitude_.htm">Aptitude - Quick Guide</a></li>
+<li><a href="/quantitative_aptitude/aptitude_.htm">Aptitude - Useful Resources</a></li>--> 
+       </ul> 
+       <ul class="nav nav-list primary push-bottom left-menu special"> 
+        <li class="sreading">Competitive Exams Material</li> 
+        <li class="current_affairs"><a target="_top" href="/current_affairs/index.htm">Current Affairs Archive</a></li> 
+        <li class="general_knowledge"><a target="_top" href="/general_knowledge/index.htm">General Knowledge</a></li> 
+        <li class="quantitative_aptitude"><a target="_top" href="/quantitative_aptitude/index.htm">Quantitative Aptitude</a></li> 
+        <li class="logical_reasoning"><a target="_top" href="/reasoning/index.htm">Logical Reasoning</a></li> 
+        <li class="verbal_reasoning"><a target="_top" href="/verbal_ability/index.htm">Verbal Ability</a></li> 
+        <li class="economics"><a target="_top" href="/economics/index.htm">Economics</a></li> 
+        <li class="geography"><a target="_top" href="/geography/index.htm">Geography</a></li> 
+        <li class="indian_history"><a target="_top" href="/ancient_indian_history/index.htm">Ancient Indian History</a></li> 
+        <li class="indian_history"><a target="_top" href="/medieval_indian_history/index.htm">Medieval Indian History</a></li> 
+        <li class="indian_history"><a target="_top" href="/modern_indian_history/index.htm">Modern Indian History</a></li> 
+        <li class="political_science"><a target="_top" href="/indian_polity/index.htm">Indian Polity</a></li> 
+        <li class="general_science"><a target="_top" href="/general_science/index.htm">General Science</a></li> 
+       </ul> 
+      </aside> 
+     </div> 
+     <!-- PRINTING STARTS HERE --> 
+     <div class="row"> 
+      <div class="content"> 
+       <div class="col-md-7 middle-col"> 
+        <div class="cover"> 
+         <img class="img-responsive" src="/quantitative_aptitude/images/aptitude.jpg" alt="Quantitative Aptitude Tutorial"> 
+        </div> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/quantitative_aptitude/aptitude_overview.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <div class="clearer"></div> 
+        <hr> 
+        <h1>Quantitative Aptitude Tutorial</h1> 
+        <!--
+<div class="center-aligned tutorial-menu">
+<form action="/job_search.php" method="POST">
+<input type="hidden" name="search_string" value="Bank, Clerk, Inspecter" />
+<button type="button" class="btn btn-default btn-sm btn-buy-tutorial"><i class="icon  icon-file-pdf-o"></i><a href="/quantitative_aptitude/aptitude_pdf_version.htm"> PDF Version</a></button>
+<button type="button" class="btn btn-default btn-sm btn-quick-guide"><i class="icon  icon-book"></i> Quick Guide</button>
+<button type="button" class="btn btn-default btn-sm btn-extra-links"><i class="icon  icon-external-link"></i><a href="/quantitative_aptitude/aptitude_useful_resources.htm"> Resources</a></button>
+<button type="submit" class="btn btn-default btn-sm btn-job-search"><i class="icon  icon-suitcase"></i> Job Search</button>
+<button type="button" class="btn btn-default btn-sm btn-job-search"><i class="icon fa fa-wechat"></i><a href="/quantitative_aptitude/aptitude_discussion.htm"> Discussion</a></button>
+</form>
+</div>
+--> 
+        <div> 
+         <p>An aptitude test represents a sytematic way to judge a candidate's mental capability as how he/she performs certain tasks and reacts to different scenarios. Each aptitude test uses a standard method of administration and scoring so that results can be computed and compared with the other candidates.</p> 
+         <p>This tutorial will teach you basic concepts of aptitude like numerical computation ability, analytical abilities. The tutorial is divided into sections such as Number System, Basic Arithmetic, Decimals and so on. Each of these sections contain related topics with simple and useful examples.</p> 
+        </div> 
+        <h1>Audience</h1> 
+        <p>This reference has been prepared for the candidates to help them to understand the basic to advanced concepts required to pass the <b>Aptitude Tests, IAS, PCS and other Civil Services Exams</b>. This tutorial will give you enough understanding on various concepts where you can take yourself to a higher level of expertise.</p> 
+        <h1>Prerequisites</h1> 
+        <p>Before proceeding with this tutorial you should have basic knowledge of Mathematics.</p> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="print-btn"> 
+         <a href="/cgi-bin/printpage.cgi" target="_blank"><i class="icon icon-print big-font"></i> Print</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/quantitative_aptitude/aptitude_overview.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <hr> 
+        <!-- PRINTING ENDS HERE --> 
+        <div class="bottomgooglead"> 
+         <div class="bottomadtag">
+          Advertisements
+         </div> 
+         <!-- /60931893/tutorial_bottom_leader_board --> 
+         <div id="div-gpt-ad-1510138782906-3"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-3'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="col-md-3" id="rightbar"> 
+        <div class="ysubscribe"> 
+         <script async src="https://apis.google.com/js/platform.js"></script> 
+         <div class="g-ytsubscribe" data-channelid="UCVLbzhxVTiTLiVKeGV7WEBg" data-layout="full" data-count="default"></div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_top --> 
+         <div id="div-gpt-ad-1510138782906-2" style="height:250px; width:300px;"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-2'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_middle --> 
+         <div id="div-gpt-ad-1510138782906-1"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-1'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_bottom --> 
+         <div id="div-gpt-ad-1510138782906-0"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-0'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Libs --> 
+  <script type="text/javascript" src="/theme/js/custom-min.js?v=7"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.pg-icon').click(function(){
+   $('.wrapLoader').show();
+});
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Quantitative Aptitude Tutorial for IAS, PCS and other Civil Services Exams",
+    "name": "Quantitative Aptitude Tutorial for IAS, PCS and other Civil Services Exams",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.tutorialspoint.com/quantitative_aptitude/index.htm"
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tutorialspoint.com/quantitative_aptitude/images/aptitude.jpg",
+        "width": 613,
+        "height": 194
+    },
+    "author": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "datePublished": "January 08 2018 06:24:33.",
+    "dateModified": "January 08 2018 06:24:33.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "description": "An aptitude test represents a sytematic way to judge a candidate's mental capability as how he/she performs certain tasks and reacts to different scenarios.  Each aptitude test uses a standard method of administration and scoring so that results can be co..."
+}
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "name": "www.tutorialspoint.com",
+                "@id": "https://www.tutorialspoint.com"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "name": "Quantitative Aptitude",
+                "@id": "https://www.tutorialspoint.com/quantitative_aptitude"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "name": null
+            }
+        }
+    ]
+}
+</script>    
+ </body>
+</html>

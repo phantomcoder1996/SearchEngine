@@ -1,0 +1,942 @@
+https://www.microsoft.com/investor/default.aspx
+<!doctype html>
+<html xmlns:mscom="http://schemas.microsoft.com/CMSvNext" xmlns:md="http://schemas.microsoft.com/mscom-data" class="no-js" lang="en" dir="ltr">
+ <head>
+  <!--MWF reference-->
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="//assets.onestore.ms/cdnfiles/external/mwf/long/v1/v1.21.2/css/mwf-west-european-default.min.css">
+  <script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.9.1.min.js"></script>
+  <script async src="//assets.onestore.ms/cdnfiles/external/mwf/long/v1/v1.21.2/scripts/mwf-auto-init-main.var.min.js"></script>
+  <title>Microsoft Investor Relations - Home Page</title>
+  <meta name="Title" content="Microsoft Investor Relations - Home Page">
+  <meta name="CorrelationVector" content="gsZGkKmhc0iSdcou.1">
+  <meta name="Description" content="This Investor Relations site contains information about Microsoft Corporation and provides information about the business relevant to shareholders, potential investors, and financial analysts.">
+  <meta name="MscomContentLocale" content="en-us">
+  <meta name="google-site-verification" content="BXttltJSA468siANtNrpmJ3qgnqiJy9ql8qlr7mRXsw">
+  <meta name="keywords" content="Microsoft Investor Relations, Financial Analysts, SEC Filings, Earnings Results, Corporate Governance, Annual Reports, Income Statements, Balance Sheets, Statement of Cash Flows, Shareholder Equity">
+  <meta name="msvalidate.01" content="8135F19EB7F72E115CBF608453DCC1D2">
+  <link href="https://statics-uhf-wus.akamaized.net/west-european/shell/_scrf/css/themes=default.device=uplevel_web_pc/48-4569b5/3c-162243/ea-687fe8/2b-450314/42-bd6a69/d1-038968/3c-12a025?ver=2.0" rel="stylesheet" type="text/css" media="screen">
+  <link href="https://statics-uhf-wus.akamaized.net/statics/override.css" rel="stylesheet" type="text/css" media="screen">
+  <link rel="stylesheet" type="text/css" href="https://c.s-microsoft.com/en-us/CMSStyles/style.csx?k=0402d874-6e51-6ff1-fb3f-740b11ca61d5_38a141ef-ad97-7099-8b30-b833fd25f71e_79b59486-8ee3-0c25-84ed-15b4d03cd5de">
+  <script type="text/javascript" src="https://statics-uhf-wus.akamaized.net/shell/_scrf/js/themes=default/e8-1a2c1d/cb-ac922a/e6-bf47bb/b4-95d116/24-d7e7f4/8b-69e74f/e0-91371b/7e-793d88/d1-2b95bb/d8-ab9315/31-d1ef90/55-14fceb/b2-4f864e/62-69d670/31-f19446/b4-019073/40-e2e898/fc-e9ae0b/df-1dbe87/c9-92ebeb/1c-874c56/33-e5f0bf/e3-f83824/79-8a7614/19-091f7c/fd-6d2897/7a-7a4723/82-2940d9/46-380f2c/f3-8b0931/93-f95742?ver=2.0&amp;iife=1"></script>
+  <script type="text/javascript" src="https://mem.gfx.ms/meversion?partner=MSInvestor&amp;market=en-us"></script>
+  <script type="text/javascript" src="https://c.s-microsoft.com/en-us/CMSScripts/script.jsx?k=49f5cfe1-f41a-139b-5a8f-a05a38a263f0"></script>
+ </head>
+ <body>
+  <span class="page-data-sources"></span>
+  <!--UHF Header-->
+  <span class="page-data-sources"></span>
+  <!-- UHF CSS Workarounds -->
+  <span>
+   <section id="headerArea" data-m="{&quot;cN&quot;:&quot;headerArea&quot;,&quot;cT&quot;:&quot;Area_coreuiArea&quot;,&quot;id&quot;:&quot;a1Body&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;Body&quot;}">
+    <div id="headerRegion" data-region-key="headerregion" data-m="{&quot;cN&quot;:&quot;headerRegion&quot;,&quot;cT&quot;:&quot;Region_coreui-region&quot;,&quot;id&quot;:&quot;r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;a1&quot;}">
+     <div id="headerUniversalHeader" data-m="{&quot;cN&quot;:&quot;headerUniversalHeader&quot;,&quot;cT&quot;:&quot;Module_coreui-universalheader&quot;,&quot;id&quot;:&quot;m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;r1a1&quot;}" data-module-id="Category|headerRegion|headerRegion|headerUniversalHeader|coreui-universalheader">
+      <div id="epb" class="x-hidden x-hidden-vp1 x-hidden-vp2 uhfc-universal-context context-uhf" data-m="{&quot;cN&quot;:&quot;epb_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;m1r1a1&quot;}">
+       <div class="c-uhfh-alert f-information epb-container epb-default-color" role="alert" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1m1r1a1&quot;}">
+        <div>
+         <p class="c-paragraph"><img alt="Microsoft Edge" data-src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/REZlo1?ver=5722" class="f-img-lzy"><span class="c-text-group"><span class="epb-launch">Try Microsoft Edge</span><span class="epb-text">A fast and secure browser that's designed for Windows 10</span></span><span class="c-group"><button id="close-epb" class="c-action-trigger c-action-cancel glyph-cancel" data-m="{&quot;cN&quot;:&quot;EPB-dismiss_nonnav&quot;,&quot;id&quot;:&quot;nn1c1c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c1m1r1a1&quot;}" aria-label="No thanks, I&amp;#39;ll try Microsoft Edge later. ">No thanks</button><a id="epbTryNow" data-telem-qsp="form=MY009W" aria-label="Get Started: Open this page in Microsoft Edge" class="epb-launch c-action-trigger c-action-open" data-m="{&quot;cN&quot;:&quot;EPB-launch_nav&quot;,&quot;id&quot;:&quot;n2c1c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c1m1r1a1&quot;}">Get started</a></span></p>
+        </div>
+       </div>
+      </div>
+      <a class="m-skip-to-main" href="#mainContent" tabindex="0" style="z-index:3000002" data-m="{&quot;cN&quot;:&quot;Skip to content_nonnav&quot;,&quot;id&quot;:&quot;nn2c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1m1r1a1&quot;}">Skip to main content</a>
+      <header role="banner" class="c-uhfh context-uhf no-js " itemscope data-header-footprint="en-us/MSInvestor/MSInvestorHeaderFY18Q2" data-ckrate="1" data-magict="true" itemtype="http://schema.org/Organization">
+       <div class="theme-light js-global-head f-closed " data-m="{&quot;cN&quot;:&quot;Universal Header_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1m1r1a1&quot;}">
+        <div class="c-uhfh-gcontainer">
+         <button class="c-action-trigger c-glyph glyph-global-nav-button" aria-label="Header navigation menu" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;Mobile menu button_nonnav&quot;,&quot;id&quot;:&quot;nn1c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}"></button>
+         <button class="c-action-trigger c-glyph glyph-arrow-htmllegacy" aria-label="Close search" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;Close Search_nonnav&quot;,&quot;id&quot;:&quot;nn2c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}"></button>
+         <a id="uhfLogo" class="c-logo" itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft" data-m="{&quot;cN&quot;:&quot;GlobalNav_Logo_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}"><img itemprop="logo" itemscope class="c-image" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" role="none"><span role="none">Microsoft</span></a>
+         <div class="f-mobile-title">
+          <button class="c-action-trigger c-glyph glyph-chevron-left" aria-label="See more menu options" data-m="{&quot;cN&quot;:&quot;Mobile back button_nonnav&quot;,&quot;id&quot;:&quot;nn4c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}"></button>
+          <span data-global-title="Microsoft home" class="js-mobile-title">Investor Relations</span>
+          <button class="c-action-trigger c-glyph glyph-chevron-right" aria-label="See more menu options" data-m="{&quot;cN&quot;:&quot;Mobile forward button_nonnav&quot;,&quot;id&quot;:&quot;nn5c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}"></button>
+         </div>
+         <button class="c-action-trigger c-glyph glyph-chevron-left js-primary-paddle" data-m="{&quot;cN&quot;:&quot;Previous_nonnav&quot;,&quot;id&quot;:&quot;nn6c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}" aria-label="Show previous" tabindex="-1"></button>
+         <nav id="uhf-g-nav" class="c-uhfh-gnav" aria-labelledby="uhfLogo" role="navigation" data-m="{&quot;cN&quot;:&quot;Global nav_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c7c3c1m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}">
+          <ul class="js-paddle-items" role="none">
+           <li><a id="shellmenu_0" class="c-uhf-nav-link" href="https://products.office.com/en-us/home" data-m="{&quot;cN&quot;:&quot;GlobalNav_Office_nav&quot;,&quot;id&quot;:&quot;n1c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}">Office</a></li>
+           <li><a id="shellmenu_1" class="c-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/" data-m="{&quot;cN&quot;:&quot;GlobalNav_Windows_nav&quot;,&quot;id&quot;:&quot;n2c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}">Windows</a></li>
+           <li><a id="shellmenu_2" class="c-uhf-nav-link" href="https://www.microsoft.com/surface/en-us" data-m="{&quot;cN&quot;:&quot;GlobalNav_Surface_nav&quot;,&quot;id&quot;:&quot;n3c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}">Surface</a></li>
+           <li><a id="shellmenu_3" class="c-uhf-nav-link" href="https://www.xbox.com/en-us" data-m="{&quot;cN&quot;:&quot;GlobalNav_Xbox_nav&quot;,&quot;id&quot;:&quot;n4c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}">Xbox</a></li>
+           <li><a id="shellmenu_4" class="c-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/sale?icid=gm_nav_L0_salepage" data-m="{&quot;cN&quot;:&quot;GlobalNav_Deals_nav&quot;,&quot;id&quot;:&quot;n5c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}">Deals</a></li>
+           <li><a id="l1_support" class="c-uhf-nav-link" href="https://support.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;GlobalNav_Support_nav&quot;,&quot;id&quot;:&quot;n6c7c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}">Support</a></li>
+           <li>
+            <div class="c-uhf-menu js-nav-menu">
+             <button id="More-navigation" aria-expanded="false" aria-haspopup="true" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_nonnav&quot;,&quot;id&quot;:&quot;nn7c7c3c1m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}" style="white-space:nowrap">More</button>
+             <ul class="f-multi-column f-multi-column-6" aria-labelledby="More-navigation" aria-hidden="true" data-m="{&quot;cN&quot;:&quot;More_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c7c3c1m1r1a1&quot;}" role="none">
+              <li class="f-sub-menu js-nav-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c8c7c3c1m1r1a1&quot;}"><button id="Software-navigation" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c8c7c3c1m1r1a1&quot;}">Software</button>
+               <ul aria-labelledby="Software-navigation" aria-hidden="true" role="none">
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Software_WindowsApps_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_8" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/windows-10-apps" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_WindowsApps_nav&quot;,&quot;id&quot;:&quot;n1c2c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c1c8c7c3c1m1r1a1&quot;}">Windows apps</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Software_OneDrive_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_9" class="js-subm-uhf-nav-link" href="https://onedrive.live.com/about/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_OneDrive_nav&quot;,&quot;id&quot;:&quot;n1c3c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c1c8c7c3c1m1r1a1&quot;}">OneDrive</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Software_Outlook_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_10" class="js-subm-uhf-nav-link" href="https://outlook.live.com/owa/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_Outlook_nav&quot;,&quot;id&quot;:&quot;n1c4c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c1c8c7c3c1m1r1a1&quot;}">Outlook</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Software_Skype_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c1c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_11" class="js-subm-uhf-nav-link" href="https://www.skype.com/en/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_Skype_nav&quot;,&quot;id&quot;:&quot;n1c5c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c1c8c7c3c1m1r1a1&quot;}">Skype</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Software_OneNote_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c1c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_12" class="js-subm-uhf-nav-link" href="https://www.onenote.com/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Software_OneNote_nav&quot;,&quot;id&quot;:&quot;n1c6c1c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c1c8c7c3c1m1r1a1&quot;}">OneNote</a></li>
+               </ul></li>
+              <li class="f-sub-menu js-nav-menu" data-m="{&quot;cN&quot;:&quot;PCsAndDevices_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c8c7c3c1m1r1a1&quot;}"><button id="PCs&amp;Devices-navigation" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;GlobalNav_PCsAndDevices_nonnav&quot;,&quot;id&quot;:&quot;nn1c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c8c7c3c1m1r1a1&quot;}">PCs &amp; Devices </button>
+               <ul aria-labelledby="PCs&amp;Devices-navigation" aria-hidden="true" role="none">
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_PCsAndDevices_PCsAndTablets_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c2c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_14" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/devices" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_PCsAndDevices_PCsAndTablets_nav&quot;,&quot;id&quot;:&quot;n1c2c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c2c8c7c3c1m1r1a1&quot;}">PCs &amp; tablets</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_PCAndDevices_Accessories_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c2c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_15" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/accessories/en-us" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_PCAndDevices_Accessories_nav&quot;,&quot;id&quot;:&quot;n1c3c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c2c8c7c3c1m1r1a1&quot;}">Accessories</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_PCsAndDevices_VMAndMixedReality_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c2c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_16" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/virtualreality?icid=TopNavVirtualReality" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_PCsAndDevices_VMAndMixedReality_nav&quot;,&quot;id&quot;:&quot;n1c4c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c2c8c7c3c1m1r1a1&quot;}">VR &amp; mixed reality</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_PCsAndDevices_MicrosoftHololens_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c2c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_17" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/hololens" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_PCsAndDevices_MicrosoftHololens_nav&quot;,&quot;id&quot;:&quot;n1c5c2c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c2c8c7c3c1m1r1a1&quot;}">Microsoft HoloLens</a></li>
+               </ul></li>
+              <li class="f-sub-menu js-nav-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c8c7c3c1m1r1a1&quot;}"><button id="Entertainment-navigation" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c8c7c3c1m1r1a1&quot;}">Entertainment</button>
+               <ul aria-labelledby="Entertainment-navigation" aria-hidden="true" role="none">
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Products_DevicesAndXbox_XboxAndGames_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c3c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_19" class="js-subm-uhf-nav-link" href="https://www.xbox.com/en-us/games/xbox-one?xr=shellnav" data-m="{&quot;cN&quot;:&quot;GlobalNav_Products_DevicesAndXbox_XboxAndGames_nav&quot;,&quot;id&quot;:&quot;n1c2c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c3c8c7c3c1m1r1a1&quot;}">Xbox games</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Entertainment_PCGames_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c3c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_20" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/windows/windows-10-games" data-m="{&quot;cN&quot;:&quot;GlobalNav_Entertainment_PCGames_nav&quot;,&quot;id&quot;:&quot;n1c3c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c3c8c7c3c1m1r1a1&quot;}">PC games</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Entertainment_WindowsDigitalGames_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c3c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_21" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/games/windows?icid=TopNavWindowsGames" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Entertainment_WindowsDigitalGames_nav&quot;,&quot;id&quot;:&quot;n1c4c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c3c8c7c3c1m1r1a1&quot;}">Windows digital games</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Entertainment_MoviesAndTV_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c3c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_22" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/movies-and-tv?icid=TopNavMoviesAndTv" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Entertainment_MoviesAndTV_nav&quot;,&quot;id&quot;:&quot;n1c5c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c3c8c7c3c1m1r1a1&quot;}">Movies &amp; TV</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Entertainment_Books_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c3c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_23" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/books" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Entertainment_Books_nav&quot;,&quot;id&quot;:&quot;n1c6c3c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c3c8c7c3c1m1r1a1&quot;}">Books</a></li>
+               </ul></li>
+              <li class="f-sub-menu js-nav-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c8c7c3c1m1r1a1&quot;}"><button id="Business-navigation" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c8c7c3c1m1r1a1&quot;}">Business</button>
+               <ul aria-labelledby="Business-navigation" aria-hidden="true" role="none">
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Business_MicrosoftAzure_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c4c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_25" class="js-subm-uhf-nav-link" href="https://azure.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_MicrosoftAzure_nav&quot;,&quot;id&quot;:&quot;n1c2c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c4c8c7c3c1m1r1a1&quot;}">Microsoft Azure</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Business_MicrosoftDynamics365_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c4c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_26" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/dynamics365/home" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_MicrosoftDynamics365_nav&quot;,&quot;id&quot;:&quot;n1c3c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c4c8c7c3c1m1r1a1&quot;}">Microsoft Dynamics 365</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Business_Microsoft365_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c4c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_27" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/microsoft-365/?omkt=en-US" data-m="{&quot;cN&quot;:&quot;GlobalNav_Business_Microsoft365_nav&quot;,&quot;id&quot;:&quot;n1c4c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c4c8c7c3c1m1r1a1&quot;}">Microsoft 365</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Products_ForBusiness_CloudPlatform_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c4c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_28" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/cloud-platform" data-m="{&quot;cN&quot;:&quot;GlobalNav_Products_ForBusiness_CloudPlatform_nav&quot;,&quot;id&quot;:&quot;n1c5c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c4c8c7c3c1m1r1a1&quot;}">Cloud platform</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Business_Enterprise_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c4c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_29" class="js-subm-uhf-nav-link" href="https://enterprise.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_Enterprise_nav&quot;,&quot;id&quot;:&quot;n1c6c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c4c8c7c3c1m1r1a1&quot;}">Enterprise</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Business_DataPlatform_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c7c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c4c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_30" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/sql-server/ " data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Business_DataPlatform_nav&quot;,&quot;id&quot;:&quot;n1c7c4c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c7c4c8c7c3c1m1r1a1&quot;}">Data platform</a></li>
+               </ul></li>
+              <li class="f-sub-menu js-nav-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c8c7c3c1m1r1a1&quot;}"><button id="Developer&amp;IT-navigation" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c8c7c3c1m1r1a1&quot;}">Developer &amp; IT </button>
+               <ul aria-labelledby="Developer&amp;IT-navigation" aria-hidden="true" role="none">
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_DeveloperAndIT_.Net_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c5c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_32" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/net/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DeveloperAndIT_.Net_nav&quot;,&quot;id&quot;:&quot;n1c2c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c5c8c7c3c1m1r1a1&quot;}">.NET</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_DevelopersAndIT_VisualStudio_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c5c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_33" class="js-subm-uhf-nav-link" href="https://www.visualstudio.com/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DevelopersAndIT_VisualStudio_nav&quot;,&quot;id&quot;:&quot;n1c3c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c5c8c7c3c1m1r1a1&quot;}">Visual Studio</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_DeveloperAndIT_WindowsDevCenter_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c5c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_34" class="js-subm-uhf-nav-link" href="https://developer.microsoft.com/en-us/windows" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DeveloperAndIT_WindowsDevCenter_nav&quot;,&quot;id&quot;:&quot;n1c4c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c5c8c7c3c1m1r1a1&quot;}">Windows Dev Center</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_DeveloperAndIT_Docs.microsoft.com_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c5c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_35" class="js-subm-uhf-nav-link" href="https://docs.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_DeveloperAndIT_Docs.microsoft.com_nav&quot;,&quot;id&quot;:&quot;n1c5c5c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c5c8c7c3c1m1r1a1&quot;}">Docs</a></li>
+               </ul></li>
+              <li class="f-sub-menu js-nav-menu" data-m="{&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c8c7c3c1m1r1a1&quot;}"><button id="Other-navigation" aria-expanded="false" data-m="{&quot;id&quot;:&quot;nn1c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c8c7c3c1m1r1a1&quot;}">Other</button>
+               <ul aria-labelledby="Other-navigation" aria-hidden="true" role="none">
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Other_MicrosoftStore_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c6c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_37" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/home" data-m="{&quot;cN&quot;:&quot;GlobalNav_Other_MicrosoftStore_nav&quot;,&quot;id&quot;:&quot;n1c2c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c6c8c7c3c1m1r1a1&quot;}">Microsoft Store</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Products_SoftwareAndServices_FreeDownloadsAndSecurity_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c6c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_38" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/download/default.aspx" data-m="{&quot;cN&quot;:&quot;GlobalNav_Products_SoftwareAndServices_FreeDownloadsAndSecurity_nav&quot;,&quot;id&quot;:&quot;n1c3c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c6c8c7c3c1m1r1a1&quot;}">Free downloads &amp; security</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Products_ForStudentsAndEducators_Education_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c6c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_39" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/education" data-m="{&quot;cN&quot;:&quot;GlobalNav_Products_ForStudentsAndEducators_Education_nav&quot;,&quot;id&quot;:&quot;n1c4c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c6c8c7c3c1m1r1a1&quot;}">Education</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;More_Other_Store_Locations_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c6c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_40" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/locations/find-a-store?icid=TopNavStoreLocations" data-m="{&quot;cN&quot;:&quot;GlobalNav_More_Other_Store_Locations_nav&quot;,&quot;id&quot;:&quot;n1c5c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c6c8c7c3c1m1r1a1&quot;}">Store locations</a></li>
+                <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Store_More_GiftCards_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c6c8c7c3c1m1r1a1&quot;}"><a id="shellmenu_41" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/en-us/store/b/gift-cards" data-m="{&quot;cN&quot;:&quot;GlobalNav_Store_More_GiftCards_nav&quot;,&quot;id&quot;:&quot;n1c6c6c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c6c8c7c3c1m1r1a1&quot;}">Gift cards</a></li>
+               </ul></li>
+              <li class="f-multi-column-info"><a data-m="{&quot;cN&quot;:&quot;View all_nav&quot;,&quot;id&quot;:&quot;n7c8c7c3c1m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c8c7c3c1m1r1a1&quot;}" href="https://www.microsoft.com/en-us/sitemap.aspx" aria-label="View all" class="c-glyph">View all</a></li>
+             </ul>
+            </div></li>
+          </ul>
+         </nav>
+         <button class="c-action-trigger c-glyph glyph-chevron-right js-secondary-paddle" data-m="{&quot;cN&quot;:&quot;Next_nonnav&quot;,&quot;id&quot;:&quot;nn8c3c1m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}" aria-label="Show next" tabindex="-1"></button>
+         <div class="c-uhfh-actions" data-m="{&quot;cN&quot;:&quot;Header actions_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c9c3c1m1r1a1&quot;,&quot;sN&quot;:9,&quot;aN&quot;:&quot;c3c1m1r1a1&quot;}">
+          <form class="c-search" autocomplete="off" id="searchForm" name="searchForm" role="search" action="https://www.microsoft.com/en-us/search/result.aspx" method="GET" data-seautosuggest="{&quot;queryParams&quot;:{&quot;market&quot;:&quot;en-us&quot;,&quot;clientId&quot;:&quot;7F27B536-CF6B-4C65-8638-A0F8CBDFCA65&quot;,&quot;sources&quot;:&quot;Iris-Products,DCatAll-Products,Microsoft-Terms&quot;,&quot;counts&quot;:&quot;1,5,5&quot;},&quot;familyNames&quot;:{&quot;Apps&quot;:&quot;App&quot;,&quot;Books&quot;:&quot;Book&quot;,&quot;Bundles&quot;:&quot;Bundle&quot;,&quot;Devices&quot;:&quot;Device&quot;,&quot;Fees&quot;:&quot;Fee&quot;,&quot;Games&quot;:&quot;Game&quot;,&quot;MusicAlbums&quot;:&quot;Album&quot;,&quot;MusicTracks&quot;:&quot;Song&quot;,&quot;MusicVideos&quot;:&quot;Video&quot;,&quot;MusicArtists&quot;:&quot;Artist&quot;,&quot;OperatingSystem&quot;:&quot;Operating System&quot;,&quot;Software&quot;:&quot;Software&quot;,&quot;Movies&quot;:&quot;Movie&quot;,&quot;TV&quot;:&quot;TV&quot;,&quot;CSV&quot;:&quot;Gift Card&quot;,&quot;VideoActor&quot;:&quot;Actor&quot;}}" data-seautosuggestapi="https://www.microsoft.com/services/api/v3/suggest" data-m="{&quot;cN&quot;:&quot;GlobalNav_Search_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c9c3c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c9c3c1m1r1a1&quot;}" aria-expanded="false">
+           <input data-m="{&quot;cN&quot;:&quot;SearchBox_nav&quot;,&quot;id&quot;:&quot;n2c1c9c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c9c3c1m1r1a1&quot;}" id="cli_shellHeaderSearchInput" aria-label="Search Microsoft.com" role="combobox" aria-autocomplete="list" aria-controls="universal-header-search-auto-suggest-transparent" aria-owns="universal-header-search-auto-suggest-ul" type="search" name="q" placeholder="Search Microsoft.com">
+           <button id="search" aria-label="Search" class="c-glyph" data-m="{&quot;cN&quot;:&quot;Search_nav&quot;,&quot;id&quot;:&quot;n3c1c9c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c9c3c1m1r1a1&quot;}" data-bi-dnt="true" data-bi-mto="true"></button>
+           <div class="m-auto-suggest" id="universal-header-search-auto-suggest-transparent" role="group">
+            <ul class="c-menu" id="universal-header-search-auto-suggest-ul" aria-hidden="true" data-bi-dnt="true" data-bi-mto="true" data-js-auto-suggest-position="default" role="listbox" data-tel="jsll" data-m="{&quot;cN&quot;:&quot;search suggestions_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c1c9c3c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c9c3c1m1r1a1&quot;}"></ul>
+           </div>
+          </form>
+          <a id="uhf-shopping-cart" aria-label="0 items in shopping cart" class="c-action-trigger c-glyph glyph-shopping-cart" href="https://www.microsoft.com/en-us/store/buy" data-m="{&quot;cN&quot;:&quot;GlobalNav_Cart_nav&quot;,&quot;bhvr&quot;:82,&quot;id&quot;:&quot;n2c9c3c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c9c3c1m1r1a1&quot;}"><span class="shopping-cart-amount x-hidden" aria-hidden="true">0</span></a>
+          <iframe id="shell-cart-count" data-src="//www.microsoft.com/store/buy/cartcount" style="display: none"></iframe>
+          <div id="meControl" class="c-me" data-signinsettings="{&quot;containerId&quot;:&quot;meControl&quot;,&quot;enabled&quot;:true,&quot;headerHeight&quot;:48,&quot;debug&quot;:false,&quot;extensibleLinks&quot;:[{&quot;string&quot;:&quot;Order history&quot;,&quot;url&quot;:&quot;https://www.microsoftstore.com/store/msusa/en_US/DisplayFindYourOrderPage/nextAction.DisplayAccountOrderListPage&quot;,&quot;id&quot;:&quot;&quot;},{&quot;string&quot;:&quot;Return history&quot;,&quot;url&quot;:&quot;https://www.microsoftstore.com/store/msusa/en_US/DisplayFindYourOrderPage/nextAction.DisplayAccountReturnListPage&quot;,&quot;id&quot;:&quot;&quot;},{&quot;string&quot;:&quot;Digital content&quot;,&quot;url&quot;:&quot;https://www.microsoftstore.com/store/msusa/en_US/DisplayFindYourOrderPage/nextAction.DisplayDownloadHistoryPage&quot;,&quot;id&quot;:&quot;&quot;},{&quot;string&quot;:&quot;Wish list&quot;,&quot;url&quot;:&quot;https://www.microsoftstore.com/store/msusa/en_US/wishlists?Wt.mc_id=wishlist_landingpage&quot;,&quot;id&quot;:&quot;&quot;},{&quot;string&quot;:&quot;Payment&quot;,&quot;url&quot;:&quot;https://www.microsoftstore.com/store/msusa/en_US/DisplayAddEditPaymentPage/&quot;,&quot;id&quot;:&quot;&quot;},{&quot;string&quot;:&quot;Profile&quot;,&quot;url&quot;:&quot;https://www.microsoftstore.com/store/msusa/en_US/DisplayEditProfilePage/tab.profile&quot;,&quot;id&quot;:&quot;&quot;}],&quot;userData&quot;:{&quot;idp&quot;:&quot;msa&quot;,&quot;firstName&quot;:&quot;&quot;,&quot;lastName&quot;:&quot;&quot;,&quot;memberName&quot;:&quot;&quot;,&quot;cid&quot;:&quot;&quot;,&quot;authenticatedState&quot;:&quot;3&quot;},&quot;rpData&quot;:{&quot;preferredIdp&quot;:&quot;msa&quot;,&quot;msaInfo&quot;:{&quot;signInUrl&quot;:&quot;/en-us/store/signin&quot;,&quot;signOutUrl&quot;:&quot;/en-us/store/signout&quot;,&quot;meUrl&quot;:&quot;https://login.live.com/me.srf?wa=wsignin1.0&quot;},&quot;aadInfo&quot;:{&quot;signOutUrl&quot;:&quot;/en-us/store/signout&quot;,&quot;appId&quot;:null,&quot;siteUrl&quot;:null,&quot;blockMsaFed&quot;:true}}}" data-m="{&quot;cN&quot;:&quot;GlobalNav_Account_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c9c3c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c9c3c1m1r1a1&quot;}">
+           <div class="msame_Header">
+            <div class="msame_Header_name">
+             Sign in
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="theme-light  js-cat-head" itemprop="brand" itemscope itemtype="http://schema.org/Brand" data-m="{&quot;cN&quot;:&quot;UHF category nav_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1m1r1a1&quot;}">
+        <div>
+         <a id="uhfCatLogo" class="c-logo" href="/en-us/investor/default.aspx" aria-label="Investor Relations" itemprop="url" data-m="{&quot;cN&quot;:&quot;Investor Relations_nav&quot;,&quot;id&quot;:&quot;n1c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}"><span>Investor Relations</span></a>
+         <button class="c-action-trigger c-glyph glyph-chevron-left js-primary-paddle" aria-label="Scroll left" title="Scroll left" data-m="{&quot;cN&quot;:&quot;Previous_nonnav&quot;,&quot;id&quot;:&quot;nn2c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}" tabindex="-1"></button>
+         <button class="c-action-trigger c-glyph glyph-chevron-right js-secondary-paddle" aria-label="Scroll right" title="Scroll right" data-m="{&quot;cN&quot;:&quot;Next_nonnav&quot;,&quot;id&quot;:&quot;nn3c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}" tabindex="-1"></button>
+         <nav id="uhf-c-nav" role="navigation" aria-label="investor relations" class="js-paddle-items">
+          <a id="mobileHomeLink" class="c-uhf-nav-link x-uhf-zero-width" href="/en-us/investor/default.aspx" data-m="{&quot;id&quot;:&quot;n4c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">Home</a>
+          <div class="c-uhf-menu js-nav-menu" role="none">
+           <button id="m-company-information" aria-expanded="false" aria-haspopup="true" data-m="{&quot;cN&quot;:&quot;CatNav_Company Information_nonnav&quot;,&quot;id&quot;:&quot;nn5c4c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">Company Information</button>
+           <ul class="" aria-labelledby="m-company-information" aria-hidden="true" data-m="{&quot;cN&quot;:&quot;Company Information_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c4c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}" role="none">
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Company Overview \u0026 Strategy_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c6c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c4c1m1r1a1&quot;}"><a id="m-company-overview-and-strategy" class="js-subm-uhf-nav-link" href="/en-us/Investor/company-overview.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Company Overview \u0026 Strategy_nav&quot;,&quot;id&quot;:&quot;n1c1c6c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c6c4c1m1r1a1&quot;}">Company Overview &amp; Strategy</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Segment Information_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c6c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c6c4c1m1r1a1&quot;}"><a id="m-segment-information" class="js-subm-uhf-nav-link" href="/en-us/Investor/segment-information.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Segment Information_nav&quot;,&quot;id&quot;:&quot;n1c2c6c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c6c4c1m1r1a1&quot;}">Segment Information</a></li>
+           </ul>
+          </div>
+          <div class="c-uhf-menu js-nav-menu" role="none">
+           <button id="m-earnings-and-financials" aria-expanded="false" aria-haspopup="true" data-m="{&quot;cN&quot;:&quot;CatNav_Earnings \u0026 Financials_nonnav&quot;,&quot;id&quot;:&quot;nn7c4c1m1r1a1&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">Earnings &amp; Financials</button>
+           <ul class=" f-multi-column f-multi-column-3" aria-labelledby="m-earnings-and-financials" aria-hidden="true" data-m="{&quot;cN&quot;:&quot;Earnings \u0026 Financials_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c8c4c1m1r1a1&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}" role="none">
+            <li class="f-sub-menu js-nav-menu" data-m="{&quot;cN&quot;:&quot;Earnings Releases_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c8c4c1m1r1a1&quot;}"><button id="EarningsReleases-navigation" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;CatNav_Earnings Releases_nonnav&quot;,&quot;id&quot;:&quot;nn1c1c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c8c4c1m1r1a1&quot;}">Earnings Releases</button>
+             <ul aria-labelledby="EarningsReleases-navigation" aria-hidden="true" role="none">
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Press Release \u0026 Webcast_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c1c8c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c8c4c1m1r1a1&quot;}"><a id="m-er-press-release-and-webcast" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/FY-2018-Q2/press-release-webcast" data-m="{&quot;cN&quot;:&quot;CatNav_Press Release \u0026 Webcast_nav&quot;,&quot;id&quot;:&quot;n1c2c1c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c1c8c4c1m1r1a1&quot;}">Press Release &amp; Webcast</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Financial Statements_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c1c8c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c8c4c1m1r1a1&quot;}"><a id="m-er-financial-statements" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/FY-2018-Q2/income-statements" data-m="{&quot;cN&quot;:&quot;CatNav_Financial Statements_nav&quot;,&quot;id&quot;:&quot;n1c3c1c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c1c8c4c1m1r1a1&quot;}">Financial Statements</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Performance_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c1c8c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c8c4c1m1r1a1&quot;}"><a id="m-er-performance" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/FY-2018-Q2/performance" data-m="{&quot;cN&quot;:&quot;CatNav_Performance_nav&quot;,&quot;id&quot;:&quot;n1c4c1c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c1c8c4c1m1r1a1&quot;}">Performance</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Metrics_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c1c8c4c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c1c8c4c1m1r1a1&quot;}"><a id="m-er-kpi" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/FY-2018-Q2/metrics" data-m="{&quot;cN&quot;:&quot;CatNav_Metrics_nav&quot;,&quot;id&quot;:&quot;n1c5c1c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c1c8c4c1m1r1a1&quot;}">Metrics</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Segment Results_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c1c8c4c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c1c8c4c1m1r1a1&quot;}"><a id="m-er-segment-results" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/FY-2018-Q2/productivity-and-business-processes-performance" data-m="{&quot;cN&quot;:&quot;CatNav_Segment Results_nav&quot;,&quot;id&quot;:&quot;n1c6c1c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c1c8c4c1m1r1a1&quot;}">Segment Results</a></li>
+             </ul></li>
+            <li class="f-sub-menu js-nav-menu" data-m="{&quot;cN&quot;:&quot;Financial Statements_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c8c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c8c4c1m1r1a1&quot;}"><button id="FinancialStatements-navigation" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;CatNav_Financial Statements_nonnav&quot;,&quot;id&quot;:&quot;nn1c2c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c8c4c1m1r1a1&quot;}">Financial Statements</button>
+             <ul aria-labelledby="FinancialStatements-navigation" aria-hidden="true" role="none">
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Income Statements_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c2c8c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c2c8c4c1m1r1a1&quot;}"><a id="m-er-income-statements" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/FY-2018-Q2/income-statements" data-m="{&quot;cN&quot;:&quot;CatNav_Income Statements_nav&quot;,&quot;id&quot;:&quot;n1c2c2c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c2c8c4c1m1r1a1&quot;}">Income Statements</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Comprehensive Income_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c2c8c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c2c8c4c1m1r1a1&quot;}"><a id="m-er-comprehensive-income" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/FY-2018-Q2/comprehensive-income" data-m="{&quot;cN&quot;:&quot;CatNav_Comprehensive Income_nav&quot;,&quot;id&quot;:&quot;n1c3c2c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c2c8c4c1m1r1a1&quot;}">Comprehensive Income</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Balance Sheets_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c2c8c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c2c8c4c1m1r1a1&quot;}"><a id="m-er-balance-sheets" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/FY-2018-Q2/balance-sheets" data-m="{&quot;cN&quot;:&quot;CatNav_Balance Sheets_nav&quot;,&quot;id&quot;:&quot;n1c4c2c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c2c8c4c1m1r1a1&quot;}">Balance Sheets</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Cash Flows_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c2c8c4c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c2c8c4c1m1r1a1&quot;}"><a id="m-er-cash-flows" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/FY-2018-Q2/cash-flows" data-m="{&quot;cN&quot;:&quot;CatNav_Cash Flows_nav&quot;,&quot;id&quot;:&quot;n1c5c2c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c2c8c4c1m1r1a1&quot;}">Cash Flows</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Segment Revenue \u0026 Operating Income_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c2c8c4c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c2c8c4c1m1r1a1&quot;}"><a id="m-er-segment-revenue-and-gross-margin" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/FY-2018-Q2/segment-revenues" data-m="{&quot;cN&quot;:&quot;CatNav_Segment Revenue \u0026 Operating Income_nav&quot;,&quot;id&quot;:&quot;n1c6c2c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c2c8c4c1m1r1a1&quot;}">Segment Revenue &amp; Operating Income</a></li>
+             </ul></li>
+            <li class="f-sub-menu js-nav-menu" data-m="{&quot;cN&quot;:&quot;Trended Historical Financials_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c8c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c8c4c1m1r1a1&quot;}"><button id="TrendedHistoricalFinancials-navigation" aria-expanded="false" data-m="{&quot;cN&quot;:&quot;CatNav_Trended Historical Financials_nonnav&quot;,&quot;id&quot;:&quot;nn1c3c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c8c4c1m1r1a1&quot;}">Trended Historical Financials</button>
+             <ul aria-labelledby="TrendedHistoricalFinancials-navigation" aria-hidden="true" role="none">
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Quarterly Income Statements_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c3c8c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c3c8c4c1m1r1a1&quot;}"><a id="m-trended-quarterly-income-statements" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/trended/quarterly-income-statements.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Quarterly Income Statements_nav&quot;,&quot;id&quot;:&quot;n1c2c3c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c3c8c4c1m1r1a1&quot;}">Quarterly Income Statements</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Segment History_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c3c8c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c3c8c4c1m1r1a1&quot;}"><a id="m-trended-segment-history" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/trended/segment-history.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Segment History_nav&quot;,&quot;id&quot;:&quot;n1c3c3c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c3c8c4c1m1r1a1&quot;}">Segment History</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Yearly Income Statements_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c3c8c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c3c8c4c1m1r1a1&quot;}"><a id="m-trended-yearly-income-statements" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/trended/yearly-income-statements.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Yearly Income Statements_nav&quot;,&quot;id&quot;:&quot;n1c4c3c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c3c8c4c1m1r1a1&quot;}">Yearly Income Statements</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Return of Cash to Shareholders_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c3c8c4c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c3c8c4c1m1r1a1&quot;}"><a id="m-trended-returned-of-cash-to-shareholders" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/trended/cash-returned.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Return of Cash to Shareholders_nav&quot;,&quot;id&quot;:&quot;n1c5c3c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c3c8c4c1m1r1a1&quot;}">Return of Cash to Shareholders</a></li>
+              <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Capital Expenditure_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c3c8c4c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c3c8c4c1m1r1a1&quot;}"><a id="m-trended-capital-expenditure" class="js-subm-uhf-nav-link" href="/en-us/Investor/earnings/trended/capital-expenditure.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Capital Expenditure_nav&quot;,&quot;id&quot;:&quot;n1c6c3c8c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c3c8c4c1m1r1a1&quot;}">Capital Expenditure</a></li>
+             </ul></li>
+           </ul>
+          </div>
+          <a id="m-annual-reports" class="c-uhf-nav-link" href="/en-us/Investor/annual-reports.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Annual Reports_nav&quot;,&quot;id&quot;:&quot;n9c4c1m1r1a1&quot;,&quot;sN&quot;:9,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">Annual Reports</a>
+          <a id="m-sec-filings" class="c-uhf-nav-link" href="/en-us/Investor/sec-filings.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_SEC Filings_nav&quot;,&quot;id&quot;:&quot;n10c4c1m1r1a1&quot;,&quot;sN&quot;:10,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">SEC Filings</a>
+          <div class="c-uhf-menu js-nav-menu" role="none">
+           <button id="m-events" aria-expanded="false" aria-haspopup="true" data-m="{&quot;cN&quot;:&quot;CatNav_Events_nonnav&quot;,&quot;id&quot;:&quot;nn11c4c1m1r1a1&quot;,&quot;sN&quot;:11,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">Events</button>
+           <ul class="" aria-labelledby="m-events" aria-hidden="true" data-m="{&quot;cN&quot;:&quot;Events_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c12c4c1m1r1a1&quot;,&quot;sN&quot;:12,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}" role="none">
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;All Events_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c12c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c12c4c1m1r1a1&quot;}"><a id="m-all-events" class="js-subm-uhf-nav-link" href="/en-us/investor/events/default.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_All Events_nav&quot;,&quot;id&quot;:&quot;n1c1c12c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c12c4c1m1r1a1&quot;}">All Events</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Past Events_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c12c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c12c4c1m1r1a1&quot;}"><a id="m-past-events" class="js-subm-uhf-nav-link" href="/en-us/investor/events/events-recent.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Past Events_nav&quot;,&quot;id&quot;:&quot;n1c2c12c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c12c4c1m1r1a1&quot;}">Past Events</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Upcoming Events_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c12c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c12c4c1m1r1a1&quot;}"><a id="m-upcoming-events" class="js-subm-uhf-nav-link" href="/en-us/investor/events/events-upcoming.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Upcoming Events_nav&quot;,&quot;id&quot;:&quot;n1c3c12c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c12c4c1m1r1a1&quot;}">Upcoming Events</a></li>
+           </ul>
+          </div>
+          <div class="c-uhf-menu js-nav-menu" role="none">
+           <button id="m-investor-services" aria-expanded="false" aria-haspopup="true" data-m="{&quot;cN&quot;:&quot;CatNav_Investor Information_nonnav&quot;,&quot;id&quot;:&quot;nn13c4c1m1r1a1&quot;,&quot;sN&quot;:13,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">Investor Information</button>
+           <ul class="" aria-labelledby="m-investor-services" aria-hidden="true" data-m="{&quot;cN&quot;:&quot;Investor Information_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c14c4c1m1r1a1&quot;,&quot;sN&quot;:14,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}" role="none">
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Information for Investors_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c14c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c14c4c1m1r1a1&quot;}"><a id="m-information-for-investors" class="js-subm-uhf-nav-link" href="/en-us/investor/investor-information.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Information for Investors_nav&quot;,&quot;id&quot;:&quot;n1c1c14c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c14c4c1m1r1a1&quot;}">Information for Investors</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Annual Meeting_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c14c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c14c4c1m1r1a1&quot;}"><a id="m-annual-meeting" class="js-subm-uhf-nav-link" href="/en-us/investor/annual-meeting.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Annual Meeting_nav&quot;,&quot;id&quot;:&quot;n1c2c14c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c14c4c1m1r1a1&quot;}">Annual Meeting</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Dividends \u0026 Stock History_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c14c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c14c4c1m1r1a1&quot;}"><a id="m-dividends-and-stock-history" class="js-subm-uhf-nav-link" href="/en-us/Investor/dividends-and-stock-history.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Dividends \u0026 Stock History_nav&quot;,&quot;id&quot;:&quot;n1c3c14c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c14c4c1m1r1a1&quot;}">Dividends &amp; Stock History</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Investment History_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c14c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c14c4c1m1r1a1&quot;}"><a id="m-investment-history" class="js-subm-uhf-nav-link" href="/en-us/Investor/investment-history.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Investment History_nav&quot;,&quot;id&quot;:&quot;n1c4c14c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c14c4c1m1r1a1&quot;}">Investment History</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Acquisition History_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c14c4c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c14c4c1m1r1a1&quot;}"><a id="m-acquisition-history" class="js-subm-uhf-nav-link" href="/en-us/Investor/acquisition-history.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Acquisition History_nav&quot;,&quot;id&quot;:&quot;n1c5c14c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c14c4c1m1r1a1&quot;}">Acquisition History</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;FAQ_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c14c4c1m1r1a1&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c14c4c1m1r1a1&quot;}"><a id="m-faq" class="js-subm-uhf-nav-link" href="/en-us/investor/faq.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_FAQ_nav&quot;,&quot;id&quot;:&quot;n1c6c14c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c14c4c1m1r1a1&quot;}">FAQ</a></li>
+           </ul>
+          </div>
+          <div class="c-uhf-menu js-nav-menu" role="none">
+           <button id="m-governance-and-citizenship" aria-expanded="false" aria-haspopup="true" data-m="{&quot;cN&quot;:&quot;CatNav_Governance \u0026 CSR_nonnav&quot;,&quot;id&quot;:&quot;nn15c4c1m1r1a1&quot;,&quot;sN&quot;:15,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">Governance &amp; CSR</button>
+           <ul class="" aria-labelledby="m-governance-and-citizenship" aria-hidden="true" data-m="{&quot;cN&quot;:&quot;Governance \u0026 CSR_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c16c4c1m1r1a1&quot;,&quot;sN&quot;:16,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}" role="none">
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Overview_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c16c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c16c4c1m1r1a1&quot;}"><a id="m-cg-overview" class="js-subm-uhf-nav-link" href="/en-us/Investor/corporate-governance/overview.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Overview_nav&quot;,&quot;id&quot;:&quot;n1c1c16c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c16c4c1m1r1a1&quot;}">Overview</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Framework_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c16c4c1m1r1a1&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c16c4c1m1r1a1&quot;}"><a id="m-cg-goals" class="js-subm-uhf-nav-link" href="/en-us/Investor/corporate-governance/framework.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Framework_nav&quot;,&quot;id&quot;:&quot;n1c2c16c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c16c4c1m1r1a1&quot;}">Framework</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Board of Directors_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c16c4c1m1r1a1&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c16c4c1m1r1a1&quot;}"><a id="m-cg-board-of-directors" class="js-subm-uhf-nav-link" href="/en-us/Investor/corporate-governance/board-of-directors.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Board of Directors_nav&quot;,&quot;id&quot;:&quot;n1c3c16c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c16c4c1m1r1a1&quot;}">Board of Directors</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Shareholder Engagement_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c16c4c1m1r1a1&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c16c4c1m1r1a1&quot;}"><a id="m-cg-shareholders-engagement" class="js-subm-uhf-nav-link" href="/en-us/Investor/corporate-governance/shareholder-engagement.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Shareholder Engagement_nav&quot;,&quot;id&quot;:&quot;n1c4c16c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c16c4c1m1r1a1&quot;}">Shareholder Engagement</a></li>
+            <li class="js-nav-menu" data-m="{&quot;cN&quot;:&quot;Policies \u0026 Guidelines_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c16c4c1m1r1a1&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c16c4c1m1r1a1&quot;}"><a id="m-cg-policies-and-guidelines" class="js-subm-uhf-nav-link" href="/en-us/Investor/corporate-governance/policies.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Policies \u0026 Guidelines_nav&quot;,&quot;id&quot;:&quot;n1c5c16c4c1m1r1a1&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c16c4c1m1r1a1&quot;}">Policies &amp; Guidelines</a></li>
+           </ul>
+          </div>
+          <a id="m-contacts" class="c-uhf-nav-link" href="/en-us/Investor/contact-information.aspx" data-m="{&quot;cN&quot;:&quot;CatNav_Contacts_nav&quot;,&quot;id&quot;:&quot;n17c4c1m1r1a1&quot;,&quot;sN&quot;:17,&quot;aN&quot;:&quot;c4c1m1r1a1&quot;}">Contacts</a>
+         </nav>
+        </div>
+       </div>
+      </header>
+     </div>
+    </div>
+   </section></span>
+  <div class="CSPvNext " xmlns="http://www.w3.org/1999/xhtml">
+   <span class="page-data-sources"></span>
+   <div id="signtesting" style="display: none"></div>
+   <div id="frameContainer" style="display: none"></div> 
+   <script>/*<![CDATA[*/function createSilentAuthFrame(){var n=document.createElement("iframe");n.src="https://"+window.location.hostname+"/en-us/silentauth";n.style="display: none";window.mscc?mscc.hasConsent()&&document.getElementById("frameContainer").appendChild(n):document.getElementById("frameContainer").appendChild(n)}window.addEventListener?window.addEventListener("load",createSilentAuthFrame,!1):window.attachEvent?window.attachEvent("onload",createSilentAuthFrame):window.onload=createSilentAuthFrame/*]]>*/</script>
+   <script>/*<![CDATA[*/function MscomLoadOptions(){var t="",n=document.createElement("meta"),i;n.name="ms.auth";n.content=isUserSignedIn;document.head&&document.head.appendChild(n);i={meControlOptions:{rpData:{msaInfo:{signInUrl:mscomSignInUrl,signOutUrl:mscomSignOutUrl},aadInfo:{signInUrl:mscomSignInUrl,signOutUrl:mscomSignOutUrl}},userData:{idp:authenticationType==="RPS"?window.msCommonShell.SupportedAuthIdp.MSA:window.msCommonShell.SupportedAuthIdp.AAD,firstName:typeof aFirstName=="undefined"?"":aFirstName,lastName:typeof aLastName=="undefined"?"":aLastName,memberName:typeof aMemberName=="undefined"?"":aMemberName,cid:typeof aCid=="undefined"?"":aCid,authenticatedState:typeof aAuthenticatedState=="undefined"?window.msCommonShell.AuthState.NotSignedIn:aAuthenticatedState}},events:{onSearch:function(){},onEventLog:function(n){if(typeof ms!="undefined")switch(n){case"MeControl_SignIn":if(t!==""){var i="//microsoftwindows.112.2o7.net/b/ss/msstores1-cmstest-prod/1/H.24.4/",e=((1+Math.random())*65536|0).toString(16).substring(1),u=encodeURIComponent(window.location.pathname.toLowerCase()),o=e+"?ns=microsoftwindows%26pageName=sitemuse%26v1=sitemuse%26events=event2%26c2=ToReplacepth1%26v2=ToReplacepth2%26pe=lnk_o%26pev2=click_sitemuse%26c3=signInClick%26v3=signInClick%26c4=no%26v4=no",s=new Image(0,0);i=i+decodeURIComponent(o);i=i.replace("ToReplacepth1",u);i=i.replace("ToReplacepth2",u);s.src=i}break;case"MeControl_SignOutAll":if(t!==""){var r="//microsoftwindows.112.2o7.net/b/ss/msstores1-cmstest-prod/1/H.24.4/",h=((1+Math.random())*65536|0).toString(16).substring(1),f=encodeURIComponent(window.location.pathname.toLowerCase()),c=h+"?ns=microsoftwindows%26pageName=sitemuse%26v1=sitemuse%26events=event2%26c2=ToReplacepth1%26v2=ToReplacepth2%26pe=lnk_o%26pev2=click_sitemuse%26c3=signOutClick%26v3=signOutClick%26c4=no%26v4=no",l=new Image(0,0);r=r+decodeURIComponent(c);r=r.replace("ToReplacepth1",f);r=r.replace("ToReplacepth2",f);l.src=i}break;case"MeControl_DropdownReady":console.log($(".msame_Header_chev").text());$(".msame_Header_chev").length&&($(".msame_Header_chev").text()?$(".msame_Header_chev").html($(".msame_Header_chev").text()).show():$(".msame_Header_chev").hide())}}}};window.msCommonShell.load(i)}var isUserSignedIn="0",href=encodeURIComponent(location.href),authenticationType="",mscomSignInUrl="/en-us/signin.aspx",mscomSignOutUrl="/en-us/signout.aspx";window.msCommonShell?MscomLoadOptions():window.onShellReadyToLoad=function(){window.onShellReadyToLoad=null;MscomLoadOptions()}/*]]>*/</script>
+  </div>
+  <script>/*<![CDATA[*/function DecodeHTML(){$(".msame_Header_chev").length&&($(".msame_Header_chev").text()?$(".msame_Header_chev").html($(".msame_Header_chev").text()).show():$(".msame_Header_chev").hide())}function checkDecode(){DecodeHTML();$(".msame_Header_chev").unbind("DOMSubtreeModified",checkDecode);$(".msame_Header_chev").unbind("DOMNodeInserted",checkDecode)}$(document).ready(function(){var i=document.getElementById("cli_shellHeaderSearchInput"),t=$(i).attr("placeholder").match(/&#(\d+);/g),r=t&&t.length,n;if(r)for(n=0;n<r;n++)i.placeholder=i.placeholder.replace(t[n],String.fromCharCode(t[n].match(/\d+/)))});$(document).ready(DecodeHTML);$(window).load(DecodeHTML);$(window).resize(function(){$(".msame_Header_chev").bind("DOMSubtreeModified",checkDecode);$(".msame_Header_chev").bind("DOMNodeInserted",checkDecode)});var _elementFound=!1;$(document).bind("DOMSubtreeModified",function(){_elementFound||$(".msame_chev_uhf").length>0&&(DecodeHTML(),_elementFound=!0)})/*]]>*/</script>
+  <main tabindex="-1" id="mainContent" role="main" data-grid="container">
+   <div class="CSPvNext " xmlns="http://www.w3.org/1999/xhtml">
+    <span class="page-data-sources">
+     <!--<mscom:investortransformdatasource name="DS"  md:xmlpayloadguid="2a9055d9-3869-40d5-b8e1-037f9bcb9a73"  md:mappingxmlpayloadguid="35c5fd83-505e-4573-9659-1d4855a29870" md:xslpayloadguid="cd605261-5bed-4200-94ad-dada0fd934ee"></mscom:investortransformdatasource>--></span>
+    <h1 class="hidden">Microsoft Investor Relations - Home Page </h1>
+    <div data-grid="col-12">
+     <div class="m-hero" id="HeroSpot">
+      <div class="c-carousel f-multi-slide f-auto-play" role="region" aria-label="Marketing Spot slideshow: navigate using the previous and next" data-js-interval="15000">
+       <div class="c-group">
+        <div class="c-sequence-indicator" role="tablist">
+         <button title="View slide 1" role="tab" aria-selected="true" aria-controls="item1" aria-label="View slide 1"></button>
+         <button title="View slide 2" role="tab" aria-selected="false" aria-controls="item2" aria-label="View slide 2"></button>
+         <button title="View slide 3" role="tab" aria-selected="false" aria-controls="item3" aria-label="View slide 3"></button>
+         <button title="View slide 4" role="tab" aria-selected="false" aria-controls="item4" aria-label="View slide 4"></button>
+         <!--<button title="View slide 5" role="tab" aria-selected="false" aria-controls="item5" aria-label="View slide 5"></button>
+                <button title="View slide 6" role="tab" aria-selected="false" aria-controls="item6" aria-label="View slide 6"></button>
+                <button title="View slide 7" role="tab" aria-selected="false" aria-controls="item7" aria-label="View slide 7"></button>-->
+        </div>
+        <button title="play or pause" class="c-action-toggle  c-glyph  glyph-play f-toggle" role="button" aria-pressed="false" aria-label="Play slideshow" data-toggled-label="Pause slideshow" data-toggled-glyph="glyph-pause"><span class="x-screen-reader">Play slideshow&nbsp;</span></button>
+       </div>
+       <button tabindex="-1" title="View previous slide" class="c-flipper f-previous" aria-hidden="true" aria-label="View previous slide"></button>
+       <button tabindex="-1" title="View next slide" class="c-flipper f-next" aria-hidden="true" aria-label="View next slide"></button>
+       <div>
+        <ul>
+         <li class="f-active" id="item1" role="tabpanel" data-f-theme="light">
+          <section class="m-hero-item f- f-x-right f-y-center context-accessory theme-light f-mask-60">
+           <picture>
+            <source media="(min-width: 1779px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MS-Exec-Nadella-Satya-1600x600.jpg?version=4e5e87c2-814c-2e73-7c8d-09b00acec321">
+            <source media="(min-width: 1400px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MS-Exec-Nadella-Satya-1600x600.jpg?version=4e5e87c2-814c-2e73-7c8d-09b00acec321">
+            <source media="(min-width: 1084px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MS-Exec-Nadella-Satya-1259x472.jpg?version=285c935c-9efa-dcfb-83b8-a057ac945086">
+            <source media="(min-width:768px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MS-Exec-Nadella-Satya-1083x609.jpg?version=923982d5-d636-ce61-d43d-1673900d901f">
+            <source media="(min-width:540px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MS-Exec-Nadella-Satya-767x431.jpg?version=068bd6cb-c444-f880-e45f-0e3afadbc758">
+            <source media="(min-width:0)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MS-Exec-Nadella-Satya-539x303.jpg?version=601c1a01-883b-6618-3b9f-1aa2122fa4ae">
+            <img alt="Microsoft FY18 Q1 Earnings" src="https://c.s-microsoft.com/en-us/CMSImages/MS-Exec-Nadella-Satya-1259x472.jpg?version=285c935c-9efa-dcfb-83b8-a057ac945086" srcset="https://c.s-microsoft.com/en-us/CMSImages/MS-Exec-Nadella-Satya-1259x472.jpg?version=285c935c-9efa-dcfb-83b8-a057ac945086">
+           </picture>
+           <div>
+            <div>
+             <h2 class="c-heading">Microsoft FY18 Q2 Earnings</h2>
+             <p class="c-subheading">January 31, 2018</p>
+             <div>
+              <a target="_self" class="mscom-link c-call-to-action c-glyph" title="See FY18Q2 Earnings Release" href="https://www.microsoft.com/en-us/Investor/earnings/FY-2018-Q2/press-release-webcast">SEE DETAILS</a>
+             </div>
+            </div>
+           </div>
+          </section></li>
+         <li id="item2" role="tabpanel" data-f-theme="light">
+          <section class="m-hero-item f- f-x-right f-y-center context-accessory theme-light ARImg">
+           <picture>
+            <source media="(min-width: 1779px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_SP4_MoPro_1600x600.jpg?version=350ca15e-922e-0d16-dc95-ea2dec2e08b2">
+            <source media="(min-width: 1400px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_SP4_MoPro_1600x600.jpg?version=350ca15e-922e-0d16-dc95-ea2dec2e08b2">
+            <source media="(min-width: 1084px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_SP4_MoPro_1259x472.jpg?version=deb16315-bc69-cdf3-e3cb-1168a9370563">
+            <source media="(min-width:768px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_SP4_MoPro_1083x609.jpg?version=7945d24d-6eb3-0675-6d16-c88927f8f192">
+            <source media="(min-width:540px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_SP4_MoPro_767x431.jpg?version=99450bf5-f520-7e17-987d-14378f5ceb65">
+            <source media="(min-width:0)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_SP4_MoPro_539x303.jpg?version=7f44b009-72c6-ad51-9531-0e1804b16ded">
+            <img alt="2017 Annual Report" src="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_SP4_MoPro_1259x472.jpg?version=deb16315-bc69-cdf3-e3cb-1168a9370563" srcset="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_SP4_MoPro_1259x472.jpg?version=deb16315-bc69-cdf3-e3cb-1168a9370563">
+           </picture>
+           <div>
+            <div>
+             <h2 class="c-heading">2017 Annual Report</h2>
+             <div>
+              <a target="_blank" class="mscom-link c-call-to-action c-glyph" title="View 2017 Annual Report" href="https://www.microsoft.com/investor/reports/ar17/index.html">VIEW ONLINE</a>
+             </div>
+            </div>
+           </div>
+          </section></li>
+         <!--<li id="item3" role="tabpanel" data-f-theme="light">
+                    <section class="m-hero-item f- f-x-right f-y-center context-accessory theme-light">
+                        <picture>
+                            <source media="(min-width: 1779px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Interactive-Proxy-1600x600.jpg?version=b644256a-124b-63ff-4bce-0ef40fd00b88" />
+                            <source media="(min-width: 1400px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Interactive-Proxy-1600x600.jpg?version=b644256a-124b-63ff-4bce-0ef40fd00b88" />
+                            <source media="(min-width: 1084px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Interactive-Proxy-1259x472.jpg?version=bce607aa-2827-5b65-f8ac-57e71f6be2f0" />
+                            <source media="(min-width:768px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Interactive-Proxy-1083x609.jpg?version=d7ff211c-ff50-0d55-84b1-b98c70e497d6" />
+                            <source media="(min-width:540px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Interactive-Proxy-767x431.jpg?version=a69605ec-d505-3b13-0866-9e9025aa3e7a" />
+                            <source media="(min-width:0)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Interactive-Proxy-539x303.jpg?version=c4cca028-4f6a-3f6a-2594-295204df0f51" />
+                            <img alt="Interactive Proxy" src="https://c.s-microsoft.com/en-us/CMSImages/Interactive-Proxy-1259x472.jpg?version=bce607aa-2827-5b65-f8ac-57e71f6be2f0"
+                            srcset="https://c.s-microsoft.com/en-us/CMSImages/Interactive-Proxy-1259x472.jpg?version=bce607aa-2827-5b65-f8ac-57e71f6be2f0"></img>
+                        </picture>
+                        <div>
+                            <div>
+                                <h2 class="c-heading">Interactive Proxy</h2>
+                                <p class="c-subheading"></p>
+                                <div>
+                                    <mscom:link title="View Interactive Proxy" href="https://iiwisdom.com/msft-2017" target="_blank"
+                                    classoverride="c-call-to-action c-glyph" text="VIEW ONLINE"></mscom:link>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </li>-->
+         <!--<li id="item4" role="tabpanel" data-f-theme="dark">
+                    <section class="m-hero-item f- f-x-right f-y-center context-accessory theme-dark">
+                        <picture>
+                            <source media="(min-width: 1779px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_Studio_CEO-1600x600.jpg?version=21987718-66a5-46c6-5de6-4ad19cde55cc" />
+                            <source media="(min-width: 1400px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_Studio_CEO-1600x600.jpg?version=21987718-66a5-46c6-5de6-4ad19cde55cc" />
+                            <source media="(min-width: 1084px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_Studio_CEO-1259x472.jpg?version=e94a4f16-4909-41fa-6140-3bd7977966d0" />
+                            <source media="(min-width:768px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_Studio_CEO-1083x609.jpg?version=6e562a14-9faa-928a-2679-bca3ebbc19c3" />
+                            <source media="(min-width:540px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_Studio_CEO-767x431.jpg?version=62119393-40eb-b6c2-8c78-9f9ec4b7206f" />
+                            <source media="(min-width:0)" srcset="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_Studio_CEO-539x303.jpg?version=61713e6e-2397-23a4-546b-01ac429cfcbf" />
+                            <img alt="Vote Your Proxy" src="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_Studio_CEO-1259x472.jpg?version=e94a4f16-4909-41fa-6140-3bd7977966d0"
+                            srcset="https://c.s-microsoft.com/en-us/CMSImages/MSSurface_Studio_CEO-1259x472.jpg?version=e94a4f16-4909-41fa-6140-3bd7977966d0"></img>
+                        </picture>
+                        <div>
+                            <div>
+                                <h2 class="c-heading">Proxy Voting Results<br /></h2>
+                                <p class="c-subheading"></p>
+                                <div>
+                                    <mscom:link title="See 2017 proxy voting results" classoverride="c-call-to-action c-glyph"
+                                    text="SEE DETAILS" md:payloadguid="a22c96cd-5924-4fe9-a062-15780eaf5104"></mscom:link>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </li>-->
+         <li id="item3" role="tabpanel" data-f-theme="light">
+          <section class="m-hero-item f- f-x-left f-y-center context-accessory theme-light f-mask-60">
+           <picture>
+            <source media="(min-width: 1779px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Sandi-Peterson-1600x600.jpg?version=b86eb0a2-5507-d47d-850b-193f10e524c7">
+            <source media="(min-width: 1400px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Sandi-Peterson-1600x600.jpg?version=b86eb0a2-5507-d47d-850b-193f10e524c7">
+            <source media="(min-width: 1084px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Sandi-Peterson-1259x472.jpg?version=03eeaea7-77ff-2e8b-2360-da9abd61fd56">
+            <source media="(min-width:768px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Sandi-Peterson-1083x609.jpg?version=7fbf909b-29f1-e0c2-f6aa-a332d0a91041">
+            <source media="(min-width:540px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Sandi-Peterson-767x431.jpg?version=bf6965fc-5cfe-8dd7-0bfb-21fc7c2b8905">
+            <source media="(min-width:0)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Sandi-Peterson-539x303.jpg?version=a13d9619-aa2d-bd03-2599-a04f9859a227">
+            <img alt="Interview with Microsoft Board Member Sandra Peterson" src="https://c.s-microsoft.com/en-us/CMSImages/Sandi-Peterson-1259x472.jpg?version=03eeaea7-77ff-2e8b-2360-da9abd61fd56" srcset="https://c.s-microsoft.com/en-us/CMSImages/Sandi-Peterson-1259x472.jpg?version=03eeaea7-77ff-2e8b-2360-da9abd61fd56">
+           </picture>
+           <div>
+            <div>
+             <h2 class="c-heading" style="max-height:100%">Interview with Microsoft Board Member Sandra Peterson</h2>
+             <p class="c-subheading"></p>
+             <div>
+              <a target="_blank" class="mscom-link c-call-to-action c-glyph" title="Watch the video interview with Sandra Peterson" href="https://youtu.be/mzxGUD3FRJw">WATCH THE VIDEO</a>
+             </div>
+            </div>
+           </div>
+          </section></li>
+         <li id="item4" role="tabpanel" data-f-theme="light">
+          <section class="m-hero-item f- f-x-left f-y-center context-accessory theme-light f-mask-60">
+           <picture>
+            <source media="(min-width: 1779px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Team-Members-1600x600.jpg?version=5e0c9f9d-efe3-8260-db5f-8e5ceacfe78a">
+            <source media="(min-width: 1400px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Team-Members-1600x600.jpg?version=5e0c9f9d-efe3-8260-db5f-8e5ceacfe78a">
+            <source media="(min-width: 1084px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Team-Members-1259x472.jpg?version=a2926f8e-4594-cfe3-6872-ecfdfc866ae9">
+            <source media="(min-width:768px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Team-Members-1083x609.jpg?version=6763d012-8329-50e0-5b0d-977498516801">
+            <source media="(min-width:540px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Team-Members-767x431.jpg?version=de139638-6e92-d385-3bb3-f58e8deec998">
+            <source media="(min-width:0)" srcset="https://c.s-microsoft.com/en-us/CMSImages/Team-Members-539x303.jpg?version=bfaa17fe-20ae-8900-0bbc-2d9dcb77957a">
+            <img alt="Official Microsoft Blog" src="https://c.s-microsoft.com/en-us/CMSImages/Team-Members-1259x472.jpg?version=a2926f8e-4594-cfe3-6872-ecfdfc866ae9" srcset="https://c.s-microsoft.com/en-us/CMSImages/Team-Members-1259x472.jpg?version=a2926f8e-4594-cfe3-6872-ecfdfc866ae9">
+           </picture>
+           <div>
+            <div>
+             <h2 class="c-heading">Official Microsoft Blog</h2>
+             <p class="c-subheading"></p>
+             <div>
+              <a target="_blank" class="mscom-link c-call-to-action c-glyph" title="Learn More about the Official Microsoft Blog" href="https://blogs.microsoft.com/#sm.00000iczr0fgnkdaaqqzo14n7umuh">LEARN MORE</a>
+             </div>
+            </div>
+           </div>
+          </section></li>
+         <!--<li id="item7" role="tabpanel" data-f-theme="dark">
+                    <section class="m-hero-item f- f-x-left f-y-center context-accessory theme-dark f-mask-80">
+                        <picture>
+                            <source media="(min-width: 1779px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/FAB2-1600x600.jpg?version=6b5ca284-d5f1-243a-c5bd-83340100781e" />
+                            <source media="(min-width: 1400px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/FAB2-1600x600.jpg?version=6b5ca284-d5f1-243a-c5bd-83340100781e" />
+                            <source media="(min-width: 1084px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/FAB2-1259x472.jpg?version=8fdd105f-0871-9b81-320b-1b5ceeca6c7b" />
+                            <source media="(min-width:768px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/FAB2-1083x609.jpg?version=74ec3667-c1dc-6f38-3048-c91330594198" />
+                            <source media="(min-width:540px)" srcset="https://c.s-microsoft.com/en-us/CMSImages/FAB2-767x431.jpg?version=25d0c8df-621c-7cd2-2697-a1e7653bd414" />
+                            <source media="(min-width:0)" srcset="https://c.s-microsoft.com/en-us/CMSImages/FAB2-539x303.jpg?version=678ee87f-cc9c-8b96-62e1-646943f0b9b1" />
+                            <img alt="Microsoft Financial Analyst Briefing" src="https://c.s-microsoft.com/en-us/CMSImages/FAB2-1259x472.jpg?version=8fdd105f-0871-9b81-320b-1b5ceeca6c7b"
+                            srcset="https://c.s-microsoft.com/en-us/CMSImages/FAB2-1259x472.jpg?version=8fdd105f-0871-9b81-320b-1b5ceeca6c7b"></img>
+                        </picture>
+                        <div>
+                            <div>
+                                <h2 class="c-heading">Microsoft Financial Analyst Briefing</h2>
+                                <p class="c-subheading">May 10, 2017 Seattle</p>
+                                <div>
+                                    <mscom:link title="See details of the Microsoft Financial Analyst Briefing" target="_blank"
+                                    classoverride="c-call-to-action c-glyph" text="REVISIT THE EVENT" md:payloadguid="ef5755bb-70e4-4dde-8083-9daa1e0f36d4"></mscom:link>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </li>-->
+        </ul>
+       </div>
+      </div>
+     </div>
+    </div>
+    <script type="text/javascript" src="/en-us/CMSScripts/IRNews-mwf.js?version=4860709d-f234-18e8-7ec0-43b590097f70">/*<![CDATA[*/  /*]]>*/</script>
+    <div data-grid="col-12" class="newsContainer y-margin-bottom"> 
+     <div id="IRNews" data-grid="container pad-12x"> 
+      <div data-grid="col-12" class="m-hero"> 
+       <div class="c-carousel f-multi-slide f-auto-play" role="region" aria-label="News bar slideshow: navigate using the arrow keys" data-js-interval="15000"> 
+        <div> 
+         <h2 class="c-subheading-3">NEWS</h2> 
+        </div> 
+        <div class="c-group"> 
+         <div class="c-sequence-indicator" role="tablist"></div>
+         <button class="c-action-toggle c-glyph glyph-play f-toggle" data-toggled-label="Pause" data-toggled-glyph="glyph-pause" aria-label="Play"></button>
+        </div> 
+        <div id="feeds"> 
+         <ul></ul> 
+        </div> 
+       </div> 
+      </div> 
+     </div>
+     <script type="text/javascript"> 
+             var newsbar = new IRNews();        
+               
+       newsbar.addfeed("Microsoft brings series of YouthSpark events to US military bases", "https://military.microsoft.com/2018/03/microsoft-brings-series-youthspark-events-u-s-military-bases/",1);
+       newsbar.addbutton(1);
+        
+       newsbar.addfeed("Video: When its customers demanded innovation, Norwegian power company Agder Energi joined the revolution", "http://trnsfrm.ms/agder",2);
+       newsbar.addbutton(2);
+        
+       newsbar.addfeed("Microsoft and ClearSky announce SMB licensing partnership", "https://news.microsoft.com/2018/03/23/microsoft-and-clearsky-announce-smb-licensing-partnership/",3);
+       newsbar.addbutton(3);
+        
+       newsbar.addfeed("Sir David Attenborough is giving behind-the-scenes tours of the Natural History Museum as a hologram", "https://news.microsoft.com/en-gb/2018/03/23/sir-david-attenborough-is-giving-behind-the-scenes-tours-of-the-natural-history-museum-as-a-hologram/",4);
+       newsbar.addbutton(4);
+      
+          newsbar.addfeed("See the latest news from Microsoft", "http://news.microsoft.com/",5);
+          newsbar.addbutton(5);
+        </script> 
+    </div>
+    <div data-grid="container stack-2 pad-12x">
+     <div class="row">
+      <div class="col-1-1">
+       <script type="text/javascript" src="/en-us/CMSScripts/IRStock.js?version=1201fd06-a233-2fb9-2340-48dba3a158e0">/*<![CDATA[*/  /*]]>*/</script>
+      </div>
+     </div>
+     <div class="IRStock_AR y-margin-bottom" role="region" aria-label="Live Stock Information" data-grid="col-12 stack-2">
+      <div data-grid="col-12">
+       <h2 class="c-heading-2">Microsoft Corp (MSFT)</h2>
+      </div>
+      <div style="margin-top:48px;" data-grid="col-12">
+       <div class="IRStock left" id="IRStock" data-grid="col-9">
+        <div class="MicrosoftCorp_price">
+         <a href="http://www.msn.com/en-us/money/stockdetails/fi-126.1.MSFT.NAS" target="_blank">
+          <div class="c-heading-1 MicrosoftCorp_last"></div>
+          <div class="c-subheading-2 MicrosoftCorp_Change"></div></a>
+        </div>
+        <div tabindex="0" class="chart_details c-subheading-2" aria-label="stock details table">
+         <table>
+          <tbody>
+           <tr>
+            <td class="MicrosoftCorp_left">Volume</td>
+            <td class="MicrosoftCorp_volume MicrosoftCorp_right"></td>
+           </tr>
+           <tr>
+            <td class="MicrosoftCorp_left">Market Cap</td>
+            <td class="MicrosoftCorp_cap MicrosoftCorp_right"></td>
+           </tr>
+           <tr>
+            <td class="MicrosoftCorp_left">52 Week High</td>
+            <td class="MicrosoftCorp_yearhigh MicrosoftCorp_right"></td>
+           </tr>
+           <tr>
+            <td class="MicrosoftCorp_left">52 Week Low</td>
+            <td class="MicrosoftCorp_yearlow MicrosoftCorp_right"></td>
+           </tr>
+          </tbody>
+         </table>
+        </div>
+        <div tabindex="0" class="stock-chart-container"></div>
+        <div class="chart_des" data-grid="col-12">
+         <div class="MicrosoftCorp_footer_time"></div>
+        </div>
+       </div>
+       <div class="IRAR right" data-grid="col-3">
+        <section class="IRAR-stock">
+         <a target="_blank" class="mscom-link ARImg" href="https://www.microsoft.com/investor/reports/ar17/index.html"></a>
+         <div class="IRAR-stock-right">
+          <h3 class="c-paragraph-3" style="margin-bottom:5px;">2017 ANNUAL REPORT</h3>
+          <div>
+           <a title="View Microsoft Annual Report 2017" class="c-hyperlink c-glyph" style="background:none;" href="http://www.microsoft.com/investor/reports/ar17/index.html" target="_blank"><span style="margin-right:1px;font-size:13px;">VIEW ONLINE </span><span class="c-hyperlink c-glyph glyph-chevron-right" style="vertical-align:middle;font-size:13px;"></span></a>
+          </div>
+          <div>
+           <a title="Download Microsoft Annual Report 2017" class="c-hyperlink c-glyph " href="http://www.microsoft.com/investor/reports/ar17/download-center/index.html" target="_blank"><span style="margin-right:5px;font-size:13px;">DOWNLOAD NOW</span><span class="c-hyperlink c-glyph glyph-download" style="vertical-align:middle; font-size:13px;"></span></a>
+          </div>
+         </div>
+        </section>
+       </div>
+      </div>
+     </div>
+    </div>
+    <div>
+     <script type="text/javascript">/*<![CDATA[*/ var arrange = function(){var anc_count = $(".anc_item").length;switch(anc_count){case 1: {$(".anc_item").attr("data-grid","col-12"); break;}case 2: {$(".anc_item").attr("data-grid","col-6");break;}}};$(function(){arrange();}); /*]]>*/</script>
+     <section id="IRAnnouncement" role="region" aria-label="Announcements" data-grid="container pad-12x">
+      <div data-grid="col-12">
+       <h2 class="anc_header c-heading-2">Announcements</h2>
+      </div>
+      <div class="m-content-placement anc_items" data-grid="col-12 stack-2 pad-12x">
+       <div class="anc_item" data-grid="col-4">
+        <div data-grid="col-12">
+         <div class="m-content-placement-item f-size-medium">
+          <div class="anc_date c-caption f-small">
+           <div data-reactid=".5.1.0.0.0.1:0.0.1:0.1.1:0.0.1:0.0.1:0.0.1:0.0.1:0.0.1:0.0.0:1">
+            March 12, 2018
+           </div>
+          </div>
+          <div class="anc_title c-subheading-2">
+           <div data-reactid=".7.1.0.0.0.1:0.0.1:0.1.1:0.0.1:0.0.1:0.0.1:0.1.1:0.0.1:0.0.0:1">
+            Microsoft announces quarterly dividend
+           </div>
+          </div>
+          <a target="_blank" class="mscom-link c-hyperlink c-glyph glyph-file announce_link" title="Microsoft announces quarterly dividend" href="https://news.microsoft.com/2018/03/12/microsoft-announces-quarterly-dividend-7/">Press Release</a>
+         </div>
+        </div>
+       </div>
+       <div class="anc_item" data-grid="col-4">
+        <div data-grid="col-12">
+         <div class="m-content-placement-item f-size-medium">
+          <div class="anc_date c-caption f-small">
+           <div data-reactid=".5.1.0.0.0.1:0.0.1:0.1.1:0.0.1:0.0.1:0.0.1:0.0.1:0.0.1:0.0.0:1">
+            January 31, 2018
+           </div>
+          </div>
+          <div class="anc_title c-subheading-2">
+           <div data-reactid=".7.1.0.0.0.1:0.0.1:0.1.1:0.0.1:0.0.1:0.0.1:0.1.1:0.0.1:0.0.0:1">
+            The story behind Microsoft’s earnings: The intelligent cloud powers customer innovation across industries
+           </div>
+          </div>
+          <a target="_blank" class="mscom-link c-hyperlink c-glyph glyph-file announce_link" title="The story behind Microsoft’s earnings: The intelligent cloud powers customer innovation across industries" href="https://blogs.microsoft.com/?p=52552187">Blog</a>
+         </div>
+        </div>
+       </div>
+       <div class="anc_item" data-grid="col-4">
+        <div data-grid="col-12">
+         <div class="m-content-placement-item f-size-medium">
+          <div class="anc_date c-caption f-small">
+           <div data-reactid=".5.1.0.0.0.1:0.0.1:0.1.1:0.0.1:0.0.1:0.0.1:0.0.1:0.0.1:0.0.0:1">
+            January 31, 2018
+           </div>
+          </div>
+          <div class="anc_title c-subheading-2">
+           <div data-reactid=".7.1.0.0.0.1:0.0.1:0.1.1:0.0.1:0.0.1:0.0.1:0.1.1:0.0.1:0.0.0:1">
+            Microsoft Cloud Growth Fuels Second Quarter Results
+           </div>
+          </div>
+          <a target="_self" class="mscom-link c-hyperlink c-glyph glyph-file announce_link" title="Press Release of Microsoft Earnings FY18 Q2" href="https://www.microsoft.com/en-us/Investor/earnings/FY-2018-Q2/press-release-webcast">Press Release</a>
+          <a target="_blank" class="mscom-link c-hyperlink c-glyph glyph-volume announce_link" title="Webcast of Microsoft Earnings FY18 Q2 Conference Call" href="https://www.microsoft.com/en-us/Investor/events/FY-2018/earnings-fy-2018-q2-mix.aspx">Webcast</a>
+         </div>
+        </div>
+       </div>
+      </div>
+     </section>
+     <script type="text/javascript" src="/en-us/CMSScripts/IRAnnouncement.js?version=8edcd815-d972-2038-fe7c-135069936f55">/*<![CDATA[*/  /*]]>*/</script>
+    </div>
+    <div style="">
+     <section id="HomeEvent" data-grid="container stack-3 pad-12x" class="Events" role="region" aria-label="Events" xmlns:cs="urn:cs">
+      <div data-grid="col-6" class="UpcomingEvents left"> 
+       <div> 
+        <h2 class="c-heading-2">Upcoming Events</h2> 
+       </div>
+       <div data-grid="col-12" class="m-content-placement-item f-size-small">
+        <ul>
+         <li><img class="c-image f-round" src="https://c.s-microsoft.com/en-us/CMSImages/Events-MS.png?version=758a4bf2-e6a2-2977-2d0d-2e6a5b2ae4b9" alt="Microsoft Fiscal Year 2018 Third Quarter Earnings Conference Call" role="presentation" title="Microsoft Fiscal Year 2018 Third Quarter Earnings Conference Call"></li>
+         <li>
+          <div class="c-caption f-small">
+           April 26, 2018 2:30 PM - PT
+          </div></li>
+         <li>
+          <div class="c-subheading-2">
+           Microsoft Fiscal Year 2018 Third Quarter Earnings Conference Call
+          </div></li>
+         <li>
+          <div class="c-caption f-small" style="color:black;">
+           Satya Nadella, CEO and Amy Hood, CFO
+          </div></li>
+         <li>
+          <div class="c-caption f-small" itemprop="location"></div></li>
+         <li>
+          <div class="c-group f-wrap-items">
+           <a class="c-hyperlink c-glyph  glyph-file" href="https://www.microsoft.com/en-us/Investor/events/get-notification.aspx?eventid=188245" target="_blank" title="Get Notification of Microsoft Fiscal Year 2018 Third Quarter Earnings Conference Call">Get Notification</a>
+           <a class="c-hyperlink c-glyph  glyph-volume" href="http://edge.media-server.com/m/p/efaxeiuj" target="_blank" title="Webcast of Microsoft Fiscal Year 2018 Third Quarter Earnings Conference Call">Webcast</a>
+          </div></li>
+        </ul>
+       </div>
+      </div> 
+      <div data-grid="col-6" class="PastEvents right"> 
+       <div> 
+        <h2 class="c-heading-2">Past Events</h2> 
+       </div>
+       <div data-grid="col-12" class="m-content-placement-item f-size-small">
+        <ul>
+         <li><a href="/en-us/Investor/events/FY-2018/Morgan-Stanley-Technology-Media-Telecom-Conference-Satya-Nadella" target="_self" title="Morgan Stanley Technology, Media &amp; Telecom Conference"><img class="c-image f-round" src="https://c.s-microsoft.com/en-us/CMSImages/Satya-Nadella-145x145.PNG.png?version=e9122947-282a-48b8-d003-5b6438340474" alt="Morgan Stanley Technology, Media &amp; Telecom Conference"></a></li>
+         <li>
+          <div class="c-caption f-small">
+           February 26, 2018 8:45 AM - PT
+          </div></li>
+         <li>
+          <div class="c-subheading-2">
+           Morgan Stanley Technology, Media &amp; Telecom Conference
+          </div></li>
+         <li>
+          <div class="c-caption f-small" style="color:black;">
+           Satya Nadella, Chief Executive Officer
+          </div></li>
+         <li>
+          <div class="c-caption f-small" itemprop="location"></div></li>
+         <li>
+          <div class="c-group f-wrap-items">
+           <a class="c-hyperlink c-glyph glyph-volume" href="/en-us/Investor/events/FY-2018/Morgan-Stanley-Technology-Media-Telecom-Conference-Satya-Nadella" title="Webcast of Morgan Stanley Technology, Media &amp; Telecom Conference">Webcast</a>
+           <a class="c-hyperlink c-glyph glyph-file" href="https://view.officeapps.live.com/op/view.aspx?src=https://c.s-microsoft.com/en-us/CMSFiles/MorganStanleyNadella.docx?version=6d5e5dca-2834-6b29-7d28-3dc5c316c66f" target="_blank" title="Transcript of Morgan Stanley Technology, Media &amp; Telecom Conference">Transcript</a>
+          </div></li>
+        </ul>
+       </div>
+       <div data-grid="col-12" class="m-content-placement-item f-size-small">
+        <ul>
+         <li><a href="/en-us/Investor/events/FY-2018/Goldman-Sachs-Technology-and-Internet-Conference-Jeff-Weiner" target="_self" title="Goldman Sachs Technology and Internet Conference"><img class="c-image f-round" src="https://c.s-microsoft.com/en-us/CMSImages/jeff2-145x145.jpg?version=b87c0c3c-d893-626d-7106-598e32651fca" alt="Goldman Sachs Technology and Internet Conference"></a></li>
+         <li>
+          <div class="c-caption f-small">
+           February 14, 2018 1:15 PM - PT
+          </div></li>
+         <li>
+          <div class="c-subheading-2">
+           Goldman Sachs Technology and Internet Conference
+          </div></li>
+         <li>
+          <div class="c-caption f-small" style="color:black;">
+           Jeff Weiner, Chief Executive Officer of LinkedIn
+          </div></li>
+         <li>
+          <div class="c-caption f-small" itemprop="location"></div></li>
+         <li>
+          <div class="c-group f-wrap-items">
+           <a class="c-hyperlink c-glyph glyph-volume" href="/en-us/Investor/events/FY-2018/Goldman-Sachs-Technology-and-Internet-Conference-Jeff-Weiner" title="Webcast of Goldman Sachs Technology and Internet Conference">Webcast</a>
+           <a class="c-hyperlink c-glyph glyph-file" href="https://view.officeapps.live.com/op/view.aspx?src=https://c.s-microsoft.com/en-us/CMSFiles/GoldmanJeff.docx?version=61518f18-9a9f-2cd0-6270-b74da33f8f8c" target="_blank" title="Transcript of Goldman Sachs Technology and Internet Conference">Transcript</a>
+          </div></li>
+        </ul>
+       </div>
+       <div data-grid="col-12" class="y-margin-top" style="margin-bottom:48px;text-align:right;">
+        <a target="_self" href="/en-us/investor/events/events-recent.aspx" class="mscom-link c-call-to-action c-glyph">MORE PAST EVENTS</a>
+       </div>
+      </div>
+     </section>
+     <script xmlns:cs="urn:cs">
+      var url = encodeURI(window.location.href);
+      var collectionId=encodeURI(window.location.search).split('CollectionId=')[1];
+      var regEx = /[a-zA-Z0-9-]*/;
+      var ccIdFlag = regEx.test(collectionId);
+
+      if(ccIdFlag){
+      $('.PastEvents a,.UpcomingEvents a').each(function()
+      {
+      var href = $(this).attr('href');
+      if (href != '' && href != null && href != undefined && href.indexOf('/')==0){
+      if (url.toLowerCase().indexOf('collectionid') > 0 && href.toLowerCase().indexOf('collectionid') < 0 )
+      {
+      if(href.toLowerCase().indexOf('?') >0)
+      {
+      href+="&CollectionId="+collectionId;
+      }
+      else href+="?CollectionId="+collectionId;     
+      }
+      $(this).attr('href',href);
+      }
+      });
+      
+      }
+    </script>
+    </div>
+    <div data-grid="container stack-3 pad-12x" class="theme-light wantService" role="region" aria-label="Related Information">
+     <div data-grid="col-6">
+      <section id="IWantTo">
+       <div data-grid="col-12">
+        <h3 class="c-subheading-1">I want to...</h3>
+        <div class="c-drawer" style="margin-top:2px;">
+         <button aria-expanded="true" aria-controls="navTargetItem1">Know the next earnings release date</button>
+         <div class="m-content-placement-item f-size-small c-age-rating" id="navTargetItem1" aria-hidden="false">
+          <img class="c-image" style="width:50px;" srcset="https://www.microsoft.com/en-us/CMSImages/er.png?version=c5386b01-3102-cd2b-7f05-46977b61b7df" src="https://www.microsoft.com/en-us/CMSImages/er.png?version=c5386b01-3102-cd2b-7f05-46977b61b7df" alt="Presentation">
+          <p class="c-label" style="font-weight:normal;">The next Earnings Release is on April 26, 2018</p>
+          <p class="c-paragraph"><a class="mscom-link c-hyperlink c-glyph f-lightweight" title="View upcoming ER dates" href="https://www.microsoft.com/en-us/Investor/FAQ.aspx#section_5">View upcoming ER dates<span class="c-glyph glyph-chevron-right" style="vertical-align:middle;"></span></a></p>
+         </div>
+        </div>
+        <div class="c-drawer">
+         <button aria-expanded="false" aria-controls="navTargetItem2">Order a printed Annual Report</button>
+         <div class="m-content-placement-item f-size-small c-age-rating" id="navTargetItem2" aria-hidden="true">
+          <img class="c-image" style="width:50px;" srcset="https://www.microsoft.com/en-us/CMSImages/ar.png?version=1d8019d8-1a7b-703e-e197-e1c7065a890f" src="https://www.microsoft.com/en-us/CMSImages/ar.png?version=1d8019d8-1a7b-703e-e197-e1c7065a890f" alt="Order Print">
+          <p class="c-label" style="font-weight:normal;">Receive printed material by postal mail.</p>
+          <p class="c-paragraph"><a class="mscom-link c-hyperlink c-glyph f-lightweight" title="Order Now" href="https://www.microsoft.com/en-us/Investor/order-print.aspx">Order Now<span class="c-glyph glyph-chevron-right" style="vertical-align:middle;"></span></a></p>
+         </div>
+        </div>
+        <div class="c-drawer">
+         <button aria-expanded="false" aria-controls="navTargetItem3">Know the dates for the quarterly dividend</button>
+         <div class="m-content-placement-item f-size-small c-age-rating" id="navTargetItem3" aria-hidden="true">
+          <img class="c-image" style="width:50px;" srcset="https://www.microsoft.com/en-us/CMSImages/dividend.png?version=eef1b80e-4786-a238-6eca-b37366dce999" src="https://www.microsoft.com/en-us/CMSImages/dividend.png?version=eef1b80e-4786-a238-6eca-b37366dce999" alt="Quarterly Dividend">
+          <p class="c-label" style="font-weight:normal;">Get the quarterly dividend amount, record date, ex-dividend date, payable date and history</p>
+          <p class="c-paragraph"><a class="mscom-link c-hyperlink c-glyph f-lightweight" title="Get details" href="https://www.microsoft.com/en-us/Investor/FAQ.aspx#section_3">Get details<span class="c-glyph glyph-chevron-right" style="vertical-align:middle;"></span></a></p>
+         </div>
+        </div>
+        <div class="c-drawer">
+         <button aria-expanded="false" aria-controls="navTargetItem4">Lookup Microsoft stock prices by date</button>
+         <div class="m-content-placement-item f-size-small c-age-rating" id="navTargetItem4" aria-hidden="true">
+          <img class="c-image" style="width:50px;" srcset="https://www.microsoft.com/en-us/CMSImages/stockprice.PNG.png?version=9a12d226-25eb-e902-82f4-45a19f260abe" src="https://www.microsoft.com/en-us/CMSImages/stockprice.PNG.png?version=9a12d226-25eb-e902-82f4-45a19f260abe" alt="Stock Price">
+          <p class="c-label" style="font-weight:normal;">Prices display split-adjusted cost basis per share on that date.</p>
+          <p class="c-paragraph"><a class="mscom-link c-hyperlink c-glyph f-lightweight" title="Lookup now" href="https://www.microsoft.com/en-us/Investor/stock-lookup.aspx">Lookup now<span class="c-glyph glyph-chevron-right" style="vertical-align:middle;"></span></a></p>
+         </div>
+        </div>
+       </div>
+      </section>
+      <script type="text/javascript" src="/en-us/CMSScripts/IRIWantTo-MWF.js?version=7bf5ec10-213f-fc11-7698-9d6bd80c2cab">/*<![CDATA[*/  /*]]>*/</script>
+     </div>
+     <div data-grid="col-6">
+      <div data-grid="col-12" class="CSPvNext">
+       <section class="IRBulletLink" id="InvestorService">
+        <h3 class="c-subheading-1">Investor Service</h3>
+        <ul class="c-list">
+         <li><a target="_blank" class="mscom-link c-hyperlink" title="Direct Stock Purchase and Dividend Reinvestment Program" href="https://us.astfinancial.com/investpower/new_plandet.asp?CoNumber=40000&amp;PlanType=DPSS">Direct Stock Purchase and Dividend Reinvestment Program</a></li>
+         <li><a target="_blank" class="mscom-link c-hyperlink" title="Electronic Delivery Enrollment Form" href="https://enroll.icsdelivery.com/msft">Electronic Delivery Enrollment Form</a></li>
+         <li><a class="mscom-link c-hyperlink" title="Frequently Asked Questions" href="https://www.microsoft.com/en-us/Investor/FAQ.aspx">Frequently Asked Questions</a></li>
+         <li><a target="_blank" class="mscom-link c-hyperlink" title="Email Alert" href="https://www.microsoft.com/en-us/Investor/events/get-notification.aspx">Email Alert</a></li>
+        </ul>
+       </section>
+      </div>
+     </div>
+    </div>
+   </div>
+  </main>
+  <div class="row-fluid" data-view4="1" data-view3="1" data-view2="1" data-view1="1" data-cols="1">
+   <div class="span bp0-col-1-1 bp1-col-1-1 bp2-col-1-1 bp3-col-1-1">
+    <section id="IRSocial" data-grid="container stack-2 pad-12x">
+     <div data-grid="" id="Social-follow" class="m-social f-horizontal f-share">
+      <span>Follow us</span>
+      <ul>
+       <li><a target="_blank" itemprop="sameAs" href="https://www.facebook.com/Microsoft">
+         <picture>
+          <img src="https://c.s-microsoft.com/en-in/CMSImages/HPFeb15_social_Facebook.png?version=94742b06-2d0f-8bf3-1582-2c49d00151e3" alt="Follow Microsoft on Facebook">
+         </picture></a></li>
+       <li><a target="_blank" itemprop="sameAs" href="http://twitter.com/Microsoft">
+         <picture>
+          <img src="https://c.s-microsoft.com/en-in/CMSImages/HPFeb15_social_Twitter.png?version=8cd2eefc-dabe-c03f-8302-0f5c5956a70d" alt="Follow Microsoft on Twitter">
+         </picture></a></li>
+       <li><a target="_blank" itemprop="sameAs" href="https://www.linkedin.com/company/microsoft">
+         <picture>
+          <img src="https://c.s-microsoft.com/es-es/CMSImages/LinkedIn_64x64.png?version=66c691bc-8d33-33e2-1dd1-86b2b25b850d" alt="Follow Microsoft on LinkedIn" width="32" height="32">
+         </picture></a></li>
+       <li><a target="_blank" itemprop="sameAs" href="http://www.youtube.com/microsoft">
+         <picture>
+          <img src="https://c.s-microsoft.com/en-us/CMSImages/youtube-flat-64x64.png?version=4348B200-27AB-33AD-A643-EB67BF7BACBF" alt="Follow Microsoft on YouTube" width="32" height="32">
+         </picture></a></li>
+       <!--<li>
+                <a itemprop="sameAs" href="#">
+                    <picture>
+                        <img src="https://placehold.it/32x32" alt="Follow Microsoft on Calendar" />
+                    </picture>
+                </a>
+            </li>
+            <li>
+                <a itemprop="sameAs" href="#">
+                    <picture>
+                        <img src="https://placehold.it/32x32" alt="Follow Microsoft on Feeds" />
+                    </picture>
+                </a>
+            </li>
+            <li>
+                <a itemprop="sameAs" href="#">
+                    <picture>
+                        <img src="https://placehold.it/32x32" alt="Follow Microsoft on Email" />
+                    </picture>
+                </a>
+            </li>-->
+      </ul>
+      <button class="c-glyph" aria-label="Show additional social media links" aria-hidden="true" data-js-toggle="false"></button>
+     </div>
+     <div data-grid="" id="Social-Share" class="m-social f-horizontal f-share">
+      <span>Share this page</span>
+      <ul>
+       <li><a target="_blank" itemprop="sameAs" href="http://www.facebook.com/sharer.php?u=https://www.microsoft.com/en-us/investor/">
+         <picture>
+          <img src="https://c.s-microsoft.com/en-in/CMSImages/HPFeb15_social_Facebook.png?version=94742b06-2d0f-8bf3-1582-2c49d00151e3" alt="Share Microsoft on Facebook">
+         </picture>
+         <!--<div class="shareItemText">Like</div>--></a></li>
+       <li><a target="_blank" itemprop="sameAs" href="http://www.linkedin.com/shareArticle?url=https://www.microsoft.com/en-us/investor/">
+         <picture>
+          <img src="https://c.s-microsoft.com/es-es/CMSImages/LinkedIn_64x64.png?version=66c691bc-8d33-33e2-1dd1-86b2b25b850d" width="32" height="32" alt="Share Microsoft on LinkedIn">
+         </picture>
+         <!--<div class="shareItemText">Share</div>--></a></li>
+       <li><a target="_blank" itemprop="sameAs" id="Email_url" href="mailto:?subject=Microsoft Investor Relations  Link&amp;body=Here is some information from the Microsoft Investor Relations website that I thought you'd be interested in:">
+         <picture>
+          <img src="https://c.s-microsoft.com/en-us/CMSImages/ICON_SendEmail.png?version=3cd43b42-6f02-b58b-b8cb-28d41df28506" width="32" height="32" alt="Share Microsoft with Email">
+         </picture>
+         <!--<div class="shareItemText">Email</div>--></a></li>
+      </ul>
+      <button class="c-glyph" aria-label="Show additional social media links" aria-hidden="true" data-js-toggle="false"></button>
+     </div>
+    </section>
+    <script type="text/javascript">/*<![CDATA[*/$(function(){var n=encodeURI(window.location.href),t=$("#Email_url").attr("href");$("#Email_url").attr("href",t+" %0A%0A"+n+" %0A%0A Hope you enjoy it!")})/*]]>*/</script>
+   </div>
+  </div>
+  <!--UHF Footer-->
+  <span>
+   <section id="footerArea" data-m="{&quot;cN&quot;:&quot;footerArea&quot;,&quot;cT&quot;:&quot;Area_coreuiArea&quot;,&quot;id&quot;:&quot;a2Body&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;Body&quot;}">
+    <div id="footerRegion" data-region-key="footerregion" data-m="{&quot;cN&quot;:&quot;footerRegion&quot;,&quot;cT&quot;:&quot;Region_coreui-region&quot;,&quot;id&quot;:&quot;r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;a2&quot;}">
+     <div id="footerUniversalFooter" data-m="{&quot;cN&quot;:&quot;footerUniversalFooter&quot;,&quot;cT&quot;:&quot;Module_coreui-universalfooter&quot;,&quot;id&quot;:&quot;m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;r1a2&quot;}" data-module-id="Category|footerRegion|footerRegion|footerUniversalFooter|coreui-universalfooter">
+      <footer id="uhf-footer" role="contentinfo" class="c-uhff context-uhf" data-uhf-mscc-rq="false" data-footer-footprint="en-us/MSInvestor/MSInvestorFooter" data-m="{&quot;cN&quot;:&quot;Uhf footer_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;m1r1a2&quot;}">
+       <nav class="c-uhff-nav" role="navigation" aria-label="Footer" data-m="{&quot;cN&quot;:&quot;Footer nav_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1m1r1a2&quot;}">
+        <div class="c-uhff-nav-row">
+         <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn1_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c1c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+          <h4 class="c-heading-4">What's new</h4>
+          <ul class="c-list f-bare">
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/surface/devices/surface-book-2/overview" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_SurfaceBook2_nav&quot;,&quot;id&quot;:&quot;n1c1c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Surface Book 2</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/surface/devices/surface-pro/overview" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_NewSurfacePro_nav&quot;,&quot;id&quot;:&quot;n2c1c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Surface Pro</a></li>
+           <li><a class="c-uhff-link" href="https://www.xbox.com/en-us/xbox-one-x" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_XboxOneX_nav&quot;,&quot;id&quot;:&quot;n3c1c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Xbox One X</a></li>
+           <li><a class="c-uhff-link" href="https://www.xbox.com/en-us/xbox-one-s?xr=shellnav" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_XboxOneS_nav&quot;,&quot;id&quot;:&quot;n4c1c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Xbox One S</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/virtualreality" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_VRandMixedReality_nav&quot;,&quot;id&quot;:&quot;n5c1c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">VR &amp; mixed reality</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/windows/windows-10-apps" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_Windows_10_apps_nav&quot;,&quot;id&quot;:&quot;n6c1c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Windows 10 apps</a></li>
+           <li><a class="c-uhff-link" href="https://store.office.com/en-us/appshome.aspx?" data-m="{&quot;cN&quot;:&quot;Footer_WhatsNew_OfficeApps_nav&quot;,&quot;id&quot;:&quot;n7c1c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c1c1c1m1r1a2&quot;}">Office apps</a></li>
+          </ul>
+         </div>
+         <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn2_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c2c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+          <h4 class="c-heading-4">Store &amp; Support</h4>
+          <ul class="c-list f-bare">
+           <li><a class="c-uhff-link" href="https://account.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_AccountProfile_nav&quot;,&quot;id&quot;:&quot;n1c2c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Account profile</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/download" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_DownloadCenter_nav&quot;,&quot;id&quot;:&quot;n2c2c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Download Center</a></li>
+           <li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/p/?LinkID=824761&amp;clcid=0x409" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_SalesAndSupport_nav&quot;,&quot;id&quot;:&quot;n3c2c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Sales &amp; support</a></li>
+           <li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/p/?LinkID=824764&amp;clcid=0x409" data-m="{&quot;cN&quot;:&quot;MicrosoftStore_ExtendedHolidayReturns_nav&quot;,&quot;id&quot;:&quot;n4c2c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Returns</a></li>
+           <li><a class="c-uhff-link" href="https://account.microsoft.com/orders" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_OrderTracking_nav&quot;,&quot;id&quot;:&quot;n5c2c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Order tracking</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/locations/find-a-store" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_StoreLocations_nav&quot;,&quot;id&quot;:&quot;n6c2c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Store locations</a></li>
+           <li><a class="c-uhff-link" href="https://support.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_StoreandSupport_Support_nav&quot;,&quot;id&quot;:&quot;n7c2c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Support</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/buy-online-pick-up-in-store?icid=uhf_footer_bopuis" data-m="{&quot;cN&quot;:&quot;StoreandSupport_BuyOnlinePickUpInStore_nav&quot;,&quot;id&quot;:&quot;n8c2c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c2c1c1m1r1a2&quot;}">Buy online, pick up in store</a></li>
+          </ul>
+         </div>
+         <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn3_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c3c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+          <h4 class="c-heading-4">Education</h4>
+          <ul class="c-list f-bare">
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/education" data-m="{&quot;cN&quot;:&quot;Footer_Education_MicrosoftInEducation_nav&quot;,&quot;id&quot;:&quot;n1c3c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Microsoft in education</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/education/products/office/default.aspx" data-m="{&quot;cN&quot;:&quot;Footer_Education_OfficeForStudents_nav&quot;,&quot;id&quot;:&quot;n2c3c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Office for students</a></li>
+           <li><a class="c-uhff-link" href="https://products.office.com/en-us/academic/compare-office-365-education-plans" data-m="{&quot;cN&quot;:&quot;Footer_Education_Office365ForSchools_nav&quot;,&quot;id&quot;:&quot;n3c3c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Office 365 for schools</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/store/b/student" data-m="{&quot;cN&quot;:&quot;Footer_Education_DealsForStudentsandEducators_nav&quot;,&quot;id&quot;:&quot;n4c3c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Deals for students &amp; educators </a></li>
+           <li><a class="c-uhff-link" href="https://azure.microsoft.com/en-us/community/education/" data-m="{&quot;cN&quot;:&quot;Footer_MicrosoftAzureInEducation_nav&quot;,&quot;id&quot;:&quot;n5c3c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c3c1c1m1r1a2&quot;}">Microsoft Azure in education</a></li>
+          </ul>
+         </div>
+        </div>
+        <div class="c-uhff-nav-row">
+         <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn4_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c4c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+          <h4 class="c-heading-4">Enterprise</h4>
+          <ul class="c-list f-bare">
+           <li><a class="c-uhff-link" href="https://azure.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_MicrosoftAzure_nav&quot;,&quot;id&quot;:&quot;n1c4c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Microsoft Azure </a></li>
+           <li><a class="c-uhff-link" href="https://enterprise.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_Enterprise_nav&quot;,&quot;id&quot;:&quot;n2c4c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Enterprise</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/sql-server/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_DataPlatform_nav&quot;,&quot;id&quot;:&quot;n3c4c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Data platform</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/solution-providers" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_FindASolutionsProvider_nav&quot;,&quot;id&quot;:&quot;n4c4c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Find a solutions provider</a></li>
+           <li><a class="c-uhff-link" href="https://partner.microsoft.com/en-us/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_MicrosoftPartnerResources_nav&quot;,&quot;id&quot;:&quot;n5c4c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Microsoft partner resources </a></li>
+           <li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkID=808093" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_MicrosoftAppSource_nav&quot;,&quot;id&quot;:&quot;n6c4c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Microsoft AppSource </a></li>
+           <li><a class="c-uhff-link" href="https://enterprise.microsoft.com/en-us/industries/discrete-manufacturing/" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_ManufacturingAndResources_nav&quot;,&quot;id&quot;:&quot;n7c4c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Manufacturing &amp; resources</a></li>
+           <li><a class="c-uhff-link" href="https://enterprise.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Enterprise_FinanciaServices_nav&quot;,&quot;id&quot;:&quot;n8c4c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c4c1c1m1r1a2&quot;}">Financial services</a></li>
+          </ul>
+         </div>
+         <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn5_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c5c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+          <h4 class="c-heading-4">Developer</h4>
+          <ul class="c-list f-bare">
+           <li><a class="c-uhff-link" href="https://www.visualstudio.com/" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftVisualStudio_nav&quot;,&quot;id&quot;:&quot;n1c5c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Microsoft Visual Studio</a></li>
+           <li><a class="c-uhff-link" href="https://developer.microsoft.com/en-us/windows" data-m="{&quot;cN&quot;:&quot;Footer_Developer_WindowsDevCenter_nav&quot;,&quot;id&quot;:&quot;n2c5c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Windows Dev Center</a></li>
+           <li><a class="c-uhff-link" href="https://msdn.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftDeveloperNetwork_nav&quot;,&quot;id&quot;:&quot;n3c5c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Developer Network</a></li>
+           <li><a class="c-uhff-link" href="https://technet.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Developer_TechNet_nav&quot;,&quot;id&quot;:&quot;n4c5c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">TechNet</a></li>
+           <li><a class="c-uhff-link" href="https://mva.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftVirtualAcademy_nav&quot;,&quot;id&quot;:&quot;n5c5c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Microsoft Virtual Academy</a></li>
+           <li><a class="c-uhff-link" href="https://developer.microsoft.com/en-us/store/register" data-m="{&quot;cN&quot;:&quot;Footer_Developer_MicrosoftDeveloperProgram_nav&quot;,&quot;id&quot;:&quot;n6c5c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Microsoft developer program</a></li>
+           <li><a class="c-uhff-link" href="https://channel9.msdn.com/" data-m="{&quot;cN&quot;:&quot;Footer_Developer_Channel9_nav&quot;,&quot;id&quot;:&quot;n7c5c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Channel 9</a></li>
+           <li><a class="c-uhff-link" href="https://developer.microsoft.com/en-us/office" data-m="{&quot;cN&quot;:&quot;Footer_Developer_OfficeDevCenter_nav&quot;,&quot;id&quot;:&quot;n8c5c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c5c1c1m1r1a2&quot;}">Office Dev Center</a></li>
+          </ul>
+         </div>
+         <div class="c-uhff-nav-group" data-m="{&quot;cN&quot;:&quot;footerNavColumn6_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c6c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+          <h4 class="c-heading-4">Company</h4>
+          <ul class="c-list f-bare">
+           <li><a class="c-uhff-link" href="https://careers.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Company_Careers_nav&quot;,&quot;id&quot;:&quot;n1c6c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Careers</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/about" data-m="{&quot;cN&quot;:&quot;Footer_Company_AboutMicrosoft_nav&quot;,&quot;id&quot;:&quot;n2c6c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">About Microsoft</a></li>
+           <li><a class="c-uhff-link" href="https://news.microsoft.com/" data-m="{&quot;cN&quot;:&quot;Footer_Company_CompanyNews_nav&quot;,&quot;id&quot;:&quot;n3c6c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Company news</a></li>
+           <li><a class="c-uhff-link" href="https://privacy.microsoft.com/en-us" data-m="{&quot;cN&quot;:&quot;Footer_Company_PrivacyAtMicrosoft_nav&quot;,&quot;id&quot;:&quot;n4c6c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Privacy at Microsoft</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/investor/default.aspx" data-m="{&quot;cN&quot;:&quot;Footer_Company_Investors_nav&quot;,&quot;id&quot;:&quot;n5c6c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Investors</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/diversity/" data-m="{&quot;cN&quot;:&quot;Footer_Company_DiversityAndInclusion_nav&quot;,&quot;id&quot;:&quot;n6c6c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Diversity and inclusion</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/accessibility/home" data-m="{&quot;cN&quot;:&quot;Footer_Company_Accessibility_nav&quot;,&quot;id&quot;:&quot;n7c6c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Accessibility</a></li>
+           <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/security/default.aspx" data-m="{&quot;cN&quot;:&quot;Footer_Company_Security_nav&quot;,&quot;id&quot;:&quot;n8c6c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c6c1c1m1r1a2&quot;}">Security</a></li>
+          </ul>
+         </div>
+        </div>
+       </nav>
+       <div class="c-uhff-base">
+        <a id="locale-picker-link" class="c-uhff-link c-uhff-lang-selector c-glyph glyph-world" href="http://www.microsoft.com/en-us/locale.aspx" data-m="{&quot;cN&quot;:&quot;locale_picker(US)_nav&quot;,&quot;id&quot;:&quot;n7c1c1m1r1a2&quot;,&quot;sN&quot;:7,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">English (United States)</a>
+        <ul role="contentinfo" aria-label="Microsoft corporate links" class="c-list f-bare" data-m="{&quot;cN&quot;:&quot;Corp links_cont&quot;,&quot;cT&quot;:&quot;Container&quot;,&quot;id&quot;:&quot;c8c1c1m1r1a2&quot;,&quot;sN&quot;:8,&quot;aN&quot;:&quot;c1c1m1r1a2&quot;}">
+         <li><a class="c-uhff-link" href="https://www.microsoft.com/en-us/sitemap1.aspx" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_Sitemap_nav&quot;,&quot;id&quot;:&quot;n1c8c1c1m1r1a2&quot;,&quot;sN&quot;:1,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">Sitemap</a></li>
+         <li><a class="c-uhff-link" href="https://support.microsoft.com/en-us/contactus" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_ContactUs_nav&quot;,&quot;id&quot;:&quot;n2c8c1c1m1r1a2&quot;,&quot;sN&quot;:2,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">Contact us</a></li>
+         <li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_PrivacyandCookies_nav&quot;,&quot;id&quot;:&quot;n3c8c1c1m1r1a2&quot;,&quot;sN&quot;:3,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">Privacy &amp; cookies </a></li>
+         <li><a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkID=206977" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_TermsOfUse_nav&quot;,&quot;id&quot;:&quot;n4c8c1c1m1r1a2&quot;,&quot;sN&quot;:4,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">Terms of use</a></li>
+         <li><a class="c-uhff-link" href="https://www.microsoft.com/trademarks" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_Trademarks_nav&quot;,&quot;id&quot;:&quot;n5c8c1c1m1r1a2&quot;,&quot;sN&quot;:5,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">Trademarks</a></li>
+         <li><a class="c-uhff-link" href="https://choice.microsoft.com" data-mscc-ic="false" data-m="{&quot;cN&quot;:&quot;Footer_AboutourAds_nav&quot;,&quot;id&quot;:&quot;n6c8c1c1m1r1a2&quot;,&quot;sN&quot;:6,&quot;aN&quot;:&quot;c8c1c1m1r1a2&quot;}">About our ads</a></li>
+         <li>© Microsoft 2018</li>
+        </ul>
+       </div>
+      </footer>
+     </div>
+    </div>
+   </section></span>
+  <a id="segmentNamesMappingUrl" class="mscom-link hidden" href="https://www.microsoft.com/en-us/Investor/SegmentNamesMapping.xml"></a>
+  <style type="text/css">@media screen and (max-width:767px){#feedbackBtn{display:none}}#feedbackBtn{cursor:pointer;margin:0;padding:0;position:fixed;right:-57px;top:25%;transform:rotate(270deg)}#feedbackBtn a{display:block;font-size:1.5em;background-color:#f0f0f0;padding:10px 15px}#feedbackBtn[aria-hidden=false]{z-index:9999}#feedbackBtn[aria-hidden=true]{z-index:0}#dialog{padding:0}#dialog iframe{width:100%;height:400px}</style>
+  <div id="feedbackBtn" aria-hidden="false" data-grid="container">
+   <a title="show site feedback button" onclick="irfbdg();" data-js-dialog-show="flow-dialog-single-light-theme-preview" value="Site feedback"> Site feedback </a>
+  </div>
+  <div class="c-dialog f-flow" id="flow-dialog-single-light-theme-preview" aria-hidden="false" style="display:none">
+   <div tabindex="-1" id="presentation"></div>
+   <div id="dialog" style="height: auto; -ms-overflow-y: hidden;" aria-label="Flow" data-grid="col-12">
+    <iframe id="irfbdgfr" frameborder="0" allowtransparency="true"></iframe>
+    <button tabindex="0" title="close site feedback button" class="c-glyph glyph-cancel" style="top:0px;right:10px;" onclick="irfbdg('c')"></button>
+   </div>
+  </div>
+  <div class="hlig" id="fbpgdg" style="display: none;">
+   <script>/*<![CDATA[*/function irfbdg(n){n=="c"?irfbdgcl():irfbdgop()}function irfbdgop(){$("#feedbackBtn").attr("aria-hidden","true");$("#dialog").attr("role","dialog");$("#presentation").attr("role","presentation");$("#flow-dialog-single-light-theme-preview").show();$(document).bind("keydown",hndlr)}function irfbdgcl(){var n,t;$("#feedbackBtn").attr("aria-hidden","false");$("#dialog").removeAttr("role");$("#presentation").removeAttr("role");$("#flow-dialog-single-light-theme-preview").hide();n=document.getElementById("irfbdgfr");!n||!n.src||(t=n.src.substring(0,n.src.indexOf("?"))+"?r="+Math.random(),n.src=t);$(document).unbind("keydown",hndlr)}var hndlr=function(n){n.which==27&&irfbdg("c")};$(document).ready(function(){$("#irfbdgfr").attr("src","https://microsoft.qualtrics.com/jfe/form/SV_e4pMdJQsDhwpjpz?url="+location.href);var n=window.navigator.userAgent;(n.indexOf("MSIE")>0||n.indexOf("Edge")>0)&&$("#fbpgdg").css("margin-right","16px")})/*]]>*/</script>
+  </div>
+  <noscript></noscript> 
+  <script type="text/javascript">/*<![CDATA[*/var ISLOGGEDIN="False",AUTHMETHOD=0,PAGENAME="Default.aspx",PAYLOADTYPE="Page",LOCALE="en-us",JSLLAPPID="mscomsitemuse",MUIDDOMAIN="www.microsoft.com"/*]]>*/</script>
+  <script type="text/javascript" src="https://az725175.vo.msecnd.net/scripts/jsll-4.js">/*<![CDATA[*/  /*]]>*/</script>
+  <script type="text/javascript" src="https://c.s-microsoft.com/en-us/CMSScripts/script.jsx?k=f65ecb70-094d-0b11-7c9d-7da1bcadfaa7_5949169f-3710-cab9-07a4-4eb941a71c6d_f1c59693-3035-8d28-d0c0-ad71f6e056a8_2faa0454-77be-802d-34a4-cdf638128d61_ed2ecdef-85bd-d414-6c10-a4f8affef1df_fa6f26e4-897c-f94b-0112-064e561de55b_918150db-a510-2a15-c32c-d79c14867503_c5a22a71-6be9-9e6c-5866-802ee9495ced"></script>
+  <script type="text/javascript">/*<![CDATA[*/AddLinkPreview($(".IRList"))/*]]>*/</script>
+  <script type="text/javascript">/*<![CDATA[*/$(function(){IRNav();IRNavEarnings({headerId:"MSInvestorHeaderFY18Q2"})})/*]]>*/</script>
+ </body>
+</html>

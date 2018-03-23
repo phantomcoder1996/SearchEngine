@@ -1,0 +1,1343 @@
+https://stackoverflow.com/questions/49288644/android-webview-onpagefinished-bug
+<!doctype html>
+<html itemscope itemtype="http://schema.org/QAPage">
+ <head> 
+  <title>java - Android WebView onPageFinished BUG - Stack Overflow</title> 
+  <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d"> 
+  <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a"> 
+  <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:url" content="https://stackoverflow.com/questions/49288644/android-webview-onpagefinished-bug"> 
+  <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:domain" content="stackoverflow.com"> 
+  <meta name="twitter:title" property="og:title" itemprop="title name" content="Android WebView onPageFinished BUG"> 
+  <meta name="twitter:description" property="og:description" itemprop="description" content="After update API (27) in Android OREO this code is no longer working:
+
+ public void onPageFinished(WebView view, String url) {
+     super.onPageFinished(view, url);
+     view.loadUrl(&quot;javascript:("> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+  <script src="https://cdn.sstatic.net/Js/stub.en.js?v=57e020fde11a"></script> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=596945d5421b"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=94cd993a63cf"> 
+  <link rel="alternate" type="application/atom+xml" title="Feed for question 'Android WebView onPageFinished BUG'" href="/feeds/question/49288644"> 
+  <meta name="twitter:app:country" content="US"> 
+  <meta name="twitter:app:name:iphone" content="Stack Exchange iOS"> 
+  <meta name="twitter:app:id:iphone" content="871299723"> 
+  <meta name="twitter:app:url:iphone" content="se-zaphod://stackoverflow.com/questions/49288644/android-webview-onpagefinished-bug"> 
+  <meta name="twitter:app:name:ipad" content="Stack Exchange iOS"> 
+  <meta name="twitter:app:id:ipad" content="871299723"> 
+  <meta name="twitter:app:url:ipad" content="se-zaphod://stackoverflow.com/questions/49288644/android-webview-onpagefinished-bug"> 
+  <meta name="twitter:app:name:googleplay" content="Stack Exchange Android"> 
+  <meta name="twitter:app:url:googleplay" content="http://stackoverflow.com/questions/49288644/android-webview-onpagefinished-bug"> 
+  <meta name="twitter:app:id:googleplay" content="com.stackexchange.marvin"> 
+  <script>
+
+            StackExchange.ready(function () {
+                                    
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.initSnippetRenderer();
+                    });
+                    
+
+                StackExchange.using("postValidation", function () {
+                    StackExchange.postValidation.initOnBlurAndSubmit($('#post-form'), 2, 'answer');
+                });
+
+                
+                StackExchange.question.init({hasOpenBounty:true,showAnswerHelp:true,totalCommentCount:1,shownCommentCount:1,highlightColor:'#F4A83D',backgroundColor:'#FFF',questionId:49288644});
+
+                styleCode();
+
+                    StackExchange.realtime.subscribeToQuestion('1', '49288644');
+                // TODO: There's a CR for replacing this with inline info on the question for moderators
+                // https://trello.com/c/ynDHhvrB/158-cr-move-the-mod-info-out-of-the-margin-and-into-the-post-estimate-needed
+                // Before we roll out the sidebar everywhere (or at least shortly after that?), we should implement it.
+                                                    StackExchange.using("gps", function () { StackExchange.gps.trackOutboundClicks('#content', '.post-text'); });
+
+            });
+        </script> 
+  <script>
+        StackExchange.init({"locale":"en","serverTime":1521843109,"routeName":"Questions/Show","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"childUrl":"https://meta.stackoverflow.com","enableSocialMediaInSharePopup":true,"protocol":"https"},"timingsGuid":"d1ab975a-eb6a-4f9d-ae93-05d279b5db5e","timingsInfo":"5nY0ywkpLvxdzTNOhRE6aw0+TZUkh5P24Vz21gpp5w9cq2pJW08Mo7u3mi6ggpKkGeO0q/rn/J+6/dOSLIrJP8V0B2K7pOJKgn/nzXWwisiDh5VXQzf3r79GXoyJ1OfPHnZF31qUoBUi4TT4LsUkzi1g3RYZSexNPdxFZkp/JnHXfqvjR3G8Uiontjn5SR7k64CXBYjzHPDpkLkOxo27xXUkiLVRCiUSUjH4HwO9a0ORLp7WxsXBd2nTXz6tipSLbQyUIe9+4XX44Rjk7YLopg==","user":{"fkey":"d16a35da63103e8b1162221b85b5952621651c541085caea15d1785affbc32a4","tid":"e23500ab-1d87-8b43-4326-d9835e9d9c41","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4}}, {"site":{"allowImageUploads":true,"commentHighlightingWithCSS":true,"enableUserHovercards":true,"styleCode":true,"enableImgurHttps":true,"forceHttpsImages":true},"userMessaging":{},"comments":{},"userProfile":{"openGraphAPIKey":"58740831ad23540e00c58987"},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"paths":{},"markdown":{"asteriskIntraWordEmphasis":true},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad"},"subscriptions":{}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"fd71fcd78b2c","js/moderator.en.js":"d350b664ddb3","js/full-anon.en.js":"81c19a49c169","js/full.en.js":"6d6c19847a8b","js/wmd.en.js":"a349c871bd62","js/third-party/jquery.autocomplete.min.js":"bdb258e949a8","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"4804a16f7074","js/help.en.js":"a1c2d4ed1321","js/tageditor.en.js":"bff66e3469d5","js/tageditornew.en.js":"586ffe22ab58","js/inline-tag-editing.en.js":"e7aa31e8eba1","js/revisions.en.js":"8f22ba768cac","js/review.en.js":"5eda79317cf4","js/tagsuggestions.en.js":"78eee7c19ab2","js/post-validation.en.js":"ec745f184617","js/explore-qlist.en.js":"66e52888786d","js/events.en.js":"8f07ed802b6b","js/keyboard-shortcuts.en.js":"8588a17139dd","js/external-editor.en.js":"3c50622b803d","js/adops.en.js":"22a9bd59b1e9","js/external-editor.en.js":"3c50622b803d","js/snippet-javascript.en.js":"6596eb95a324","js/snippet-javascript-codemirror.en.js":"6e1735fcf180"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script> 
+  <noscript id="noscript-css">
+   <style>body,.top-bar{margin-top:1.9em}</style>
+  </noscript> 
+ </head> 
+ <body class="question-page new-topbar"> 
+  <script async src="https://js-sec.indexww.com/ht/p/185901-159836282584097.js"></script> 
+  <div id="notify-container"></div> 
+  <div id="custom-header"></div> 
+  <header class="top-bar js-top-bar _fixed"> 
+   <div class="-container"> 
+    <div class="-main"> 
+     <a href="https://stackoverflow.com" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:2, destination:8})"> <span class="-img">Stack Overflow</span> </a> 
+     <nav class="navigation" role="navigation" aria-label="site navigation"> 
+      <ol class="-list"> 
+       <li class="-item _current"> <a id="nav-questions" href="/questions" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:true, location:2, destination:1})">Questions</a> </li> 
+       <li class="-item"> <a id="nav-jobs" href="/jobs?med=site-ui&amp;ref=jobs-tab" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:2, destination:6})">Developer Jobs</a> </li> 
+       <li class="-item"> <a id="nav-tags" href="/tags" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:2, destination:2})">Tags</a> </li> 
+       <li class="-item"> <a id="nav-users" href="/users" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:2, destination:3})">Users</a> </li> 
+      </ol> 
+     </nav> 
+    </div> 
+    <form id="search" action="/search" method="get" class="searchbar" autocomplete="off" role="search"> 
+     <input name="q" type="text" placeholder="Search…" value="" tabindex="1" autocomplete="off" maxlength="240" class="f-input js-search-field"> 
+     <button type="submit" aria-label="Search..." class="btn-topbar-primary js-search-submit">
+      <svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewbox="0 0 18 18">
+       <path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z" />
+      </svg></button> 
+    </form> 
+    <div class="-actions"> 
+     <nav class="secondary-nav"> 
+      <div class="-dialog-container js-topbar-dialog-corral"> 
+       <div class="topbar-dialog siteSwitcher-dialog dno"> 
+        <div class="header"> 
+         <h3><a href="https://stackoverflow.com">current community</a> </h3> 
+        </div> 
+        <div class="modal-content current-site-container"> 
+         <ul class="current-site"> 
+          <li> 
+           <div class="related-links"> 
+            <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:14 })">help</a> 
+            <a href="https://chat.stackoverflow.com" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a> 
+           </div> <a href="https://stackoverflow.com" class="current-site-link site-link js-gps-track" data-id="1" data-gps-track="site_switcher.click({ item_type:3 })"> 
+            <div class="favicon favicon-stackoverflow site-icon" title="Stack Overflow"></div> Stack Overflow </a> </li> 
+          <li class="related-site"> 
+           <div class="L-shaped-icon-container"> 
+            <span class="L-shaped-icon"></span> 
+           </div> <a href="https://meta.stackoverflow.com" class="site-link js-gps-track" data-id="552" data-gps-track="site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })"> 
+            <div class="favicon favicon-stackoverflowmeta site-icon" title="Meta Stack Overflow"></div> Meta Stack Overflow </a> </li> 
+         </ul> 
+        </div> 
+        <div class="header" id="your-communities-header"> 
+         <h3> your communities </h3> 
+        </div> 
+        <div class="modal-content" id="your-communities-section"> 
+         <div class="call-to-login"> 
+          <a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or 
+          <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f49288644%2fandroid-webview-onpagefinished-bug" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list. 
+         </div> 
+        </div> 
+        <div class="header"> 
+         <h3><a href="https://stackexchange.com/sites">more stack exchange communities</a> </h3> 
+         <a href="https://stackoverflow.blog" class="fr">company blog</a> 
+        </div> 
+        <div class="modal-content"> 
+         <div class="child-content"></div> 
+        </div> 
+       </div> 
+       <div class="topbar-dialog help-dialog js-help-dialog dno"> 
+        <div class="modal-content"> 
+         <ul> 
+          <li> <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })"> Tour <span class="item-summary"> Start here for a quick overview of the site </span> </a> </li> 
+          <li> <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })"> Help Center <span class="item-summary"> Detailed answers to any questions you might have </span> </a> </li> 
+          <li> <a href="https://meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })"> Meta <span class="item-summary"> Discuss the workings and policies of this site </span> </a> </li> 
+          <li> <a href="https://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })"> About Us <span class="item-summary"> Learn more about Stack Overflow the company </span> </a> </li> 
+          <li> <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })"> Business <span class="item-summary"> Learn more about hiring developers or posting ads with us </span> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+      <ol class="-list"> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages"> 
+         <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewbox="0 0 20 18">
+          <path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z" />
+         </svg> <span class="indicator-badge js-unread-count _important" style="display: none;"></span> </a> </li> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive"> 
+         <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z" />
+         </svg> <span class="indicator-badge js-unread-count _positive" style="display: none;"></span> </a> </li> 
+       <li class="-item"><a href="#" class="-link js-help-button" title="Help Center and other resources"> 
+         <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z" />
+         </svg> </a></li> 
+       <li class="-item"> <a href="https://stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 172 Stack Exchange sites"> 
+         <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z" />
+         </svg> </a> </li> 
+      </ol> 
+     </nav> 
+     <div class="-ctas"> 
+      <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f49288644%2fandroid-webview-onpagefinished-bug" class="login-link btn-clear" rel="nofollow">Log In</a> 
+      <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link btn-topbar-primary" rel="nofollow" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]">Sign Up</a> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+        StackExchange.scrollPadding.setPaddingTop(60, 10);     </script> 
+  <div id="announcement-banner" data-campaign="2018-03-13.dev-survey-2018" data-cookie="notice-dsr" data-expire-date="1524211200000"> 
+   <div class="-container"> 
+    <span class="-body">The results are in!</span> 
+    <a class="-link js-link js-gps-track" href="https://insights.stackoverflow.com/survey/2018/" data-ga="[&quot;dev-survey-2018&quot;,&quot;Announcement Banner&quot;,&quot;https://insights.stackoverflow.com/survey/2018/&quot;,null,{&quot;dimension4&quot;:&quot;dev-survey-2018&quot;}]" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 2, action: 2})">See the 2018 Developer Survey results. »</a> 
+    <a class="-dismiss js-dismiss js-gps-track" href="#" title="dismiss" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 2, action: 1})">
+     <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewbox="0 0 18 18">
+      <path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z" />
+     </svg></a> 
+   </div> 
+  </div> 
+  <script>
+    StackExchange.ready(function () {
+        var $banner = $('#announcement-banner');
+
+        function setCookie(value) {
+            $.cookie($banner.data('cookie'), value, {
+                expires: (new Date($banner.data('expire-date'))),
+                path: '/'
+            });
+        }
+
+        $banner.find('.js-link').click(function () {
+            setCookie('2;' + Date.now());
+        });
+
+        $banner.find('.js-dismiss').click(function () {
+            setCookie('4;' + Date.now());
+            $banner.animate({ height: '0', opacity: 0 }, 'fast', 'linear', function () { $banner.remove(); });
+            return false;
+        });
+    });
+</script> 
+  <div class="container _full "> 
+   <div id="content" class="snippet-hidden"> 
+    <div itemscope itemtype="http://schema.org/Question"> 
+     <link itemprop="image" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a"> 
+     <div class="s-hero hero-container _fixed js-dismissable-hero" data-campaign-name="stk"> 
+      <div class="-container g-row jc-sp-between ai-center"> 
+       <div class="g-col6"> 
+        <p class="-title"><strong>Join Stack Overflow</strong> to learn, share knowledge, and build your career.</p> 
+       </div> 
+       <div class="s-signup _hero g-col6"> 
+        <div id="openid-buttons" class="-social"> 
+         <a class="btn-outlined -white _medium _block" href="/users/signup?ssrc=hero&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f49288644%2fandroid-webview-onpagefinished-bug" rel="nofollow" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Navigation&quot;,&quot;Question Hero&quot;,null,null]">Email Sign Up</a> 
+         <span class="-or">or sign in with</span> 
+         <div class="major-provider btn _block _medium _google" data-provider="google" data-oauthserver="https://accounts.google.com/o/oauth2/auth" data-oauthversion="2.0" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Started - Google&quot;,&quot;Question Hero&quot;,null,null]"> 
+          <svg aria-hidden="true" class="svg-icon native iconGoogle" width="18" height="18" viewbox="0 0 18 18">
+           <g>
+            <path d="M16.51 8H8.98v3h4.3c-.18 1-.74 1.48-1.6 2.04v2.01h2.6a7.8 7.8 0 0 0 2.38-5.88c0-.57-.05-.66-.15-1.18z" fill="#4285F4" />
+            <path d="M8.98 17c2.16 0 3.97-.72 5.3-1.94l-2.6-2a4.8 4.8 0 0 1-7.18-2.54H1.83v2.07A8 8 0 0 0 8.98 17z" fill="#34A853" />
+            <path d="M4.5 10.52a4.8 4.8 0 0 1 0-3.04V5.41H1.83a8 8 0 0 0 0 7.18l2.67-2.07z" fill="#FBBC05" />
+            <path d="M8.98 4.18c1.17 0 2.23.4 3.06 1.2l2.3-2.3A8 8 0 0 0 1.83 5.4L4.5 7.49a4.77 4.77 0 0 1 4.48-3.3z" fill="#EA4335" />
+           </g>
+          </svg> Google 
+         </div> 
+         <div class="major-provider btn _block _medium _facebook" data-provider="facebook" data-oauthserver="https://www.facebook.com/v2.0/dialog/oauth" data-oauthversion="2.0" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Started - Facebook&quot;,&quot;Question Hero&quot;,null,null]"> 
+          <svg aria-hidden="true" class="svg-icon iconFacebook" width="18" height="18" viewbox="0 0 18 18">
+           <path d="M1.88 1C1.4 1 1 1.4 1 1.88v14.24c0 .48.4.88.88.88h7.67v-6.2H7.46V8.4h2.09V6.61c0-2.07 1.26-3.2 3.1-3.2.88 0 1.64.07 1.87.1v2.16h-1.29c-1 0-1.19.48-1.19 1.18V8.4h2.39l-.31 2.42h-2.08V17h4.08c.48 0 .88-.4.88-.88V1.88c0-.48-.4-.88-.88-.88H1.88z" fill="#3C5A96" />
+          </svg> Facebook 
+         </div> 
+         <a id="close" href="#" class="js-dismiss js-hero-mini-disabled -dismiss" title="dismiss">
+          <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewbox="0 0 18 18">
+           <path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z" />
+          </svg></a> 
+        </div> 
+        <form id="login-form" action="/users/signup?ssrc=hero&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f49288644%2fandroid-webview-onpagefinished-bug" method="POST"> 
+         <input type="hidden" name="fkey" value="d16a35da63103e8b1162221b85b5952621651c541085caea15d1785affbc32a4"> 
+         <input type="hidden" name="ssrc" value=""> 
+         <input type="hidden" id="oauth_version" name="oauth_version"> 
+         <input type="hidden" id="oauth_server" name="oauth_server"> 
+         <div id="se-login-fields"> 
+          <input type="hidden" name="legalLinksShown" value="0"> 
+         </div> 
+        </form> 
+        <script>
+                StackExchange.ready(function () {
+                    StackExchange.InlineAuth.init();
+                })
+            </script> 
+       </div> 
+      </div> 
+     </div>
+     <script>
+    StackExchange.ready(function () {
+
+        StackExchange.Hero.init("stk", "a");
+
+        var location = 0;
+        if ($("body").hasClass("questions-page")) {
+            location = 1;
+        } else if ($("body").hasClass("question-page")) {
+            location = 1;
+        } else if ($("body").hasClass("faq-page")) {
+            location = 5;
+        } else if ($("body").hasClass("home-page")) {
+            location = 3;
+        }
+
+        $('#tell-me-more').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: 'cta', location: location }, true);
+            });
+        });
+
+        $('.js-dismissable-hero #close').click(function () {
+            StackExchange.using("gps", function () {
+                StackExchange.gps.track("hero.action", { hero_action_type: "minimize", location: location }, true);
+              });
+
+            StackExchange.Hero.dismiss();
+
+            $.ajax({
+                url: "/hero-mini",
+                success: function (data) {
+                    $(".js-dismissable-hero").fadeOut("fast", function () {
+                        $(".js-dismissable-hero").replaceWith(data);
+                        $("#herobox-mini").fadeIn("fast");
+                    });
+                }
+            });
+            return false;
+        });
+    });
+</script> 
+     <div class="inner-content clearfix"> 
+      <div id="question-header"> 
+       <h1 itemprop="name"><a href="/questions/49288644/android-webview-onpagefinished-bug" class="question-hyperlink">Android WebView onPageFinished BUG</a></h1> 
+       <div class="aside-cta" role="navigation" aria-label="ask new question"> 
+        <a href="/questions/ask" class="btn-outlined">Ask Question</a> 
+       </div> 
+      </div> 
+      <div id="mainbar" role="main" aria-label="question and answers"> 
+       <div class="question" data-questionid="49288644" id="question"> 
+        <div id="dfp-tlb" class="everyonelovesstackoverflow"></div> 
+        <div class="post-layout"> 
+         <div class="votecell post-layout--left"> 
+          <div class="vote"> 
+           <input type="hidden" name="_id_" value="49288644"> 
+           <a class="vote-up-off" title="This question shows research effort; it is useful and clear">up vote</a> 
+           <span itemprop="upvoteCount" class="vote-count-post ">10</span> 
+           <a class="vote-down-off" title="This question does not show any research effort; it is unclear or not useful">down vote</a> 
+           <a class="star-off" href="#">favorite</a> 
+           <div class="favoritecount">
+            <b></b>
+           </div> 
+          </div> 
+         </div> 
+         <div class="postcell post-layout--right"> 
+          <div class="post-text" itemprop="text"> 
+           <p>After update API (27) in Android OREO this code is no longer working:</p> 
+           <pre><code> public void onPageFinished(WebView view, String url) {
+     super.onPageFinished(view, url);
+     view.loadUrl("javascript:(function() {document.getElementById(\"imPage\").style.display='none';})()");
+ }
+</code></pre> 
+           <p>I have also tried with:</p> 
+           <pre><code>webView.loadUrl(
+                    "javascript:(function() { " +
+
+                            "document.addEventListener(\"DOMContentLoaded\", function(event) {" +
+
+                            "document.getElementById(\"imPage\").style.display='none';" +
+
+                            "});" +
+
+                            "})()");
+</code></pre> 
+           <p>Element not hiding and debug return:</p> 
+           <pre><code>I/chromium: [INFO:CONSOLE(1)] "Uncaught TypeError: Cannot read property 'style' of null", source: mywebsite/ (1)
+</code></pre> 
+           <p>So I think the <code>javascript</code> is injected before loading page, this explains why the line is 1, because I have other code called after loading page is finished but this code is called when page is white, not loaded.</p> 
+          </div> 
+          <div class="post-taglist"> 
+           <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> 
+           <a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="//i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> 
+           <a href="/questions/tagged/android-studio" class="post-tag" title="show questions tagged 'android-studio'" rel="tag"><img src="//i.stack.imgur.com/xqoqk.png" height="16" width="18" alt="" class="sponsor-tag-img">android-studio</a> 
+          </div> 
+          <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy"> 
+           <div class="grid--cell mr16" style="flex: 1 1 100px;"> 
+            <div class="post-menu">
+             <a href="/q/49288644" title="short permalink to this question" class="short-link" id="link-post-49288644">share</a>
+             <span class="lsep">|</span>
+             <a href="/posts/49288644/edit" class="suggest-edit-post" title="">improve this question</a>
+            </div> 
+           </div> 
+           <div class="post-signature grid--cell fl0"> 
+            <div class="user-info "> 
+             <div class="user-action-time"> 
+              <a href="/posts/49288644/revisions" title="show all edits to this post">edited <span title="2018-03-21 17:07:04Z" class="relativetime">2 days ago</span></a> 
+             </div> 
+             <div class="user-gravatar32"> 
+             </div> 
+             <div class="user-details"> 
+              <div class="-flair"> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+           <div class="post-signature owner grid--cell fl0"> 
+            <div class="user-info "> 
+             <div class="user-action-time">
+               asked 
+              <span title="2018-03-14 22:29:50Z" class="relativetime">Mar 14 at 22:29</span> 
+             </div> 
+             <div class="user-gravatar32"> 
+              <a href="/users/9012009/marcus-j-kennedy">
+               <div class="gravatar-wrapper-32">
+                <img src="https://www.gravatar.com/avatar/6b398ce2285c8a04f3ca3b3bc2a320e3?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+               </div></a> 
+             </div> 
+             <div class="user-details"> 
+              <a href="/users/9012009/marcus-j-kennedy">Marcus J.Kennedy</a> 
+              <div class="-flair"> 
+               <span class="reputation-score" title="reputation score " dir="ltr">114</span>
+               <span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+         <div class="bounty-notification post-layout--full"> 
+          <div class="question-status bounty"> 
+           <h2> This question has an open <a href="/help/bounty">bounty</a> worth <span class="bounty-award">+50</span> reputation from <a href="/users/9012009/marcus-j-kennedy">Marcus J.Kennedy</a> ending <b title="started at 2018-03-16 22:32:40Z
+ ending at 2018-03-23 22:32:40Z">in 20 minutes</b>. </h2> 
+           <p>The question is widely applicable to a large audience. A detailed canonical answer is required to address all the concerns.</p>
+          </div> 
+         </div> 
+         <div class="post-layout--right"> 
+          <div id="comments-49288644" class="comments js-comments-container "> 
+           <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true"> 
+            <li id="comment-85680008" class="comment js-comment " data-comment-id="85680008"> 
+             <div class="js-comment-actions comment-actions"> 
+              <div class="comment-score"> 
+               <span title="number of 'useful comment' votes received" class="cool">1</span> 
+              </div> 
+             </div> 
+             <div class="comment-text js-comment-text-and-form"> 
+              <div style="display: block;" class="comment-body"> 
+               <span class="comment-copy">can you log what url is passed to onPageFinished on OREO and on older systems?</span> –&nbsp;
+               <a href="/users/2318843/radekj" title="1,480 reputation" class="comment-user">RadekJ</a> 
+               <span class="comment-date" dir="ltr"><span title="2018-03-17 17:40:17Z" class="relativetime-clean">Mar 17 at 17:40</span></span> 
+              </div> 
+             </div> </li> 
+           </ul> 
+          </div> 
+          <div id="comments-link-49288644" data-rep="50" data-anon="true"> 
+           <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid answering questions in comments.">add a comment</a>
+           <span class="js-link-separator dno">&nbsp;|&nbsp;</span> 
+           <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="#" onclick=""></a> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div id="answers"> 
+        <a name="tab-top"></a> 
+        <div id="answers-header"> 
+         <div class="subheader answers-subheader"> 
+          <h2 data-answercount="3"> 3 Answers <span style="display:none;" itemprop="answerCount">3</span> </h2> 
+          <div> 
+           <div id="tabs"> 
+            <a href="/questions/49288644/android-webview-onpagefinished-bug?answertab=active#tab-top" data-nav-xhref="" title="Answers with the latest activity first" data-value="active" data-shortcut="A"> active</a> 
+            <a href="/questions/49288644/android-webview-onpagefinished-bug?answertab=oldest#tab-top" data-nav-xhref="" title="Answers in the order they were provided" data-value="oldest" data-shortcut="O"> oldest</a> 
+            <a class="youarehere " href="/questions/49288644/android-webview-onpagefinished-bug?answertab=votes#tab-top" data-nav-xhref="" title="Answers with the highest score first" data-value="votes" data-shortcut="V"> votes</a> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <a name="49429845"></a> 
+        <div id="answer-49429845" class="answer" data-answerid="49429845" itemscope itemtype="http://schema.org/Answer"> 
+         <div class="post-layout"> 
+          <div class="votecell post-layout--left"> 
+           <div class="vote"> 
+            <input type="hidden" name="_id_" value="49429845"> 
+            <a class="vote-up-off" title="This answer is useful">up vote</a> 
+            <span itemprop="upvoteCount" class="vote-count-post ">2</span> 
+            <a class="vote-down-off" title="This answer is not useful">down vote</a> 
+           </div> 
+          </div> 
+          <div class="answercell post-layout--right"> 
+           <div class="post-text" itemprop="text"> 
+            <p>In my own project I have been using <code>evaluateJavascript(script,null)</code> in onPageFinished to hide html elements. <code>view.loadUrl()</code> Should work the same way. </p> 
+            <p>If you don't need the function be called at later time you could simplify your JS string and instead of <code>\"</code> try using <code>'</code>.</p> 
+            <pre><code>public void onPageFinished(WebView view, String url) {
+super.onPageFinished(view, url);
+view.loadUrl("javascript:document.getElementById('imPage').style.display='none';");}
+</code></pre> 
+           </div> 
+           <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy"> 
+            <div class="grid--cell mr16" style="flex: 1 1 100px;"> 
+             <div class="post-menu">
+              <a href="/a/49429845" title="short permalink to this answer" class="short-link" id="link-post-49429845">share</a>
+              <span class="lsep">|</span>
+              <a href="/posts/49429845/edit" class="suggest-edit-post" title="">improve this answer</a>
+             </div> 
+            </div> 
+            <div class="post-signature grid--cell fl0"> 
+             <div class="user-info "> 
+              <div class="user-action-time"> 
+               <a href="/posts/49429845/revisions" title="show all edits to this post">edited <span title="2018-03-23 06:11:42Z" class="relativetime">16 hours ago</span></a> 
+              </div> 
+              <div class="user-gravatar32"> 
+              </div> 
+              <div class="user-details"> 
+               <div class="-flair"> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+            <div class="post-signature grid--cell fl0"> 
+             <div class="user-info "> 
+              <div class="user-action-time">
+                answered 
+               <span title="2018-03-22 13:23:05Z" class="relativetime">yesterday</span> 
+              </div> 
+              <div class="user-gravatar32"> 
+               <a href="/users/6623419/speditz">
+                <div class="gravatar-wrapper-32">
+                 <img src="https://www.gravatar.com/avatar/911940f98e1e797a761717ac62f856a1?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+                </div></a> 
+              </div> 
+              <div class="user-details"> 
+               <a href="/users/6623419/speditz">Speditz</a> 
+               <div class="-flair"> 
+                <span class="reputation-score" title="reputation score " dir="ltr">21</span>
+                <span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span>
+                <span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="post-layout--right"> 
+           <div id="comments-49429845" class="comments js-comments-container  dno"> 
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true"> 
+            </ul> 
+           </div> 
+           <div id="comments-link-49429845" data-rep="50" data-anon="true"> 
+            <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a>
+            <span class="js-link-separator dno">&nbsp;|&nbsp;</span> 
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="#" onclick=""></a> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <div id="dfp-mlb" class="everyonelovesstackoverflow"></div> 
+        <a name="49357911"></a> 
+        <div id="answer-49357911" class="answer" data-answerid="49357911" itemscope itemtype="http://schema.org/Answer"> 
+         <div class="post-layout"> 
+          <div class="votecell post-layout--left"> 
+           <div class="vote"> 
+            <input type="hidden" name="_id_" value="49357911"> 
+            <a class="vote-up-off" title="This answer is useful">up vote</a> 
+            <span itemprop="upvoteCount" class="vote-count-post ">1</span> 
+            <a class="vote-down-off" title="This answer is not useful">down vote</a> 
+           </div> 
+          </div> 
+          <div class="answercell post-layout--right"> 
+           <div class="post-text" itemprop="text"> 
+            <p><code>document.getElementById(\"imPage\")</code> must be returning <code>null</code>. </p> 
+            <p>So there is either no <code>imPage</code>element or you haven't loaded the page at the time.</p> 
+            <p>I would suggest moving your entire js code into </p> 
+            <pre><code>document.addEventListener("DOMContentLoaded", function(event) { 
+  //insert here
+});
+</code></pre> 
+           </div> 
+           <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy"> 
+            <div class="grid--cell mr16" style="flex: 1 1 100px;"> 
+             <div class="post-menu">
+              <a href="/a/49357911" title="short permalink to this answer" class="short-link" id="link-post-49357911">share</a>
+              <span class="lsep">|</span>
+              <a href="/posts/49357911/edit" class="suggest-edit-post" title="">improve this answer</a>
+             </div> 
+            </div> 
+            <div class="post-signature grid--cell fl0"> 
+             <div class="user-info "> 
+              <div class="user-action-time">
+                answered 
+               <span title="2018-03-19 07:41:29Z" class="relativetime">Mar 19 at 7:41</span> 
+              </div> 
+              <div class="user-gravatar32"> 
+               <a href="/users/9508866/zden%c4%9bk-david">
+                <div class="gravatar-wrapper-32">
+                 <img src="https://graph.facebook.com/209642552725482/picture?type=large" alt="" width="32" height="32">
+                </div></a> 
+              </div> 
+              <div class="user-details"> 
+               <a href="/users/9508866/zden%c4%9bk-david">Zdeněk David</a> 
+               <div class="-flair"> 
+                <span class="reputation-score" title="reputation score " dir="ltr">63</span>
+                <span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="post-layout--right"> 
+           <div id="comments-49357911" class="comments js-comments-container "> 
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true"> 
+             <li id="comment-85825816" class="comment js-comment " data-comment-id="85825816"> 
+              <div class="js-comment-actions comment-actions"> 
+               <div class="comment-score"> 
+               </div> 
+              </div> 
+              <div class="comment-text js-comment-text-and-form"> 
+               <div style="display: block;" class="comment-body"> 
+                <span class="comment-copy">I have testet with your code, nothing change =/</span> –&nbsp;
+                <a href="/users/9012009/marcus-j-kennedy" title="114 reputation" class="comment-user owner">Marcus J.Kennedy</a> 
+                <span class="comment-date" dir="ltr"><span title="2018-03-21 16:43:08Z" class="relativetime-clean">2 days ago</span></span> 
+               </div> 
+              </div> </li> 
+             <li id="comment-85827678" class="comment js-comment " data-comment-id="85827678"> 
+              <div class="js-comment-actions comment-actions"> 
+               <div class="comment-score"> 
+               </div> 
+              </div> 
+              <div class="comment-text js-comment-text-and-form"> 
+               <div style="display: block;" class="comment-body"> 
+                <span class="comment-copy">No error but the code not working =(</span> –&nbsp;
+                <a href="/users/9012009/marcus-j-kennedy" title="114 reputation" class="comment-user owner">Marcus J.Kennedy</a> 
+                <span class="comment-date" dir="ltr"><span title="2018-03-21 17:30:51Z" class="relativetime-clean">2 days ago</span></span> 
+               </div> 
+              </div> </li> 
+             <li id="comment-85863486" class="comment js-comment " data-comment-id="85863486"> 
+              <div class="js-comment-actions comment-actions"> 
+               <div class="comment-score"> 
+               </div> 
+              </div> 
+              <div class="comment-text js-comment-text-and-form"> 
+               <div style="display: block;" class="comment-body"> 
+                <span class="comment-copy">Try to remove the "\" from getElementById(\"imPage\") then, maybe that is why it returns null</span> –&nbsp;
+                <a href="/users/9508866/zden%c4%9bk-david" title="63 reputation" class="comment-user">Zdeněk David</a> 
+                <span class="comment-date" dir="ltr"><span title="2018-03-22 14:14:01Z" class="relativetime-clean">yesterday</span></span> 
+                <span class="edited-yes" title="this comment was edited 1 time"></span> 
+               </div> 
+              </div> </li> 
+            </ul> 
+           </div> 
+           <div id="comments-link-49357911" data-rep="50" data-anon="true"> 
+            <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a>
+            <span class="js-link-separator dno">&nbsp;|&nbsp;</span> 
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="#" onclick=""></a> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <a name="49358129"></a> 
+        <div id="answer-49358129" class="answer" data-answerid="49358129" itemscope itemtype="http://schema.org/Answer"> 
+         <div class="post-layout"> 
+          <div class="votecell post-layout--left"> 
+           <div class="vote"> 
+            <input type="hidden" name="_id_" value="49358129"> 
+            <a class="vote-up-off" title="This answer is useful">up vote</a> 
+            <span itemprop="upvoteCount" class="vote-count-post ">-1</span> 
+            <a class="vote-down-off" title="This answer is not useful">down vote</a> 
+           </div> 
+          </div> 
+          <div class="answercell post-layout--right"> 
+           <div class="post-text" itemprop="text"> 
+            <p>You have to enable Javascript Seetings like below :-</p> 
+            <pre><code>view.getSettings().setJavaScriptEnabled(true); //Yes you have to do it
+</code></pre> 
+           </div> 
+           <div class="grid mb0 fw-wrap ai-start jc-end gs8 gsy"> 
+            <div class="grid--cell mr16" style="flex: 1 1 100px;"> 
+             <div class="post-menu">
+              <a href="/a/49358129" title="short permalink to this answer" class="short-link" id="link-post-49358129">share</a>
+              <span class="lsep">|</span>
+              <a href="/posts/49358129/edit" class="suggest-edit-post" title="">improve this answer</a>
+             </div> 
+            </div> 
+            <div class="post-signature grid--cell fl0"> 
+             <div class="user-info "> 
+              <div class="user-action-time">
+                answered 
+               <span title="2018-03-19 07:57:18Z" class="relativetime">Mar 19 at 7:57</span> 
+              </div> 
+              <div class="user-gravatar32"> 
+               <a href="/users/8743921/akshay-rohilla">
+                <div class="gravatar-wrapper-32">
+                 <img src="https://i.stack.imgur.com/5PKzn.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+                </div></a> 
+              </div> 
+              <div class="user-details"> 
+               <a href="/users/8743921/akshay-rohilla">Akshay Rohilla</a> 
+               <div class="-flair"> 
+                <span class="reputation-score" title="reputation score " dir="ltr">113</span>
+                <span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span> 
+               </div> 
+              </div> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="post-layout--right"> 
+           <div id="comments-49358129" class="comments js-comments-container "> 
+            <ul class="comments-list js-comments-list" data-remaining-comments-count="0" data-canpost="false" data-cansee="true" data-comments-unavailable="false" data-addlink-disabled="true"> 
+             <li id="comment-85777889" class="comment js-comment " data-comment-id="85777889"> 
+              <div class="js-comment-actions comment-actions"> 
+               <div class="comment-score"> 
+               </div> 
+              </div> 
+              <div class="comment-text js-comment-text-and-form"> 
+               <div style="display: block;" class="comment-body"> 
+                <span class="comment-copy">Yes i have enabled =)</span> –&nbsp;
+                <a href="/users/9012009/marcus-j-kennedy" title="114 reputation" class="comment-user owner">Marcus J.Kennedy</a> 
+                <span class="comment-date" dir="ltr"><span title="2018-03-20 15:29:56Z" class="relativetime-clean">Mar 20 at 15:29</span></span> 
+               </div> 
+              </div> </li> 
+            </ul> 
+           </div> 
+           <div id="comments-link-49358129" data-rep="50" data-anon="true"> 
+            <a class="js-add-link comments-link disabled-link " title="Use comments to ask for more information or suggest improvements. Avoid comments like “+1” or “thanks”.">add a comment</a>
+            <span class="js-link-separator dno">&nbsp;|&nbsp;</span> 
+            <a class="js-show-link comments-link dno" title="expand to show all comments on this post" href="#" onclick=""></a> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <a name="new-answer"></a> 
+        <form id="post-form" action="/questions/49288644/answer/submit" method="post" class="post-form"> 
+         <input type="hidden" id="post-id" value="49288644"> 
+         <input type="hidden" id="qualityBanWarningShown" name="qualityBanWarningShown" value="false"> 
+         <input type="hidden" name="referrer" value=""> 
+         <h2 class="space">Your Answer</h2> 
+         <script>
+            StackExchange.ifUsing("editor", function () {
+                StackExchange.using("externalEditor", function () {
+                    StackExchange.using("snippets", function () {
+                        StackExchange.snippets.init();
+                    });
+                });
+            }, "code-snippets");
+        </script> 
+         <script>
+    StackExchange.ready(function() {
+        initTagRenderer("".split(" "), "".split(" "));
+       
+        StackExchange.using("externalEditor", function() {
+                // Have to fire editor after snippets, if snippets enabled
+                if (StackExchange.settings.snippets.snippetsEnabled) {
+                    StackExchange.using("snippets", function() {
+                        createEditor();
+                    });
+                }
+                else {
+                    createEditor();
+                }
+            });
+
+            function createEditor() {
+                StackExchange.prepareEditor({
+                    heartbeatType: 'answer',
+                convertImagesToLinks: true,
+                showLowRepImageUploadWarning: true,
+                reputationToPostImages: 10,
+                bindNavPrevention: true,
+                postfix: "",
+                    onDemand: true,
+                    discardSelector: ".discard-answer"
+                    ,immediatelyShowMarkdownHelp:true
+                    });
+                
+
+        }
+    });
+</script> 
+         <div id="post-editor" class="post-editor js-post-editor"> 
+          <div style="position: relative;"> 
+           <div class="wmd-container"> 
+            <div id="wmd-button-bar" class="wmd-button-bar"></div> 
+            <textarea id="wmd-input" class="wmd-input" name="post-text" cols="92" rows="15" tabindex="101" data-min-length=""></textarea> 
+           </div> 
+          </div> 
+          <div class="fl" style="margin-top: 8px; height:24px;">
+           &nbsp;
+          </div> 
+          <div id="draft-saved" class="draft-saved community-option fl" style="margin-top: 8px; height:24px; display:none;">
+           draft saved
+          </div> 
+          <div id="draft-discarded" class="draft-discarded community-option fl" style="margin-top: 8px; height:24px; display:none;">
+           draft discarded
+          </div> 
+          <div id="wmd-preview" class="wmd-preview"></div> 
+          <div></div> 
+          <div class="edit-block"> 
+           <input id="fkey" name="fkey" type="hidden" value="d16a35da63103e8b1162221b85b5952621651c541085caea15d1785affbc32a4"> 
+           <input id="author" name="author" type="text"> 
+          </div> 
+         </div> 
+         <div style="position: relative;"> 
+          <div class="form-item dno new-post-login"> 
+           <div class="new-login-form"> 
+            <div class="new-login-left"> 
+             <h3>Sign up or <a id="login-link" href="/users/login?ssrc=question_page&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2f49288644%2fandroid-webview-onpagefinished-bug%23new-answer">log in</a></h3> 
+             <script>
+                            StackExchange.ready(function () {
+                                StackExchange.helpers.onClickDraftSave('#login-link');
+                                    
+                                var $window = $(window),
+                                    onScroll = function(e) {
+                                        var $elem = $('.new-login-left'),
+                                            docViewTop = $window.scrollTop(),
+                                            docViewBottom = docViewTop + $window.height(),
+                                            elemTop = $elem.offset().top,
+                                            elemBottom = elemTop + $elem.height();							
+                                        if ((docViewTop < elemTop) && (docViewBottom > elemBottom))  {
+                                            StackExchange.using('gps', function() { StackExchange.gps.track('embedded_signup_form.view', { location: 'question_page' }); });
+                                            $window.unbind('scroll', onScroll);
+                                        }
+                                    };
+                                $window.on('scroll', onScroll);
+                                    
+                            });
+                        </script> 
+             <div class="preferred-login google-login" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Started - Google&quot;,&quot;New Post&quot;,null,null]"> 
+              <svg aria-hidden="true" class="svg-icon native iconGoogle" width="18" height="18" viewbox="0 0 18 18">
+               <g>
+                <path d="M16.51 8H8.98v3h4.3c-.18 1-.74 1.48-1.6 2.04v2.01h2.6a7.8 7.8 0 0 0 2.38-5.88c0-.57-.05-.66-.15-1.18z" fill="#4285F4" />
+                <path d="M8.98 17c2.16 0 3.97-.72 5.3-1.94l-2.6-2a4.8 4.8 0 0 1-7.18-2.54H1.83v2.07A8 8 0 0 0 8.98 17z" fill="#34A853" />
+                <path d="M4.5 10.52a4.8 4.8 0 0 1 0-3.04V5.41H1.83a8 8 0 0 0 0 7.18l2.67-2.07z" fill="#FBBC05" />
+                <path d="M8.98 4.18c1.17 0 2.23.4 3.06 1.2l2.3-2.3A8 8 0 0 0 1.83 5.4L4.5 7.49a4.77 4.77 0 0 1 4.48-3.3z" fill="#EA4335" />
+               </g>
+              </svg> Sign up using Google 
+             </div> 
+             <div class="preferred-login facebook-login" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Started - Facebook&quot;,&quot;New Post&quot;,null,null]"> 
+              <svg aria-hidden="true" class="svg-icon iconFacebook" width="18" height="18" viewbox="0 0 18 18">
+               <path d="M1.88 1C1.4 1 1 1.4 1 1.88v14.24c0 .48.4.88.88.88h7.67v-6.2H7.46V8.4h2.09V6.61c0-2.07 1.26-3.2 3.1-3.2.88 0 1.64.07 1.87.1v2.16h-1.29c-1 0-1.19.48-1.19 1.18V8.4h2.39l-.31 2.42h-2.08V17h4.08c.48 0 .88-.4.88-.88V1.88c0-.48-.4-.88-.88-.88H1.88z" fill="#3C5A96" />
+              </svg> Sign up using Facebook 
+             </div> 
+             <div class="preferred-login stackexchange-login" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Navigation&quot;,&quot;New Post&quot;,null,null]"> 
+              <svg aria-hidden="true" class="svg-icon native iconLogoGlyphXSm" width="18" height="18" viewbox="0 0 18 18">
+               <g>
+                <path fill="#BCBBBB" d="M14 16v-5h2v7H2v-7h2v5z" />
+                <path d="M5 15v-2h8v2H5zM12.09.72l4.5 6.06-1.2.9-4.51-6.06 1.21-.9zM8.34 4.3l.97-1.16 5.8 4.83-.96 1.16-5.8-4.83zm-1.9 3.36l.64-1.37 6.85 3.19-.63 1.37-6.85-3.2zM5.4 11.39l.38-1.67 7.42 1.48-.22 1.46-7.58-1.27z" fill="#F48024" />
+               </g>
+              </svg> Sign up using Email and Password 
+             </div> 
+            </div> 
+            <input type="hidden" name="manual-openid" class="manual-openid"> 
+            <input type="hidden" name="use-facebook" class="use-facebook" value="false"> 
+            <input type="hidden" name="use-google" class="use-google" value="false"> 
+            <input type="button" class="submit-openid" value="Submit" style="display:none"> 
+            <div class="new-login-right"> 
+             <h3>Post as a guest</h3> 
+             <div class="form-item"> 
+              <table> 
+               <tbody>
+                <tr> 
+                 <td class="vm"> 
+                  <div> 
+                   <label for="display-name">Name</label> 
+                   <input id="display-name" name="display-name" type="text" size="30" maxlength="30" value="" tabindex="105"> 
+                  </div> 
+                  <div> 
+                   <label for="m-address">Email</label> 
+                   <input id="m-address" name="m-address" type="email" size="30" maxlength="100" value="" tabindex="106" placeholder="required, but never shown"> 
+                  </div> </td> 
+                </tr> 
+               </tbody>
+              </table> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <script>
+                StackExchange.ready(
+                    function () {
+                        StackExchange.openid.initPostLogin('.new-post-login', 'https%3a%2f%2fstackoverflow.com%2fquestions%2f49288644%2fandroid-webview-onpagefinished-bug%23new-answer', 'question_page');
+                    }
+                );
+            </script> 
+          <noscript> 
+           <h3>Post as a guest</h3> 
+           <div class="form-item"> 
+            <table> 
+             <tbody>
+              <tr> 
+               <td class="vm"> 
+                <div> 
+                 <label for="display-name">Name</label> 
+                 <input id="display-name" name="display-name" type="text" size="30" maxlength="30" value="" tabindex="105"> 
+                </div> 
+                <div> 
+                 <label for="m-address">Email</label> 
+                 <input id="m-address" name="m-address" type="email" size="30" maxlength="100" value="" tabindex="106" placeholder="required, but never shown"> 
+                </div> </td> 
+              </tr> 
+             </tbody>
+            </table> 
+           </div> 
+          </noscript> 
+         </div> 
+         <div class="form-submit cbt"> 
+          <input id="submit-button" type="submit" value="Post Your Answer" tabindex="110"> 
+          <a href="#" class="btn-clear discard-answer dno">discard</a> 
+          <p class="privacy-policy-agreement"> By posting your answer, you agree to the <a href="https://stackexchange.com/legal/privacy-policy" name="privacy" target="_blank">privacy policy</a> and <a href="https://stackexchange.com/legal/terms-of-service" name="tos" target="_blank">terms of service</a>.</p> 
+          <input type="hidden" name="legalLinksShown" value="1"> 
+         </div> 
+        </form> 
+        <h2 class="bottom-notice" data-loc="1"> Not the answer you're looking for? Browse other questions tagged <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> <a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="//i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> <a href="/questions/tagged/android-studio" class="post-tag" title="show questions tagged 'android-studio'" rel="tag"><img src="//i.stack.imgur.com/xqoqk.png" height="16" width="18" alt="" class="sponsor-tag-img">android-studio</a> or <a href="/questions/ask">ask your own question</a>. </h2> 
+       </div> 
+      </div> 
+      <div id="sidebar" class="show-votes" role="complementary" aria-label="sidebar"> 
+       <div class="module question-stats"> 
+        <table id="qinfo"> 
+         <tbody>
+          <tr> 
+           <td> <p class="label-key">asked</p> </td> 
+           <td style="padding-left: 10px"> <p class="label-key" title="2018-03-14 22:29:50Z"><b>8 days ago</b></p> </td> 
+          </tr> 
+          <tr> 
+           <td> <p class="label-key">viewed</p> </td> 
+           <td style="padding-left: 10px"> <p class="label-key"> <b>182 times</b> </p> </td> 
+          </tr> 
+          <tr> 
+           <td> <p class="label-key">active</p> </td> 
+           <td style="padding-left: 10px"> <p class="label-key"><b><a href="?lastactivity" class="lastactivity-link" title="2018-03-23 06:11:42Z">today</a></b></p> </td> 
+          </tr> 
+         </tbody>
+        </table> 
+       </div> 
+       <div class="module community-bulletin" data-tracker="cb=1"> 
+        <div class="related"> 
+         <div class="bulletin-title">
+           Upcoming Events 
+         </div> 
+         <hr> 
+         <div class="spacer bulletin-item-important"> 
+          <div class="bulletin-item-type">
+           <a href="https://stackoverflow.com/election" class="question-hyperlink" data-ga="[&quot;Community Bulletin Board&quot;,&quot;Upcoming Events&quot;,&quot;https://stackoverflow.com/election&quot;,null,null]">
+            <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div></a>
+          </div> 
+          <div class="bulletin-item-content"> 
+           <a href="https://stackoverflow.com/election" class="question-hyperlink" data-ga="[&quot;Community Bulletin Board&quot;,&quot;Upcoming Events&quot;,&quot;https://stackoverflow.com/election&quot;,null,null]">2018 Community Moderator Election</a> 
+           <div>
+            ends 
+            <span title="2018-03-27 20:00:00Z" class="relativetime">in 4 days</span>
+           </div> 
+          </div> 
+          <br class="cbt"> 
+         </div> 
+        </div> 
+       </div> 
+       <div id="dfp-tsb" class="everyonelovesstackoverflow"></div> 
+       <div id="hireme"></div> 
+       <script>;(function(){var a=function(a){for(var b=[],c=1;c<arguments.length;c++)b[c-1]=arguments[c];for(var d,e=0,f=b;e<f.length;e++)for(var g in d=f[e],d)a[g]=d[g];return a};window.clc=a(window.clc||{},{autoload:function(){'function'==typeof window.clc.load?window.clc.load():window.clc.cmd.push(function(a){return a.load()})},init:function(b){try{if(!b.allowed||!new RegExp(b.allowed).test(location.hostname))return;if('none'===getComputedStyle(document.getElementById('hireme')).display)return;window.clc.options&&(b=a(b,window.clc.options));var c=b.wv;if(document.hidden&&c){var d=function(){document.hidden||(window.clc.init(b),document.removeEventListener('visibilitychange',d))};return void document.addEventListener('visibilitychange',d)}window.clc.options=b,b.al&&window.clc.autoload();var e=/Trident/i.test(navigator.userAgent)?b.lib.replace(/(\.min)?\.js(\?v=[0-9a-fA-F]+)?$/,'.ie$1.js$2'):b.lib,f=document.createElement('script');f.async=!0,f.src=e,document.body.appendChild(f)}catch(a){}}}),window.clc.cmd||(window.clc.cmd=[]),window.clc.loadDisplayAds=function(){var a="clc.stackoverflow.com",b={slots:{lb:[[728,90]],mlb:[[728,90]],sb:function(a){return'dfp-tsb'===a?[[300,250],[300,600]]:[[300,250]]},"tag-sponsorship":[[730,135]],"mobile/lb":[[320,50]]},ids:{"dfp-tlb":'lb',"dfp-mlb":'mlb',"dfp-tsb":'sb',"dfp-isb":'sb',"dfp-tag":'tag-sponsorship',"dfp-m-tlb":'mobile/lb',"clc-tlb":'lb',"clc-mlb":'mlb',"clc-tsb":'sb'}},c=/^\/tags\//.test(location.pathname)||/^\/questions\/tagged\//.test(location.pathname)?'tag-pages':'question-pages',d=location.hostname;/^clc\./.test(location.hostname)&&(d='test/dev.stackoverflow.com');var e=[4385506061,4386578282,4386579572],f=function(a){a.style.height=a.style.maxHeight=a.style.minHeight='auto',a.style.display='none',[].forEach.call(a.children,f)},g=function(b){new Image().src='https://'+a+'/stalled.gif?'+b},h=function(){var a=document.createElement('div');a.className='adsbox',a.id='clc-abd',a.style.position='absolute',a.style.pointerEvents='none',a.innerHTML='&nbsp;',document.body.appendChild(a)},i=function(){return function(a){var b=a.serviceName,c=a.slot,d=a.lineItemId;try{var h=c.getSlotElementId(),i=[];h||i.push('id=0');var j=document.getElementById(h);if(!h||j?j.hasAttribute('data-clc-stalled')&&i.push('st=1'):i.push('el=0'),0!==i.length)return void g(i.join('&'));-1===e.indexOf(d)?j.setAttribute('data-clc-prefilled','true'):f(j),j.setAttribute('data-clc-ready','true')}catch(a){var k=document.querySelector('#dfp-tsb, #dfp-isb, #clc-tsb');k&&k.setAttribute('data-clc-ready','true'),g('e=1')}}},j=function(a){return function(){var e=window.googletag;h();var f=e.pubads();f.enableSingleRequest(),f.addEventListener('slotRenderEnded',i(a));var g=window.dfp_targeting||{};g&&Object.keys(g).forEach(function(a){f.setTargeting(a,g[a])});for(var j,k=0,l=a;k<l.length;k++){j=l[k],'dfp-isb'===j&&f.setTargeting('Sidebar',['Inline']),'dfp-tsb'===j&&f.setTargeting('Sidebar',['Right']);var m=b.ids[j],n=b.slots[m];'function'==typeof n&&(n=n(j));var o='/'+'248424177'+'/'+d+'/'+m+'/'+c,p=e.defineSlot(o,n,j);('tag-sponsorship'===m||'sb'==m)&&p.setCollapseEmptyDiv(!0,!0),p.addService(f),!1}e.enableServices();for(var j,q=0,r=a;q<r.length;q++)j=r[q],e.display(j)}},k=function(a){return document.getElementById(a)},l=function(a){return'none'===getComputedStyle(a).display},m=function(a){return!l(a)},n=function(a){return!!a};return function(a){a=a&&0<a.length?a:Object.keys(b.ids);var c=a.map(k).filter(n).filter(function(a){return /^\s*$/.test(a.innerHTML)}).filter(m).map(function(a){return a.id});if(a.map(k).filter(n).filter(l).forEach(f),0!==c.length){window.googletag=window.googletag||{},window.googletag.cmd=window.googletag.cmd||[],window.googletag.cmd.push(j(c));var d=document.createElement('script');d.async=!0,d.src='https://www.googletagservices.com/tag/js/gpt.js',document.body.appendChild(d)}}}()})(),window.clc.init.call(null, {"lib":"https://cdn.sstatic.net/clc/clc.min.js?v=1e02551fa930","style":"https://cdn.sstatic.net/clc/styles/clc.min.css?v=905391554886","u":"https://clc.stackoverflow.com/markup.js","wa":true,"kt":2000,"tto":true,"h":"clc.stackoverflow.com","allowed":"^(((talent\\.)?stackoverflow)|(blog\\.codinghorror)|(serverfault|askubuntu)|([^\\.]+\\.stackexchange))\\.com$","wv":true,"al":false});</script> 
+       <script>
+window.clc_request='An0y8BILkdUIAAAAAMQV8AICAAAAAgAAAAAdAAAAfGphdmF8YW5kcm9pZHxhbmRyb2lkLXN0dWRpb3wAPaw2xml5H9Bnhw';                    clc.autoload();
+                var dfp_targeting={Registered:['false'],'so-tag':['java','android','android-studio']};                                    clc.loadDisplayAds();
+            </script> 
+       <div class="module sidebar-related"> 
+        <h4 id="h-related">Related</h4> 
+        <div class="related js-gps-related-questions" data-tracker="rq=1"> 
+         <div class="spacer">
+          <a href="/q/101754" title="Vote score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            1761
+           </div></a>
+          <a href="/questions/101754/is-there-a-way-to-run-python-on-android" class="question-hyperlink">Is there a way to run Python on Android?</a>
+         </div>
+         <div class="spacer">
+          <a href="/q/151777" title="Vote score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            2146
+           </div></a>
+          <a href="/questions/151777/saving-android-activity-state-using-save-instance-state" class="question-hyperlink">Saving Android Activity state using Save Instance State</a>
+         </div>
+         <div class="spacer">
+          <a href="/q/1109022" title="Vote score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            2908
+           </div></a>
+          <a href="/questions/1109022/close-hide-the-android-soft-keyboard" class="question-hyperlink">Close/hide the Android Soft Keyboard</a>
+         </div>
+         <div class="spacer">
+          <a href="/q/1554099" title="Vote score (upvotes - downvotes)">
+           <div class="answer-votes extra-large">
+            3009
+           </div></a>
+          <a href="/questions/1554099/why-is-the-android-emulator-so-slow-how-can-we-speed-up-the-android-emulator" class="question-hyperlink">Why is the Android emulator so slow? How can we speed up the Android emulator?</a>
+         </div>
+         <div class="spacer">
+          <a href="/q/2785485" title="Vote score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            2207
+           </div></a>
+          <a href="/questions/2785485/is-there-a-unique-android-device-id" class="question-hyperlink">Is there a unique Android device ID?</a>
+         </div>
+         <div class="spacer">
+          <a href="/q/13375357" title="Vote score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            3012
+           </div></a>
+          <a href="/questions/13375357/proper-use-cases-for-android-usermanager-isuseragoat" class="question-hyperlink">Proper use cases for Android UserManager.isUserAGoat()?</a>
+         </div>
+         <div class="spacer">
+          <a href="/q/16804093" title="Vote score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted large">
+            841
+           </div></a>
+          <a href="/questions/16804093/android-studio-rename-package" class="question-hyperlink">Android Studio Rename Package</a>
+         </div>
+         <div class="spacer">
+          <a href="/q/18302603" title="Vote score (upvotes - downvotes)">
+           <div class="answer-votes answered-accepted extra-large">
+            1112
+           </div></a>
+          <a href="/questions/18302603/where-do-i-place-the-assets-folder-in-android-studio" class="question-hyperlink">Where do I place the 'assets' folder in Android Studio?</a>
+         </div>
+         <div class="spacer">
+          <a href="/q/39333186" title="Vote score (upvotes - downvotes)">
+           <div class="answer-votes default">
+            2
+           </div></a>
+          <a href="/questions/39333186/remove-javascript-property-from-android-webview" class="question-hyperlink">Remove javascript property from Android webview</a>
+         </div>
+         <div class="spacer">
+          <a href="/q/44697830" title="Vote score (upvotes - downvotes)">
+           <div class="answer-votes default">
+            0
+           </div></a>
+          <a href="/questions/44697830/how-to-show-only-specific-part-of-website-in-android-webview" class="question-hyperlink">how to show only specific part of website in android webview</a>
+         </div> 
+        </div> 
+       </div> 
+       <div id="hot-network-questions" class="module tex2jax_ignore"> 
+        <h4> <a href="https://stackexchange.com/questions?tab=hot" class="js-gps-track" data-gps-track="posts_hot_network.click({ item_type:1, location:11 })"> Hot Network Questions </a> </h4> 
+        <ul> 
+         <li> 
+          <div class="favicon favicon-physics" title="Physics Stack Exchange"></div><a href="https://physics.stackexchange.com/questions/394942/how-does-this-baby-rattle-work" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:151 }); posts_hot_network.click({ item_type:2, location:11 })"> How does this baby rattle work? </a> </li> 
+         <li> 
+          <div class="favicon favicon-softwareengineering" title="Software Engineering Stack Exchange"></div><a href="https://softwareengineering.stackexchange.com/questions/368195/what-advantage-was-gained-by-implementing-linq-in-a-way-that-does-not-cache-the" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:131 }); posts_hot_network.click({ item_type:2, location:11 })"> What advantage was gained by implementing LINQ in a way that does not cache the results? </a> </li> 
+         <li> 
+          <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="https://academia.stackexchange.com/questions/106950/is-abandoning-my-phd-degree-better-for-my-career-path" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })"> Is abandoning my PhD degree better for my career path? </a> </li> 
+         <li> 
+          <div class="favicon favicon-travel" title="Travel Stack Exchange"></div><a href="https://travel.stackexchange.com/questions/111726/row-60-on-lufthansa-airbus-a380-800" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:273 }); posts_hot_network.click({ item_type:2, location:11 })"> Row 60 on Lufthansa Airbus A380-800 </a> </li> 
+         <li> 
+          <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="https://codegolf.stackexchange.com/questions/160089/count-the-matchsticks" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })"> Count the Matchsticks </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="https://academia.stackexchange.com/questions/106913/my-phd-supervisor-cannot-promise-me-date-to-defend-my-dissertation-before-my-vis" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })"> My PhD supervisor cannot promise me date to defend my dissertation before my visa expires. Should I just quit my PhD and start over? </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-interpersonal" title="Interpersonal Skills Stack Exchange"></div><a href="https://interpersonal.stackexchange.com/questions/12277/how-to-recover-from-being-falsely-seen-as-a-racist" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:680 }); posts_hot_network.click({ item_type:2, location:11 })"> How to recover from being falsely seen as a racist? </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="https://tex.stackexchange.com/questions/422850/how-do-i-tighten-these-table-columns" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })"> How do I tighten these table columns? </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-softwareengineering" title="Software Engineering Stack Exchange"></div><a href="https://softwareengineering.stackexchange.com/questions/368213/should-a-rest-api-return-a-500-internal-server-error-to-indicate-that-a-query-re" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:131 }); posts_hot_network.click({ item_type:2, location:11 })"> Should a REST API return a 500 Internal Server Error to indicate that a query references an object that does not exist? </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-graphicdesign" title="Graphic Design Stack Exchange"></div><a href="https://graphicdesign.stackexchange.com/questions/107159/how-can-i-make-this-picture-print-exactly-or-almost-exactly-the-way-it-looks-o" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:174 }); posts_hot_network.click({ item_type:2, location:11 })"> How can I make this picture print exactly (or almost exactly) the way it looks on screen? </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-history" title="History Stack Exchange"></div><a href="https://history.stackexchange.com/questions/45308/was-the-british-army-a-millionaire-factory-in-the-early-20th-century" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:324 }); posts_hot_network.click({ item_type:2, location:11 })"> Was the British Army a millionaire factory in the early 20th century? </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="https://worldbuilding.stackexchange.com/questions/107676/are-there-physical-laws-making-this-kind-of-revival-impossible" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:579 }); posts_hot_network.click({ item_type:2, location:11 })"> Are there physical laws making this kind of revival impossible? </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="https://codegolf.stackexchange.com/questions/160034/shape-identifying-program" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })"> Shape Identifying Program </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="https://academia.stackexchange.com/questions/106952/journal-wont-allow-phd-student-to-be-corresponding-author" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:415 }); posts_hot_network.click({ item_type:2, location:11 })"> Journal won't allow PhD student to be corresponding author </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-puzzling" title="Puzzling Stack Exchange"></div><a href="https://puzzling.stackexchange.com/questions/62423/hacking-an-electronic-keypad" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:559 }); posts_hot_network.click({ item_type:2, location:11 })"> Hacking an electronic keypad </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="https://codegolf.stackexchange.com/questions/159945/implement-lazy-drop-sort" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:200 }); posts_hot_network.click({ item_type:2, location:11 })"> Implement Lazy Drop Sort </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="https://electronics.stackexchange.com/questions/364315/confusion-between-class-b-and-class-ab-amplifier" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:135 }); posts_hot_network.click({ item_type:2, location:11 })"> Confusion between Class B and Class AB Amplifier </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="https://workplace.stackexchange.com/questions/109469/how-to-stop-nicknames-from-being-used" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })"> How to stop nicknames from being used? </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-apple" title="Ask Different"></div><a href="https://apple.stackexchange.com/questions/320128/how-do-i-get-more-ram-for-my-ipad-mini" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:118 }); posts_hot_network.click({ item_type:2, location:11 })"> How do I get more RAM for my iPad mini? </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="https://codereview.stackexchange.com/questions/190255/basic-c-circle-class" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:196 }); posts_hot_network.click({ item_type:2, location:11 })"> Basic C++ Circle Class </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="https://tex.stackexchange.com/questions/422782/labels-of-nodes-with-drop-shadow" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:85 }); posts_hot_network.click({ item_type:2, location:11 })"> labels of nodes with drop shadow </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="https://workplace.stackexchange.com/questions/109485/colleagues-making-fun-of-the-length-of-my-password" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:423 }); posts_hot_network.click({ item_type:2, location:11 })"> Colleagues making fun of the length of my password </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-mathoverflow" title="MathOverflow"></div><a href="https://mathoverflow.net/questions/295696/short-papers-for-undergraduate-course-on-reading-scholarly-math" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:504 }); posts_hot_network.click({ item_type:2, location:11 })"> Short papers for undergraduate course on reading scholarly math </a> </li> 
+         <li class="dno js-hidden"> 
+          <div class="favicon favicon-interpersonal" title="Interpersonal Skills Stack Exchange"></div><a href="https://interpersonal.stackexchange.com/questions/12141/how-can-i-let-my-girlfriend-know-that-her-insults-are-hurting-my-feelings-and-as" class="js-gps-track" data-gps-track="site.switch({ item_type:11, target_site:680 }); posts_hot_network.click({ item_type:2, location:11 })"> How can I let my girlfriend know that her insults are hurting my feelings and ask her to stop? </a> </li> 
+        </ul> 
+        <a href="#" class="show-more js-show-more js-gps-track" data-gps-track="posts_hot_network.click({ item_type:3, location:11 })"> more hot questions </a> 
+       </div> 
+       <div id="feed-link"> 
+        <a href="/feeds/question/49288644" title="feed of this question and its answers"> 
+         <svg aria-hidden="true" class="svg-icon fc-orange-400 iconRss" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M1 3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3zm14.5 12C15.5 8.1 9.9 2.5 3 2.5V5a10 10 0 0 1 10 10h2.5zm-5 0A7.5 7.5 0 0 0 3 7.5V10a5 5 0 0 1 5 5h2.5zm-5 0A2.5 2.5 0 0 0 3 12.5V15h2.5z" />
+         </svg> question feed </a> 
+       </div> 
+      </div> 
+     </div> 
+     <script>StackExchange.ready(function(){$.get('/posts/49288644/ivc/fedb');});</script> 
+     <noscript>
+      <div>
+       <img src="/posts/49288644/ivc/fedb" class="dno" alt="" width="0" height="0">
+      </div>
+     </noscript>
+     <div style="display:none" id="prettify-lang">
+      lang-java
+     </div>
+    </div> 
+   </div> 
+  </div> 
+  <footer id="footer" class="site-footer js-footer" role="contentinfo"> 
+   <div class="site-footer--container"> 
+    <div class="site-footer--logo"> 
+     <a href="https://stackoverflow.com">
+      <svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewbox="0 0 32 37">
+       <g>
+        <path fill="#BCBBBB" d="M26 33v-9h4v13H0V24h4v9z" />
+        <path d="M23.1 25.99l.68-2.95-16.1-3.35L7 23l16.1 2.99zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm4.2-7.4L26 18.4l2.1-2.5L15.4 5.3l-2.1 2.5zM21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM7 30h16v-3H7v3z" fill="#F48024" />
+       </g>
+      </svg></a> 
+    </div> 
+    <nav class="site-footer--nav"> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://stackoverflow.com" class="js-gps-track" data-gps-track="footer.click({ location: 2, link: 15})">Stack Overflow</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 16})">Questions</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 17})">Jobs</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 11})">Developer Jobs Directory</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 28})">Salary Calculator</a></li> 
+       <li class="-item"><a href="/help" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 3 })">Help</a></li> 
+       <li class="-item"><a onclick="StackExchange.switchMobile(&quot;on&quot;)" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 12 })">Mobile</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://www.stackoverflowbusiness.com/?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-business-category" class="js-gps-track" data-gps-track="footer.click({ location: 2, link: 19 })">Stack Overflow<br> Business</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 20 })">Talent</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-advertise" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 21 })">Ads</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/enterprise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 22 })">Enterprise</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 2, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 7 })" href="https://stackexchange.com/legal">Legal</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 8 })" href="https://stackexchange.com/legal/privacy-policy">Privacy Policy</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--categories-nav site-footer--col__visible"> 
+      <a href="#" class="site-footer--back js-footer-back">
+       <svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewbox="0 0 18 18">
+        <path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z" />
+       </svg></a> 
+      <div> 
+       <h5 class="-title"><a href="https://stackexchange.com">Stack Exchange<br> Network</a></h5> 
+       <ul class="-list"> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Technology">Technology</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Life / Arts">Life / Arts</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Science">Science</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 2, link: 24 })" data-target="Other">Other</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="site-footer--categories"> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li> 
+        <li class="-item"><a href="https://serverfault.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="system and network administrators">Server Fault</a></li> 
+        <li class="-item"><a href="https://superuser.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="computer enthusiasts and power users">Super User</a></li> 
+        <li class="-item"><a href="https://webapps.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of web applications">Web Applications</a></li> 
+        <li class="-item"><a href="https://askubuntu.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li> 
+        <li class="-item"><a href="https://webmasters.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="pro webmasters">Webmasters</a></li> 
+        <li class="-item"><a href="https://gamedev.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and independent game developers">Game Development</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://tex.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li> 
+        <li class="-item"><a href="https://softwareengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li> 
+        <li class="-item"><a href="https://unix.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li> 
+        <li class="-item"><a href="https://apple.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li> 
+        <li class="-item"><a href="https://wordpress.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li> 
+        <li class="-item"><a href="https://gis.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li> 
+        <li class="-item"><a href="https://electronics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://android.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li> 
+        <li class="-item"><a href="https://security.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="information security professionals">Information Security</a></li> 
+        <li class="-item"><a href="https://dba.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li> 
+        <li class="-item"><a href="https://drupal.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li> 
+        <li class="-item"><a href="https://sharepoint.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li> 
+        <li class="-item"><a href="https://ux.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="user experience researchers and experts">User Experience</a></li> 
+        <li class="-item"><a href="https://mathematica.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://salesforce.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li> 
+        <li class="-item"><a href="https://expressionengine.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li> 
+        <li class="-item"><a href="https://pt.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Português</a></li> 
+        <li class="-item"><a href="https://blender.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li> 
+        <li class="-item"><a href="https://networkengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="network engineers">Network Engineering</a></li> 
+        <li class="-item"><a href="https://crypto.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li> 
+        <li class="-item"><a href="https://codereview.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="peer programmer code reviews">Code Review</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://magento.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li> 
+        <li class="-item"><a href="https://softwarerecs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li> 
+        <li class="-item"><a href="https://dsp.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li> 
+        <li class="-item"><a href="https://emacs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li> 
+        <li class="-item"><a href="https://raspberrypi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li> 
+        <li class="-item"><a href="https://ru.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="программистов">Stack Overflow на русском</a></li> 
+        <li class="-item"><a href="https://codegolf.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://es.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores y profesionales de la informática">Stack Overflow en español</a></li> 
+        <li class="-item"><a href="https://ethereum.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li> 
+        <li class="-item"><a href="https://datascience.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li> 
+        <li class="-item"><a href="https://arduino.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li> 
+        <li class="-item"><a href="https://bitcoin.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (28) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://photo.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li> 
+        <li class="-item"><a href="https://scifi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li> 
+        <li class="-item"><a href="https://graphicdesign.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li> 
+        <li class="-item"><a href="https://movies.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li> 
+        <li class="-item"><a href="https://music.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li> 
+        <li class="-item"><a href="https://worldbuilding.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li> 
+        <li class="-item"><a href="https://cooking.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://diy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li> 
+        <li class="-item"><a href="https://money.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li> 
+        <li class="-item"><a href="https://academia.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li> 
+        <li class="-item"><a href="https://law.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (15) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://english.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li> 
+        <li class="-item"><a href="https://skeptics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientific skepticism">Skeptics</a></li> 
+        <li class="-item"><a href="https://judaism.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li> 
+        <li class="-item"><a href="https://travel.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li> 
+        <li class="-item"><a href="https://christianity.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li> 
+        <li class="-item"><a href="https://ell.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li> 
+        <li class="-item"><a href="https://japanese.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://gaming.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li> 
+        <li class="-item"><a href="https://bicycles.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li> 
+        <li class="-item"><a href="https://rpg.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li> 
+        <li class="-item"><a href="https://anime.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li> 
+        <li class="-item"><a href="https://puzzling.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li> 
+        <li class="-item"><a href="https://mechanics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (33) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://mathoverflow.net" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional mathematicians">MathOverflow</a></li> 
+        <li class="-item"><a href="https://math.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li> 
+        <li class="-item"><a href="https://stats.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li> 
+        <li class="-item"><a href="https://cstheory.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li> 
+        <li class="-item"><a href="https://physics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li> 
+        <li class="-item"><a href="https://chemistry.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientists, academics, teachers and students">Chemistry</a></li> 
+        <li class="-item"><a href="https://biology.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="biology researchers, academics, and students">Biology</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://cs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li> 
+        <li class="-item"><a href="https://philosophy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (10) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Other"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://meta.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li> 
+        <li class="-item"><a href="https://stackapps.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li> 
+        <li class="-item"><a href="https://api.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li> 
+        <li class="-item"><a href="https://data.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li> 
+        <li class="-item"><a href="https://area51.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="proposing new sites in the Stack Exchange network">Area 51</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </nav> 
+    <div class="site-footer--copyright fs-fine"> 
+     <ul class="-list"> 
+      <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 2, link:4 })" href="https://stackoverflow.blog?blb=1">Blog</a></li> 
+      <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li> 
+      <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li> 
+      <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li> 
+     </ul> 
+     <p class="mt-auto mb24"> site design / logo © 2018 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license">attribution required</a>. <span id="svnrev">rev&nbsp;2018.3.23.29561</span> </p> 
+    </div> 
+   </div> 
+  </footer> 
+  <noscript> 
+   <div id="noscript-warning">
+    Stack Overflow works best with JavaScript enabled 
+    <img src="https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"> 
+   </div> 
+  </noscript> 
+  <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                var trackingCodes = [
+                    'UA-5620270-1'
+                ];
+
+                        trackingCodes.push('UA-108242619-1');
+
+                StackExchange.ga.init({
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: trackingCodes
+                });
+
+
+
+                    StackExchange.ga.setDimension('dimension2', '|java|android|android-studio|');
+
+                    StackExchange.ga.setDimension('dimension3', 'Questions/Show');
+
+                StackExchange.ga.trackPageView();
+            });
+            
+/**/
+            
+            var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+            (function() {
+                var ssl = 'https:' == document.location.protocol,
+                    s = document.getElementsByTagName('script')[0],
+                    qc = document.createElement('script');
+                 qc.async = true;
+                    qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                    s.parentNode.insertBefore(qc, s);
+                    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+/**/
+                 var sc = document.createElement('script');
+                    sc.async = true;
+                    sc.src = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+                    s.parentNode.insertBefore(sc, s);
+                    _comscore.push({ c1: "2", c2: "17440561" });
+            })();
+            
+
+</script>  
+ </body>
+</html>

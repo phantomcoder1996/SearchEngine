@@ -1,0 +1,546 @@
+https://www.tutorialspoint.com/verbal_ability/index.htm
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>Verbal Ability Tutorial for IAS, PCS and other Civil Services Exams</title> 
+  <meta name="description" content="Verbal Ability Tutorial for IAS, PCS and other Civil Services Exams - Learn Verbal Ability in simple and easy steps starting from basic to advanced concepts with examples including Overview, Articles, Nouns, Pronouns, Quantifiers, Determiners, Adjectives, Verbs, Auxiliary Verbs, Modals and Usages, Gerunds, Infinitives and Participles, Adverbs, Simple Tenses of Verbs, Progressive Verb Tenses, Perfect Tense of Verbs, Perfect Progressive of Verbs, Prepositions, Conjunctions, Wh-questions, Direct and Reported Speech, Conditionals, Active and Passive Voice, Reading Comprehension, Punctuations, Synonym-Antonym Questions."> 
+  <meta name="keywords" content="Verbal Ability, Tutorial, Test, Preparation, Learn, Overview, Articles, Nouns, Pronouns, Quantifiers, Determiners, Adjectives, Verbs, Auxiliary Verbs, Modals and Usages, Gerunds, Infinitives and Participles, Adverbs, Simple Tenses of Verbs, Progressive Verb Tenses, Perfect Tense of Verbs, Perfect Progressive of Verbs, Prepositions, Conjunctions, Wh-questions, Direct and Reported Speech, Conditionals, Active and Passive Voice, Reading Comprehension, Punctuations, Synonym-Antonym Questions."> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #0b6c75 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #0b6c75 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #0b6c75 !important;}
+.submenu-item{ border-bottom: 2px solid #0b6c75 !important; border-top: 2px solid #0b6c75 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#0b6c75; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/verbal_ability/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-2"> 
+      <aside class="sidebar"> 
+       <script type="text/javascript">
+$(window).load(function () {
+   var heightX = $('a[href="/verbal_ability/verbal_ability_overview.htm"]').offset().top ;
+   var heightY = $('a[href="/verbal_ability/index.htm"]').offset().top ;
+   $("#scroller").scrollTop( heightY - heightX + 15);
+
+});
+</script> 
+       <div class="mini-logo"> 
+        <img src="/verbal_ability/images/verbal-ability-mini-logo.jpg" alt="Verbal Ability Tutorial"> 
+       </div> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Verbal Ability Test Preparation</li> 
+        <li><a href="/verbal_ability/index.htm">Verbal Ability - Home</a></li> 
+        <li><a href="/verbal_ability/verbal_ability_overview.htm">Verbal Ability - Overview</a></li> 
+        <li class="heading">Verbal Ability</li> 
+       </ul> 
+       <div id="sidebar"> 
+        <div id="scroller"> 
+         <ul class="nav nav-list primary left-menu"> 
+          <li><a href="/verbal_ability/verbal_ability_active_passive_voice.htm">Active &amp; Passive Voice</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_active_passive_voice_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_active_passive_voice_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_active_passive_voice_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_adjectives.htm">Verbal Ability - Adjectives</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_adjectives_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_adjectives_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_adjectives_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_adverbs.htm">Verbal Ability - Adverbs</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_adverbs_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_adverbs_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_adverbs_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_articles.htm">Verbal Ability - Articles</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_articles_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_articles_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_articles_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_auxiliary_verbs.htm">Verbal Ability - Auxiliary Verbs</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_auxiliary_verbs_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_auxiliary_verbs_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_auxiliary_verbs_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_conditionals.htm">Verbal Ability - Conditionals</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_conditionals_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_conditionals_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_conditionals_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_conjunctions.htm">Verbal Ability - Conjunctions</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_conjunctions_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_conjunctions_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_conjunctions_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_determiners.htm">Verbal Ability - Determiners</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_determiners_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_determiners_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_determiners_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_direct_reported_speech.htm">Direct &amp; Reported Speech</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_direct_reported_speech_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_direct_reported_speech_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_direct_reported_speech_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_gerunds_infinitives_participles.htm">Gerunds, Infinitives &amp; Participles</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_gerunds_infinitives_participles_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_gerunds_infinitives_participles_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_gerunds_infinitives_participles_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_modals_usages.htm">Verbal Ability - Modals &amp; Usages</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_modals_usages_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_modals_usages_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_modals_usages_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_nouns.htm">Verbal Ability - Nouns</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_nouns_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_nouns_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_nouns_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/perfect_progressive_of_verbs.htm">Perfect Progressive of Verbs</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/perfect_progressive_of_verbs_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/perfect_progressive_of_verbs_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/perfect_progressive_of_verbs_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/perfect_tense_of_verbs.htm">Perfect Tense of Verbs</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/perfect_tense_of_verbs_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/perfect_tense_of_verbs_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/perfect_tense_of_verbs_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_prepositions.htm">Verbal Ability - Prepositions</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_prepositions_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_prepositions_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_prepositions_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/progressive_verb_tenses.htm">Progressive Verb Tenses</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/progressive_verb_tenses_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/progressive_verb_tenses_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/progressive_verb_tenses_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_pronouns.htm">Verbal Ability - Pronouns</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_pronouns_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_pronouns_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_pronouns_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_punctuations.htm">Verbal Ability - Punctuations</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_punctuations_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_punctuations_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_punctuations_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_quantifiers.htm">Verbal Ability - Quantifiers</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_quantifiers_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_quantifiers_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_quantifiers_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_reading_comprehension.htm">Reading Comprehension</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_reading_comprehension_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_reading_comprehension_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_reading_comprehension_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/simple_tenses_of_verbs.htm">Simple Tenses of Verbs</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/simple_tenses_of_verbs_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/simple_tenses_of_verbs_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/simple_tenses_of_verbs_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/synonym_antonym_questions.htm">Synonym-Antonym Questions</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/synonym_antonym_questions_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/synonym_antonym_questions_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/synonym_antonym_questions_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_verbs.htm">Verbal Ability - Verbs</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_verbs_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_verbs_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_verbs_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+          <li><a href="/verbal_ability/verbal_ability_wh_questions.htm">Verbal Ability - Wh-questions</a> 
+           <ul class="submenu"> 
+            <li><a href="/verbal_ability/verbal_ability_wh_questions_examples.htm">Examples</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_wh_questions_online_quiz.htm">Online Quiz</a></li> 
+            <li><a href="/verbal_ability/verbal_ability_wh_questions_online_test.htm">Online Test</a></li> 
+           </ul> </li> 
+         </ul> 
+        </div> 
+       </div> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">Verbal Ability Useful Resources</li> 
+        <li><a href="/verbal_ability/verbal_ability_quick_guide.htm">Verbal Ability - Quick Guide</a></li> 
+        <li><a href="/verbal_ability/verbal_ability_useful_resources.htm">Verbal Ability - Useful Resources</a></li> 
+        <li><a href="/verbal_ability/verbal_ability_discussion.htm">Verbal Ability - Discussion</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary push-bottom left-menu special"> 
+        <li class="sreading">Competitive Exams Material</li> 
+        <li class="current_affairs"><a target="_top" href="/current_affairs/index.htm">Current Affairs Archive</a></li> 
+        <li class="general_knowledge"><a target="_top" href="/general_knowledge/index.htm">General Knowledge</a></li> 
+        <li class="quantitative_aptitude"><a target="_top" href="/quantitative_aptitude/index.htm">Quantitative Aptitude</a></li> 
+        <li class="logical_reasoning"><a target="_top" href="/reasoning/index.htm">Logical Reasoning</a></li> 
+        <li class="verbal_reasoning"><a target="_top" href="/verbal_ability/index.htm">Verbal Ability</a></li> 
+        <li class="economics"><a target="_top" href="/economics/index.htm">Economics</a></li> 
+        <li class="geography"><a target="_top" href="/geography/index.htm">Geography</a></li> 
+        <li class="indian_history"><a target="_top" href="/ancient_indian_history/index.htm">Ancient Indian History</a></li> 
+        <li class="indian_history"><a target="_top" href="/medieval_indian_history/index.htm">Medieval Indian History</a></li> 
+        <li class="indian_history"><a target="_top" href="/modern_indian_history/index.htm">Modern Indian History</a></li> 
+        <li class="political_science"><a target="_top" href="/indian_polity/index.htm">Indian Polity</a></li> 
+        <li class="general_science"><a target="_top" href="/general_science/index.htm">General Science</a></li> 
+       </ul> 
+      </aside> 
+     </div> 
+     <!-- PRINTING STARTS HERE --> 
+     <div class="row"> 
+      <div class="content"> 
+       <div class="col-md-7 middle-col"> 
+        <div class="cover"> 
+         <img class="img-responsive" src="/verbal_ability/images/verbal-ability.jpg" alt="Verbal Ability Tutorial"> 
+        </div> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/verbal_ability/verbal_ability_overview.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <div class="clearer"></div> 
+        <hr> 
+        <h1>Verbal Ability Tutorial</h1> 
+        <!--<div class="center-aligned tutorial-menu">
+<form action="/job_search.php" method="POST">
+<input type="hidden" name="search_string" value="Verbal Ability" />
+<button type="button" class="btn btn-default btn-sm btn-buy-tutorial"><i class="icon  icon-file-pdf-o"></i><a href="/verbal_ability/verbal_ability_pdf_version.htm"> PDF Version</a></button>
+<button type="button" class="btn btn-default btn-sm btn-quick-guide"><i class="icon  icon-book"></i><a href="/verbal_ability/verbal_ability_quick_guide.htm"> Quick Guide</a></button>
+<button type="button" class="btn btn-default btn-sm btn-extra-links"><i class="icon  icon-external-link"></i><a href="/verbal_ability/verbal_ability_useful_resources.htm"> Resources</a></button>
+<button type="submit" class="btn btn-default btn-sm btn-job-search"><i class="icon  icon-suitcase"></i> Job Search</button>
+<button type="button" class="btn btn-default btn-sm btn-job-search"><i class="fa  fa-wechat"></i><a href="/verbal_ability/verbal_ability_discussion.htm"> Discussion</a></button>
+</form>
+</div>--> 
+        <p>Verbal Ability is the defined as the capability of a person in expressing ideas using words in a clearly understandable manner. Verbal Ability is a very important component of competitive examinations. For aspirants who want to get good scores in Verbal Ability, a good vocabulary and sentence-forming skills are vital.</p> 
+        <p>This tutorial has extensive coverage of all varieties of questions that are generally asked in competitive examinations. Each chapter has been arranged in an organic structure so that the readers get a firmer grasp on the components of sentence-formation.</p> 
+        <h1>Audience</h1> 
+        <p>This tutorial is designed to provide effective guidance to those people who are trying to clear <b>IAS, PCS and other Civil Services Exams</b>. There are questions with difficulty levels ranging from intermediate to advanced so that the candidates of all educational backgrounds can be addressed.</p> 
+        <h1>Prerequisites</h1> 
+        <p>Before proceeding with this tutorial, it's important to have some basic idea on English Grammar and the examination pattern. The reader is also expected to have the habit of reading texts written in English.</p> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="print-btn center"> 
+         <a href="/cgi-bin/printpage.cgi" target="_blank"><i class="icon icon-print big-font"></i> Print</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/verbal_ability/verbal_ability_overview.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <hr> 
+        <!-- PRINTING ENDS HERE --> 
+        <div class="bottomgooglead"> 
+         <div class="bottomadtag">
+          Advertisements
+         </div> 
+         <!-- /60931893/tutorial_bottom_leader_board --> 
+         <div id="div-gpt-ad-1510138782906-3"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-3'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="col-md-3" id="rightbar"> 
+        <div class="ysubscribe"> 
+         <script async src="https://apis.google.com/js/platform.js"></script> 
+         <div class="g-ytsubscribe" data-channelid="UCVLbzhxVTiTLiVKeGV7WEBg" data-layout="full" data-count="default"></div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_top --> 
+         <div id="div-gpt-ad-1510138782906-2" style="height:250px; width:300px;"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-2'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_middle --> 
+         <div id="div-gpt-ad-1510138782906-1"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-1'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_bottom --> 
+         <div id="div-gpt-ad-1510138782906-0"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-0'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Libs --> 
+  <script type="text/javascript" src="/theme/js/custom-min.js?v=7"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.pg-icon').click(function(){
+   $('.wrapLoader').show();
+});
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Verbal Ability Tutorial for IAS, PCS and other Civil Services Exams",
+    "name": "Verbal Ability Tutorial for IAS, PCS and other Civil Services Exams",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.tutorialspoint.com/verbal_ability/index.htm"
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tutorialspoint.com/verbal_ability/images/verbal-ability.jpg",
+        "width": 613,
+        "height": 194
+    },
+    "author": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "datePublished": "January 08 2018 06:24:54.",
+    "dateModified": "January 08 2018 06:24:54.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "description": "Verbal Ability is the defined as the capability of a person in expressing ideas using words in a clearly understandable manner. Verbal Ability is a very important component of competitive examinations. For aspirants who want to get good scores in Verbal A..."
+}
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "name": "www.tutorialspoint.com",
+                "@id": "https://www.tutorialspoint.com"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "name": "Verbal Ability",
+                "@id": "https://www.tutorialspoint.com/verbal_ability"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "name": "Verbal Ability - Home"
+            }
+        }
+    ]
+}
+</script>    
+ </body>
+</html>

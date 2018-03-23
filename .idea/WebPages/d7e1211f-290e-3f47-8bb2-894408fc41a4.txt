@@ -1,0 +1,787 @@
+https://www.tutorialspoint.com/tutor_connect/search_tutors.php
+<html>
+ <head> 
+  <title>Tutor Connect - Connecting Tutors and Students</title> 
+  <meta name="Description" content="Tutor Connect is a free platform for tutors and students to connect with each others to teach and learn new technologies and move ahead in their career."> 
+  <meta name="Keywords" content="Tutor, Connect, market, place, tutors, connecting, students, teach, learn, online, offline, career, growth"> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+   <link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+   <![endif]--> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #214070 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #214070 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #214070 !important;}
+.submenu-item{ border-bottom: 2px solid #214070 !important; border-top: 2px solid #214070 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#214070; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/blue/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <!-- tutors --> 
+  <script type="text/javascript" src="/theme/js/jquery.colorbox-min.js"></script> 
+  <script>
+      var baseurl = 'https://www.tutorialspoint.com/tutor_connect/';
+      var asset_image_url = 'https://www.tutorialspoint.com/assets/tutor_connect/';
+      var typeflag = '';
+      var login_userid = '';
+      function createCookie(name, value, days) {
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                var expires = "; expires=" + date.toGMTString();
+            }
+            else var expires = "";
+            document.cookie = name + "=" + value + expires + "; path=/";         
+         }
+
+         function readCookie(name) {
+            var nameEQ = name + "=";
+            var ca = document.cookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+                if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
+            }
+            return 0;         
+         }
+         function eraseCookie(name) {
+            cookie_flag = 0;
+            createCookie(name, "", -1);
+         }
+   </script> 
+  <!--<link rel="stylesheet" href="http://0508.tutorialspoint.com/tutor_connect/css/tutors.css">--> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/tutor_connect/css/tutors.css"> 
+  <script src="https://maps.googleapis.com/maps/api/js?libraries=places"></script> 
+  <script src="https://www.tutorialspoint.com/tutor_connect/js/jquery.geocomplete.min.js"></script> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/tutor_connect/js/aes.js"></script> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/tutor_connect/js/bootstrap.min.js"></script> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/tutor_connect/js/jquery-te-1.4.0.min.js"></script> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/tutor_connect/js/tutors1.js?v=10"></script> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/tutor_connect/js/jquery.bpopup.min.js"></script> 
+  <style>.srch-widget-banner img{float:left!important; margin:0px!important;} .srch-widget-banner h2{text-align:left!important;} .srch-widget-banner h5{text-align:left!important;}</style> 
+  <script>
+   $(document).ready(function(){
+      var lefth = $('.sm-height .bar').height();
+      var righth = $('.sm-height .rbar').height();
+         if( righth < lefth) {
+            $('.sm-height .rbar').height(lefth -30);
+         }
+       
+   });
+</script>   
+  <div id="divSendMessage" style="display:none;"> 
+   <div> 
+    <input type="hidden" value="" id="txtChatUserId"> 
+   </div> 
+   <div class="dialogbox"> 
+    <div style="width:49%; float:left; margin-right:8px;">
+     <label>To ::</label>
+     <input type="text" value="" id="txtChatName" readonly>
+    </div> 
+    <div style="width:49%; float:left;">
+     <label>From ::</label>
+     <input type="text" value="" id="txtChatFrom" readonly>
+    </div> 
+    <div class="clear"></div> 
+    <label>Subject ::</label>
+    <input type="text" class="txtClass" value="" id="txtChatSubject">
+    <b class="contact-error"></b> 
+    <div class="clear"></div> 
+    <label>Message ::</label>
+    <textarea id="txtChatMessage" class="txtClass" style="height:110px!important;resize:vertical;resize:horizontal;"></textarea>
+    <b class="contact-error"></b> 
+    <div class="clear"></div> 
+    <button id="btnSendMsg">Send</button> 
+   </div> 
+   <div style="clear:both;"></div> 
+  </div> 
+  <div class="srch-widget-banner"> 
+   <div class="container"> 
+    <div class="row"> 
+     <img src="https://www.tutorialspoint.com/tutor_connect/images/inside-baner-icon.png" alt="No Commission, No Fee, Just a Free Service"> 
+     <h2>No Commission, No Fee, Just a Free Service</h2> 
+     <h5>we help the tutors and students to connect together without any service charges</h5> 
+    </div> 
+   </div> 
+  </div> 
+  <script type="text/javascript">
+$(document).ready(function(){    
+      $(".screenshot").mouseenter(function(e){
+        var photo = $(this).data('photo');
+        var floder = $(this).data('floder');
+        var tobj = this;
+        $.ajax({
+			   url: baseurl+"ajax/ajaxPhotoEnlarge.php",
+			   method:"POST",
+			   data: {"photo":photo,"floder":floder}
+			}).done(function(msg) {            
+			   $(tobj).next().html('<img src="'+msg+'" />');	
+            $(".photoEnlagreDive").hide();
+            $(tobj).next().show();
+			}); 
+      });
+      $('.photoEnlagreDive').on('mouseenter', function(e) {
+         var $el = $(".photoEnlagreDive");
+         $(this).show();
+      }); 
+      $('.screenshot,.photoEnlagreDive').on('mouseleave', function(e) {
+         var $el = $(".photoEnlagreDive");
+         if ($el.is(":visible")) {
+            $el.hide();
+         } 
+      });
+      $(document).on('click', function(e) {
+         var $el = $(".photoEnlagreDive");
+         if ($el.is(":visible")) {
+            $el.hide();
+         } 
+      });
+});
+</script> 
+  <style>
+.chat-msg{width:auto; text-align:center; top:5px; right:0; position:relative;}
+</style> 
+  <div role="main" class="main"> 
+   <div class="container"> 
+    <!-- PRINTING STARTS HERE --> 
+    <div class="row"> 
+     <div class="content"> 
+      <div class="col-md-2"> 
+       <style>
+@media (min-width: 992px){ .col-md-2{padding:0px 3px;} .col-md-7{padding:0px 3px;} .col-md-3{padding:0px 3px;} }
+@media (min-width: 992px){.col-md-2 {width:22.66666667%!important;} .col-md-7 {width:51.33333333%;} }
+.unreadd{color:#f00; margin:-20px 0px 0px 4px !important; font-size:100%!important; position:absolute; right:120px;} 
+</style> 
+       <div class="job-desc top-jobs" style="margin-bottom:5px!important;padding:11px 4px 7px 4px!important;"> 
+        <a href="https://www.tutorialspoint.com/tutor_connect/index.php" target="_self"><img src="https://www.tutorialspoint.com/tutor_connect/images/tutor-connect-icon.png" alt="Tutor Connect - Connecting Tutors and Students" title="Tutor Connect - Connecting Tutors and Students"></a> 
+       </div> 
+       <div class="clear"></div> 
+       <div class="job-desc top-jobs" style="margin-bottom:8px!important;"> 
+        <div class="srch-login-links"> 
+         <a href="https://www.tutorialspoint.com/tutor_connect/user-login.php?type=signin" title="Registered User Login"><i class="fa-user login-icon"></i> Login</a> 
+         <a href="https://www.tutorialspoint.com/tutor_connect/registration.php" title="New User Register"><i class="fa-sign-in login-icon"></i> Signup</a> 
+        </div> 
+       </div> 
+       <div class="job-desc top-jobs" style="padding-bottom:0px!important;"> 
+        <form action="https://www.tutorialspoint.com/tutor_connect/search_tutors.php" method="post" id="formFilters"> 
+         <h4>Search Filters</h4> 
+         <h5>Location</h5> 
+         <div class="search-addon" style="margin-top:10px;"> 
+          <i class="fa-map-marker" style="padding:6px 12px!important;"></i> 
+          <input type="hidden" name="txtSearchText" value="" class="search-control" placeholder="Search by Location" style="width:100%;"> 
+          <input type="hidden" name="selType" value="" class="search-control" placeholder="Search by Location" style="width:100%;"> 
+          <input type="text" id="txtFilterLocation" name="txtFilterLocation" value="" class="search-control" placeholder="Add Location" style="width:100%;"> 
+         </div> 
+         <h5>Availability</h5> 
+         <div class="checkbox"> 
+          <input id="chkOnline" name="chkOnline" type="checkbox" value="Online Teaching"> 
+          <label for="chkOnline" style="width:0%!important;"> </label> 
+          <div>
+           Online Teaching
+          </div> 
+         </div> 
+         <div class="checkbox"> 
+          <input id="chkMyplace" name="chkMyplace" type="checkbox" value="Tuition at my place"> 
+          <label for="chkMyplace" style="width:0%!important;"> </label> 
+          <div>
+           Tuition at My Place
+          </div> 
+         </div> 
+         <div class="checkbox"> 
+          <input id="chkYourplace" name="chkYourplace" type="checkbox" value="Tuition at your place"> 
+          <label for="chkYourplace" style="width:0%!important;"> </label> 
+          <div>
+           Tuition at your Place 
+          </div> 
+         </div> 
+         <div class="clear"></div> 
+         <script>
+    $(document).ready(function(){
+       $('#clrFilters').click(function(){
+         $('#txtFilterLocation').val('');
+         $('#chkOnline').attr('checked', false); 
+         $('#chkMyplace').attr('checked', false);
+         $('#chkYourplace').attr('checked', false); 
+         $("#formFilters").submit();
+       });
+    });
+    
+    </script> 
+         <input type="submit" value="Add Filters" id="submitFilter" style="width:49%;"> 
+         <div class="clear-filter">
+          <a href="javascript:void(0);" id="clrFilters"> Clear Filters</a>
+         </div> 
+        </form> 
+       </div> 
+       <div class="clear"></div> 
+       <div class="job-desc top-jobs"> 
+        <h4>Quick Links</h4> 
+        <ul class="nav nav-tab" style="margin:7px 0px 0px 2px!important"> 
+         <li><a href="https://www.tutorialspoint.com/tutor_connect/search_tutors.php"> <i class="fa-user"></i> &nbsp;Search Tutors</a> </li> 
+         <li><a href="https://www.tutorialspoint.com/tutor_connect/search_students.php"> <i class="fa-pencil-square-o"></i> &nbsp;Search Students</a> </li> 
+         <li><a href="https://www.tutorialspoint.com/tutor_connect/faq.php"> <i class="fa-check-square-o"></i> &nbsp;Tutor Connect FAQs</a> </li> 
+         <li><a href="https://www.tutorialspoint.com/whiteboard.htm" target="_blank"> <img src="https://www.tutorialspoint.com/theme/css/icons/image-editor.png" alt="Whiteboard" style="float:left;"> &nbsp;Whiteboard</a> </li> 
+         <li><a href="https://www.tutorialspoint.com/netmeeting.php" target="_blank"> <i class="fa-video-camera"></i> &nbsp;Net Meeting</a> </li> 
+        </ul> 
+       </div> 
+       <div class="clear"></div> 
+      </div> 
+      <div class="col-md-7"> 
+       <div> 
+        <div class="search-widget"> 
+         <form action="https://www.tutorialspoint.com/tutor_connect/search_tutors.php" method="post"> 
+          <div class="col-sm-12 col-md-12"> 
+           <div class="search-addon"> 
+            <i class="fa-search" style="padding:12px 12px;"></i> 
+            <input type="text" id="txtSearchText" value="" name="txtSearchText" class="search-control srh-wdg-input" placeholder="Search Tutors"> 
+            <select name="selType" class="search-control search-select"> <option value="subject">By Subject</option> <option value="name">By Name</option> </select> 
+            <input type="submit" value="Go" id="searchSubmit"> 
+            <div class="autocomplete-srch" id="subjectsDiv"></div> 
+            <div id="searchError"></div> 
+           </div> 
+          </div> 
+         </form> 
+         <div style="clear:both;"></div> 
+        </div> 
+        <script>
+    $(document).ready(function(){
+       $('#searchSubmit').click(function(){
+         var searchKey = $('#txtSearchText').val();
+         if(searchKey == ''){
+            $('#searchError').html('Please enter search keyword');
+            $('#txtSearchText').focus();
+            $('#txtSearchText').css('border-color','red');
+            $('#searchError').css('color','red');
+            return false;
+         }
+         $('#txtSearchText').css('border-color','#ccc');
+         $('#searchError').html('');
+       });
+    });
+    
+    </script> 
+       </div> 
+       <div class="tut-widget" id="detailDiv"> 
+        <div class="tut_profile"> 
+         <div class="views" title="Total Profile Views 23"> 
+          <b>23</b> views 
+         </div> 
+         <div class="tut_left"> 
+          <a href="javascript:void(0)" class="screenshot" data-photo="mohapatrasuryagmailcom_image.jpg" data-floder="mohapatrasuryagmailcom" title="Surya Kanta" alt="Surya Kanta"> <img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/mohapatrasuryagmailcom/profile/75_mohapatrasuryagmailcom_image.jpg"> </a> 
+          <div class="photoEnlagreDive enlarge"></div> 
+          <div class="chat-msg"> 
+           <a href="#divSendMessage" class="sendmsg" data-user="24699" data-type="" data-name="Surya Kanta" title="Contact Surya Kanta"> <i class="fa-envelope-o"></i> Contact</a> 
+          </div> 
+         </div> 
+         <div class="tut_rght"> 
+          <a href="https://www.tutorialspoint.com/tutor/surya_kanta/24699" title="View Surya Kanta Profile" target="_blank"> <h2>Surya Kanta</h2> </a> 
+          <div class="clear"></div> 
+          <div class="tut-title">
+           Tutor for DBMS, SQL, SQL Server and SSIS 
+          </div> 
+          <i class="fa-map-marker"></i> Hyderabad, Telangana, India 
+          <div class="job-desc" style="min-height:10px;"> 
+           <p><i class="fa-check"></i> Available for : <b class="active-tutor inactive-tutor"> Online Teaching </b> | <b class="active-tutor inactive-tutor"> Tuition at my place </b> | <b class="active-tutor inactive-tutor"> Tuition at your place </b> </p> 
+          </div> 
+          <p> Having 10+ years of real-time and teaching experience in DBMS, SQL, SQL Server and SSIS. Expertise in SQL DB Development and T-Sql Scriptiing with indepth data analysis.&nbsp;<span style="color:#214070;font-weight:600;font-size:11px;" inline !important; ... <a href="https://www.tutorialspoint.com/tutor/surya_kanta/24699" target="_blank">Read More <i class="icon-angle-right"></i> </span></p> 
+          <b>Bengali,English,Hindi,Odia</b> 
+          <h4><span>DBMS</span><span>SQL</span><span>SQL Server</span><span>SSIS</span></h4> 
+         </div> 
+         <div style="clear:both;"></div> 
+        </div> 
+        <div style="clear:both;"></div> 
+        <div class="tut_profile"> 
+         <div class="views" title="Total Profile Views 52"> 
+          <b>52</b> views 
+         </div> 
+         <div class="tut_left"> 
+          <a href="javascript:void(0)" class="screenshot" data-photo="johnpalkogmailcom_image.jpeg" data-floder="johnpalkogmailcom" title="John Palko" alt="John Palko"> <img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/johnpalkogmailcom/profile/75_johnpalkogmailcom_image.jpeg"> </a> 
+          <div class="photoEnlagreDive enlarge"></div> 
+          <div class="chat-msg"> 
+           <a href="#divSendMessage" class="sendmsg" data-user="23779" data-type="" data-name="John Palko" title="Contact John Palko"> <i class="fa-envelope-o"></i> Contact</a> 
+          </div> 
+         </div> 
+         <div class="tut_rght"> 
+          <a href="https://www.tutorialspoint.com/tutor/john_palko/23779" title="View John Palko Profile" target="_blank"> <h2>John Palko</h2> </a> 
+          <div class="clear"></div> 
+          <div class="tut-title">
+           Tutor for Business Analysis, MS - Powerpoint, MS -Excel, MS-Office, MS-Word, Mathematics, Physics, Resume and CV Writing, Lean Six Sigma, and Decision and Risk Analysis
+          </div> 
+          <i class="fa-map-marker"></i> Mount Pleasant, NC 28124, United States 
+          <div class="job-desc" style="min-height:10px;"> 
+           <p><i class="fa-check"></i> Available for : <b class="active-tutor inactive-tutor"> Online Teaching </b> | <b class=" inactive-tutor"> Tuition at my place </b> | <b class="active-tutor inactive-tutor"> Tuition at your place </b> </p> 
+          </div> 
+          <p> Having 15 years of teaching experience in Business Analysis, MS - Powerpoint, MS -Excel, MS-Office, MS-Word, Mathematics, Physics, Resume and CV Writing, Lean Six Sigma, and Decision and Risk Analysis. ... <a href="https://www.tutorialspoint.com/tutor/john_palko/23779" style="color:#214070;font-weight:600;font-size:11px;" target="_blank">Read More <i class="icon-angle-right"></i></a> </p> 
+          <b>English</b> 
+          <h4><span>Business Analysis</span><span>MS - Powerpoint</span><span>MS -Excel</span><span>MS-Office</span><span>MS-Word</span><span>Mathematics</span><span>Physics</span><span>Resume and CV Writing</span><span>Lean Six Sigma</span><span> Decision and Risk Analysis</span></h4> 
+         </div> 
+         <div style="clear:both;"></div> 
+        </div> 
+        <div style="clear:both;"></div> 
+        <div class="tut_profile"> 
+         <div class="views" title="Total Profile Views 57"> 
+          <b>57</b> views 
+         </div> 
+         <div class="tut_left"> 
+          <a href="javascript:void(0)" class="screenshot" data-photo="mishrakumaramangmailcom_image.jpg" data-floder="mishrakumaramangmailcom" title="Aman Mishra" alt="Aman Mishra"> <img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/mishrakumaramangmailcom/profile/75_mishrakumaramangmailcom_image.jpg"> </a> 
+          <div class="photoEnlagreDive enlarge"></div> 
+          <div class="chat-msg"> 
+           <a href="#divSendMessage" class="sendmsg" data-user="24641" data-type="" data-name="Aman Mishra" title="Contact Aman Mishra"> <i class="fa-envelope-o"></i> Contact</a> 
+          </div> 
+         </div> 
+         <div class="tut_rght"> 
+          <a href="https://www.tutorialspoint.com/tutor/aman_mishra/24641" title="View Aman Mishra Profile" target="_blank"> <h2>Aman Mishra</h2> </a> 
+          <div class="clear"></div> 
+          <div class="tut-title">
+           Tutor for C++, DBMS and GATE with 4 years of teaching experience 
+          </div> 
+          <i class="fa-map-marker"></i> Kerala 
+          <div class="job-desc" style="min-height:10px;"> 
+           <p><i class="fa-check"></i> Available for : <b class="active-tutor inactive-tutor"> Online Teaching </b> | <b class="active-tutor inactive-tutor"> Tuition at my place </b> | <b class="active-tutor inactive-tutor"> Tuition at your place </b> </p> 
+          </div> 
+          <p> Having 4 years of teaching experience in C++, DBMS and GATE. Good knowledge in Mathematics and Physics. Possesses online teaching experience of 2 years. Completed Bachelor of Technology in Information ... <a href="https://www.tutorialspoint.com/tutor/aman_mishra/24641" style="color:#214070;font-weight:600;font-size:11px;" target="_blank">Read More <i class="icon-angle-right"></i></a> </p> 
+          <b>English,Hindi-Maithali</b> 
+          <h4><span>C++</span><span>DBMS</span><span>GATE</span></h4> 
+         </div> 
+         <div style="clear:both;"></div> 
+        </div> 
+        <div style="clear:both;"></div> 
+        <div class="tut_profile"> 
+         <div class="views" title="Total Profile Views 51"> 
+          <b>51</b> views 
+         </div> 
+         <div class="tut_left"> 
+          <a href="javascript:void(0)" class="screenshot" data-photo="mrshoaib2007gmailcom_image.jpg" data-floder="mrshoaib2007gmailcom" title="Shoaib Tahir" alt="Shoaib Tahir"> <img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/mrshoaib2007gmailcom/profile/75_mrshoaib2007gmailcom_image.jpg"> </a> 
+          <div class="photoEnlagreDive enlarge"></div> 
+          <div class="chat-msg"> 
+           <a href="#divSendMessage" class="sendmsg" data-user="23757" data-type="" data-name="Shoaib Tahir" title="Contact Shoaib Tahir"> <i class="fa-envelope-o"></i> Contact</a> 
+          </div> 
+         </div> 
+         <div class="tut_rght"> 
+          <a href="https://www.tutorialspoint.com/tutor/shoaib_tahir/23757" title="View Shoaib Tahir Profile" target="_blank"> <h2>Shoaib Tahir</h2> </a> 
+          <div class="clear"></div> 
+          <div class="tut-title">
+           Tutor for Biology, Chemistry, English Grammar, General Knowledge, Graphic Designing, HTML/CSS, MS-Office, Physics, Public Speaking, Social Studies, Spoken English and Zoology with 11 years of teaching experience
+          </div> 
+          <i class="fa-map-marker"></i> Lahore, Pakistan 
+          <div class="job-desc" style="min-height:10px;"> 
+           <p><i class="fa-check"></i> Available for : <b class="active-tutor inactive-tutor"> Online Teaching </b> | <b class="active-tutor inactive-tutor"> Tuition at my place </b> | <b class="active-tutor inactive-tutor"> Tuition at your place </b> </p> 
+          </div> 
+          <p> Having 11 years of teaching experience in Biology, Chemistry, English Grammar, General Knowledge, Graphic Designing, HTML/CSS, MS-Office, Physics, Public Speaking, Social Studies, Spoken English and Zoology. Completed BS.Ed Medical Science. ... <a href="https://www.tutorialspoint.com/tutor/shoaib_tahir/23757" style="color:#214070;font-weight:600;font-size:11px;" target="_blank">Read More <i class="icon-angle-right"></i></a> </p> 
+          <b>English,Hindi,Urdu</b> 
+          <h4><span>Biology</span><span>Chemistry</span><span>English Grammar</span><span>General Knowledge</span><span>Graphic Designing</span><span>HTML/CSS</span><span>MS-Office</span><span>Physics</span><span>Public Speaking</span><span>Social Studies</span><span>Spoken English</span><span>Zoology</span></h4> 
+         </div> 
+         <div style="clear:both;"></div> 
+        </div> 
+        <div style="clear:both;"></div> 
+        <div class="tut_profile"> 
+         <div class="views" title="Total Profile Views 66"> 
+          <b>66</b> views 
+         </div> 
+         <div class="tut_left"> 
+          <a href="javascript:void(0)" class="screenshot" data-photo="erketanpandeyofficialgmailcom_image.jpg" data-floder="erketanpandeyofficialgmailcom" title="Ketan Pandey" alt="Ketan Pandey"> <img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/erketanpandeyofficialgmailcom/profile/75_erketanpandeyofficialgmailcom_image.jpg"> </a> 
+          <div class="photoEnlagreDive enlarge"></div> 
+          <div class="chat-msg"> 
+           <a href="#divSendMessage" class="sendmsg" data-user="24599" data-type="" data-name="Ketan Pandey" title="Contact Ketan Pandey"> <i class="fa-envelope-o"></i> Contact</a> 
+          </div> 
+         </div> 
+         <div class="tut_rght"> 
+          <a href="https://www.tutorialspoint.com/tutor/ketan_pandey/24599" title="View Ketan Pandey Profile" target="_blank"> <h2>Ketan Pandey</h2> </a> 
+          <div class="clear"></div> 
+          <div class="tut-title">
+           Tutor for AJAX, Angular JS, Bootstrap, HTML5, Hibernate, Java, MySQL, PHP, Struts and WordPress
+          </div> 
+          <i class="fa-map-marker"></i> New Delhi, Delhi, India 
+          <div class="job-desc" style="min-height:10px;"> 
+           <p><i class="fa-check"></i> Available for : <b class="active-tutor inactive-tutor"> Online Teaching </b> | <b class="active-tutor inactive-tutor"> Tuition at my place </b> | <b class="active-tutor inactive-tutor"> Tuition at your place </b> </p> 
+          </div> 
+          <p> Having 1+ years of teaching experience in AJAX, Angular JS, Bootstrap, HTML5, Hibernate, Java, MySQL, PHP, Struts and WordPress. Good knowledge in Core Java concepts. Completed Master of Computer Applications. </p> 
+          <b>English,Hindi</b> 
+          <h4><span>AJAX</span><span>Angular JS</span><span>Bootstrap</span><span>HTML5</span><span>Hibernate</span><span>Java</span><span>MySQL</span><span>PHP</span><span>Struts</span><span>WordPress</span></h4> 
+         </div> 
+         <div style="clear:both;"></div> 
+        </div> 
+        <div style="clear:both;"></div> 
+        <div class="tut_profile"> 
+         <div class="views" title="Total Profile Views 70"> 
+          <b>70</b> views 
+         </div> 
+         <div class="tut_left"> 
+          <a href="javascript:void(0)" class="screenshot" data-photo="srpacademy32gmailcom_image.jpg" data-floder="srpacademy32gmailcom" title="Pandiarajan S R" alt="Pandiarajan S R"> <img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/srpacademy32gmailcom/profile/75_srpacademy32gmailcom_image.jpg"> </a> 
+          <div class="photoEnlagreDive enlarge"></div> 
+          <div class="chat-msg"> 
+           <a href="#divSendMessage" class="sendmsg" data-user="24510" data-type="" data-name="Pandiarajan S R" title="Contact Pandiarajan S R"> <i class="fa-envelope-o"></i> Contact</a> 
+          </div> 
+         </div> 
+         <div class="tut_rght"> 
+          <a href="https://www.tutorialspoint.com/tutor/pandiarajan_s_r/24510" title="View Pandiarajan S R Profile" target="_blank"> <h2>Pandiarajan S R</h2> </a> 
+          <div class="clear"></div> 
+          <div class="tut-title">
+           Trainer for Campus Recruitment Training, Communication, English Grammar, Public Speaking, Quantitative Aptitude, Reasoning, Resume and CV Writing and Spoken English
+          </div> 
+          <i class="fa-map-marker"></i> Puliyangudi, Tamil Nadu, India 
+          <div class="job-desc" style="min-height:10px;"> 
+           <p><i class="fa-check"></i> Available for : <b class="active-tutor inactive-tutor"> Online Teaching </b> | <b class="active-tutor inactive-tutor"> Tuition at my place </b> | <b class=" inactive-tutor"> Tuition at your place </b> </p> 
+          </div> 
+          <p> Having 3+ years of teaching experience in Campus Recruitment Training, Communication, English Grammar, Public Speaking, Quantitative Aptitude, Reasoning, Resume and CV Writing and Spoken English. Proficient in teaching Quantitative Aptitude, ... <a href="https://www.tutorialspoint.com/tutor/pandiarajan_s_r/24510" style="color:#214070;font-weight:600;font-size:11px;" target="_blank">Read More <i class="icon-angle-right"></i></a> </p> 
+          <b>English,Tamil</b> 
+          <h4><span>Campus Recruitment Training</span><span>Commmunication</span><span>English Grammar</span><span>Public Speaking</span><span>Quantitative Aptitude</span><span>Reasoning</span><span>Resume and CV Writing</span><span>Spoken English</span></h4> 
+         </div> 
+         <div style="clear:both;"></div> 
+        </div> 
+        <div style="clear:both;"></div> 
+        <div class="tut_profile"> 
+         <div class="views" title="Total Profile Views 91"> 
+          <b>91</b> views 
+         </div> 
+         <div class="tut_left"> 
+          <a href="javascript:void(0)" class="screenshot" data-photo="vishudp717gmailcom_image.jpg" data-floder="vishudp717gmailcom" title="Vishal" alt="Vishal"> <img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/vishudp717gmailcom/profile/75_vishudp717gmailcom_image.jpg"> </a> 
+          <div class="photoEnlagreDive enlarge"></div> 
+          <div class="chat-msg"> 
+           <a href="#divSendMessage" class="sendmsg" data-user="24278" data-type="" data-name="Vishal" title="Contact Vishal"> <i class="fa-envelope-o"></i> Contact</a> 
+          </div> 
+         </div> 
+         <div class="tut_rght"> 
+          <a href="https://www.tutorialspoint.com/tutor/vishal/24278" title="View Vishal Profile" target="_blank"> <h2>Vishal</h2> </a> 
+          <div class="clear"></div> 
+          <div class="tut-title">
+           Tutor for ASP .Net, Bootstrap, C, C#, C++, HTML/CSS, HTML5, Java, Javascript, Jquery, MySQL, Oracle, PHP, PL/SQL, SQL and SQL Server
+          </div> 
+          <i class="fa-map-marker"></i> Vikhroli East, Mumbai, Maharashtra, India 
+          <div class="job-desc" style="min-height:10px;"> 
+           <p><i class="fa-check"></i> Available for : <b class="active-tutor inactive-tutor"> Online Teaching </b> | <b class="active-tutor inactive-tutor"> Tuition at my place </b> | <b class="active-tutor inactive-tutor"> Tuition at your place </b> </p> 
+          </div> 
+          <p> Having 2+ years of teaching experience in ASP .Net, Bootstrap, C, C#, C++, HTML/CSS, HTML5, Java, Javascript, Jquery, MySQL, Oracle, PHP, PL/SQL, SQL and SQL Server. Good knowledge in Microsoft ... <a href="https://www.tutorialspoint.com/tutor/vishal/24278" style="color:#214070;font-weight:600;font-size:11px;" target="_blank">Read More <i class="icon-angle-right"></i></a> </p> 
+          <b>English,Hindi,Marathi</b> 
+          <h4><span>ASP .Net</span><span>Bootstrap</span><span>C</span><span>C#</span><span>C++</span><span>HTML/CSS</span><span>HTML5</span><span>Java</span><span>Javascript</span><span>Jquery</span><span>MySQL</span><span>Oracle</span><span>PHP</span><span>PL/SQL</span><span>SQL</span><span>SQL Server</span></h4> 
+         </div> 
+         <div style="clear:both;"></div> 
+        </div> 
+        <div style="clear:both;"></div> 
+        <div class="tut_profile"> 
+         <div class="views" title="Total Profile Views 84"> 
+          <b>84</b> views 
+         </div> 
+         <div class="tut_left"> 
+          <a href="javascript:void(0)" class="screenshot" data-photo="sachchinannamgmailcom_image.png" data-floder="sachchinannamgmailcom" title="Sachchin Annam" alt="Sachchin Annam"> <img src="https://www.tutorialspoint.com/assets/tutor_connect/uploads/sachchinannamgmailcom/profile/75_sachchinannamgmailcom_image.png"> </a> 
+          <div class="photoEnlagreDive enlarge"></div> 
+          <div class="chat-msg"> 
+           <a href="#divSendMessage" class="sendmsg" data-user="24190" data-type="" data-name="Sachchin Annam" title="Contact Sachchin Annam"> <i class="fa-envelope-o"></i> Contact</a> 
+          </div> 
+         </div> 
+         <div class="tut_rght"> 
+          <a href="https://www.tutorialspoint.com/tutor/sachchin_annam/24190" title="View Sachchin Annam Profile" target="_blank"> <h2>Sachchin Annam</h2> </a> 
+          <div class="clear"></div> 
+          <div class="tut-title">
+           Tutor for Bootstrap, HTML/CSS, HTML5, Javascript and SharePoint O365
+          </div> 
+          <i class="fa-map-marker"></i> Mumbai, Maharashtra, India 
+          <div class="job-desc" style="min-height:10px;"> 
+           <p><i class="fa-check"></i> Available for : <b class="active-tutor inactive-tutor"> Online Teaching </b> | <b class="active-tutor inactive-tutor"> Tuition at my place </b> | <b class="active-tutor inactive-tutor"> Tuition at your place </b> </p> 
+          </div> 
+          <p> Having 5+ years of IT and teaching experience in Bootstrap, HTML/CSS, HTML5, Javascript and SharePoint O365. Proficient in SharePoint 2010/2013 Design &amp; Development, Content Types &amp; Taxonomy, and InfoPath &amp; ... <a href="https://www.tutorialspoint.com/tutor/sachchin_annam/24190" style="color:#214070;font-weight:600;font-size:11px;" target="_blank">Read More <i class="icon-angle-right"></i></a> </p> 
+          <b>English,Hindi,Marathi,Telugu</b> 
+          <h4><span>Bootstrap</span><span>HTML/CSS</span><span>HTML5</span><span>Javascript</span><span>SharePoint O365</span></h4> 
+         </div> 
+         <div style="clear:both;"></div> 
+        </div> 
+        <div style="clear:both;"></div> 
+        <div class="tut_profile" style="min-height:60px!important; height:60px!important; margin-bottom:20px;"> 
+         <div class="job-index"> 
+          <div class="pages"> 
+           <a title="Go to page 1 of 163" class="current number" href="#">1</a> 
+           <a class="number" title="Go to page 2 of 163" href="https://www.tutorialspoint.com/tutor_connect/search_tutors.php?page=2&amp;ipp=8">2</a> 
+           <a class="number" title="Go to page 3 of 163" href="https://www.tutorialspoint.com/tutor_connect/search_tutors.php?page=3&amp;ipp=8">3</a> 
+           <a class="number" title="Go to page 4 of 163" href="https://www.tutorialspoint.com/tutor_connect/search_tutors.php?page=4&amp;ipp=8">4</a> 
+           <a class="number" title="Go to page 5 of 163" href="https://www.tutorialspoint.com/tutor_connect/search_tutors.php?page=5&amp;ipp=8">5</a> 
+           <a class="number" title="Go to page 6 of 163" href="https://www.tutorialspoint.com/tutor_connect/search_tutors.php?page=6&amp;ipp=8">6</a> 
+           <a class="number" title="Go to page 7 of 163" href="https://www.tutorialspoint.com/tutor_connect/search_tutors.php?page=7&amp;ipp=8">7</a> ... 
+           <a class="number" title="Go to page 163 of 163" href="https://www.tutorialspoint.com/tutor_connect/search_tutors.php?page=163&amp;ipp=8">163</a> 
+           <a href="https://www.tutorialspoint.com/tutor_connect/search_tutors.php?page=2&amp;ipp=8">Next »</a> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="bottomgooglead"> 
+         <div class="bottomadtag">
+          Advertisements
+         </div> 
+         <!-- /60931893/tutorial_bottom_leader_board --> 
+         <div id="div-gpt-ad-1510138782906-3"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-3'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="col-md-3" id="rightbar"> 
+        <div class="ysubscribe"> 
+         <script async src="https://apis.google.com/js/platform.js"></script> 
+         <div class="g-ytsubscribe" data-channelid="UCVLbzhxVTiTLiVKeGV7WEBg" data-layout="full" data-count="default"></div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_top --> 
+         <div id="div-gpt-ad-1510138782906-2" style="height:250px; width:300px;"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-2'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_middle --> 
+         <div id="div-gpt-ad-1510138782906-1"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-1'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_bottom --> 
+         <div id="div-gpt-ad-1510138782906-0"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-0'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Libs --> 
+  <script type="text/javascript" src="/theme/js/custom-min.js?v=7"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.pg-icon').click(function(){
+   $('.wrapLoader').show();
+});
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Tutor for Bootstrap, HTML/CSS, HTML5, Javascript and SharePoint O365",
+    "name": "Tutor for Bootstrap, HTML/CSS, HTML5, Javascript and SharePoint O365",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.tutorialspoint.com/tutor_connect/search_tutors.php"
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tutorialspoint.com\".$asset_image_url .",
+        "width": null,
+        "height": null
+    },
+    "author": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "datePublished": "January 08 2018 06:26:15.",
+    "dateModified": "January 08 2018 06:26:15.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "description": " Available for :\r\n                              0)\r\n                                 {\r\n                                   foreach($mediumArray as $medium){\r\n                                     if($medium == \"Online Teaching\"){\r\n                         ..."
+}
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "name": "www.tutorialspoint.com",
+                "@id": "https://www.tutorialspoint.com"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "name": "Tutor Connect",
+                "@id": "https://www.tutorialspoint.com/tutor_connect"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "name": null
+            }
+        }
+    ]
+}
+</script>    
+ </body>
+</html>

@@ -1,0 +1,1918 @@
+http://www.mkyong.com/tutorials/spring-tutorials
+<!doctype html>
+<html lang="en">
+ <head> 
+  <meta charset="utf-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+  <meta name="google-site-verification" content="VsVvSTVAouAluNodWeR30BeIWTr4c84HvN4Fn9WBsak"> 
+  <!-- wp_head --> 
+  <title>Spring Tutorial</title> 
+  <!-- All in One SEO Pack 2.2.7.1 by Michael Torbert of Semper Fi Web Design[290,331] --> 
+  <meta name="description" content="Spring tutorial with full example, including Spring's basic usage, bean configuration, dependency injection, AOP, integration with JDBC, Hibernate , Struts,"> 
+  <meta name="keywords" content="spring,spring3,springel,spring aop,spring tutorials,spring example,tutorials"> 
+  <link rel="canonical" href="http://www.mkyong.com/tutorials/spring-tutorials/"> 
+  <!-- /all in one seo pack --> 
+  <link rel="dns-prefetch" href="//ajax.googleapis.com"> 
+  <link rel="dns-prefetch" href="//cdnjs.cloudflare.com"> 
+  <link rel="dns-prefetch" href="//maxcdn.bootstrapcdn.com"> 
+  <link rel="stylesheet" id="c16ss-style-css" href="http://www.mkyong.com/wp-content/plugins/c16-social-share/css/c16ss.css?ver=4.9.4" type="text/css" media="all"> 
+  <link rel="stylesheet" id="wpdiscuz-font-awesome-css" href="http://www.mkyong.com/wp-content/plugins/wpdiscuz/assets/third-party/font-awesome-4.6.3/css/font-awesome.min.css?ver=4.5.0" type="text/css" media="all"> 
+  <link rel="stylesheet" id="wpdiscuz-frontend-css-css" href="http://www.mkyong.com/wp-content/plugins/wpdiscuz/assets/css/wpdiscuz.css?ver=4.0.7" type="text/css" media="all"> 
+  <link rel="stylesheet" id="bootstrap4-cdn-css" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css?ver=4.0.0" type="text/css" media="all"> 
+  <link rel="stylesheet" id="prism-css-css" href="http://www.mkyong.com/wp-content/themes/mkyong-bs4/assets/prism/prism.css?ver=20180316" type="text/css" media="all"> 
+  <link rel="stylesheet" id="mkyong-bs4-style-css" href="http://www.mkyong.com/wp-content/themes/mkyong-bs4/style.css?ver=20180316" type="text/css" media="all"> 
+  <script type="text/javascript" src="http://www.mkyong.com/wp-includes/js/jquery/jquery.js?ver=1.12.4"></script> 
+  <script type="text/javascript" src="http://www.mkyong.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1"></script> 
+  <script type="text/javascript" src="http://www.mkyong.com/wp-content/plugins/wpdiscuz/assets/third-party/wpdcookiejs/customcookie.js?ver=2.1.3"></script> 
+  <script type="text/javascript" src="http://www.mkyong.com/wp-content/plugins/wpdiscuz/assets/third-party/autogrow/jquery.autogrowtextarea.min.js?ver=3.0"></script> 
+  <script type="text/javascript">
+/* <![CDATA[ */
+var wpdiscuzAjaxObj = {"url":"http:\/\/www.mkyong.com\/wp-admin\/admin-ajax.php","wpdiscuz_options":{"wc_hide_replies_text":"Hide Replies","wc_show_replies_text":"Show Replies","wc_msg_required_fields":"Please fill out required fields","wc_invalid_field":"Some of field value is invalid","wc_error_empty_text":"please fill out this field to comment","wc_error_url_text":"url is invalid","wc_error_email_text":"email address is invalid","wc_invalid_captcha":"Invalid Captcha Code","wc_login_to_vote":"You Must Be Logged In To Vote","wc_deny_voting_from_same_ip":"You are not allowed to vote for this comment","wc_self_vote":"You cannot vote for your comment","wc_vote_only_one_time":"You've already voted for this comment","wc_voting_error":"Voting Error","wc_held_for_moderate":"Comment awaiting moderation","wc_comment_edit_not_possible":"Sorry, this comment no longer possible to edit","wc_comment_not_updated":"Sorry, the comment was not updated","wc_comment_not_edited":"You've not made any changes","wc_new_comment_button_text":"new comment","wc_new_comments_button_text":"new comments","wc_new_reply_button_text":"new reply on your comment","wc_new_replies_button_text":"new replies on your comments","wc_msg_input_min_length":"Input is too short","wc_msg_input_max_length":"Input is too long","is_user_logged_in":false,"commentListLoadType":"0","commentListUpdateType":"0","commentListUpdateTimer":"30","liveUpdateGuests":"1","wc_comment_bg_color":"#FEFEFE","wc_reply_bg_color":"#F8F8F8","wordpress_comment_order":"desc","commentsVoteOrder":true,"wordpressThreadCommentsDepth":"5","wordpressIsPaginate":"","commentTextMaxLength":null,"storeCommenterData":100000,"isCaptchaInSession":true,"isGoodbyeCaptchaActive":false,"facebookAppID":"","version":"4.0.7","wc_post_id":4293,"loadLastCommentId":"1054174","wc_captcha_show_for_guest":"0","wc_captcha_show_for_members":"0","is_email_field_required":1}};
+/* ]]> */
+</script> 
+  <script type="text/javascript" src="http://www.mkyong.com/wp-content/plugins/wpdiscuz/assets/js/wpdiscuz.js?ver=4.0.7"></script> 
+  <link rel="prev" title="JDK Timer scheduler example" href="http://www.mkyong.com/java/jdk-timer-scheduler-example/"> 
+  <link rel="next" title="JUnit Tutorial" href="http://www.mkyong.com/tutorials/junit-tutorials/"> 
+  <style type="text/css">#wpcomm .wc_new_comment{background:#00B38F;}#wpcomm .wc_new_reply{background:#00B38F;}#wpcomm .wc-form-wrapper{background:#F9F9F9;}#wpcomm select,#wpcomm input[type="text"],#wpcomm input[type="email"],#wpcomm input[type="url"],#wpcomm input[type="date"],#wpcomm input[type="color"]{border:#D9D9D9 1px solid;}#wpcomm .wc-comment .wc-comment-right{background:#FEFEFE;}#wpcomm .wc-reply .wc-comment-right{background:#F8F8F8;}#wpcomm .wc-comment-text{font-size:14px;color:#555;}#wpcomm .wc-blog-administrator > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-administrator > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-administrator > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-editor > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-editor > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-editor > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-author > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-author > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-author > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-contributor > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-contributor > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-contributor > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-subscriber > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-subscriber > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-subscriber > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-post_author > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-post_author > .wc-comment-right .wc-comment-author a{color:#00B38F;}#wpcomm .wc-blog-post_author > .wc-comment-left .wc-comment-label{background:#00B38F;}#wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author,#wpcomm .wc-blog-guest > .wc-comment-right .wc-comment-author a{color:#888888;}#wpcomm .wc-blog-guest > .wc-comment-left .wc-comment-label{background:#888888;}.wc-load-more-submit{border:1px solid #D9D9D9;}#wpcomm .wc-new-loaded-comment > .wc-comment-right{background:#FFFAD6;}.comments-area{width:auto;}.wpdiscuz-front-actions{background:#F9F9F9;}.wpdiscuz-subscribe-bar{background:#F9F9F9;}.wpdiscuz-sort-buttons{color:#bbbbbb;}.wpdiscuz-sort-button{color:#bbbbbb; cursor:pointer;}.wpdiscuz-sort-button:hover{color:#00B38F;cursor:pointer;}.wpdiscuz-sort-button-active{color:#00B38F!important;cursor:default!important;}#wpcomm .page-numbers{color:#555;border:#555 1px solid;}#wpcomm span.current{background:#555;}#wpcomm .wpdiscuz-readmore{cursor:pointer;color:#00B38F;} #wpcomm .wpdiscuz-textarea-wrap{border:#D9D9D9 1px solid;} .wpd-custom-field .wcf-pasiv-star, #wpcomm .wpdiscuz-item .wpdiscuz-rating > label {color: #DDDDDD;}#wpcomm .wpdiscuz-item .wpdiscuz-rating:not(:checked) > label:hover,.wpdiscuz-rating:not(:checked) > label:hover ~ label {   }#wpcomm .wpdiscuz-item .wpdiscuz-rating > input ~ label:hover, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:not(:checked) ~ label:hover ~ label{color: #FFED85;} #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover, #wpcomm .wpdiscuz-item .wpdiscuz-rating > label:hover ~ input:checked ~ label, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked + label:hover ~ label, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label:hover ~ label, .wpd-custom-field .wcf-activ-star, #wpcomm .wpdiscuz-item .wpdiscuz-rating > input:checked ~ label{ color:#FFD700;} #wpcomm .wc-cta-button:hover{border: 1px solid #00B38F!important; background:#00B38F!important; color:#fff!important;} #wpcomm .wc-cta-active{border: 1px solid #00B38F!important; background:#00B38F!important; color:#fff!important;}#wpcomm .wpf-cta:hover{color:#fff!important; background:#00B38F!important; border:1px solid #00B38F!important;}
+        
+#wpcomm .wpf-cta{ border: 1px solid #cccccc; color:#bbbbbb; }
+#wpcomm .wc-cta-button{ background:#888888; border:1px solid #888888; color:#ffffff;}
+#wpcomm .wc-cta-button-x{ background:#888888; border:1px solid #888888; color:#ffffff;}
+#wpcomm .wc-vote-link{border:1px solid #bbbbbb; color:#aaaaaa;}
+#wpcomm .wc-vote-result{border-top: 1px solid #bbbbbb; border-bottom: 1px solid #bbbbbb; color:#aaaaaa;}
+#wpcomm .wc-vote-result.wc-vote-result-like{border:1px solid #bbbbbb;}
+#wpcomm .wc-vote-result.wc-vote-result-dislike{border:1px solid #bbbbbb;}
+</style> 
+  <!-- ./wp_head --> 
+  <!-- Google Auto Ads --> 
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+  <script>
+					 (adsbygoogle = window.adsbygoogle || []).push({
+						  google_ad_client: "ca-pub-2836379775501347",
+						  enable_page_level_ads: true
+					 });
+				</script> 
+ </head> 
+ <body> 
+  <header class="navbar navbar-expand-lg navbar-dark fixed-top bg-blue"> 
+   <a class="navbar-brand mr-0 mr-md-2" href="/" aria-label="Mkyong.com"> <img src="http://www.mkyong.com/wp-content/themes/mkyong-bs4/images/logo.png" width="180px" height="32px" alt="Mkyong.com Logo"> </a> 
+   <!-- Toggler/collapsibe Button --> 
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> 
+   <!-- Navbar links --> 
+   <div class="collapse navbar-collapse" id="navbarCollapse"> 
+    <div class="dropdown-divider"></div> 
+    <ul class="navbar-nav mr-auto"> 
+     <li class="nav-item"> <a class="nav-link" title="All Tutorials" href="/all-tutorials-on-mkyong-com/">All Tutorials</a> </li> 
+     <li class="nav-item"> <a class="nav-link" title="Java 8" href="/tutorials/java-8-tutorials/">Java 8</a> </li> 
+     <li class="nav-item"> <a class="nav-link" title="Spring Boot" href="/tutorials/spring-boot-tutorials/">Spring Boot</a> </li> 
+     <li class="nav-item"> <a class="nav-link" title="Contact" href="/contact-mkyong/">Contact</a> </li> 
+    </ul> 
+    <form class="form-inline" role="search" method="get" action="//www.mkyong.com/search/"> 
+     <input type="hidden" name="cx" value="partner-pub-2836379775501347:3714346998"> 
+     <input type="hidden" name="cof" value="FORID:10"> 
+     <input type="hidden" name="ie" value="UTF-8"> 
+     <input id="searchBox" name="q" class="form-control mr-sm-2" type="search" placeholder="Search for..." maxlength="50" aria-label="Search"> 
+     <button id="searchButton" class="btn btn-outline-secondary my-2 my-sm-0" type="submit">Search</button> 
+    </form> 
+   </div> 
+  </header> 
+  <div class="container"> 
+   <div class="row"> 
+    <div class="col-xl"> 
+     <div class="row"> 
+      <div class="col"> 
+       <div class="center ads-box ads-box-top-responsive"> 
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+        <!-- mkyong-top-responsive --> 
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2836379775501347" data-ad-slot="5333521399" data-ad-format="auto" data-ad-region="mkyongregion"></ins> 
+        <script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script> 
+       </div> 
+      </div> 
+     </div> 
+     <div class="row"> 
+      <div id="main" class="col-xl"> 
+       <!-- google_ad_section_start(name=mkyongregion) --> 
+       <article id="post-4293"> 
+        <h1>Spring Tutorial</h1> 
+        <div class="post-meta"> 
+         <div class="post-meta">
+          By 
+          <a href="http://www.mkyong.com/author/mkyong/" title="mkyong class=" author" rel="author">mkyong</a> | 
+          <time datetime="2010-04-01T11:09:26+00:00">April 1, 2010</time> | Updated : November 2, 2012 | Viewed : 2,378,335 | 
+          <span>+3,039 pv/w</span>
+         </div> 
+        </div> 
+        <div id="post-content"> 
+         <div class="pic"> 
+          <img src="http://www.mkyong.com/wp-content/uploads/2010/04/Spring-tutorials.png" alt="Spring tutorials" title="Spring tutorials"> 
+         </div> 
+         <p>The <a href="http://www.springsource.org/" target="_blank">Spring framework</a> , created by Rod Johnson, is an extremely powerful Inversion of control(IoC) framework to help decouple your project components’ dependencies.</p> 
+         <p>In this series of tutorials, it’s provides many step by step examples and explanations on using the Spring framework.</p> 
+         <div class="note"> 
+          <strong>New Spring 3.0 Tutorials (23/06/2011)</strong>
+          <br> Added many Spring 3.0 tutorials on using Spring EL, JavaConfig, AspectJ and Spring Object/XML mapping (oxm). For what’s new in Spring 3.0, you can refer to this 
+          <a href="http://static.springsource.org/spring/docs/3.0.x/spring-framework-reference/html/new-in-3.html" target="_blank">official Spring 3.0 references</a>. 
+         </div> 
+         <h2>Spring Quick Start</h2> 
+         <p>Quick start to understand the basic of Spring framework development.</p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring/quick-start-maven-spring-example/">Spring hello world example </a><br> Maven + Spring 2.5.6 hello world example.</li> 
+          <li><a href="http://www.mkyong.com/spring3/spring-3-hello-world-example/">Spring 3.0 hello world example</a> <span><strong>(Spring 3.0)</strong></span><br> Maven + Spring 3.0 hello world example, what are needed in new Spring 3.0 development.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-loosely-coupled-example/">Spring loosely coupled example</a><br> An example to show demonstrate how Spring make components loosely coupled. </li> 
+         </ul> 
+         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+         <ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-format="fluid" data-ad-layout="in-article" data-ad-client="ca-pub-2836379775501347" data-ad-slot="6894224149"></ins> 
+         <script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+         <h2>Spring JavaConfig (Spring 3.0)</h2> 
+         <p>Spring 3.0 supported JavaConfig, now you can use annotations to do the configuration in Spring. </p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring3/spring-3-javaconfig-example/">Spring 3 JavaConfig examples</a><br> Demonstrate the use of @Configuration and @Bean to define bean in Spring</li> 
+          <li><a href="http://www.mkyong.com/spring3/spring-3-javaconfig-import-example/">Spring 3 JavaConfig @Import example</a><br> Demonstrate the use of @Import to organize beans in modular.</li> 
+         </ul> 
+         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+         <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2836379775501347" data-ad-slot="8821506761" data-ad-format="auto" data-ad-region="mkyongregion"></ins> 
+         <script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+         <h2>Spring Dependency Injection (DI)</h2> 
+         <p>How Spring to do dependency Injection (DI) to manage object dependencies.</p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring/spring-dependency-injection-di/">Spring Dependency Injection (DI)</a><br> How Spring applies the Dependency Injection (DI) design pattern via Setter Injection and Constructor Injection.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-di-via-setter-method/">Spring DI via setter method</a><br> Dependency injection a bean via setter method.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-di-via-constructor/">Spring DI via constructor</a><br> Dependency injection a bean via constructor.</li> 
+          <li><a href="http://www.mkyong.com/spring/constructor-injection-type-ambiguities-in-spring/">Constructor injection type ambiguities in Spring</a><br> The constructor injection argument type ambiguity issue is always happening in a bean which contains multiple constructor methods with many arguments.</li> 
+         </ul> 
+         <h2>Bean Basic</h2> 
+         <p>All the classes you need to use in Spring Ioc container are considered “bean”, and declared in a Spring bean configuration file or via annotation.</p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring/spring-bean-reference-example/">Spring bean reference example</a><br> How beans access to each other by specify the bean references in the same or different bean configuration file.</li> 
+          <li><a href="http://www.mkyong.com/spring/how-to-define-bean-properties-in-spring/">Inject value into bean properties in Spring</a><br> Three ways to inject value into bean properties.</li> 
+          <li><a href="http://www.mkyong.com/spring/load-multiple-spring-bean-configuration-file/">Load multiple Spring bean configuration file</a><br> Developers always categorize different bean configuration files in different modules folder, here’s a tip to show you how to load multiple Spring bean configuration files.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-inner-bean-examples/">Spring inner bean examples</a><br> Whenever a bean is used for one particular property only, it’s always advised to declare it as an inner bean.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-bean-scopes-examples/">Spring bean scopes examples</a><br> Bean scope is used to decide which type of bean instance should be return from the Spring container back to the caller.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-collections-list-set-map-and-properties-example/">Spring Collections (List, Set, Map, and Properties) example</a><br> Example to inject values into collections type (List, Set, Map, and Properties).</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-listfactorybean-example/">ListFactoryBean example</a><br> Create a concrete List collection class (ArrayList and LinkedList), and inject it into bean property.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-setfactorybean-example/">SetFactoryBean example</a><br> Create a concrete Set collection class (HashSet and TreeSet), and inject it into bean property.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-mapfactorybean-example/">MapFactoryBean example</a><br> Create a concrete Map collection class (HashMap and TreeMap), and inject it into bean property.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-how-to-pass-a-date-into-bean-property-customdateeditor/">Spring inject Date into bean property – CustomDateEditor</a><br> Normally, Spring is accepting date variable, here’s a tip to use CustomDateEditor to work around it.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-propertyplaceholderconfigurer-example/">Spring PropertyPlaceholderConfigurer example</a><br> Externalize the deployment details into a properties file, and access from a bean configuration file via a special format – ${variable}.</li> 
+          <li><a href=" http://www.mkyong.com/spring/spring-bean-configuration-inheritance/">Spring bean configuration inheritance</a><br> Inheritance is very useful for a bean to share common values, properties or configuration.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-properties-dependency-checking/">Spring dependency checking</a><br> Spring comes with 4 dependency checking modes to make sure the required properties have been set in bean.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-dependency-checking-with-required-annotation/">Spring dependency checking with @Required Annotation</a><br> Dependency checking in annotation mode.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-define-custom-required-style-annotation/">Custom @Required-style annotation</a><br> Create a custom @Required-style annotation ,which is equivalent to @Required annotation.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-initializingbean-and-disposablebean-example/">Bean InitializingBean and DisposableBean example</a><br> Perform certain actions upon bean initialization and destruction. (interface)</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-init-method-and-destroy-method-example/">Bean init-method and destroy-method example</a><br> Perform certain actions upon bean initialization and destruction. (XML)</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-postconstruct-and-predestroy-example/">Bean @PostConstruct and @PreDestroy example</a><br> Perform certain actions upon bean initialization and destruction. (Annotation)</li> 
+         </ul> 
+         <h2>Spring Expression Language (Spring 3.0)</h2> 
+         <p>Spring 3.0 introduces features rich and powerful expression language known as Spring expression language, or Spring EL.</p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring3/spring-el-hello-world-example/">Spring EL hello world example</a><br> Quick start to use the Spring expression language (EL).</li> 
+          <li><a href="http://www.mkyong.com/spring3/spring-el-bean-reference-example/">Spring EL bean reference example</a><br> Reference bean, bean property using a dot (.) symbol.</li> 
+          <li><a href="http://www.mkyong.com/spring3/spring-el-method-invocation-example/">Spring EL method invocation example</a><br> Call bean method in directly.</li> 
+          <li><a href="http://www.mkyong.com/spring3/spring-el-operators-example/">Spring EL operators example</a><br> Spring EL supports most of the standard relational, logical and mathematical operators.</li> 
+          <li><a href="http://www.mkyong.com/spring3/spring-el-ternary-operator-if-then-else-example/">Spring EL ternary operator (if-then-else) example</a><br> Conditional check , if else then.</li> 
+          <li><a href="http://www.mkyong.com/spring3/spring-el-lists-maps-example/">Spring EL Arrays, Lists, Maps example</a><br> Works with Map and List.</li> 
+          <li><a href="http://www.mkyong.com/spring3/spring-el-regular-expression-example/">Spring EL regular expression example</a><br> The regular expression to evaluate the condition.</li> 
+          <li><a href="http://www.mkyong.com/spring3/test-spring-el-with-expressionparser/">Test Spring EL with ExpressionParser</a><br> Show you how to test Spring El easily.</li> 
+         </ul> 
+         <h2>Spring Auto Component Scanning</h2> 
+         <p>Spring is able to scan, detect and register your bean automatically.</p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring/spring-auto-scanning-components/">Spring Auto scanning components</a><br> Enable Spring to auto scan, detect and register your beans.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-filtering-components-in-auto-scanning/">Spring Filter components in auto scanning</a><br> Example to filter certain components in auto scanning mode.</li> 
+         </ul> 
+         <h2>Spring AutoWiring Bean</h2> 
+         <p>Spring ‘auto-wiring’ modes to wire or beans automatically, both in XML and annotation.</p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring/spring-auto-wiring-beans-in-xml/">Spring Auto-Wiring Beans</a><br> Summary of 5 types auto wiring modes in Spring.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-autowiring-by-type/">Spring Autowiring by Type</a><br> If the data type of a bean is compatible with the data type of other bean property, auto wire it.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-autowiring-by-name/">Spring Autowiring by Name</a><br> If the name of a bean is same as the name of another bean property, auto wire it.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-autowiring-by-constructor/">Spring Autowiring by Constructor</a><br> Actually, it’s autowiring by Type in constructor argument.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-autowiring-by-autodetect/">Spring Autowiring by AutoDetect</a><br> It means choosing “autowire by constructor” if default constructor is found, otherwise uses “autowire by type”.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-auto-wiring-beans-with-autowired-annotation/">Spring Autowiring with @Autowired annotation</a><br> Examples to show how to define ‘auto-wiring’ modes in annotation.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-autowiring-qualifier-example/">Spring Autowiring @Qualifier example</a><br> Example to identify which bean is qualified to autowired on a field.</li> 
+         </ul> 
+         <h2>Spring AOP (Aspect-oriented programming)</h2> 
+         <p>The Spring AOP modularize cross-cutting concerns in aspects. Put it simply, an interceptor to intercept some methods.</p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring/spring-aop-examples-advice/">Spring AOP Example – Advice</a><br> Examples and explanations about different types of Spring’s advices.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-aop-example-pointcut-advisor/">Spring AOP Example – Pointcut , Advisor</a><br> Examples and explanations about different types of Spring’s Pointcut and Advisor.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-aop-interceptor-transaction-is-not-working/">Spring AOP interceptor sequence</a><br> The sequence of the AOP interceptor will affect the functionality.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-auto-proxy-creator-example/">Auto proxy creator example</a><br> An auto proxy creator example to create proxy object for your beans automatically, useful to avoid creating many duplicated proxy objects.</li> 
+         </ul> 
+         <h2>Spring AOP + AspectJ framework</h2> 
+         <p>AspectJ supported since Spring 2.0, more flexible and powerful. However, this example is demonstrated in Spring 3.0. </p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring3/spring-aop-aspectj-annotation-example/">Spring AOP + AspectJ annotation example</a> <span><strong>(Spring 3.0)</strong></span><br> An example to show you how to integrate AspectJ annotation with Spring framework.</li> 
+          <li><a href="http://www.mkyong.com/spring3/spring-aop-aspectj-in-xml-configuration-example/">Spring AOP + AspectJ in XML configuration example</a> <span><strong>(Spring 3.0)</strong></span><br> Spring AOP with AspectJ in XML base configuration.</li> 
+         </ul> 
+         <h2>Spring Object/XML Mapper (Spring 3.0)</h2> 
+         <p>In Spring 3.0, Object to XML mapping (OXM) is moved from the Spring Web Services to the core Spring Framework.</p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring3/spring-objectxml-mapping-example/">Spring Object/XML mapping example</a><br> Spring oxm + castor, convert Object to XML and vice verse.</li> 
+         </ul> 
+         <p><a name="springjdbc"></a></p> 
+         <h2>Spring JDBC Support</h2> 
+         <p>Spring provides many helper classes to simplify the overall JDBC database operation.</p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring/maven-spring-jdbc-example/">Spring + JDBC example</a><br> An example to show how to integrate Spring and JDBC.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-jdbctemplate-jdbcdaosupport-examples/">JdbcTemplate + JdbcDaoSupport example</a><br> Example to use Spring’s JdbcTemplate and JdbcDaoSupport classes to simplify the overall JDBC database operation processes.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-jdbctemplate-querying-examples/">JdbcTemplate Querying examples</a><br> Here are a few examples to show how to use JdbcTemplate query() methods to query or extract data from database.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-jdbctemplate-batchupdate-example/">JdbcTemplate batchUpdate() example</a><br> A batchUpdate() example to show how to perform the batch insert operations.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-simplejdbctemplate-querying-examples/">SimpleJdbcTemplate Querying examples</a><br> More user friendly and simple way to query or extract data from database.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-simplejdbctemplate-batchupdate-example/">SimpleJdbcTemplate batchUpdate() example</a><br> Another batch update example with SimpleJdbcTemplate, a java5-friendly supplement to JdbcTemplate.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-named-parameters-examples-in-simplejdbctemplate/">Named Parameters examples in SimpleJdbcTemplate</a><br> An example to show how to use named parameter as SQL parameter values, and this is only supported in SimpleJdbcTemplate.</li> 
+         </ul> 
+         <h2>Spring Hibernate Support</h2> 
+         <p>Spring comes with many handy classes to support Hibernate ORM framework.</p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring/maven-spring-hibernate-mysql-example/">Maven + Spring + Hibernate + MySql Example</a><br> A simple project of using Spring and Hibernate.</li> 
+          <li><a href="http://www.mkyong.com/spring/maven-spring-hibernate-annotation-mysql-example/">Maven + (Spring + Hibernate) Annotation + MySql Example</a><br> A simple project of using Spring and Hibernate (annotation version).</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-aop-transaction-management-in-hibernate/">Spring AOP transaction management in Hibernate</a><br> An example to show how to manage the Hibernate transaction with Spring AOP. </li> 
+          <li><a href="http://www.mkyong.com/struts/struts-spring-hibernate-integration-example/">Struts + Spring + Hibernate integration</a><br> Example to integrate Spring with Struts and Hibernate framework. </li> 
+         </ul> 
+         <h2>Spring E-mail Support</h2> 
+         <p>Spring’s provides MailSender to send email via JavaMail API.</p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring/spring-sending-e-mail-via-gmail-smtp-server-with-mailsender/">Sending E-mail via MailSender</a><br> Example to use Spring’s MailSender to send an email via Gmail SMTP server.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-define-an-e-mail-template-in-bean-configuration-file/">E-mail template in bean configuration file</a><br> Hard-code all the email properties and message content in the method body is not a good practice, you should consider define the email message template in the Spring’s bean configuration file.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-sending-e-mail-with-attachment/">Sending e-mail with attachment</a><br> Example to use Spring to send an email that has attachments.</li> 
+         </ul> 
+         <h2>Spring Scheduling Support</h2> 
+         <p>Spring has very good support in both JDK timer and Quartz framework.</p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring/spring-jdk-timer-scheduler-example/">Spring + JDK Timer scheduler example</a><br> An article about how Spring schedules a job with JDK timer.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-quartz-scheduler-example/">Spring + Quartz scheduler example</a><br> An article about how Spring schedules a job with Quartz framework.</li> 
+          <li><a href="http://www.mkyong.com/struts/struts-spring-quartz-scheduler-integration-example/">Spring + Struts + Quartz scheduler example</a><br> Integrate Spring with Struts and schedule a job with Quartz framework.</li> 
+         </ul> 
+         <h2>Integrating Spring with Other Web Frameworks</h2> 
+         <p>Spring integrates with other web frameworks.</p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring/spring-how-to-do-dependency-injection-in-your-session-listener/">Spring dependency injection in the servlet session listener</a><br> Spring comes with a “ContextLoaderListener” listener as a generic way to enable the Spring dependency injection in session listener and almost all other web framework.</li> 
+          <li><a href="http://www.mkyong.com/struts/struts-spring-integration-example/">Struts + Spring integration</a><br> Example to integrate Spring with Struts 1.x framework.</li> 
+          <li><a href="http://www.mkyong.com/struts2/struts-2-spring-integration-example/">Struts 2 + Spring integration example</a><br> Example to integrate Spring with Struts 2 framework.</li> 
+          <li><a href="http://www.mkyong.com/jsf2/jsf-2-0-spring-integration-example/">JSF 2.0 + Spring integration example</a><br> Example to integrate JSF 2.0 with Spring framework.</li> 
+          <li><a href="http://www.mkyong.com/jsf2/jsf-2-0-spring-hibernate-integration-example/">JSF 2.0 + Spring + Hibernate integration example</a><br> Example to integrate JSF 2.0 + Spring + Hibernate framework together.</li> 
+          <li><a href="http://www.mkyong.com/wicket/wicket-spring-integration-example/">Wicket + Spring integration example</a><br> Example to integrate Wicket with Spring framework.</li> 
+          <li><a href="http://www.mkyong.com/struts2/struts-2-spring-quartz-scheduler-integration-example/">Struts 2 + Spring + Quartz scheduler integration example</a><br> Example to integrate Spring + Struts 2 + Quartz.</li> 
+          <li><a href="http://www.mkyong.com/struts2/struts-2-spring-hibernate-integration-example/">Struts 2 + Spring + Hibernate integration example</a><br> Example to integrate Spring + Struts 2 + Hibernate.</li> 
+         </ul> 
+         <h2>Spring FAQs</h2> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring/how-to-install-spring-ide-in-eclipse/">Install Spring IDE in Eclipse </a><br> An article about how to install Spring IDE in Eclipse.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-resource-bundle-with-resourcebundlemessagesource-example/">Resource bundle with ResourceBundleMessageSource example</a><br> ResourceBundleMessageSource is the most common class to resolve text messages for different locales.</li> 
+          <li><a href=" http://www.mkyong.com/spring/spring-how-to-access-messagesource-in-bean-messagesourceaware/">Access MessageSource in bean (MessageSourceAware) </a><br> An example to show how to get the MessageSource in a bean via MessageSourceAware interface.</li> 
+          <li><a href="http://www.mkyong.com/spring/spring-resource-loader-with-getresource-example/">Resource loader with getResource() example</a><br> Spring’s resource loader provides a very generic getResource() method to get the resources like (text file, media file, image file…) from the file system , classpath or URL. </li> 
+         </ul> 
+         <h2>Spring Common Errors</h2> 
+         <p>Some Spring common error messages.</p> 
+         <ul> 
+          <li><a href="http://www.mkyong.com/spring/spring-error-classnotfoundexception-org-springframework-web-context-contextloaderlistener/">ClassNotFoundException : org.springframework.web.context.ContextLoaderListener</a></li> 
+          <li><a href="http://www.mkyong.com/spring/spring-aop-error-cannot-proxy-target-class-because-cglib2-is-not-available/">Cannot proxy target class because CGLIB2 is not available</a></li> 
+          <li><a href="http://www.mkyong.com/spring3/cglib-is-required-to-process-configuration-classes/">CGLIB is required to process @Configuration classes</a></li> 
+          <li><a href="http://www.mkyong.com/spring3/classnotfoundexception-org-exolab-castor-xml-xmlexception/">java.lang.ClassNotFoundException: org.exolab.castor.xml.XMLException</a></li> 
+          <li><a href="http://www.mkyong.com/spring3/classnotfoundexception-org-apache-xml-serialize-xmlserializer/">java.lang.ClassNotFoundException: org.apache.xml.serialize.XMLSerializer</a></li> 
+         </ul> 
+         <h2>Spring References</h2> 
+         <ul> 
+          <li><a href="http://en.wikipedia.org/wiki/Spring_Framework" target="_blank">Spring Framework (Wiki)</a></li> 
+          <li><a href="http://www.springsource.org/documentation" target="_blank">Spring Official Documentation</a> </li> 
+          <li><a href="http://static.springsource.org/spring/docs/2.5.x/reference/index.html" target="_blank">Spring 2.5.6 Documentation</a> </li> 
+          <li><a href="http://static.springsource.org/spring/docs/3.0.x/spring-framework-reference/html/" target="_blank">Spring 3.0 Documentation</a> </li> 
+         </ul> 
+         <div class="row"> 
+          <div class="col"> 
+           <div class="post-tag">
+            <a href="http://www.mkyong.com/tag/spring/" rel="tag">spring</a> 
+            <a href="http://www.mkyong.com/tag/spring3/" rel="tag">spring3</a> 
+            <a href="http://www.mkyong.com/tag/tutorials/" rel="tag">tutorials</a>
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+        <!-- /.post-content --> 
+        <div class="ads-box"> 
+         <!--Carambola Script --> 
+         <img height="0" width="0" alt="" src="//pixel.watch/eey7" style="display:block;"> 
+         <script data-cfasync="false" class="carambola_InContent" type="text/javascript" cbola_wid="0">  
+			(function (i,d,s,o,m,r,c,l,w,q,y,h,g) {  
+			var e=d.getElementById(r);if(e===null){  
+			var t = d.createElement(o); t.src = g; t.id = r; t.setAttribute(m, s);t.async = 1;var n=d.getElementsByTagName(o)[0];n.parentNode.insertBefore(t, n); 
+			var dt=new Date().getTime();  
+			try{i[l][w+y](h,i[l][q+y](h)+'&'+dt);}catch(er){i[h]=dt;}  
+			} else if(typeof i[c]!=='undefined'){i[c]++}  
+			else{i[c]=1;}  
+			})(window, document, 'InContent', 'script', 'mediaType', 'carambola_proxy','Cbola_IC','localStorage','set','get','Item','cbolaDt','//route.carambo.la/inimage/getlayer?pid=myky82&did=112239&wid=0')  
+		</script> 
+        </div> 
+        <input type="hidden" id="mkyong-postId" value="4293"> 
+        <h4>About the Author</h4> 
+        <div id="author-info" class="media rounded"> 
+         <img alt="author image" src="http://0.gravatar.com/avatar/622c70d2908e68ecc070ca6754245bb2?s=96&amp;d=mm&amp;r=g" srcset="http://0.gravatar.com/avatar/622c70d2908e68ecc070ca6754245bb2?s=192&amp;d=mm&amp;r=g 2x" class="avatar avatar-96 photo d-flex mr-3 rounded-circle" height="96" width="96"> 
+         <div class="media-body"> 
+          <h5 class="mt-0">mkyong</h5> Founder of 
+          <a href="http://mkyong.com" rel="nofollow">Mkyong.com</a>, love Java and open source stuff. Follow him on 
+          <a href="https://twitter.com/mkyong">Twitter</a>, or befriend him on 
+          <a href="http://www.facebook.com/java.tutorial">Facebook</a> or 
+          <a href="https://plus.google.com/110948163568945735692?rel=author">Google Plus</a>. If you like my tutorials, consider make a donation to 
+          <a href="http://www.mkyong.com/blog/donate-to-charity/">these charities</a>. 
+         </div> 
+        </div> 
+        <!-- Google recommend --> 
+        <div class="ads-box"> 
+         <!-- google recommend --> 
+         <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+         <ins class="adsbygoogle" style="display:block" data-ad-format="autorelaxed" data-ad-client="ca-pub-2836379775501347" data-ad-slot="3110889791"></ins> 
+         <script>
+			 (adsbygoogle = window.adsbygoogle || []).push({});
+		</script> 
+        </div> 
+        <!--
+	<div class="d-none d-md-block">
+		<div id="mk-related-post"></div>
+		<div id="mk-popular-post"></div>
+	</div>
+	--> 
+        <h4>Comments</h4> 
+        <div id="comment"> 
+         <div class="wpdiscuz_top_clearing"></div> 
+         <div id="comments" class="comments-area"> 
+          <div id="respond" style="width: 0;height: 0;clear: both;margin: 0;padding: 0;"></div> 
+          <h3 id="wc-comment-header">Leave a Reply</h3> 
+          <div id="wpcomm" class="wpdiscuz_unauth"> 
+           <div class="wc_social_plugin_wrapper"> 
+           </div> 
+           <div class="wc-form-wrapper wc-main-form-wrapper" id="wc-main-form-wrapper-0_0"> 
+            <div class="wpdiscuz-comment-message" style="display: block;"></div> 
+            <form class="wc_comm_form wc_main_comm_form" method="post" enctype="multipart/form-data"> 
+             <div class="wc-field-comment"> 
+              <div class="wc-field-avatararea"> 
+               <img alt="avatar" src="http://2.gravatar.com/avatar/?s=48&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo avatar-default" height="48" width="48"> 
+              </div> 
+              <div class="wpdiscuz-item wc-field-textarea"> 
+               <div class="wpdiscuz-textarea-wrap "> 
+                <textarea id="wc-textarea-0_0" placeholder="Join the discussion" required name="wc_comment" class="wc_comment wpd-field"></textarea> 
+               </div> 
+              </div> 
+              <div class="clearfix"></div> 
+             </div> 
+             <div class="wc-form-footer" style="display: none;"> 
+              <div class="wpd-form-row"> 
+               <div class="wpd-form-col-left"> 
+                <div class="wpdiscuz-item wpd-has-icon"> 
+                 <div class="wpd-field-icon">
+                  <i class="fa fa-user"></i>
+                 </div> 
+                 <input required class="wc_name wpd-field" type="text" name="wc_name" value="" placeholder="Name" maxlength="50" pattern=".{3,50}" title=""> 
+                </div> 
+                <div class="wpdiscuz-item wpd-has-icon"> 
+                 <div class="wpd-field-icon">
+                  <i class="fa fa-at"></i>
+                 </div> 
+                 <input required class="wc_email wpd-field" type="email" name="wc_email" value="" placeholder="Email"> 
+                </div> 
+               </div> 
+               <div class="wpd-form-col-right"> 
+                <div class="wc-field-submit"> 
+                 <div class="wc_notification_checkboxes" style="display:block"> 
+                  <input id="wc_notification_new_comment-0_0" class="wc_notification_new_comment-0_0" value="comment" type="checkbox" name="wpdiscuz_notification_type"> 
+                  <label class="wc-label-comment-notify" for="wc_notification_new_comment-0_0">Notify of new replies to this comment</label>
+                  <br> 
+                 </div> 
+                 <input class="wc_comm_submit wc_not_clicked button alt" type="submit" name="submit" value="Post Comment"> 
+                </div> 
+               </div> 
+               <div class="clearfix"></div> 
+              </div> 
+             </div> 
+             <div class="clearfix"></div> 
+             <input type="hidden" class="wpdiscuz_unique_id" value="0_0" name="wpdiscuz_unique_id"> 
+            </form> 
+           </div> 
+           <div id="wpdiscuz_hidden_secondary_form" style="display: none;"> 
+            <div class="wc-form-wrapper wc-secondary-form-wrapper" id="wc-secondary-form-wrapper-wpdiscuzuniqueid" style="display: none;"> 
+             <div class="wpdiscuz-comment-message" style="display: block;"></div> 
+             <div class="wc-secondary-forms-social-content"></div> 
+             <form class="wc_comm_form wc-secondary-form-wrapper" method="post" enctype="multipart/form-data"> 
+              <div class="wc-field-comment"> 
+               <div class="wc-field-avatararea"> 
+                <img alt="avatar" src="http://1.gravatar.com/avatar/?s=48&amp;d=mm&amp;r=g" srcset="http://0.gravatar.com/avatar/?s=96&amp;d=mm&amp;r=g 2x" class="avatar avatar-48 photo avatar-default" height="48" width="48"> 
+               </div> 
+               <div class="wpdiscuz-item wc-field-textarea"> 
+                <div class="wpdiscuz-textarea-wrap "> 
+                 <textarea id="wc-textarea-wpdiscuzuniqueid" placeholder="Join the discussion" required name="wc_comment" class="wc_comment wpd-field"></textarea> 
+                </div> 
+               </div> 
+               <div class="clearfix"></div> 
+              </div> 
+              <div class="wc-form-footer" style="display: none;"> 
+               <div class="wpd-form-row"> 
+                <div class="wpd-form-col-left"> 
+                 <div class="wpdiscuz-item wpd-has-icon"> 
+                  <div class="wpd-field-icon">
+                   <i class="fa fa-user"></i>
+                  </div> 
+                  <input required class="wc_name wpd-field" type="text" name="wc_name" value="" placeholder="Name" maxlength="50" pattern=".{3,50}" title=""> 
+                 </div> 
+                 <div class="wpdiscuz-item wpd-has-icon"> 
+                  <div class="wpd-field-icon">
+                   <i class="fa fa-at"></i>
+                  </div> 
+                  <input required class="wc_email wpd-field" type="email" name="wc_email" value="" placeholder="Email"> 
+                 </div> 
+                </div> 
+                <div class="wpd-form-col-right"> 
+                 <div class="wc-field-submit"> 
+                  <div class="wc_notification_checkboxes" style="display:block"> 
+                   <input id="wc_notification_new_comment-wpdiscuzuniqueid" class="wc_notification_new_comment-wpdiscuzuniqueid" value="comment" type="checkbox" name="wpdiscuz_notification_type"> 
+                   <label class="wc-label-comment-notify" for="wc_notification_new_comment-wpdiscuzuniqueid">Notify of new replies to this comment</label>
+                   <br> 
+                  </div> 
+                  <input class="wc_comm_submit wc_not_clicked button alt" type="submit" name="submit" value="Post Comment"> 
+                 </div> 
+                </div> 
+                <div class="clearfix"></div> 
+               </div> 
+              </div> 
+              <div class="clearfix"></div> 
+              <input type="hidden" class="wpdiscuz_unique_id" value="wpdiscuzuniqueid" name="wpdiscuz_unique_id"> 
+             </form> 
+            </div> 
+           </div> 
+           <div class="wpdiscuz-front-actions"> 
+            <div class="wpdiscuz-sort-buttons" style="font-size:14px;">
+             Sort by: &nbsp; 
+             <span class="wpdiscuz-sort-button wpdiscuz-date-sort-desc">newest</span> | 
+             <span class="wpdiscuz-sort-button wpdiscuz-date-sort-asc">oldest</span> | 
+             <span class="wpdiscuz-sort-button wpdiscuz-vote-sort-up">most voted</span> 
+            </div> 
+           </div> 
+           <div id="wcThreadWrapper" class="wc-thread-wrapper"> 
+            <div id="wc-comm-1052773_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Divyesh Kanzariya" src="http://2.gravatar.com/avatar/eb1fd54e8119a9ce5ab92dd40fca5506?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/eb1fd54e8119a9ce5ab92dd40fca5506?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1052773" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Divyesh Kanzariya
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hi Mkyong,</p> 
+               <p>Good tutorial, will you please do me a favor? which spring version you recommended for getting stared. I am new on spring. now days Spring 4.2.0 in market. Thank you :)</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">2</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>9 months 18 days ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1052773_0" style="clear:both"></div>
+             <div id="wc-comm-1054174_1052773" class="wc-comment wc-reply wc-blog-guest wc_comment_level-2">
+              <div class="wc-comment-left ">
+               <img alt="Lucas" src="http://2.gravatar.com/avatar/503469f1112aa810e56bcbdee71a4673?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/503469f1112aa810e56bcbdee71a4673?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+               <div class="wc-blog-guest wc-comment-label">
+                <span>Guest</span>
+               </div>
+              </div>
+              <div id="comment-1054174" class="wc-comment-right ">
+               <div class="wc-comment-header">
+                <div class="wc-comment-author ">
+                 Lucas
+                </div>
+                <div class="wc-comment-link"></div>
+                <div class="wpdiscuz_clear"></div>
+               </div>
+               <div class="wc-comment-text">
+                <p>Maybe you can start by spring boot, it is not too hard to learn.</p> 
+               </div>
+               <div class="wc-comment-footer">
+                <div class="wc-footer-left">
+                 <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                 <span class="wc-vote-result">0</span>
+                 <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                 <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+                </div>
+                <div class="wc-footer-right">
+                 <div class="wc-comment-date">
+                  <i class="fa fa-clock-o" aria-hidden="true"></i>4 months 20 days ago
+                 </div>
+                 <div class="wc-toggle wpdiscuz-hidden">
+                  <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                 </div>
+                </div>
+                <div class="wpdiscuz_clear"></div>
+               </div>
+              </div>
+              <div class="wpdiscuz-comment-message"></div>
+              <div id="wpdiscuz_form_anchor-1054174_1052773" style="clear:both"></div>
+             </div>
+             <div id="wc-comm-1052774_1052773" class="wc-comment wc-reply wc-blog-guest wc_comment_level-2">
+              <div class="wc-comment-left ">
+               <img alt="Soni Kinnariben" src="http://0.gravatar.com/avatar/9e690f9ab559847cd6a5a59e7f2e622c?s=64&amp;d=mm&amp;r=g" srcset="http://0.gravatar.com/avatar/9e690f9ab559847cd6a5a59e7f2e622c?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+               <div class="wc-blog-guest wc-comment-label">
+                <span>Guest</span>
+               </div>
+              </div>
+              <div id="comment-1052774" class="wc-comment-right ">
+               <div class="wc-comment-header">
+                <div class="wc-comment-author ">
+                 Soni Kinnariben
+                </div>
+                <div class="wc-comment-link"></div>
+                <div class="wpdiscuz_clear"></div>
+               </div>
+               <div class="wc-comment-text">
+                <p>I suggest you start with spring 4.0 it’s stable version. for basic tutorial mkyong tutorial is enough for you</p> 
+               </div>
+               <div class="wc-comment-footer">
+                <div class="wc-footer-left">
+                 <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                 <span class="wc-vote-result">0</span>
+                 <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                 <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+                </div>
+                <div class="wc-footer-right">
+                 <div class="wc-comment-date">
+                  <i class="fa fa-clock-o" aria-hidden="true"></i>9 months 18 days ago
+                 </div>
+                 <div class="wc-toggle wpdiscuz-hidden">
+                  <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                 </div>
+                </div>
+                <div class="wpdiscuz_clear"></div>
+               </div>
+              </div>
+              <div class="wpdiscuz-comment-message"></div>
+              <div id="wpdiscuz_form_anchor-1052774_1052773" style="clear:both"></div>
+              <div id="wc-comm-1053657_1052774" class="wc-comment wc-reply wc-blog-guest wc_comment_level-3">
+               <div class="wc-comment-left ">
+                <img alt="Mujtaba Najibi" src="http://2.gravatar.com/avatar/85014167b48cfd38d0b657b0eac6120b?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/85014167b48cfd38d0b657b0eac6120b?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+                <div class="wc-blog-guest wc-comment-label">
+                 <span>Guest</span>
+                </div>
+               </div>
+               <div id="comment-1053657" class="wc-comment-right ">
+                <div class="wc-comment-header">
+                 <div class="wc-comment-author ">
+                  Mujtaba Najibi
+                 </div>
+                 <div class="wc-comment-link"></div>
+                 <div class="wpdiscuz_clear"></div>
+                </div>
+                <div class="wc-comment-text">
+                 <p>Thanks Soni, i need to know this.</p> 
+                </div>
+                <div class="wc-comment-footer">
+                 <div class="wc-footer-left">
+                  <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                  <span class="wc-vote-result">0</span>
+                  <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                  <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+                 </div>
+                 <div class="wc-footer-right">
+                  <div class="wc-comment-date">
+                   <i class="fa fa-clock-o" aria-hidden="true"></i>6 months 19 days ago
+                  </div>
+                  <div class="wc-toggle wpdiscuz-hidden">
+                   <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                  </div>
+                 </div>
+                 <div class="wpdiscuz_clear"></div>
+                </div>
+               </div>
+               <div class="wpdiscuz-comment-message"></div>
+               <div id="wpdiscuz_form_anchor-1053657_1052774" style="clear:both"></div>
+              </div>
+             </div>
+            </div>
+            <div id="wc-comm-1047536_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Naveen Kumar Mishra" src="http://2.gravatar.com/avatar/ebd20541b9802780832887d67ddbb9bb?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/ebd20541b9802780832887d67ddbb9bb?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1047536" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Naveen Kumar Mishra
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hii sir,<br> I want to make a event based calender. when ever user will select any date then i want to communicate with the database for the event list and want to populate the same event list for the particular date to user.</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">1</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>3 years 3 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1047536_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-139962_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img class="avatar avatar-64 photo" width="64" height="64" src="http://www.mkyong.com/wp-content/plugins/wpdiscuz/assets/img/trackback.png" alt="trackback">
+             </div>
+             <div id="comment-139962" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Active Intelligence
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>[…] Spring Tutorial – Mkyong.com&nbsp;–&nbsp;mkyong.com […]</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">1</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>4 years 1 month ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-139962_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1052479_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="parlad neupane" src="http://2.gravatar.com/avatar/b5541b04425cda722720b8405965bee6?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/b5541b04425cda722720b8405965bee6?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1052479" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                parlad neupane
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hi MKyong,<br> Thank you for good set of tutorial for spring. I am new to spring and i want to learn spring. These tutorial you have created is in April 1, 2010 , Updated : November 2, 2012 and it also use spring 3.0. So my question is can i follow these tutorial you have with spring 3.0 or i should be learning spring by spring v.4. I mean it is a good idea to follow these tutorial in 2017. Thank You.</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>10 months 20 days ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1052479_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1051119_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Kiran" src="http://2.gravatar.com/avatar/b1b4d8d7a63e9b1271e51f308fe0dc50?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/b1b4d8d7a63e9b1271e51f308fe0dc50?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1051119" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Kiran
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hai,</p> 
+               <p> We trying to integrate Wicket with Spring. Wicket home page is displayed. In this page we are calling spring controller. Request goes to spring controller and Response will be redirect to JSP page. We are getting 403 error. (Servlet is not available)</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>1 year 10 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1051119_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1051004_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="vaibhav kulkarni ,india" src="http://2.gravatar.com/avatar/bd25b3f671a38f13d164159650a099c9?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/bd25b3f671a38f13d164159650a099c9?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1051004" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                vaibhav kulkarni ,india
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>great</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>1 year 11 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1051004_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1050545_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="mido" src="http://2.gravatar.com/avatar/861ba87e04082faa41658864c949a8b1?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/861ba87e04082faa41658864c949a8b1?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1050545" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                mido
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>thank you</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>2 years 2 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1050545_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1050179_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="tapan kushwaha" src="http://2.gravatar.com/avatar/5c70edc2789beb47cd2fe9d155dabc38?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/5c70edc2789beb47cd2fe9d155dabc38?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1050179" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                tapan kushwaha
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hi please share the example of session management</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>2 years 5 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1050179_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1050165_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="sarath sarathkumar" src="http://1.gravatar.com/avatar/48cb70af879025dec62e4acb26189567?s=64&amp;d=mm&amp;r=g" srcset="http://1.gravatar.com/avatar/48cb70af879025dec62e4acb26189567?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1050165" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                sarath sarathkumar
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>hi Mk young,<br> could you explain what is the difference between Runnable run() method and Throw class run() method?<br> please explain me.</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>2 years 5 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1050165_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1049998_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Java Pro" src="http://1.gravatar.com/avatar/dc0858899163c8acce7b7c9ade51749b?s=64&amp;d=mm&amp;r=g" srcset="http://1.gravatar.com/avatar/dc0858899163c8acce7b7c9ade51749b?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1049998" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Java Pro
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>nice one and also visit</p> 
+               <p><a href="http://www.javaproficiency.com/2015/03/spring-tutorial.html" rel="nofollow">http://www.javaproficiency.com/2015/03/spring-tutorial.html</a></p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>2 years 6 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1049998_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1049855_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="navita" src="http://0.gravatar.com/avatar/0d6aaa9f987d905780253fb4f14e8c32?s=64&amp;d=mm&amp;r=g" srcset="http://0.gravatar.com/avatar/0d6aaa9f987d905780253fb4f14e8c32?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1049855" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                navita
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hi,<br> I want to create json consume and produce api with multipart. Help Me</p> 
+               <p>Thanks</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>2 years 6 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1049855_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1049202_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="SRIRAM" src="http://0.gravatar.com/avatar/0c7bf8b463fa92ba7d3cff5865678bd9?s=64&amp;d=mm&amp;r=g" srcset="http://0.gravatar.com/avatar/0c7bf8b463fa92ba7d3cff5865678bd9?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1049202" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                SRIRAM
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>hi all,</p> 
+               <p>can anyone please let me know how to load a ldap local file through code….</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>2 years 9 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1049202_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1049180_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="akil" src="http://1.gravatar.com/avatar/7f6cad719ab63094038539adc33bdc79?s=64&amp;d=mm&amp;r=g" srcset="http://1.gravatar.com/avatar/7f6cad719ab63094038539adc33bdc79?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1049180" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                akil
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hi mkyong…..I faced one problm in my employee table 1000 records is there 999 succesfully but 1 record is failed …without update the all records …i update failed record only how to do that plz frnds can you help me</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>2 years 9 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1049180_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1048736_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Mrinal" src="http://0.gravatar.com/avatar/ff62a84a86b2251623bb23e8d06bf522?s=64&amp;d=mm&amp;r=g" srcset="http://0.gravatar.com/avatar/ff62a84a86b2251623bb23e8d06bf522?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1048736" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Mrinal
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hi , how to map two auto wire thing in spring frame work .</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>2 years 10 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1048736_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1048462_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Pavan" src="http://1.gravatar.com/avatar/a330c495c4b766d23d5a6a8c59a364b0?s=64&amp;d=mm&amp;r=g" srcset="http://1.gravatar.com/avatar/a330c495c4b766d23d5a6a8c59a364b0?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1048462" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Pavan
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hi, I am constant follower of mkyong. Looks tutorials are outdated with frameworks.Updating spring to 4.0 comparison with Spring 3.x with 4.x , Hibernate 4.x, JPA 2, REST-Jersey 2.16</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>2 years 11 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1048462_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1048391_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Lucky" src="http://0.gravatar.com/avatar/94d34a7ed48bfdbd4e8ab507fe32f7d7?s=64&amp;d=mm&amp;r=g" srcset="http://0.gravatar.com/avatar/94d34a7ed48bfdbd4e8ab507fe32f7d7?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1048391" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Lucky
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hi, </p> 
+               <p>How to add comment section like this to a web application? any idea ?</p> 
+               <p>thanks,<br> Lucky</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>2 years 11 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1048391_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1048148_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="ryanlr" src="http://2.gravatar.com/avatar/e50c2d05c25e5cf0efc923746e95a878?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/e50c2d05c25e5cf0efc923746e95a878?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1048148" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                ryanlr
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>I recommend <a href="http://www.javased.com" rel="nofollow">http://www.javased.com</a> in which you can get a code examples for almost every popular API! Including Spring framework!</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>3 years 24 days ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1048148_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1047992_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Rajkiran" src="http://0.gravatar.com/avatar/c08dfaa0ca91bc9309842b26d90c7b58?s=64&amp;d=mm&amp;r=g" srcset="http://0.gravatar.com/avatar/c08dfaa0ca91bc9309842b26d90c7b58?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1047992" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Rajkiran
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hi MKyong,<br> can we use any argument method to inject the dependency ?</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>3 years 1 month ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1047992_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1047944_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Wladek Airo" src="http://0.gravatar.com/avatar/0e16ded3a1f451f03061b150aaaad068?s=64&amp;d=mm&amp;r=g" srcset="http://0.gravatar.com/avatar/0e16ded3a1f451f03061b150aaaad068?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1047944" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Wladek Airo
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hello Mkyong,<br> I am a new b in using spring jpa and hibernate. Can you please assist by posting on how I can filter my data in the databe using hibernate by their timestamps.e.g finding the total number of signups per day.</p> 
+               <p>Regards<br> Wladek Airo</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>3 years 1 month ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1047944_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1047318_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="sairam" src="http://1.gravatar.com/avatar/d1f95ff0bfbe693a831ea75d53eb3edc?s=64&amp;d=mm&amp;r=g" srcset="http://1.gravatar.com/avatar/d1f95ff0bfbe693a831ea75d53eb3edc?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1047318" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                sairam
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>sir can u have tutorials on jms &amp;there transaction in spring please upload few examples</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>3 years 3 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1047318_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1047098_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Yashwanth Beeravelli" src="http://1.gravatar.com/avatar/759e183ae29796aea62e86dea233ba69?s=64&amp;d=mm&amp;r=g" srcset="http://1.gravatar.com/avatar/759e183ae29796aea62e86dea233ba69?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1047098" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Yashwanth Beeravelli
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hi MKyong, can you please tell me the code in Springs to display a message when a button is clicked</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>3 years 4 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1047098_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1046547_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Binil Kuriachan" src="http://1.gravatar.com/avatar/7f9aed89f9106d9610197ee23cd1a6c6?s=64&amp;d=mm&amp;r=g" srcset="http://1.gravatar.com/avatar/7f9aed89f9106d9610197ee23cd1a6c6?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1046547" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Binil Kuriachan
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Singleton Not working in Spring Latest version</p> 
+               <p>Hi,</p> 
+               <p>I tried to set singleton as false or true in the configuration xml file as below</p> 
+               <p>while validating it is throwing the below error</p> 
+               <p>cvc-complex-type.3.2.2: Attribute ‘singleton’ is not allowed to appear in element ‘bean’.</p> 
+               <p>i am using spring version 4. Is there any other way to implement this property?</p> 
+               <p>Thanks in advance,<br> Regards,<br> Binil Kuriachan</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>3 years 6 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1046547_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1045759_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="kondareddy k" src="http://2.gravatar.com/avatar/bbf22357c1d11dc45e046413a73f9cc8?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/bbf22357c1d11dc45e046413a73f9cc8?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1045759" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                kondareddy k
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>can you have any Info about spring 4.0 release and features?<br> Thanks<br> Kondareddy K</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>3 years 9 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1045759_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1045758_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="kondareddy k" src="http://2.gravatar.com/avatar/bbf22357c1d11dc45e046413a73f9cc8?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/bbf22357c1d11dc45e046413a73f9cc8?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1045758" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                kondareddy k
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>can you have any indo anout spring 4.0 release</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>3 years 9 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1045758_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1045260_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="sandeep" src="http://1.gravatar.com/avatar/a963d952ba0c5fd3ff9ff8e3cf68f10f?s=64&amp;d=mm&amp;r=g" srcset="http://1.gravatar.com/avatar/a963d952ba0c5fd3ff9ff8e3cf68f10f?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1045260" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                sandeep
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hi Mkyong, I refer your tutorials frequently. Request you to post some tutorials on Angular JS as well.</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>3 years 11 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1045260_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1044897_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="johnsaida" src="http://2.gravatar.com/avatar/e8377c396b4f37d87eebcfc66a58002c?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/e8377c396b4f37d87eebcfc66a58002c?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1044897" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                johnsaida
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>hi MKyong your website is the best for all the toturials ,but why u people not giving any examples about EJB Concepts ,i need some good EJB stuff</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>4 years 11 days ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1044897_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1044854_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Jayesh Bhoyar" src="http://2.gravatar.com/avatar/b8f8eba35ffa17060137ab4bd908573c?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/b8f8eba35ffa17060137ab4bd908573c?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1044854" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Jayesh Bhoyar
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Hi MKyong,<br> Could you please share any example on “Session Management” in Spring Framework.<br> Regards,<br> Jayesh Bhoyar</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>4 years 16 days ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1044854_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1044790_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="sam I am" src="http://2.gravatar.com/avatar/5bab447c89156505e0e18082560fafb9?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/5bab447c89156505e0e18082560fafb9?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1044790" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                sam I am
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>With your download examples you should provide the necessary jars, pain to have to go an hunt them down. Also, you examples should provide configuration instructions. I am referring to your Spring /JDBC examples.</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>4 years 22 days ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1044790_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1044173_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="Karthik" src="http://2.gravatar.com/avatar/5f499b01028ba6a65bbdab17b0cc7b03?s=64&amp;d=mm&amp;r=g" srcset="http://2.gravatar.com/avatar/5f499b01028ba6a65bbdab17b0cc7b03?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1044173" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                Karthik
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>Nice Tutorial</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>4 years 2 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1044173_0" style="clear:both"></div>
+            </div>
+            <div id="wc-comm-1043788_0" class="wc-comment wc-blog-guest wc_comment_level-1">
+             <div class="wc-comment-left ">
+              <img alt="rishi" src="http://0.gravatar.com/avatar/900e7a8e97c4ee5fc4970215bd43c88c?s=64&amp;d=mm&amp;r=g" srcset="http://0.gravatar.com/avatar/900e7a8e97c4ee5fc4970215bd43c88c?s=128&amp;d=mm&amp;r=g 2x" class="avatar avatar-64 photo" height="64" width="64">
+              <div class="wc-blog-guest wc-comment-label">
+               <span>Guest</span>
+              </div>
+             </div>
+             <div id="comment-1043788" class="wc-comment-right ">
+              <div class="wc-comment-header">
+               <div class="wc-comment-author ">
+                rishi
+               </div>
+               <div class="wc-comment-link"></div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+              <div class="wc-comment-text">
+               <p>good tutorial</p> 
+              </div>
+              <div class="wc-comment-footer">
+               <div class="wc-footer-left">
+                <span class="wc-vote-link wc-up  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-up fa-flip-horizontal wc-vote-img-up"></i><span>Vote Up</span></span>
+                <span class="wc-vote-result">0</span>
+                <span class="wc-vote-link wc-down  wc_vote wc_not_clicked wc_tooltipster"><i class="fa fa-thumbs-down wc-vote-img-down"></i><span>Vote Down</span></span>&nbsp;
+                <span class="wc-reply-button wc-cta-button" title="Reply"><i class="fa fa-reply" aria-hidden="true"></i> Reply</span>
+               </div>
+               <div class="wc-footer-right">
+                <div class="wc-comment-date">
+                 <i class="fa fa-clock-o" aria-hidden="true"></i>4 years 3 months ago
+                </div>
+                <div class="wc-toggle wpdiscuz-hidden">
+                 <i class="fa fa-chevron-up" aria-hidden="true" title="Hide Replies"></i>
+                </div>
+               </div>
+               <div class="wpdiscuz_clear"></div>
+              </div>
+             </div>
+             <div class="wpdiscuz-comment-message"></div>
+             <div id="wpdiscuz_form_anchor-1043788_0" style="clear:both"></div>
+            </div> 
+            <div class="wpdiscuz-comment-pagination"> 
+             <div class="wc-load-more-submit-wrap"> 
+              <a class="wc-load-more-link" href="http://www.mkyong.com/tutorials/spring-tutorials/#!parentId=1043788"> <button name="submit" class="wc-load-more-submit wc-loaded button"> Load More Comments </button> </a> 
+             </div> 
+             <input id="wpdiscuzHasMoreComments" type="hidden" value="1"> 
+            </div> 
+           </div> 
+           <div class="wpdiscuz_clear"></div> 
+          </div> 
+         </div> 
+         <div class="wpdiscuz-loading-bar wpdiscuz-loading-bar-unauth">
+          <img class="wpdiscuz-loading-bar-img" alt="wpDiscuz" src="http://www.mkyong.com/wp-content/plugins/wpdiscuz/assets/img/loading.gif" width="32" height="25">
+         </div> 
+        </div> 
+        <!-- /#comment --> 
+       </article> 
+       <!-- /.article --> 
+       <!-- google_ad_section_end --> 
+      </div> 
+      <!-- only display in xl(>=1200px)--> 
+      <div class="col-xl-3 big-screen-ads" id="sidebar-right"> 
+       <div class="sidebar-box center"> 
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+        <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-2836379775501347" data-ad-slot="7072877400" data-ad-region="mkyongregion"></ins> 
+        <script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script> 
+       </div> 
+       <div class="sidebar-box center"> 
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+        <ins class="adsbygoogle" style="display:inline-block;width:300px;height:250px" data-ad-client="ca-pub-2836379775501347" data-ad-slot="5738517670" data-ad-region="mkyongregion"></ins> 
+        <script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+			</script> 
+       </div> 
+       <div class="sidebar-box center"> 
+        <div data-type="ad" data-publisher="lqm.j2ee.site" data-zone="ron" data-format="300x250" data-tags="Java%2cSpring%2cAndroid%2cMobile%2cjQuery%2cUnit%20Test%2cASP.NET%20MVC%2cDI%2cTDD"></div> 
+       </div> 
+       <div class="sidebar-box center"> 
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script> 
+        <!-- mkyong-sidebar-300x600 --> 
+        <ins class="adsbygoogle" style="display:inline-block;width:300px;height:600px" data-ad-client="ca-pub-2836379775501347" data-ad-slot="7953295395" data-ad-region="mkyongregion"></ins> 
+        <script>
+				(adsbygoogle = window.adsbygoogle || []).push({});
+			</script> 
+       </div> 
+       <div class="sidebar-box center"> 
+        <div data-type="ad" data-publisher="lqm.j2ee.site" data-zone="ron" data-format="160x600" data-tags="Java%2cSpring%2cAndroid%2cMobile%2cjQuery%2cUnit%20Test%2cASP.NET%20MVC%2cDI%2cTDD"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <!--/.row --> 
+  </div> 
+  <!--/.container --> 
+  <div class="container-fluid"> 
+   <div class="row"> 
+    <div class="ads-box center d-none d-xl-block"> 
+     <div data-type="ad" data-publisher="lqm.j2ee.site" data-zone="ron" data-format="728x90" data-tags="Java%2cSpring%2cAndroid%2cMobile%2cjQuery%2cUnit%20Test%2cASP.NET%20MVC%2cDI%2cTDD"></div> 
+    </div> 
+    <footer> 
+     <div id="footer-link" class="d-none d-md-block"> 
+      <div class="container"> 
+       <div class="row"> 
+        <div class="col-4"> 
+         <h4>Favorites Links</h4> 
+         <div class="menu-fav-links-container">
+          <ul id="menu-fav-links" class="menu">
+           <li id="menu-item-13669" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13669"><a href="http://developer.android.com/training/index.html">Android Getting Started</a></li> 
+           <li id="menu-item-13670" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13670"><a href="https://cloud.google.com/appengine/docs/java/">Google App Engine – Java</a></li> 
+           <li id="menu-item-13671" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13671"><a href="http://docs.spring.io/spring/docs/2.5.x/reference/index.html">Spring 2.5.x Documentation</a></li> 
+           <li id="menu-item-13672" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13672"><a href="http://docs.spring.io/spring/docs/3.2.x/spring-framework-reference/html/">Spring 3.2.x Documentation</a></li> 
+           <li id="menu-item-13673" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13673"><a href="http://docs.spring.io/spring/docs/4.1.x/spring-framework-reference/html/">Spring 4.1.x Documentation</a></li> 
+           <li id="menu-item-13675" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13675"><a href="http://docs.oracle.com/javaee/5/tutorial/doc/docinfo.html">Java EE 5 Tutorial</a></li> 
+           <li id="menu-item-13676" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13676"><a href="http://docs.oracle.com/javaee/6/tutorial/doc/docinfo.html">Java EE 6 Tutorial</a></li> 
+           <li id="menu-item-13677" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13677"><a href="https://docs.oracle.com/javaee/7/tutorial/index.html">Java EE 7 Tutorial</a></li> 
+           <li id="menu-item-13678" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13678"><a href="http://docs.oracle.com/javase/6/docs/api/overview-summary.html">Java 6 API</a></li> 
+           <li id="menu-item-13679" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13679"><a href="http://docs.oracle.com/javase/7/docs/api/overview-summary.html">Java 7 API</a></li> 
+           <li id="menu-item-13680" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13680"><a href="http://docs.oracle.com/javase/8/docs/api/overview-summary.html">Java 8 API</a></li> 
+           <li id="menu-item-14082" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14082"><a href="http://docs.oracle.com/javase/tutorial/index.html">Oracle J2SE Tutorials</a></li> 
+           <li id="menu-item-13681" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13681"><a href="https://javaserverfaces.java.net/">JSF Home Page</a></li> 
+           <li id="menu-item-13682" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13682"><a href="https://jsp.java.net/">JSP Home Page</a></li> 
+           <li id="menu-item-13674" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13674"><a href="http://search.maven.org/">Maven Central Repository</a></li> 
+           <li id="menu-item-14083" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14083"><a href="https://docs.gradle.org/current/userguide/userguide.html">Gradle User Guide</a></li> 
+           <li id="menu-item-13683" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13683"><a href="http://hibernate.org/orm/">Hibernate ORM</a></li> 
+           <li id="menu-item-13684" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13684"><a href="https://jax-ws.java.net/">JAX-WS Home Page</a></li> 
+           <li id="menu-item-13685" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13685"><a href="https://jax-ws.java.net/">JAX-RS Home Page (Jersey)</a></li> 
+           <li id="menu-item-14084" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-14084"><a href="http://tomcat.apache.org/tomcat-8.0-doc/index.html">Tomcat 8 Documentation</a></li> 
+          </ul>
+         </div> 
+        </div> 
+        <div class="col-4"> 
+         <h4>Partners &amp; Bookmarks</h4> 
+         <div class="menu-partners-container">
+          <ul id="menu-partners" class="menu">
+           <li id="menu-item-13686" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13686"><a title="JAX London" href="https://jaxlondon.com/?utm_source=mkyong.com&amp;utm_medium=referral&amp;utm_campaign=mediapartner">JAX London</a></li> 
+           <li id="menu-item-13664" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13664"><a href="http://www.javacodegeeks.com/">Java Code Geeks</a></li> 
+          </ul>
+         </div> 
+        </div> 
+        <div class="col-4"> 
+         <h4>About Mkyong.com</h4> 
+         <p>Mkyong.com is for Java and J2EE developers, all examples are simple and easy to understand, and well tested in my development environment. </p> 
+         <p> Mkyong.com is created, written by, and maintained by Yong Mook Kim, aka Mkyong. It is built on <a href="https://wordpress.org/" target="_blank">WordPress</a>, hosted by <a href="http://mkyong.com/go/liquidweb/" target="_blank">Liquid Web</a>, and the caches are served by CloudFlare CDN. </p> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <!-- /#footer-link --> 
+     <div id="footer-copyright"> 
+      <div class="container"> 
+       <div class="row"> 
+        <div class="col">
+          Copyright © 2008-2018 Mkyong.com, all rights reserved. 
+         <a href="/privacy-policy/">Privacy Policy</a> 
+        </div> 
+       </div> 
+       <script type="text/javascript">
+/* <![CDATA[ */
+r3f5x9JS=escape(document['referrer']);
+hf4N='95aa2947feba5d23fb021854abf5871c';
+hf4V='d8227541695c31ab44dce71367b7e01b';
+cm4S="form[action='http://www.mkyong.com/wp-comments-post.php']";
+jQuery(document).ready(function($){var e="#commentform, .comment-respond form, .comment-form, "+cm4S+", #lostpasswordform, #registerform, #loginform, #login_form, #wpss_contact_form";$(e).submit(function(){$("<input>").attr("type","hidden").attr("name","r3f5x9JS").attr("value",r3f5x9JS).appendTo(e);return true;});var h="form[method='post']";$(h).submit(function(){$("<input>").attr("type","hidden").attr("name",hf4N).attr("value",hf4V).appendTo(h);return true;});});
+/* ]]> */
+</script> 
+       <script type="text/javascript" src="http://www.mkyong.com/wp-includes/js/jquery/jquery.form.min.js?ver=4.2.1"></script> 
+       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js?ver=3.2.1.slim"></script> 
+       <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js?ver=1.12.9"></script> 
+       <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js?ver=4.0.0"></script> 
+       <script type="text/javascript" src="http://www.mkyong.com/wp-content/themes/mkyong-bs4/assets/prism/prism.js?ver=20180316"></script> 
+       <script type="text/javascript" src="http://www.mkyong.com/wp-content/plugins/wp-spamshield/js/jscripts-ftr2-min.js"></script> 
+      </div> 
+     </div> 
+     <!-- /#footer-copyright --> 
+     <!-- Google Analytics --> 
+     <script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-752408-5', 'auto');
+		  ga('send', 'pageview');
+		</script> 
+     <!-- Developer Media --> 
+     <script type="text/javascript">
+			function _dmBootstrap(file) { 
+				var _dma = document.createElement('script');  
+				_dma.type = 'text/javascript'; 
+				_dma.async = true;  
+				_dma.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + file; 
+				(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(_dma);
+			}
+			function _dmFollowup(file) { if (typeof DMAds === 'undefined')  _dmBootstrap('cdn2.DeveloperMedia.com/a.min.js');}
+			(function () { _dmBootstrap('cdn1.DeveloperMedia.com/a.min.js'); setTimeout(_dmFollowup, 2000);})();
+		</script> 
+    </footer> 
+    <!-- /.footer --> 
+   </div> 
+  </div> 
+  <!--/.container-fluid -->  
+ </body>
+</html>

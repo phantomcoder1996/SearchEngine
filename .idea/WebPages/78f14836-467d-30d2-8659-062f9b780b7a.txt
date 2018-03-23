@@ -1,0 +1,2472 @@
+https://stackoverflow.com/tags/raspberry-pi/topusers
+<!doctype html>
+<html>
+ <head> 
+  <title>'raspberry-pi' Top Users - Stack Overflow</title> 
+  <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d"> 
+  <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a"> 
+  <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:url" content="https://stackoverflow.com/tags/raspberry-pi/topusers"> 
+  <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:domain" content="stackoverflow.com"> 
+  <meta name="twitter:title" property="og:title" itemprop="title name" content="'raspberry-pi' Top Users"> 
+  <meta name="twitter:description" property="og:description" itemprop="description" content="Stack Overflow | The World’s Largest Online Community for Developers"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+  <script src="https://cdn.sstatic.net/Js/stub.en.js?v=57e020fde11a"></script> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=596945d5421b"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=94cd993a63cf"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=13dc725d5020"> 
+  <link rel="alternate" type="application/atom+xml" title="Feed of questions tagged raspberry-pi" href="/feeds/tag/raspberry-pi"> 
+  <script>
+        StackExchange.init({"locale":"en","serverTime":1521843110,"routeName":"Tags/Topusers","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"childUrl":"https://meta.stackoverflow.com","enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"d16a35da63103e8b1162221b85b5952621651c541085caea15d1785affbc32a4","tid":"9f20b778-e151-6517-8c93-bc744b39003a","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4}}, {"site":{"allowImageUploads":true,"commentHighlightingWithCSS":true,"enableUserHovercards":true,"styleCode":true,"enableImgurHttps":true,"forceHttpsImages":true},"userMessaging":{},"comments":{},"userProfile":{"openGraphAPIKey":"58740831ad23540e00c58987"},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"paths":{},"markdown":{"asteriskIntraWordEmphasis":true},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad"},"subscriptions":{}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"fd71fcd78b2c","js/moderator.en.js":"d350b664ddb3","js/full-anon.en.js":"81c19a49c169","js/full.en.js":"6d6c19847a8b","js/wmd.en.js":"a349c871bd62","js/third-party/jquery.autocomplete.min.js":"bdb258e949a8","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"4804a16f7074","js/help.en.js":"a1c2d4ed1321","js/tageditor.en.js":"bff66e3469d5","js/tageditornew.en.js":"586ffe22ab58","js/inline-tag-editing.en.js":"e7aa31e8eba1","js/revisions.en.js":"8f22ba768cac","js/review.en.js":"5eda79317cf4","js/tagsuggestions.en.js":"78eee7c19ab2","js/post-validation.en.js":"ec745f184617","js/explore-qlist.en.js":"66e52888786d","js/events.en.js":"8f07ed802b6b","js/keyboard-shortcuts.en.js":"8588a17139dd","js/external-editor.en.js":"3c50622b803d","js/adops.en.js":"22a9bd59b1e9","js/external-editor.en.js":"3c50622b803d","js/snippet-javascript.en.js":"6596eb95a324","js/snippet-javascript-codemirror.en.js":"6e1735fcf180"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script> 
+  <noscript id="noscript-css">
+   <style>body,.top-bar{margin-top:1.9em}</style>
+  </noscript> 
+ </head> 
+ <body class="tags-page new-topbar"> 
+  <script async src="https://js-sec.indexww.com/ht/p/185901-159836282584097.js"></script> 
+  <div id="notify-container"></div> 
+  <div id="custom-header"></div> 
+  <header class="top-bar js-top-bar _fixed"> 
+   <div class="-container"> 
+    <div class="-main"> 
+     <a href="https://stackoverflow.com" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:16, destination:8})"> <span class="-img">Stack Overflow</span> </a> 
+     <nav class="navigation" role="navigation" aria-label="site navigation"> 
+      <ol class="-list"> 
+       <li class="-item"> <a id="nav-questions" href="/questions" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:16, destination:1})">Questions</a> </li> 
+       <li class="-item"> <a id="nav-jobs" href="/jobs?med=site-ui&amp;ref=jobs-tab" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:16, destination:6})">Developer Jobs</a> </li> 
+       <li class="-item _current"> <a id="nav-tags" href="/tags" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:true, location:16, destination:2})">Tags</a> </li> 
+       <li class="-item"> <a id="nav-users" href="/users" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:16, destination:3})">Users</a> </li> 
+      </ol> 
+     </nav> 
+    </div> 
+    <form id="search" action="/search" method="get" class="searchbar" autocomplete="off" role="search"> 
+     <input name="q" type="text" placeholder="Search…" value="" tabindex="1" autocomplete="off" maxlength="240" class="f-input js-search-field"> 
+     <button type="submit" aria-label="Search..." class="btn-topbar-primary js-search-submit">
+      <svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewbox="0 0 18 18">
+       <path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z" />
+      </svg></button> 
+    </form> 
+    <div class="-actions"> 
+     <nav class="secondary-nav"> 
+      <div class="-dialog-container js-topbar-dialog-corral"> 
+       <div class="topbar-dialog siteSwitcher-dialog dno"> 
+        <div class="header"> 
+         <h3><a href="https://stackoverflow.com">current community</a> </h3> 
+        </div> 
+        <div class="modal-content current-site-container"> 
+         <ul class="current-site"> 
+          <li> 
+           <div class="related-links"> 
+            <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:14 })">help</a> 
+            <a href="https://chat.stackoverflow.com" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a> 
+           </div> <a href="https://stackoverflow.com" class="current-site-link site-link js-gps-track" data-id="1" data-gps-track="site_switcher.click({ item_type:3 })"> 
+            <div class="favicon favicon-stackoverflow site-icon" title="Stack Overflow"></div> Stack Overflow </a> </li> 
+          <li class="related-site"> 
+           <div class="L-shaped-icon-container"> 
+            <span class="L-shaped-icon"></span> 
+           </div> <a href="https://meta.stackoverflow.com" class="site-link js-gps-track" data-id="552" data-gps-track="site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })"> 
+            <div class="favicon favicon-stackoverflowmeta site-icon" title="Meta Stack Overflow"></div> Meta Stack Overflow </a> </li> 
+         </ul> 
+        </div> 
+        <div class="header" id="your-communities-header"> 
+         <h3> your communities </h3> 
+        </div> 
+        <div class="modal-content" id="your-communities-section"> 
+         <div class="call-to-login"> 
+          <a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or 
+          <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2ftags%2fraspberry-pi%2ftopusers" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list. 
+         </div> 
+        </div> 
+        <div class="header"> 
+         <h3><a href="https://stackexchange.com/sites">more stack exchange communities</a> </h3> 
+         <a href="https://stackoverflow.blog" class="fr">company blog</a> 
+        </div> 
+        <div class="modal-content"> 
+         <div class="child-content"></div> 
+        </div> 
+       </div> 
+       <div class="topbar-dialog help-dialog js-help-dialog dno"> 
+        <div class="modal-content"> 
+         <ul> 
+          <li> <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })"> Tour <span class="item-summary"> Start here for a quick overview of the site </span> </a> </li> 
+          <li> <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })"> Help Center <span class="item-summary"> Detailed answers to any questions you might have </span> </a> </li> 
+          <li> <a href="https://meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })"> Meta <span class="item-summary"> Discuss the workings and policies of this site </span> </a> </li> 
+          <li> <a href="https://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })"> About Us <span class="item-summary"> Learn more about Stack Overflow the company </span> </a> </li> 
+          <li> <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })"> Business <span class="item-summary"> Learn more about hiring developers or posting ads with us </span> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+      <ol class="-list"> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages"> 
+         <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewbox="0 0 20 18">
+          <path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z" />
+         </svg> <span class="indicator-badge js-unread-count _important" style="display: none;"></span> </a> </li> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive"> 
+         <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z" />
+         </svg> <span class="indicator-badge js-unread-count _positive" style="display: none;"></span> </a> </li> 
+       <li class="-item"><a href="#" class="-link js-help-button" title="Help Center and other resources"> 
+         <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z" />
+         </svg> </a></li> 
+       <li class="-item"> <a href="https://stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 172 Stack Exchange sites"> 
+         <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z" />
+         </svg> </a> </li> 
+      </ol> 
+     </nav> 
+     <div class="-ctas"> 
+      <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2ftags%2fraspberry-pi%2ftopusers" class="login-link btn-clear" rel="nofollow">Log In</a> 
+      <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link btn-topbar-primary" rel="nofollow" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]">Sign Up</a> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+        StackExchange.scrollPadding.setPaddingTop(60, 10);     </script> 
+  <div id="announcement-banner" data-campaign="2018-03-13.dev-survey-2018" data-cookie="notice-dsr" data-expire-date="1524211200000"> 
+   <div class="-container"> 
+    <span class="-body">The results are in!</span> 
+    <a class="-link js-link js-gps-track" href="https://insights.stackoverflow.com/survey/2018/" data-ga="[&quot;dev-survey-2018&quot;,&quot;Announcement Banner&quot;,&quot;https://insights.stackoverflow.com/survey/2018/&quot;,null,{&quot;dimension4&quot;:&quot;dev-survey-2018&quot;}]" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 16, action: 2})">See the 2018 Developer Survey results. »</a> 
+    <a class="-dismiss js-dismiss js-gps-track" href="#" title="dismiss" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 16, action: 1})">
+     <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewbox="0 0 18 18">
+      <path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z" />
+     </svg></a> 
+   </div> 
+  </div> 
+  <script>
+    StackExchange.ready(function () {
+        var $banner = $('#announcement-banner');
+
+        function setCookie(value) {
+            $.cookie($banner.data('cookie'), value, {
+                expires: (new Date($banner.data('expire-date'))),
+                path: '/'
+            });
+        }
+
+        $banner.find('.js-link').click(function () {
+            setCookie('2;' + Date.now());
+        });
+
+        $banner.find('.js-dismiss').click(function () {
+            setCookie('4;' + Date.now());
+            $banner.animate({ height: '0', opacity: 0 }, 'fast', 'linear', function () { $banner.remove(); });
+            return false;
+        });
+    });
+</script> 
+  <div class="container"> 
+   <div id="content" class="snippet-hidden"> 
+    <div id="mainbar-full"> 
+     <div class="subheader"> 
+      <h1>Tag Info</h1> 
+      <div id="tabs"> 
+       <a class="youarehere " href="/tags/raspberry-pi/topusers" data-nav-xhref="" title="Top answerers and askers in this tag" data-value="topusers" data-shortcut=""> users</a> 
+       <a href="/tags/raspberry-pi/hot" data-nav-xhref="" title="Hot answers in this tag over a day, week, month, year or all time" data-value="hot" data-shortcut=""> hot</a> 
+       <a href="/tags/raspberry-pi/new" data-nav-xhref="" title="New answers in this tag" data-value="new" data-shortcut=""> new</a> 
+       <a href="/tags/raspberry-pi/synonyms" data-nav-xhref="" title="Common, alternate spellings or phrasings for this tag" data-value="synonyms" data-shortcut=""> synonyms</a> 
+      </div> 
+     </div> 
+    </div> 
+    <div id="questions"> 
+     <div class="content-inside"> 
+      <h2><a href="/questions/tagged/raspberry-pi" class="post-tag" title="show questions tagged 'raspberry-pi'" rel="tag">raspberry-pi</a> Questions</h2> 
+      <table> 
+       <tbody>
+        <tr> 
+         <td> 
+          <div class="summarycount ar">
+            76 
+          </div> </td> 
+         <td style="padding-left: 20px;" class="summary-value"> <h1>Last 7 Days</h1> </td> 
+         <td class="top-count" style="padding-left: 30px; font-size: 14px;"> 71.1% unanswered </td> 
+        </tr> 
+        <tr> 
+         <td> 
+          <div class="summarycount ar">
+            294 
+          </div> </td> 
+         <td style="padding-left: 20px;" class="summary-value"> <h1> Last 30 Days</h1> </td> 
+         <td class="top-count" style="padding-left: 30px; font-size: 14px;"> 74.8% unanswered </td> 
+        </tr> 
+        <tr> 
+         <td> 
+          <div class="summarycount ar">
+            9,680 
+          </div> </td> 
+         <td style="padding-left: 20px;" class="summary-value"> <h1> All Time</h1> </td> 
+         <td class="top-count" style="padding-left: 30px; font-size: 14px;"> 49.9% unanswered </td> 
+        </tr> 
+       </tbody>
+      </table> 
+      <p> </p> 
+      <h2> Top <a href="/questions/tagged/raspberry-pi" class="post-tag" title="show questions tagged 'raspberry-pi'" rel="tag">raspberry-pi</a> Answerers</h2> 
+      <div class="fl" style="width: 45%"> 
+       <h2> Last 30 Days</h2> 
+       <table> 
+        <tbody>
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 5">5</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:5577765%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/5577765/rabbid76">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/LoGpC.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/5577765/rabbid76">Rabbid76</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score 17,968" dir="ltr">18k</span>
+              <span title="9 gold badges"><span class="badge1"></span><span class="badgecount">9</span></span>
+              <span title="24 silver badges"><span class="badge2"></span><span class="badgecount">24</span></span>
+              <span title="36 bronze badges"><span class="badge3"></span><span class="badgecount">36</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 3">3</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:7432%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/7432/bryan-oakley">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/3e3921ee8a7792e4b5da0244933395e8?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/7432/bryan-oakley">Bryan Oakley</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score 187,421" dir="ltr">187k</span>
+              <span title="19 gold badges"><span class="badge1"></span><span class="badgecount">19</span></span>
+              <span title="216 silver badges"><span class="badge2"></span><span class="badgecount">216</span></span>
+              <span title="358 bronze badges"><span class="badge3"></span><span class="badgecount">358</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 3">3</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:421467%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/421467/mr-hyde">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/dqCko.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/421467/mr-hyde">Mr.Hyde</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">1,448</span>
+              <span title="5 gold badges"><span class="badge1"></span><span class="badgecount">5</span></span>
+              <span title="28 silver badges"><span class="badge2"></span><span class="badgecount">28</span></span>
+              <span title="53 bronze badges"><span class="badge3"></span><span class="badgecount">53</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 3">3</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:5239473%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/5239473/jamie-hlusko">
+              <div class="gravatar-wrapper-32">
+               <img src="https://lh3.googleusercontent.com/-W5LcoMHovX0/AAAAAAAAAAI/AAAAAAAABYM/EfGgtKknrNg/photo.jpg?sz=32" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/5239473/jamie-hlusko">Jamie Hlusko</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">146</span>
+              <span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 3">3</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:6669293%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/6669293/achxel">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/faff4383b9b12b17b002b7155836bc5d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/6669293/achxel">achxel</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">41</span>
+              <span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 2">2</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:2539738%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/2539738/mohammad-athar">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/2f62a1e98960916a7314360211062a81?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/2539738/mohammad-athar">Mohammad Athar</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">896</span>
+              <span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span>
+              <span title="20 bronze badges"><span class="badge3"></span><span class="badgecount">20</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 2">2</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:535024%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/535024/leshkin">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/Q5LMu.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/535024/leshkin">leshkin</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">1,773</span>
+              <span title="13 silver badges"><span class="badge2"></span><span class="badgecount">13</span></span>
+              <span title="23 bronze badges"><span class="badge3"></span><span class="badgecount">23</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 2">2</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:532312%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/532312/rakesh">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/kEKs8.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/532312/rakesh">Rakesh</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score 12,529" dir="ltr">12.5k</span>
+              <span title="6 gold badges"><span class="badge1"></span><span class="badgecount">6</span></span>
+              <span title="31 silver badges"><span class="badge2"></span><span class="badgecount">31</span></span>
+              <span title="57 bronze badges"><span class="badge3"></span><span class="badgecount">57</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 2">2</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:3197668%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/3197668/alex-hristov">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/losS4.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/3197668/alex-hristov">Alex Hristov</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">2,157</span>
+              <span title="10 silver badges"><span class="badge2"></span><span class="badgecount">10</span></span>
+              <span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 2">2</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:4158837%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/4158837/gabriel-samain">
+              <div class="gravatar-wrapper-32">
+               <img src="https://lh4.googleusercontent.com/-K_42ZyHDb_8/AAAAAAAAAAI/AAAAAAAAACY/2k8nx_zOAOE/photo.jpg?sz=32" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/4158837/gabriel-samain">Gabriel Samain</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">306</span>
+              <span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span>
+              <span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 2">2</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:4848801%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/4848801/ryan-schaefer">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/700003af13fc16520eeff211d66e2c84?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/4848801/ryan-schaefer">Ryan Schaefer</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">677</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span>
+              <span title="22 bronze badges"><span class="badge3"></span><span class="badgecount">22</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 2">2</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:6351302%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/6351302/achahbar">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/1025fa10c031d56e4aa1df7bdcdc2b48?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/6351302/achahbar">achahbar</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">57</span>
+              <span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 2">2</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="2 answers provided"><a href="/search?q=user:7897191%20[raspberry-pi]%20is:answer">2</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/7897191/michal-borowiecki">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/HNC5x.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/7897191/michal-borowiecki">Michal Borowiecki</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">1,633</span>
+              <span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span>
+              <span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 2">2</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:9531752%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/9531752/manuel-genoves">
+              <div class="gravatar-wrapper-32">
+               <img src="https://lh4.googleusercontent.com/-gFCus6_8X2I/AAAAAAAAAAI/AAAAAAAABgU/cHySLKXqE2U/photo.jpg?sz=32" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/9531752/manuel-genoves">Manuel Genoves</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">21</span>
+              <span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:4499941%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/4499941/peter-maydell">
+              <div class="gravatar-wrapper-32">
+               <img src="https://lh3.googleusercontent.com/-Wb0uIu6LiPk/AAAAAAAAAAI/AAAAAAAAABI/HOVGfYywvPE/photo.jpg?sz=32" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/4499941/peter-maydell">Peter Maydell</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">1,246</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span>
+              <span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:3991674%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/3991674/andrea-derose">
+              <div class="gravatar-wrapper-32">
+               <img src="https://graph.facebook.com/1408538788/picture?type=large" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/3991674/andrea-derose">Andrea de'Rose</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">35</span>
+              <span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:2571165%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/2571165/omegaman">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/212199c56fae3d6b09dbf788f1c5e313?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/2571165/omegaman">Omegaman</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">683</span>
+              <span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span>
+              <span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:518853%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/518853/liberforce">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/IjKPw.png?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/518853/liberforce">liberforce</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">7,378</span>
+              <span title="19 silver badges"><span class="badge2"></span><span class="badgecount">19</span></span>
+              <span title="32 bronze badges"><span class="badge3"></span><span class="badgecount">32</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:350613%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/350613/robin-moffatt">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/2bded62396ea66c84bd10e91c718dea9?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/350613/robin-moffatt">Robin Moffatt</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">2,484</span>
+              <span title="9 silver badges"><span class="badge2"></span><span class="badgecount">9</span></span>
+              <span title="23 bronze badges"><span class="badge3"></span><span class="badgecount">23</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:156588%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/156588/ross-peoples">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/d4524e43c305a26aeddfb5ed6fef2baa?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/156588/ross-peoples">Ross Peoples</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">508</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="9 silver badges"><span class="badge2"></span><span class="badgecount">9</span></span>
+              <span title="17 bronze badges"><span class="badge3"></span><span class="badgecount">17</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+        </tbody>
+       </table> 
+       <p> </p> 
+      </div> 
+      <div class="fl" style="width: 45%"> 
+       <h2> All Time</h2> 
+       <table> 
+        <tbody>
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 181">181</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:2862292%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/2862292/stenyg">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/9a7c48e9ebcf5d5c7dae9c26588bfdf0?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/2862292/stenyg">Stenyg</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">1,978</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="7 silver badges"><span class="badge2"></span><span class="badgecount">7</span></span>
+              <span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 129">129</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:1585988%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/1585988/sql">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/01d3701c6d2ffd86a71547518f400bd9?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/1585988/sql">sql</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">1,291</span>
+              <span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span>
+              <span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span>
+              <span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 86">86</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="20 answers provided"><a href="/search?q=user:16007%20[raspberry-pi]%20is:answer">20</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/16007/old-timer">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/e859640aaeb4b305e163a990be827cf9?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/16007/old-timer">old_timer</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score 44,847" dir="ltr">44.8k</span>
+              <span title="6 gold badges"><span class="badge1"></span><span class="badgecount">6</span></span>
+              <span title="59 silver badges"><span class="badge2"></span><span class="badgecount">59</span></span>
+              <span title="115 bronze badges"><span class="badge3"></span><span class="badgecount">115</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 77">77</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:2736559%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/2736559/breeze">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/qMfDM.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/2736559/breeze">Breeze</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">5,772</span>
+              <span title="17 gold badges"><span class="badge1"></span><span class="badgecount">17</span></span>
+              <span title="63 silver badges"><span class="badge2"></span><span class="badgecount">63</span></span>
+              <span title="110 bronze badges"><span class="badge3"></span><span class="badgecount">110</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 72">72</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="20 answers provided"><a href="/search?q=user:100297%20[raspberry-pi]%20is:answer">20</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/100297/martijn-pieters">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/24780fb6df85a943c7aea0402c843737?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/100297/martijn-pieters">Martijn Pieters</a>
+             <span class="mod-flair" title="moderator">♦</span> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score 630,980" dir="ltr">631k</span>
+              <span title="108 gold badges"><span class="badge1"></span><span class="badgecount">108</span></span>
+              <span title="2050 silver badges"><span class="badge2"></span><span class="badgecount">2050</span></span>
+              <span title="1994 bronze badges"><span class="badge3"></span><span class="badgecount">1994</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 69">69</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="3 answers provided"><a href="/search?q=user:3100143%20[raspberry-pi]%20is:answer">3</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/3100143/jjnebeker">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/JJsTP.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/3100143/jjnebeker">jjnebeker</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">968</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="7 silver badges"><span class="badge2"></span><span class="badgecount">7</span></span>
+              <span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 65">65</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:1455624%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/1455624/vgo">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/0859b4495c406d7ed9e7cfd843cbf8cf?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/1455624/vgo">VGO</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">1,173</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="11 silver badges"><span class="badge2"></span><span class="badgecount">11</span></span>
+              <span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 58">58</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:5952028%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/5952028/nicole-finnie">
+              <div class="gravatar-wrapper-32">
+               <img src="https://lh4.googleusercontent.com/-0LyChimR0Jo/AAAAAAAAAAI/AAAAAAAAF2k/htso6gHZqrI/photo.jpg?sz=32" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/5952028/nicole-finnie">Nicole Finnie</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">681</span>
+              <span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span>
+              <span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 57">57</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:2796425%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/2796425/smokey-edgy">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/8fef09163ef52d7e739b61f8836d8836?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/2796425/smokey-edgy">smokey.edgy</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">596</span>
+              <span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span>
+              <span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 54">54</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="2 answers provided"><a href="/search?q=user:3239522%20[raspberry-pi]%20is:answer">2</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/3239522/midhun">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/miIUZ.png?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/3239522/midhun">Midhun</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">2,012</span>
+              <span title="14 silver badges"><span class="badge2"></span><span class="badgecount">14</span></span>
+              <span title="20 bronze badges"><span class="badge3"></span><span class="badgecount">20</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 52">52</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="21 answers provided"><a href="/search?q=user:171318%20[raspberry-pi]%20is:answer">21</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/171318/hek2mgl">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/ePRKy.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/171318/hek2mgl">hek2mgl</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score 96,239" dir="ltr">96.2k</span>
+              <span title="10 gold badges"><span class="badge1"></span><span class="badgecount">10</span></span>
+              <span title="124 silver badges"><span class="badge2"></span><span class="badgecount">124</span></span>
+              <span title="142 bronze badges"><span class="badge3"></span><span class="badgecount">142</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 49">49</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:3460805%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/3460805/chnossos">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/d8a8O.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/3460805/chnossos">Chnossos</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">4,900</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="15 silver badges"><span class="badge2"></span><span class="badgecount">15</span></span>
+              <span title="30 bronze badges"><span class="badge3"></span><span class="badgecount">30</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 47">47</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="39 answers provided"><a href="/search?q=user:504554%20[raspberry-pi]%20is:answer">39</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/504554/hardillb">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/006ffde9ed3fac6396222405fc5e9bf0?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/504554/hardillb">hardillb</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score 18,798" dir="ltr">18.8k</span>
+              <span title="5 gold badges"><span class="badge1"></span><span class="badgecount">5</span></span>
+              <span title="28 silver badges"><span class="badge2"></span><span class="badgecount">28</span></span>
+              <span title="51 bronze badges"><span class="badge3"></span><span class="badgecount">51</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 43">43</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="12 answers provided"><a href="/search?q=user:908494%20[raspberry-pi]%20is:answer">12</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/908494/abarnert">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/7e41acaa8f6a0e0f5a7c645e93add55a?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/908494/abarnert">abarnert</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score 202,710" dir="ltr">203k</span>
+              <span title="16 gold badges"><span class="badge1"></span><span class="badgecount">16</span></span>
+              <span title="283 silver badges"><span class="badge2"></span><span class="badgecount">283</span></span>
+              <span title="377 bronze badges"><span class="badge3"></span><span class="badgecount">377</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 43">43</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:5437768%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/5437768/kevin">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/3cde5e74c5c10a55a35f16488be02015?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/5437768/kevin">Kevin</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">667</span>
+              <span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span>
+              <span title="14 bronze badges"><span class="badge3"></span><span class="badgecount">14</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 39">39</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="20 answers provided"><a href="/search?q=user:11654%20[raspberry-pi]%20is:answer">20</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/11654/cl">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/586424ca0847070dc1868aa58077003e?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/11654/cl">CL.</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score 123,786" dir="ltr">124k</span>
+              <span title="12 gold badges"><span class="badge1"></span><span class="badgecount">12</span></span>
+              <span title="97 silver badges"><span class="badge2"></span><span class="badgecount">97</span></span>
+              <span title="130 bronze badges"><span class="badge3"></span><span class="badgecount">130</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 38">38</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:3165535%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/3165535/xxorde">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/f693f2c6c6f0a65f824bb6ff36edfb04?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/3165535/xxorde">xxorde</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">686</span>
+              <span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span>
+              <span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 37">37</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="11 answers provided"><a href="/search?q=user:4279%20[raspberry-pi]%20is:answer">11</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/4279/jfs">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/d92ce60d3a4cbe03598e27c2e8dee69d?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/4279/jfs">jfs</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score 233,707" dir="ltr">234k</span>
+              <span title="63 gold badges"><span class="badge1"></span><span class="badgecount">63</span></span>
+              <span title="477 silver badges"><span class="badge2"></span><span class="badgecount">477</span></span>
+              <span title="949 bronze badges"><span class="badge3"></span><span class="badgecount">949</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 35">35</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:316700%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/316700/fguillen">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/6f952bee7570a3db2ecba5b06c0062b3?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/316700/fguillen">fguillen</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score 20,414" dir="ltr">20.4k</span>
+              <span title="10 gold badges"><span class="badge1"></span><span class="badgecount">10</span></span>
+              <span title="82 silver badges"><span class="badge2"></span><span class="badgecount">82</span></span>
+              <span title="126 bronze badges"><span class="badge3"></span><span class="badgecount">126</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 35">35</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 answer provided"><a href="/search?q=user:3583749%20[raspberry-pi]%20is:answer">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/3583749/nick">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/a2330f3f39327ae71734506a5ed17246?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/3583749/nick">Nick</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">366</span>
+              <span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span>
+              <span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+        </tbody>
+       </table> 
+       <p> </p> 
+      </div> 
+      <h2 class="cbt"> Top <a href="/questions/tagged/raspberry-pi" class="post-tag" title="show questions tagged 'raspberry-pi'" rel="tag">raspberry-pi</a> Askers</h2> 
+      <div class="fl" style="width: 45%"> 
+       <h2> Last 30 Days</h2> 
+       <table> 
+        <tbody>
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 5">5</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:6551181%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/6551181/thomas">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/2f954e03aac6dda685c6c83e77d0b6b1?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/6551181/thomas">Thomas</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">302</span>
+              <span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span>
+              <span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 3">3</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:667726%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/667726/dany-y">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/f85a1202c62cc7e72fa5571f9d43efb4?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/667726/dany-y">Dany Y</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">3,728</span>
+              <span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span>
+              <span title="29 silver badges"><span class="badge2"></span><span class="badgecount">29</span></span>
+              <span title="60 bronze badges"><span class="badge3"></span><span class="badgecount">60</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 3">3</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="2 questions asked"><a href="/search?q=user:6351302%20[raspberry-pi]%20is:question">2</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/6351302/achahbar">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/1025fa10c031d56e4aa1df7bdcdc2b48?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/6351302/achahbar">achahbar</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">57</span>
+              <span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 3">3</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="2 questions asked"><a href="/search?q=user:5163452%20[raspberry-pi]%20is:question">2</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/5163452/haykp">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/32a0867c50f58adebb987b14112ec524?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/5163452/haykp">haykp</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">95</span>
+              <span title="10 bronze badges"><span class="badge3"></span><span class="badgecount">10</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 2">2</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:3574571%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/3574571/mquinteiro">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/c8fedf1ee77030f81df66392a2106c96?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/3574571/mquinteiro">Mquinteiro</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">390</span>
+              <span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span>
+              <span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 2">2</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:6246491%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/6246491/ashwanidv100">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/cef7c464f56864ef67d5f24fe33b6a6d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/6246491/ashwanidv100">ashwanidv100</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">23</span>
+              <span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 2">2</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:7169392%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/7169392/peer">
+              <div class="gravatar-wrapper-32">
+               <img src="https://graph.facebook.com/10103086374562657/picture?type=large" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/7169392/peer">peer</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">70</span>
+              <span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 2">2</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:9130402%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/9130402/alex">
+              <div class="gravatar-wrapper-32">
+               <img src="https://lh5.googleusercontent.com/-IwkhvoxRXaE/AAAAAAAAAAI/AAAAAAAATaQ/S95njmB51V0/photo.jpg?sz=32" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/9130402/alex">Alex</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">11</span>
+              <span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 2">2</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:9443551%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/9443551/kghadiri">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/28f94be138f1518b11f0286f90c03429?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/9443551/kghadiri">KGhadiri</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">11</span>
+              <span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:6847746%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/6847746/kieran-lyons">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/d311fb5df8625a012ea25db99c07e970?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/6847746/kieran-lyons">Kieran Lyons</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">12</span>
+              <span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:8433028%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/8433028/ramaswamy-venkatachalam">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/59483b5753c93e18641f91e92e55efa4?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/8433028/ramaswamy-venkatachalam">Ramaswamy Venkatachalam</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">6</span>
+              <span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:8421501%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/8421501/apoorv-patne">
+              <div class="gravatar-wrapper-32">
+               <img src="https://graph.facebook.com/1268364889939663/picture?type=large" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/8421501/apoorv-patne">Apoorv Patne</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">6</span>
+              <span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:7525494%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/7525494/claude-joliat">
+              <div class="gravatar-wrapper-32">
+               <img src="https://lh5.googleusercontent.com/-J-rQqnBFA3Y/AAAAAAAAAAI/AAAAAAAABFA/gvUUDZ63laU/photo.jpg?sz=32" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/7525494/claude-joliat">claude joliat</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">6</span>
+              <span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:7311629%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/7311629/newbieqwer">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/bafbe2d46bc9b86f0093c604ba5c39ea?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/7311629/newbieqwer">newbieQwer</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">16</span>
+              <span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:6480540%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/6480540/user6480540">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/2817a09a98b6a3c768536bfe73aa296d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/6480540/user6480540">user6480540</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">57</span>
+              <span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:6298031%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/6298031/viet-do">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/9769740f7e998e34c6a6f2073abce8e5?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/6298031/viet-do">Viet Do</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">6</span>
+              <span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="2 questions asked"><a href="/search?q=user:5976546%20[raspberry-pi]%20is:question">2</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/5976546/innve89">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/f92b4c5598990abd3cf40c305efb4cfd?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/5976546/innve89">innve89</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">26</span>
+              <span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:5446797%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/5446797/malcolmmcfly">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/TvEPW.png?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/5446797/malcolmmcfly">MalcolmMcFly</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">147</span>
+              <span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:5303832%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/5303832/benja0906">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/66a3ac89787112d158f3f778cfd87679?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/5303832/benja0906">Benja0906</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">364</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span>
+              <span title="18 bronze badges"><span class="badge3"></span><span class="badgecount">18</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 1">1</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:4385799%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/4385799/adek111">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/36820494e44cc535a5470f12f7b8bac7?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/4385799/adek111">adek111</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">95</span>
+              <span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span>
+              <span title="13 bronze badges"><span class="badge3"></span><span class="badgecount">13</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+        </tbody>
+       </table> 
+       <p> </p> 
+      </div> 
+      <div class="fl" style="width: 45%"> 
+       <h2> All Time</h2> 
+       <table> 
+        <tbody>
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 94">94</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="2 questions asked"><a href="/search?q=user:966782%20[raspberry-pi]%20is:question">2</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/966782/pqvst">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/B2h8z.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/966782/pqvst">pqvst</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">1,326</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="16 silver badges"><span class="badge2"></span><span class="badgecount">16</span></span>
+              <span title="31 bronze badges"><span class="badge3"></span><span class="badgecount">31</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 78">78</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:547398%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/547398/hao-maike">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/oiYdn.png?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/547398/hao-maike">hao_maike</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">971</span>
+              <span title="3 gold badges"><span class="badge1"></span><span class="badgecount">3</span></span>
+              <span title="13 silver badges"><span class="badge2"></span><span class="badgecount">13</span></span>
+              <span title="29 bronze badges"><span class="badge3"></span><span class="badgecount">29</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 78">78</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:2170780%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/2170780/user2170780">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/56d19053650306ab3750a94a55382787?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/2170780/user2170780">user2170780</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">419</span>
+              <span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span>
+              <span title="7 silver badges"><span class="badge2"></span><span class="badgecount">7</span></span>
+              <span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 77">77</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:9382%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/9382/angryhacker">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/bc7b9ac824e43ce9d62bf7dfb37b6393?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/9382/angryhacker">AngryHacker</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score 25,855" dir="ltr">25.9k</span>
+              <span title="72 gold badges"><span class="badge1"></span><span class="badgecount">72</span></span>
+              <span title="224 silver badges"><span class="badge2"></span><span class="badgecount">224</span></span>
+              <span title="418 bronze badges"><span class="badge3"></span><span class="badgecount">418</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 73">73</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:2971844%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/2971844/user2971844">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/363107254139ad4e32ef4a3186df109b?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/2971844/user2971844">user2971844</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">371</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="4 silver badges"><span class="badge2"></span><span class="badgecount">4</span></span>
+              <span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 51">51</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:267885%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/267885/tibor">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/305d9133df5da79b49bac4ebb42e6de3?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/267885/tibor">Tibor</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">4,543</span>
+              <span title="4 gold badges"><span class="badge1"></span><span class="badgecount">4</span></span>
+              <span title="20 silver badges"><span class="badge2"></span><span class="badgecount">20</span></span>
+              <span title="65 bronze badges"><span class="badge3"></span><span class="badgecount">65</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 38">38</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:58309%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/58309/coppermill">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/bc8679dd7980a6ac981e0a25d33fc716?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/58309/coppermill">Coppermill</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">2,906</span>
+              <span title="11 gold badges"><span class="badge1"></span><span class="badgecount">11</span></span>
+              <span title="53 silver badges"><span class="badge2"></span><span class="badgecount">53</span></span>
+              <span title="86 bronze badges"><span class="badge3"></span><span class="badgecount">86</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 37">37</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="7 questions asked"><a href="/search?q=user:1333873%20[raspberry-pi]%20is:question">7</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/1333873/golo-roden">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/7ae9b432531de46073888f1a49c2391c?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/1333873/golo-roden">Golo Roden</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score 49,516" dir="ltr">49.5k</span>
+              <span title="52 gold badges"><span class="badge1"></span><span class="badgecount">52</span></span>
+              <span title="190 silver badges"><span class="badge2"></span><span class="badgecount">190</span></span>
+              <span title="281 bronze badges"><span class="badge3"></span><span class="badgecount">281</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 36">36</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="2 questions asked"><a href="/search?q=user:3300915%20[raspberry-pi]%20is:question">2</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/3300915/lkkkk">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/b19d4bed75d3e18be4b1e74a50416193?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/3300915/lkkkk">lkkkk</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">376</span>
+              <span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span>
+              <span title="8 silver badges"><span class="badge2"></span><span class="badgecount">8</span></span>
+              <span title="22 bronze badges"><span class="badge3"></span><span class="badgecount">22</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 35">35</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:121968%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/121968/tn">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/3261efe3034f240025387c46059220d0?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/121968/tn">TN.</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">8,542</span>
+              <span title="18 gold badges"><span class="badge1"></span><span class="badgecount">18</span></span>
+              <span title="71 silver badges"><span class="badge2"></span><span class="badgecount">71</span></span>
+              <span title="122 bronze badges"><span class="badge3"></span><span class="badgecount">122</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 35">35</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:1153660%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/1153660/user1153660">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/154134f2a8e4bd1da9c841942a36aaa7?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/1153660/user1153660">user1153660</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">193</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="3 silver badges"><span class="badge2"></span><span class="badgecount">3</span></span>
+              <span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 35">35</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:2268150%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/2268150/cyril">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/cdf1a345965386cef28f000e786d53e2?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/2268150/cyril">Cyril</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">180</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="2 silver badges"><span class="badge2"></span><span class="badgecount">2</span></span>
+              <span title="8 bronze badges"><span class="badge3"></span><span class="badgecount">8</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 33">33</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:2204611%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/2204611/ralf">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/52010bc2aa74a645ab19a16325f33f77?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/2204611/ralf">Ralf</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">274</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="5 silver badges"><span class="badge2"></span><span class="badgecount">5</span></span>
+              <span title="17 bronze badges"><span class="badge3"></span><span class="badgecount">17</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 29">29</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:306074%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/306074/anlo">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/IJYNv.png?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/306074/anlo">Anlo</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">1,990</span>
+              <span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span>
+              <span title="17 silver badges"><span class="badge2"></span><span class="badgecount">17</span></span>
+              <span title="28 bronze badges"><span class="badge3"></span><span class="badgecount">28</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 27">27</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:1322076%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/1322076/johnny-b-goode">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/DBlhB.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/1322076/johnny-b-goode">johnny-b-goode</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">1,412</span>
+              <span title="6 gold badges"><span class="badge1"></span><span class="badgecount">6</span></span>
+              <span title="34 silver badges"><span class="badge2"></span><span class="badgecount">34</span></span>
+              <span title="57 bronze badges"><span class="badge3"></span><span class="badgecount">57</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 26">26</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:1621600%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/1621600/arpwal">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/68c007b59eb3a4d19bf5b23d7673a737?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/1621600/arpwal">arpwal</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">506</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="7 silver badges"><span class="badge2"></span><span class="badgecount">7</span></span>
+              <span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 26">26</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="3 questions asked"><a href="/search?q=user:2367231%20[raspberry-pi]%20is:question">3</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/2367231/alex44">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/CeSBA.png?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/2367231/alex44">Alex44</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">1,238</span>
+              <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+              <span title="16 silver badges"><span class="badge2"></span><span class="badgecount">16</span></span>
+              <span title="35 bronze badges"><span class="badge3"></span><span class="badgecount">35</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 24">24</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:1761858%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info "> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/1761858/donald-derek">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/3d54ae43ac5a6c0508431d9c65e8b55b?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/1761858/donald-derek">Donald Derek</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">1,587</span>
+              <span title="2 gold badges"><span class="badge1"></span><span class="badgecount">2</span></span>
+              <span title="15 silver badges"><span class="badge2"></span><span class="badgecount">15</span></span>
+              <span title="15 bronze badges"><span class="badge3"></span><span class="badgecount">15</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 23">23</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:108302%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/108302/adam-m-w">
+              <div class="gravatar-wrapper-32">
+               <img src="https://www.gravatar.com/avatar/e0036a0ccd84e99d52efbce8dcf029a4?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/108302/adam-m-w">Adam M-W</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score " dir="ltr">1,697</span>
+              <span title="7 gold badges"><span class="badge1"></span><span class="badgecount">7</span></span>
+              <span title="33 silver badges"><span class="badge2"></span><span class="badgecount">33</span></span>
+              <span title="60 bronze badges"><span class="badge3"></span><span class="badgecount">60</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+         <tr> 
+          <td style="text-align: right; vertical-align: top"> <span class="top-count" title="total score of 23">23</span> </td> 
+          <td style="text-align: right; vertical-align: top; padding-left: 10px"> <span class="top-count" title="1 question asked"><a href="/search?q=user:159319%20[raspberry-pi]%20is:question">1</a></span> </td> 
+          <td style="padding-left: 10px"> 
+           <div class="user-info user-hover"> 
+            <div class="user-action-time"> 
+            </div> 
+            <div class="user-gravatar32"> 
+             <a href="/users/159319/jantimon">
+              <div class="gravatar-wrapper-32">
+               <img src="https://i.stack.imgur.com/BNcfw.png?s=32&amp;g=1" alt="" width="32" height="32">
+              </div></a> 
+            </div> 
+            <div class="user-details"> 
+             <a href="/users/159319/jantimon">jantimon</a> 
+             <div class="-flair"> 
+              <span class="reputation-score" title="reputation score 19,849" dir="ltr">19.8k</span>
+              <span title="20 gold badges"><span class="badge1"></span><span class="badgecount">20</span></span>
+              <span title="92 silver badges"><span class="badge2"></span><span class="badgecount">92</span></span>
+              <span title="153 bronze badges"><span class="badge3"></span><span class="badgecount">153</span></span> 
+             </div> 
+            </div> 
+           </div> </td> 
+         </tr> 
+        </tbody>
+       </table> 
+       <p> </p> 
+      </div> 
+      <p style="color: #999"> Only non community-wiki questions and answers are included in these totals (updated daily) </p> 
+     </div> 
+    </div> 
+    <div id="sidebar"> 
+     <div class="module" id="questions-count"> 
+      <div class="-details"> 
+       <div class="summarycount al">
+        9,680
+       </div> 
+       <p>questions tagged</p> 
+       <div class="tagged"> 
+        <a href="/questions/tagged/raspberry-pi" class="post-tag" title="show questions tagged 'raspberry-pi'" rel="tag">raspberry-pi</a> 
+       </div> 
+      </div>
+      <!-- / details --> 
+     </div> 
+     <div class="module"> 
+      <h4 id="h-related-tags">Related Tags</h4> 
+      <a href="/tags/raspberry-pi/topusers" class="post-tag" title="top answerers and askers for 'raspberry-pi'" rel="tag">raspberry-pi</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">9680</span></span>
+      <br> 
+      <a href="/tags/python/topusers" class="post-tag" title="top answerers and askers for 'python'" rel="tag">python</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">3259</span></span>
+      <br> 
+      <a href="/tags/linux/topusers" class="post-tag" title="top answerers and askers for 'linux'" rel="tag">linux</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">1358</span></span>
+      <br> 
+      <a href="/tags/raspbian/topusers" class="post-tag" title="top answerers and askers for 'raspbian'" rel="tag">raspbian</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">1144</span></span>
+      <br> 
+      <a href="/tags/c%2b%2b/topusers" class="post-tag" title="top answerers and askers for 'c++'" rel="tag">c++</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">459</span></span>
+      <br> 
+      <a href="/tags/java/topusers" class="post-tag" title="top answerers and askers for 'java'" rel="tag">java</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">443</span></span>
+      <br> 
+      <a href="/tags/c/topusers" class="post-tag" title="top answerers and askers for 'c'" rel="tag">c</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">408</span></span>
+      <br> 
+      <a href="/tags/raspberry-pi3/topusers" class="post-tag" title="top answerers and askers for 'raspberry-pi3'" rel="tag">raspberry-pi3</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">397</span></span>
+      <br> 
+      <a href="/tags/gpio/topusers" class="post-tag" title="top answerers and askers for 'gpio'" rel="tag">gpio</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">390</span></span>
+      <br> 
+      <a href="/tags/opencv/topusers" class="post-tag" title="top answerers and askers for 'opencv'" rel="tag">opencv</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">385</span></span>
+      <br> 
+      <a href="/tags/node.js/topusers" class="post-tag" title="top answerers and askers for 'node.js'" rel="tag">node.js</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">336</span></span>
+      <br> 
+      <a href="/tags/php/topusers" class="post-tag" title="top answerers and askers for 'php'" rel="tag">php</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">313</span></span>
+      <br> 
+      <a href="/tags/raspberry-pi2/topusers" class="post-tag" title="top answerers and askers for 'raspberry-pi2'" rel="tag">raspberry-pi2</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">291</span></span>
+      <br> 
+      <a href="/tags/arduino/topusers" class="post-tag" title="top answerers and askers for 'arduino'" rel="tag">arduino</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">284</span></span>
+      <br> 
+      <a href="/tags/android/topusers" class="post-tag" title="top answerers and askers for 'android'" rel="tag"><img src="//i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">281</span></span>
+      <br> 
+      <a href="/tags/python-2.7/topusers" class="post-tag" title="top answerers and askers for 'python-2.7'" rel="tag">python-2.7</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">262</span></span>
+      <br> 
+      <a href="/tags/bash/topusers" class="post-tag" title="top answerers and askers for 'bash'" rel="tag">bash</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">227</span></span>
+      <br> 
+      <a href="/tags/c%23/topusers" class="post-tag" title="top answerers and askers for 'c#'" rel="tag">c#</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">226</span></span>
+      <br> 
+      <a href="/tags/bluetooth/topusers" class="post-tag" title="top answerers and askers for 'bluetooth'" rel="tag">bluetooth</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">222</span></span>
+      <br> 
+      <a href="/tags/python-3.x/topusers" class="post-tag" title="top answerers and askers for 'python-3.x'" rel="tag">python-3.x</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">215</span></span>
+      <br> 
+      <a href="/tags/arm/topusers" class="post-tag" title="top answerers and askers for 'arm'" rel="tag">arm</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">199</span></span>
+      <br> 
+      <a href="/tags/javascript/topusers" class="post-tag" title="top answerers and askers for 'javascript'" rel="tag">javascript</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">194</span></span>
+      <br> 
+      <a href="/tags/serial-port/topusers" class="post-tag" title="top answerers and askers for 'serial-port'" rel="tag">serial-port</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">190</span></span>
+      <br> 
+      <a href="/tags/debian/topusers" class="post-tag" title="top answerers and askers for 'debian'" rel="tag">debian</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">189</span></span>
+      <br> 
+      <a href="/tags/mysql/topusers" class="post-tag" title="top answerers and askers for 'mysql'" rel="tag">mysql</a>&nbsp;
+      <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">181</span></span>
+      <br> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <footer id="footer" class="site-footer js-footer" role="contentinfo"> 
+   <div class="site-footer--container"> 
+    <div class="site-footer--logo"> 
+     <a href="https://stackoverflow.com">
+      <svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewbox="0 0 32 37">
+       <g>
+        <path fill="#BCBBBB" d="M26 33v-9h4v13H0V24h4v9z" />
+        <path d="M23.1 25.99l.68-2.95-16.1-3.35L7 23l16.1 2.99zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm4.2-7.4L26 18.4l2.1-2.5L15.4 5.3l-2.1 2.5zM21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM7 30h16v-3H7v3z" fill="#F48024" />
+       </g>
+      </svg></a> 
+    </div> 
+    <nav class="site-footer--nav"> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://stackoverflow.com" class="js-gps-track" data-gps-track="footer.click({ location: 16, link: 15})">Stack Overflow</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 16})">Questions</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 17})">Jobs</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 11})">Developer Jobs Directory</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 28})">Salary Calculator</a></li> 
+       <li class="-item"><a href="/help" class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 3 })">Help</a></li> 
+       <li class="-item"><a onclick="StackExchange.switchMobile(&quot;on&quot;)" class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 12 })">Mobile</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://www.stackoverflowbusiness.com/?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-business-category" class="js-gps-track" data-gps-track="footer.click({ location: 16, link: 19 })">Stack Overflow<br> Business</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 20 })">Talent</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-advertise" class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 21 })">Ads</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/enterprise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 22 })">Enterprise</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 16, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 7 })" href="https://stackexchange.com/legal">Legal</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 8 })" href="https://stackexchange.com/legal/privacy-policy">Privacy Policy</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--categories-nav site-footer--col__visible"> 
+      <a href="#" class="site-footer--back js-footer-back">
+       <svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewbox="0 0 18 18">
+        <path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z" />
+       </svg></a> 
+      <div> 
+       <h5 class="-title"><a href="https://stackexchange.com">Stack Exchange<br> Network</a></h5> 
+       <ul class="-list"> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 16, link: 24 })" data-target="Technology">Technology</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 16, link: 24 })" data-target="Life / Arts">Life / Arts</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 16, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 16, link: 24 })" data-target="Science">Science</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 16, link: 24 })" data-target="Other">Other</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="site-footer--categories"> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li> 
+        <li class="-item"><a href="https://serverfault.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="system and network administrators">Server Fault</a></li> 
+        <li class="-item"><a href="https://superuser.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="computer enthusiasts and power users">Super User</a></li> 
+        <li class="-item"><a href="https://webapps.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of web applications">Web Applications</a></li> 
+        <li class="-item"><a href="https://askubuntu.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li> 
+        <li class="-item"><a href="https://webmasters.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="pro webmasters">Webmasters</a></li> 
+        <li class="-item"><a href="https://gamedev.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and independent game developers">Game Development</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://tex.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li> 
+        <li class="-item"><a href="https://softwareengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li> 
+        <li class="-item"><a href="https://unix.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li> 
+        <li class="-item"><a href="https://apple.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li> 
+        <li class="-item"><a href="https://wordpress.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li> 
+        <li class="-item"><a href="https://gis.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li> 
+        <li class="-item"><a href="https://electronics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://android.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li> 
+        <li class="-item"><a href="https://security.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="information security professionals">Information Security</a></li> 
+        <li class="-item"><a href="https://dba.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li> 
+        <li class="-item"><a href="https://drupal.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li> 
+        <li class="-item"><a href="https://sharepoint.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li> 
+        <li class="-item"><a href="https://ux.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="user experience researchers and experts">User Experience</a></li> 
+        <li class="-item"><a href="https://mathematica.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://salesforce.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li> 
+        <li class="-item"><a href="https://expressionengine.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li> 
+        <li class="-item"><a href="https://pt.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Português</a></li> 
+        <li class="-item"><a href="https://blender.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li> 
+        <li class="-item"><a href="https://networkengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="network engineers">Network Engineering</a></li> 
+        <li class="-item"><a href="https://crypto.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li> 
+        <li class="-item"><a href="https://codereview.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="peer programmer code reviews">Code Review</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://magento.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li> 
+        <li class="-item"><a href="https://softwarerecs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li> 
+        <li class="-item"><a href="https://dsp.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li> 
+        <li class="-item"><a href="https://emacs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li> 
+        <li class="-item"><a href="https://raspberrypi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li> 
+        <li class="-item"><a href="https://ru.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="программистов">Stack Overflow на русском</a></li> 
+        <li class="-item"><a href="https://codegolf.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://es.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores y profesionales de la informática">Stack Overflow en español</a></li> 
+        <li class="-item"><a href="https://ethereum.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li> 
+        <li class="-item"><a href="https://datascience.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li> 
+        <li class="-item"><a href="https://arduino.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li> 
+        <li class="-item"><a href="https://bitcoin.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (28) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://photo.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li> 
+        <li class="-item"><a href="https://scifi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li> 
+        <li class="-item"><a href="https://graphicdesign.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li> 
+        <li class="-item"><a href="https://movies.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li> 
+        <li class="-item"><a href="https://music.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li> 
+        <li class="-item"><a href="https://worldbuilding.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li> 
+        <li class="-item"><a href="https://cooking.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://diy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li> 
+        <li class="-item"><a href="https://money.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li> 
+        <li class="-item"><a href="https://academia.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li> 
+        <li class="-item"><a href="https://law.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (15) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://english.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li> 
+        <li class="-item"><a href="https://skeptics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientific skepticism">Skeptics</a></li> 
+        <li class="-item"><a href="https://judaism.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li> 
+        <li class="-item"><a href="https://travel.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li> 
+        <li class="-item"><a href="https://christianity.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li> 
+        <li class="-item"><a href="https://ell.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li> 
+        <li class="-item"><a href="https://japanese.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://gaming.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li> 
+        <li class="-item"><a href="https://bicycles.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li> 
+        <li class="-item"><a href="https://rpg.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li> 
+        <li class="-item"><a href="https://anime.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li> 
+        <li class="-item"><a href="https://puzzling.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li> 
+        <li class="-item"><a href="https://mechanics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (33) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://mathoverflow.net" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional mathematicians">MathOverflow</a></li> 
+        <li class="-item"><a href="https://math.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li> 
+        <li class="-item"><a href="https://stats.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li> 
+        <li class="-item"><a href="https://cstheory.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li> 
+        <li class="-item"><a href="https://physics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li> 
+        <li class="-item"><a href="https://chemistry.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientists, academics, teachers and students">Chemistry</a></li> 
+        <li class="-item"><a href="https://biology.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="biology researchers, academics, and students">Biology</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://cs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li> 
+        <li class="-item"><a href="https://philosophy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (10) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Other"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://meta.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li> 
+        <li class="-item"><a href="https://stackapps.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li> 
+        <li class="-item"><a href="https://api.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li> 
+        <li class="-item"><a href="https://data.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li> 
+        <li class="-item"><a href="https://area51.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="proposing new sites in the Stack Exchange network">Area 51</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </nav> 
+    <div class="site-footer--copyright fs-fine"> 
+     <ul class="-list"> 
+      <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 16, link:4 })" href="https://stackoverflow.blog?blb=1">Blog</a></li> 
+      <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li> 
+      <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li> 
+      <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li> 
+     </ul> 
+     <p class="mt-auto mb24"> site design / logo © 2018 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license">attribution required</a>. <span id="svnrev">rev&nbsp;2018.3.23.29561</span> </p> 
+    </div> 
+   </div> 
+  </footer> 
+  <noscript> 
+   <div id="noscript-warning">
+    Stack Overflow works best with JavaScript enabled 
+    <img src="https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"> 
+   </div> 
+  </noscript> 
+  <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                var trackingCodes = [
+                    'UA-5620270-1'
+                ];
+
+                        trackingCodes.push('UA-108242619-1');
+
+                StackExchange.ga.init({
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: trackingCodes
+                });
+
+
+
+
+                    StackExchange.ga.setDimension('dimension3', 'Tags/Topusers');
+
+                StackExchange.ga.trackPageView();
+            });
+            
+/**/
+            
+            var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+            (function() {
+                var ssl = 'https:' == document.location.protocol,
+                    s = document.getElementsByTagName('script')[0],
+                    qc = document.createElement('script');
+                 qc.async = true;
+                    qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                    s.parentNode.insertBefore(qc, s);
+                    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+/**/
+                 var sc = document.createElement('script');
+                    sc.async = true;
+                    sc.src = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+                    s.parentNode.insertBefore(sc, s);
+                    _comscore.push({ c1: "2", c2: "17440561" });
+            })();
+            
+
+</script>  
+ </body>
+</html>

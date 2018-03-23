@@ -98,10 +98,10 @@ public class LinkParser {
 
         try {
             //myURL=url.toString();
-            URI myURI=new URI(myURL);
-
-            myURI.normalize(); //Removes . segments
-            String scheme=myURI.getScheme();
+         //   URI myURI=new URI(myURL);
+           URL myURI=new URL(myURL);
+         //   myURI.normalize(); //Removes . segments
+            String scheme=myURI.getProtocol();
             String host=myURI.getHost();
             //Step 1: Convert the scheme and host to lowercase
             myURL.replace(scheme,scheme.toLowerCase());
@@ -136,11 +136,15 @@ public class LinkParser {
 
 
 
-        } catch (URISyntaxException e) {
+        }
+// catch (URISyntaxException e) {
+//            e.printStackTrace();
+//
+//        }
+        catch (MalformedURLException e) {
             e.printStackTrace();
             return "";
         }
-
 
 
         return myURL;

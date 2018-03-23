@@ -1,0 +1,3027 @@
+https://stackoverflow.com/jobs/171870/devops-engineer-remote-peak-games?a=VDFOkIvyMIU&so=i&pg=1&offset=1&total=683
+<!doctype html>
+<html>
+ <head> 
+  <title>DevOps Engineer - Remote at Peak Games  - Stack Overflow</title> 
+  <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d"> 
+  <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a"> 
+  <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+  <script src="https://cdn.sstatic.net/Js/stub.en.js?v=57e020fde11a"></script> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=596945d5421b"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=94cd993a63cf"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=13dc725d5020"> 
+  <!-- Start SO: 4:Head --> 
+  <!-- Begin Careers Head --> 
+  <script>
+    
+    StackExchange.gaReady(function() {
+
+StackExchange.ga.setDimension('dimension20', 'No');
+}
+);
+
+</script> 
+  <meta property="og:type" content="article"> 
+  <meta property="og:title" content="DevOps Engineer - Remote at Peak Games"> 
+  <meta property="og:description" content="Peak Games is at a turning point. It&amp;rsquo;s a fascinating time to be joining our team as we have become a global consumer product company with multiple…"> 
+  <meta property="og:image" content="https://cdn.sstatic.net/careers/Img/social/OG_Facebook_subpage.png?v=d18b5f58823c"> 
+  <meta property="og:image:width" content="1200"> 
+  <meta property="og:image:height" content="628"> 
+  <meta name="description" content="Peak Games is hiring a DevOps Engineer - Remote on Stack Overflow Jobs. Learn more about the DevOps Engineer - Remote job and apply now on Stack Overflow Jobs."> 
+  <meta name="twitter:card" content="summary_large_image"> 
+  <meta name="twitter:site" content="@StackDevJobs"> 
+  <meta name="twitter:domain" content="Stack Overflow Jobs"> 
+  <meta name="twitter:title" content="DevOps Engineer - Remote at Peak Games"> 
+  <meta name="twitter:description" content="Peak Games is at a turning point. It&amp;amp;rsquo;s a fascinating time to be joining our team as we have become a global consumer product company with multiple products. We are on a journey of reaching…"> 
+  <meta name="twitter:image" content="https://i.stack.imgur.com/uFnz4.jpg"> 
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "JobPosting",
+  "title": "DevOps Engineer - Remote",
+  "skills": [
+    "amazon-web-services",
+    "salt-stack",
+    "docker",
+    "linux",
+    "terraform"
+  ],
+  "description": "<h2>About this job</h2>\r\n<p><span>Location options: <strong>Remote</strong></span><br/><span>Job type: <strong>Permanent</strong></span><br/><span>Experience level: <strong>Mid-Level</strong></span><br/><span>Role: <strong>DevOps</strong></span><br/><span>Industry: <strong>Gaming, Mobile Game</strong></span><br/><span>Company size: <strong>51-200 people</strong></span><br/><span>Company type: <strong>Private</strong></span><br/></p><br/><br/><h2>Technologies</h2> <p>amazon-web-services, salt-stack, docker, linux, terraform</p> <br/><br/><h2>Job description</h2> <p>Peak Games is at a turning point. It&rsquo;s a fascinating time to be joining our team as we have become a global consumer product company with multiple products. We are on a journey of reaching hundreds of millions of people and making our products part of their daily lives. We believe the only way to achieve this is to maintain our culture of continuously learning, evolving and striving for the best as a team.<br><br>Every day, millions of our users play our games, generating billions of requests and a massive amount of data. Our Cloud Platform Team strives to deliver a great gaming experience so that our users can enjoy our games anywhere, anytime they want. They build and automate the entire stack of high-performance, large-scale, geographically dispersed resources throughout its life cycle to accommodate the high-growing user base. Join our Cloud Platform Team who is the spine of our growth and help them make sure that our services are up all the time.<br><br>Peak Games' Cloud Platform Team is responsible for building, orchestrating, scaling and maintaining highly available systems. As a member of this team, you&rsquo;ll have limitless exposure to all technologies used in the infrastructure of some of the largest casual games in the world as well as of Big Data, including numerous bleeding edge technologies. DevOps Engineers at Peak Games are responsible of architecting, building, maintaining and monitoring the entire infrastructure. They strive to automate everything possible. You will work together with fellow DevOps Engineers in a geographically dispersed team to ensure we provide a scalable and robust cloud delivery infrastructure.</p>\r\n<p><strong>Major Responsibilities / Activities</strong></p>\r\n<ul>\r\n<li>Work closely with the engineering teams to design, deliver and manage our services with high uptime.</li>\r\n<li>Engage in the development of continuous integration/deployment strategy.</li>\r\n<li>Automate, implement, administer and maintain our databases, cloud-based servers including provisioning, backups and restores, upgrades and monitoring.</li>\r\n<li>Master the Peak Games platform so that you can provide full stack diagnostics, when necessary, to help determine the root cause of internal problems and service issues.</li>\r\n<li>Keep up with metrics and use monitoring systems to provide the best performance, scalability and stability.</li>\r\n<li>Document the services and tools we provide, test and improve procedures and engage in hands-on support as needed.</li>\r\n<li>Together with your teammates you&rsquo;ll be participating in on-call rotation. While we help each other out, you may find yourself dealing with an arising issue at any given time.</li>\r\n<li>The role requires working closely with engineering teams on a daily basis in a similar time zone to GMT+3.</li>\r\n</ul>\r\n<p><strong>What You Need for this Position</strong></p>\r\n<ul>\r\n<li>BA/BS in Computer Engineering or related discipline, or equivalent work experience</li>\r\n<li>At least 2-3 years of experience on highly-scalable, distributed systems in a Linux-based environment</li>\r\n<li>Experience with AWS and/or other public cloud computing platforms is a big plus</li>\r\n<li>Experience in open source DevOps technologies, such as Saltstack, Consul, Terraform, Prometheus, Docker, Ansible</li>\r\n<li>Solid understanding of application data flow and how it meets system infrastructure</li>\r\n<li>Strong automation mindset to continuously improve the production environment</li>\r\n<li>Experience in Linux system-level analysis to identify and mitigate risks in the infrastructure</li>\r\n</ul>\r\n<p><strong>Technologies used by the Cloud Platform Team</strong></p>\r\n<p><span>AWS, CentOS, Saltstack, Terraform, Ansible, Prometheus, Alertmanager, Docker, Jenkins, Consul</span></p> <br/><br/>",
+  "datePosted": "2018-03-23",
+  "validThrough": "2018-04-22",
+  "employmentType": "FULL_TIME",
+  "experienceRequirements": "Mid-Level",
+  "industry": [
+    "Gaming",
+    "Mobile Game"
+  ],
+  "jobBenefits": [
+    "Modern office in central and attractive city location",
+    "Relocation package and annual travel allowance for our expat members",
+    "Robust medical insurance plan",
+    "Continuous learning and creative work environment",
+    "Open cafeteria including breakfast, lunch and dinner",
+    "Weekly office doctor visits"
+  ],
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "Peak Games",
+    "sameAs": "http://www.peak.games",
+    "logo": "https://i.stack.imgur.com/4pX0R.png",
+    "description": "<p>We are a leading mobile gaming company, committed to developing innovative products with our driven and talented team.</p>\r\n<p>Peak Games focuses on creating highly-rated mobile games including the U.S. top-10 grossing Toy Blast and the recently launched Toon Blast, which are engaging and inspiring millions of users around the world. Peak Games aims to shape the future of mobile gaming and how it intersects with the everyday lives of users.</p>"
+  },
+  "jobLocation": [
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AO"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BF"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BI"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BJ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BW"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CD"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CF"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CG"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CI"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CV"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DJ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DZ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "EG"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "EH"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "ER"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "ET"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GA"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GH"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GN"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GQ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GW"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "KE"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "KM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LR"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LS"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LY"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MA"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MG"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "ML"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MR"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MU"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MW"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MZ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NA"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NG"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NE"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "RE"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "RW"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SC"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SD"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SH"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SL"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SN"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SO"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SS"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "ST"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SZ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TD"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TG"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TN"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TZ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "UG"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "YT"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "ZA"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "ZM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "ZW"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "VN"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TW"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "UZ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TL"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TH"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TJ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SG"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PH"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PK"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NP"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MY"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MV"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MN"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MO"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LK"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "KP"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "KR"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "KZ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LA"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "KG"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "KH"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "JP"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "HK"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "ID"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IN"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CN"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BT"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BN"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BD"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AF"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AG"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AI"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AQ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AR"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AW"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AN"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BL"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BO"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BQ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BR"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BS"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BV"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CO"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CR"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CU"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CW"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BB"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CL"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BZ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "FK"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "EC"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DO"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GY"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "HN"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "HT"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GS"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GT"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GP"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GD"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GF"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "JM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LC"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "KN"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "KY"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MX"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MS"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MF"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MQ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NI"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PA"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PE"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PR"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PY"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TC"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SV"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SX"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SR"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TT"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "VC"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "VE"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "VG"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "VI"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "UY"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SK"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PT"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "RO"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SI"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SE"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PL"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NL"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NO"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MT"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LT"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LU"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LV"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GB"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "FR"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GR"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "HU"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "HR"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IE"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IS"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IT"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "EE"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DK"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CY"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CZ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "DE"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "FI"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "ES"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CH"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BE"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BG"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AT"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AD"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BA"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AX"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AL"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BY"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "JE"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GI"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "FO"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GG"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MC"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MD"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "ME"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LI"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MK"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SJ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "RS"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "RU"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "VA"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "UA"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "XK"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "YE"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TR"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SY"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "QA"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "OM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SA"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PS"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "JO"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "LB"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "KW"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GE"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IQ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IR"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IL"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BH"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AZ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AE"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "BM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CA"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GL"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "UM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TV"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TO"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "VU"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "WF"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "WS"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PN"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NF"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PF"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PG"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NR"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NU"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NZ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "NC"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "SB"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "PW"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TF"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "TK"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "GU"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "IO"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "HM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "KI"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MH"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "MP"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CC"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CK"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "CX"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "FJ"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "FM"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AU"
+      }
+    },
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "AS"
+      }
+    }
+  ]
+}
+</script> 
+  <link rel="canonical" href="https://stackoverflow.com/jobs/171870/devops-engineer-remote-peak-games"> 
+  <!-- End Careers Head --> 
+  <!-- End SO: 4:Head --> 
+  <!-- Start SO: 5:CSS --> 
+  <!-- Begin Careers CSS --> 
+  <link href="https://cdn.sstatic.net/careers/less/views/jobs/jobs.min.css?v=21036f2bc5c7" rel="stylesheet" type="text/css"> 
+  <!-- End Careers CSS --> 
+  <!-- End SO: 5:CSS --> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/jobs.css?v=d0f2c7dd0397"> 
+  <script src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyCOvQgO0envTRT_ulsBcZo0is6OYMzMORg"></script> 
+  <script>
+        StackExchange.init({"locale":"en","serverTime":1521843112,"routeName":"Jobs: Jobs/Details","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"childUrl":"https://meta.stackoverflow.com","enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"d16a35da63103e8b1162221b85b5952621651c541085caea15d1785affbc32a4","tid":"7be55055-ac63-134e-ddb1-99f170feba79","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4}}, {"site":{"allowImageUploads":true,"commentHighlightingWithCSS":true,"enableUserHovercards":true,"styleCode":true,"enableImgurHttps":true,"forceHttpsImages":true},"userMessaging":{},"comments":{},"userProfile":{"openGraphAPIKey":"58740831ad23540e00c58987"},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"paths":{},"markdown":{"asteriskIntraWordEmphasis":true},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad"},"subscriptions":{}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"fd71fcd78b2c","js/moderator.en.js":"d350b664ddb3","js/full-anon.en.js":"81c19a49c169","js/full.en.js":"6d6c19847a8b","js/wmd.en.js":"a349c871bd62","js/third-party/jquery.autocomplete.min.js":"bdb258e949a8","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"4804a16f7074","js/help.en.js":"a1c2d4ed1321","js/tageditor.en.js":"bff66e3469d5","js/tageditornew.en.js":"586ffe22ab58","js/inline-tag-editing.en.js":"e7aa31e8eba1","js/revisions.en.js":"8f22ba768cac","js/review.en.js":"5eda79317cf4","js/tagsuggestions.en.js":"78eee7c19ab2","js/post-validation.en.js":"ec745f184617","js/explore-qlist.en.js":"66e52888786d","js/events.en.js":"8f07ed802b6b","js/keyboard-shortcuts.en.js":"8588a17139dd","js/external-editor.en.js":"3c50622b803d","js/adops.en.js":"22a9bd59b1e9","js/external-editor.en.js":"3c50622b803d","js/snippet-javascript.en.js":"6596eb95a324","js/snippet-javascript-codemirror.en.js":"6e1735fcf180"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script> 
+  <noscript id="noscript-css">
+   <style>body,.top-bar{margin-top:1.9em}</style>
+  </noscript> 
+ </head> 
+ <body class=" new-topbar"> 
+  <script async src="https://js-sec.indexww.com/ht/p/185901-159836282584097.js"></script> 
+  <div id="notify-container"></div> 
+  <div id="custom-header"></div> 
+  <header class="top-bar js-top-bar _fixed"> 
+   <div class="-container"> 
+    <div class="-main"> 
+     <a href="https://stackoverflow.com" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:29, destination:8})"> <span class="-img">Stack Overflow</span> </a> 
+     <nav class="navigation" role="navigation" aria-label="site navigation"> 
+      <ol class="-list"> 
+       <li class="-item"> <a id="nav-questions" href="/questions" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:29, destination:1})">Questions</a> </li> 
+       <li class="-item _current"> <a id="nav-jobs" href="/jobs?med=site-ui&amp;ref=jobs-tab" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:true, location:29, destination:6})">Developer Jobs</a> </li> 
+       <li class="-item"> <a id="nav-tags" href="/tags" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:29, destination:2})">Tags</a> </li> 
+       <li class="-item"> <a id="nav-users" href="/users" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:29, destination:3})">Users</a> </li> 
+      </ol> 
+     </nav> 
+    </div> 
+    <form id="search" action="/search" method="get" class="searchbar" autocomplete="off" role="search"> 
+     <input name="q" type="text" placeholder="Search…" value="" tabindex="1" autocomplete="off" maxlength="240" class="f-input js-search-field"> 
+     <button type="submit" aria-label="Search..." class="btn-topbar-primary js-search-submit">
+      <svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewbox="0 0 18 18">
+       <path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z" />
+      </svg></button> 
+    </form> 
+    <div class="-actions"> 
+     <nav class="secondary-nav"> 
+      <div class="-dialog-container js-topbar-dialog-corral"> 
+       <div class="topbar-dialog siteSwitcher-dialog dno"> 
+        <div class="header"> 
+         <h3><a href="https://stackoverflow.com">current community</a> </h3> 
+        </div> 
+        <div class="modal-content current-site-container"> 
+         <ul class="current-site"> 
+          <li> 
+           <div class="related-links"> 
+            <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:14 })">help</a> 
+            <a href="https://chat.stackoverflow.com" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a> 
+           </div> <a href="https://stackoverflow.com" class="current-site-link site-link js-gps-track" data-id="1" data-gps-track="site_switcher.click({ item_type:3 })"> 
+            <div class="favicon favicon-stackoverflow site-icon" title="Stack Overflow"></div> Stack Overflow </a> </li> 
+          <li class="related-site"> 
+           <div class="L-shaped-icon-container"> 
+            <span class="L-shaped-icon"></span> 
+           </div> <a href="https://meta.stackoverflow.com" class="site-link js-gps-track" data-id="552" data-gps-track="site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })"> 
+            <div class="favicon favicon-stackoverflowmeta site-icon" title="Meta Stack Overflow"></div> Meta Stack Overflow </a> </li> 
+         </ul> 
+        </div> 
+        <div class="header" id="your-communities-header"> 
+         <h3> your communities </h3> 
+        </div> 
+        <div class="modal-content" id="your-communities-section"> 
+         <div class="call-to-login"> 
+          <a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcreate" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or 
+          <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fjobs%2f171870%2fdevops-engineer-remote-peak-games%3fa%3dvdfokivymiu%26so%3di%26pg%3d1%26offset%3d1%26total%3d683" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list. 
+         </div> 
+        </div> 
+        <div class="header"> 
+         <h3><a href="https://stackexchange.com/sites">more stack exchange communities</a> </h3> 
+         <a href="https://stackoverflow.blog" class="fr">company blog</a> 
+        </div> 
+        <div class="modal-content"> 
+         <div class="child-content"></div> 
+        </div> 
+       </div> 
+       <div class="topbar-dialog help-dialog js-help-dialog dno"> 
+        <div class="modal-content"> 
+         <ul> 
+          <li> <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })"> Tour <span class="item-summary"> Start here for a quick overview of the site </span> </a> </li> 
+          <li> <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })"> Help Center <span class="item-summary"> Detailed answers to any questions you might have </span> </a> </li> 
+          <li> <a href="https://meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })"> Meta <span class="item-summary"> Discuss the workings and policies of this site </span> </a> </li> 
+          <li> <a href="https://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })"> About Us <span class="item-summary"> Learn more about Stack Overflow the company </span> </a> </li> 
+          <li> <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })"> Business <span class="item-summary"> Learn more about hiring developers or posting ads with us </span> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+      <ol class="-list"> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages"> 
+         <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewbox="0 0 20 18">
+          <path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z" />
+         </svg> <span class="indicator-badge js-unread-count _important" style="display: none;"></span> </a> </li> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive"> 
+         <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z" />
+         </svg> <span class="indicator-badge js-unread-count _positive" style="display: none;"></span> </a> </li> 
+       <li class="-item"><a href="#" class="-link js-help-button" title="Help Center and other resources"> 
+         <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z" />
+         </svg> </a></li> 
+       <li class="-item"> <a href="https://stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 172 Stack Exchange sites"> 
+         <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z" />
+         </svg> </a> </li> 
+      </ol> 
+     </nav> 
+     <div class="-ctas"> 
+      <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fjobs%2f171870%2fdevops-engineer-remote-peak-games%3fa%3dvdfokivymiu%26so%3di%26pg%3d1%26offset%3d1%26total%3d683" class="login-link btn-clear" rel="nofollow">Log In</a> 
+      <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=%2fusers%2fstory%2fcreate" class="login-link btn-topbar-primary" rel="nofollow" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]">Sign Up</a> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+        StackExchange.scrollPadding.setPaddingTop(60, 10);     </script> 
+  <div id="announcement-banner" data-campaign="2018-03-13.dev-survey-2018" data-cookie="notice-dsr" data-expire-date="1524211200000"> 
+   <div class="-container"> 
+    <span class="-body">The results are in!</span> 
+    <a class="-link js-link js-gps-track" href="https://insights.stackoverflow.com/survey/2018/" data-ga="[&quot;dev-survey-2018&quot;,&quot;Announcement Banner&quot;,&quot;https://insights.stackoverflow.com/survey/2018/&quot;,null,{&quot;dimension4&quot;:&quot;dev-survey-2018&quot;}]" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 29, action: 2})">See the 2018 Developer Survey results. »</a> 
+    <a class="-dismiss js-dismiss js-gps-track" href="#" title="dismiss" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 29, action: 1})">
+     <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewbox="0 0 18 18">
+      <path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z" />
+     </svg></a> 
+   </div> 
+  </div> 
+  <script>
+    StackExchange.ready(function () {
+        var $banner = $('#announcement-banner');
+
+        function setCookie(value) {
+            $.cookie($banner.data('cookie'), value, {
+                expires: (new Date($banner.data('expire-date'))),
+                path: '/'
+            });
+        }
+
+        $banner.find('.js-link').click(function () {
+            setCookie('2;' + Date.now());
+        });
+
+        $banner.find('.js-dismiss').click(function () {
+            setCookie('4;' + Date.now());
+            $banner.animate({ height: '0', opacity: 0 }, 'fast', 'linear', function () { $banner.remove(); });
+            return false;
+        });
+    });
+</script> 
+  <div class="container _full"> 
+   <div id="content" class="snippet-hidden"> 
+    <!-- Start SO: 1:Banner --> 
+    <!-- Begin Careers Banner --> 
+    <!-- End Careers Banner --> 
+    <!-- End SO: 1:Banner --> 
+    <div class="content proxy"> 
+     <!-- Start SO: 2:Body --> 
+     <!-- Begin Careers Body --> 
+     <div class="job-cover-image"> 
+      <img alt="" class="top" src="//i.stack.imgur.com/uFnz4.jpg"> 
+     </div> 
+     <div id="job-detail"> 
+      <div class="job-detail-header"> 
+       <div class="-header g-row ai-center"> 
+        <div class="-company-logo sticky-col-logo"> 
+         <div class="detail-company-block"> 
+          <div class="detail-company-logo"> 
+           <a href="/jobs/companies/peakgames"><img alt="" src="https://i.stack.imgur.com/4pX0R.png"></a> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="-description"> 
+         <div class="g-row"> 
+          <h1 class="-title"> <a href="/jobs/171870/devops-engineer-remote-peak-games" title="DevOps Engineer - Remote" class="title job-link">DevOps Engineer - Remote</a> </h1> 
+         </div> 
+         <div class="-company g-row"> 
+          <div class="-name"> 
+           <a class="employer" href="/jobs/companies/peakgames">Peak Games</a> 
+          </div> 
+          <div class="-location">
+            - No office location 
+          </div> 
+         </div> 
+         <div class="-perks g-row"> 
+          <p class="-remote"> Remote </p> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="job-detail-body"> 
+       <div class="main"> 
+        <div class="job-detail-content"> 
+         <nav class="-tabs js-tabs"> 
+          <div class="subtabs js-subtabs"> 
+           <a href="#overview-items" class="youarehere" data-nav-item="Overview">Overview</a> 
+           <a href="#company-items" data-nav-item="Company">Company</a> 
+           <a href="#more-jobs-items" data-nav-item="MoreJobs">More Jobs</a> 
+          </div> 
+         </nav> 
+         <nav class="-sticky-tabs js-sticky-tabs"> 
+          <div class="-container g-row jc-sp-between ai-center"> 
+           <div class="subtabs js-subtabs"> 
+            <a href="#overview-items" class="youarehere" data-nav-item="Overview">Overview</a> 
+            <a href="#company-items" data-nav-item="Company">Company</a> 
+            <a href="#more-jobs-items" data-nav-item="MoreJobs">More Jobs</a> 
+           </div> 
+           <div class="-apply js-apply-container"> 
+            <a class="btn _medium _apply _url js-apply js-url-apply" rel="nofollow" href="https://peak.games/job?opening=devops-engineer-remote" data-analyticurl="/jobs/n/apply-out/171870?ra=VDFOkIvyMIU&amp;companyPageId=8316&amp;cta=JobDetailStickyNav&amp;clickType=ExternalOutClick" target="_blank" data-ga="[&quot;Jobs Engagement&quot;,&quot;Apply Click&quot;,&quot;Peak Games | DevOps Engineer - Remote | 171870&quot;,null,null]"> 
+             <svg aria-hidden="true" class="svg-icon iconShare" width="18" height="18" viewbox="0 0 18 18">
+              <path d="M15 4.5L7.5 12 6 10.5 13.5 3H10V1h7v7h-2V4.5zM8 1v2H3v12h12v-5h2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h5z" />
+             </svg> Apply now </a> 
+           </div> 
+          </div> 
+         </nav> 
+         <div id="overview-items" class="nav-content"> 
+          <section class="-about-job"> 
+           <h2>About this job</h2> 
+           <div class="-about-job-items g-row"> 
+            <div class="g-column"> 
+             <div class="-item g-col"> 
+              <span class="-key">Job type: </span> 
+              <span class="-value">Permanent</span> 
+             </div> 
+             <div class="-item g-col"> 
+              <span class="-key">Experience level: </span> 
+              <span class="-value">Mid-Level</span> 
+             </div> 
+             <div class="-item g-col"> 
+              <span class="-key">Role: </span> 
+              <span class="-value">DevOps</span> 
+             </div> 
+            </div> 
+            <div class="g-column"> 
+             <div class="-item g-col"> 
+              <span class="-key">Industry: </span> 
+              <span class="-value">Gaming, Mobile Game</span> 
+             </div> 
+             <div class="-item g-col"> 
+              <span class="-key">Company size: </span> 
+              <span class="-value">51-200 people</span> 
+             </div> 
+             <div class="-item g-col"> 
+              <span class="-key">Company type: </span> 
+              <span class="-value">Private</span> 
+             </div> 
+            </div> 
+           </div> 
+          </section> 
+          <section class="-technologies"> 
+           <h2>Technologies</h2> 
+           <div class="-tags g-row"> 
+            <p> <a href="/jobs/developer-jobs-using-amazon-web-services" class="post-tag job-link no-tag-menu">amazon-web-services</a><a href="/jobs/developer-jobs-using-salt-stack" class="post-tag job-link no-tag-menu">salt-stack</a><a href="/jobs/docker-developer-jobs" class="post-tag job-link no-tag-menu">docker</a><a href="/jobs/developer-jobs-using-linux" class="post-tag job-link no-tag-menu">linux</a><a href="/jobs/developer-jobs-using-terraform" class="post-tag job-link no-tag-menu">terraform</a> </p> 
+           </div> 
+          </section> 
+          <section class="-job-description"> 
+           <h2>Job description</h2> 
+           <div class="description"> 
+            <p>Peak Games is at a turning point. It’s a fascinating time to be joining our team as we have become a global consumer product company with multiple products. We are on a journey of reaching hundreds of millions of people and making our products part of their daily lives. We believe the only way to achieve this is to maintain our culture of continuously learning, evolving and striving for the best as a team.<br><br>Every day, millions of our users play our games, generating billions of requests and a massive amount of data. Our Cloud Platform Team strives to deliver a great gaming experience so that our users can enjoy our games anywhere, anytime they want. They build and automate the entire stack of high-performance, large-scale, geographically dispersed resources throughout its life cycle to accommodate the high-growing user base. Join our Cloud Platform Team who is the spine of our growth and help them make sure that our services are up all the time.<br><br>Peak Games' Cloud Platform Team is responsible for building, orchestrating, scaling and maintaining highly available systems. As a member of this team, you’ll have limitless exposure to all technologies used in the infrastructure of some of the largest casual games in the world as well as of Big Data, including numerous bleeding edge technologies. DevOps Engineers at Peak Games are responsible of architecting, building, maintaining and monitoring the entire infrastructure. They strive to automate everything possible. You will work together with fellow DevOps Engineers in a geographically dispersed team to ensure we provide a scalable and robust cloud delivery infrastructure.</p> 
+            <p><strong>Major Responsibilities / Activities</strong></p> 
+            <ul> 
+             <li>Work closely with the engineering teams to design, deliver and manage our services with high uptime.</li> 
+             <li>Engage in the development of continuous integration/deployment strategy.</li> 
+             <li>Automate, implement, administer and maintain our databases, cloud-based servers including provisioning, backups and restores, upgrades and monitoring.</li> 
+             <li>Master the Peak Games platform so that you can provide full stack diagnostics, when necessary, to help determine the root cause of internal problems and service issues.</li> 
+             <li>Keep up with metrics and use monitoring systems to provide the best performance, scalability and stability.</li> 
+             <li>Document the services and tools we provide, test and improve procedures and engage in hands-on support as needed.</li> 
+             <li>Together with your teammates you’ll be participating in on-call rotation. While we help each other out, you may find yourself dealing with an arising issue at any given time.</li> 
+             <li>The role requires working closely with engineering teams on a daily basis in a similar time zone to GMT+3.</li> 
+            </ul> 
+            <p><strong>What You Need for this Position</strong></p> 
+            <ul> 
+             <li>BA/BS in Computer Engineering or related discipline, or equivalent work experience</li> 
+             <li>At least 2-3 years of experience on highly-scalable, distributed systems in a Linux-based environment</li> 
+             <li>Experience with AWS and/or other public cloud computing platforms is a big plus</li> 
+             <li>Experience in open source DevOps technologies, such as Saltstack, Consul, Terraform, Prometheus, Docker, Ansible</li> 
+             <li>Solid understanding of application data flow and how it meets system infrastructure</li> 
+             <li>Strong automation mindset to continuously improve the production environment</li> 
+             <li>Experience in Linux system-level analysis to identify and mitigate risks in the infrastructure</li> 
+            </ul> 
+            <p><strong>Technologies used by the Cloud Platform Team</strong></p> 
+            <p><span>AWS, CentOS, Saltstack, Terraform, Ansible, Prometheus, Alertmanager, Docker, Jenkins, Consul</span></p> 
+           </div> 
+          </section> 
+          <div class="apply clear apply-center js-apply-container"> 
+           <a class="btn _large _apply _url js-apply js-url-apply" rel="nofollow" href="https://peak.games/job?opening=devops-engineer-remote" data-analyticurl="/jobs/n/apply-out/171870?ra=VDFOkIvyMIU&amp;companyPageId=8316&amp;cta=JobDetailCenter&amp;clickType=ExternalOutClick" target="_blank" data-ga="[&quot;Jobs Engagement&quot;,&quot;Apply Click&quot;,&quot;Peak Games | DevOps Engineer - Remote | 171870&quot;,null,null]"> 
+            <svg aria-hidden="true" class="svg-icon iconShare" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M15 4.5L7.5 12 6 10.5 13.5 3H10V1h7v7h-2V4.5zM8 1v2H3v12h12v-5h2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h5z" />
+            </svg> Apply now </a> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="company-page"> 
+         <div id="company-items" class="nav-content"> 
+          <section class="-life-at-company"> 
+           <h2>Life at Peak Games</h2> 
+           <div class="gallery"> 
+            <img alt="" class="top" src="https://i.stack.imgur.com/ghZse.jpg"> 
+           </div> 
+          </section> 
+          <section class="-about-company"> 
+           <h2> About Peak Games </h2> 
+           <div class="description"> 
+            <p>We are a leading mobile gaming company, committed to developing innovative products with our driven and talented team.</p> 
+            <p>Peak Games focuses on creating highly-rated mobile games including the U.S. top-10 grossing Toy Blast and the recently launched Toon Blast, which are engaging and inspiring millions of users around the world. Peak Games aims to shape the future of mobile gaming and how it intersects with the everyday lives of users.</p> 
+           </div> 
+          </section> 
+          <section class="-benefits"> 
+           <h2>Benefits</h2> 
+           <div class="benefit" title="Modern office in central and attractive city location"> 
+            <svg aria-hidden="true" class="svg-icon iconFaceSmile" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M9 15A6 6 0 1 0 9 3a6 6 0 0 0 0 12zm0 2A8 8 0 1 1 9 1a8 8 0 0 1 0 16z" />
+             <path d="M4.53 10h8.94a4.55 4.55 0 0 1-8.94 0z" />
+             <circle cx="7" cy="8" r="1.25" />
+             <circle cx="11" cy="8" r="1.25" />
+            </svg> Modern office in central and attractive city location 
+           </div> 
+           <div class="benefit" title="Relocation package and annual travel allowance for our expat members"> 
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+            </svg> Relocation package and annual travel allowance for our expat members 
+           </div> 
+           <div class="benefit" title="Robust medical insurance plan"> 
+            <svg aria-hidden="true" class="svg-icon iconHealth" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M10 8V5H8v3H5v2h3v3h2v-3h3V8h-3zM9 1l7 3v5.02C16 13.69 10.69 17 9 17c-1.69 0-7-3.31-7-7.98V4l7-3z" />
+            </svg> Robust medical insurance plan 
+           </div> 
+           <div class="benefit" title="Continuous learning and creative work environment"> 
+            <svg aria-hidden="true" class="svg-icon iconFaceSmile" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M9 15A6 6 0 1 0 9 3a6 6 0 0 0 0 12zm0 2A8 8 0 1 1 9 1a8 8 0 0 1 0 16z" />
+             <path d="M4.53 10h8.94a4.55 4.55 0 0 1-8.94 0z" />
+             <circle cx="7" cy="8" r="1.25" />
+             <circle cx="11" cy="8" r="1.25" />
+            </svg> Continuous learning and creative work environment 
+           </div> 
+           <div class="benefit" title="Open cafeteria including breakfast, lunch and dinner"> 
+            <svg aria-hidden="true" class="svg-icon iconFood" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M8 7H7V1H5v6H4V1H2v6c0 1.7 1.33 2.9 3 3v7h2v-7c1.67-.1 3-1.3 3-3V1H8v6zm4-2.8V10h2v7h2V1c-2.2 0-4 1.8-4 3.2z" />
+            </svg> Open cafeteria including breakfast, lunch and dinner 
+           </div> 
+           <div class="benefit" title="Weekly office doctor visits"> 
+            <svg aria-hidden="true" class="svg-icon iconHealth" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M10 8V5H8v3H5v2h3v3h2v-3h3V8h-3zM9 1l7 3v5.02C16 13.69 10.69 17 9 17c-1.69 0-7-3.31-7-7.98V4l7-3z" />
+            </svg> Weekly office doctor visits 
+           </div> 
+          </section> 
+         </div> 
+         <div id="developer-culture-items" class="nav-content"> 
+         </div> 
+         <section class="learnmore"> 
+          <a class="btn _large truncate" href="/jobs/companies/peakgames?from=JobDetailLearnMore">Learn more about Peak Games</a> 
+         </section> 
+        </div> 
+        <div id="more-jobs-items" class="nav-content"> 
+         <section class="-more-jobs"> 
+          <div class="-company-alert js-company-alert"> 
+           <div class="-icon"></div> 
+           <div class="-text"> 
+            <h3 class="-title">Want to get notified about new jobs at Peak Games?</h3> 
+            <div>
+             <a class="js-alert-trigger" data-context="JobDetail">Create a company alert</a>
+            </div> 
+           </div> 
+          </div> 
+         </section> 
+         <section class="-similar-jobs"> 
+          <h2>Similar jobs</h2> 
+          <div class="listResults"> 
+           <div data-jobid="167615" class="-item -job -job-item js-dismiss-overlay-container dismissable-job _highlighted  can-apply "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f167615%3freturnUrl%3d%252Fjobs%252F171870%252Fdevops-engineer-remote-peak-games%253Fa%253DVDFOkIvyMIU%2526so%253Di%2526pg%253D1%2526offset%253D1%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="167615" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="CDX Limited | Senior Backend Django Engineer | 167615" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/167615/senior-backend-django-engineer-cdx-limited?a=UdchtcVidPR" title="Senior Backend Django Engineer" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/167615/senior-backend-django-engineer-cdx-limited?a=UdchtcVidPR&quot;,null,null]">Senior Backend Django Engineer</a> </h2> 
+              <p class="-posted-date g-col"> 2w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                CDX Limited 
+              </div> 
+              <div class="-location">
+                - No office location 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-django" class="post-tag job-link no-tag-menu">django</a><a href="/jobs/developer-jobs-using-postgresql" class="post-tag job-link no-tag-menu">postgresql</a><a href="/jobs/docker-developer-jobs" class="post-tag job-link no-tag-menu">docker</a><a href="/jobs/developer-jobs-using-amazon-web-services" class="post-tag job-link no-tag-menu">amazon-web-services</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="170164" class="-item -job -job-item js-dismiss-overlay-container dismissable-job   can-apply "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f170164%3freturnUrl%3d%252Fjobs%252F171870%252Fdevops-engineer-remote-peak-games%253Fa%253DVDFOkIvyMIU%2526so%253Di%2526pg%253D1%2526offset%253D1%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="170164" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Chorus One | DevOps engineer at intersection of information security and cryptocurrency | 170164" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/170164/devops-engineer-at-intersection-of-information-chorus-one?a=V4cltX0UjcM" title="DevOps engineer at intersection of information security and cryptocurrency" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/170164/devops-engineer-at-intersection-of-information-chorus-one?a=V4cltX0UjcM&quot;,null,null]">DevOps engineer at intersection of information security and cryptocurrency</a> </h2> 
+              <p class="-posted-date g-col"> 2w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Chorus One 
+              </div> 
+              <div class="-location">
+                - No office location 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-salary"> $70k - 110k | Equity </span> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-security" class="post-tag job-link no-tag-menu">security</a><a href="/jobs/developer-jobs-using-automated-tests" class="post-tag job-link no-tag-menu">automated-tests</a><a href="/jobs/devops-jobs" class="post-tag job-link no-tag-menu">devops</a><a href="/jobs/developer-jobs-using-intrusion-detection" class="post-tag job-link no-tag-menu">intrusion-detection</a><a href="/jobs/docker-developer-jobs" class="post-tag job-link no-tag-menu">docker</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="168503" class="-item -job -job-item js-dismiss-overlay-container dismissable-job   can-apply "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f168503%3freturnUrl%3d%252Fjobs%252F171870%252Fdevops-engineer-remote-peak-games%253Fa%253DVDFOkIvyMIU%2526so%253Di%2526pg%253D1%2526offset%253D1%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="168503" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Zapier | Security Infrastructure Engineer | 168503" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/168503/security-infrastructure-engineer-zapier?a=UvF3neV9Nit" title="Security Infrastructure Engineer" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/168503/security-infrastructure-engineer-zapier?a=UvF3neV9Nit&quot;,null,null]">Security Infrastructure Engineer</a> </h2> 
+              <p class="-posted-date g-col"> 5d ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Zapier 
+              </div> 
+              <div class="-location">
+                - No office location 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-amazon-web-services" class="post-tag job-link no-tag-menu">amazon-web-services</a><a href="/jobs/developer-jobs-using-saml" class="post-tag job-link no-tag-menu">saml</a><a href="/jobs/developer-jobs-using-single-sign-on" class="post-tag job-link no-tag-menu">single-sign-on</a><a href="/jobs/developer-jobs-using-oauth" class="post-tag job-link no-tag-menu">oauth</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="171315" class="-item -job -job-item js-dismiss-overlay-container dismissable-job   can-apply "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f171315%3freturnUrl%3d%252Fjobs%252F171870%252Fdevops-engineer-remote-peak-games%253Fa%253DVDFOkIvyMIU%2526so%253Di%2526pg%253D1%2526offset%253D1%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="171315" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Wikimedia Foundation, Inc. | Site Reliability Engineer | 171315" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/171315/site-reliability-engineer-wikimedia-foundation-inc?a=Vs8ap0A3LVk" title="Site Reliability Engineer" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/171315/site-reliability-engineer-wikimedia-foundation-inc?a=Vs8ap0A3LVk&quot;,null,null]">Site Reliability Engineer</a> </h2> 
+              <p class="-posted-date g-col"> 4d ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Wikimedia Foundation, Inc. 
+              </div> 
+              <div class="-location">
+                - San Francisco, CA 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-linux" class="post-tag job-link no-tag-menu">linux</a><a href="/jobs/developer-jobs-using-puppet" class="post-tag job-link no-tag-menu">puppet</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="154999" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f154999%3freturnUrl%3d%252Fjobs%252F171870%252Fdevops-engineer-remote-peak-games%253Fa%253DVDFOkIvyMIU%2526so%253Di%2526pg%253D1%2526offset%253D1%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="154999" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Sticker Mule | Software engineer: site reliability and infrastructure | 154999" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/154999/software-engineer-site-reliability-and-sticker-mule?a=PYSg6bUqOa3" title="Software engineer: site reliability and infrastructure" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/154999/software-engineer-site-reliability-and-sticker-mule?a=PYSg6bUqOa3&quot;,null,null]">Software engineer: site reliability and infrastructure</a> </h2> 
+              <p class="-posted-date g-col"> 5d ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Sticker Mule 
+              </div> 
+              <div class="-location">
+                - No office location 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-salary"> $88k - 115k </span> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-javascript" class="post-tag job-link no-tag-menu">javascript</a><a href="/jobs/developer-jobs-using-ruby" class="post-tag job-link no-tag-menu">ruby</a><a href="/jobs/developer-jobs-using-go" class="post-tag job-link no-tag-menu">go</a><a href="/jobs/developer-jobs-using-amazon-web-services" class="post-tag job-link no-tag-menu">amazon-web-services</a><a href="/jobs/developer-jobs-using-google-cloud-platform" class="post-tag job-link no-tag-menu">google-cloud-platform</a><a href="/jobs/system-administrator-jobs" class="post-tag job-link no-tag-menu">sysadmin</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="170721" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f170721%3freturnUrl%3d%252Fjobs%252F171870%252Fdevops-engineer-remote-peak-games%253Fa%253DVDFOkIvyMIU%2526so%253Di%2526pg%253D1%2526offset%253D1%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="170721" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Bitnami | Senior Software Engineer - Cloud Integrations | 170721" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/170721/senior-software-engineer-cloud-integrations-bitnami?a=VfMphgQ4nMI" title="Senior Software Engineer - Cloud Integrations" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/170721/senior-software-engineer-cloud-integrations-bitnami?a=VfMphgQ4nMI&quot;,null,null]">Senior Software Engineer - Cloud Integrations</a> </h2> 
+              <p class="-posted-date g-col"> 1w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Bitnami 
+              </div> 
+              <div class="-location">
+                - No office location 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-salary"> Equity </span> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-cloud" class="post-tag job-link no-tag-menu">cloud</a><a href="/jobs/developer-jobs-using-amazon-web-services" class="post-tag job-link no-tag-menu">amazon-web-services</a><a href="/jobs/developer-jobs-using-azure" class="post-tag job-link no-tag-menu">azure</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="171749" class="-item -job -job-item js-dismiss-overlay-container dismissable-job _highlighted   "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f171749%3freturnUrl%3d%252Fjobs%252F171870%252Fdevops-engineer-remote-peak-games%253Fa%253DVDFOkIvyMIU%2526so%253Di%2526pg%253D1%2526offset%253D1%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="171749" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Tenable, Inc. | Sr. Software Engineer - Cloud / Kubernetes / Python | 171749" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/171749/sr-software-engineer-cloud-kubernetes-tenable-inc?a=VB9F4McfQPn" title="Sr. Software Engineer - Cloud / Kubernetes / Python" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/171749/sr-software-engineer-cloud-kubernetes-tenable-inc?a=VB9F4McfQPn&quot;,null,null]">Sr. Software Engineer - Cloud / Kubernetes / Python</a> </h2> 
+              <p class="-posted-date g-col"> yesterday </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Tenable, Inc. 
+              </div> 
+              <div class="-location">
+                - No office location 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-cloud" class="post-tag job-link no-tag-menu">cloud</a><a href="/jobs/docker-developer-jobs" class="post-tag job-link no-tag-menu">docker</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="74130" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f74130%3freturnUrl%3d%252Fjobs%252F171870%252Fdevops-engineer-remote-peak-games%253Fa%253DVDFOkIvyMIU%2526so%253Di%2526pg%253D1%2526offset%253D1%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="74130" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="DuckDuckGo | DuckDuckGo Site Reliability Engineer (Remote OK) | 74130" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/74130/duckduckgo-site-reliability-engineer-remote-ok-duckduckgo?a=oRnjgfh0lFo" title="DuckDuckGo Site Reliability Engineer (Remote OK)" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/74130/duckduckgo-site-reliability-engineer-remote-ok-duckduckgo?a=oRnjgfh0lFo&quot;,null,null]">DuckDuckGo Site Reliability Engineer (Remote OK)</a> </h2> 
+              <p class="-posted-date g-col"> 4d ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                DuckDuckGo 
+              </div> 
+              <div class="-location">
+                - Paoli, PA 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-perl" class="post-tag job-link no-tag-menu">perl</a><a href="/jobs/developer-jobs-using-chef" class="post-tag job-link no-tag-menu">chef</a><a href="/jobs/developer-jobs-using-amazon-web-services" class="post-tag job-link no-tag-menu">amazon-web-services</a><a href="/jobs/developer-jobs-using-nginx" class="post-tag job-link no-tag-menu">nginx</a><a href="/jobs/developer-jobs-using-security" class="post-tag job-link no-tag-menu">security</a><a href="/jobs/system-administrator-jobs" class="post-tag job-link no-tag-menu">sysadmin</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="170481" class="-item -job -job-item js-dismiss-overlay-container dismissable-job   can-apply "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f170481%3freturnUrl%3d%252Fjobs%252F171870%252Fdevops-engineer-remote-peak-games%253Fa%253DVDFOkIvyMIU%2526so%253Di%2526pg%253D1%2526offset%253D1%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="170481" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Bitfusion | Senior Networked Systems Engineer | 170481" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/170481/senior-networked-systems-engineer-bitfusion?a=VaN0BjEnpVN" title="Senior Networked Systems Engineer" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/170481/senior-networked-systems-engineer-bitfusion?a=VaN0BjEnpVN&quot;,null,null]">Senior Networked Systems Engineer</a> </h2> 
+              <p class="-posted-date g-col"> 2w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Bitfusion 
+              </div> 
+              <div class="-location">
+                - Austin, TX 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-remote"> Remote </span> 
+              <span class="-visa"> Visa sponsor </span> 
+              <span class="-relocation"> Paid relocation </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-c%2b%2b" class="post-tag job-link no-tag-menu">c++</a><a href="/jobs/developer-jobs-using-c" class="post-tag job-link no-tag-menu">c</a><a href="/jobs/developer-jobs-using-linux" class="post-tag job-link no-tag-menu">linux</a><a href="/jobs/developer-jobs-using-dpdk" class="post-tag job-link no-tag-menu">dpdk</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="169853" class="-item -job -job-item js-dismiss-overlay-container dismissable-job   can-apply "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f169853%3freturnUrl%3d%252Fjobs%252F171870%252Fdevops-engineer-remote-peak-games%253Fa%253DVDFOkIvyMIU%2526so%253Di%2526pg%253D1%2526offset%253D1%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="169853" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="StayWell | Senior Software Engineer (US ONLY) | 169853" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/169853/senior-software-engineer-us-only-staywell?a=UXJpVJBGdYM" title="Senior Software Engineer (US ONLY)" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/169853/senior-software-engineer-us-only-staywell?a=UXJpVJBGdYM&quot;,null,null]">Senior Software Engineer (US ONLY)</a> </h2> 
+              <p class="-posted-date g-col"> 3w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                StayWell 
+              </div> 
+              <div class="-location">
+                - No office location 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-java" class="post-tag job-link no-tag-menu">java</a><a href="/jobs/developer-jobs-using-reactjs" class="post-tag job-link no-tag-menu">reactjs</a><a href="/jobs/developer-jobs-using-react-native" class="post-tag job-link no-tag-menu">react-native</a><a href="/jobs/developer-jobs-using-node.js" class="post-tag job-link no-tag-menu">node.js</a><a href="/jobs/developer-jobs-using-amazon-web-services" class="post-tag job-link no-tag-menu">amazon-web-services</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="164192" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f164192%3freturnUrl%3d%252Fjobs%252F171870%252Fdevops-engineer-remote-peak-games%253Fa%253DVDFOkIvyMIU%2526so%253Di%2526pg%253D1%2526offset%253D1%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="164192" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="GitLab | Backend Engineer - CI/CD | 164192" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/164192/backend-engineer-ci-cd-gitlab?a=T41uxMn2Xal" title="Backend Engineer - CI/CD" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/164192/backend-engineer-ci-cd-gitlab?a=T41uxMn2Xal&quot;,null,null]">Backend Engineer - CI/CD</a> </h2> 
+              <p class="-posted-date g-col"> 4w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                GitLab 
+              </div> 
+              <div class="-location">
+                - No office location 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-go" class="post-tag job-link no-tag-menu">go</a><a href="/jobs/developer-jobs-using-ruby-on-rails" class="post-tag job-link no-tag-menu">ruby-on-rails</a><a href="/jobs/developer-jobs-using-continuous-integration" class="post-tag job-link no-tag-menu">continuous-integration</a><a href="/jobs/docker-developer-jobs" class="post-tag job-link no-tag-menu">docker</a><a href="/jobs/developer-jobs-using-kubernetes" class="post-tag job-link no-tag-menu">kubernetes</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="161873" class="-item -job -job-item js-dismiss-overlay-container dismissable-job _highlighted   "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f161873%3freturnUrl%3d%252Fjobs%252F171870%252Fdevops-engineer-remote-peak-games%253Fa%253DVDFOkIvyMIU%2526so%253Di%2526pg%253D1%2526offset%253D1%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="161873" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="BriteCore | Software Engineer (Product Development) | 161873" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/161873/software-engineer-product-development-britecore?a=ShNVVK5o7P8" title="Software Engineer (Product Development)" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/161873/software-engineer-product-development-britecore?a=ShNVVK5o7P8&quot;,null,null]">Software Engineer (Product Development)</a> </h2> 
+              <p class="-posted-date g-col"> 4w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                BriteCore 
+              </div> 
+              <div class="-location">
+                - Springfield, MO 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-salary"> $50k - 70k </span> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-django" class="post-tag job-link no-tag-menu">django</a><a href="/jobs/developer-jobs-using-vue.js" class="post-tag job-link no-tag-menu">vue.js</a><a href="/jobs/developer-jobs-using-javascript" class="post-tag job-link no-tag-menu">javascript</a><a href="/jobs/developer-jobs-using-amazon-web-services" class="post-tag job-link no-tag-menu">amazon-web-services</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </section> 
+        </div> 
+       </div> 
+       <div class="sidebar detail"> 
+        <div id="action-bar" class="action-bar dismissable-company js-dismiss-overlay-container "> 
+         <div class="-dismiss-job-overlay"> 
+          <div class="-text">
+            Okay, you won't see this job anymore. 
+           <a href="#" class="-undo js-undismiss-job" data-id="171870">Undo</a> 
+          </div> 
+         </div> 
+         <div class="g-row -title"> 
+          <h2 class="-text">Join the team at Peak Games</h2> 
+         </div> 
+         <div class="apply clear js-apply-container"> 
+          <a class="btn _medium _apply _url js-apply js-url-apply" rel="nofollow" href="https://peak.games/job?opening=devops-engineer-remote" data-analyticurl="/jobs/n/apply-out/171870?ra=VDFOkIvyMIU&amp;companyPageId=8316&amp;cta=JobDetailActionBar&amp;clickType=ExternalOutClick" target="_blank" data-ga="[&quot;Jobs Engagement&quot;,&quot;Apply Click&quot;,&quot;Peak Games | DevOps Engineer - Remote | 171870&quot;,null,null]"> 
+           <svg aria-hidden="true" class="svg-icon iconShare" width="18" height="18" viewbox="0 0 18 18">
+            <path d="M15 4.5L7.5 12 6 10.5 13.5 3H10V1h7v7h-2V4.5zM8 1v2H3v12h12v-5h2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h5z" />
+           </svg> Apply now </a> 
+         </div> 
+         <div class="g-row -share-report"> 
+          <div class="g-col -item favorite-job"> 
+           <span id="fav-share" class="favorite fav-toggle js-fav-toggle js-fav-text " data-favorite="False" data-jobid="171870" data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f171870%3freturnUrl%3d%252Fjobs%252F171870%252Fdevops-engineer-remote-peak-games%253Fa%253DVDFOkIvyMIU%2526so%253Di%2526pg%253D1%2526offset%253D1%2526total%253D683%26referrer%3dJobDetailActionBar%26sec%3dFalse&amp;ssrc=jobs" title="Click to add this job to your favorites." data-ga-label="Peak Games | DevOps Engineer - Remote | 171870"> 
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+            </svg> Save </span> 
+           <script type="text/html" id="fav-tip">
+                            <div class="fav-tip js-tooltip">
+                                <p><a href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f-1%3freturnUrl%3d%252Fjobs%252F171870%252Fdevops-engineer-remote-peak-games%253Fa%253DVDFOkIvyMIU%2526so%253Di%2526pg%253D1%2526offset%253D1%2526total%253D683%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs">Sign up</a> in order to add this job to your favorites.</p>
+                            </div>
+                        </script> 
+          </div> 
+          <div class="g-col -item social"> 
+           <a class="share"> 
+            <svg aria-hidden="true" class="svg-icon iconShare" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M15 4.5L7.5 12 6 10.5 13.5 3H10V1h7v7h-2V4.5zM8 1v2H3v12h12v-5h2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h5z" />
+            </svg> Share </a> 
+           <ul class="dropdown dno"> 
+            <li> <a href="/jobs/email-job?jobId=171870" class="mail" rel="nofollow" target="email">Email</a> </li> 
+            <li> <a href="/jobs/fb-share-job?jobId=171870" class="facebook" rel="nofollow">Facebook</a> </li> 
+            <li> <a href="/jobs/tweet-job?jobId=171870" class="twitter" rel="nofollow">Twitter</a> </li> 
+           </ul> 
+          </div> 
+          <div class="g-col -item report-job" id="js-report"> 
+           <a href="/jobs/flag/171870" class="g-col report js-report-job" rel="nofollow"> 
+            <svg aria-hidden="true" class="svg-icon iconFlag" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M3 2v14h2v-6h3.6l.4 1h6V3H9.5L9 2z" />
+            </svg> Report </a> 
+           <script type="text/html" id="report-tip">
+                            <div class="report-tip js-tooltip">
+                                <p><a href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2f171870%2fdevops-engineer-remote-peak-games%3fa%3dVDFOkIvyMIU%26so%3di%26pg%3d1%26offset%3d1%26total%3d683%26srjm%3d1&amp;ssrc=jobs">Sign up</a> in order to report this job.</p>
+                            </div>
+                        </script> 
+          </div> 
+         </div> 
+        </div> 
+        <section id="profile-summary"> 
+         <div class="-popout"> 
+          <strong class="-title">Are you looking for a job?</strong> 
+          <p>When you create a Developer Story, we’ll accelerate your matches and get you in front of employers ASAP.</p> 
+          <a href="/jobs/cv/sign-up-and-create?returnUrl=https%3A%2F%2Fstackoverflow.com%2Fjobs%2F171870%2Fdevops-engineer-remote-peak-games%3Fa%3DVDFOkIvyMIU%26so%3Di%26pg%3D1%26offset%3D1%26total%3D683%26scv%3Dt" class="-cta btn-secondary" rel="nofollow" data-ga="[&quot;Jobs Engagement&quot;,&quot;Jobs Onboarding Start&quot;,&quot;Create a Developer Story&quot;,null,null]">Create a Developer Story</a> 
+         </div> 
+        </section> 
+        <div id="activity-status-dialog" class="container"></div> 
+        <section class="-sidebar-similar-jobs"> 
+         <h2>Jobs you might like</h2> 
+         <div class="listResults"> 
+          <div data-jobid="169798" class="-item -job -job-item js-dismiss-overlay-container dismissable-job _highlighted   "> 
+           <div class="-job-summary -on-sidebar"> 
+            <div class="-title"> 
+             <h2> <a href="/jobs/169798/senior-infrastructure-engineer-devops-sre-f-m-jaumo-gmbh?a=UWAvTRZcDKO" title="Senior Infrastructure Engineer (DevOps/SRE) f/m (100% Remote)" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Right Sidebar&quot;,&quot;/jobs/169798/senior-infrastructure-engineer-devops-sre-f-m-jaumo-gmbh?a=UWAvTRZcDKO&quot;,null,null]">Senior Infrastructure Engineer (DevOps/SRE) f/m (100% Remote)</a> </h2> 
+            </div> 
+            <div class="-company g-row"> 
+             <div class="-name">
+               Jaumo GmbH 
+             </div> 
+             <div class="-location">
+               - No office location 
+             </div> 
+            </div> 
+            <div class="-perks "> 
+             <span class="-salary"> €60k - 150k </span> 
+             <span class="-remote"> Remote </span> 
+            </div> 
+            <div class="-tags g-row"> 
+             <span class="post-tag no-tag-menu">kubernetes</span> 
+             <span class="post-tag no-tag-menu">devops</span> 
+            </div> 
+           </div> 
+          </div> 
+          <div data-jobid="170788" class="-item -job -job-item js-dismiss-overlay-container dismissable-job _highlighted  can-apply "> 
+           <div class="-job-summary -on-sidebar"> 
+            <div class="-title"> 
+             <h2> <a href="/jobs/170788/amazon-web-services-aws-production-operations-webrtcventures?a=VhaMrqTbCEz" title="Amazon Web Services (AWS) Production Operations Engineer" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Right Sidebar&quot;,&quot;/jobs/170788/amazon-web-services-aws-production-operations-webrtcventures?a=VhaMrqTbCEz&quot;,null,null]">Amazon Web Services (AWS) Production Operations Engineer</a> </h2> 
+            </div> 
+            <div class="-company g-row"> 
+             <div class="-name">
+               WebRTC.ventures 
+             </div> 
+             <div class="-location">
+               - No office location 
+             </div> 
+            </div> 
+            <div class="-perks "> 
+             <span class="-remote"> Remote </span> 
+            </div> 
+            <div class="-tags g-row"> 
+             <span class="post-tag no-tag-menu">amazon-web-services</span> 
+             <span class="post-tag no-tag-menu">linux</span> 
+            </div> 
+           </div> 
+          </div> 
+          <div data-jobid="171008" class="-item -job -job-item js-dismiss-overlay-container dismissable-job   can-apply "> 
+           <div class="-job-summary -on-sidebar"> 
+            <div class="-title"> 
+             <h2> <a href="/jobs/171008/junior-project-manager-for-a-dev-ops-team-remote-platformsh?a=VlKoyTjpaQY" title="Junior Project Manager for a Dev/Ops Team - Remote" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Right Sidebar&quot;,&quot;/jobs/171008/junior-project-manager-for-a-dev-ops-team-remote-platformsh?a=VlKoyTjpaQY&quot;,null,null]">Junior Project Manager for a Dev/Ops Team - Remote</a> </h2> 
+            </div> 
+            <div class="-company g-row"> 
+             <div class="-name">
+               Platform.sh 
+             </div> 
+             <div class="-location">
+               - No office location 
+             </div> 
+            </div> 
+            <div class="-perks "> 
+             <span class="-salary"> Equity </span> 
+             <span class="-remote"> Remote </span> 
+            </div> 
+            <div class="-tags g-row"> 
+             <span class="post-tag no-tag-menu">project-management</span> 
+             <span class="post-tag no-tag-menu">python</span> 
+            </div> 
+           </div> 
+          </div> 
+          <div data-jobid="169099" class="-item -job -job-item js-dismiss-overlay-container dismissable-job   can-apply "> 
+           <div class="-job-summary -on-sidebar"> 
+            <div class="-title"> 
+             <h2> <a href="/jobs/169099/devops-engineer-emgage?a=UI3om1IYkqF" title="DevOps Engineer" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Right Sidebar&quot;,&quot;/jobs/169099/devops-engineer-emgage?a=UI3om1IYkqF&quot;,null,null]">DevOps Engineer</a> </h2> 
+            </div> 
+            <div class="-company g-row"> 
+             <div class="-name">
+               Emgage 
+             </div> 
+             <div class="-location">
+               - Pasadena, CA 
+             </div> 
+            </div> 
+            <div class="-perks "> 
+             <span class="-salary"> $40k - 130k </span> 
+             <span class="-remote"> Remote </span> 
+             <span class="-visa"> Visa sponsor </span> 
+             <span class="-relocation"> Paid relocation </span> 
+            </div> 
+            <div class="-tags g-row"> 
+             <span class="post-tag no-tag-menu">devops</span> 
+             <span class="post-tag no-tag-menu">security</span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </section> 
+        <div id="post-job"> 
+         <div class="post-job-header"> 
+          <div class="header-img"></div> 
+         </div> 
+         <div class="post-job-content"> 
+          <p>Hiring developers? We have Talent Solutions.</p> 
+          <a target="_blank" href="/jobs/post-job?r=JobsDetailSidebar">Learn more&nbsp;»</a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <span class="page-title">DevOps Engineer - Remote at Peak Games</span> 
+     </div> 
+     <!-- End Careers Body --> 
+     <!-- End SO: 2:Body --> 
+    </div> 
+    <!-- Start SO: 3:JavaScript --> 
+    <!-- Begin Careers Javascript --> 
+    <script type="text/javascript">
+            window._trackJs = {
+                token: 'ab6d9997c71d45d082e65135f148be49',
+                application: "stack-overflow-jobs",
+                userId: '0',
+                version: '8703'
+            };
+        </script> 
+    <script crossorigin="anonymous" src="https://cdn.sstatic.net/careers/Js/third-party/trackjs/2.8.4/tracker.min.js?v=a7d1635618e5" type="text/javascript"></script> 
+    <script type="text/javascript">
+        if (!window.jQuery) {
+            document.write('<script crossorigin="anonymous" src="https://cdn.sstatic.net/careers/Js/third-party/jquery/1.12.4/jquery-1.12.4.min.js?v=bc2444e2951c" type="text/javascript"><\/script>');
+        }
+    </script> 
+    <script>
+        
+        
+        (function (i, r) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments);
+            }, i[r].l = 1 * new Date();
+        })(window, 'ga');
+
+        
+        if (navigator.sendBeacon) {
+            var _sendBeacon = navigator.sendBeacon.bind(navigator);
+            if (_sendBeacon) {
+                navigator.sendBeacon = function (url, data) {
+                    if (url == "/gps/event") {
+                        url = "/jobs/n/prizm/event";
+                    }
+                    return _sendBeacon(url, data);
+                };
+            }
+        }
+
+        
+        $.ajaxPrefilter(function (options) {
+            if (options.url == "/gps/event") {
+                options.url = "/jobs/n/prizm/event";
+            }
+        });
+    </script> 
+    <script>if (!window.Promise) document.writeln("\u003cscript crossorigin=\"anonymous\" src=\"https://cdn.sstatic.net/careers/Js/third-party/es6-promise/es6-promise.min.js?v=edf6449d00e9\" type=\"text/javascript\"\u003e\u003c/script\u003e");</script>
+    <script crossorigin="anonymous" src="https://cdn.sstatic.net/careers/Js/third-party/systemjs/system-polyfill.min.js?v=90d9ef787026" type="text/javascript"></script> 
+    <script>
+        System.baseURL = "https://cdn.sstatic.net/careers/Ts/Jobs/";
+    </script> 
+    <script crossorigin="anonymous" src="https://cdn.sstatic.net/careers/Ts/Jobs/jobs.min.js?v=4c7439edf979" type="text/javascript"></script> 
+    <script>StackOverflow.Jobs.init({"favorites":{"addHtml":"\u003csvg aria-hidden=\u0022true\u0022 class=\u0022svg-icon iconStar\u0022 width=\u002218\u0022 height=\u002218\u0022 viewBox=\u00220 0 18 18\u0022\u003e\u003cpath d=\u0022M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z\u0022/\u003e\u003c/svg\u003e Save","addTitleText":"Click to add this job to your favorites.","removeHtml":"\u003csvg aria-hidden=\u0022true\u0022 class=\u0022svg-icon iconStar\u0022 width=\u002218\u0022 height=\u002218\u0022 viewBox=\u00220 0 18 18\u0022\u003e\u003cpath d=\u0022M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z\u0022/\u003e\u003c/svg\u003e Saved!","removeTitleText":"This job is currently in your favorites. Click if you\u0027d like to remove."},"profileSummary":{"redirectToStoryAfterStatusUpdate":false,"searchStatusUrl":"/jobs/cv/set-search-state","storyUrl":"/users/story/create?r=JobsSidebar","successMessage":"Your job search status has been updated."},"applyButton":{"applyUrl":"/jobs/apply/171870?oqs=a%3DVDFOkIvyMIU%26so%3Di%26pg%3D1%26offset%3D1%26total%3D683","emailLinksUrl":"/jobs/widgets/apply-via-email-links"},"askButton":{"showModal":false},"reportButton":{"showModal":false},"featuredCompanyAds":{"url":"/jobs/a/featured-company-js"},"jobDetails":{"jobVisitUrl":"/jobs/n/v/171870","createAlertModalUrl":"/jobs/alerts/anonymous/subscribe/modal","createAlertUrl":"/jobs/saved-search/save?getMobilePanel=False","queryString":"cl=Peak Games","navClickUrl":"/jobs/record-nav-click","onboardingUrl":"https://stackoverflow.com/users/story/create?returnUrl=%2fjobs%2f171870%2fdevops-engineer-remote-peak-games%3fa%3dVDFOkIvyMIU%26so%3di%26pg%3d1%26offset%3d1%26total%3d683%26sitv%3d1\u0026r=ExpressInterest","undoWindow":600000.0},"sharing":{},"forms":{"XSRF_KEY":"d16a35da63103e8b1162221b85b5952621651c541085caea15d1785affbc32a4"},"user":{"isAnonymous":true}});</script>
+    <!-- End Careers Javascript --> 
+    <!-- End SO: 3:JavaScript --> 
+   </div> 
+  </div> 
+  <footer id="footer" class="site-footer js-footer" role="contentinfo"> 
+   <div class="site-footer--container"> 
+    <div class="site-footer--logo"> 
+     <a href="https://stackoverflow.com">
+      <svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewbox="0 0 32 37">
+       <g>
+        <path fill="#BCBBBB" d="M26 33v-9h4v13H0V24h4v9z" />
+        <path d="M23.1 25.99l.68-2.95-16.1-3.35L7 23l16.1 2.99zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm4.2-7.4L26 18.4l2.1-2.5L15.4 5.3l-2.1 2.5zM21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM7 30h16v-3H7v3z" fill="#F48024" />
+       </g>
+      </svg></a> 
+    </div> 
+    <nav class="site-footer--nav"> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://stackoverflow.com" class="js-gps-track" data-gps-track="footer.click({ location: 29, link: 15})">Stack Overflow</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 16})">Questions</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 17})">Jobs</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 11})">Developer Jobs Directory</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 28})">Salary Calculator</a></li> 
+       <li class="-item"><a href="/help" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 3 })">Help</a></li> 
+       <li class="-item"><a onclick="StackExchange.switchMobile(&quot;on&quot;)" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 12 })">Mobile</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://www.stackoverflowbusiness.com/?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-business-category" class="js-gps-track" data-gps-track="footer.click({ location: 29, link: 19 })">Stack Overflow<br> Business</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 20 })">Talent</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-advertise" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 21 })">Ads</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/enterprise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 22 })">Enterprise</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 29, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 7 })" href="https://stackexchange.com/legal">Legal</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 8 })" href="https://stackexchange.com/legal/privacy-policy">Privacy Policy</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--categories-nav site-footer--col__visible"> 
+      <a href="#" class="site-footer--back js-footer-back">
+       <svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewbox="0 0 18 18">
+        <path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z" />
+       </svg></a> 
+      <div> 
+       <h5 class="-title"><a href="https://stackexchange.com">Stack Exchange<br> Network</a></h5> 
+       <ul class="-list"> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Technology">Technology</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Life / Arts">Life / Arts</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Science">Science</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Other">Other</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="site-footer--categories"> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li> 
+        <li class="-item"><a href="https://serverfault.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="system and network administrators">Server Fault</a></li> 
+        <li class="-item"><a href="https://superuser.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="computer enthusiasts and power users">Super User</a></li> 
+        <li class="-item"><a href="https://webapps.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of web applications">Web Applications</a></li> 
+        <li class="-item"><a href="https://askubuntu.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li> 
+        <li class="-item"><a href="https://webmasters.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="pro webmasters">Webmasters</a></li> 
+        <li class="-item"><a href="https://gamedev.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and independent game developers">Game Development</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://tex.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li> 
+        <li class="-item"><a href="https://softwareengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li> 
+        <li class="-item"><a href="https://unix.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li> 
+        <li class="-item"><a href="https://apple.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li> 
+        <li class="-item"><a href="https://wordpress.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li> 
+        <li class="-item"><a href="https://gis.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li> 
+        <li class="-item"><a href="https://electronics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://android.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li> 
+        <li class="-item"><a href="https://security.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="information security professionals">Information Security</a></li> 
+        <li class="-item"><a href="https://dba.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li> 
+        <li class="-item"><a href="https://drupal.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li> 
+        <li class="-item"><a href="https://sharepoint.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li> 
+        <li class="-item"><a href="https://ux.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="user experience researchers and experts">User Experience</a></li> 
+        <li class="-item"><a href="https://mathematica.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://salesforce.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li> 
+        <li class="-item"><a href="https://expressionengine.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li> 
+        <li class="-item"><a href="https://pt.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Português</a></li> 
+        <li class="-item"><a href="https://blender.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li> 
+        <li class="-item"><a href="https://networkengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="network engineers">Network Engineering</a></li> 
+        <li class="-item"><a href="https://crypto.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li> 
+        <li class="-item"><a href="https://codereview.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="peer programmer code reviews">Code Review</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://magento.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li> 
+        <li class="-item"><a href="https://softwarerecs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li> 
+        <li class="-item"><a href="https://dsp.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li> 
+        <li class="-item"><a href="https://emacs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li> 
+        <li class="-item"><a href="https://raspberrypi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li> 
+        <li class="-item"><a href="https://ru.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="программистов">Stack Overflow на русском</a></li> 
+        <li class="-item"><a href="https://codegolf.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://es.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores y profesionales de la informática">Stack Overflow en español</a></li> 
+        <li class="-item"><a href="https://ethereum.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li> 
+        <li class="-item"><a href="https://datascience.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li> 
+        <li class="-item"><a href="https://arduino.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li> 
+        <li class="-item"><a href="https://bitcoin.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (28) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://photo.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li> 
+        <li class="-item"><a href="https://scifi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li> 
+        <li class="-item"><a href="https://graphicdesign.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li> 
+        <li class="-item"><a href="https://movies.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li> 
+        <li class="-item"><a href="https://music.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li> 
+        <li class="-item"><a href="https://worldbuilding.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li> 
+        <li class="-item"><a href="https://cooking.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://diy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li> 
+        <li class="-item"><a href="https://money.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li> 
+        <li class="-item"><a href="https://academia.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li> 
+        <li class="-item"><a href="https://law.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (15) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://english.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li> 
+        <li class="-item"><a href="https://skeptics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientific skepticism">Skeptics</a></li> 
+        <li class="-item"><a href="https://judaism.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li> 
+        <li class="-item"><a href="https://travel.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li> 
+        <li class="-item"><a href="https://christianity.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li> 
+        <li class="-item"><a href="https://ell.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li> 
+        <li class="-item"><a href="https://japanese.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://gaming.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li> 
+        <li class="-item"><a href="https://bicycles.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li> 
+        <li class="-item"><a href="https://rpg.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li> 
+        <li class="-item"><a href="https://anime.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li> 
+        <li class="-item"><a href="https://puzzling.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li> 
+        <li class="-item"><a href="https://mechanics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (33) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://mathoverflow.net" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional mathematicians">MathOverflow</a></li> 
+        <li class="-item"><a href="https://math.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li> 
+        <li class="-item"><a href="https://stats.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li> 
+        <li class="-item"><a href="https://cstheory.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li> 
+        <li class="-item"><a href="https://physics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li> 
+        <li class="-item"><a href="https://chemistry.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientists, academics, teachers and students">Chemistry</a></li> 
+        <li class="-item"><a href="https://biology.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="biology researchers, academics, and students">Biology</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://cs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li> 
+        <li class="-item"><a href="https://philosophy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (10) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Other"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://meta.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li> 
+        <li class="-item"><a href="https://stackapps.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li> 
+        <li class="-item"><a href="https://api.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li> 
+        <li class="-item"><a href="https://data.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li> 
+        <li class="-item"><a href="https://area51.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="proposing new sites in the Stack Exchange network">Area 51</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </nav> 
+    <div class="site-footer--copyright fs-fine"> 
+     <ul class="-list"> 
+      <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link:4 })" href="https://stackoverflow.blog?blb=1">Blog</a></li> 
+      <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li> 
+      <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li> 
+      <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li> 
+     </ul> 
+     <p class="mt-auto mb24"> site design / logo © 2018 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license">attribution required</a>. <span id="svnrev">rev&nbsp;2018.3.23.29561</span> </p> 
+    </div> 
+   </div> 
+  </footer> 
+  <noscript> 
+   <div id="noscript-warning">
+    Stack Overflow works best with JavaScript enabled 
+    <img src="https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"> 
+   </div> 
+  </noscript> 
+  <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                var trackingCodes = [
+                    'UA-5620270-1'
+                ];
+
+                        trackingCodes.push('UA-108242619-1');
+
+                StackExchange.ga.init({
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: trackingCodes
+                });
+
+
+
+
+                    StackExchange.ga.setDimension('dimension3', 'Jobs: Jobs/Details');
+
+                StackExchange.ga.trackPageView();
+            });
+            
+/**/
+            
+            var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+            (function() {
+                var ssl = 'https:' == document.location.protocol,
+                    s = document.getElementsByTagName('script')[0],
+                    qc = document.createElement('script');
+                 qc.async = true;
+                    qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                    s.parentNode.insertBefore(qc, s);
+                    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+/**/
+                 var sc = document.createElement('script');
+                    sc.async = true;
+                    sc.src = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+                    s.parentNode.insertBefore(sc, s);
+                    _comscore.push({ c1: "2", c2: "17440561" });
+            })();
+            
+
+</script>  
+ </body>
+</html>

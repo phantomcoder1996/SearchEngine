@@ -1,0 +1,468 @@
+https://www.tutorialspoint.com/orientdb/index.htm
+<!doctype html>
+<!--[if IE 8]><html class="ie ie8"> <![endif]-->
+<!--[if IE 9]><html class="ie ie9"> <![endif]-->
+<!--[if gt IE 9]><!-->
+<html>
+ <!--<![endif]-->
+ <head> 
+  <!-- Basic --> 
+  <meta charset="utf-8"> 
+  <title>OrientDB Tutorial</title> 
+  <meta name="description" content="OrientDB Tutorial for Beginners - Learn OrientDB in simple and easy steps starting from basic to advanced concepts with examples including Overview, Installation, Basic Concepts, Data Types, Console Modes, Create Database, Alter Database, Backup Database, Restore Database, Connect Database, Disconnect Database, Info Database, List Database, Freeze Database, Release Database, Config Database, Export Database, Import Database, Commit Database, Rollback Database, Optimize Database, Drop Database, Insert Record, Display Records, Load Record, Reload Record, Export Record, Update Record, Truncate Record, Delete Record, Create Class, Alter Class, Truncate Class, Drop Class, Create Cluster, Alter Cluster, Truncate Cluster, Drop Cluster, Create Property, Alter Property, Drop Property, Create Vertex, Move Vertex, Delete Vertex, Create Edge, Update Edge, Delete Edge, Functions, Sequences, Indexes, Transactions, Hooks, Caching, Logging, Performance Tuning, Upgrading, Security, Studio, Java Interface, Python Interface."> 
+  <meta name="keywords" content="OrientDB, Tutorial, Learning, Beginners, Overview, Installation, Basic Concepts, Data Types, Console Modes, Create Database, Alter Database, Backup Database, Restore Database, Connect Database, Disconnect Database, Info Database, List Database, Freeze Database, Release Database, Config Database, Export Database, Import Database, Commit Database, Rollback Database, Optimize Database, Drop Database, Insert Record, Display Records, Load Record, Reload Record, Export Record, Update Record, Truncate Record, Delete Record, Create Class, Alter Class, Truncate Class, Drop Class, Create Cluster, Alter Cluster, Truncate Cluster, Drop Cluster, Create Property, Alter Property, Drop Property, Create Vertex, Move Vertex, Delete Vertex, Create Edge, Update Edge, Delete Edge, Functions, Sequences, Indexes, Transactions, Hooks, Caching, Logging, Performance Tuning, Upgrading, Security, Studio, Java Interface, Python Interface."> 
+  <base href="https://www.tutorialspoint.com/"> 
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=yes"> 
+  <meta property="og:locale" content="en_US"> 
+  <meta property="og:type" content="website"> 
+  <meta property="fb:app_id" content="471319149685276"> 
+  <meta property="og:site_name" content="www.tutorialspoint.com"> 
+  <meta name="robots" content="index, follow"> 
+  <meta name="apple-mobile-web-app-capable" content="yes"> 
+  <meta name="apple-mobile-web-app-status-bar-style" content="black"> 
+  <meta name="author" content="tutorialspoint.com"> 
+  <script type="text/javascript" src="https://www.tutorialspoint.com/theme/js/script-min-v4.js?v=2"></script> 
+  <link rel="stylesheet" href="https://www.tutorialspoint.com/theme/css/style-min.css?v=3"> 
+  <script async src="https://www.googletagservices.com/tag/js/gpt.js"></script> 
+  <script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script> 
+  <script>
+googletag.cmd.push(function() {
+    googletag.defineSlot('/60931893/tutorial_right_bottom', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-0').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_middle', [[300, 250], [300, 600]], 'div-gpt-ad-1510138782906-1').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_right_top', [300, 250], 'div-gpt-ad-1510138782906-2').addService(googletag.pubads());
+    googletag.defineSlot('/60931893/tutorial_bottom_leader_board', [[600, 400], [300, 250], [480, 320], [468, 60], [336, 280], [600, 200], [580, 400]], 'div-gpt-ad-1510138782906-3').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+});
+function openNav() {	
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("right_obs").style.display = "block";
+}
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+function close_obs_sidenav(){
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("right_obs").style.display = "none";
+}
+</script> 
+  <!-- Head Libs --> 
+  <!--[if IE 8]>
+<link rel="stylesheet" type="text/css" href="/theme/css/ie8.css">
+<![endif]--> 
+  <style>
+select{ border:0 !important; outline: 1px inset black !important; outline-offset: -1px !important; }
+.btnsbmt{ background: #f96730 !important;}
+ul.nav-list.primary>li a.videolink{    background: none; margin: 0px; padding: 0px; border: 1px solid #d6d6d6;}
+div.feature-box div.feature-box-icon, .col-md-3 .course-box, li.heading, div.footer-copyright { background: #f96730 url(/images/pattern.png) repeat center center !important;}
+.sub-main-menu .sub-menuu div:hover, .sub-main-menu .viewall, header nav ul.nav-main li a:hover, button.btn-responsive-nav, header div.search button.btn-default { background: #f96730 !important;}
+.submenu-item{ border-bottom: 2px solid #f96730 !important; border-top: 2px solid #f96730 !important }
+.ace_scroller{overflow: auto!important;}
+a.demo{font-family: "Open Sans",Arial,sans-serif; background:#f96730; color:#fff; font-size:13px; padding:3px 10px; border:1px solid #d6d6d6; position:absolute; right:5px; margin:-6px 17px 0px 0px;}
+a.demo:hover{opacity:.8}
+</style> 
+  <script>
+$(document).ready(function() {
+  $('input[name="q"]').keydown(function(event){
+    if(event.keyCode == 13) {
+      event.preventDefault();
+      return false;
+    }
+  });
+});
+</script> 
+ </head> 
+ <body onload="prettyPrint()"> 
+  <div class="wrapLoader"> 
+   <div class="imgLoader"> 
+    <img src="/images/loading-cg.gif" alt="" width="70" height="70"> 
+   </div> 
+  </div> 
+  <div id="right_obs" class="display-none" onclick="close_obs_sidenav()"></div> 
+  <header> 
+   <div class="container"> 
+    <h1 class="logo"> <a href="index.htm" title="tutorialspoint"> <img alt="tutorialspoint" src="/orientdb/images/logo.png"> </a> </h1> 
+    <ul class="tp-inline-block pull-right" id="tp-head-icons"> 
+     <li> 
+      <div class="tp-second-nav tp-display-none tp-pointer" onclick="openNav()"> 
+       <i class="fa fa-th-large fa-lg"></i> 
+      </div> </li> 
+    </ul> 
+    <button class="btn btn-responsive-nav btn-inverse" data-toggle="collapse" data-target=".nav-main-collapse" id="pull" style="top: 24px!important"> <i class="icon icon-bars"></i> </button> 
+    <nav> 
+     <ul class="nav nav-pills nav-top"> 
+      <li><a href="/about/about_careers.htm" style="background: #fffb09; font-weight: bold;"><i class="icon icon-suitcase"></i> Jobs</a></li> 
+      <li> <a target="_blank" href="/programming_examples/"><i class="fa fa-cubes"></i> &nbsp;Examples</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/whiteboard.htm"><img src="theme/css/icons/image-editor.png" alt="Whiteboard" title="Whiteboard"> &nbsp;Whiteboard</a> </li> 
+      <li> <a href="https://www.tutorialspoint.com/netmeeting.php"><i class="fa-camera"></i> &nbsp;Net Meeting</a> </li> 
+      <li> <a href="/online_dev_tools.htm"> <i class="dev-tools-menu" style="opacity:.5"></i> Tools </a> </li> 
+      <li> <a href="/articles/index.php"><i class="icon icon-file-text-o"></i> &nbsp;Articles</a> </li> 
+      <li class="top-icons"> 
+       <ul class="social-icons"> 
+        <li class="facebook"><a href="https://www.facebook.com/tutorialspointindia" target="_blank" data-placement="bottom" title="tutorialspoint @ Facebook">Facebook</a></li> 
+        <li class="googleplus"><a href="https://plus.google.com/u/0/116678774017490391259/posts" target="_blank" data-placement="bottom" title="tutorialspoint @ Google+">Google+</a></li> 
+        <li class="twitter"><a href="https://www.twitter.com/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Twitter">Twitter</a></li> 
+        <li class="linkedin"><a href="https://www.linkedin.com/company/tutorialspoint" target="_blank" data-placement="bottom" title="tutorialspoint @ Linkedin">Linkedin</a></li> 
+        <li class="youtube"><a href="https://www.youtube.com/channel/UCVLbzhxVTiTLiVKeGV7WEBg" target="_blank" data-placement="bottom" title="tutorialspoint YouTube">YouTube</a></li> 
+       </ul> </li> 
+     </ul> 
+    </nav> 
+   </div> 
+   <div class="sidenav" id="mySidenav"> 
+    <div class="navbar nav-main"> 
+     <div class="container"> 
+      <nav class="nav-main mega-menu"> 
+       <ul class="nav nav-pills nav-main" id="mainMenu"> 
+        <li class="dropdown no-sub-menu"> <a class="dropdown" href="index.htm"><i class="icon icon-home"></i> Home</a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="/questions/index.php"><i class="fa fa-send"></i> Q/A </a> </li> 
+        <li class="dropdown"><a class="dropdown" href="tutorialslibrary.htm"><span class="tut-lib"> Library </span></a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="videotutorials/index.htm"><i class="fa-toggle-right"></i> Videos </a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="tutor_connect/index.php"><i class="fa-user"> </i> Tutors</a></li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="codingground.htm"><i class="fa-code"></i> Coding Ground </a> </li> 
+        <li class="dropdown no-sub-menu"><a class="dropdown" href="https://store.tutorialspoint.com/"><i class="fa-usd"></i> Store </a> </li> 
+        <li class="dropdown no-sub-menu"> 
+         <div class="searchform-popup"> 
+          <input class="header-search-box" type="text" id="search-string" name="q" placeholder="Search your favorite tutorials..." onfocus="if (this.value == 'Search your favorite tutorials...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Search your favorite tutorials...';}" autocomplete="off"> 
+          <div class="magnifying-glass">
+           <i class="icon-search"></i> Search 
+          </div> 
+         </div> </li> 
+       </ul> 
+      </nav> 
+     </div> 
+    </div> 
+   </div>  
+  </header> 
+  <div style="clear:both;"></div> 
+  <div role="main" class="main"> 
+   <div class="container"> 
+    <div class="row"> 
+     <div class="col-md-2"> 
+      <aside class="sidebar"> 
+       <div class="mini-logo"> 
+        <img src="/orientdb/images/orientdb-mini-logo.jpg" alt="OrientDB Tutorial"> 
+       </div> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">OrientDB Tutorial</li> 
+        <li><a href="/orientdb/index.htm">OrientDB - Home</a></li> 
+        <li><a href="/orientdb/orientdb_overview.htm">OrientDB - Overview</a></li> 
+        <li><a href="/orientdb/orientdb_installation.htm">OrientDB - Installation</a></li> 
+        <li><a href="/orientdb/orientdb_basic_concepts.htm">OrientDB - Basic Concepts</a></li> 
+        <li><a href="/orientdb/orientdb_data_types.htm">OrientDB - Data Types</a></li> 
+        <li><a href="/orientdb/orientdb_console_modes.htm">OrientDB - Console Modes</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">OrientDB Database Commands</li> 
+        <li><a href="/orientdb/orientdb_create_database.htm">OrientDB - Create Database</a></li> 
+        <li><a href="/orientdb/orientdb_alter_database.htm">OrientDB - Alter Database</a></li> 
+        <li><a href="/orientdb/orientdb_backup_database.htm">OrientDB - Backup Database</a></li> 
+        <li><a href="/orientdb/orientdb_restore_database.htm">OrientDB - Restore Database</a></li> 
+        <li><a href="/orientdb/orientdb_connect_database.htm">OrientDB - Connect Database</a></li> 
+        <li><a href="/orientdb/orientdb_disconnect_database.htm">OrientDB - Disconnect Database</a></li> 
+        <li><a href="/orientdb/orientdb_info_database.htm">OrientDB - Info Database</a></li> 
+        <li><a href="/orientdb/orientdb_list_database.htm">OrientDB - List Database</a></li> 
+        <li><a href="/orientdb/orientdb_freeze_database.htm">OrientDB - Freeze Database</a></li> 
+        <li><a href="/orientdb/orientdb_release_database.htm">OrientDB - Release Database</a></li> 
+        <li><a href="/orientdb/orientdb_config_database.htm">OrientDB - Config Database</a></li> 
+        <li><a href="/orientdb/orientdb_export_database.htm">OrientDB - Export Database</a></li> 
+        <li><a href="/orientdb/orientdb_import_database.htm">OrientDB - Import Database</a></li> 
+        <li><a href="/orientdb/orientdb_commit_database.htm">OrientDB - Commit Database</a></li> 
+        <li><a href="/orientdb/orientdb_rollback_database.htm">OrientDB - Rollback Database</a></li> 
+        <li><a href="/orientdb/orientdb_optimize_database.htm">OrientDB - Optimize Database</a></li> 
+        <li><a href="/orientdb/orientdb_drop_database.htm">OrientDB - Drop Database</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">OrientDB Record Commands</li> 
+        <li><a href="/orientdb/orientdb_insert_record.htm">OrientDB - Insert Record</a></li> 
+        <li><a href="/orientdb/orientdb_display_records.htm">OrientDB - Display Records</a></li> 
+        <li><a href="/orientdb/orientdb_load_record.htm">OrientDB - Load Record</a></li> 
+        <li><a href="/orientdb/orientdb_reload_record.htm">OrientDB - Reload Record</a></li> 
+        <li><a href="/orientdb/orientdb_export_record.htm">OrientDB - Export Record</a></li> 
+        <li><a href="/orientdb/orientdb_update_record.htm">OrientDB - Update Record</a></li> 
+        <li><a href="/orientdb/orientdb_truncate_record.htm">OrientDB - Truncate Record</a></li> 
+        <li><a href="/orientdb/orientdb_delete_record.htm">OrientDB - Delete Record</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">OrientDB Class Commands</li> 
+        <li><a href="/orientdb/orientdb_create_class.htm">OrientDB - Create Class</a></li> 
+        <li><a href="/orientdb/orientdb_alter_class.htm">OrientDB - Alter Class</a></li> 
+        <li><a href="/orientdb/orientdb_truncate_class.htm">OrientDB - Truncate Class</a></li> 
+        <li><a href="/orientdb/orientdb_drop_class.htm">OrientDB - Drop Class</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">OrientDB Cluster Commands</li> 
+        <li><a href="/orientdb/orientdb_create_cluster.htm">OrientDB - Create Cluster</a></li> 
+        <li><a href="/orientdb/orientdb_alter_cluster.htm">OrientDB - Alter Cluster</a></li> 
+        <li><a href="/orientdb/orientdb_truncate_cluster.htm">OrientDB - Truncate Cluster</a></li> 
+        <li><a href="/orientdb/orientdb_drop_cluster.htm">OrientDB - Drop Cluster</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">OrientDB Property Commands</li> 
+        <li><a href="/orientdb/orientdb_create_property.htm">OrientDB - Create Property</a></li> 
+        <li><a href="/orientdb/orientdb_alter_property.htm">OrientDB - Alter Property</a></li> 
+        <li><a href="/orientdb/orientdb_drop_property.htm">OrientDB - Drop Property</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">OrientDB Vertex Commands</li> 
+        <li><a href="/orientdb/orientdb_create_vertex.htm">OrientDB - Create Vertex</a></li> 
+        <li><a href="/orientdb/orientdb_move_vertex.htm">OrientDB - Move Vertex</a></li> 
+        <li><a href="/orientdb/orientdb_delete_vertex.htm">OrientDB - Delete Vertex</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">OrientDB Edge Commands</li> 
+        <li><a href="/orientdb/orientdb_create_edge.htm">OrientDB - Create Edge</a></li> 
+        <li><a href="/orientdb/orientdb_update_edge.htm">OrientDB - Update Edge</a></li> 
+        <li><a href="/orientdb/orientdb_delete_edge.htm">OrientDB - Delete Edge</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">OrientDB Advanced Concepts</li> 
+        <li><a href="/orientdb/orientdb_functions.htm">OrientDB - Functions</a></li> 
+        <li><a href="/orientdb/orientdb_sequences.htm">OrientDB - Sequences</a></li> 
+        <li><a href="/orientdb/orientdb_indexes.htm">OrientDB - Indexes</a></li> 
+        <li><a href="/orientdb/orientdb_transactions.htm">OrientDB - Transactions</a></li> 
+        <li><a href="/orientdb/orientdb_hooks.htm">OrientDB - Hooks</a></li> 
+        <li><a href="/orientdb/orientdb_caching.htm">OrientDB - Caching</a></li> 
+        <li><a href="/orientdb/orientdb_logging.htm">OrientDB - Logging</a></li> 
+        <li><a href="/orientdb/orientdb_performance_tuning.htm">OrientDB - Performance Tuning</a></li> 
+        <li><a href="/orientdb/orientdb_upgrading.htm">OrientDB - Upgrading</a></li> 
+        <li><a href="/orientdb/orientdb_security.htm">OrientDB - Security</a></li> 
+        <li><a href="/orientdb/orientdb_studio.htm">OrientDB - Studio</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">OrientDB Interfaces</li> 
+        <li><a href="/orientdb/orientdb_java_interface.htm">OrientDB - Java Interface</a></li> 
+        <li><a href="/orientdb/orientdb_python_interface.htm">OrientDB - Python Interface</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary left-menu"> 
+        <li class="heading">OrientDB Useful Resources</li> 
+        <li><a href="/orientdb/orientdb_quick_guide.htm">OrientDB - Quick Guide</a></li> 
+        <li><a href="/orientdb/orientdb_useful_resources.htm">OrientDB - Useful Resources</a></li> 
+        <li><a href="/orientdb/orientdb_discussion.htm">OrientDB - Discussion</a></li> 
+       </ul> 
+       <ul class="nav nav-list primary push-bottom left-menu special"> 
+        <li class="sreading">Selected Reading</li> 
+        <li><a target="_top" href="/upsc_ias_exams.htm">UPSC IAS Exams Notes</a></li> 
+        <li><a target="_top" href="/developers_best_practices/index.htm">Developer's Best Practices</a></li> 
+        <li><a target="_top" href="/questions_and_answers.htm">Questions and Answers</a></li> 
+        <li><a target="_top" href="/effective_resume_writing.htm">Effective Resume Writing</a></li> 
+        <li><a target="_top" href="/hr_interview_questions/index.htm">HR Interview Questions</a></li> 
+        <li><a target="_top" href="/computer_glossary.htm">Computer Glossary</a></li> 
+        <li><a target="_top" href="/computer_whoiswho.htm">Who is Who</a></li> 
+       </ul> 
+      </aside> 
+     </div> 
+     <!-- PRINTING STARTS HERE --> 
+     <div class="row"> 
+      <div class="content"> 
+       <div class="col-md-7 middle-col"> 
+        <div class="cover"> 
+         <img class="img-responsive" src="/orientdb/images/orientdb.jpg" alt="OrientDB Tutorial"> 
+        </div> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/orientdb/orientdb_overview.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <div class="clearer"></div> 
+        <hr> 
+        <h1>OrientDB Tutorial</h1> 
+        <div class="center-aligned tutorial-menu"> 
+         <form action="/job_search.php" method="POST"> 
+          <input type="hidden" name="search_string" value="OrientDB"> 
+          <button type="button" class="btn btn-default btn-sm btn-buy-tutorial"><i class="icon  icon-file-pdf-o"></i><a href="/orientdb/orientdb_pdf_version.htm"> PDF Version</a></button> 
+          <button type="button" class="btn btn-default btn-sm btn-quick-guide"><i class="icon  icon-book"></i><a href="/orientdb/orientdb_quick_guide.htm"> Quick Guide</a></button> 
+          <button type="button" class="btn btn-default btn-sm btn-extra-links"><i class="icon  icon-external-link"></i><a href="/orientdb/orientdb_useful_resources.htm"> Resources</a></button> 
+          <button type="submit" class="btn btn-default btn-sm btn-job-search"><i class="icon  icon-suitcase"></i> Job Search</button> 
+          <button type="button" class="btn btn-default btn-sm btn-job-search"><i class="fa  fa-wechat"></i><a href="/orientdb/orientdb_discussion.htm"> Discussion</a></button> 
+         </form> 
+        </div> 
+        <p>OrientDB is an Open Source NoSQL Database Management System, which contains the features of traditional DBMS along with the new features of both Document and Graph DBMS. It is written in Java and is amazingly fast. It can store 220,000 records per second on commodity hardware.</p> 
+        <p>In the following chapters of this tutorial, we will look closely at OrientDB, one of the best open-source, multi-model, next generation NoSQL product.</p> 
+        <h1>Audience</h1> 
+        <p>This tutorial is designed for software professionals who are willing to learn NoSQL Database in simple and easy steps. This tutorial will give a great understanding on OrientDB concepts.</p> 
+        <h1>Prerequisites</h1> 
+        <p>OrientDB is NoSQL Database technologies which deals with the Documents, Graphs and traditional database components, like Schema and relation. Thus it is better to have knowledge of SQL. Familiarity with NoSQL is an added advantage.</p> 
+        <hr> 
+        <div class="pre-btn"> 
+         <a href="/index.htm"><i class="icon icon-arrow-circle-o-left big-font"></i> Previous Page</a> 
+        </div> 
+        <div class="print-btn center"> 
+         <a href="/cgi-bin/printpage.cgi" target="_blank"><i class="icon icon-print big-font"></i> Print</a> 
+        </div> 
+        <div class="nxt-btn"> 
+         <a href="/orientdb/orientdb_overview.htm">Next Page <i class="icon icon-arrow-circle-o-right big-font"></i>&nbsp;</a> 
+        </div> 
+        <hr> 
+        <!-- PRINTING ENDS HERE --> 
+        <div class="bottomgooglead"> 
+         <div class="bottomadtag">
+          Advertisements
+         </div> 
+         <!-- /60931893/tutorial_bottom_leader_board --> 
+         <div id="div-gpt-ad-1510138782906-3"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-3'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="row"> 
+       <div class="col-md-3" id="rightbar"> 
+        <div class="ysubscribe"> 
+         <script async src="https://apis.google.com/js/platform.js"></script> 
+         <div class="g-ytsubscribe" data-channelid="UCVLbzhxVTiTLiVKeGV7WEBg" data-layout="full" data-count="default"></div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_top --> 
+         <div id="div-gpt-ad-1510138782906-2" style="height:250px; width:300px;"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-2'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_middle --> 
+         <div id="div-gpt-ad-1510138782906-1"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-1'); });
+</script> 
+         </div> 
+        </div> 
+        <div class="rightgooglead"> 
+         <!-- /60931893/tutorial_right_bottom --> 
+         <div id="div-gpt-ad-1510138782906-0"> 
+          <script>
+googletag.cmd.push(function() { googletag.display('div-gpt-ad-1510138782906-0'); });
+</script> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+   <div class="footer-copyright"> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-md-1"> 
+       <a href="index.htm" class="logo"> <img alt="Tutorials Point" class="img-responsive" src="/scripts/img/logo-footer.png"> </a> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <nav id="sub-menu"> 
+        <ul> 
+         <li><a href="/about/tutorials_writing.htm">Write for us</a></li> 
+         <li><a href="/about/faq.htm">FAQ's</a></li> 
+         <li><a href="/about/about_helping.htm">Helping</a></li> 
+         <li><a href="/about/contact_us.htm">Contact</a></li> 
+        </ul> 
+       </nav> 
+      </div> 
+      <div class="col-md-3 col-sm-12 col-xs-12"> 
+       <p>© Copyright 2018. All Rights Reserved.</p> 
+      </div> 
+      <div class="col-md-4 col-sm-12 col-xs-12"> 
+       <div class="news-group"> 
+        <input type="text" class="form-control-foot search" name="textemail" id="textemail" autocomplete="off" placeholder="Enter email for newsletter" onfocus="if (this.value == 'Enter email for newsletter...') {this.value = '';}" onblur="if (this.value == '') {this.value = 'Enter email for newsletter...';}"> 
+        <span class="input-group-btn"> <button class="btn btn-default btn-footer" id="btnemail" type="submit" onclick="javascript:void(0);">go</button> </span> 
+        <div id="newsresponse"></div> 
+       </div> 
+      </div> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <!-- Libs --> 
+  <script type="text/javascript" src="/theme/js/custom-min.js?v=7"></script> 
+  <script src="https://www.google-analytics.com/urchin.js">
+</script> 
+  <script type="text/javascript">
+_uacct = "UA-232293-6";
+urchinTracker();
+$('.pg-icon').click(function(){
+   $('.wrapLoader').show();
+});
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "OrientDB Tutorial",
+    "name": "OrientDB Tutorial",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.tutorialspoint.com/orientdb/index.htm"
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.tutorialspoint.com/orientdb/images/orientdb.jpg",
+        "width": 613,
+        "height": 194
+    },
+    "author": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "datePublished": "January 08 2018 06:24:06.",
+    "dateModified": "January 08 2018 06:24:06.",
+    "publisher": {
+        "@type": "Organization",
+        "name": "Tutorials Point",
+        "url": "https://www.tutorialspoint.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.tutorialspoint.com/images/logo60.png",
+            "width": 210,
+            "height": 60
+        }
+    },
+    "description": "OrientDB is an Open Source NoSQL Database Management System, which contains the features of traditional DBMS along with the new features of both Document and Graph DBMS. It is written in Java and is amazingly fast. It can store 220,000 records per second ..."
+}
+</script> 
+  <script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+        {
+            "@type": "ListItem",
+            "position": 1,
+            "item": {
+                "name": "www.tutorialspoint.com",
+                "@id": "https://www.tutorialspoint.com"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 2,
+            "item": {
+                "name": "Orientdb",
+                "@id": "https://www.tutorialspoint.com/orientdb"
+            }
+        },
+        {
+            "@type": "ListItem",
+            "position": 3,
+            "item": {
+                "name": "OrientDB - Home"
+            }
+        }
+    ]
+}
+</script>    
+ </body>
+</html>

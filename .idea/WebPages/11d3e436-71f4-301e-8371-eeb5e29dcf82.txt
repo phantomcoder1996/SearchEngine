@@ -1,0 +1,1417 @@
+https://stackoverflow.com/jobs/171884/build-release-software-engineer-citrix?a=VDXRk42NaSI&so=i&pg=1&offset=2&total=683
+<!doctype html>
+<html>
+ <head> 
+  <title>Build Release Software Engineer at Citrix  - Stack Overflow</title> 
+  <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d"> 
+  <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a"> 
+  <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+  <script src="https://cdn.sstatic.net/Js/stub.en.js?v=57e020fde11a"></script> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=596945d5421b"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=94cd993a63cf"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=13dc725d5020"> 
+  <!-- Start SO: 4:Head --> 
+  <!-- Begin Careers Head --> 
+  <script>
+    
+    StackExchange.gaReady(function() {
+
+StackExchange.ga.setDimension('dimension20', 'No');
+}
+);
+
+</script> 
+  <meta property="og:type" content="article"> 
+  <meta property="og:title" content="Build Release Software Engineer at Citrix"> 
+  <meta property="og:description" content="The Citrix Build Release Engineering team, based in Fort Lauderdale, FL., is focused on designing, developing, and maintaining Build systems and Release…"> 
+  <meta property="og:image" content="https://cdn.sstatic.net/careers/Img/social/OG_Facebook_subpage.png?v=d18b5f58823c"> 
+  <meta property="og:image:width" content="1200"> 
+  <meta property="og:image:height" content="628"> 
+  <meta name="description" content="Citrix is hiring a Build Release Software Engineer on Stack Overflow Jobs. Learn more about the Build Release Software Engineer job and apply now on Stack Overflow Jobs."> 
+  <meta name="twitter:card" content="summary_large_image"> 
+  <meta name="twitter:site" content="@StackDevJobs"> 
+  <meta name="twitter:domain" content="Stack Overflow Jobs"> 
+  <meta name="twitter:title" content="Build Release Software Engineer at Citrix"> 
+  <meta name="twitter:description" content="The Citrix Build Release Engineering team, based in Fort Lauderdale, FL., is focused on designing, developing, and maintaining Build systems and Release automation for Citrix&amp;amp;rsquo;s Cloud and Server…"> 
+  <meta name="twitter:image" content="https://i.stack.imgur.com/5sVTT.jpg"> 
+  <script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "JobPosting",
+  "title": "Build Release Software Engineer",
+  "skills": [
+    "perl",
+    "powershell",
+    "windows",
+    "python",
+    "teamcity"
+  ],
+  "description": "<h2>About this job</h2>\r\n<p><span>Location options: <strong>Visa sponsor, Paid relocation</strong></span><br/><span>Job type: <strong>Permanent</strong></span><br/><span>Experience level: <strong>Mid-Level</strong></span><br/><span>Role: <strong>System Administrator</strong></span><br/></p><br/><br/><h2>Technologies</h2> <p>perl, powershell, windows, python, teamcity</p> <br/><br/><h2>Job description</h2> The Citrix Build Release Engineering team, based in Fort Lauderdale, FL., is focused on designing, developing, and maintaining Build systems and Release automation for Citrix&rsquo;s Cloud and Server products. Every day we work to deliver innovative solutions that enable our customers to transform their business by leveraging the latest technologies.<p>\r\nOur team culture is a unique blend that combines the structured vision and process maturity of a well-established software company with the dynamism and vibrancy of a small startup. We&rsquo;re currently looking for a Build Release Engineer to join us on this exciting journey to build world-class global solutions and help to shape the future of work.</p>\r\n<p><strong><strong><strong>Position Summary:</strong>&nbsp; </strong></strong></p>\r\nDesign, develop, and maintain Build systems and Release automation for Citrix&rsquo;s Cloud and Server products.&nbsp;<p>\r\n<p><strong><strong><strong>Primary Responsibilities:</strong></strong></strong></p>\r\nThe goal of the Build Release Engineer is to design and maintain the software build systems for Citrix releases, allowing timely release of builds to the Citrix Life Cycle Maintenance team and Product QA team. This would entail designing, implementing, executing, and debugging the build environment using TeamCity, Jenkins, Ant, Chef, Powershell, Perl, C#, Shell Scripting, and Make. Maintain product lifecycle branching using Perforce and Git source control tools.</p>\r\nAdditional responsibilities:<p>\r\n<ul>\r\n<li>Maintain build systems using tools such as TeamCity, Jenkins, and Ant.</li>\r\n<li>Implement various automated solutions via PowerShell, Python, PERL, HTML, CMD scripting.</li>\r\n<li>Maintain code branches and perform integrations across branches using Perforce and Git.</li>\r\n<li>Provide support to Product Engineering teams for new product releases and maintenance releases</li>\r\n<li><span>Rework/maintain/optimize</span> various projects based on changing requirements</li>\r\n<li>Automate the build and release of multiple projects</li>\r\n<li>Troubleshoot and fix compilation or script issues in various projects.</li>\r\n<li>Prioritize multiple tasks based on project urgency</li>\r\n<li>Coordinate tasks across multiple sites per project.</li>\r\n</ul>\r\n<p><strong><strong>Core Level Qualifications:</strong></strong></p>\r\n<strong><strong>Education:</strong></strong>&nbsp; Bachelor&rsquo;s or Master&rsquo;s degree in Computer Science, Computer Engineering or Electrical Engineering from an accredited college or technical institute.</p>\r\n\r\nMust be able to demonstrate a strong understanding of computer science concepts including:<p>\r\n<ul>\r\n<li>Intermediate/expert working knowledge of scripting in&nbsp;PowerShell, Python, or&nbsp;PERL</li>\r\n<li>Understanding of build controllers, tools and technologies such as TeamCity, Jenkins, Ant, Chef, Visual Studio, MSBuild and NMake</li>\r\n<li>Understanding of Installation tools and technologies such as MSI, MSP, Orca and WiX</li>\r\n<li>Understanding of data-interchange formats such as JSON, YAML and XML</li>\r\n</ul>\r\n\r\n<strong><strong>Experience: </strong></strong></p>\r\n\r\n<ul>\r\n<li>3-5 years of Software Configuration Management or Release Engineering experience</li>\r\n<li>TeamCity experience is highly preferred</li>\r\n</ul> <br/><br/>",
+  "datePosted": "2018-03-23",
+  "validThrough": "2019-01-29",
+  "employmentType": "FULL_TIME",
+  "experienceRequirements": "Mid-Level",
+  "jobBenefits": [
+    "BYOD- let's you decide how to work   We have a BYOD allowance",
+    "Flexible workstyles are important to us - we don't focus on traffic",
+    "Almost every location has a fitness center and healthy living programs",
+    "Work with the best technical minds",
+    "Competitive pay, matched 401K, quarterly cash awards and equity",
+    "When you are in the office, you'll enjoy comfy environments",
+    "Even the smartest get smarter here    Come to grow and develop",
+    "We feed you with fresh, nutritious meals yet you can also splurge"
+  ],
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "Citrix",
+    "sameAs": "https://careers.citrix.com",
+    "logo": "https://i.stack.imgur.com/U2s0S.png",
+    "description": "<p><strong>Why Citrix?</strong></p>\r\n<p>Let us tell you why you will absolutely love our company.</p>\r\n<p><strong>Work with cutting-edge technologies</strong></p>\r\n<p>And we mean really cool stuff. Work with the latest cloud, mobile and virtualization technologies. You can also work with award winning products such as GoToMeeting, ShareFile and Podio.</p>\r\n<p><strong>Work with smart, curious and motivated people</strong></p>\r\n<p>Come and collaborate with the industry&rsquo;s most visionary minds. Be challenged and motivated by the people you work with everyday. You&rsquo;ll enjoy making your own impact while further developing your skills and your career.</p>\r\n<p><strong>Perks, perks, more perks, and financial rewards</strong></p>\r\n<p>Where do we start? From competitive salaries and generous paid time off to free snacks, healthy living benefits, and game rooms in our super cool office space, Citrix has a lot to offer! We believe that work should not only be rewarding, we believe work should be fun. We focus more on results than where or when work gets done. It&rsquo;s exhilarating to be part of this unique culture.</p>\r\n<p>And, there&rsquo;s more to love about Citrix. Ask any of our employees and they will tell you why.&nbsp;</p>\r\n<p>Pretty cool. Want to be part of our team?</p>\r\n<p><br>We are looking for talented individuals that want and know how to make it happen. &nbsp;</p>\r\n<p>Come and unleash your creativity, developing and perfecting the next generation of mobile, cloud, collaboration and virtualization solutions. Collaborate with brilliant minds, yielding ideas that change the game. &nbsp; Drive our business and your career forward with innovation unlike anything you&rsquo;ve seen before.</p>\r\n<p><strong>It's different here...you'll see. &nbsp;</strong></p>\r\n<p><strong>Connect with us and have a conversation with our talent experts and let's talk about what excites you. &nbsp;</strong></p>"
+  },
+  "jobLocation": [
+    {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "US",
+        "addressRegion": "FL",
+        "addressLocality": "Fort Lauderdale",
+        "streetAddress": "851 West Cypress Creek Road",
+        "postalCode": "33309"
+      }
+    }
+  ]
+}
+</script> 
+  <link rel="canonical" href="https://stackoverflow.com/jobs/171884/build-release-software-engineer-citrix"> 
+  <!-- End Careers Head --> 
+  <!-- End SO: 4:Head --> 
+  <!-- Start SO: 5:CSS --> 
+  <!-- Begin Careers CSS --> 
+  <link href="https://cdn.sstatic.net/careers/less/views/jobs/jobs.min.css?v=21036f2bc5c7" rel="stylesheet" type="text/css"> 
+  <!-- End Careers CSS --> 
+  <!-- End SO: 5:CSS --> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/jobs.css?v=d0f2c7dd0397"> 
+  <script src="https://maps.googleapis.com/maps/api/js?libraries=places&amp;key=AIzaSyCOvQgO0envTRT_ulsBcZo0is6OYMzMORg"></script> 
+  <script>
+        StackExchange.init({"locale":"en","serverTime":1521843114,"routeName":"Jobs: Jobs/Details","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"childUrl":"https://meta.stackoverflow.com","enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"d16a35da63103e8b1162221b85b5952621651c541085caea15d1785affbc32a4","tid":"39d6e3a3-78ed-482d-5e54-26503fdf6988","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4}}, {"site":{"allowImageUploads":true,"commentHighlightingWithCSS":true,"enableUserHovercards":true,"styleCode":true,"enableImgurHttps":true,"forceHttpsImages":true},"userMessaging":{},"comments":{},"userProfile":{"openGraphAPIKey":"58740831ad23540e00c58987"},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"paths":{},"markdown":{"asteriskIntraWordEmphasis":true},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad"},"subscriptions":{}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"fd71fcd78b2c","js/moderator.en.js":"d350b664ddb3","js/full-anon.en.js":"81c19a49c169","js/full.en.js":"6d6c19847a8b","js/wmd.en.js":"a349c871bd62","js/third-party/jquery.autocomplete.min.js":"bdb258e949a8","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"4804a16f7074","js/help.en.js":"a1c2d4ed1321","js/tageditor.en.js":"bff66e3469d5","js/tageditornew.en.js":"586ffe22ab58","js/inline-tag-editing.en.js":"e7aa31e8eba1","js/revisions.en.js":"8f22ba768cac","js/review.en.js":"5eda79317cf4","js/tagsuggestions.en.js":"78eee7c19ab2","js/post-validation.en.js":"ec745f184617","js/explore-qlist.en.js":"66e52888786d","js/events.en.js":"8f07ed802b6b","js/keyboard-shortcuts.en.js":"8588a17139dd","js/external-editor.en.js":"3c50622b803d","js/adops.en.js":"22a9bd59b1e9","js/external-editor.en.js":"3c50622b803d","js/snippet-javascript.en.js":"6596eb95a324","js/snippet-javascript-codemirror.en.js":"6e1735fcf180"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script> 
+  <noscript id="noscript-css">
+   <style>body,.top-bar{margin-top:1.9em}</style>
+  </noscript> 
+ </head> 
+ <body class=" new-topbar"> 
+  <script async src="https://js-sec.indexww.com/ht/p/185901-159836282584097.js"></script> 
+  <div id="notify-container"></div> 
+  <div id="custom-header"></div> 
+  <header class="top-bar js-top-bar _fixed"> 
+   <div class="-container"> 
+    <div class="-main"> 
+     <a href="https://stackoverflow.com" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:29, destination:8})"> <span class="-img">Stack Overflow</span> </a> 
+     <nav class="navigation" role="navigation" aria-label="site navigation"> 
+      <ol class="-list"> 
+       <li class="-item"> <a id="nav-questions" href="/questions" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:29, destination:1})">Questions</a> </li> 
+       <li class="-item _current"> <a id="nav-jobs" href="/jobs?med=site-ui&amp;ref=jobs-tab" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:true, location:29, destination:6})">Developer Jobs</a> </li> 
+       <li class="-item"> <a id="nav-tags" href="/tags" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:29, destination:2})">Tags</a> </li> 
+       <li class="-item"> <a id="nav-users" href="/users" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:29, destination:3})">Users</a> </li> 
+      </ol> 
+     </nav> 
+    </div> 
+    <form id="search" action="/search" method="get" class="searchbar" autocomplete="off" role="search"> 
+     <input name="q" type="text" placeholder="Search…" value="" tabindex="1" autocomplete="off" maxlength="240" class="f-input js-search-field"> 
+     <button type="submit" aria-label="Search..." class="btn-topbar-primary js-search-submit">
+      <svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewbox="0 0 18 18">
+       <path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z" />
+      </svg></button> 
+    </form> 
+    <div class="-actions"> 
+     <nav class="secondary-nav"> 
+      <div class="-dialog-container js-topbar-dialog-corral"> 
+       <div class="topbar-dialog siteSwitcher-dialog dno"> 
+        <div class="header"> 
+         <h3><a href="https://stackoverflow.com">current community</a> </h3> 
+        </div> 
+        <div class="modal-content current-site-container"> 
+         <ul class="current-site"> 
+          <li> 
+           <div class="related-links"> 
+            <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:14 })">help</a> 
+            <a href="https://chat.stackoverflow.com" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a> 
+           </div> <a href="https://stackoverflow.com" class="current-site-link site-link js-gps-track" data-id="1" data-gps-track="site_switcher.click({ item_type:3 })"> 
+            <div class="favicon favicon-stackoverflow site-icon" title="Stack Overflow"></div> Stack Overflow </a> </li> 
+          <li class="related-site"> 
+           <div class="L-shaped-icon-container"> 
+            <span class="L-shaped-icon"></span> 
+           </div> <a href="https://meta.stackoverflow.com" class="site-link js-gps-track" data-id="552" data-gps-track="site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })"> 
+            <div class="favicon favicon-stackoverflowmeta site-icon" title="Meta Stack Overflow"></div> Meta Stack Overflow </a> </li> 
+         </ul> 
+        </div> 
+        <div class="header" id="your-communities-header"> 
+         <h3> your communities </h3> 
+        </div> 
+        <div class="modal-content" id="your-communities-section"> 
+         <div class="call-to-login"> 
+          <a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcreate" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or 
+          <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fjobs%2f171884%2fbuild-release-software-engineer-citrix%3fa%3dvdxrk42nasi%26so%3di%26pg%3d1%26offset%3d2%26total%3d683" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list. 
+         </div> 
+        </div> 
+        <div class="header"> 
+         <h3><a href="https://stackexchange.com/sites">more stack exchange communities</a> </h3> 
+         <a href="https://stackoverflow.blog" class="fr">company blog</a> 
+        </div> 
+        <div class="modal-content"> 
+         <div class="child-content"></div> 
+        </div> 
+       </div> 
+       <div class="topbar-dialog help-dialog js-help-dialog dno"> 
+        <div class="modal-content"> 
+         <ul> 
+          <li> <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })"> Tour <span class="item-summary"> Start here for a quick overview of the site </span> </a> </li> 
+          <li> <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })"> Help Center <span class="item-summary"> Detailed answers to any questions you might have </span> </a> </li> 
+          <li> <a href="https://meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })"> Meta <span class="item-summary"> Discuss the workings and policies of this site </span> </a> </li> 
+          <li> <a href="https://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })"> About Us <span class="item-summary"> Learn more about Stack Overflow the company </span> </a> </li> 
+          <li> <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })"> Business <span class="item-summary"> Learn more about hiring developers or posting ads with us </span> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+      <ol class="-list"> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages"> 
+         <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewbox="0 0 20 18">
+          <path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z" />
+         </svg> <span class="indicator-badge js-unread-count _important" style="display: none;"></span> </a> </li> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive"> 
+         <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z" />
+         </svg> <span class="indicator-badge js-unread-count _positive" style="display: none;"></span> </a> </li> 
+       <li class="-item"><a href="#" class="-link js-help-button" title="Help Center and other resources"> 
+         <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z" />
+         </svg> </a></li> 
+       <li class="-item"> <a href="https://stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 172 Stack Exchange sites"> 
+         <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z" />
+         </svg> </a> </li> 
+      </ol> 
+     </nav> 
+     <div class="-ctas"> 
+      <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fjobs%2f171884%2fbuild-release-software-engineer-citrix%3fa%3dvdxrk42nasi%26so%3di%26pg%3d1%26offset%3d2%26total%3d683" class="login-link btn-clear" rel="nofollow">Log In</a> 
+      <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=%2fusers%2fstory%2fcreate" class="login-link btn-topbar-primary" rel="nofollow" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]">Sign Up</a> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+        StackExchange.scrollPadding.setPaddingTop(60, 10);     </script> 
+  <div id="announcement-banner" data-campaign="2018-03-13.dev-survey-2018" data-cookie="notice-dsr" data-expire-date="1524211200000"> 
+   <div class="-container"> 
+    <span class="-body">The results are in!</span> 
+    <a class="-link js-link js-gps-track" href="https://insights.stackoverflow.com/survey/2018/" data-ga="[&quot;dev-survey-2018&quot;,&quot;Announcement Banner&quot;,&quot;https://insights.stackoverflow.com/survey/2018/&quot;,null,{&quot;dimension4&quot;:&quot;dev-survey-2018&quot;}]" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 29, action: 2})">See the 2018 Developer Survey results. »</a> 
+    <a class="-dismiss js-dismiss js-gps-track" href="#" title="dismiss" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 29, action: 1})">
+     <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewbox="0 0 18 18">
+      <path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z" />
+     </svg></a> 
+   </div> 
+  </div> 
+  <script>
+    StackExchange.ready(function () {
+        var $banner = $('#announcement-banner');
+
+        function setCookie(value) {
+            $.cookie($banner.data('cookie'), value, {
+                expires: (new Date($banner.data('expire-date'))),
+                path: '/'
+            });
+        }
+
+        $banner.find('.js-link').click(function () {
+            setCookie('2;' + Date.now());
+        });
+
+        $banner.find('.js-dismiss').click(function () {
+            setCookie('4;' + Date.now());
+            $banner.animate({ height: '0', opacity: 0 }, 'fast', 'linear', function () { $banner.remove(); });
+            return false;
+        });
+    });
+</script> 
+  <div class="container _full"> 
+   <div id="content" class="snippet-hidden"> 
+    <!-- Start SO: 1:Banner --> 
+    <!-- Begin Careers Banner --> 
+    <!-- End Careers Banner --> 
+    <!-- End SO: 1:Banner --> 
+    <div class="content proxy"> 
+     <!-- Start SO: 2:Body --> 
+     <!-- Begin Careers Body --> 
+     <div class="job-cover-image"> 
+      <img alt="" class="top" src="//i.stack.imgur.com/5sVTT.jpg"> 
+     </div> 
+     <div id="job-detail"> 
+      <div class="job-detail-header"> 
+       <div class="-header g-row ai-center"> 
+        <div class="-company-logo sticky-col-logo"> 
+         <div class="detail-company-block"> 
+          <div class="detail-company-logo"> 
+           <a href="/jobs/companies/citrix"><img alt="" src="https://i.stack.imgur.com/U2s0S.png"></a> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="-description"> 
+         <div class="g-row"> 
+          <h1 class="-title"> <a href="/jobs/171884/build-release-software-engineer-citrix" title="Build Release Software Engineer" class="title job-link">Build Release Software Engineer</a> </h1> 
+         </div> 
+         <div class="-company g-row"> 
+          <div class="-name"> 
+           <a class="employer" href="/jobs/companies/citrix">Citrix</a> 
+          </div> 
+          <div class="-location">
+            - Fort Lauderdale, FL 
+          </div> 
+         </div> 
+         <div class="-perks g-row"> 
+          <p class="-visa"> Visa sponsor </p> 
+          <p class="-relocation"> Paid relocation </p> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <div class="job-detail-body"> 
+       <div class="main"> 
+        <div class="job-detail-content"> 
+         <nav class="-tabs js-tabs"> 
+          <div class="subtabs js-subtabs"> 
+           <a href="#overview-items" class="youarehere" data-nav-item="Overview">Overview</a> 
+           <a href="#company-items" data-nav-item="Company">Company</a> 
+           <a href="#more-jobs-items" data-nav-item="MoreJobs">More Jobs</a> 
+          </div> 
+         </nav> 
+         <nav class="-sticky-tabs js-sticky-tabs"> 
+          <div class="-container g-row jc-sp-between ai-center"> 
+           <div class="subtabs js-subtabs"> 
+            <a href="#overview-items" class="youarehere" data-nav-item="Overview">Overview</a> 
+            <a href="#company-items" data-nav-item="Company">Company</a> 
+            <a href="#more-jobs-items" data-nav-item="MoreJobs">More Jobs</a> 
+           </div> 
+           <div class="-apply js-apply-container"> 
+            <a class="btn _medium _apply _url js-apply js-url-apply" rel="nofollow" href="https://citrix.wd1.myworkdayjobs.com/CitrixCareers/job/Fort-Lauderdale/Build-Release-Software-Engineer_R9510" data-analyticurl="/jobs/n/apply-out/171884?ra=VDXRk42NaSI&amp;companyPageId=2739&amp;cta=JobDetailStickyNav&amp;clickType=ExternalOutClick" target="_blank" data-ga="[&quot;Jobs Engagement&quot;,&quot;Apply Click&quot;,&quot;Citrix | Build Release Software Engineer | 171884&quot;,null,null]"> 
+             <svg aria-hidden="true" class="svg-icon iconShare" width="18" height="18" viewbox="0 0 18 18">
+              <path d="M15 4.5L7.5 12 6 10.5 13.5 3H10V1h7v7h-2V4.5zM8 1v2H3v12h12v-5h2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h5z" />
+             </svg> Apply now </a> 
+           </div> 
+          </div> 
+         </nav> 
+         <div id="overview-items" class="nav-content"> 
+          <section class="-about-job"> 
+           <h2>About this job</h2> 
+           <div class="-about-job-items g-row"> 
+            <div class="g-column"> 
+             <div class="-item g-col"> 
+              <span class="-key">Job type: </span> 
+              <span class="-value">Permanent</span> 
+             </div> 
+             <div class="-item g-col"> 
+              <span class="-key">Experience level: </span> 
+              <span class="-value">Mid-Level</span> 
+             </div> 
+             <div class="-item g-col"> 
+              <span class="-key">Role: </span> 
+              <span class="-value">System Administrator</span> 
+             </div> 
+            </div> 
+           </div> 
+          </section> 
+          <section class="-technologies"> 
+           <h2>Technologies</h2> 
+           <div class="-tags g-row"> 
+            <p> <a href="/jobs/developer-jobs-using-perl" class="post-tag job-link no-tag-menu">perl</a><a href="/jobs/developer-jobs-using-powershell" class="post-tag job-link no-tag-menu">powershell</a><a href="/jobs/developer-jobs-using-windows" class="post-tag job-link no-tag-menu">windows</a><a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-teamcity" class="post-tag job-link no-tag-menu">teamcity</a> </p> 
+           </div> 
+          </section> 
+          <section class="-job-description"> 
+           <h2>Job description</h2> 
+           <div class="description">
+             The Citrix Build Release Engineering team, based in Fort Lauderdale, FL., is focused on designing, developing, and maintaining Build systems and Release automation for Citrix’s Cloud and Server products. Every day we work to deliver innovative solutions that enable our customers to transform their business by leveraging the latest technologies.
+            <p> Our team culture is a unique blend that combines the structured vision and process maturity of a well-established software company with the dynamism and vibrancy of a small startup. We’re currently looking for a Build Release Engineer to join us on this exciting journey to build world-class global solutions and help to shape the future of work.</p> 
+            <p><strong><strong><strong>Position Summary:</strong>&nbsp; </strong></strong></p> Design, develop, and maintain Build systems and Release automation for Citrix’s Cloud and Server products.&nbsp;
+            <p> </p>
+            <p><strong><strong><strong>Primary Responsibilities:</strong></strong></strong></p> The goal of the Build Release Engineer is to design and maintain the software build systems for Citrix releases, allowing timely release of builds to the Citrix Life Cycle Maintenance team and Product QA team. This would entail designing, implementing, executing, and debugging the build environment using TeamCity, Jenkins, Ant, Chef, Powershell, Perl, C#, Shell Scripting, and Make. Maintain product lifecycle branching using Perforce and Git source control tools.
+            <p></p> Additional responsibilities:
+            <p> </p>
+            <ul> 
+             <li>Maintain build systems using tools such as TeamCity, Jenkins, and Ant.</li> 
+             <li>Implement various automated solutions via PowerShell, Python, PERL, HTML, CMD scripting.</li> 
+             <li>Maintain code branches and perform integrations across branches using Perforce and Git.</li> 
+             <li>Provide support to Product Engineering teams for new product releases and maintenance releases</li> 
+             <li><span>Rework/maintain/optimize</span> various projects based on changing requirements</li> 
+             <li>Automate the build and release of multiple projects</li> 
+             <li>Troubleshoot and fix compilation or script issues in various projects.</li> 
+             <li>Prioritize multiple tasks based on project urgency</li> 
+             <li>Coordinate tasks across multiple sites per project.</li> 
+            </ul> 
+            <p><strong><strong>Core Level Qualifications:</strong></strong></p> 
+            <strong><strong>Education:</strong></strong>&nbsp; Bachelor’s or Master’s degree in Computer Science, Computer Engineering or Electrical Engineering from an accredited college or technical institute.
+            <p></p> Must be able to demonstrate a strong understanding of computer science concepts including:
+            <p> </p>
+            <ul> 
+             <li>Intermediate/expert working knowledge of scripting in&nbsp;PowerShell, Python, or&nbsp;PERL</li> 
+             <li>Understanding of build controllers, tools and technologies such as TeamCity, Jenkins, Ant, Chef, Visual Studio, MSBuild and NMake</li> 
+             <li>Understanding of Installation tools and technologies such as MSI, MSP, Orca and WiX</li> 
+             <li>Understanding of data-interchange formats such as JSON, YAML and XML</li> 
+            </ul> 
+            <strong><strong>Experience: </strong></strong>
+            <p></p> 
+            <ul> 
+             <li>3-5 years of Software Configuration Management or Release Engineering experience</li> 
+             <li>TeamCity experience is highly preferred</li> 
+            </ul> 
+           </div> 
+          </section> 
+          <div class="apply clear apply-center js-apply-container"> 
+           <a class="btn _large _apply _url js-apply js-url-apply" rel="nofollow" href="https://citrix.wd1.myworkdayjobs.com/CitrixCareers/job/Fort-Lauderdale/Build-Release-Software-Engineer_R9510" data-analyticurl="/jobs/n/apply-out/171884?ra=VDXRk42NaSI&amp;companyPageId=2739&amp;cta=JobDetailCenter&amp;clickType=ExternalOutClick" target="_blank" data-ga="[&quot;Jobs Engagement&quot;,&quot;Apply Click&quot;,&quot;Citrix | Build Release Software Engineer | 171884&quot;,null,null]"> 
+            <svg aria-hidden="true" class="svg-icon iconShare" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M15 4.5L7.5 12 6 10.5 13.5 3H10V1h7v7h-2V4.5zM8 1v2H3v12h12v-5h2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h5z" />
+            </svg> Apply now </a> 
+          </div> 
+         </div> 
+        </div> 
+        <div class="company-page"> 
+         <div id="company-items" class="nav-content"> 
+          <section class="-life-at-company"> 
+           <h2>Life at Citrix</h2> 
+           <div class="top-image"> 
+            <img alt="" class="top" src="//i.stack.imgur.com/5sVTT.jpg"> 
+           </div> 
+          </section> 
+          <section class="-about-company"> 
+           <h2> About Citrix </h2> 
+           <div class="description"> 
+            <p><strong>Why Citrix?</strong></p> 
+            <p>Let us tell you why you will absolutely love our company.</p> 
+            <p><strong>Work with cutting-edge technologies</strong></p> 
+            <p>And we mean really cool stuff. Work with the latest cloud, mobile and virtualization technologies. You can also work with award winning products such as GoToMeeting, ShareFile and Podio.</p> 
+            <p><strong>Work with smart, curious and motivated people</strong></p> 
+            <p>Come and collaborate with the industry’s most visionary minds. Be challenged and motivated by the people you work with everyday. You’ll enjoy making your own impact while further developing your skills and your career.</p> 
+            <p><strong>Perks, perks, more perks, and financial rewards</strong></p> 
+            <p>Where do we start? From competitive salaries and generous paid time off to free snacks, healthy living benefits, and game rooms in our super cool office space, Citrix has a lot to offer! We believe that work should not only be rewarding, we believe work should be fun. We focus more on results than where or when work gets done. It’s exhilarating to be part of this unique culture.</p> 
+            <p>And, there’s more to love about Citrix. Ask any of our employees and they will tell you why.&nbsp;</p> 
+            <p>Pretty cool. Want to be part of our team?</p> 
+            <p><br>We are looking for talented individuals that want and know how to make it happen. &nbsp;</p> 
+            <p>Come and unleash your creativity, developing and perfecting the next generation of mobile, cloud, collaboration and virtualization solutions. Collaborate with brilliant minds, yielding ideas that change the game. &nbsp; Drive our business and your career forward with innovation unlike anything you’ve seen before.</p> 
+            <p><strong>It's different here...you'll see. &nbsp;</strong></p> 
+            <p><strong>Connect with us and have a conversation with our talent experts and let's talk about what excites you. &nbsp;</strong></p> 
+           </div> 
+          </section> 
+          <section class="-benefits"> 
+           <h2>Benefits</h2> 
+           <div class="benefit" title="BYOD- let's you decide how to work   We have a BYOD allowance"> 
+            <svg aria-hidden="true" class="svg-icon iconComputer" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M1 4v7c0 1.1.9 2 2 2h4l-1 2v1h6v-1l-1-2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H3a2 2 0 0 0-2 2zm14 7H3V4h12v7z" />
+            </svg> BYOD- let's you decide how to work We have a BYOD allowance 
+           </div> 
+           <div class="benefit" title="Flexible workstyles are important to us - we don't focus on traffic"> 
+            <svg aria-hidden="true" class="svg-icon iconSubway" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M9 1c-4.42 0-7 .5-7 4v6.5A3.5 3.5 0 0 0 5.5 15L4 16.5v.5h10v-.5L12.5 15a3.5 3.5 0 0 0 3.5-3.5V5c0-3.5-2.58-4-7-4zM5.5 12.75a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zM8 9H4V5h4v4zm4.5 3.75a1.25 1.25 0 1 1 0-2.5 1.25 1.25 0 0 1 0 2.5zM14 9h-4V5h4v4z" />
+            </svg> Flexible workstyles are important to us - we don't focus on traffic 
+           </div> 
+           <div class="benefit" title="Almost every location has a fitness center and healthy living programs"> 
+            <svg aria-hidden="true" class="svg-icon iconFitness" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M15.57 9.86L17 8.43 15.57 7 12 10.57 7.43 6 11 2.43 9.57 1 8.14 2.43 6.71 1 4.57 3.14 3.14 1.71 1.71 3.14l1.43 1.43L1 6.71l1.43 1.43L1 9.57 2.43 11 6 7.43 10.57 12 7 15.57 8.43 17l1.43-1.43L11.29 17l2.14-2.14 1.43 1.43 1.43-1.43-1.43-1.43L17 11.29z" />
+            </svg> Almost every location has a fitness center and healthy living programs 
+           </div> 
+           <div class="benefit" title="Work with the best technical minds"> 
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+            </svg> Work with the best technical minds 
+           </div> 
+           <div class="benefit" title="Competitive pay, matched 401K, quarterly cash awards and equity"> 
+            <svg aria-hidden="true" class="svg-icon iconMoney" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M9.25 8.13c-1.76-.46-2.33-.93-2.33-1.67 0-.85.79-1.44 2.1-1.44 1.38 0 1.95.99 2 1.96h1.71a3.74 3.74 0 0 0-2.72-3.32L10 2H8v1.6c-1.5.32-2.98 1.38-2.98 2.87 0 1.8 1.6 2.69 3.76 3.2 1.94.47 2.33 1.15 2.33 1.87 0 .54-.38 1.4-2.1 1.4-1.6 0-2.22-1.03-2.3-1.94H5c.1 1.7 1.53 2.96 3.01 3.27L8 16h2v-1.71c1.51-.29 3-1.2 3-2.79 0-2.2-2-2.92-3.75-3.37z" />
+            </svg> Competitive pay, matched 401K, quarterly cash awards and equity 
+           </div> 
+           <div class="benefit" title="When you are in the office, you'll enjoy comfy environments"> 
+            <svg aria-hidden="true" class="svg-icon iconChair" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M6.38 15.03a4.67 4.67 0 0 1 5.23 0 1 1 0 1 0 1.05-.52A5.26 5.26 0 0 0 10 13.1V11H8v2.1c-.96.2-1.88.66-2.65 1.41a1 1 0 1 0 1.03.52zM10 8h2.87c.66 0 1.17-.47 1.13-1.04l-.31-5.05c-.08-.5-.55-.91-1.17-.91H5.45c-.59 0-1.1.4-1.14.9l-.3 5.06C3.95 7.53 4.46 8 5.12 8H8v1h2V8zm3.44 3H4.56C3.71 11 3 10.54 3 10s.71-1 1.56-1h8.88c.85 0 1.56.46 1.56 1 0 .57-.71 1-1.56 1z" />
+            </svg> When you are in the office, you'll enjoy comfy environments 
+           </div> 
+           <div class="benefit" title="Even the smartest get smarter here    Come to grow and develop"> 
+            <svg aria-hidden="true" class="svg-icon iconHealth" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M10 8V5H8v3H5v2h3v3h2v-3h3V8h-3zM9 1l7 3v5.02C16 13.69 10.69 17 9 17c-1.69 0-7-3.31-7-7.98V4l7-3z" />
+            </svg> Even the smartest get smarter here Come to grow and develop 
+           </div> 
+           <div class="benefit" title="We feed you with fresh, nutritious meals yet you can also splurge"> 
+            <svg aria-hidden="true" class="svg-icon iconFood" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M8 7H7V1H5v6H4V1H2v6c0 1.7 1.33 2.9 3 3v7h2v-7c1.67-.1 3-1.3 3-3V1H8v6zm4-2.8V10h2v7h2V1c-2.2 0-4 1.8-4 3.2z" />
+            </svg> We feed you with fresh, nutritious meals yet you can also splurge 
+           </div> 
+          </section> 
+         </div> 
+         <div id="developer-culture-items" class="nav-content"> 
+         </div> 
+         <section class="learnmore"> 
+          <a class="btn _large truncate" href="/jobs/companies/citrix?from=JobDetailLearnMore">Learn more about Citrix</a> 
+         </section> 
+        </div> 
+        <div id="more-jobs-items" class="nav-content"> 
+         <section class="-more-jobs"> 
+          <h2> More jobs at Citrix </h2> 
+          <div class="listResults"> 
+           <div data-jobid="170630" class="-item -job -job-item js-dismiss-overlay-container dismissable-job _highlighted  can-apply "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f170630%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailCompanyJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="170630" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Citrix | UI /Front-End Developer | 170630" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/170630/ui-front-end-developer-citrix?a=VdT5QvRlrSV" title="UI /Front-End Developer" class="job-link">UI /Front-End Developer</a> </h2> 
+              <p class="-posted-date g-col"> 1w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Citrix 
+              </div> 
+              <div class="-location">
+                - Bengaluru, India 
+              </div> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-user-interface" class="post-tag job-link no-tag-menu">user-interface</a><a href="/jobs/developer-jobs-using-html5" class="post-tag job-link no-tag-menu">html5</a><a href="/jobs/developer-jobs-using-javascript" class="post-tag job-link no-tag-menu">javascript</a><a href="/jobs/developer-jobs-using-angularjs" class="post-tag job-link no-tag-menu">angularjs</a><a href="/jobs/developer-jobs-using-reactjs" class="post-tag job-link no-tag-menu">reactjs</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="168912" class="-item -job -job-item js-dismiss-overlay-container dismissable-job _highlighted  can-apply "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f168912%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailCompanyJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="168912" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Citrix | DevOps Software Engineer - Develop software to enhance Cloud services delivery | 168912" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/168912/devops-software-engineer-develop-software-to-citrix?a=UEajQT5icLg" title="DevOps Software Engineer - Develop software to enhance Cloud services delivery" class="job-link">DevOps Software Engineer - Develop software to enhance Cloud services delivery</a> </h2> 
+              <p class="-posted-date g-col"> 4w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Citrix 
+              </div> 
+              <div class="-location">
+                - Cambridge, UK 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-salary"> £40k - 60k </span> 
+              <span class="-relocation"> Paid relocation </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-c%23" class="post-tag job-link no-tag-menu">c#</a><a href="/jobs/developer-jobs-using-.net" class="post-tag job-link no-tag-menu">.net</a><a href="/jobs/developer-jobs-using-powershell" class="post-tag job-link no-tag-menu">powershell</a><a href="/jobs/system-administrator-jobs" class="post-tag job-link no-tag-menu">sysadmin</a><a href="/jobs/developer-jobs-using-cloud" class="post-tag job-link no-tag-menu">cloud</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="167830" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f167830%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailCompanyJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="167830" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Citrix | Technical Writer- Intern (Paid) | 167830" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/167830/technical-writer-intern-paid-citrix?a=UhFrX2EVwfF" title="Technical Writer- Intern (Paid)" class="job-link">Technical Writer- Intern (Paid)</a> </h2> 
+              <p class="-posted-date g-col"> 2w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Citrix 
+              </div> 
+              <div class="-location">
+                - Fort Lauderdale, FL 
+              </div> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-writer" class="post-tag job-link no-tag-menu">writer</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="167829" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f167829%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailCompanyJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="167829" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Citrix | Software Engineer - Intern (Paid) | 167829" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/167829/software-engineer-intern-paid-citrix?a=UhEa1w7ylFy" title="Software Engineer - Intern (Paid)" class="job-link">Software Engineer - Intern (Paid)</a> </h2> 
+              <p class="-posted-date g-col"> 2w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Citrix 
+              </div> 
+              <div class="-location">
+                - Fort Lauderdale, FL 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-visa"> Visa sponsor </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-java" class="post-tag job-link no-tag-menu">java</a><a href="/jobs/developer-jobs-using-c%23" class="post-tag job-link no-tag-menu">c#</a><a href="/jobs/developer-jobs-using-c%2b%2b" class="post-tag job-link no-tag-menu">c++</a><a href="/jobs/developer-jobs-using-operating-system" class="post-tag job-link no-tag-menu">operating-system</a><a href="/jobs/developer-jobs-using-azure" class="post-tag job-link no-tag-menu">azure</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="167828" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f167828%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailCompanyJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="167828" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Citrix | Software Engineer - Intern (Paid) | 167828" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/167828/software-engineer-intern-paid-citrix?a=UhCS5ZAbb5r" title="Software Engineer - Intern (Paid)" class="job-link">Software Engineer - Intern (Paid)</a> </h2> 
+              <p class="-posted-date g-col"> 2w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Citrix 
+              </div> 
+              <div class="-location">
+                - Raleigh, NC 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-visa"> Visa sponsor </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-c%2b%2b" class="post-tag job-link no-tag-menu">c++</a><a href="/jobs/developer-jobs-using-c%23" class="post-tag job-link no-tag-menu">c#</a><a href="/jobs/developer-jobs-using-algorithm" class="post-tag job-link no-tag-menu">algorithm</a><a href="/jobs/developer-jobs-using-java" class="post-tag job-link no-tag-menu">java</a><a href="/jobs/developer-jobs-using-swift" class="post-tag job-link no-tag-menu">swift</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+          <div class="-company-alert js-company-alert"> 
+           <div class="-icon"></div> 
+           <div class="-text"> 
+            <h3 class="-title">Want to get notified about new jobs at Citrix?</h3> 
+            <div>
+             <a class="js-alert-trigger" data-context="JobDetail">Create a company alert</a>
+            </div> 
+           </div> 
+          </div> 
+         </section> 
+         <section class="-similar-jobs"> 
+          <h2>Similar jobs</h2> 
+          <div class="listResults"> 
+           <div data-jobid="171749" class="-item -job -job-item js-dismiss-overlay-container dismissable-job _highlighted   "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f171749%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="171749" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Tenable, Inc. | Sr. Software Engineer - Cloud / Kubernetes / Python | 171749" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/171749/sr-software-engineer-cloud-kubernetes-tenable-inc?a=VB9F4McfQPh" title="Sr. Software Engineer - Cloud / Kubernetes / Python" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/171749/sr-software-engineer-cloud-kubernetes-tenable-inc?a=VB9F4McfQPh&quot;,null,null]">Sr. Software Engineer - Cloud / Kubernetes / Python</a> </h2> 
+              <p class="-posted-date g-col"> yesterday </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Tenable, Inc. 
+              </div> 
+              <div class="-location">
+                - No office location 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-cloud" class="post-tag job-link no-tag-menu">cloud</a><a href="/jobs/docker-developer-jobs" class="post-tag job-link no-tag-menu">docker</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="168276" class="-item -job -job-item js-dismiss-overlay-container dismissable-job _highlighted   "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f168276%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="168276" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="BMW Group | Linux Build and Release Engineer (f/m) | 168276" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/168276/linux-build-and-release-engineer-f-m-bmw-group?a=UqWpL6Jk31a" title="Linux Build and Release Engineer (f/m)" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/168276/linux-build-and-release-engineer-f-m-bmw-group?a=UqWpL6Jk31a&quot;,null,null]">Linux Build and Release Engineer (f/m)</a> </h2> 
+              <p class="-posted-date g-col"> 1w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                BMW Group 
+              </div> 
+              <div class="-location">
+                - Ulm, Deutschland 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-visa"> Visa sponsor </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-linux" class="post-tag job-link no-tag-menu">linux</a><a href="/jobs/developer-jobs-using-continuous-integration" class="post-tag job-link no-tag-menu">continuous-integration</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="171036" class="-item -job -job-item js-dismiss-overlay-container dismissable-job _highlighted   "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f171036%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="171036" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Wellcome Trust Sanger Institute | Bioinformatics Implementation Manager | 171036" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/171036/bioinformatics-implementation-manager-wellcome-trust-sanger?a=VmkuxAoN9lj" title="Bioinformatics Implementation Manager" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/171036/bioinformatics-implementation-manager-wellcome-trust-sanger?a=VmkuxAoN9lj&quot;,null,null]">Bioinformatics Implementation Manager</a> </h2> 
+              <p class="-posted-date g-col"> 1w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Wellcome Trust Sanger Institute 
+              </div> 
+              <div class="-location">
+                - Hinxton, UK 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-visa"> Visa sponsor </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-r" class="post-tag job-link no-tag-menu">r</a><a href="/jobs/developer-jobs-using-perl" class="post-tag job-link no-tag-menu">perl</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="170573" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f170573%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="170573" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="European Bioinformatics Institute (EMBL-EBI) | Linux Systems Adiministrator | 170573" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/170573/linux-systems-adiministrator-european-bioinformatics?a=VcHBXBaL7xA" title="Linux Systems Adiministrator" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/170573/linux-systems-adiministrator-european-bioinformatics?a=VcHBXBaL7xA&quot;,null,null]">Linux Systems Adiministrator</a> </h2> 
+              <p class="-posted-date g-col"> 2w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                European Bioinformatics Institute (EMBL-EBI) 
+              </div> 
+              <div class="-location">
+                - Hinxton, UK 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-visa"> Visa sponsor </span> 
+              <span class="-relocation"> Paid relocation </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-linux" class="post-tag job-link no-tag-menu">linux</a><a href="/jobs/system-administrator-jobs" class="post-tag job-link no-tag-menu">sysadmin</a><a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-perl" class="post-tag job-link no-tag-menu">perl</a><a href="/jobs/developer-jobs-using-shell" class="post-tag job-link no-tag-menu">shell</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="151915" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f151915%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="151915" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Jane Street | FPGA Engineer | 151915" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/151915/fpga-engineer-jane-street?a=OWKuHFPSp27" title="FPGA Engineer" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/151915/fpga-engineer-jane-street?a=OWKuHFPSp27&quot;,null,null]">FPGA Engineer</a> </h2> 
+              <p class="-posted-date g-col"> 1w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Jane Street 
+              </div> 
+              <div class="-location">
+                - New York, NY 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-visa"> Visa sponsor </span> 
+              <span class="-relocation"> Paid relocation </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/designer-jobs" class="post-tag job-link no-tag-menu">design</a><a href="/jobs/quality-assurance-developer-jobs" class="post-tag job-link no-tag-menu">testing</a><a href="/jobs/system-administrator-jobs" class="post-tag job-link no-tag-menu">sysadmin</a><a href="/jobs/developer-jobs-using-windows" class="post-tag job-link no-tag-menu">windows</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="169103" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f169103%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="169103" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Big Wednesday Digital | Senior Web Security Engineer (Ethical Hacker) - Agoda | 169103" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/169103/senior-web-security-engineer-ethical-hacker-big-wednesday-digital?a=UI8y47TocVW" title="Senior Web Security Engineer (Ethical Hacker) - Agoda" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/169103/senior-web-security-engineer-ethical-hacker-big-wednesday-digital?a=UI8y47TocVW&quot;,null,null]">Senior Web Security Engineer (Ethical Hacker) - Agoda</a> </h2> 
+              <p class="-posted-date g-col"> 4w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Big Wednesday Digital 
+              </div> 
+              <div class="-location">
+                - Bangkok, Thailand 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-relocation"> Paid relocation </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-powershell" class="post-tag job-link no-tag-menu">powershell</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="170433" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f170433%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="170433" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Elastic | Cloud- Build and Release Engineer | 170433" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/170433/cloud-build-and-release-engineer-elastic?a=V9N847OrdXz" title="Cloud- Build and Release Engineer" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/170433/cloud-build-and-release-engineer-elastic?a=V9N847OrdXz&quot;,null,null]">Cloud- Build and Release Engineer</a> </h2> 
+              <p class="-posted-date g-col"> 2w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Elastic 
+              </div> 
+              <div class="-location">
+                - No office location 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-elasticsearch" class="post-tag job-link no-tag-menu">elasticsearch</a><a href="/jobs/developer-jobs-using-cloud" class="post-tag job-link no-tag-menu">cloud</a><a href="/jobs/developer-jobs-using-git" class="post-tag job-link no-tag-menu">git</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="150944" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f150944%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="150944" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Xapo | Senior Python Developer | 150944" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/150944/senior-python-developer-xapo?a=OCyIN59ZFcS" title="Senior Python Developer" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/150944/senior-python-developer-xapo?a=OCyIN59ZFcS&quot;,null,null]">Senior Python Developer</a> </h2> 
+              <p class="-posted-date g-col"> 2w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Xapo 
+              </div> 
+              <div class="-location">
+                - No office location 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-salary"> Equity </span> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-github" class="post-tag job-link no-tag-menu">github</a><a href="/jobs/developer-jobs-using-linux" class="post-tag job-link no-tag-menu">linux</a><a href="/jobs/system-administrator-jobs" class="post-tag job-link no-tag-menu">sysadmin</a><a href="/jobs/developer-jobs-using-node.js" class="post-tag job-link no-tag-menu">node.js</a><a href="/jobs/developer-jobs-using-rest" class="post-tag job-link no-tag-menu">rest</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="169436" class="-item -job -job-item js-dismiss-overlay-container dismissable-job   can-apply "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f169436%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="169436" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Wayfair | Senior Engineering Leadership - Ad Tech and Customer Intelligence | 169436" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/169436/senior-engineering-leadership-ad-tech-and-wayfair?a=UP3Q1T8Q2YX" title="Senior Engineering Leadership - Ad Tech and Customer Intelligence" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/169436/senior-engineering-leadership-ad-tech-and-wayfair?a=UP3Q1T8Q2YX&quot;,null,null]">Senior Engineering Leadership - Ad Tech and Customer Intelligence</a> </h2> 
+              <p class="-posted-date g-col"> 3w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Wayfair 
+              </div> 
+              <div class="-location">
+                - Boston, MA 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-salary"> Equity </span> 
+              <span class="-visa"> Visa sponsor </span> 
+              <span class="-relocation"> Paid relocation </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-java" class="post-tag job-link no-tag-menu">java</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="171008" class="-item -job -job-item js-dismiss-overlay-container dismissable-job   can-apply "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f171008%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="171008" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Platform.sh | Junior Project Manager for a Dev/Ops Team - Remote | 171008" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/171008/junior-project-manager-for-a-dev-ops-team-remote-platformsh?a=VlKoyTkkn1O" title="Junior Project Manager for a Dev/Ops Team - Remote" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/171008/junior-project-manager-for-a-dev-ops-team-remote-platformsh?a=VlKoyTkkn1O&quot;,null,null]">Junior Project Manager for a Dev/Ops Team - Remote</a> </h2> 
+              <p class="-posted-date g-col"> 3d ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Platform.sh 
+              </div> 
+              <div class="-location">
+                - No office location 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-salary"> Equity </span> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-project-management" class="post-tag job-link no-tag-menu">project-management</a><a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-linux" class="post-tag job-link no-tag-menu">linux</a><a href="/jobs/developer-jobs-using-amazon-web-services" class="post-tag job-link no-tag-menu">amazon-web-services</a><a href="/jobs/system-administrator-jobs" class="post-tag job-link no-tag-menu">sysadmin</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="171878" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f171878%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="171878" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Argent | Senior Backend/Ethereum Engineer | 171878" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/171878/senior-backend-ethereum-engineer-argent?a=VDPXLtDsS05" title="Senior Backend/Ethereum Engineer" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/171878/senior-backend-ethereum-engineer-argent?a=VDPXLtDsS05&quot;,null,null]">Senior Backend/Ethereum Engineer</a> </h2> 
+              <p class="-posted-date g-col"> 4h ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Argent 
+              </div> 
+              <div class="-location">
+                - No office location 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-web-services" class="post-tag job-link no-tag-menu">web-services</a><a href="/jobs/developer-jobs-using-security" class="post-tag job-link no-tag-menu">security</a><a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+           <div data-jobid="163403" class="-item -job -job-item js-dismiss-overlay-container dismissable-job   can-apply "> 
+            <div class="-job-summary "> 
+             <div class="-title g-row"> 
+              <span data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f163403%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailSimilarJobs%26sec%3dFalse&amp;ssrc=jobs" data-jobid="163403" class="fav-toggle js-fav-toggle " title="Click to add this job to your favorites." data-ga-label="Unhaggle Inc. | Full Stack Engineer - Build the smartest way to buy a car (Remote) | 163403" )> 
+               <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+                <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+               </svg> </span> 
+              <h2 class="g-col10"> <a href="/jobs/163403/full-stack-engineer-build-the-smartest-way-to-unhaggle-inc?a=SNCluHFbhoy" title="Full Stack Engineer - Build the smartest way to buy a car (Remote)" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Bottom Sidebar&quot;,&quot;/jobs/163403/full-stack-engineer-build-the-smartest-way-to-unhaggle-inc?a=SNCluHFbhoy&quot;,null,null]">Full Stack Engineer - Build the smartest way to buy a car (Remote)</a> </h2> 
+              <p class="-posted-date g-col"> 1w ago </p> 
+             </div> 
+             <div class="-company g-row"> 
+              <div class="-name">
+                Unhaggle Inc. 
+              </div> 
+              <div class="-location">
+                - No office location 
+              </div> 
+             </div> 
+             <div class="-perks g-row"> 
+              <span class="-remote"> Remote </span> 
+             </div> 
+             <div class="-tags g-row"> 
+              <p> <a href="/jobs/developer-jobs-using-django" class="post-tag job-link no-tag-menu">django</a><a href="/jobs/developer-jobs-using-python" class="post-tag job-link no-tag-menu">python</a><a href="/jobs/developer-jobs-using-javascript" class="post-tag job-link no-tag-menu">javascript</a><a href="/jobs/developer-jobs-using-postgresql" class="post-tag job-link no-tag-menu">postgresql</a><a href="/jobs/devops-jobs" class="post-tag job-link no-tag-menu">devops</a> </p> 
+             </div> 
+            </div> 
+           </div> 
+          </div> 
+         </section> 
+        </div> 
+       </div> 
+       <div class="sidebar detail"> 
+        <div id="action-bar" class="action-bar dismissable-company js-dismiss-overlay-container "> 
+         <div class="-dismiss-job-overlay"> 
+          <div class="-text">
+            Okay, you won't see this job anymore. 
+           <a href="#" class="-undo js-undismiss-job" data-id="171884">Undo</a> 
+          </div> 
+         </div> 
+         <div class="g-row -title"> 
+          <span class="-text"> <span class="-badge-icon -first-applicants"></span> Be one of the first applicants </span> 
+         </div> 
+         <div class="apply clear js-apply-container"> 
+          <a class="btn _medium _apply _url js-apply js-url-apply" rel="nofollow" href="https://citrix.wd1.myworkdayjobs.com/CitrixCareers/job/Fort-Lauderdale/Build-Release-Software-Engineer_R9510" data-analyticurl="/jobs/n/apply-out/171884?ra=VDXRk42NaSI&amp;companyPageId=2739&amp;cta=JobDetailActionBar&amp;clickType=ExternalOutClick" target="_blank" data-ga="[&quot;Jobs Engagement&quot;,&quot;Apply Click&quot;,&quot;Citrix | Build Release Software Engineer | 171884&quot;,null,null]"> 
+           <svg aria-hidden="true" class="svg-icon iconShare" width="18" height="18" viewbox="0 0 18 18">
+            <path d="M15 4.5L7.5 12 6 10.5 13.5 3H10V1h7v7h-2V4.5zM8 1v2H3v12h12v-5h2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h5z" />
+           </svg> Apply now </a> 
+         </div> 
+         <div class="g-row -share-report"> 
+          <div class="g-col -item favorite-job"> 
+           <span id="fav-share" class="favorite fav-toggle js-fav-toggle js-fav-text " data-favorite="False" data-jobid="171884" data-href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f171884%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobDetailActionBar%26sec%3dFalse&amp;ssrc=jobs" title="Click to add this job to your favorites." data-ga-label="Citrix | Build Release Software Engineer | 171884"> 
+            <svg aria-hidden="true" class="svg-icon iconStar" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z" />
+            </svg> Save </span> 
+           <script type="text/html" id="fav-tip">
+                            <div class="fav-tip js-tooltip">
+                                <p><a href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2fset-favorite%2f-1%3freturnUrl%3d%252Fjobs%252F171884%252Fbuild-release-software-engineer-citrix%253Fa%253DVDXRk42NaSI%2526so%253Di%2526pg%253D1%2526offset%253D2%2526total%253D683%26referrer%3dJobSearch%26sec%3dFalse&amp;ssrc=jobs">Sign up</a> in order to add this job to your favorites.</p>
+                            </div>
+                        </script> 
+          </div> 
+          <div class="g-col -item social"> 
+           <a class="share"> 
+            <svg aria-hidden="true" class="svg-icon iconShare" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M15 4.5L7.5 12 6 10.5 13.5 3H10V1h7v7h-2V4.5zM8 1v2H3v12h12v-5h2v5a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3c0-1.1.9-2 2-2h5z" />
+            </svg> Share </a> 
+           <ul class="dropdown dno"> 
+            <li> <a href="/jobs/email-job?jobId=171884" class="mail" rel="nofollow" target="email">Email</a> </li> 
+            <li> <a href="/jobs/fb-share-job?jobId=171884" class="facebook" rel="nofollow">Facebook</a> </li> 
+            <li> <a href="/jobs/tweet-job?jobId=171884" class="twitter" rel="nofollow">Twitter</a> </li> 
+           </ul> 
+          </div> 
+          <div class="g-col -item report-job" id="js-report"> 
+           <a href="/jobs/flag/171884" class="g-col report js-report-job" rel="nofollow"> 
+            <svg aria-hidden="true" class="svg-icon iconFlag" width="18" height="18" viewbox="0 0 18 18">
+             <path d="M3 2v14h2v-6h3.6l.4 1h6V3H9.5L9 2z" />
+            </svg> Report </a> 
+           <script type="text/html" id="report-tip">
+                            <div class="report-tip js-tooltip">
+                                <p><a href="https://stackoverflow.com/users/signup?returnUrl=%2fjobs%2f171884%2fbuild-release-software-engineer-citrix%3fa%3dVDXRk42NaSI%26so%3di%26pg%3d1%26offset%3d2%26total%3d683%26srjm%3d1&amp;ssrc=jobs">Sign up</a> in order to report this job.</p>
+                            </div>
+                        </script> 
+          </div> 
+         </div> 
+        </div> 
+        <section id="profile-summary"> 
+         <div class="-popout"> 
+          <strong class="-title">Are you looking for a job?</strong> 
+          <p>When you create a Developer Story, we’ll accelerate your matches and get you in front of employers ASAP.</p> 
+          <a href="/jobs/cv/sign-up-and-create?returnUrl=https%3A%2F%2Fstackoverflow.com%2Fjobs%2F171884%2Fbuild-release-software-engineer-citrix%3Fa%3DVDXRk42NaSI%26so%3Di%26pg%3D1%26offset%3D2%26total%3D683%26scv%3Dt" class="-cta btn-secondary" rel="nofollow" data-ga="[&quot;Jobs Engagement&quot;,&quot;Jobs Onboarding Start&quot;,&quot;Create a Developer Story&quot;,null,null]">Create a Developer Story</a> 
+         </div> 
+        </section> 
+        <div id="activity-status-dialog" class="container"></div> 
+        <section class="-sidebar-similar-jobs"> 
+         <h2>Jobs you might like</h2> 
+         <div class="listResults"> 
+          <div data-jobid="167829" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+           <div class="-job-summary -on-sidebar"> 
+            <div class="-title"> 
+             <h2> <a href="/jobs/167829/software-engineer-intern-paid-citrix?a=UhEa1w6lymK" title="Software Engineer - Intern (Paid)" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Right Sidebar&quot;,&quot;/jobs/167829/software-engineer-intern-paid-citrix?a=UhEa1w6lymK&quot;,null,null]">Software Engineer - Intern (Paid)</a> </h2> 
+            </div> 
+            <div class="-company g-row"> 
+             <div class="-name">
+               Citrix 
+             </div> 
+             <div class="-location">
+               - Fort Lauderdale, FL 
+             </div> 
+            </div> 
+            <div class="-perks "> 
+             <span class="-visa"> Visa sponsor </span> 
+            </div> 
+            <div class="-tags g-row"> 
+             <span class="post-tag no-tag-menu">java</span> 
+             <span class="post-tag no-tag-menu">c#</span> 
+            </div> 
+           </div> 
+          </div> 
+          <div data-jobid="165094" class="-item -job -job-item js-dismiss-overlay-container dismissable-job   can-apply "> 
+           <div class="-job-summary -on-sidebar"> 
+            <div class="-title"> 
+             <h2> <a href="/jobs/165094/software-developer-solar-technology-inc?a=TmMjr9TdIBR" title="Software Developer" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Right Sidebar&quot;,&quot;/jobs/165094/software-developer-solar-technology-inc?a=TmMjr9TdIBR&quot;,null,null]">Software Developer</a> </h2> 
+            </div> 
+            <div class="-company g-row"> 
+             <div class="-name">
+               Solar Technology Inc. 
+             </div> 
+             <div class="-location">
+               - Allentown, PA 
+             </div> 
+            </div> 
+            <div class="-perks "> 
+             <span class="-salary"> $50k - 75k </span> 
+            </div> 
+            <div class="-tags g-row"> 
+             <span class="post-tag no-tag-menu">embedded</span> 
+             <span class="post-tag no-tag-menu">java</span> 
+            </div> 
+           </div> 
+          </div> 
+          <div data-jobid="145969" class="-item -job -job-item js-dismiss-overlay-container dismissable-job    "> 
+           <div class="-job-summary -on-sidebar"> 
+            <div class="-title"> 
+             <h2> <a href="/jobs/145969/penetration-tester-siemens-usa?a=MX79T9aOhY8" title="Penetration Tester" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Right Sidebar&quot;,&quot;/jobs/145969/penetration-tester-siemens-usa?a=MX79T9aOhY8&quot;,null,null]">Penetration Tester</a> </h2> 
+            </div> 
+            <div class="-company g-row"> 
+             <div class="-name">
+               Siemens - USA 
+             </div> 
+             <div class="-location">
+               - Princeton, NJ 
+             </div> 
+            </div> 
+            <div class="-perks "> 
+             <span class="-visa"> Visa sponsor </span> 
+             <span class="-relocation"> Paid relocation </span> 
+            </div> 
+            <div class="-tags g-row"> 
+             <span class="post-tag no-tag-menu">security</span> 
+             <span class="post-tag no-tag-menu">penetration-testing</span> 
+            </div> 
+           </div> 
+          </div> 
+          <div data-jobid="164986" class="-item -job -job-item js-dismiss-overlay-container dismissable-job   can-apply "> 
+           <div class="-job-summary -on-sidebar"> 
+            <div class="-title"> 
+             <h2> <a href="/jobs/164986/backend-development-at-rapidly-scaling-ml-support-ada-support?a=Tkx5etKRhFX" title="Backend Development at rapidly scaling ML support bot startup" class="job-link" data-ga="[&quot;Jobs Engagement&quot;,&quot;Similar Jobs | Right Sidebar&quot;,&quot;/jobs/164986/backend-development-at-rapidly-scaling-ml-support-ada-support?a=Tkx5etKRhFX&quot;,null,null]">Backend Development at rapidly scaling ML support bot startup</a> </h2> 
+            </div> 
+            <div class="-company g-row"> 
+             <div class="-name">
+               Ada Support 
+             </div> 
+             <div class="-location">
+               - Toronto, ON, Canada 
+             </div> 
+            </div> 
+            <div class="-perks "> 
+             <span class="-salary"> C$70k - 90k | Equity </span> 
+             <span class="-visa"> Visa sponsor </span> 
+             <span class="-relocation"> Paid relocation </span> 
+            </div> 
+            <div class="-tags g-row"> 
+             <span class="post-tag no-tag-menu">python</span> 
+            </div> 
+           </div> 
+          </div> 
+         </div> 
+        </section> 
+        <div id="post-job"> 
+         <div class="post-job-header"> 
+          <div class="header-img"></div> 
+         </div> 
+         <div class="post-job-content"> 
+          <p>Hiring developers? We have Talent Solutions.</p> 
+          <a target="_blank" href="/jobs/post-job?r=JobsDetailSidebar">Learn more&nbsp;»</a> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+      <span class="page-title">Build Release Software Engineer at Citrix</span> 
+     </div> 
+     <!-- End Careers Body --> 
+     <!-- End SO: 2:Body --> 
+    </div> 
+    <!-- Start SO: 3:JavaScript --> 
+    <!-- Begin Careers Javascript --> 
+    <script type="text/javascript">
+            window._trackJs = {
+                token: 'ab6d9997c71d45d082e65135f148be49',
+                application: "stack-overflow-jobs",
+                userId: '0',
+                version: '8703'
+            };
+        </script> 
+    <script crossorigin="anonymous" src="https://cdn.sstatic.net/careers/Js/third-party/trackjs/2.8.4/tracker.min.js?v=a7d1635618e5" type="text/javascript"></script> 
+    <script type="text/javascript">
+        if (!window.jQuery) {
+            document.write('<script crossorigin="anonymous" src="https://cdn.sstatic.net/careers/Js/third-party/jquery/1.12.4/jquery-1.12.4.min.js?v=bc2444e2951c" type="text/javascript"><\/script>');
+        }
+    </script> 
+    <script>
+        
+        
+        (function (i, r) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments);
+            }, i[r].l = 1 * new Date();
+        })(window, 'ga');
+
+        
+        if (navigator.sendBeacon) {
+            var _sendBeacon = navigator.sendBeacon.bind(navigator);
+            if (_sendBeacon) {
+                navigator.sendBeacon = function (url, data) {
+                    if (url == "/gps/event") {
+                        url = "/jobs/n/prizm/event";
+                    }
+                    return _sendBeacon(url, data);
+                };
+            }
+        }
+
+        
+        $.ajaxPrefilter(function (options) {
+            if (options.url == "/gps/event") {
+                options.url = "/jobs/n/prizm/event";
+            }
+        });
+    </script> 
+    <script>if (!window.Promise) document.writeln("\u003cscript crossorigin=\"anonymous\" src=\"https://cdn.sstatic.net/careers/Js/third-party/es6-promise/es6-promise.min.js?v=edf6449d00e9\" type=\"text/javascript\"\u003e\u003c/script\u003e");</script>
+    <script crossorigin="anonymous" src="https://cdn.sstatic.net/careers/Js/third-party/systemjs/system-polyfill.min.js?v=90d9ef787026" type="text/javascript"></script> 
+    <script>
+        System.baseURL = "https://cdn.sstatic.net/careers/Ts/Jobs/";
+    </script> 
+    <script crossorigin="anonymous" src="https://cdn.sstatic.net/careers/Ts/Jobs/jobs.min.js?v=4c7439edf979" type="text/javascript"></script> 
+    <script>StackOverflow.Jobs.init({"favorites":{"addHtml":"\u003csvg aria-hidden=\u0022true\u0022 class=\u0022svg-icon iconStar\u0022 width=\u002218\u0022 height=\u002218\u0022 viewBox=\u00220 0 18 18\u0022\u003e\u003cpath d=\u0022M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z\u0022/\u003e\u003c/svg\u003e Save","addTitleText":"Click to add this job to your favorites.","removeHtml":"\u003csvg aria-hidden=\u0022true\u0022 class=\u0022svg-icon iconStar\u0022 width=\u002218\u0022 height=\u002218\u0022 viewBox=\u00220 0 18 18\u0022\u003e\u003cpath d=\u0022M9 12.65l-5.29 3.63 1.82-6.15L.44 6.22l6.42-.17L9 0l2.14 6.05 6.42.17-5.1 3.9 1.83 6.16z\u0022/\u003e\u003c/svg\u003e Saved!","removeTitleText":"This job is currently in your favorites. Click if you\u0027d like to remove."},"profileSummary":{"redirectToStoryAfterStatusUpdate":false,"searchStatusUrl":"/jobs/cv/set-search-state","storyUrl":"/users/story/create?r=JobsSidebar","successMessage":"Your job search status has been updated."},"applyButton":{"applyUrl":"/jobs/apply/171884?oqs=a%3DVDXRk42NaSI%26so%3Di%26pg%3D1%26offset%3D2%26total%3D683","emailLinksUrl":"/jobs/widgets/apply-via-email-links"},"askButton":{"showModal":false},"reportButton":{"showModal":false},"featuredCompanyAds":{"url":"/jobs/a/featured-company-js"},"jobDetails":{"jobVisitUrl":"/jobs/n/v/171884","createAlertModalUrl":"/jobs/alerts/anonymous/subscribe/modal","createAlertUrl":"/jobs/saved-search/save?getMobilePanel=False","queryString":"cl=Citrix","navClickUrl":"/jobs/record-nav-click","onboardingUrl":"https://stackoverflow.com/users/story/create?returnUrl=%2fjobs%2f171884%2fbuild-release-software-engineer-citrix%3fa%3dVDXRk42NaSI%26so%3di%26pg%3d1%26offset%3d2%26total%3d683%26sitv%3d1\u0026r=ExpressInterest","undoWindow":600000.0},"sharing":{},"forms":{"XSRF_KEY":"d16a35da63103e8b1162221b85b5952621651c541085caea15d1785affbc32a4"},"user":{"isAnonymous":true}});</script>
+    <!-- End Careers Javascript --> 
+    <!-- End SO: 3:JavaScript --> 
+   </div> 
+  </div> 
+  <footer id="footer" class="site-footer js-footer" role="contentinfo"> 
+   <div class="site-footer--container"> 
+    <div class="site-footer--logo"> 
+     <a href="https://stackoverflow.com">
+      <svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewbox="0 0 32 37">
+       <g>
+        <path fill="#BCBBBB" d="M26 33v-9h4v13H0V24h4v9z" />
+        <path d="M23.1 25.99l.68-2.95-16.1-3.35L7 23l16.1 2.99zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm4.2-7.4L26 18.4l2.1-2.5L15.4 5.3l-2.1 2.5zM21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM7 30h16v-3H7v3z" fill="#F48024" />
+       </g>
+      </svg></a> 
+    </div> 
+    <nav class="site-footer--nav"> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://stackoverflow.com" class="js-gps-track" data-gps-track="footer.click({ location: 29, link: 15})">Stack Overflow</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 16})">Questions</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 17})">Jobs</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 11})">Developer Jobs Directory</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 28})">Salary Calculator</a></li> 
+       <li class="-item"><a href="/help" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 3 })">Help</a></li> 
+       <li class="-item"><a onclick="StackExchange.switchMobile(&quot;on&quot;)" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 12 })">Mobile</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://www.stackoverflowbusiness.com/?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-business-category" class="js-gps-track" data-gps-track="footer.click({ location: 29, link: 19 })">Stack Overflow<br> Business</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 20 })">Talent</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-advertise" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 21 })">Ads</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/enterprise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 22 })">Enterprise</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 29, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 7 })" href="https://stackexchange.com/legal">Legal</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 8 })" href="https://stackexchange.com/legal/privacy-policy">Privacy Policy</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--categories-nav site-footer--col__visible"> 
+      <a href="#" class="site-footer--back js-footer-back">
+       <svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewbox="0 0 18 18">
+        <path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z" />
+       </svg></a> 
+      <div> 
+       <h5 class="-title"><a href="https://stackexchange.com">Stack Exchange<br> Network</a></h5> 
+       <ul class="-list"> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Technology">Technology</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Life / Arts">Life / Arts</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Science">Science</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 29, link: 24 })" data-target="Other">Other</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="site-footer--categories"> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li> 
+        <li class="-item"><a href="https://serverfault.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="system and network administrators">Server Fault</a></li> 
+        <li class="-item"><a href="https://superuser.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="computer enthusiasts and power users">Super User</a></li> 
+        <li class="-item"><a href="https://webapps.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of web applications">Web Applications</a></li> 
+        <li class="-item"><a href="https://askubuntu.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li> 
+        <li class="-item"><a href="https://webmasters.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="pro webmasters">Webmasters</a></li> 
+        <li class="-item"><a href="https://gamedev.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and independent game developers">Game Development</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://tex.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li> 
+        <li class="-item"><a href="https://softwareengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li> 
+        <li class="-item"><a href="https://unix.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li> 
+        <li class="-item"><a href="https://apple.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li> 
+        <li class="-item"><a href="https://wordpress.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li> 
+        <li class="-item"><a href="https://gis.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li> 
+        <li class="-item"><a href="https://electronics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://android.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li> 
+        <li class="-item"><a href="https://security.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="information security professionals">Information Security</a></li> 
+        <li class="-item"><a href="https://dba.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li> 
+        <li class="-item"><a href="https://drupal.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li> 
+        <li class="-item"><a href="https://sharepoint.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li> 
+        <li class="-item"><a href="https://ux.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="user experience researchers and experts">User Experience</a></li> 
+        <li class="-item"><a href="https://mathematica.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://salesforce.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li> 
+        <li class="-item"><a href="https://expressionengine.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li> 
+        <li class="-item"><a href="https://pt.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Português</a></li> 
+        <li class="-item"><a href="https://blender.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li> 
+        <li class="-item"><a href="https://networkengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="network engineers">Network Engineering</a></li> 
+        <li class="-item"><a href="https://crypto.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li> 
+        <li class="-item"><a href="https://codereview.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="peer programmer code reviews">Code Review</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://magento.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li> 
+        <li class="-item"><a href="https://softwarerecs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li> 
+        <li class="-item"><a href="https://dsp.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li> 
+        <li class="-item"><a href="https://emacs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li> 
+        <li class="-item"><a href="https://raspberrypi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li> 
+        <li class="-item"><a href="https://ru.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="программистов">Stack Overflow на русском</a></li> 
+        <li class="-item"><a href="https://codegolf.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://es.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores y profesionales de la informática">Stack Overflow en español</a></li> 
+        <li class="-item"><a href="https://ethereum.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li> 
+        <li class="-item"><a href="https://datascience.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li> 
+        <li class="-item"><a href="https://arduino.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li> 
+        <li class="-item"><a href="https://bitcoin.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (28) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://photo.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li> 
+        <li class="-item"><a href="https://scifi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li> 
+        <li class="-item"><a href="https://graphicdesign.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li> 
+        <li class="-item"><a href="https://movies.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li> 
+        <li class="-item"><a href="https://music.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li> 
+        <li class="-item"><a href="https://worldbuilding.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li> 
+        <li class="-item"><a href="https://cooking.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://diy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li> 
+        <li class="-item"><a href="https://money.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li> 
+        <li class="-item"><a href="https://academia.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li> 
+        <li class="-item"><a href="https://law.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (15) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://english.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li> 
+        <li class="-item"><a href="https://skeptics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientific skepticism">Skeptics</a></li> 
+        <li class="-item"><a href="https://judaism.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li> 
+        <li class="-item"><a href="https://travel.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li> 
+        <li class="-item"><a href="https://christianity.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li> 
+        <li class="-item"><a href="https://ell.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li> 
+        <li class="-item"><a href="https://japanese.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://gaming.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li> 
+        <li class="-item"><a href="https://bicycles.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li> 
+        <li class="-item"><a href="https://rpg.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li> 
+        <li class="-item"><a href="https://anime.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li> 
+        <li class="-item"><a href="https://puzzling.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li> 
+        <li class="-item"><a href="https://mechanics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (33) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://mathoverflow.net" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional mathematicians">MathOverflow</a></li> 
+        <li class="-item"><a href="https://math.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li> 
+        <li class="-item"><a href="https://stats.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li> 
+        <li class="-item"><a href="https://cstheory.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li> 
+        <li class="-item"><a href="https://physics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li> 
+        <li class="-item"><a href="https://chemistry.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientists, academics, teachers and students">Chemistry</a></li> 
+        <li class="-item"><a href="https://biology.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="biology researchers, academics, and students">Biology</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://cs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li> 
+        <li class="-item"><a href="https://philosophy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (10) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Other"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://meta.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li> 
+        <li class="-item"><a href="https://stackapps.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li> 
+        <li class="-item"><a href="https://api.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li> 
+        <li class="-item"><a href="https://data.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li> 
+        <li class="-item"><a href="https://area51.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="proposing new sites in the Stack Exchange network">Area 51</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </nav> 
+    <div class="site-footer--copyright fs-fine"> 
+     <ul class="-list"> 
+      <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 29, link:4 })" href="https://stackoverflow.blog?blb=1">Blog</a></li> 
+      <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li> 
+      <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li> 
+      <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li> 
+     </ul> 
+     <p class="mt-auto mb24"> site design / logo © 2018 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license">attribution required</a>. <span id="svnrev">rev&nbsp;2018.3.23.29561</span> </p> 
+    </div> 
+   </div> 
+  </footer> 
+  <noscript> 
+   <div id="noscript-warning">
+    Stack Overflow works best with JavaScript enabled 
+    <img src="https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"> 
+   </div> 
+  </noscript> 
+  <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                var trackingCodes = [
+                    'UA-5620270-1'
+                ];
+
+                        trackingCodes.push('UA-108242619-1');
+
+                StackExchange.ga.init({
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: trackingCodes
+                });
+
+
+
+
+                    StackExchange.ga.setDimension('dimension3', 'Jobs: Jobs/Details');
+
+                StackExchange.ga.trackPageView();
+            });
+            
+/**/
+            
+            var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+            (function() {
+                var ssl = 'https:' == document.location.protocol,
+                    s = document.getElementsByTagName('script')[0],
+                    qc = document.createElement('script');
+                 qc.async = true;
+                    qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                    s.parentNode.insertBefore(qc, s);
+                    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+/**/
+                 var sc = document.createElement('script');
+                    sc.async = true;
+                    sc.src = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+                    s.parentNode.insertBefore(sc, s);
+                    _comscore.push({ c1: "2", c2: "17440561" });
+            })();
+            
+
+</script>  
+ </body>
+</html>

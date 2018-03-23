@@ -1,0 +1,1514 @@
+https://stackoverflow.com/questions/tagged/class-variables
+<!doctype html>
+<html itemscope itemtype="http://schema.org/QAPage">
+ <head> 
+  <title>Newest 'class-variables' Questions - Stack Overflow</title> 
+  <link rel="shortcut icon" href="https://cdn.sstatic.net/Sites/stackoverflow/img/favicon.ico?v=4f32ecc8f43d"> 
+  <link rel="apple-touch-icon image_src" href="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon.png?v=c78bd457575a"> 
+  <link rel="search" type="application/opensearchdescription+xml" title="Stack Overflow" href="/opensearch.xml"> 
+  <meta property="og:type" content="website"> 
+  <meta property="og:url" content="https://stackoverflow.com/questions/tagged/class-variables"> 
+  <meta property="og:image" itemprop="image primaryImageOfPage" content="https://cdn.sstatic.net/Sites/stackoverflow/img/apple-touch-icon@2.png?v=73d79a89bded"> 
+  <meta name="twitter:card" content="summary"> 
+  <meta name="twitter:domain" content="stackoverflow.com"> 
+  <meta name="twitter:title" property="og:title" itemprop="title name" content="Newest 'class-variables' Questions"> 
+  <meta name="twitter:description" property="og:description" itemprop="description" content="Stack Overflow | The World’s Largest Online Community for Developers"> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> 
+  <script src="https://cdn.sstatic.net/Js/stub.en.js?v=57e020fde11a"></script> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Shared/stacks.css?v=596945d5421b"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/primary.css?v=94cd993a63cf"> 
+  <link rel="stylesheet" type="text/css" href="https://cdn.sstatic.net/Sites/stackoverflow/secondary.css?v=13dc725d5020"> 
+  <link rel="alternate" type="application/atom+xml" title="newest class-variables questions feed" href="/feeds/tag?tagnames=class-variables&amp;sort=newest"> 
+  <script>
+        StackExchange.init({"locale":"en","serverTime":1521843107,"routeName":"Questions/ListByTag","stackAuthUrl":"https://stackauth.com","networkMetaHostname":"meta.stackexchange.com","site":{"name":"Stack Overflow","description":"Q&A for professional and enthusiast programmers","isNoticesTabEnabled":true,"recaptchaPublicKey":"6LdchgIAAAAAAJwGpIzRQSOFaO0pU6s44Xt8aTwc","recaptchaAudioLang":"en","enableNewTagCreationWarning":true,"insertSpaceAfterNameTabCompletion":false,"id":1,"childUrl":"https://meta.stackoverflow.com","enableSocialMediaInSharePopup":true,"protocol":"https"},"user":{"fkey":"d16a35da63103e8b1162221b85b5952621651c541085caea15d1785affbc32a4","tid":"c255ae60-3aa6-c67f-bc34-10a83c2d1d60","rep":0,"isAnonymous":true,"isAnonymousNetworkWide":true},"events":{"postType":{"question":1},"postEditionSection":{"title":1,"body":2,"tags":3}},"story":{"minCompleteBodyLength":75,"likedTagsMaxLength":300,"dislikedTagsMaxLength":300},"jobPreferences":{"maxNumDeveloperRoles":2,"maxNumIndustries":4}}, {"site":{"allowImageUploads":true,"commentHighlightingWithCSS":true,"enableUserHovercards":true,"styleCode":true,"enableImgurHttps":true,"forceHttpsImages":true},"userMessaging":{},"comments":{},"userProfile":{"openGraphAPIKey":"58740831ad23540e00c58987"},"tags":{},"accounts":{"currentPasswordRequiredForChangingStackIdPassword":true},"flags":{"allowRetractingFlags":true},"snippets":{"snippetsEnabled":true,"renderDomain":"stacksnippets.net"},"paths":{},"markdown":{"asteriskIntraWordEmphasis":true},"monitoring":{"clientTimingsAbsoluteTimeout":30000,"clientTimingsDebounceTimeout":1000},"slack":{"sidebarAdDismissCookie":"slack-sidebar-ad"},"subscriptions":{}});
+        StackExchange.using.setCacheBreakers({"js/prettify-full.en.js":"fd71fcd78b2c","js/moderator.en.js":"d350b664ddb3","js/full-anon.en.js":"81c19a49c169","js/full.en.js":"6d6c19847a8b","js/wmd.en.js":"a349c871bd62","js/third-party/jquery.autocomplete.min.js":"bdb258e949a8","js/third-party/jquery.autocomplete.min.en.js":"","js/mobile.en.js":"4804a16f7074","js/help.en.js":"a1c2d4ed1321","js/tageditor.en.js":"bff66e3469d5","js/tageditornew.en.js":"586ffe22ab58","js/inline-tag-editing.en.js":"e7aa31e8eba1","js/revisions.en.js":"8f22ba768cac","js/review.en.js":"5eda79317cf4","js/tagsuggestions.en.js":"78eee7c19ab2","js/post-validation.en.js":"ec745f184617","js/explore-qlist.en.js":"66e52888786d","js/events.en.js":"8f07ed802b6b","js/keyboard-shortcuts.en.js":"8588a17139dd","js/external-editor.en.js":"3c50622b803d","js/adops.en.js":"22a9bd59b1e9","js/external-editor.en.js":"3c50622b803d","js/snippet-javascript.en.js":"6596eb95a324","js/snippet-javascript-codemirror.en.js":"6e1735fcf180"});
+        StackExchange.using("gps", function() {
+             StackExchange.gps.init(true);
+        });
+    </script> 
+  <noscript id="noscript-css">
+   <style>body,.top-bar{margin-top:1.9em}</style>
+  </noscript> 
+ </head> 
+ <body class="tagged-questions-page new-topbar"> 
+  <script async src="https://js-sec.indexww.com/ht/p/185901-159836282584097.js"></script> 
+  <div id="notify-container"></div> 
+  <div id="custom-header"></div> 
+  <header class="top-bar js-top-bar _fixed"> 
+   <div class="-container"> 
+    <div class="-main"> 
+     <a href="https://stackoverflow.com" class="-logo js-gps-track" data-gps-track="top_nav.click({is_current:false, location:5, destination:8})"> <span class="-img">Stack Overflow</span> </a> 
+     <nav class="navigation" role="navigation" aria-label="site navigation"> 
+      <ol class="-list"> 
+       <li class="-item _current"> <a id="nav-questions" href="/questions" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:true, location:5, destination:1})">Questions</a> </li> 
+       <li class="-item"> <a id="nav-jobs" href="/jobs?med=site-ui&amp;ref=jobs-tab" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:5, destination:6})">Developer Jobs</a> </li> 
+       <li class="-item"> <a id="nav-tags" href="/tags" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:5, destination:2})">Tags</a> </li> 
+       <li class="-item"> <a id="nav-users" href="/users" class="-link js-gps-track" data-gps-track="top_nav.click({is_current:false, location:5, destination:3})">Users</a> </li> 
+      </ol> 
+     </nav> 
+    </div> 
+    <form id="search" action="/search" method="get" class="searchbar" autocomplete="off" role="search"> 
+     <input name="q" type="text" placeholder="Search…" value="[class-variables]" tabindex="1" autocomplete="off" maxlength="240" class="f-input js-search-field"> 
+     <button type="submit" aria-label="Search..." class="btn-topbar-primary js-search-submit">
+      <svg aria-hidden="true" class="svg-icon iconSearch" width="18" height="18" viewbox="0 0 18 18">
+       <path d="M12.86 11.32L18 16.5 16.5 18l-5.18-5.14v-.35a7 7 0 1 1 1.19-1.19h.35zM7 12A5 5 0 1 0 7 2a5 5 0 0 0 0 10z" />
+      </svg></button> 
+    </form> 
+    <div class="-actions"> 
+     <nav class="secondary-nav"> 
+      <div class="-dialog-container js-topbar-dialog-corral"> 
+       <div class="topbar-dialog siteSwitcher-dialog dno"> 
+        <div class="header"> 
+         <h3><a href="https://stackoverflow.com">current community</a> </h3> 
+        </div> 
+        <div class="modal-content current-site-container"> 
+         <ul class="current-site"> 
+          <li> 
+           <div class="related-links"> 
+            <a href="https://stackoverflow.com/help" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:14 })">help</a> 
+            <a href="https://chat.stackoverflow.com" class="js-gps-track" data-gps-track="site_switcher.click({ item_type:6 })">chat</a> 
+           </div> <a href="https://stackoverflow.com" class="current-site-link site-link js-gps-track" data-id="1" data-gps-track="site_switcher.click({ item_type:3 })"> 
+            <div class="favicon favicon-stackoverflow site-icon" title="Stack Overflow"></div> Stack Overflow </a> </li> 
+          <li class="related-site"> 
+           <div class="L-shaped-icon-container"> 
+            <span class="L-shaped-icon"></span> 
+           </div> <a href="https://meta.stackoverflow.com" class="site-link js-gps-track" data-id="552" data-gps-track="site.switch({ target_site:552, item_type:3 }),site_switcher.click({ item_type:4 })"> 
+            <div class="favicon favicon-stackoverflowmeta site-icon" title="Meta Stack Overflow"></div> Meta Stack Overflow </a> </li> 
+         </ul> 
+        </div> 
+        <div class="header" id="your-communities-header"> 
+         <h3> your communities </h3> 
+        </div> 
+        <div class="modal-content" id="your-communities-section"> 
+         <div class="call-to-login"> 
+          <a href="https://stackoverflow.com/users/signup?ssrc=site_switcher&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:10 })">Sign up</a> or 
+          <a href="https://stackoverflow.com/users/login?ssrc=site_switcher&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fclass-variables" class="login-link js-gps-track" data-gps-track="site_switcher.click({ item_type:11 })">log in</a> to customize your list. 
+         </div> 
+        </div> 
+        <div class="header"> 
+         <h3><a href="https://stackexchange.com/sites">more stack exchange communities</a> </h3> 
+         <a href="https://stackoverflow.blog" class="fr">company blog</a> 
+        </div> 
+        <div class="modal-content"> 
+         <div class="child-content"></div> 
+        </div> 
+       </div> 
+       <div class="topbar-dialog help-dialog js-help-dialog dno"> 
+        <div class="modal-content"> 
+         <ul> 
+          <li> <a href="/tour" class="js-gps-track" data-gps-track="help_popup.click({ item_type:1 })"> Tour <span class="item-summary"> Start here for a quick overview of the site </span> </a> </li> 
+          <li> <a href="/help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:4 })"> Help Center <span class="item-summary"> Detailed answers to any questions you might have </span> </a> </li> 
+          <li> <a href="https://meta.stackoverflow.com" class="js-gps-track" data-gps-track="help_popup.click({ item_type:2 })"> Meta <span class="item-summary"> Discuss the workings and policies of this site </span> </a> </li> 
+          <li> <a href="https://stackoverflow.com/company/about" class="js-gps-track" data-gps-track="help_popup.click({ item_type:6 })"> About Us <span class="item-summary"> Learn more about Stack Overflow the company </span> </a> </li> 
+          <li> <a href="https://www.stackoverflowbusiness.com/?ref=topbar_help" class="js-gps-track" data-gps-track="help_popup.click({ item_type:7 })"> Business <span class="item-summary"> Learn more about hiring developers or posting ads with us </span> </a> </li> 
+         </ul> 
+        </div> 
+       </div> 
+      </div> 
+      <ol class="-list"> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=inbox" class="-link js-inbox-button" title="Recent inbox messages"> 
+         <svg aria-hidden="true" class="svg-icon iconInbox" width="20" height="18" viewbox="0 0 20 18">
+          <path d="M15.19 1H4.63c-.85 0-1.6.54-1.85 1.35L0 10.79V15c0 1.1.9 2 2 2h16a2 2 0 0 0 2-2v-4.21l-2.87-8.44A2 2 0 0 0 15.19 1zm-.28 10l-2 2h-6l-2-2H1.96L4.4 3.68A1 1 0 0 1 5.35 3h9.12a1 1 0 0 1 .95.68L17.86 11h-2.95z" />
+         </svg> <span class="indicator-badge js-unread-count _important" style="display: none;"></span> </a> </li> 
+       <li class="-item"> <a href="https://stackexchange.com/users/?tab=reputation" class="-link js-achievements-button" title="Recent achievements: reputation, badges, and privileges earned" data-unread-class="_highlighted-positive"> 
+         <svg aria-hidden="true" class="svg-icon iconAchievements" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M15 2V1H3v1H0v4c0 1.6 1.4 3 3 3v1c.4 1.5 3 2.6 5 3v2H5s-1 1.5-1 2h10c0-.4-1-2-1-2h-3v-2c2-.4 4.6-1.5 5-3V9c1.6-.2 3-1.4 3-3V2h-3zM3 7c-.5 0-1-.5-1-1V4h1v3zm8.4 2.5L9 8 6.6 9.4l1-2.7L5 5h3l1-2.7L10 5h2.8l-2.3 1.8 1 2.7h-.1zM16 6c0 .5-.5 1-1 1V4h1v2z" />
+         </svg> <span class="indicator-badge js-unread-count _positive" style="display: none;"></span> </a> </li> 
+       <li class="-item"><a href="#" class="-link js-help-button" title="Help Center and other resources"> 
+         <svg aria-hidden="true" class="svg-icon iconHelp" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M9 1a8 8 0 1 0 0 16A8 8 0 0 0 9 1zm.81 12.13c-.02.71-.55 1.15-1.24 1.13-.66-.02-1.17-.49-1.15-1.2.02-.72.56-1.18 1.22-1.16.7.03 1.2.51 1.17 1.23zM11.77 8a5.8 5.8 0 0 1-1.02.91l-.53.37c-.26.2-.42.43-.5.69a4 4 0 0 0-.09.75c0 .05-.03.16-.18.16H7.88c-.16 0-.18-.1-.18-.15.03-.66.12-1.21.4-1.66a5.29 5.29 0 0 1 1.43-1.22c.16-.12.28-.25.38-.39a1.34 1.34 0 0 0 .02-1.71c-.24-.31-.51-.46-1.03-.46-.51 0-.8.26-1.02.6-.21.33-.18.73-.18 1.1H5.75c0-1.38.35-2.25 1.1-2.76.52-.35 1.17-.5 1.93-.5 1 0 1.79.18 2.49.71.64.5.98 1.18.98 2.12 0 .57-.2 1.05-.48 1.44z" />
+         </svg> </a></li> 
+       <li class="-item"> <a href="https://stackexchange.com" class="-link js-site-switcher-button js-gps-track" data-gps-track="site_switcher.show" title="A list of all 172 Stack Exchange sites"> 
+         <svg aria-hidden="true" class="svg-icon iconStackExchange" width="18" height="18" viewbox="0 0 18 18">
+          <path d="M1 13c0 1.1.9 2 2 2h8v3l3-3h1a2 2 0 0 0 2-2v-2H1v2zM15 1H3a2 2 0 0 0-2 2v2h16V3a2 2 0 0 0-2-2zM1 6h16v4H1V6z" />
+         </svg> </a> </li> 
+      </ol> 
+     </nav> 
+     <div class="-ctas"> 
+      <a href="https://stackoverflow.com/users/login?ssrc=head&amp;returnurl=https%3a%2f%2fstackoverflow.com%2fquestions%2ftagged%2fclass-variables" class="login-link btn-clear" rel="nofollow">Log In</a> 
+      <a href="https://stackoverflow.com/users/signup?ssrc=head&amp;returnurl=%2fusers%2fstory%2fcurrent" class="login-link btn-topbar-primary" rel="nofollow" data-ga="[&quot;Sign Up&quot;,&quot;Sign Up Navigation&quot;,&quot;Header&quot;,null,null]">Sign Up</a> 
+     </div> 
+    </div> 
+   </div> 
+  </header> 
+  <script>
+        StackExchange.ready(function() { StackExchange.topbar.init(); });
+        StackExchange.scrollPadding.setPaddingTop(60, 10);     </script> 
+  <div id="announcement-banner" data-campaign="2018-03-13.dev-survey-2018" data-cookie="notice-dsr" data-expire-date="1524211200000"> 
+   <div class="-container"> 
+    <span class="-body">The results are in!</span> 
+    <a class="-link js-link js-gps-track" href="https://insights.stackoverflow.com/survey/2018/" data-ga="[&quot;dev-survey-2018&quot;,&quot;Announcement Banner&quot;,&quot;https://insights.stackoverflow.com/survey/2018/&quot;,null,{&quot;dimension4&quot;:&quot;dev-survey-2018&quot;}]" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 5, action: 2})">See the 2018 Developer Survey results. »</a> 
+    <a class="-dismiss js-dismiss js-gps-track" href="#" title="dismiss" data-gps-track="announcement_banner.click({campaign: '2018-03-13.dev-survey-2018', location: 5, action: 1})">
+     <svg aria-hidden="true" class="svg-icon iconClear" width="18" height="18" viewbox="0 0 18 18">
+      <path d="M15 4.41L13.59 3 9 7.59 4.41 3 3 4.41 7.59 9 3 13.59 4.41 15 9 10.41 13.59 15 15 13.59 10.41 9z" />
+     </svg></a> 
+   </div> 
+  </div> 
+  <script>
+    StackExchange.ready(function () {
+        var $banner = $('#announcement-banner');
+
+        function setCookie(value) {
+            $.cookie($banner.data('cookie'), value, {
+                expires: (new Date($banner.data('expire-date'))),
+                path: '/'
+            });
+        }
+
+        $banner.find('.js-link').click(function () {
+            setCookie('2;' + Date.now());
+        });
+
+        $banner.find('.js-dismiss').click(function () {
+            setCookie('4;' + Date.now());
+            $banner.animate({ height: '0', opacity: 0 }, 'fast', 'linear', function () { $banner.remove(); });
+            return false;
+        });
+    });
+</script> 
+  <div class="container"> 
+   <div id="content" class="snippet-hidden"> 
+    <div id="mainbar"> 
+     <div class="subheader"> 
+      <h1>Tagged Questions</h1> 
+      <div id="tabs"> 
+       <a href="/tags/class-variables/info" data-nav-xhref="" title="information about this tag" data-value="" data-shortcut="I"> info</a> 
+       <a class="youarehere " href="/questions/tagged/class-variables?sort=newest&amp;pageSize=15" data-nav-xhref="" title="The most recently asked questions" data-value="newest" data-shortcut="N"> newest</a> 
+       <a href="/questions/tagged/class-variables?sort=frequent&amp;pageSize=15" data-nav-xhref="" title="Questions with the most links" data-value="frequent" data-shortcut="F"> frequent</a> 
+       <a href="/questions/tagged/class-variables?sort=votes&amp;pageSize=15" data-nav-xhref="" title="Questions with the most votes" data-value="votes" data-shortcut="V"> votes</a> 
+       <a href="/questions/tagged/class-variables?sort=active&amp;pageSize=15" data-nav-xhref="" title="Questions that have recent activity" data-value="active" data-shortcut="A"> active</a> 
+       <a id="tab-switch" href="/unanswered/tagged/class-variables" data-nav-xhref="" title="Switch to unanswered tabs" data-value="" data-shortcut="U"> unanswered</a> 
+      </div> 
+     </div> 
+     <div class="question"> 
+      <div id="dfp-tag" class="everyonelovesstackoverflow"></div> 
+      <div class="welovestackoverflow mt12"> 
+       <p class="-excerpt"> A class variable is a variable shared by all instance of that class. In some languages, it is equivalent to declaring it with a `static` modifier, but that is not always that simple (there are language for which the two are not synonymous). </p> 
+       <p style="margin-bottom: 0;" class="-footer"> <a title="tag wiki" href="/tags/class-variables/info">learn more…</a> <span class="lsep">|</span> <a title="top answerers and askers in this tag" href="/tags/class-variables/topusers">top users</a> <span class="lsep">|</span> <a title="common, alternate spellings or phrasings for this tag" href="/tags/class-variables/synonyms">synonyms</a> </p> 
+      </div> 
+     </div> 
+     <div id="questions" class="content-padding"> 
+      <div class="question-summary" id="question-summary-49365930"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>151</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>6</strong>answers 
+         </div> 
+        </div> 
+        <div class="views warm" title="8,578 views">
+          9k views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49365930/is-final-ill-defined" class="question-hyperlink">Is final ill-defined?</a></h3> 
+        <div class="excerpt">
+          First, a puzzle: What does the following code print? public class RecursiveStatic { public static void main(String[] args) { System.out.println(scale(5)); } private static final ... 
+        </div> 
+        <div class="tags t-java t-final t-class-variables t-static-initialization"> 
+         <a href="/questions/tagged/java" class="post-tag" title="show questions tagged 'java'" rel="tag">java</a> 
+         <a href="/questions/tagged/final" class="post-tag" title="show questions tagged 'final'" rel="tag">final</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+         <a href="/questions/tagged/static-initialization" class="post-tag" title="show questions tagged 'static-initialization'" rel="tag">static-initialization</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-19 14:56:49Z" class="relativetime">Mar 19 at 14:56</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/3341241/little-helper">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/1a444ba22e3e3d3fa521b75ca5e67d56?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/3341241/little-helper">Little Helper</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">826</span>
+            <span title="1 gold badge"><span class="badge1"></span><span class="badgecount">1</span></span>
+            <span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span>
+            <span title="12 bronze badges"><span class="badge3"></span><span class="badgecount">12</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49344027"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="21 views">
+          21 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49344027/convention-for-referencing-class-attributes" class="question-hyperlink">Convention for referencing class attributes?</a></h3> 
+        <div class="excerpt">
+          What is the convention for referencing class attributes? I understand that there are two ways of referencing class attributes: class Circle1: pi = 3.14 def __init__(self, radius=1): ... 
+        </div> 
+        <div class="tags t-python t-python-3ûx t-attributes t-conventions t-class-variables"> 
+         <a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a> 
+         <a href="/questions/tagged/python-3.x" class="post-tag" title="show questions tagged 'python-3.x'" rel="tag">python-3.x</a> 
+         <a href="/questions/tagged/attributes" class="post-tag" title="show questions tagged 'attributes'" rel="tag">attributes</a> 
+         <a href="/questions/tagged/conventions" class="post-tag" title="show questions tagged 'conventions'" rel="tag">conventions</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-18 02:46:49Z" class="relativetime">Mar 18 at 2:46</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/8305657/parrot15">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/969a99617f3eca04a66d4246db5eaf87?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/8305657/parrot15">parrot15</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">85</span>
+            <span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49317933"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="38 views">
+          38 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49317933/declare-stringvar-variable-as-class-variable-in-python" class="question-hyperlink">Declare Stringvar variable as class variable in Python</a></h3> 
+        <div class="excerpt">
+          I want to initiate a class variable in order to pass it to another class. This variable has to be a StringVar variable as I want to use it for an Entry function of Tkinter. What I have done so far is ... 
+        </div> 
+        <div class="tags t-python t-tkinter t-initialization t-class-variables"> 
+         <a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a> 
+         <a href="/questions/tagged/tkinter" class="post-tag" title="show questions tagged 'tkinter'" rel="tag">tkinter</a> 
+         <a href="/questions/tagged/initialization" class="post-tag" title="show questions tagged 'initialization'" rel="tag">initialization</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-16 10:04:20Z" class="relativetime">Mar 16 at 10:04</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/6941970/tzoukritzou">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/ce2b9a89cc6cd2c1eba7e32b0952f985?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/6941970/tzoukritzou">tzoukritzou</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">34</span>
+            <span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span>
+            <span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49300636"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="27 views">
+          27 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49300636/cant-read-entry-value-from-one-classs-instance-to-another-in-tkinter-while-rea" class="question-hyperlink">Can't read entry value from one class's instance to another in Tkinter while reading from the same class's init works fine</a></h3> 
+        <div class="excerpt">
+          I have two classes in my project. One is the GUI and the other makes the calculations. I read data from two Entry boxes from the first and want to pass them to the second. So far, what I do is this: ... 
+        </div> 
+        <div class="tags t-python t-tkinter t-tkinter-entry t-class-variables t-getattr"> 
+         <a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a> 
+         <a href="/questions/tagged/tkinter" class="post-tag" title="show questions tagged 'tkinter'" rel="tag">tkinter</a> 
+         <a href="/questions/tagged/tkinter-entry" class="post-tag" title="show questions tagged 'tkinter-entry'" rel="tag">tkinter-entry</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+         <a href="/questions/tagged/getattr" class="post-tag" title="show questions tagged 'getattr'" rel="tag">getattr</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-15 13:24:32Z" class="relativetime">Mar 15 at 13:24</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/6941970/tzoukritzou">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/ce2b9a89cc6cd2c1eba7e32b0952f985?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/6941970/tzoukritzou">tzoukritzou</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">34</span>
+            <span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span>
+            <span title="9 bronze badges"><span class="badge3"></span><span class="badgecount">9</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49110711"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>2</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="19 views">
+          19 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49110711/python3-inherit-class-variable-without-inheriting-value" class="question-hyperlink">Python3 inherit class variable without inheriting value</a></h3> 
+        <div class="excerpt">
+          I have a set of classes which should all keep track of which instance they are. For this purpose I have a class variable in the parent class, which is copied and incremented at initialization of each ... 
+        </div> 
+        <div class="tags t-python-3ûx t-inheritance t-class-variables"> 
+         <a href="/questions/tagged/python-3.x" class="post-tag" title="show questions tagged 'python-3.x'" rel="tag">python-3.x</a> 
+         <a href="/questions/tagged/inheritance" class="post-tag" title="show questions tagged 'inheritance'" rel="tag">inheritance</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-03-05 12:38:55Z" class="relativetime">Mar 5 at 12:38</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/5097348/james">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/0d71eed4717a5cdc7981f2068b68440d?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/5097348/james">James</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">22</span>
+            <span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-49031336"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>-5</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="39 views">
+          39 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/49031336/how-can-i-create-a-variable-to-pass-it-in-here-intentthis-variable-name" class="question-hyperlink">How can I create a variable to pass it in here: Intent(this, [Variable_name] :: class.java)?</a></h3> 
+        <div class="excerpt">
+          I am trying to redirect the user to their respective home activities. I want to store the activity name in the variable and initialize it in an if..else fashion. How can I create a variable to pass it ... 
+        </div> 
+        <div class="tags t-android t-android-intent t-kotlin t-class-variables"> 
+         <a href="/questions/tagged/android" class="post-tag" title="show questions tagged 'android'" rel="tag"><img src="//i.stack.imgur.com/tKsDb.png" height="16" width="18" alt="" class="sponsor-tag-img">android</a> 
+         <a href="/questions/tagged/android-intent" class="post-tag" title="show questions tagged 'android-intent'" rel="tag">android-intent</a> 
+         <a href="/questions/tagged/kotlin" class="post-tag" title="show questions tagged 'kotlin'" rel="tag"><img src="//i.stack.imgur.com/NT6zO.png" height="16" width="18" alt="" class="sponsor-tag-img">kotlin</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-02-28 14:01:22Z" class="relativetime">Feb 28 at 14:01</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/7807711/devanshi-sukhija">
+            <div class="gravatar-wrapper-32">
+             <img src="https://lh5.googleusercontent.com/-dk_1D_O45qc/AAAAAAAAAAI/AAAAAAAALZo/2CGEON3a0uE/photo.jpg?sz=32" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/7807711/devanshi-sukhija">Devanshi Sukhija</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">10</span>
+            <span title="6 bronze badges"><span class="badge3"></span><span class="badgecount">6</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-48639239"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="36 views">
+          36 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/48639239/accessing-the-variable-inside-nested-function-python" class="question-hyperlink">Accessing the variable inside nested function python</a></h3> 
+        <div class="excerpt">
+          I am trying to access the variable which is inside a class and also inside nested function. I am trying to access that variable into another class but after using 'global' i have no luck in accessing ... 
+        </div> 
+        <div class="tags t-python t-global-variables t-local-variables t-class-variables t-nested-function"> 
+         <a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a> 
+         <a href="/questions/tagged/global-variables" class="post-tag" title="show questions tagged 'global-variables'" rel="tag">global-variables</a> 
+         <a href="/questions/tagged/local-variables" class="post-tag" title="show questions tagged 'local-variables'" rel="tag">local-variables</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+         <a href="/questions/tagged/nested-function" class="post-tag" title="show questions tagged 'nested-function'" rel="tag">nested-function</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-02-06 09:11:00Z" class="relativetime">Feb 6 at 9:11</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/9171060/sagar-hs">
+            <div class="gravatar-wrapper-32">
+             <img src="https://lh5.googleusercontent.com/-_kTFdH52KOY/AAAAAAAAAAI/AAAAAAAAH3A/datWjfH6a7g/photo.jpg?sz=32" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/9171060/sagar-hs">Sagar Hs</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+            <span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-48465617"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>-1</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>2</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="56 views">
+          56 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/48465617/accessing-instance-variables-inside-a-class-in-python-3" class="question-hyperlink">Accessing instance variables inside a class in Python 3 [closed]</a></h3> 
+        <div class="excerpt">
+          I'm having some issues with Python as an OO language. I learned OO with Java and Python, while similar, seems to have some key differences. I'm trying to write a basic chatbot (I mean really basic) ... 
+        </div> 
+        <div class="tags t-python t-instance-variables t-class-variables"> 
+         <a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a> 
+         <a href="/questions/tagged/instance-variables" class="post-tag" title="show questions tagged 'instance-variables'" rel="tag">instance-variables</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-01-26 16:35:15Z" class="relativetime">Jan 26 at 16:35</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/7595280/hunter">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/6bbd8ed1165b246dbb96eb5eb43fb725?s=32&amp;d=identicon&amp;r=PG" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/7595280/hunter">Hunter</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">64</span>
+            <span title="3 bronze badges"><span class="badge3"></span><span class="badgecount">3</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-48454034"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="34 views">
+          34 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/48454034/updating-variables-in-a-python-class" class="question-hyperlink">Updating variables in a python class [closed]</a></h3> 
+        <div class="excerpt">
+          First: does it matter if i define an update function in a class or can i just do the following: class foo(object): def __init__(self): self.a = 1 def f(self,): self.a = self.a*... 
+        </div> 
+        <div class="tags t-python t-class t-class-variables"> 
+         <a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a> 
+         <a href="/questions/tagged/class" class="post-tag" title="show questions tagged 'class'" rel="tag">class</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-01-26 00:19:13Z" class="relativetime">Jan 26 at 0:19</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/9236522/michael-bowen">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/59e189a4ac836826d35d958b6f206922?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/9236522/michael-bowen">Michael bowen</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">3</span>
+            <span title="1 bronze badge"><span class="badge3"></span><span class="badgecount">1</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-48370370"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>2</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="31 views">
+          31 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/48370370/can-i-use-a-superclass-method-to-set-a-class-variable-for-its-subclass-in-ruby" class="question-hyperlink">Can I use a superclass method to set a class variable for its subclass in ruby? [duplicate]</a></h3> 
+        <div class="excerpt">
+          Ok so I'm trying to set up my own subclassing structure in ruby to allow functionality that matches the protocol pattern in Swift. My current approach is to create two base classes, one called ... 
+        </div> 
+        <div class="tags t-ruby t-inheritance t-protocols t-class-variables"> 
+         <a href="/questions/tagged/ruby" class="post-tag" title="show questions tagged 'ruby'" rel="tag">ruby</a> 
+         <a href="/questions/tagged/inheritance" class="post-tag" title="show questions tagged 'inheritance'" rel="tag">inheritance</a> 
+         <a href="/questions/tagged/protocols" class="post-tag" title="show questions tagged 'protocols'" rel="tag">protocols</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-01-21 18:42:31Z" class="relativetime">Jan 21 at 18:42</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/3985721/josh-hadik">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/9bee4235ea6f190c87d8162dfcc75009?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/3985721/josh-hadik">Josh Hadik</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">66</span>
+            <span title="7 bronze badges"><span class="badge3"></span><span class="badgecount">7</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-48240905"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered"> 
+          <strong>2</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="47 views">
+          47 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/48240905/changing-static-class-variables-in-python" class="question-hyperlink">Changing static class variables in Python</a></h3> 
+        <div class="excerpt">
+          How is it possible to change static variables of a class? I want it to be changed by some sort of input. class MyClass: var1 = 1 var2 = 4 def __init__(self, var3, var4): self.... 
+        </div> 
+        <div class="tags t-python t-class t-static-variables t-class-variables"> 
+         <a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a> 
+         <a href="/questions/tagged/class" class="post-tag" title="show questions tagged 'class'" rel="tag">class</a> 
+         <a href="/questions/tagged/static-variables" class="post-tag" title="show questions tagged 'static-variables'" rel="tag">static-variables</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-01-13 14:41:18Z" class="relativetime">Jan 13 at 14:41</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/8048190/mathias-wenner%c3%b8d-adolfsen">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/a90d76f5202ec798b4e06dd06d0c50c8?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/8048190/mathias-wenner%c3%b8d-adolfsen">Mathias Wennerød Adolfsen</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">1</span>
+            <span title="2 bronze badges"><span class="badge3"></span><span class="badgecount">2</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-48096506"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="24 views">
+          24 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/48096506/can-python-class-variable-be-used-as-both-class-and-instance-variable" class="question-hyperlink">Can python class variable be used as both class and instance variable? [duplicate]</a></h3> 
+        <div class="excerpt">
+          I am very confused after working with Django Framework and the model of Djano Framework class User(models.Model): first_name = models.CharField(max_length=20) last_name = models.CharField(... 
+        </div> 
+        <div class="tags t-python t-django t-instance-variables t-class-variables t-class-instance-variables"> 
+         <a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a> 
+         <a href="/questions/tagged/django" class="post-tag" title="show questions tagged 'django'" rel="tag">django</a> 
+         <a href="/questions/tagged/instance-variables" class="post-tag" title="show questions tagged 'instance-variables'" rel="tag">instance-variables</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+         <a href="/questions/tagged/class-instance-variables" class="post-tag" title="show questions tagged 'class-instance-variables'" rel="tag">class-instance-variables</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2018-01-04 13:35:11Z" class="relativetime">Jan 4 at 13:35</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/6464216/mr-suryaa-jha">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/a31468f729a59d476b9780367f29be55?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/6464216/mr-suryaa-jha">Mr. Suryaa Jha</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">189</span>
+            <span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span>
+            <span title="5 bronze badges"><span class="badge3"></span><span class="badgecount">5</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-47804861"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>-1</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="28 views">
+          28 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/47804861/how-to-access-class-variable-of-super-class-without-explicit-super-class-name" class="question-hyperlink">How to access class variable of super class without explicit super class name</a></h3> 
+        <div class="excerpt">
+          As the title stated, I want to get how to accessing class variable of super class without explicit super class name. Or whether that is possible. I am NOT talking about accessing instance variable, ... 
+        </div> 
+        <div class="tags t-python t-inheritance t-class-variables"> 
+         <a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a> 
+         <a href="/questions/tagged/inheritance" class="post-tag" title="show questions tagged 'inheritance'" rel="tag">inheritance</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2017-12-14 02:07:47Z" class="relativetime">Dec 14 '17 at 2:07</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/4849734/diansheng">
+            <div class="gravatar-wrapper-32">
+             <img src="https://lh3.googleusercontent.com/-DHIS4n7ejUk/AAAAAAAAAAI/AAAAAAAAAR8/izipM1Qis74/photo.jpg?sz=32" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/4849734/diansheng">Diansheng</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">438</span>
+            <span title="6 silver badges"><span class="badge2"></span><span class="badgecount">6</span></span>
+            <span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-47728779"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status answered-accepted"> 
+          <strong>1</strong>answer 
+         </div> 
+        </div> 
+        <div class="views " title="41 views">
+          41 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/47728779/python-sqlalchemy-tablename-as-a-variable" class="question-hyperlink">Python Sqlalchemy - tablename as a variable</a></h3> 
+        <div class="excerpt">
+          I am using SQLAlchemy in Python and am declaring my classes inheriting from a declarative base as follows: from sqlalchemy import Column, Integer, String from sqlalchemy.ext.declarative import ... 
+        </div> 
+        <div class="tags t-python t-sqlalchemy t-nested t-runtime t-class-variables"> 
+         <a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a> 
+         <a href="/questions/tagged/sqlalchemy" class="post-tag" title="show questions tagged 'sqlalchemy'" rel="tag">sqlalchemy</a> 
+         <a href="/questions/tagged/nested" class="post-tag" title="show questions tagged 'nested'" rel="tag">nested</a> 
+         <a href="/questions/tagged/runtime" class="post-tag" title="show questions tagged 'runtime'" rel="tag">runtime</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2017-12-09 12:52:05Z" class="relativetime">Dec 9 '17 at 12:52</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/3900065/pezze">
+            <div class="gravatar-wrapper-32">
+             <img src="https://i.stack.imgur.com/mXSRo.jpg?s=32&amp;g=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/3900065/pezze">Pezze</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">93</span>
+            <span title="1 silver badge"><span class="badge2"></span><span class="badgecount">1</span></span>
+            <span title="11 bronze badges"><span class="badge3"></span><span class="badgecount">11</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div>
+      <div class="question-summary" id="question-summary-47259951"> 
+       <div class="statscontainer"> 
+        <div class="statsarrow"></div> 
+        <div class="stats"> 
+         <div class="vote"> 
+          <div class="votes"> 
+           <span class="vote-count-post "><strong>0</strong></span> 
+           <div class="viewcount">
+            votes
+           </div> 
+          </div> 
+         </div> 
+         <div class="status unanswered"> 
+          <strong>0</strong>answers 
+         </div> 
+        </div> 
+        <div class="views " title="18 views">
+          18 views 
+        </div> 
+       </div> 
+       <div class="summary"> 
+        <h3><a href="/questions/47259951/re-declaring-class-variables-as-instance-variables-in-python" class="question-hyperlink">Re declaring class variables as instance variables in python [duplicate]</a></h3> 
+        <div class="excerpt">
+          I am learning OOP in Python and have a query related to class and instance variables. &gt;&gt;&gt; class Something: ... val = 10 ... def __init__(self): ... self.instval = 100 ... ... 
+        </div> 
+        <div class="tags t-python t-oop t-instance-variables t-class-variables"> 
+         <a href="/questions/tagged/python" class="post-tag" title="show questions tagged 'python'" rel="tag">python</a> 
+         <a href="/questions/tagged/oop" class="post-tag" title="show questions tagged 'oop'" rel="tag">oop</a> 
+         <a href="/questions/tagged/instance-variables" class="post-tag" title="show questions tagged 'instance-variables'" rel="tag">instance-variables</a> 
+         <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+        </div> 
+        <div class="started fr"> 
+         <div class="user-info "> 
+          <div class="user-action-time">
+            asked 
+           <span title="2017-11-13 08:33:46Z" class="relativetime">Nov 13 '17 at 8:33</span> 
+          </div> 
+          <div class="user-gravatar32"> 
+           <a href="/users/7588896/twitu">
+            <div class="gravatar-wrapper-32">
+             <img src="https://www.gravatar.com/avatar/949e623bb4766cb6090bbd3ca40cad06?s=32&amp;d=identicon&amp;r=PG&amp;f=1" alt="" width="32" height="32">
+            </div></a> 
+          </div> 
+          <div class="user-details"> 
+           <a href="/users/7588896/twitu">twitu</a> 
+           <div class="-flair"> 
+            <span class="reputation-score" title="reputation score " dir="ltr">21</span>
+            <span title="4 bronze badges"><span class="badge3"></span><span class="badgecount">4</span></span> 
+           </div> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+      </div> 
+     </div> 
+     <br class="cbt"> 
+     <div class="pager fl"> 
+      <span class="page-numbers current">1</span> 
+      <a href="/questions/tagged/class-variables?page=2&amp;sort=newest&amp;pagesize=15" title="go to page 2"> <span class="page-numbers">2</span> </a> 
+      <a href="/questions/tagged/class-variables?page=3&amp;sort=newest&amp;pagesize=15" title="go to page 3"> <span class="page-numbers">3</span> </a> 
+      <a href="/questions/tagged/class-variables?page=4&amp;sort=newest&amp;pagesize=15" title="go to page 4"> <span class="page-numbers">4</span> </a> 
+      <a href="/questions/tagged/class-variables?page=5&amp;sort=newest&amp;pagesize=15" title="go to page 5"> <span class="page-numbers">5</span> </a> 
+      <span class="page-numbers dots">…</span> 
+      <a href="/questions/tagged/class-variables?page=22&amp;sort=newest&amp;pagesize=15" title="go to page 22"> <span class="page-numbers">22</span> </a> 
+      <a href="/questions/tagged/class-variables?page=2&amp;sort=newest&amp;pagesize=15" rel="next" title="go to page 2"> <span class="page-numbers next"> next</span> </a> 
+     </div>
+     <div class="page-sizer fr"> 
+      <a href="/questions/tagged/class-variables?sort=newest&amp;pagesize=15" title="show 15 items per page" class="page-numbers current">15</a> 
+      <a href="/questions/tagged/class-variables?sort=newest&amp;pagesize=30" title="show 30 items per page" class="page-numbers ">30</a> 
+      <a href="/questions/tagged/class-variables?sort=newest&amp;pagesize=50" title="show 50 items per page" class="page-numbers ">50</a> 
+      <span class="page-numbers desc">per page</span> 
+     </div> 
+    </div> 
+    <div id="sidebar"> 
+     <div class="module" id="questions-count"> 
+      <div class="-details"> 
+       <div class="summarycount al">
+        316
+       </div> 
+       <p>questions tagged</p> 
+       <div class="tagged"> 
+        <a href="/questions/tagged/class-variables" class="post-tag" title="show questions tagged 'class-variables'" rel="tag">class-variables</a> 
+        <a style="margin-left: 10px;" title="tag wiki, stats and faq" href="/tags/class-variables/info">about&nbsp;»</a> 
+       </div> 
+      </div> 
+      <div class="aside-cta" role="navigation" aria-label="ask new question"> 
+       <a href="/questions/ask" class="btn-outlined">Ask Question</a> 
+      </div> 
+     </div> 
+     <div class="module community-bulletin" data-tracker="cb=1"> 
+      <div class="related"> 
+       <div class="bulletin-title">
+         Upcoming Events 
+       </div> 
+       <hr> 
+       <div class="spacer bulletin-item-important"> 
+        <div class="bulletin-item-type">
+         <a href="https://stackoverflow.com/election" class="question-hyperlink" data-ga="[&quot;Community Bulletin Board&quot;,&quot;Upcoming Events&quot;,&quot;https://stackoverflow.com/election&quot;,null,null]">
+          <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div></a>
+        </div> 
+        <div class="bulletin-item-content"> 
+         <a href="https://stackoverflow.com/election" class="question-hyperlink" data-ga="[&quot;Community Bulletin Board&quot;,&quot;Upcoming Events&quot;,&quot;https://stackoverflow.com/election&quot;,null,null]">2018 Community Moderator Election</a> 
+         <div>
+          ends 
+          <span title="2018-03-27 20:00:00Z" class="relativetime">in 4 days</span>
+         </div> 
+        </div> 
+        <br class="cbt"> 
+       </div> 
+      </div> 
+     </div> 
+     <div id="dfp-tsb" class="everyonelovesstackoverflow"></div> 
+     <div id="hireme"></div> 
+     <script>;(function(){var a=function(a){for(var b=[],c=1;c<arguments.length;c++)b[c-1]=arguments[c];for(var d,e=0,f=b;e<f.length;e++)for(var g in d=f[e],d)a[g]=d[g];return a};window.clc=a(window.clc||{},{autoload:function(){'function'==typeof window.clc.load?window.clc.load():window.clc.cmd.push(function(a){return a.load()})},init:function(b){try{if(!b.allowed||!new RegExp(b.allowed).test(location.hostname))return;if('none'===getComputedStyle(document.getElementById('hireme')).display)return;window.clc.options&&(b=a(b,window.clc.options));var c=b.wv;if(document.hidden&&c){var d=function(){document.hidden||(window.clc.init(b),document.removeEventListener('visibilitychange',d))};return void document.addEventListener('visibilitychange',d)}window.clc.options=b,b.al&&window.clc.autoload();var e=/Trident/i.test(navigator.userAgent)?b.lib.replace(/(\.min)?\.js(\?v=[0-9a-fA-F]+)?$/,'.ie$1.js$2'):b.lib,f=document.createElement('script');f.async=!0,f.src=e,document.body.appendChild(f)}catch(a){}}}),window.clc.cmd||(window.clc.cmd=[]),window.clc.loadDisplayAds=function(){var a="clc.stackoverflow.com",b={slots:{lb:[[728,90]],mlb:[[728,90]],sb:function(a){return'dfp-tsb'===a?[[300,250],[300,600]]:[[300,250]]},"tag-sponsorship":[[730,135]],"mobile/lb":[[320,50]]},ids:{"dfp-tlb":'lb',"dfp-mlb":'mlb',"dfp-tsb":'sb',"dfp-isb":'sb',"dfp-tag":'tag-sponsorship',"dfp-m-tlb":'mobile/lb',"clc-tlb":'lb',"clc-mlb":'mlb',"clc-tsb":'sb'}},c=/^\/tags\//.test(location.pathname)||/^\/questions\/tagged\//.test(location.pathname)?'tag-pages':'question-pages',d=location.hostname;/^clc\./.test(location.hostname)&&(d='test/dev.stackoverflow.com');var e=[4385506061,4386578282,4386579572],f=function(a){a.style.height=a.style.maxHeight=a.style.minHeight='auto',a.style.display='none',[].forEach.call(a.children,f)},g=function(b){new Image().src='https://'+a+'/stalled.gif?'+b},h=function(){var a=document.createElement('div');a.className='adsbox',a.id='clc-abd',a.style.position='absolute',a.style.pointerEvents='none',a.innerHTML='&nbsp;',document.body.appendChild(a)},i=function(){return function(a){var b=a.serviceName,c=a.slot,d=a.lineItemId;try{var h=c.getSlotElementId(),i=[];h||i.push('id=0');var j=document.getElementById(h);if(!h||j?j.hasAttribute('data-clc-stalled')&&i.push('st=1'):i.push('el=0'),0!==i.length)return void g(i.join('&'));-1===e.indexOf(d)?j.setAttribute('data-clc-prefilled','true'):f(j),j.setAttribute('data-clc-ready','true')}catch(a){var k=document.querySelector('#dfp-tsb, #dfp-isb, #clc-tsb');k&&k.setAttribute('data-clc-ready','true'),g('e=1')}}},j=function(a){return function(){var e=window.googletag;h();var f=e.pubads();f.enableSingleRequest(),f.addEventListener('slotRenderEnded',i(a));var g=window.dfp_targeting||{};g&&Object.keys(g).forEach(function(a){f.setTargeting(a,g[a])});for(var j,k=0,l=a;k<l.length;k++){j=l[k],'dfp-isb'===j&&f.setTargeting('Sidebar',['Inline']),'dfp-tsb'===j&&f.setTargeting('Sidebar',['Right']);var m=b.ids[j],n=b.slots[m];'function'==typeof n&&(n=n(j));var o='/'+'248424177'+'/'+d+'/'+m+'/'+c,p=e.defineSlot(o,n,j);('tag-sponsorship'===m||'sb'==m)&&p.setCollapseEmptyDiv(!0,!0),p.addService(f),!1}e.enableServices();for(var j,q=0,r=a;q<r.length;q++)j=r[q],e.display(j)}},k=function(a){return document.getElementById(a)},l=function(a){return'none'===getComputedStyle(a).display},m=function(a){return!l(a)},n=function(a){return!!a};return function(a){a=a&&0<a.length?a:Object.keys(b.ids);var c=a.map(k).filter(n).filter(function(a){return /^\s*$/.test(a.innerHTML)}).filter(m).map(function(a){return a.id});if(a.map(k).filter(n).filter(l).forEach(f),0!==c.length){window.googletag=window.googletag||{},window.googletag.cmd=window.googletag.cmd||[],window.googletag.cmd.push(j(c));var d=document.createElement('script');d.async=!0,d.src='https://www.googletagservices.com/tag/js/gpt.js',document.body.appendChild(d)}}}()})(),window.clc.init.call(null, {"lib":"https://cdn.sstatic.net/clc/clc.min.js?v=1e02551fa930","style":"https://cdn.sstatic.net/clc/styles/clc.min.css?v=905391554886","u":"https://clc.stackoverflow.com/markup.js","wa":true,"kt":2000,"tto":true,"h":"clc.stackoverflow.com","allowed":"^(((talent\\.)?stackoverflow)|(blog\\.codinghorror)|(serverfault|askubuntu)|([^\\.]+\\.stackexchange))\\.com$","wv":true,"al":false});</script> 
+     <script>
+window.clc_request='AjtQHBILkdUIAAAAAAAAAAACAAAAAQAAAAARAAAAfGNsYXNzLXZhcmlhYmxlc3wArOHTthu6VpRCKQ';                    clc.autoload();
+                var dfp_targeting={Registered:['false'],'so-tag':['class-variables']};                                    clc.loadDisplayAds();
+            </script> 
+     <div class="module js-gps-related-tags"> 
+      <h4 id="h-related-tags">Related Tags</h4> 
+      <div data-name="python"> 
+       <a href="/questions/tagged/class-variables+python" class="post-tag no-tag-menu" title="show questions tagged 'class-variables python'" rel="tag">python</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">105</span></span> 
+      </div> 
+      <div data-name="ruby"> 
+       <a href="/questions/tagged/class-variables+ruby" class="post-tag no-tag-menu" title="show questions tagged 'class-variables ruby'" rel="tag">ruby</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">82</span></span> 
+      </div> 
+      <div data-name="class"> 
+       <a href="/questions/tagged/class-variables+class" class="post-tag no-tag-menu" title="show questions tagged 'class-variables class'" rel="tag">class</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">51</span></span> 
+      </div> 
+      <div data-name="instance-variables"> 
+       <a href="/questions/tagged/class-variables+instance-variables" class="post-tag no-tag-menu" title="show questions tagged 'class-variables instance-variables'" rel="tag">instance-variables</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">43</span></span> 
+      </div> 
+      <div data-name="java"> 
+       <a href="/questions/tagged/class-variables+java" class="post-tag no-tag-menu" title="show questions tagged 'class-variables java'" rel="tag">java</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">36</span></span> 
+      </div> 
+      <div data-name="ruby-on-rails"> 
+       <a href="/questions/tagged/class-variables+ruby-on-rails" class="post-tag no-tag-menu" title="show questions tagged 'class-variables ruby-on-rails'" rel="tag">ruby-on-rails</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">25</span></span> 
+      </div> 
+      <div data-name="static"> 
+       <a href="/questions/tagged/class-variables+static" class="post-tag no-tag-menu" title="show questions tagged 'class-variables static'" rel="tag">static</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">22</span></span> 
+      </div> 
+      <div data-name="oop"> 
+       <a href="/questions/tagged/class-variables+oop" class="post-tag no-tag-menu" title="show questions tagged 'class-variables oop'" rel="tag">oop</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">20</span></span> 
+      </div> 
+      <div data-name="objective-c"> 
+       <a href="/questions/tagged/class-variables+objective-c" class="post-tag no-tag-menu" title="show questions tagged 'class-variables objective-c'" rel="tag">objective-c</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">19</span></span> 
+      </div> 
+      <div data-name="inheritance"> 
+       <a href="/questions/tagged/class-variables+inheritance" class="post-tag no-tag-menu" title="show questions tagged 'class-variables inheritance'" rel="tag">inheritance</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">18</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="python-3.x"> 
+       <a href="/questions/tagged/class-variables+python-3.x" class="post-tag no-tag-menu" title="show questions tagged 'class-variables python-3.x'" rel="tag">python-3.x</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">15</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="php"> 
+       <a href="/questions/tagged/class-variables+php" class="post-tag no-tag-menu" title="show questions tagged 'class-variables php'" rel="tag">php</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">14</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="class-instance-variables"> 
+       <a href="/questions/tagged/class-variables+class-instance-variables" class="post-tag no-tag-menu" title="show questions tagged 'class-variables class-instance-variables'" rel="tag">class-instance-variables</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">14</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="variables"> 
+       <a href="/questions/tagged/class-variables+variables" class="post-tag no-tag-menu" title="show questions tagged 'class-variables variables'" rel="tag">variables</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">11</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="scope"> 
+       <a href="/questions/tagged/class-variables+scope" class="post-tag no-tag-menu" title="show questions tagged 'class-variables scope'" rel="tag">scope</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">11</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="c++"> 
+       <a href="/questions/tagged/class-variables%20c%2b%2b" class="post-tag no-tag-menu" title="show questions tagged 'class-variables c++'" rel="tag">c++</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">10</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="static-variables"> 
+       <a href="/questions/tagged/class-variables+static-variables" class="post-tag no-tag-menu" title="show questions tagged 'class-variables static-variables'" rel="tag">static-variables</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">10</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="initialization"> 
+       <a href="/questions/tagged/class-variables+initialization" class="post-tag no-tag-menu" title="show questions tagged 'class-variables initialization'" rel="tag">initialization</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">8</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="global-variables"> 
+       <a href="/questions/tagged/class-variables+global-variables" class="post-tag no-tag-menu" title="show questions tagged 'class-variables global-variables'" rel="tag">global-variables</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">7</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="class-method"> 
+       <a href="/questions/tagged/class-variables+class-method" class="post-tag no-tag-menu" title="show questions tagged 'class-variables class-method'" rel="tag">class-method</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">7</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="ios"> 
+       <a href="/questions/tagged/class-variables+ios" class="post-tag no-tag-menu" title="show questions tagged 'class-variables ios'" rel="tag">ios</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">6</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="python-2.7"> 
+       <a href="/questions/tagged/class-variables+python-2.7" class="post-tag no-tag-menu" title="show questions tagged 'class-variables python-2.7'" rel="tag">python-2.7</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">6</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="local-variables"> 
+       <a href="/questions/tagged/class-variables+local-variables" class="post-tag no-tag-menu" title="show questions tagged 'class-variables local-variables'" rel="tag">local-variables</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">6</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="object"> 
+       <a href="/questions/tagged/class-variables+object" class="post-tag no-tag-menu" title="show questions tagged 'class-variables object'" rel="tag">object</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">5</span></span> 
+      </div> 
+      <div class="dno js-hidden" data-name="ruby-on-rails-4"> 
+       <a href="/questions/tagged/class-variables+ruby-on-rails-4" class="post-tag no-tag-menu" title="show questions tagged 'class-variables ruby-on-rails-4'" rel="tag">ruby-on-rails-4</a>&nbsp;
+       <span class="item-multiplier"><span class="item-multiplier-x">×</span>&nbsp;<span class="item-multiplier-count">5</span></span> 
+      </div> 
+      <a href="#" class="show-more js-show-more js-gps-track" data-gps-track="related_tags.click({ item_type:2 })"> more related tags </a> 
+      <script>
+            StackExchange.ready(function () {
+                var $div = $('#h-related-tags').parent();
+                $div.find('.js-show-more').click(function () {
+                    $div.find('.js-hidden').show();
+                    $(this).remove();
+                    return false;
+                });
+            });
+        </script> 
+     </div> 
+     <div id="hot-network-questions" class="module tex2jax_ignore"> 
+      <h4> <a href="https://stackexchange.com/questions?tab=hot" class="js-gps-track" data-gps-track="posts_hot_network.click({ item_type:1, location:9 })"> Hot Network Questions </a> </h4> 
+      <ul> 
+       <li> 
+        <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="https://rpg.stackexchange.com/questions/119028/can-you-store-spare-vials-of-blood-to-refill-a-blood-reservoir" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:122 }); posts_hot_network.click({ item_type:2, location:9 })"> Can you store spare vials of blood to refill a Blood Reservoir? </a> </li> 
+       <li> 
+        <div class="favicon favicon-writing" title="Writing Stack Exchange"></div><a href="https://writing.stackexchange.com/questions/34529/is-it-okay-if-i-wrote-a-story-based-on-true-historical-events" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:166 }); posts_hot_network.click({ item_type:2, location:9 })"> Is It Okay If I Wrote A Story Based On True Historical Events? </a> </li> 
+       <li> 
+        <div class="favicon favicon-history" title="History Stack Exchange"></div><a href="https://history.stackexchange.com/questions/45231/why-did-stock-brokers-go-bankrupt-after-the-crash-of-29" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:324 }); posts_hot_network.click({ item_type:2, location:9 })"> Why did stock brokers go bankrupt after the crash of '29? </a> </li> 
+       <li> 
+        <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="https://electronics.stackexchange.com/questions/364315/confusion-between-class-b-and-class-ab-amplifier" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:135 }); posts_hot_network.click({ item_type:2, location:9 })"> Confusion between Class B and Class AB Amplifier </a> </li> 
+       <li> 
+        <div class="favicon favicon-interpersonal" title="Interpersonal Skills Stack Exchange"></div><a href="https://interpersonal.stackexchange.com/questions/12141/how-can-i-let-my-girlfriend-know-that-her-insults-are-hurting-my-feelings-and-as" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:680 }); posts_hot_network.click({ item_type:2, location:9 })"> How can I let my girlfriend know that her insults are hurting my feelings and ask her to stop? </a> </li> 
+       <li> 
+        <div class="favicon favicon-security" title="Information Security Stack Exchange"></div><a href="https://security.stackexchange.com/questions/181949/how-would-disabling-ipv6-make-a-server-any-more-secure" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:162 }); posts_hot_network.click({ item_type:2, location:9 })"> How would disabling IPv6 make a server any more secure? </a> </li> 
+       <li> 
+        <div class="favicon favicon-rpg" title="Role-playing Games Stack Exchange"></div><a href="https://rpg.stackexchange.com/questions/118980/players-argue-and-dont-accept-rulings-to-the-point-of-arguments" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:122 }); posts_hot_network.click({ item_type:2, location:9 })"> Players argue and don't accept rulings to the point of arguments </a> </li> 
+       <li> 
+        <div class="favicon favicon-codegolf" title="Programming Puzzles &amp; Code Golf Stack Exchange"></div><a href="https://codegolf.stackexchange.com/questions/160034/shape-identifying-program" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:200 }); posts_hot_network.click({ item_type:2, location:9 })"> Shape Identifying Program </a> </li> 
+       <li> 
+        <div class="favicon favicon-ux" title="User Experience Stack Exchange"></div><a href="https://ux.stackexchange.com/questions/116824/facial-recognition-given-the-context-should-the-user-be-made-aware-of-the-pro" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:102 }); posts_hot_network.click({ item_type:2, location:9 })"> Facial recognition - Given the context, should the user be made aware of the process? </a> </li> 
+       <li> 
+        <div class="favicon favicon-retrocomputing" title="Retrocomputing Stack Exchange"></div><a href="https://retrocomputing.stackexchange.com/questions/6045/can-modern-ai-be-used-to-program-impressive-graphics-effects-on-very-low-perform" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:648 }); posts_hot_network.click({ item_type:2, location:9 })"> Can modern AI be used to program impressive graphics effects on very low performance home-retrocomputers, in particular 'A 3D-rotating-cube' </a> </li> 
+       <li> 
+        <div class="favicon favicon-stats" title="Cross Validated"></div><a href="https://stats.stackexchange.com/questions/336315/will-log-transformation-always-mitigate-heteroskedasticity" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:65 }); posts_hot_network.click({ item_type:2, location:9 })"> Will log transformation always mitigate heteroskedasticity? </a> </li> 
+       <li> 
+        <div class="favicon favicon-codereview" title="Code Review Stack Exchange"></div><a href="https://codereview.stackexchange.com/questions/190255/basic-c-circle-class" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:196 }); posts_hot_network.click({ item_type:2, location:9 })"> Basic C++ Circle Class </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-worldbuilding" title="Worldbuilding Stack Exchange"></div><a href="https://worldbuilding.stackexchange.com/questions/107564/what-weapon-of-mass-destruction-could-theoretically-vaporize-a-whole-solar-syste" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:579 }); posts_hot_network.click({ item_type:2, location:9 })"> What weapon of mass destruction could theoretically vaporize a whole solar system? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-interpersonal" title="Interpersonal Skills Stack Exchange"></div><a href="https://interpersonal.stackexchange.com/questions/12280/what-to-do-when-a-friends-close-relative-dies" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:680 }); posts_hot_network.click({ item_type:2, location:9 })"> What to do when a friend's close relative dies? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="https://electronics.stackexchange.com/questions/364221/help-me-identify-a-component-on-a-pcb" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:135 }); posts_hot_network.click({ item_type:2, location:9 })"> Help me identify a component on a PCB </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-scifi" title="Science Fiction &amp; Fantasy Stack Exchange"></div><a href="https://scifi.stackexchange.com/questions/184129/how-does-black-panther-leave-scratches-on-captain-americas-shield-in-civil-war" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:186 }); posts_hot_network.click({ item_type:2, location:9 })"> How does Black Panther leave scratches on Captain America's shield in Civil War </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-stackoverflow" title="Stack Overflow"></div><a href="https://stackoverflow.com/questions/49447957/for-loop-inside-its-own-curly-braces" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:1 }); posts_hot_network.click({ item_type:2, location:9 })"> For loop inside its own curly braces </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-softwareengineering" title="Software Engineering Stack Exchange"></div><a href="https://softwareengineering.stackexchange.com/questions/368195/what-advantage-was-gained-by-implementing-linq-in-a-way-that-does-not-cache-the" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:131 }); posts_hot_network.click({ item_type:2, location:9 })"> What advantage was gained by implementing LINQ in a way that does not cache the results? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-workplace" title="The Workplace Stack Exchange"></div><a href="https://workplace.stackexchange.com/questions/109485/colleagues-making-fun-of-the-length-of-my-password" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:423 }); posts_hot_network.click({ item_type:2, location:9 })"> Colleagues making fun of the length of my password </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-english" title="English Language &amp; Usage Stack Exchange"></div><a href="https://english.stackexchange.com/questions/437979/proverb-if-something-is-managed-by-many-things-are-missed" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:97 }); posts_hot_network.click({ item_type:2, location:9 })"> Proverb: If Something is Managed By Many, Things Are Missed </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-academia" title="Academia Stack Exchange"></div><a href="https://academia.stackexchange.com/questions/106864/how-to-react-when-encountering-students-who-have-previously-failed-my-course" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:415 }); posts_hot_network.click({ item_type:2, location:9 })"> How to react when encountering students who have previously failed my course? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-electronics" title="Electrical Engineering Stack Exchange"></div><a href="https://electronics.stackexchange.com/questions/364239/ohms-law-doesnt-seem-to-be-working-for-this-electric-motor" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:135 }); posts_hot_network.click({ item_type:2, location:9 })"> Ohm's law doesn't seem to be working for this electric motor </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-tex" title="TeX - LaTeX Stack Exchange"></div><a href="https://tex.stackexchange.com/questions/422850/how-do-i-tighten-these-table-columns" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:85 }); posts_hot_network.click({ item_type:2, location:9 })"> How do I tighten these table columns? </a> </li> 
+       <li class="dno js-hidden"> 
+        <div class="favicon favicon-stats" title="Cross Validated"></div><a href="https://stats.stackexchange.com/questions/336055/why-do-i-get-100-accuracy-decision-tree" class="js-gps-track" data-gps-track="site.switch({ item_type:9, target_site:65 }); posts_hot_network.click({ item_type:2, location:9 })"> Why do I get 100% accuracy decision tree </a> </li> 
+      </ul> 
+      <a href="#" class="show-more js-show-more js-gps-track" data-gps-track="posts_hot_network.click({ item_type:3, location:9 })"> more hot questions </a> 
+     </div> 
+     <div id="feed-link"> 
+      <a href="/feeds/tag?tagnames=class-variables&amp;sort=newest" title="the 30 newest class-variables questions"> 
+       <svg aria-hidden="true" class="svg-icon fc-orange-400 iconRss" width="18" height="18" viewbox="0 0 18 18">
+        <path d="M1 3c0-1.1.9-2 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V3zm14.5 12C15.5 8.1 9.9 2.5 3 2.5V5a10 10 0 0 1 10 10h2.5zm-5 0A7.5 7.5 0 0 0 3 7.5V10a5 5 0 0 1 5 5h2.5zm-5 0A2.5 2.5 0 0 0 3 12.5V15h2.5z" />
+       </svg> newest class-variables questions feed </a> 
+     </div> 
+    </div> 
+   </div> 
+  </div> 
+  <footer id="footer" class="site-footer js-footer" role="contentinfo"> 
+   <div class="site-footer--container"> 
+    <div class="site-footer--logo"> 
+     <a href="https://stackoverflow.com">
+      <svg aria-hidden="true" class="svg-icon native iconLogoGlyphMd" width="32" height="37" viewbox="0 0 32 37">
+       <g>
+        <path fill="#BCBBBB" d="M26 33v-9h4v13H0V24h4v9z" />
+        <path d="M23.1 25.99l.68-2.95-16.1-3.35L7 23l16.1 2.99zM9.1 15.2l15 7 1.4-3-15-7-1.4 3zm4.2-7.4L26 18.4l2.1-2.5L15.4 5.3l-2.1 2.5zM21.5 0l-2.7 2 9.9 13.3 2.7-2L21.5 0zM7 30h16v-3H7v3z" fill="#F48024" />
+       </g>
+      </svg></a> 
+    </div> 
+    <nav class="site-footer--nav"> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://stackoverflow.com" class="js-gps-track" data-gps-track="footer.click({ location: 5, link: 15})">Stack Overflow</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="/questions" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 16})">Questions</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 17})">Jobs</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/directory/developer-jobs" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 11})">Developer Jobs Directory</a></li> 
+       <li class="-item"><a href="https://stackoverflow.com/jobs/salary" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 28})">Salary Calculator</a></li> 
+       <li class="-item"><a href="/help" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 3 })">Help</a></li> 
+       <li class="-item"><a onclick="StackExchange.switchMobile(&quot;on&quot;)" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 12 })">Mobile</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a href="https://www.stackoverflowbusiness.com/?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-business-category" class="js-gps-track" data-gps-track="footer.click({ location: 5, link: 19 })">Stack Overflow<br> Business</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/talent?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-talent" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 20 })">Talent</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/advertise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-advertise" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 21 })">Ads</a></li> 
+       <li class="-item"><a href="https://www.stackoverflowbusiness.com/enterprise?utm_source=so-footer&amp;utm_medium=referral&amp;utm_campaign=brand-activation&amp;utm_term=sotob2b-footer-enterprise" class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 22 })">Enterprise</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--col__visible js-footer-col" data-name="default"> 
+      <h5 class="-title"><a class="js-gps-track" data-gps-track="footer.click({ location: 5, link: 1 })" href="https://stackoverflow.com/company/about">Company</a></h5> 
+      <ul class="-list"> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 1 })" href="https://stackoverflow.com/company/about">About</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 27 })" href="https://stackoverflow.com/company/press">Press</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 9 })" href="https://stackoverflow.com/company/work-here">Work Here</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 7 })" href="https://stackexchange.com/legal">Legal</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 8 })" href="https://stackexchange.com/legal/privacy-policy">Privacy Policy</a></li> 
+       <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link: 13 })" href="https://stackoverflow.com/company/contact">Contact Us</a></li> 
+      </ul> 
+     </div> 
+     <div class="site-footer--col site-footer--categories-nav site-footer--col__visible"> 
+      <a href="#" class="site-footer--back js-footer-back">
+       <svg aria-hidden="true" class="svg-icon iconArrowLeftAlt" width="18" height="18" viewbox="0 0 18 18">
+        <path d="M10.58 16L12 14.59 6.4 9 12 3.41 10.57 2l-7 7z" />
+       </svg></a> 
+      <div> 
+       <h5 class="-title"><a href="https://stackexchange.com">Stack Exchange<br> Network</a></h5> 
+       <ul class="-list"> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Technology">Technology</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Life / Arts">Life / Arts</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Culture / Recreation">Culture / Recreation</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Science">Science</a></li> 
+        <li class="-item"><a href="#" class="-link _expandable js-footer-category-trigger js-gps-track" data-gps-track="footer.click({ location: 5, link: 24 })" data-target="Other">Other</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+     <div class="site-footer--categories"> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and enthusiast programmers">Stack Overflow</a></li> 
+        <li class="-item"><a href="https://serverfault.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="system and network administrators">Server Fault</a></li> 
+        <li class="-item"><a href="https://superuser.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="computer enthusiasts and power users">Super User</a></li> 
+        <li class="-item"><a href="https://webapps.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of web applications">Web Applications</a></li> 
+        <li class="-item"><a href="https://askubuntu.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Ubuntu users and developers">Ask Ubuntu</a></li> 
+        <li class="-item"><a href="https://webmasters.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="pro webmasters">Webmasters</a></li> 
+        <li class="-item"><a href="https://gamedev.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and independent game developers">Game Development</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://tex.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of TeX, LaTeX, ConTeXt, and related typesetting systems">TeX - LaTeX</a></li> 
+        <li class="-item"><a href="https://softwareengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professionals, academics, and students working within the systems development life cycle">Software Engineering</a></li> 
+        <li class="-item"><a href="https://unix.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Linux, FreeBSD and other Un*x-like operating systems">Unix &amp; Linux</a></li> 
+        <li class="-item"><a href="https://apple.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="power users of Apple hardware and software">Ask Different (Apple)</a></li> 
+        <li class="-item"><a href="https://wordpress.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="WordPress developers and administrators">WordPress Development</a></li> 
+        <li class="-item"><a href="https://gis.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="cartographers, geographers and GIS professionals">Geographic Information Systems</a></li> 
+        <li class="-item"><a href="https://electronics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="electronics and electrical engineering professionals, students, and enthusiasts">Electrical Engineering</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://android.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="enthusiasts and power users of the Android operating system">Android Enthusiasts</a></li> 
+        <li class="-item"><a href="https://security.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="information security professionals">Information Security</a></li> 
+        <li class="-item"><a href="https://dba.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="database professionals who wish to improve their database skills and learn from others in the community">Database Administrators</a></li> 
+        <li class="-item"><a href="https://drupal.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Drupal developers and administrators">Drupal Answers</a></li> 
+        <li class="-item"><a href="https://sharepoint.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="SharePoint enthusiasts">SharePoint</a></li> 
+        <li class="-item"><a href="https://ux.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="user experience researchers and experts">User Experience</a></li> 
+        <li class="-item"><a href="https://mathematica.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Wolfram Mathematica">Mathematica</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://salesforce.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Salesforce administrators, implementation experts, developers and anybody in-between">Salesforce</a></li> 
+        <li class="-item"><a href="https://expressionengine.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="administrators, end users, developers and designers for ExpressionEngine® CMS">ExpressionEngine® Answers</a></li> 
+        <li class="-item"><a href="https://pt.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores profissionais e entusiastas">Stack Overflow em Português</a></li> 
+        <li class="-item"><a href="https://blender.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who use Blender to create 3D graphics, animations, or games">Blender</a></li> 
+        <li class="-item"><a href="https://networkengineering.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="network engineers">Network Engineering</a></li> 
+        <li class="-item"><a href="https://crypto.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="software developers, mathematicians and others interested in cryptography">Cryptography</a></li> 
+        <li class="-item"><a href="https://codereview.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="peer programmer code reviews">Code Review</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://magento.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of the Magento e-Commerce platform">Magento</a></li> 
+        <li class="-item"><a href="https://softwarerecs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people seeking specific software recommendations">Software Recommendations</a></li> 
+        <li class="-item"><a href="https://dsp.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="practitioners of the art and science of signal, image and video processing">Signal Processing</a></li> 
+        <li class="-item"><a href="https://emacs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those using, extending or developing Emacs">Emacs</a></li> 
+        <li class="-item"><a href="https://raspberrypi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users and developers of hardware and software for Raspberry Pi">Raspberry Pi</a></li> 
+        <li class="-item"><a href="https://ru.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="программистов">Stack Overflow на русском</a></li> 
+        <li class="-item"><a href="https://codegolf.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programming puzzle enthusiasts and code golfers">Programming Puzzles &amp; Code Golf</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Technology">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://es.stackoverflow.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programadores y profesionales de la informática">Stack Overflow en español</a></li> 
+        <li class="-item"><a href="https://ethereum.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="users of Ethereum, the decentralized application platform and smart contract enabled blockchain">Ethereum</a></li> 
+        <li class="-item"><a href="https://datascience.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Data science professionals, Machine Learning specialists, and those interested in learning more about the field">Data Science</a></li> 
+        <li class="-item"><a href="https://arduino.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="developers of open-source hardware and software that is compatible with Arduino">Arduino</a></li> 
+        <li class="-item"><a href="https://bitcoin.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Bitcoin crypto-currency enthusiasts">Bitcoin</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#technology" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (28) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://photo.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional, enthusiast and amateur photographers">Photography</a></li> 
+        <li class="-item"><a href="https://scifi.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="science fiction and fantasy enthusiasts">Science Fiction &amp; Fantasy</a></li> 
+        <li class="-item"><a href="https://graphicdesign.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="Graphic Design professionals, students, and enthusiasts">Graphic Design</a></li> 
+        <li class="-item"><a href="https://movies.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="movie and tv enthusiasts">Movies &amp; TV</a></li> 
+        <li class="-item"><a href="https://music.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="musicians, students, and enthusiasts">Music: Practice &amp; Theory</a></li> 
+        <li class="-item"><a href="https://worldbuilding.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="writers/artists using science, geography and culture to construct imaginary worlds and settings">Worldbuilding</a></li> 
+        <li class="-item"><a href="https://cooking.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional and amateur chefs">Seasoned Advice (cooking)</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Life / Arts">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://diy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="contractors and serious DIYers">Home Improvement</a></li> 
+        <li class="-item"><a href="https://money.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who want to be financially literate">Personal Finance &amp; Money</a></li> 
+        <li class="-item"><a href="https://academia.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="academics and those enrolled in higher education">Academia</a></li> 
+        <li class="-item"><a href="https://law.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="legal professionals, students, and others with experience or interest in law">Law</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#lifearts" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (15) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://english.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="linguists, etymologists, and serious English language enthusiasts">English Language &amp; Usage</a></li> 
+        <li class="-item"><a href="https://skeptics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientific skepticism">Skeptics</a></li> 
+        <li class="-item"><a href="https://judaism.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who base their lives on Jewish law and tradition and anyone interested in learning more">Mi Yodeya (Judaism)</a></li> 
+        <li class="-item"><a href="https://travel.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="road warriors and seasoned travelers">Travel</a></li> 
+        <li class="-item"><a href="https://christianity.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="committed Christians, experts in Christianity and those interested in learning more">Christianity</a></li> 
+        <li class="-item"><a href="https://ell.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="speakers of other languages learning English">English Language Learners</a></li> 
+        <li class="-item"><a href="https://japanese.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, teachers, and linguists wanting to discuss the finer points of the Japanese language">Japanese Language</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Culture / Recreation">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://gaming.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="passionate videogamers on all platforms">Arqade (gaming)</a></li> 
+        <li class="-item"><a href="https://bicycles.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people who build and repair bicycles, people who train cycling, or commute on bicycles">Bicycles</a></li> 
+        <li class="-item"><a href="https://rpg.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="gamemasters and players of tabletop, paper-and-pencil role-playing games">Role-playing Games</a></li> 
+        <li class="-item"><a href="https://anime.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="anime and manga fans">Anime &amp; Manga</a></li> 
+        <li class="-item"><a href="https://puzzling.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those who create, solve, and study puzzles">Puzzling</a></li> 
+        <li class="-item"><a href="https://mechanics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="mechanics and DIY enthusiast owners of cars, trucks, and motorcycles">Motor Vehicle Maintenance &amp; Repair</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#culturerecreation" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (33) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://mathoverflow.net" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="professional mathematicians">MathOverflow</a></li> 
+        <li class="-item"><a href="https://math.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people studying math at any level and professionals in related fields">Mathematics</a></li> 
+        <li class="-item"><a href="https://stats.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="people interested in statistics, machine learning, data analysis, data mining, and data visualization">Cross Validated (stats)</a></li> 
+        <li class="-item"><a href="https://cstheory.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="theoretical computer scientists and researchers in related fields">Theoretical Computer Science</a></li> 
+        <li class="-item"><a href="https://physics.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="active researchers, academics and students of physics">Physics</a></li> 
+        <li class="-item"><a href="https://chemistry.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="scientists, academics, teachers and students">Chemistry</a></li> 
+        <li class="-item"><a href="https://biology.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="biology researchers, academics, and students">Biology</a></li> 
+       </ul>
+      </div>
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Science">
+       <ul class="-list"> 
+        <li class="-item"><a href="https://cs.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="students, researchers and practitioners of computer science">Computer Science</a></li> 
+        <li class="-item"><a href="https://philosophy.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="those interested in the study of the fundamental nature of knowledge, reality, and existence">Philosophy</a></li> 
+        <li class="-item"> <a href="https://stackexchange.com/sites#science" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 26 })"> <strong> more (10) </strong> </a> </li> 
+       </ul> 
+      </div> 
+      <div class="site-footer--col site-footer--category js-footer-col" data-name="Other"> 
+       <ul class="-list"> 
+        <li class="-item"><a href="https://meta.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="meta-discussion of the Stack Exchange family of Q&amp;A websites">Meta Stack Exchange</a></li> 
+        <li class="-item"><a href="https://stackapps.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="apps, scripts, and development with the Stack Exchange API">Stack Apps</a></li> 
+        <li class="-item"><a href="https://api.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="programmatic interaction with Stack Exchange sites">API</a></li> 
+        <li class="-item"><a href="https://data.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="querying Stack Exchange data using SQL">Data</a></li> 
+        <li class="-item"><a href="https://area51.stackexchange.com" class="-link js-gps-track" data-gps-track="footer.click({ location: 2, link: 25 })" title="proposing new sites in the Stack Exchange network">Area 51</a></li> 
+       </ul> 
+      </div> 
+     </div> 
+    </nav> 
+    <div class="site-footer--copyright fs-fine"> 
+     <ul class="-list"> 
+      <li class="-item"><a class="js-gps-track -link" data-gps-track="footer.click({ location: 5, link:4 })" href="https://stackoverflow.blog?blb=1">Blog</a></li> 
+      <li class="-item"><a href="https://www.facebook.com/officialstackoverflow/" class="-link">Facebook</a></li> 
+      <li class="-item"><a href="https://twitter.com/stackoverflow" class="-link">Twitter</a></li> 
+      <li class="-item"><a href="https://linkedin.com/company/stack-overflow" class="-link">LinkedIn</a></li> 
+     </ul> 
+     <p class="mt-auto mb24"> site design / logo © 2018 Stack Exchange Inc; user contributions licensed under <a href="https://creativecommons.org/licenses/by-sa/3.0/" rel="license">cc by-sa 3.0</a> with <a href="https://stackoverflow.blog/2009/06/25/attribution-required/" rel="license">attribution required</a>. <span id="svnrev">rev&nbsp;2018.3.23.29561</span> </p> 
+    </div> 
+   </div> 
+  </footer> 
+  <noscript> 
+   <div id="noscript-warning">
+    Stack Overflow works best with JavaScript enabled 
+    <img src="https://pixel.quantserve.com/pixel/p-c1rF4kxgLUzNc.gif" alt="" class="dno"> 
+   </div> 
+  </noscript> 
+  <script>
+            (function(i, s, o, g, r, a, m) {
+                i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function() { (i[r].q = i[r].q || []).push(arguments) }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m);
+            })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+            StackExchange.ready(function () {
+
+                var trackingCodes = [
+                    'UA-5620270-1'
+                ];
+
+                        trackingCodes.push('UA-108242619-1');
+
+                StackExchange.ga.init({
+                    sendTitles: true,
+                    tracker: window.ga,
+                    trackingCodes: trackingCodes
+                });
+
+
+
+                    StackExchange.ga.setDimension('dimension2', '|class-variables|');
+
+                    StackExchange.ga.setDimension('dimension3', 'Questions/ListByTag');
+
+                StackExchange.ga.trackPageView();
+            });
+            
+/**/
+            
+            var _qevents = _qevents || [],
+            _comscore = _comscore || [];
+            (function() {
+                var ssl = 'https:' == document.location.protocol,
+                    s = document.getElementsByTagName('script')[0],
+                    qc = document.createElement('script');
+                 qc.async = true;
+                    qc.src = (ssl ? 'https://secure' : 'http://edge') + '.quantserve.com/quant.js';
+                    s.parentNode.insertBefore(qc, s);
+                    _qevents.push({ qacct: "p-c1rF4kxgLUzNc" });
+/**/
+                 var sc = document.createElement('script');
+                    sc.async = true;
+                    sc.src = (ssl ? 'https://sb' : 'http://b') + '.scorecardresearch.com/beacon.js';
+                    s.parentNode.insertBefore(sc, s);
+                    _comscore.push({ c1: "2", c2: "17440561" });
+            })();
+            
+
+</script>  
+ </body>
+</html>
